@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GT vs. Pred SQL comparison</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      color: #111;
+      background: #f6f7fb;
+      line-height: 1.5;
+    }
+    body {
+      margin: 0;
+      padding: 1.5rem;
+    }
+    h1 {
+      margin: 0 0 1rem;
+      font-size: 1.8rem;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(240px, 320px) 1fr;
+      gap: 1rem;
+    }
+    .panel {
+      background: #fff;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      box-shadow: 0 2px 10px rgba(15, 15, 15, 0.08);
+    }
+    label {
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    input,
+    select {
+      width: 100%;
+      border-radius: 0.35rem;
+      border: 1px solid #cdd4e0;
+      padding: 0.4rem 0.6rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      background: #fff;
+    }
+    button {
+      border: none;
+      border-radius: 0.35rem;
+      background: #2563eb;
+      color: #fff;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    button:disabled {
+      background: #9ca1b3;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+    button:not(:disabled):hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+    }
+    .selection-row {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.65rem;
+    }
+    #record-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-height: 60vh;
+      overflow: auto;
+    }
+    #record-list li {
+      border-bottom: 1px solid #eceff4;
+      padding: 0.65rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    #record-list li:last-child {
+      border-bottom: none;
+    }
+    .list-metadata {
+      flex: 1;
+      font-size: 0.9rem;
+    }
+    .list-metadata strong {
+      font-size: 0.95rem;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    .nav-button {
+      padding: 0.4rem 0.8rem;
+      background: #e5e7eb;
+      color: #111;
+      font-weight: 600;
+      border-radius: 0.35rem;
+    }
+    .detail-panel {
+      background: #fff;
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+      box-shadow: 0 2px 16px rgba(11, 34, 76, 0.08);
+      min-height: 30vh;
+    }
+    .detail-header h2 {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+    .detail-header p {
+      margin: 0.25rem 0 0;
+      font-size: 0.95rem;
+      color: #333;
+    }
+    .detail-grid {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .detail-card {
+      background: #f8fafc;
+      border-radius: 0.6rem;
+      padding: 0.85rem;
+      border: 1px solid #e2e8f0;
+    }
+    .detail-card h3 {
+      margin-top: 0;
+      margin-bottom: 0.35rem;
+      font-size: 1rem;
+    }
+    pre {
+      margin: 0;
+      font-size: 0.85rem;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .inline-row {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .inline-block {
+      flex: 1;
+      min-width: 120px;
+    }
+    .inline-block strong {
+      font-size: 0.85rem;
+      display: block;
+      margin-bottom: 0.15rem;
+      color: #555;
+    }
+    .placeholder {
+      color: #5f6a7d;
+    }
+    .summary-note {
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+      color: #4b5563;
+    }
+  </style>
+</head>
+<body>
+  <h1>GT vs. Pred SQL comparison</h1>
+  <div class="layout">
+    <div class="panel">
+      <div>
+        <label for="question-filter">Search questions</label>
+        <input id="question-filter" placeholder="Filter by question text" />
+      </div>
+      <div style="margin-top: 1rem">
+        <label for="record-select">Choose index to visualize</label>
+        <div class="selection-row">
+          <select id="record-select"></select>
+          <button id="record-select-btn" disabled>Visualize</button>
+        </div>
+        <p class="summary-note">Use the dropdown + button to render the selected index below.</p>
+      </div>
+      <div style="margin-top: 1rem">
+        <strong>Entries matching filter</strong>
+        <ul id="record-list"></ul>
+      </div>
+    </div>
+    <div id="detail" class="detail-panel">
+      <p class="placeholder">Select or search for a row to see GT and prediction details.</p>
+    </div>
+  </div>
+  <script>
+    const dataUrl = './results/generated_sql.jsonl';
+    const questionFilterEl = document.getElementById('question-filter');
+    const recordListEl = document.getElementById('record-list');
+    const detailEl = document.getElementById('detail');
+    const selectEl = document.getElementById('record-select');
+    const selectBtn = document.getElementById('record-select-btn');
+    let records = [];
+
+    const escapeHtml = (str) =>
+      str
+        ?.toString()
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;') ?? '';
+
+    const formatValue = (value) => {
+      if (value === null || value === undefined) {
+        return '<span class="placeholder">( not provided )</span>';
+      }
+      if (Array.isArray(value)) {
+        return `<pre>${escapeHtml(value.join(', '))}</pre>`;
+      }
+      if (typeof value === 'object') {
+        return `<pre>${escapeHtml(JSON.stringify(value, null, 2))}</pre>`;
+      }
+      return `<pre>${escapeHtml(value)}</pre>`;
+    };
+
+    const renderDetail = (record) => {
+      if (!record) {
+        detailEl.innerHTML = '<p class="placeholder">Select a row to visualize the SQL comparison.</p>';
+        return;
+      }
+      const {
+        question,
+        gt_sql: gtSql,
+        pred_sql: predSql,
+        gt_filters: gtFilters,
+        pred_filters: predFilters,
+        gt_columns: gtColumns,
+        pred_columns: predColumns,
+      } = record;
+
+      detailEl.innerHTML = `
+        <div class="detail-header">
+          <h2>Index ${record.index}</h2>
+          <p>Question: ${escapeHtml(question)}</p>
+        </div>
+        <div class="detail-grid">
+          <div class="detail-card">
+            <h3>SQL</h3>
+            <div class="inline-row">
+              <div class="inline-block">
+                <strong>Ground truth</strong>
+                ${formatValue(gtSql)}
+              </div>
+              <div class="inline-block">
+                <strong>Prediction</strong>
+                ${formatValue(predSql)}
+              </div>
+            </div>
+          </div>
+          <div class="detail-card">
+            <h3>Filters</h3>
+            <div class="inline-row">
+              <div class="inline-block">
+                <strong>Ground truth</strong>
+                ${formatValue(gtFilters)}
+              </div>
+              <div class="inline-block">
+                <strong>Prediction</strong>
+                ${formatValue(predFilters)}
+              </div>
+            </div>
+          </div>
+          <div class="detail-card">
+            <h3>Columns</h3>
+            <div class="inline-row">
+              <div class="inline-block">
+                <strong>Ground truth</strong>
+                ${formatValue(gtColumns)}
+              </div>
+              <div class="inline-block">
+                <strong>Prediction</strong>
+                ${formatValue(predColumns)}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    };
+
+    const renderList = (filteredRecords) => {
+      recordListEl.innerHTML = '';
+      if (!filteredRecords.length) {
+        recordListEl.innerHTML = '<li class="placeholder">No entries match the current filter.</li>';
+        return;
+      }
+      filteredRecords.forEach((record) => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          <span class="list-metadata">
+            <strong>Index ${record.index}</strong>
+            ${escapeHtml(record.question)}
+          </span>
+          <button class="nav-button" data-index="${record.index}">View</button>
+        `;
+        li.querySelector('button').addEventListener('click', () => {
+          renderDetail(record);
+        });
+        recordListEl.appendChild(li);
+      });
+    };
+
+    const populateSelect = (filteredRecords) => {
+      selectEl.innerHTML = '';
+      filteredRecords.forEach((record) => {
+        const option = document.createElement('option');
+        option.value = record.index;
+        option.textContent = `#${record.index} — ${record.question.slice(0, 45)}${record.question.length > 45 ? '…' : ''}`;
+        selectEl.appendChild(option);
+      });
+      selectBtn.disabled = filteredRecords.length === 0;
+    };
+
+    const applyFilter = () => {
+      const search = questionFilterEl.value.trim().toLowerCase();
+      const filtered = search
+        ? records.filter((record) => record.question.toLowerCase().includes(search))
+        : records;
+      renderList(filtered);
+      populateSelect(filtered);
+      if (!filtered.length) {
+        renderDetail(null);
+      }
+    };
+
+    selectBtn.addEventListener('click', () => {
+      const idx = Number(selectEl.value);
+      const record = records.find((row) => row.index === idx);
+      renderDetail(record);
+    });
+
+    questionFilterEl.addEventListener('input', applyFilter);
+
+    const loadData = async () => {
+      try {
+        const response = await fetch(dataUrl);
+        const text = await response.text();
+        records = text
+          .split('\n')
+          .filter(Boolean)
+          .map((line, idx) => {
+            try {
+              const parsed = JSON.parse(line);
+              return { ...parsed, index: idx };
+            } catch (error) {
+              console.error('failed to parse line', idx, error);
+              return null;
+            }
+          })
+          .filter(Boolean);
+        applyFilter();
+        if (records.length) {
+          renderDetail(records[0]);
+        }
+      } catch (error) {
+        detailEl.innerHTML = `<p class="placeholder">Unable to load data: ${escapeHtml(error.message)}</p>`;
+      }
+    };
+
+    loadData();
+  </script>
+</body>
+</html>

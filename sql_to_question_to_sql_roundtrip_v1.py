@@ -1,21 +1,16 @@
 #!/usr/bin/env python3
 """
-sql_to_question_to_sql_roundtrip_v2.py
+sql_to_question_to_sql_roundtrip_v3.py
 
 Flip-the-script pipeline: SQL -> question -> SQL -> eval.
 
-Changes vs v1 (based on your notes):
-1) Stronger, general SQL-gen prompt that nudges selecting more columns:
-   - Always include core context columns if present: NCT, Author, Year, Cancer type, Trial phase.
-2) Avoid empty generations by shrinking the schema:
-   - Instead of passing full schema line-by-line, pass an ALLOWED column list:
-     = (columns used in new_sql) U (core columns)
-   - This is *especially* effective in this flipped pipeline because we know new_sql.
-3) Add “root” AST metrics:
-   - projection_match_set: compare SELECT projection as a set (order-insensitive)
-   - from_match: compare FROM clause string
-   - where_match_commutative: already present (AND-order-insensitive)
-   - Keep full ast_match too.
+Adds the “plumbing fixes”:
+- SQL->Question prompt tightened (one-line output, no "Question:" prefixes)
+- sanitize_generated_question() to drop junk outputs ("Question:", "---", "Allowed column names...")
+- extract_sql() robust to prose before SQL and code fences; extracts from first SELECT onward
+- build_question_to_sql_prompt(): defines core_inline; enforces quoting rule explicitly
+- allowed_cols_per_item + auto_quote_allowed_columns() to repair missing quotes on spaced column names
+- bump default q_max_tokens to 120 (you can override)
 
 Output:
 - JSON LIST to --output_json (default: empty_gt_fixed_v7.json)
@@ -285,67 +280,35 @@ def where_match_commutative(sql_a: str, sql_b: str, dialect: str = "sqlite") -> 
 
 
 # -------------------------
-# Prompt builders
+# Prompt builders + sanitizers
 # -------------------------
 def build_sql_to_question_prompt(new_sql: str, preview_rows: List[Dict[str, Any]]) -> str:
     preview_json = json.dumps(preview_rows, ensure_ascii=False, indent=2)
-    return f"""You are given a SQL query that selects clinical trial records. Write ONE natural-language question that this SQL answers.
+    return f"""Write ONE natural-language question that the following SQL answers.
 
 Rules:
-- Return ONLY the question (one sentence).
+- Output ONLY the question text on ONE line.
+- Do NOT include prefixes like "Question:" and do NOT use quotes.
 - Do NOT mention SQL, tables, columns, databases, or "query".
-- The question should be specific enough that the same SQL would be a correct answer.
-- Use the clinical-trials framing (e.g., "Which trials...", "Show trials...", "Find studies...").
+- The question must be specific enough that this SQL would be the correct answer.
 
 SQL:
 {new_sql}
 
-Example rows returned (preview):
+Example rows:
 {preview_json}
 """
 
 
-def extract_identifiers_from_sql(sql: str) -> List[str]:
-    # Works for your quoted-column style: "Column name"
-    return sorted(set(re.findall(r'"([^"]+)"', sql or "")))
-
-
-def build_question_to_sql_prompt(
-    schema_cols: List[str],
-    question: str,
-    table: str,
-    hint_sql: str,
-    core_cols: Optional[List[str]] = None,
-) -> str:
-    """
-    Stronger + shorter schema:
-    - Allowed columns = columns used in hint_sql + core context columns.
-    - Schema is inlined to avoid huge prompts and EOS-with-empty-output issues.
-    """
-    if core_cols is None:
-        core_cols = ["NCT", "Author", "Year", "Cancer type", "Trial phase"]
-
-    used = set(extract_identifiers_from_sql(hint_sql))
-    core = set(core_cols)
-
-    allowed = [c for c in schema_cols if (c in used or c in core)]
-    if not allowed:
-        # fallback: if parsing fails, allow full schema
-        allowed = list(schema_cols)
-
-    schema_inline = ", ".join([f'"{c}"' for c in allowed])
-
-    return f"""You are a SQL generator. Write one SQLite SELECT query over "{table}".
-
-Rules:
-- Output ONLY the SQL query.
-- Use ONLY column names from this allowed list: {schema_inline}
-- SELECT: include all columns needed to answer the question, and also include these context columns if present: {", ".join([f'"{c}"' for c in core_cols])}.
-- WHERE: add filters implied by the question. Use '=' for exact matches. Do not invent columns.
-
-Question:
-{question}
-"""
+def sanitize_generated_question(q: str) -> str:
+    q = (q or "").strip()
+    q = re.sub(r'^(question\s*:)\s*', '', q, flags=re.IGNORECASE).strip()
+    q = q.strip('"').strip("'").strip()
+    if q in {"---", "-", ""}:
+        return ""
+    if q.lower().startswith("allowed column"):
+        return ""
+    return q
 
 
 def extract_first_line(text: str) -> str:
@@ -355,20 +318,96 @@ def extract_first_line(text: str) -> str:
 
 
 def extract_sql(text: str) -> str:
+    """
+    Robustly extract SQL:
+    - Strip fences
+    - If prose exists, keep from first SELECT onward
+    - Keep first statement
+    """
     if not text:
         return ""
     t = text.strip()
 
-    # Remove opening fence like ```sql or ```sqlite or ```anything
+    # Drop opening fence like ```sql or ```sqlite or ```anything
     t = re.sub(r"^```[a-zA-Z0-9_-]*\s*", "", t).strip()
-    # Remove closing fence
+    # Drop closing fence
     t = re.sub(r"\s*```$", "", t).strip()
 
-    # If multiple statements, keep the first statement.
+    # If model included prose, keep from first SELECT onward
+    m = re.search(r"\bSELECT\b", t, flags=re.IGNORECASE)
+    if m:
+        t = t[m.start():].strip()
+
+    # Keep first statement
     if ";" in t:
         t = t.split(";", 1)[0].strip() + ";"
 
     return t.strip()
+
+
+def extract_identifiers_from_sql(sql: str) -> List[str]:
+    # Works for your quoted-column style: "Column name"
+    return sorted(set(re.findall(r'"([^"]+)"', sql or "")))
+
+
+def auto_quote_allowed_columns(sql: str, allowed_cols: List[str]) -> str:
+    """
+    Repair missing quotes for column names, especially those with spaces (e.g. Cancer type).
+    Only attempts to quote columns in allowed_cols. Conservative replacement.
+    """
+    if not sql:
+        return sql
+    fixed = sql
+    for col in sorted(allowed_cols, key=len, reverse=True):
+        quoted = f'"{col}"'
+        if quoted in fixed:
+            continue
+        pattern = r'(?<!")\b' + re.escape(col) + r'\b(?!")'
+        fixed = re.sub(pattern, quoted, fixed)
+    return fixed
+
+
+def build_question_to_sql_prompt(
+    schema_cols: List[str],
+    question: str,
+    table: str,
+    hint_sql: str,
+    core_cols: Optional[List[str]] = None,
+) -> Tuple[str, List[str]]:
+    """
+    Stronger + shorter schema:
+    - Allowed columns = columns used in hint_sql + core context columns.
+    - Schema is inlined to avoid huge prompts and EOS-with-empty-output issues.
+    Returns: (prompt, allowed_cols)
+    """
+    if core_cols is None:
+        core_cols = ["NCT", "Author", "Year", "Cancer type", "Trial phase"]
+
+    used = set(extract_identifiers_from_sql(hint_sql))
+    core = set(core_cols)
+
+    allowed = [c for c in schema_cols if (c in used or c in core)]
+    if not allowed:
+        allowed = list(schema_cols)
+
+    schema_inline = ", ".join([f'"{c}"' for c in allowed])
+    core_inline = ", ".join([f'"{c}"' for c in core_cols])
+
+    prompt = f"""You are a SQL generator. Write one SQLite SELECT query over "{table}".
+
+Rules:
+- Output ONLY the SQL query (no prose, no code fences).
+- The query MUST start with SELECT.
+- Use ONLY column names from this allowed list: {schema_inline}
+- IMPORTANT: Put double quotes around EVERY column name exactly as shown in the allowed list.
+- Use single quotes for string literals.
+- For categorical filters, copy exact values as they appear in the data (match capitalization).
+- SELECT: include the columns needed to answer the question, plus these context columns if present: {core_inline}
+
+Question:
+{question}
+"""
+    return prompt, allowed
 
 
 # -------------------------
@@ -411,8 +450,8 @@ def main():
     ap.add_argument("--start", type=int, default=0)
     ap.add_argument("--limit", type=int, default=-1, help="-1 = all")
 
-    # SQL -> question params
-    ap.add_argument("--q_max_tokens", type=int, default=80)
+    # SQL -> question params (default bumped to 120)
+    ap.add_argument("--q_max_tokens", type=int, default=120)
     ap.add_argument("--q_temperature", type=float, default=0.2)
     ap.add_argument("--q_top_p", type=float, default=0.9)
 
@@ -514,7 +553,10 @@ def main():
         for i, out in enumerate(outs):
             idx = b0 + i
             gen_text = (out.outputs[0].text or "").strip() if out.outputs else ""
-            generated_questions[idx] = extract_first_line(gen_text)
+            q1 = sanitize_generated_question(extract_first_line(gen_text))
+            if not q1:
+                q1 = "Which clinical trials match the given criteria?"
+            generated_questions[idx] = q1
             try:
                 q_meta[idx] = {
                     "finish_reason": getattr(out.outputs[0], "finish_reason", None),
@@ -524,10 +566,13 @@ def main():
             except Exception:
                 q_meta[idx] = None
 
-    # Stage 2: question -> SQL prompts (NEW: filtered schema + stronger SELECT rule)
+    # Stage 2: question -> SQL prompts (filtered schema + stronger SELECT/quoting rule)
     sql_prompts: List[str] = []
+    allowed_cols_per_item: List[List[str]] = []
     for it, q in zip(items, generated_questions):
-        sql_prompts.append(build_question_to_sql_prompt(schema_cols, q, args.table_name, hint_sql=it["new_sql"]))
+        p, allowed_cols = build_question_to_sql_prompt(schema_cols, q, args.table_name, hint_sql=it["new_sql"])
+        sql_prompts.append(p)
+        allowed_cols_per_item.append(allowed_cols)
 
     pred_sqls: List[str] = [""] * len(items)
     raw_sql_outputs: List[str] = [""] * len(items)
@@ -539,7 +584,11 @@ def main():
             idx = b0 + i
             gen_text = (out.outputs[0].text or "").strip() if out.outputs else ""
             raw_sql_outputs[idx] = gen_text
-            pred_sqls[idx] = extract_sql(gen_text)
+
+            pred = extract_sql(gen_text)
+            pred = auto_quote_allowed_columns(pred, allowed_cols_per_item[idx])
+            pred_sqls[idx] = pred
+
             try:
                 sql_meta[idx] = {
                     "finish_reason": getattr(out.outputs[0], "finish_reason", None),
@@ -656,6 +705,9 @@ def main():
             "execution_error_strict": exec_err_strict,
             "execution_match_loose": bool(exec_ok_loose),
             "execution_error_loose": exec_err_loose,
+
+            # Debugging: what columns we allowed for this item
+            "allowed_columns_used_for_prompt": allowed_cols_per_item[i],
         })
 
     conn.close()

@@ -9,3 +9,4 @@
 
 <USER> QUESTION: List head and neck trials requiring a biomarker other than PD-L1 for inclusion.</USER>
 <ASSISTANT> RESPONSE: SELECT "NCT", "Author", "Year", "Originial publication or Follow-up", "Is any other biomarker used for inclusion", "Cancer type", "Primary endpoint" FROM clinical_trials WHERE "Cancer type" = 'Head and Neck' AND "Is any other biomarker used for inclusion" = 'Yes';</ASSISTANT>
+

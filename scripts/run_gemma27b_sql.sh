@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=gemma27b-sql
+#SBATCH --job-name=gemma27b-baselines
 #SBATCH --account=3dllms
 #SBATCH --partition=inv-ssheshap
 #SBATCH --gres=gpu:2
 #SBATCH --time=0-04:00:00
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64gb
-#SBATCH --output=/gscratch/tkishore/MAYO_AIM2/logs/gemma27b_with_conf_%j.out
-#SBATCH --error=/gscratch/tkishore/MAYO_AIM2/logs/gemma27b_with_conf_%j.err
+#SBATCH --output=/gscratch/tkishore/MAYO_AIM2/logs/gemma27b_baselines_%j.out
+#SBATCH --error=/gscratch/tkishore/MAYO_AIM2/logs/gemma27b_baselines_%j.err
 
 # ==========================================
 # CONFIG
@@ -22,8 +22,18 @@ VLLM_HOST="127.0.0.1"
 VLLM_API_BASE="http://${VLLM_HOST}:${VLLM_PORT}/v1"
 
 PROJECT_DIR="/gscratch/tkishore/MAYO_AIM2/"
-LOG_DIR="${PROJECT_DIR}/logs/Gemma/27B/sql_with_conf"
+LOG_DIR="${PROJECT_DIR}/logs/Gemma/27B/sql_with_conf_new"
 mkdir -p "$LOG_DIR"
+
+PROMPT_STYLE="${PROMPT_STYLE:-zero_shot}"            # zero_shot | few_shot | cot
+INPUT_PATH="${INPUT_PATH:-${PROJECT_DIR}/data/dataset.jsonl}"
+OUTPUT_FILE="${OUTPUT_FILE:-${LOG_DIR}/generated_sql_${PROMPT_STYLE}.jsonl}"
+ERROR_FILE="${ERROR_FILE:-${LOG_DIR}/error_log_${PROMPT_STYLE}.jsonl}"
+CHECKPOINT_FILE="${CHECKPOINT_FILE:-${OUTPUT_FILE}.checkpoint.json}"
+RUN_LOG_DIR="${RUN_LOG_DIR:-${PROJECT_DIR}/results/logs}"
+BATCH_SIZE="${BATCH_SIZE:-32}"
+BATCH_CONCURRENCY="${BATCH_CONCURRENCY:-8}"
+LOGPROB_MODE="${LOGPROB_MODE:-structured}"           # structured | none
 
 # ==========================================
 # ENVIRONMENT SETUP
@@ -46,7 +56,10 @@ export FLASHINFER_CACHE_DIR=/gscratch/tkishore/cache/flashinfer
 cd $PROJECT_DIR
 
 echo "=========================================="
-echo "🚀 Starting Gemma-3-27B SQL Job"
+echo "Starting Gemma-3-27B Baseline SQL Job"
+echo "Prompt style: $PROMPT_STYLE"
+echo "Input path: $INPUT_PATH"
+echo "Output file: $OUTPUT_FILE"
 echo "=========================================="
 echo "Model: $MODEL_NAME"
 echo "Tensor Parallel: $TP_SIZE"
@@ -67,7 +80,7 @@ check_server_ready() {
             return 0
         fi
         attempt=$((attempt + 1))
-        echo "⏳ Waiting for vLLM server... ($attempt/$max_attempts)"
+            echo "Waiting for vLLM server... ($attempt/$max_attempts)"
         sleep 5
     done
     echo "❌ vLLM server failed to start"
@@ -76,7 +89,7 @@ check_server_ready() {
 
 cleanup() {
     echo ""
-    echo "🧹 Cleaning up vLLM server..."
+    echo "Cleaning up vLLM server..."
     if [ ! -z "$VLLM_PID" ]; then
         kill $VLLM_PID 2>/dev/null
         wait $VLLM_PID 2>/dev/null
@@ -91,7 +104,7 @@ trap cleanup EXIT INT TERM
 # ==========================================
 
 echo ""
-echo "🔧 Launching vLLM server..."
+echo "Launching vLLM server..."
 
 vllm serve "$MODEL_NAME" \
     --host 0.0.0.0 \
@@ -103,7 +116,6 @@ vllm serve "$MODEL_NAME" \
     --max-model-len 16384 \
     --gpu-memory-utilization $GPU_MEM \
     --chat-template-content-format openai \
-    --structured-outputs-config.backend xgrammar \
     > "${LOG_DIR}/vllm_server_${SLURM_JOB_ID}.log" 2>&1 &
 
 VLLM_PID=$!
@@ -117,35 +129,44 @@ if ! check_server_ready; then
 fi
 
 # ==========================================
-# RUN INFERENCE
+# RUN BASELINES
 # ==========================================
 
-OUTPUT_FILE="${LOG_DIR}/generated_sql.jsonl"
-ERROR_FILE="${LOG_DIR}/error_log.jsonl"
-
 echo ""
-echo "📊 Running SQL generation..."
+echo "Running SQL baseline inference..."
 echo "Output: $OUTPUT_FILE"
 echo ""
 
-python vllm_api_inference.py \
+python run_baselines.py \
     --api_base "$VLLM_API_BASE" \
     --api_key "dummy" \
-    --model_name "$MODEL_NAME" \
-    --input_file data/dataset.jsonl \
-    --output_file "$OUTPUT_FILE" \
-    --error_file "$ERROR_FILE"
+    --model "$MODEL_NAME" \
+    --input_path "$INPUT_PATH" \
+    --output_path "$OUTPUT_FILE" \
+    --error_path "$ERROR_FILE" \
+    --checkpoint_path "$CHECKPOINT_FILE" \
+    --log_dir "$RUN_LOG_DIR" \
+    --schema_file "${PROJECT_DIR}/data/schema.json" \
+    --db_path "${PROJECT_DIR}/data/database.db" \
+    --prompt_style "$PROMPT_STYLE" \
+    --zs_prompt_file "${PROJECT_DIR}/prompting/zs.txt" \
+    --few_shot_file "${PROJECT_DIR}/prompting/few_shot_sql.txt" \
+    --batch_size "$BATCH_SIZE" \
+    --batch_concurrency "$BATCH_CONCURRENCY" \
+    --temperature 0.0 \
+    --max_tokens 512 \
+    --logprob_mode "$LOGPROB_MODE"
 
 EXIT_CODE=$?
 
 if [ $EXIT_CODE -ne 0 ]; then
     echo ""
-    echo "❌ Inference failed with exit code $EXIT_CODE"
+    echo "Baseline inference failed with exit code $EXIT_CODE"
     exit $EXIT_CODE
 fi
 
 echo ""
 echo "=========================================="
-echo "✅ Gemma-27B SQL job completed!"
+echo "Gemma-27B SQL baseline job completed."
 echo "Results: $OUTPUT_FILE"
 echo "=========================================="

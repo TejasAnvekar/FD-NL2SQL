@@ -1,5 +1,5 @@
-Question: Show bladder PD-L1 trials conducted in 2018 or later.
-SQL: SELECT "NCT", "Author", "Year", "Originial publication or Follow-up", "Class of ICI", "Cancer type", "Trial phase" FROM clinical_trials WHERE "Cancer type" = 'Bladder' AND "Class of ICI" = 'PD-L1' AND "Year" >= 2018;
+<USER>Question: Show bladder PD-L1 trials conducted in 2018 or later.</USER>
+<Assistant>SQL: SELECT "NCT", "Author", "Year", "Originial publication or Follow-up", "Class of ICI", "Cancer type", "Trial phase" FROM clinical_trials WHERE "Cancer type" = 'Bladder' AND "Class of ICI" = 'PD-L1' AND "Year" >= 2018;</Assistant>
 
 Question: Find renal cell trials of nivolumab given in combination therapy.
 SQL: SELECT "NCT", "Author", "Year", "Originial publication or Follow-up", "Name of ICI", "Monotherapy/combination", "Cancer type", "Type of combination", "Trial phase" FROM clinical_trials WHERE "Cancer type" = 'Renal cell' AND "Name of ICI" = 'Nivolumab' AND "Monotherapy/combination" = 'Combination';

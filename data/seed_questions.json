@@ -267,7 +267,7 @@
       },
       "query_2": {
         "question": "Trials with Lines of treatment at least 2.",
-        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\", \"Trial phase\" FROM clinical_trials WHERE \"Lines of treatment\" >= 2;},{\"question\":\"Trials with Monotherapy/combination equal to Monotherapy.\",\"sql\":\"SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Lines of treatment\\\", \\\"Monotherapy/combination\\\", \\\"Cancer type\\\", \\\"Type of combination\\\", \\\"Trial phase\\\" FROM clinical_trials WHERE \\\"Monotherapy/combination\\\" = 'Monotherapy';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\", \"Trial phase\" FROM clinical_trials WHERE \"Lines of treatment\" >= 2;"
       },
       "query_3": {
         "question": "Breast cancer trials with at least 2 lines of therapy and Monotherapy.",
@@ -593,11 +593,11 @@
     "decomposed_query": {
       "query_1": {
         "question": "What Author values are present for Urothelial cancer trials reporting median follow-up?",
-        "sql": "SELECT \\\"Author\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Urothelial' AND \\\"Type of follow-up given\\\" = 'Median';"
+        "sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of follow-up given\" = 'Median';"
       },
       "query_2": {
         "question": "What is the Follow-up duration for primary endpoint(s) in months | Control for Urothelial cancer trials reporting median follow-up?",
-        "sql": "SELECT \\\"Follow-up duration for primary endpoint(s) in months | Control\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Urothelial' AND \\\"Type of follow-up given\\\" = 'Median';"
+        "sql": "SELECT \"Follow-up duration for primary endpoint(s) in months | Control\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of follow-up given\" = 'Median';"
       }
     }
   },
@@ -747,15 +747,15 @@
     "decomposed_query": {
       "query_1": {
         "question": "Trials where Cancer type equals Melanoma",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Lines of treatment\\\", \\\"Monotherapy/combination\\\", \\\"Cancer type\\\", \\\"Type of combination\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Melanoma';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma';"
       },
       "query_2": {
         "question": "Trials with Lines of treatment greater than or equal to 2",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Lines of treatment\\\", \\\"Monotherapy/combination\\\", \\\"Cancer type\\\", \\\"Type of combination\\\" FROM clinical_trials WHERE \\\"Lines of treatment\\\" >= 2;"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\" FROM clinical_trials WHERE \"Lines of treatment\" >= 2;"
       },
       "query_3": {
         "question": "Trials where Monotherapy/combination = 'Combination",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Lines of treatment\\\", \\\"Monotherapy/combination\\\", \\\"Cancer type\\\", \\\"Type of combination\\\" FROM clinical_trials WHERE \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\" FROM clinical_trials WHERE \"Monotherapy/combination\" = 'Combination';"
       }
     }
   },
@@ -1121,11 +1121,11 @@
     "decomposed_query": {
       "query_1": {
         "question": "What are the trial identifiers (NCT) for hepatocellular cancer trials?",
-        "sql": "SELECT \\\"NCT\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Hepatocellular';"
+        "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Hepatocellular';"
       },
       "query_2": {
         "question": "What are the primary endpoints for hepatocellular cancer trials with no other biomarker used for inclusion?",
-        "sql": "SELECT \\\"Primary endpoint\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Hepatocellular' AND \\\"Is any other biomarker used for inclusion\\\" = 'No';"
+        "sql": "SELECT \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Hepatocellular' AND \"Is any other biomarker used for inclusion\" = 'No';"
       }
     }
   },
@@ -1689,35 +1689,35 @@
     "decomposed_query": {
       "query_1": {
         "question": "What are the NCT numbers for renal cell cancer trials using Nivolumab and Ipilimumab with overall follow-up > 21 months?",
-        "sql": "SELECT \\\"NCT\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_2": {
         "question": "What are the authors for those trials?",
-        "sql": "SELECT \\\"Author\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_3": {
         "question": "What is the year for those trials?",
-        "sql": "SELECT \\\"Year\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Year\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_4": {
         "question": "What is the Originial publication or Follow-up value for those trials?",
-        "sql": "SELECT \\\"Originial publication or Follow-up\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Originial publication or Follow-up\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_5": {
         "question": "What is the Name of ICI used in those trials?",
-        "sql": "SELECT \\\"Name of ICI\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Name of ICI\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_6": {
         "question": "What is the follow-up duration for primary endpoint(s) in months | Overall for those trials?",
-        "sql": "SELECT \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_7": {
         "question": "What is the cancer type for those trials?",
-        "sql": "SELECT \\\"Cancer type\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       },
       "query_8": {
         "question": "What is the trial phase for those trials?",
-        "sql": "SELECT \\\"Trial phase\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Name of ICI\\\" = 'Nivolumab, Ipilimumab' AND \\\"Follow-up duration for primary endpoint(s) in months | Overall\\\" > 21;"
+        "sql": "SELECT \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
       }
     }
   },
@@ -2287,35 +2287,35 @@
     "decomposed_query": {
       "query_1": {
         "question": "What is the Author for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Author\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_2": {
         "question": "What is the Year for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Year\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Year\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_3": {
         "question": "What is the Originial publication or Follow-up for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Originial publication or Follow-up\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Originial publication or Follow-up\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_4": {
         "question": "What are the Lines of treatment for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Lines of treatment\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Lines of treatment\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_5": {
         "question": "What is the Monotherapy/combination for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Monotherapy/combination\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Monotherapy/combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_6": {
         "question": "What is the Cancer type for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Cancer type\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_7": {
         "question": "What is the Type of combination for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Type of combination\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Type of combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_8": {
         "question": "What is the Trial phase for Mesothelioma trials with at least 2 prior treatments using a combination therapy?",
-        "sql": "SELECT \\\"Trial phase\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Mesothelioma' AND \\\"Lines of treatment\\\" >= 2 AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Mesothelioma' AND \"Lines of treatment\" >= 2 AND \"Monotherapy/combination\" = 'Combination';"
       }
     }
   },
@@ -2423,11 +2423,11 @@
     "decomposed_query": {
       "query_1": {
         "question": "What trials have Cancer type equal to 'Small Cell Lung'?$",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Name of ICI\\\", \\\"Trial phase\\\", \\\"Cancer type\\\", \\\"Trial name\\\", \\\"Treatment regimen\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Small Cell Lung';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Small Cell Lung';"
       },
       "query_2": {
         "question": "What trials have Trial phase equal to 'Phase 3'?",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Name of ICI\\\", \\\"Trial phase\\\", \\\"Cancer type\\\", \\\"Trial name\\\", \\\"Treatment regimen\\\" FROM clinical_trials WHERE \\\"Trial phase\\\" = 'Phase 3';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials WHERE \"Trial phase\" = 'Phase 3';"
       }
     }
   },
@@ -3483,11 +3483,11 @@
     "decomposed_query": {
       "query_1": {
         "question": "Find studies where Cancer type is 'Renal cell'.",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Included in MA\\\", \\\"Class of ICI\\\", \\\"Cancer type\\\", \\\"Name of ICI\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Included in MA\", \"Class of ICI\", \"Cancer type\", \"Name of ICI\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';"
       },
       "query_2": {
         "question": "Find studies where Cancer type is 'Renal cell' and Class of ICI is 'PD1, CTLA-4'.",
-        "sql": "SELECT \\\"NCT\\\", \\\"Author\\\", \\\"Year\\\", \\\"Originial publication or Follow-up\\\", \\\"Included in MA\\\", \\\"Class of ICI\\\", \\\"Cancer type\\\", \\\"Name of ICI\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Renal cell' AND \\\"Class of ICI\\\" = 'PD1, CTLA-4';"
+        "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Included in MA\", \"Class of ICI\", \"Cancer type\", \"Name of ICI\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Class of ICI\" = 'PD1, CTLA-4';"
       }
     }
   },
@@ -4079,15 +4079,15 @@
     "decomposed_query": {
       "query_1": {
         "question": "What are the NCT numbers of trials with Cancer type equal to 'Hepatocellular'?",
-        "sql": "SELECT \\\"NCT\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Hepatocellular';"
+        "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Hepatocellular';"
       },
       "query_2": {
         "question": "Which trials with Cancer type 'Hepatocellular' used combination therapy?",
-        "sql": "SELECT \\\"NCT\\\", \\\"Monotherapy/combination\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Hepatocellular' AND \\\"Monotherapy/combination\\\" = 'Combination';"
+        "sql": "SELECT \"NCT\", \"Monotherapy/combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Hepatocellular' AND \"Monotherapy/combination\" = 'Combination';"
       },
       "query_3": {
         "question": "Which hepatocellular cancer trials using combination therapy had at least 2 prior lines of therapy?",
-        "sql": "SELECT \\\"NCT\\\", \\\"Lines of treatment\\\" FROM clinical_trials WHERE \\\"Cancer type\\\" = 'Hepatocellular' AND \\\"Monotherapy/combination\\\" = 'Combination' AND \\\"Lines of treatment\\\" >= 2;"
+        "sql": "SELECT \"NCT\", \"Lines of treatment\" FROM clinical_trials WHERE \"Cancer type\" = 'Hepatocellular' AND \"Monotherapy/combination\" = 'Combination' AND \"Lines of treatment\" >= 2;"
       }
     }
   },

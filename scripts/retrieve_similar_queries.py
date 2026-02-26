@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
-"""Hybrid retrieval over NL->SQL seed candidates.
+"""SBERT retrieval over NL->SQL seed candidates.
 
 This script ranks candidate (question, sql) pairs against an input natural-language
-question using a weighted score with these components:
-- lexical similarity (token cosine + token jaccard)
-- character similarity (SequenceMatcher)
-- SQL literal coverage in the question
-- operator cue consistency
-- column mention overlap
+question using sentence-transformer cosine similarity only.
 
-Sources:
-- seed JSON (default: data/seed_questions.json with decomposed_query blocks)
+Default sources:
+- questions: data/natural_question_1500.json (via --question-index)
+- candidates: data/seed_questions.json (decomposed_query blocks)
+
+Optional sources:
 - generic candidate JSON list
 - sqlite table containing question/sql columns
 """
@@ -18,57 +16,20 @@ Sources:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
-import math
 import re
 import sqlite3
-from collections import Counter
 from dataclasses import asdict, dataclass
-from difflib import SequenceMatcher
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-TOKEN_RE = re.compile(r"[a-z0-9]+")
-LITERAL_RE = re.compile(r"'((?:''|[^'])*)'")
-QUOTED_IDENT_RE = re.compile(r'"([^"]+)"')
+DEFAULT_SBERT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_SBERT_BATCH_SIZE = 64
 
-STOPWORDS = {
-    "a",
-    "an",
-    "and",
-    "are",
-    "as",
-    "at",
-    "be",
-    "by",
-    "for",
-    "from",
-    "in",
-    "is",
-    "it",
-    "of",
-    "on",
-    "or",
-    "that",
-    "the",
-    "to",
-    "what",
-    "which",
-    "with",
-    "where",
-    "were",
-    "when",
-    "who",
-    "whom",
-    "whose",
-}
-
-# Weight defaults; override from CLI if needed.
-W_LEXICAL = 0.40
-W_CHAR = 0.20
-W_LITERAL = 0.25
-W_OPERATOR = 0.10
-W_COLUMN = 0.05
+_SBERT_BACKEND: Optional[Tuple[Any, Any]] = None
+_SBERT_MODEL_CACHE: Dict[Tuple[str, str], Any] = {}
+_SBERT_CANDIDATE_EMBED_CACHE: Dict[Tuple[str, str, str], Any] = {}
 
 
 @dataclass
@@ -84,231 +45,120 @@ class Candidate:
 class MatchResult:
     rank: int
     total_score: float
-    lexical_score: float
-    char_score: float
-    literal_score: float
-    operator_score: float
-    column_score: float
+    sbert_score: float
     candidate: Candidate
 
 
-def normalize_text(text: str) -> str:
-    return " ".join(TOKEN_RE.findall((text or "").lower()))
+def _get_sbert_backend() -> Tuple[Any, Any]:
+    global _SBERT_BACKEND
+    if _SBERT_BACKEND is not None:
+        return _SBERT_BACKEND
+
+    try:
+        from sentence_transformers import SentenceTransformer, util
+    except Exception as e:  # noqa: BLE001
+        raise RuntimeError(
+            "sentence-transformers is required for retrieval. "
+            "Install with: pip install sentence-transformers"
+        ) from e
+
+    _SBERT_BACKEND = (SentenceTransformer, util)
+    return _SBERT_BACKEND
 
 
-def tokenize(text: str) -> List[str]:
-    return TOKEN_RE.findall((text or "").lower())
+def _get_sbert_model(model_name: str, device: Optional[str]) -> Any:
+    key = (model_name, device or "")
+    cached = _SBERT_MODEL_CACHE.get(key)
+    if cached is not None:
+        return cached
+
+    SentenceTransformer, _ = _get_sbert_backend()
+    kwargs: Dict[str, Any] = {}
+    if device:
+        kwargs["device"] = device
+
+    model = SentenceTransformer(model_name, **kwargs)
+    _SBERT_MODEL_CACHE[key] = model
+    return model
 
 
-def token_counter(tokens: Iterable[str]) -> Counter:
-    return Counter(tokens)
+def _candidate_signature(candidates: Sequence[Candidate]) -> str:
+    h = hashlib.sha1()
+    for c in candidates:
+        h.update(c.candidate_id.encode("utf-8", errors="ignore"))
+        h.update(b"\t")
+        h.update(c.question.strip().encode("utf-8", errors="ignore"))
+        h.update(b"\n")
+    return h.hexdigest()
 
 
-def cosine_counter(a: Counter, b: Counter) -> float:
-    if not a or not b:
-        return 0.0
-    dot = 0.0
-    for tok, val in a.items():
-        dot += val * b.get(tok, 0)
-    if dot == 0:
-        return 0.0
-    norm_a = math.sqrt(sum(v * v for v in a.values()))
-    norm_b = math.sqrt(sum(v * v for v in b.values()))
-    if norm_a == 0 or norm_b == 0:
-        return 0.0
-    return dot / (norm_a * norm_b)
+def _get_candidate_embeddings(
+    candidates: Sequence[Candidate],
+    model_name: str,
+    device: Optional[str],
+    batch_size: int,
+) -> Any:
+    key = (model_name, device or "", _candidate_signature(candidates))
+    cached = _SBERT_CANDIDATE_EMBED_CACHE.get(key)
+    if cached is not None:
+        return cached
 
-
-def jaccard_set(a: Sequence[str], b: Sequence[str]) -> float:
-    sa, sb = set(a), set(b)
-    if not sa and not sb:
-        return 1.0
-    if not sa or not sb:
-        return 0.0
-    return len(sa & sb) / len(sa | sb)
-
-
-def sequence_ratio(a: str, b: str) -> float:
-    return SequenceMatcher(None, (a or "").lower(), (b or "").lower()).ratio()
-
-
-def extract_sql_literals(sql: str) -> List[str]:
-    vals: List[str] = []
-    for m in LITERAL_RE.findall(sql or ""):
-        vals.append(m.replace("''", "'").strip())
-    return [v for v in vals if v]
-
-
-def extract_sql_columns(sql: str) -> List[str]:
-    cols = [c.strip() for c in QUOTED_IDENT_RE.findall(sql or "")]
-    # Keep order but de-duplicate.
-    out: List[str] = []
-    seen = set()
-    for c in cols:
-        key = c.lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(c)
-    return out
-
-
-def phrase_coverage(phrase: str, q_tokens: Sequence[str], q_norm: str) -> float:
-    p_norm = normalize_text(phrase)
-    if not p_norm:
-        return 0.0
-    if p_norm in q_norm:
-        return 1.0
-    p_toks = tokenize(phrase)
-    if not p_toks:
-        return 0.0
-    p_set = set(p_toks)
-    q_set = set(q_tokens)
-    return len(p_set & q_set) / max(1, len(p_set))
-
-
-def literal_coverage_score(sql: str, q_tokens: Sequence[str], q_norm: str) -> float:
-    literals = extract_sql_literals(sql)
-    if not literals:
-        # Neutral-low score when there are no literal constraints.
-        return 0.30
-    cov = [phrase_coverage(v, q_tokens, q_norm) for v in literals]
-    return float(sum(cov) / len(cov)) if cov else 0.0
-
-
-def column_mention_score(sql: str, q_tokens: Sequence[str]) -> float:
-    cols = extract_sql_columns(sql)
-    if not cols:
-        return 0.0
-    q_set = set(q_tokens)
-    scores: List[float] = []
-    for col in cols:
-        c_toks = [t for t in tokenize(col) if t not in STOPWORDS]
-        if not c_toks:
-            continue
-        c_set = set(c_toks)
-        scores.append(len(c_set & q_set) / len(c_set))
-    if not scores:
-        return 0.0
-    # Favor best overlapping field mention, without heavily penalizing wide SELECT lists.
-    return max(scores)
-
-
-def sql_operator_set(sql: str) -> set[str]:
-    sql_l = (sql or "").lower()
-    raw_ops = re.findall(r"(>=|<=|<>|!=|=|>|<|\blike\b)", sql_l)
-    mapped = set()
-    for op in raw_ops:
-        if op == ">=":
-            mapped.add("ge")
-        elif op == "<=":
-            mapped.add("le")
-        elif op in {"!=", "<>"}:
-            mapped.add("neq")
-        elif op == ">":
-            mapped.add("gt")
-        elif op == "<":
-            mapped.add("lt")
-        elif op == "like":
-            mapped.add("like")
-        elif op == "=":
-            mapped.add("eq")
-    return mapped
-
-
-def question_operator_set(question: str) -> set[str]:
-    q = (question or "").lower()
-    ops = set()
-
-    if re.search(r"\b(at least|no less than|minimum of|or more)\b", q):
-        ops.add("ge")
-    if re.search(r"\b(at most|no more than|up to|maximum of)\b", q):
-        ops.add("le")
-    if re.search(r"\b(greater than|more than|above|over)\b", q):
-        ops.add("gt")
-    if re.search(r"\b(less than|below|under)\b", q):
-        ops.add("lt")
-    if re.search(r"\b(not equal|different from|except)\b", q):
-        ops.add("neq")
-    if re.search(r"\b(contains|containing|starts with|ends with|like)\b", q):
-        ops.add("like")
-    if re.search(r"\b(equal to|equals|exactly)\b", q):
-        ops.add("eq")
-
-    return ops
-
-
-def operator_match_score(question: str, sql: str) -> float:
-    q_ops = question_operator_set(question)
-    s_ops = sql_operator_set(sql)
-
-    if not q_ops and not s_ops:
-        return 1.0
-    if not q_ops:
-        return 0.50
-    if not s_ops:
-        return 0.0
-
-    overlap = len(q_ops & s_ops)
-    p = overlap / len(s_ops)
-    r = overlap / len(q_ops)
-    return (2.0 * p * r / (p + r)) if (p + r) else 0.0
-
-
-def score_candidate(question: str, candidate: Candidate) -> Dict[str, float]:
-    q_toks = tokenize(question)
-    c_toks = tokenize(candidate.question)
-
-    q_counter = token_counter(q_toks)
-    c_counter = token_counter(c_toks)
-
-    token_cos = cosine_counter(q_counter, c_counter)
-    token_jac = jaccard_set(q_toks, c_toks)
-    lexical = 0.70 * token_cos + 0.30 * token_jac
-
-    char_score = sequence_ratio(question, candidate.question)
-    q_norm = normalize_text(question)
-    literal_score = literal_coverage_score(candidate.sql, q_toks, q_norm)
-    op_score = operator_match_score(question, candidate.sql)
-    col_score = column_mention_score(candidate.sql, q_toks)
-
-    total = (
-        W_LEXICAL * lexical
-        + W_CHAR * char_score
-        + W_LITERAL * literal_score
-        + W_OPERATOR * op_score
-        + W_COLUMN * col_score
+    model = _get_sbert_model(model_name, device)
+    embeddings = model.encode(
+        [c.question for c in candidates],
+        batch_size=max(1, int(batch_size)),
+        convert_to_tensor=True,
+        normalize_embeddings=True,
+        show_progress_bar=False,
     )
-
-    return {
-        "total": total,
-        "lexical": lexical,
-        "char": char_score,
-        "literal": literal_score,
-        "operator": op_score,
-        "column": col_score,
-    }
+    _SBERT_CANDIDATE_EMBED_CACHE[key] = embeddings
+    return embeddings
 
 
-def rank_candidates(question: str, candidates: Sequence[Candidate], top_k: int) -> List[MatchResult]:
-    scored = []
-    for cand in candidates:
-        s = score_candidate(question, cand)
-        scored.append((s, cand))
+def rank_candidates(
+    question: str,
+    candidates: Sequence[Candidate],
+    top_k: int,
+    sbert_model: str = DEFAULT_SBERT_MODEL,
+    sbert_device: Optional[str] = None,
+    sbert_batch_size: int = DEFAULT_SBERT_BATCH_SIZE,
+) -> List[MatchResult]:
+    q = (question or "").strip()
+    if not q:
+        raise ValueError("Input question is empty")
+    if not candidates:
+        return []
 
-    scored.sort(key=lambda x: x[0]["total"], reverse=True)
+    model = _get_sbert_model(sbert_model, sbert_device)
+    _, util = _get_sbert_backend()
+
+    query_embedding = model.encode(
+        [q],
+        batch_size=1,
+        convert_to_tensor=True,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+    candidate_embeddings = _get_candidate_embeddings(candidates, sbert_model, sbert_device, sbert_batch_size)
+
+    cosine_scores = util.cos_sim(query_embedding, candidate_embeddings)[0]
+
+    scored: List[Tuple[float, Candidate]] = []
+    for i, cand in enumerate(candidates):
+        raw = float(cosine_scores[i])
+        # Map cosine [-1, 1] to [0, 1] for stable reporting.
+        sbert_score = max(0.0, min(1.0, (raw + 1.0) / 2.0))
+        scored.append((sbert_score, cand))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
 
     results: List[MatchResult] = []
-    for idx, (s, cand) in enumerate(scored[: max(1, top_k)], start=1):
+    for idx, (sbert_score, cand) in enumerate(scored[: max(1, int(top_k))], start=1):
         results.append(
             MatchResult(
                 rank=idx,
-                total_score=float(s["total"]),
-                lexical_score=float(s["lexical"]),
-                char_score=float(s["char"]),
-                literal_score=float(s["literal"]),
-                operator_score=float(s["operator"]),
-                column_score=float(s["column"]),
+                total_score=float(sbert_score),
+                sbert_score=float(sbert_score),
                 candidate=cand,
             )
         )
@@ -354,7 +204,6 @@ def load_candidates_from_seed_json(path: Path) -> List[Candidate]:
                     )
                 continue
 
-            # Fallback for flat question/sql rows.
             add_candidate(
                 cand_id=f"seed[{i}]",
                 q=item.get("question", ""),
@@ -434,7 +283,6 @@ def load_question_from_dataset(path: Path, index: int, key: str) -> str:
 
     q = row.get(key)
     if not isinstance(q, str) or not q.strip():
-        # Common fallbacks.
         for alt in ("natural_question", "question", "original_question"):
             if isinstance(row.get(alt), str) and row[alt].strip():
                 return row[alt].strip()
@@ -491,10 +339,13 @@ def execute_sql_preview(db_path: Path, sql: str, max_rows: int) -> Tuple[List[st
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
+    here = Path(__file__).resolve().parent
+    root = here.parent
+
     ap = argparse.ArgumentParser(description="Retrieve best matching seed SQL queries for a natural-language question.")
 
     source = ap.add_mutually_exclusive_group(required=False)
-    source.add_argument("--seed-json", default="data/seed_questions.json", help="Seed JSON with decomposed_query blocks")
+    source.add_argument("--seed-json", default=str(root / "data" / "seed_questions.json"), help="Seed JSON path")
     source.add_argument("--candidate-json", help="Generic candidate JSON path")
     source.add_argument("--candidate-sqlite", help="SQLite DB path for candidate table")
 
@@ -503,9 +354,13 @@ def build_arg_parser() -> argparse.ArgumentParser:
     ap.add_argument("--candidate-sql-col", default="sql", help="SQL column in SQLite candidate table")
     ap.add_argument("--candidate-id-col", default="id", help="ID column in SQLite candidate table")
 
-    qsrc = ap.add_mutually_exclusive_group(required=True)
+    qsrc = ap.add_mutually_exclusive_group(required=False)
     qsrc.add_argument("--question", help="Input natural-language question")
-    qsrc.add_argument("--question-json", help="JSON dataset containing questions")
+    qsrc.add_argument(
+        "--question-json",
+        default=str(root / "data" / "natural_question_1500.json"),
+        help="JSON dataset containing questions",
+    )
 
     ap.add_argument("--question-index", type=int, default=0, help="Question index when using --question-json")
     ap.add_argument(
@@ -513,6 +368,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
         default="natural_question",
         help="Question key in --question-json rows (fallbacks: natural_question/question/original_question)",
     )
+
+    ap.add_argument("--sbert-model", default=DEFAULT_SBERT_MODEL, help="Sentence-Transformer model name/path")
+    ap.add_argument("--sbert-device", default=None, help="Optional device override, e.g. cpu/cuda")
+    ap.add_argument("--sbert-batch-size", type=int, default=DEFAULT_SBERT_BATCH_SIZE, help="Embedding batch size")
 
     ap.add_argument("--top-k", type=int, default=5, help="Top-k candidates to return")
     ap.add_argument("--db-path", help="Optional SQLite DB path to execute top-ranked SQL for preview")
@@ -530,6 +389,9 @@ def main() -> None:
     else:
         query_text = load_question_from_dataset(Path(args.question_json), args.question_index, args.question_key)
 
+    if not query_text:
+        raise SystemExit("Input question is empty.")
+
     if args.candidate_sqlite:
         candidates = load_candidates_from_sqlite(
             db_path=Path(args.candidate_sqlite),
@@ -545,23 +407,32 @@ def main() -> None:
     if not candidates:
         raise SystemExit("No candidates loaded. Check input source format/path.")
 
-    ranked = rank_candidates(query_text, candidates, top_k=args.top_k)
+    try:
+        ranked = rank_candidates(
+            query_text,
+            candidates,
+            top_k=args.top_k,
+            sbert_model=args.sbert_model,
+            sbert_device=args.sbert_device,
+            sbert_batch_size=args.sbert_batch_size,
+        )
+    except RuntimeError as e:
+        raise SystemExit(str(e)) from e
 
     print("=" * 90)
     print("INPUT QUESTION")
     print(query_text)
     print("=" * 90)
+    print("Scoring backend: SBERT cosine similarity")
+    print(f"SBERT model: {args.sbert_model}")
+    if args.sbert_device:
+        print(f"SBERT device override: {args.sbert_device}")
     print(f"Candidates loaded: {len(candidates)}")
     print(f"Top-k: {len(ranked)}")
     print("=" * 90)
 
     for m in ranked:
-        print(f"Rank {m.rank} | total={m.total_score:.4f}")
-        print(
-            "  components: "
-            f"lexical={m.lexical_score:.4f}, char={m.char_score:.4f}, "
-            f"literal={m.literal_score:.4f}, operator={m.operator_score:.4f}, column={m.column_score:.4f}"
-        )
+        print(f"Rank {m.rank} | sbert_score={m.sbert_score:.4f}")
         print(f"  candidate_id: {m.candidate.candidate_id}")
         print(f"  source: {m.candidate.source}")
         if m.candidate.parent_question:
@@ -594,6 +465,12 @@ def main() -> None:
     if args.output_json:
         payload = {
             "input_question": query_text,
+            "retrieval_backend": "sbert",
+            "sbert": {
+                "model": args.sbert_model,
+                "device": args.sbert_device,
+                "batch_size": int(args.sbert_batch_size),
+            },
             "ranked_results": [
                 {
                     **asdict(m),
@@ -602,13 +479,6 @@ def main() -> None:
                 for m in ranked
             ],
             "top1_sql_preview": preview,
-            "weights": {
-                "lexical": W_LEXICAL,
-                "char": W_CHAR,
-                "literal": W_LITERAL,
-                "operator": W_OPERATOR,
-                "column": W_COLUMN,
-            },
         }
         out_path = Path(args.output_json)
         out_path.parent.mkdir(parents=True, exist_ok=True)

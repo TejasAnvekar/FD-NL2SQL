@@ -13,6 +13,7 @@ OUT_DIR="${OUT_ROOT}/${RUN_ID}"
 mkdir -p "${OUT_DIR}"
 
 declare -A MODEL_LOG_ROOTS=(
+  ["sql_r1_14b"]="${PROJECT_DIR}/logs/sql_r1_vllm/14B/sql_with_conf"
   ["gemma27b"]="${PROJECT_DIR}/logs/Gemma/27B/sql_with_conf"
   ["qwen3_30b_a3b"]="${PROJECT_DIR}/logs/Qwen3/30B-A3B/sql_with_conf"
 )

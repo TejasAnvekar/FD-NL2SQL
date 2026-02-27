@@ -3,5 +3,5 @@ __pycache__
 *.pyc
 *.pyo
 *.pyd
-results/logs
+results/logs/
 .vscode

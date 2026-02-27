@@ -29,6 +29,18 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+from utils import (
+    openai_completion_to_meta,
+    openai_token_logprob_payload,
+    parse_openai_text,
+    structured_logprob_payload,
+)
+
+try:
+    from structured_logprobs import add_logprobs
+except Exception:
+    add_logprobs = None
+
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Run one SQL-R1-7B inference for NL2SQL.")
@@ -40,7 +52,7 @@ def parse_args() -> argparse.Namespace:
             "snapshots/db409e8372ca5e463126b07e905b5245caf14ea6"
         ),
     )
-    ap.add_argument("--backend", choices=["vllm", "transformers"], default="vllm")
+    ap.add_argument("--backend", choices=["vllm", "transformers", "openai_compat"], default="vllm")
 
     # Input question options
     ap.add_argument("--question", default="", help="Direct natural-language question. If set, input_json/row_index is ignored.")
@@ -65,6 +77,14 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--gpu_memory_utilization", type=float, default=0.92)
     ap.add_argument("--max_model_len", type=int, default=8192)
     ap.add_argument("--trust_remote_code", type=int, default=1)
+    ap.add_argument("--timeout", type=float, default=120.0)
+
+    # OpenAI-compatible runtime (for structured logprob + pydantic schema)
+    ap.add_argument("--api_base", default="http://127.0.0.1:8000/v1")
+    ap.add_argument("--api_key", default="dummy")
+    ap.add_argument("--model_name", default="sql-r1-7b-local")
+    ap.add_argument("--use_pydantic_schema", type=int, default=1)
+    ap.add_argument("--logprob_mode", choices=["structured", "none"], default="structured")
 
     # Optional output artifact
     ap.add_argument("--output_json", default="", help="Optional output path for saving result JSON")
@@ -178,6 +198,22 @@ def extract_sql(text: str) -> str:
     return t
 
 
+def build_response_schema_from_model(model_cls):
+    from openai.types import ResponseFormatJSONSchema
+
+    json_schema = model_cls.model_json_schema()
+    response_schema = ResponseFormatJSONSchema.model_validate(
+        {
+            "type": "json_schema",
+            "json_schema": {
+                "name": model_cls.__name__,
+                "schema": json_schema,
+            },
+        }
+    )
+    return response_schema.model_dump(by_alias=True)
+
+
 def generate_with_vllm(args: argparse.Namespace, messages: List[Dict[str, str]]) -> Tuple[str, str]:
     try:
         from transformers import AutoTokenizer
@@ -270,6 +306,72 @@ def generate_with_transformers(args: argparse.Namespace, messages: List[Dict[str
     return text, extract_sql(text)
 
 
+def generate_with_openai_compat(args: argparse.Namespace, messages: List[Dict[str, str]]) -> Dict[str, Any]:
+    try:
+        from openai import OpenAI
+        from pydantic import BaseModel
+    except Exception as exc:
+        raise RuntimeError(
+            "openai_compat backend requires openai + pydantic in this environment"
+        ) from exc
+
+    class SQLOnlyResponse(BaseModel):
+        sql: str
+
+    client = OpenAI(base_url=args.api_base, api_key=args.api_key)
+    req: Dict[str, Any] = {
+        "model": args.model_name,
+        "messages": messages,
+        "temperature": float(args.temperature),
+        "top_p": float(args.top_p),
+        "max_tokens": int(args.max_new_tokens),
+        "timeout": float(args.timeout),
+        "logprobs": args.logprob_mode == "structured",
+    }
+
+    if bool(int(args.use_pydantic_schema)):
+        req["response_format"] = build_response_schema_from_model(SQLOnlyResponse)
+
+    completion = client.chat.completions.create(**req)
+    raw_text = parse_openai_text(completion)
+    model_meta: Dict[str, Any] = openai_completion_to_meta(completion)
+
+    pred_sql = ""
+    if bool(int(args.use_pydantic_schema)):
+        parsed_json = json.loads(raw_text)
+        pred_sql = str(parsed_json.get("sql") or "").strip()
+        model_meta["response_schema_used"] = True
+    else:
+        pred_sql = extract_sql(raw_text)
+
+    field_logprobs: Dict[str, Any] = {}
+    field_confidence: Dict[str, Any] = {}
+    conf_overall: Optional[float] = None
+    if args.logprob_mode == "structured":
+        try:
+            field_logprobs, field_confidence, conf_overall = structured_logprob_payload(completion, add_logprobs)
+            if conf_overall is None:
+                fb_lp, fb_conf, fb_overall = openai_token_logprob_payload(completion)
+                if isinstance(fb_overall, (int, float)):
+                    field_logprobs, field_confidence, conf_overall = fb_lp, fb_conf, fb_overall
+                    model_meta["logprob_fallback"] = "openai_token_logprobs"
+        except Exception as lp_err:
+            model_meta["structured_logprob_error"] = str(lp_err).splitlines()[0] if str(lp_err) else str(lp_err)
+            fb_lp, fb_conf, fb_overall = openai_token_logprob_payload(completion)
+            if isinstance(fb_overall, (int, float)):
+                field_logprobs, field_confidence, conf_overall = fb_lp, fb_conf, fb_overall
+                model_meta["logprob_fallback"] = "openai_token_logprobs"
+
+    return {
+        "raw_text": raw_text,
+        "pred_sql": pred_sql,
+        "field_logprobs": field_logprobs,
+        "field_confidence": field_confidence,
+        "confidence_overall": conf_overall,
+        "model_meta": model_meta,
+    }
+
+
 def main() -> None:
     args = parse_args()
 
@@ -277,10 +379,23 @@ def main() -> None:
     schema_cols = load_schema_columns(args.schema_json)
     messages = build_prompt(args.table_name, schema_cols, question)
 
+    field_logprobs: Dict[str, Any] = {}
+    field_confidence: Dict[str, Any] = {}
+    confidence_overall: Optional[float] = None
+    model_meta: Dict[str, Any] = {}
+
     if args.backend == "vllm":
         raw_text, pred_sql = generate_with_vllm(args, messages)
-    else:
+    elif args.backend == "transformers":
         raw_text, pred_sql = generate_with_transformers(args, messages)
+    else:
+        out = generate_with_openai_compat(args, messages)
+        raw_text = out["raw_text"]
+        pred_sql = out["pred_sql"]
+        field_logprobs = out["field_logprobs"]
+        field_confidence = out["field_confidence"]
+        confidence_overall = out["confidence_overall"]
+        model_meta = out["model_meta"]
 
     result = {
         "model_path": args.model_path,
@@ -297,12 +412,20 @@ def main() -> None:
         },
         "pred_sql": pred_sql,
         "raw_text": raw_text,
+        "logprob_mode": args.logprob_mode if args.backend == "openai_compat" else "none",
+        "field_logprobs": field_logprobs,
+        "field_confidence": field_confidence,
+        "confidence_overall": confidence_overall,
+        "model_meta": model_meta,
     }
 
     print("\n=== INPUT QUESTION ===")
     print(question)
     print("\n=== PREDICTED SQL ===")
     print(pred_sql or "<empty>")
+    if args.backend == "openai_compat":
+        print("\n=== CONFIDENCE OVERALL ===")
+        print(confidence_overall if confidence_overall is not None else "NA")
 
     if args.output_json:
         outp = Path(args.output_json)

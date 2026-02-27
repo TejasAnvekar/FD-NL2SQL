@@ -1,3 +1,4 @@
+//frontend/src/components/ChatBot.js
 import { useState, useEffect, useRef } from 'react'
 
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
@@ -113,7 +114,8 @@ function SatisfactionBar({ ratings }) {
 }
 
 // ─── Feedback buttons ─────────────────────────────────────────────────────────
-function FeedbackButtons({ messageId, onRate }) {
+function FeedbackButtons({ messageId, onRate, onEdit, messageText }) {
+
   const [rating, setRating] = useState(null)
   const [animating, setAnimating] = useState(null)
 
@@ -123,13 +125,16 @@ function FeedbackButtons({ messageId, onRate }) {
     { value: 'bad',     label: 'Unhelpful',  symbol: '✕', activeColor: '#ef4444' },
   ]
 
-  const handleRate = (value) => {
+const handleRate = (value) => {
     if (rating) return
     setAnimating(value)
     setTimeout(() => {
       setRating(value)
       setAnimating(null)
       onRate(messageId, value)
+      if (value === 'good')    console.log('User liked the output')
+      if (value === 'neutral') { console.log('User is okay with the output'); onEdit(messageId, messageText) }
+      if (value === 'bad')     console.log('User did not like the output')
     }, 350)
   }
 
@@ -175,6 +180,9 @@ export default function ChatBot({ onClose, db }) {
   const [ratings, setRatings] = useState([])
   const [showSatisfaction, setShowSatisfaction] = useState(false)
 
+  const [editingId, setEditingId] = useState(null)
+  const [editDraft, setEditDraft] = useState('')
+
   // Autocomplete state
   const [seedQuestions, setSeedQuestions] = useState([])
   const [suggestion, setSuggestion] = useState('')
@@ -211,11 +219,10 @@ export default function ChatBot({ onClose, db }) {
     setRatings(prev => [...prev, value])
   }
 
-  const handleInputChange = (e) => {
+const handleInputChange = (e) => {
     const val = e.target.value
     setInput(val)
     setSuggestion(findSuggestion(val, seedQuestions))
-    // Auto-grow
     e.target.style.height = 'auto'
     e.target.style.height = Math.min(e.target.scrollHeight, 120) + 'px'
   }
@@ -265,8 +272,41 @@ export default function ChatBot({ onClose, db }) {
     }
   }
 
-  const renderBubble = (msg) => {
+const renderBubble = (msg) => {
     if (msg.isError) return <div className="chat-bubble error-bubble">{msg.text}</div>
+
+    // Editing mode — yellow circle was clicked
+    if (editingId === msg.id) {
+      return (
+        <div className="edit-bubble-wrap">
+          <textarea
+            className="edit-bubble-textarea"
+            value={editDraft}
+            onChange={e => setEditDraft(e.target.value)}
+            rows={4}
+            autoFocus
+          />
+          <div className="edit-bubble-actions">
+            <button className="edit-save-btn" onClick={() => {
+              setMessages(prev => prev.map(m =>
+                m.id === msg.id ? { ...m, text: editDraft } : m
+              ))
+              setEditingId(null)
+              setEditDraft('')
+            }}>
+              Save
+            </button>
+            <button className="edit-cancel-btn" onClick={() => {
+              setEditingId(null)
+              setEditDraft('')
+            }}>
+              Cancel
+            </button>
+          </div>
+        </div>
+      )
+    }
+
     return (
       <div className="chat-bubble">
         {msg.text.split('\n').map((line, i, arr) => (
@@ -275,7 +315,6 @@ export default function ChatBot({ onClose, db }) {
       </div>
     )
   }
-
   return (
     <div className="chatbot-panel">
 
@@ -332,7 +371,12 @@ export default function ChatBot({ onClose, db }) {
                 : renderBubble(msg)
               }
               {msg.from === 'bot' && msg.showFeedback && (
-                <FeedbackButtons messageId={msg.id} onRate={handleRate} />
+                <FeedbackButtons
+                  messageId={msg.id}
+                  onRate={handleRate}
+                  onEdit={(id, text) => { setEditingId(id); setEditDraft(text) }}
+                  messageText={msg.text}
+                />
               )}
             </div>
           </div>
@@ -353,18 +397,23 @@ export default function ChatBot({ onClose, db }) {
         <div ref={bottomRef} />
       </div>
 
-      {/* ── Input with autocomplete ── */}
+{/* ── Input with autocomplete ── */}
       <div className="chatbot-input-area">
-        <div className="chatbot-input-wrap">
 
-          {/* Ghost text layer — sits behind textarea */}
-          {suggestion && input && (
-            <div className="chatbot-ghost-wrap" aria-hidden="true">
-              <span className="ghost-typed">{input}</span>
-              <span className="ghost-rest">{suggestion.slice(input.length)}</span>
+        {/* Suggestion chip — appears above input when match found */}
+        {suggestion && (
+          <div className="suggestion-chip" onClick={() => { setInput(suggestion); setSuggestion(''); inputRef.current?.focus() }}>
+            <div className="suggestion-chip-inner">
+              <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor" style={{flexShrink:0, opacity:0.5}}>
+                <path d="M8 1a7 7 0 110 14A7 7 0 018 1zm0 1.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM7 5h2v4H7V5zm0 5h2v2H7v-2z"/>
+              </svg>
+              <span className="suggestion-text">{suggestion}</span>
             </div>
-          )}
+            <kbd className="suggestion-tab-key">Tab ↵</kbd>
+          </div>
+        )}
 
+        <div className="chatbot-input-row">
           <textarea
             ref={inputRef}
             className="chatbot-input"
@@ -375,33 +424,24 @@ export default function ChatBot({ onClose, db }) {
             rows={1}
             disabled={!GEMINI_API_KEY || typing}
           />
-
-          {/* Tab hint badge — only shown when suggestion is active */}
-          {suggestion && (
-            <div className="tab-hint">
-              <kbd>Tab</kbd> to complete
-            </div>
-          )}
-
+          <button
+            className={`chatbot-send-btn ${input.trim() && !typing ? 'active' : ''}`}
+            onClick={send}
+            disabled={!input.trim() || typing || !GEMINI_API_KEY}
+          >
+            {typing ? (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{animation:'spin 0.8s linear infinite'}}>
+                <path d="M12 2a10 10 0 0110 10" strokeLinecap="round"/>
+              </svg>
+            ) : (
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M1 1l14 7-14 7V9.5l10-1.5-10-1.5V1z"/>
+              </svg>
+            )}
+          </button>
         </div>
 
-        <button
-          className={`chatbot-send-btn ${input.trim() && !typing ? 'active' : ''}`}
-          onClick={send}
-          disabled={!input.trim() || typing || !GEMINI_API_KEY}
-        >
-          {typing ? (
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{animation:'spin 0.8s linear infinite'}}>
-              <path d="M12 2a10 10 0 0110 10" strokeLinecap="round"/>
-            </svg>
-          ) : (
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M1 1l14 7-14 7V9.5l10-1.5-10-1.5V1z"/>
-            </svg>
-          )}
-        </button>
       </div>
-
     </div>
   )
 }

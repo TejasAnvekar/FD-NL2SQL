@@ -1,3 +1,4 @@
+//frontend/src/components/FillerPannel.jsx
 import { useState } from 'react'
 
 function RadioGroup({ label, name, options, value, onChange }) {

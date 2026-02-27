@@ -1,3 +1,4 @@
+//frontend/src/components/ColumnToggle.jsx
 import { useState } from 'react'
 
 const COLUMN_GROUPS = {

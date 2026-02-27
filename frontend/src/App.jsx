@@ -1,3 +1,4 @@
+//frontend/src/App.jsx
 import { useState, useEffect, useMemo, useRef } from 'react'
 import Header from './components/Header'
 import HeroBlock from './components/HeroBlock'

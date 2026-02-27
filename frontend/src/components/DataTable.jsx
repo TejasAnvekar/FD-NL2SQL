@@ -1,3 +1,4 @@
+//frontend/src/components/DataTable.jsx
 import { useState, useMemo } from 'react'
 
 const PUBMED_BASE = 'https://pubmed.ncbi.nlm.nih.gov/'

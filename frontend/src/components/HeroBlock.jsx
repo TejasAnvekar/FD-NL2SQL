@@ -1,3 +1,4 @@
+//frontend/src/components/HeroBlock.jsx
 export default function HeroBlock() {
   return (
     <section className="hero-block">

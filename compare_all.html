@@ -134,12 +134,12 @@
     <aside class="panel">
       <div class="row">
         <label for="paths">Eval JSON paths (one per line)</label>
-        <textarea id="paths">results/eval_baselines_v2/20260226_062742/eval_gemma27b_zero_shot.json
-results/eval_baselines_v2/20260226_062742/eval_gemma27b_few_shot.json
-results/eval_baselines_v2/20260226_062742/eval_gemma27b_cot.json
-results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_zero_shot.json
-results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_few_shot.json
-results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_cot.json</textarea>
+        <textarea id="paths">results/eval_baselines_v2/20260227_104858/eval_gemma27b_zero_shot.json
+results/eval_baselines_v2/20260227_104858/eval_gemma27b_few_shot.json
+results/eval_baselines_v2/20260227_104858/eval_gemma27b_cot.json
+results/eval_baselines_v2/20260227_104858/eval_qwen3_30b_a3b_zero_shot.json
+results/eval_baselines_v2/20260227_104858/eval_qwen3_30b_a3b_few_shot.json
+results/eval_baselines_v2/20260227_104858/eval_qwen3_30b_a3b_cot.json</textarea>
         <button id="load">Load All Files</button>
         <button id="clear" class="secondary">Clear Selected Runs</button>
       </div>
@@ -165,6 +165,7 @@ results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_cot.json</textarea>
           <option value="f1">F1</option>
           <option value="sql_ast_similarity">AST similarity</option>
           <option value="pred_confidence">Confidence</option>
+          <option value="harmonic_f1_em_confidence">HM(F1,EM,Conf)</option>
           <option value="exact_exec_match">Exact exec match</option>
         </select>
       </div>
@@ -339,6 +340,7 @@ results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_cot.json</textarea>
         'avg_sql_ast_similarity',
         'avg_row_jaccard',
         'avg_pred_confidence',
+        'avg_harmonic_f1_em_confidence',
       ];
 
       const rows = runs.map((r) => {
@@ -369,6 +371,7 @@ results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_cot.json</textarea>
               <th>Avg AST</th>
               <th>Avg Jaccard</th>
               <th>Avg Conf</th>
+              <th>Avg HM(F1,EM,Conf)</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
@@ -477,7 +480,8 @@ results/eval_baselines_v2/20260226_062742/eval_qwen3_30b_a3b_cot.json</textarea>
             <div class="kvs">
               error: ${esc(d.error || 'none')}<br/>
               exec_ok: ${esc(!!d.pred_exec_ok && !!d.gt_exec_ok)} · exact: ${esc(!!d.exact_exec_match)}<br/>
-              f1: ${esc(metricText(d.f1, 'f1'))} · ast: ${esc(metricText(d.sql_ast_similarity, 'sql_ast_similarity'))} · conf: ${esc(metricText(d.pred_confidence, 'pred_confidence'))}
+              f1: ${esc(metricText(d.f1, 'f1'))} · ast: ${esc(metricText(d.sql_ast_similarity, 'sql_ast_similarity'))} · conf: ${esc(metricText(d.pred_confidence, 'pred_confidence'))}<br/>
+              hm(f1,em,conf): ${esc(metricText(d.harmonic_f1_em_confidence, 'harmonic_f1_em_confidence'))}
             </div>
             <pre>${esc(d.pred_sql || '')}</pre>
           </div>

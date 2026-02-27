@@ -66,6 +66,14 @@ def safe_div(n: float, d: float) -> float:
     return n / d if d else 0.0
 
 
+def harmonic_mean(values: List[float]) -> float:
+    if not values:
+        return 0.0
+    if any(v <= 0 for v in values):
+        return 0.0
+    return len(values) / sum(1.0 / v for v in values)
+
+
 def normalize_text(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip()).lower()
 
@@ -668,6 +676,21 @@ def main() -> None:
             }
         )
 
+        pred_conf = pred.get(args.confidence_key)
+        hm_f1_em_conf: Optional[float]
+        if isinstance(pred_conf, (int, float)):
+            hm_f1_em_conf = float(
+                harmonic_mean(
+                    [
+                        float(exec_eval.get("f1", 0.0)),
+                        1.0 if exec_eval.get("exact_exec_match") else 0.0,
+                        float(pred_conf),
+                    ]
+                )
+            )
+        else:
+            hm_f1_em_conf = None
+
         per_item.append(
             {
                 "item_id": item_id,
@@ -677,6 +700,7 @@ def main() -> None:
                 "pred_confidence": pred.get(args.confidence_key),
                 "pred_error": pred.get("error"),
                 "join_method": join_method,
+                "harmonic_f1_em_confidence": hm_f1_em_conf,
                 "sql_ast_similarity": ast_sim,
                 "sql_ast_error": ast_err,
                 **exec_eval,
@@ -713,6 +737,7 @@ def main() -> None:
         "avg_rouge_l_f1": avg_non_null("rouge_l_f1"),
         "avg_bertscore_f1": avg_non_null("bertscore_f1"),
         "avg_pred_confidence": avg_non_null("pred_confidence"),
+        "avg_harmonic_f1_em_confidence": avg_non_null("harmonic_f1_em_confidence"),
         "pred_limit_no_order": sum(1 for x in per_item if x.get("pred_limit_no_order")),
         "gt_limit_no_order": sum(1 for x in per_item if x.get("gt_limit_no_order")),
     }

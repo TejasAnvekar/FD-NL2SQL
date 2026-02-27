@@ -1,0 +1,21 @@
+{
+  "style": "zero_shot",
+  "total_rows": 1500,
+  "pending_rows": 1500,
+  "processed": 1500,
+  "success": 1500,
+  "error": 0,
+  "cache_hit": 105,
+  "cache_miss": 1395,
+  "started_at": "2026-02-27T06:53:23.218713Z",
+  "model": "gpt-5-nano",
+  "api_keys": [
+    "key_1"
+  ],
+  "api_key_strategy": "round_robin",
+  "api_key_usage_count": {
+    "key_1": 1500
+  },
+  "elapsed_sec": 1132.059,
+  "completed_at": "2026-02-27T07:12:15.277914Z"
+}

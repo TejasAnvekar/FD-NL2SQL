@@ -20,10 +20,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from provider_config import PROVIDER_CHOICES, resolve_openai_compat
+
 
 def parse_args() -> argparse.Namespace:
     here = Path(__file__).resolve().parent
     root = here.parent
+    default_api_base = "http://127.0.0.1:8000/v1"
+    default_model_name = "gemma-3-27b-local"
 
     ap = argparse.ArgumentParser(description="Run one-question decompose->retrieve->synthesize pipeline for chat usage.")
 
@@ -55,9 +59,14 @@ def parse_args() -> argparse.Namespace:
     )
 
     # Retrieval params
-    ap.add_argument("--top-k", type=int, default=3)
-    ap.add_argument("--retrieval-per-decomp", type=int, default=3)
-    ap.add_argument("--max-decomposed-queries", type=int, default=5)
+    ap.add_argument("--top-k", type=int, default=5)
+    ap.add_argument("--retrieval-per-decomp", type=int, default=5)
+    ap.add_argument(
+        "--max-decomposed-queries",
+        type=int,
+        default=0,
+        help="Deprecated compatibility flag (ignored; decomposition is uncapped).",
+    )
     ap.add_argument(
         "--sbert-model",
         default="/mnt/shared/shared_hf_home/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
@@ -67,9 +76,20 @@ def parse_args() -> argparse.Namespace:
 
     # Backend/model
     ap.add_argument("--backend", choices=["openai_compat", "vllm_local"], default="openai_compat")
-    ap.add_argument("--api-base", default="http://127.0.0.1:8000/v1")
+    ap.add_argument(
+        "--provider",
+        choices=PROVIDER_CHOICES,
+        default="local_vllm",
+        help="Provider preset for backend=openai_compat (gemini/openai/openrouter/etc).",
+    )
+    ap.add_argument(
+        "--api-key-env",
+        default="",
+        help="Environment variable name to read API key from (overrides provider default env).",
+    )
+    ap.add_argument("--api-base", default=default_api_base)
     ap.add_argument("--api-key", default="dummy")
-    ap.add_argument("--model-name", default="gemma-3-27b-local")
+    ap.add_argument("--model-name", default=default_model_name)
     ap.add_argument(
         "--model-path",
         default=(
@@ -98,7 +118,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--decompose-batch-concurrency", type=int, default=1)
     ap.add_argument("--synth-gen-batch-size", type=int, default=1)
     ap.add_argument("--synth-batch-concurrency", type=int, default=1)
-    ap.add_argument("--synth-evidence-per-decomp", type=int, default=2)
+    ap.add_argument("--synth-evidence-per-decomp", type=int, default=5)
     ap.add_argument("--synth-include-global-merged", type=int, default=0)
     ap.add_argument("--synth-where-only-evidence", type=int, default=1)
     ap.add_argument("--use-pydantic-schema", type=int, default=1)
@@ -186,18 +206,20 @@ def build_decompose_cmd(args: argparse.Namespace, p: Dict[str, Path]) -> List[st
         str(int(args.top_k)),
         "--retrieval-per-decomp",
         str(int(args.retrieval_per_decomp)),
-        "--max-decomposed-queries",
-        str(int(args.max_decomposed_queries)),
         "--sbert-model",
         str(args.sbert_model),
         "--sbert-batch-size",
         str(int(args.sbert_batch_size)),
         "--backend",
         str(args.backend),
+        "--provider",
+        str(args.provider),
         "--api-base",
         str(args.api_base),
         "--api-key",
         str(args.api_key),
+        "--api-key-env",
+        str(args.api_key_env),
         "--model-name",
         str(args.model_name),
         "--timeout",
@@ -263,10 +285,14 @@ def build_synth_cmd(args: argparse.Namespace, p: Dict[str, Path]) -> List[str]:
         str(args.schema_json),
         "--backend",
         str(args.backend),
+        "--provider",
+        str(args.provider),
         "--api-base",
         str(args.api_base),
         "--api-key",
         str(args.api_key),
+        "--api-key-env",
+        str(args.api_key_env),
         "--model-name",
         str(args.model_name),
         "--timeout",
@@ -410,7 +436,9 @@ def build_chat_response(
         },
         "meta": {
             "backend": args.backend,
+            "provider": args.provider if args.backend == "openai_compat" else None,
             "model_name": args.model_name,
+            "api_key_env": (str(args.api_key_env).strip() or None) if args.backend == "openai_compat" else None,
             "use_pydantic_schema": bool(int(args.use_pydantic_schema)),
             "logprob_mode": args.logprob_mode,
             "run_eval": int(args.run_eval),
@@ -424,6 +452,22 @@ def build_chat_response(
 def main() -> None:
     args = parse_args()
     root = Path(__file__).resolve().parent.parent
+
+    if args.backend == "openai_compat":
+        try:
+            args.api_base, args.api_key, args.model_name, provider_meta = resolve_openai_compat(
+                provider=str(args.provider),
+                api_base=str(args.api_base),
+                api_key=str(args.api_key),
+                model_name=str(args.model_name),
+                api_key_env=str(args.api_key_env),
+                local_default_api_base="http://127.0.0.1:8000/v1",
+                local_default_model_name="gemma-3-27b-local",
+            )
+            args.provider = str(provider_meta.get("provider") or args.provider)
+        except ValueError as e:  # noqa: BLE001
+            raise SystemExit(str(e))
+
     p = derive_paths(args, root)
 
     if not bool(int(args.dry_run)):

@@ -10,6 +10,7 @@ Task:
 Decompose the question into atomic, retrieval-friendly sub-questions that map to SQL WHERE predicates.
 Each sub-question should represent exactly one filter condition (column, operator, value).
 Preserve all key constraints exactly (e.g., cancer type, number of arms, trial phase, control arm, drug name).
+The goal is to maximize retrieval quality against clinician-authored seed question+SQL pairs.
 
 WHERE-focused decomposition rules:
 - Focus on data points that belong in WHERE conditions.
@@ -17,6 +18,25 @@ WHERE-focused decomposition rules:
 - Keep literal values explicit (for example: 'Colorectal', >= 3, 'Phase 3').
 - If a question has multiple constraints, split into one sub-question per constraint.
 - Avoid SELECT/projection/output-only instructions (for example: "show NCT and Author").
+- Use schema-exact column wording in sub-questions whenever possible.
+
+Mandatory column routing:
+- Class terms (PD1, PD-L1, CTLA-4) -> "Class of ICI" (never "Name of ICI").
+- Specific drugs (Nivolumab, Pembrolizumab, Atezolizumab, Ipilimumab, etc.) -> "Name of ICI".
+- "other biomarker used for inclusion" -> "Is any other biomarker used for inclusion".
+- "PD-L1 positivity inclusion" -> "Is PD-L1 positivity inclusion criteria".
+- "immunotherapy + chemotherapy" -> "Type of combination" = 'ICI+Chemo' (not "Monotherapy/combination").
+
+Canonical literal normalization:
+- Gastric or gastroesophageal junction -> "Cancer type" = 'Gastric/GEJ'
+- Renal cell cancer -> "Cancer type" = 'Renal cell'
+- PD1 + CTLA-4 -> "Class of ICI" = 'PD1, CTLA-4'
+- PD-L1 + CTLA-4 -> "Class of ICI" = 'PD-L1, CTLA-4'
+
+Hard constraints:
+- Never decompose class wording into "Name of ICI".
+- Never map "other biomarker" wording to PD-L1 positivity field.
+- Do not invent extra constraints not explicitly present in the question.
 
 Output Rules:
 - Do NOT output SQL.

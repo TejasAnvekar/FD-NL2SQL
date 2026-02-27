@@ -20,6 +20,8 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
+from provider_config import PROVIDER_CHOICES, resolve_openai_compat
+
 
 try:
     from openai import OpenAI
@@ -30,6 +32,8 @@ except Exception:
 def parse_args() -> argparse.Namespace:
     here = Path(__file__).resolve().parent
     root = here.parent
+    default_api_base = "http://127.0.0.1:8000/v1"
+    default_model_name = "gemma-3-27b-local"
 
     ap = argparse.ArgumentParser(description="Decompose questions and retrieve top-k SBERT candidates.")
 
@@ -55,16 +59,27 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--start-index", type=int, default=0)
     ap.add_argument("--limit", type=int, default=1, help="Batch size; -1 for all remaining")
 
-    ap.add_argument("--top-k", type=int, default=3, help="Global top-k after merge across decomposed sub-queries")
+    ap.add_argument("--top-k", type=int, default=5, help="Global top-k after merge across decomposed sub-queries")
     ap.add_argument(
         "--retrieval-per-decomp",
         type=int,
-        default=3,
+        default=5,
         help="Retrieve this many per decomposed query before global top-k merge",
     )
-    ap.add_argument("--max-decomposed-queries", type=int, default=5)
+    ap.add_argument(
+        "--max-decomposed-queries",
+        type=int,
+        default=0,
+        help="Deprecated compatibility flag (ignored). Decomposition is uncapped.",
+    )
 
-    ap.add_argument("--sbert-model", default="sentence-transformers/all-MiniLM-L6-v2")
+    ap.add_argument(
+        "--sbert-model",
+        default=(
+            "/mnt/shared/shared_hf_home/hub/models--google--embeddinggemma-300m/"
+            "snapshots/57c266a740f537b4dc058e1b0cda161fd15afa75"
+        ),
+    )
     ap.add_argument("--sbert-device", default=None)
     ap.add_argument("--sbert-batch-size", type=int, default=64)
 
@@ -77,11 +92,22 @@ def parse_args() -> argparse.Namespace:
     )
 
     ap.add_argument("--backend", choices=["openai_compat", "vllm_local"], default="openai_compat")
+    ap.add_argument(
+        "--provider",
+        choices=PROVIDER_CHOICES,
+        default="local_vllm",
+        help="Provider preset for backend=openai_compat (gemini/openai/openrouter/etc).",
+    )
+    ap.add_argument(
+        "--api-key-env",
+        default="",
+        help="Environment variable name to read API key from (overrides provider default env).",
+    )
 
     # OpenAI-compatible backend args
-    ap.add_argument("--api-base", default="http://127.0.0.1:8000/v1")
+    ap.add_argument("--api-base", default=default_api_base)
     ap.add_argument("--api-key", default="dummy")
-    ap.add_argument("--model-name", default="gemma-3-27b-local")
+    ap.add_argument("--model-name", default=default_model_name)
     ap.add_argument("--timeout", type=float, default=120.0)
     ap.add_argument("--num-retries", type=int, default=2)
 
@@ -303,7 +329,6 @@ def build_decomposition_messages(
     base_prompt: str,
     schema_text: str,
     examples_text: str,
-    max_queries: int,
 ) -> List[Dict[str, str]]:
     base = render_base_prompt(base_prompt=base_prompt, schema_text=schema_text, question=question)
 
@@ -318,7 +343,7 @@ def build_decomposition_messages(
         "Decompose the original question into short, retrieval-friendly atomic sub-questions.\n"
         "Each sub-question should map to one WHERE-style predicate (column + operator + value).\n"
         "Prefer schema-aligned phrasing that can map directly to SQL WHERE conditions.\n"
-        f"Return between 1 and {max(1, int(max_queries))} sub-questions.\n\n"
+        f"Return sub-questions in accordance to these.\n\n"
         f"{examples_block}"
         "Output format requirements:\n"
         "- Output ONLY JSON\n"
@@ -335,7 +360,7 @@ def build_decomposition_messages(
     ]
 
 
-def _clean_decomposed_items(items: Sequence[Any], max_items: int) -> List[str]:
+def _clean_decomposed_items(items: Sequence[Any]) -> List[str]:
     out: List[str] = []
     seen = set()
     for x in items:
@@ -347,25 +372,23 @@ def _clean_decomposed_items(items: Sequence[Any], max_items: int) -> List[str]:
             continue
         seen.add(key)
         out.append(s)
-        if len(out) >= max(1, int(max_items)):
-            break
     return out
 
 
-def _parse_decomposition_obj(obj: Any, max_items: int) -> List[str]:
+def _parse_decomposition_obj(obj: Any) -> List[str]:
     if isinstance(obj, dict):
         dq = obj.get("decomposed_queries")
         if isinstance(dq, list):
-            cleaned = _clean_decomposed_items(dq, max_items=max_items)
+            cleaned = _clean_decomposed_items(dq)
             if cleaned:
                 return cleaned
 
         d1 = obj.get("decomposed_query")
         if isinstance(d1, str) and d1.strip():
-            return _clean_decomposed_items([d1], max_items=max_items)
+            return _clean_decomposed_items([d1])
 
     if isinstance(obj, list):
-        cleaned = _clean_decomposed_items(obj, max_items=max_items)
+        cleaned = _clean_decomposed_items(obj)
         if cleaned:
             return cleaned
 
@@ -410,7 +433,7 @@ def _candidate_json_payloads(text: str) -> List[str]:
     return out
 
 
-def parse_decomposition(raw_text: str, max_items: int) -> List[str]:
+def parse_decomposition(raw_text: str) -> List[str]:
     t = (raw_text or "").strip()
     if not t:
         return []
@@ -421,7 +444,7 @@ def parse_decomposition(raw_text: str, max_items: int) -> List[str]:
         except Exception:  # noqa: BLE001
             continue
 
-        parsed = _parse_decomposition_obj(obj, max_items=max_items)
+        parsed = _parse_decomposition_obj(obj)
         if parsed:
             return parsed
 
@@ -446,14 +469,14 @@ def parse_decomposition(raw_text: str, max_items: int) -> List[str]:
             except Exception:  # noqa: BLE001
                 pass
             else:
-                parsed = _parse_decomposition_obj(obj, max_items=max_items)
+                parsed = _parse_decomposition_obj(obj)
                 if parsed:
                     return parsed
             continue
 
         lines.append(s)
 
-    return _clean_decomposed_items(lines, max_items=max_items)
+    return _clean_decomposed_items(lines)
 
 
 def match_score(match_obj: Any) -> float:
@@ -721,7 +744,6 @@ def process_task(
             base_prompt=base_prompt,
             schema_text=schema_text,
             examples_text=examples_text,
-            max_queries=max(1, int(args.max_decomposed_queries)),
         )
         decomp_gen = run_decompose_generation(
             args=args,
@@ -737,7 +759,6 @@ def process_task(
         else:
             decomposed_queries = parse_decomposition(
                 raw_text=str(decomp_gen.get("raw_text") or ""),
-                max_items=max(1, int(args.max_decomposed_queries)),
             )
             if not decomposed_queries:
                 decomp_parse_error = "FAILED_TO_PARSE_DECOMPOSITION"
@@ -826,6 +847,21 @@ def to_jsonl_row(r: Dict[str, Any]) -> Dict[str, Any]:
 def main() -> None:
     args = parse_args()
     root = Path(__file__).resolve().parent.parent
+
+    if args.backend == "openai_compat":
+        try:
+            args.api_base, args.api_key, args.model_name, provider_meta = resolve_openai_compat(
+                provider=str(args.provider),
+                api_base=str(args.api_base),
+                api_key=str(args.api_key),
+                model_name=str(args.model_name),
+                api_key_env=str(args.api_key_env),
+                local_default_api_base="http://127.0.0.1:8000/v1",
+                local_default_model_name="gemma-3-27b-local",
+            )
+            args.provider = str(provider_meta.get("provider") or args.provider)
+        except ValueError as e:  # noqa: BLE001
+            raise SystemExit(str(e))
 
     if args.backend == "openai_compat" and OpenAI is None:
         raise RuntimeError("openai package is required for backend=openai_compat")
@@ -966,6 +1002,8 @@ def main() -> None:
             },
             "api_base": args.api_base if args.backend == "openai_compat" else None,
             "model_name": args.model_name if args.backend == "openai_compat" else None,
+            "provider": args.provider if args.backend == "openai_compat" else None,
+            "api_key_env": (str(args.api_key_env).strip() or None) if args.backend == "openai_compat" else None,
             "model_path": args.model_path if args.backend == "vllm_local" else None,
             "gen_batch_size": int(args.gen_batch_size),
             "batch_concurrency": int(args.batch_concurrency),

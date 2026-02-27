@@ -20,6 +20,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
 
+from provider_config import PROVIDER_CHOICES, resolve_openai_compat
+
 
 try:
     from openai import OpenAI
@@ -51,6 +53,8 @@ if BaseModel is not None:
 def parse_args() -> argparse.Namespace:
     here = Path(__file__).resolve().parent
     root = here.parent
+    default_api_base = "http://127.0.0.1:8000/v1"
+    default_model_name = "gemma-3-27b-local"
 
     ap = argparse.ArgumentParser(description="Synthesize SQL from decomposition+retrieval JSON.")
 
@@ -60,11 +64,22 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--schema-json", default=str(root / "data" / "schema.json"))
 
     ap.add_argument("--backend", choices=["openai_compat", "vllm_local"], default="openai_compat")
+    ap.add_argument(
+        "--provider",
+        choices=PROVIDER_CHOICES,
+        default="local_vllm",
+        help="Provider preset for backend=openai_compat (gemini/openai/openrouter/etc).",
+    )
+    ap.add_argument(
+        "--api-key-env",
+        default="",
+        help="Environment variable name to read API key from (overrides provider default env).",
+    )
 
     # OpenAI-compatible backend args
-    ap.add_argument("--api-base", default="http://127.0.0.1:8000/v1")
+    ap.add_argument("--api-base", default=default_api_base)
     ap.add_argument("--api-key", default="dummy")
-    ap.add_argument("--model-name", default="gemma-3-27b-local")
+    ap.add_argument("--model-name", default=default_model_name)
     ap.add_argument("--use-pydantic-schema", type=int, default=1)
     ap.add_argument("--logprob-mode", choices=["structured", "none"], default="structured")
     ap.add_argument("--timeout", type=float, default=120.0)
@@ -94,7 +109,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument(
         "--synth-evidence-per-decomp",
         type=int,
-        default=2,
+        default=5,
         help="How many retrieved examples to include per decomposed query in synthesis prompt",
     )
     ap.add_argument(
@@ -207,7 +222,13 @@ def load_schema_text(path: Optional[str]) -> str:
     return json.dumps(obj, ensure_ascii=False, indent=2)
 
 
-def render_base_prompt(base_prompt: str, schema_text: str, question: str) -> str:
+def render_base_prompt(
+    base_prompt: str,
+    schema_text: str,
+    question: str,
+    retrieved_questions_text: str = "",
+    retrieved_sql_text: str = "",
+) -> str:
     q = (question or "").strip()
 
     if base_prompt.strip():
@@ -231,6 +252,12 @@ def render_base_prompt(base_prompt: str, schema_text: str, question: str) -> str
         prompt = prompt.replace("{Question}", q)
     else:
         prompt = f"{prompt}\n\nQuestion: {q}\nGenerate SQL:"
+
+    if "{RETRIEVED_QUESTIONS}" in prompt:
+        prompt = prompt.replace("{RETRIEVED_QUESTIONS}", (retrieved_questions_text or "").strip() or "- (none)")
+
+    if "{RETRIEVED_SQL}" in prompt:
+        prompt = prompt.replace("{RETRIEVED_SQL}", (retrieved_sql_text or "").strip() or "-- (none)")
 
     return prompt
 
@@ -280,6 +307,62 @@ def extract_where_clause(sql: str) -> str:
     return where_body
 
 
+def build_retrieved_placeholder_blocks(
+    *,
+    retrieval_by_decomposition: Sequence[Dict[str, Any]],
+    ranked_results: Sequence[Dict[str, Any]],
+    evidence_per_decomp: int,
+) -> tuple[str, str]:
+    q_lines: List[str] = []
+    sql_blocks: List[str] = []
+    seen: set[str] = set()
+
+    def add_candidate(candidate: Dict[str, Any], label: str) -> None:
+        c_question = str(candidate.get("question") or "").strip()
+        c_sql = str(candidate.get("sql") or "").strip()
+        if not c_question and not c_sql:
+            return
+
+        c_id = str(candidate.get("candidate_id") or "").strip()
+        key = c_id or f"{c_question}\n{c_sql}"
+        if key in seen:
+            return
+        seen.add(key)
+
+        if c_question:
+            q_lines.append(f"- [{label}] {c_question}")
+        if c_sql:
+            sql_blocks.append(f"-- {label}\n{c_sql}")
+
+    # Highest-priority evidence: globally merged ranking from retrieval stage.
+    for i, m in enumerate(ranked_results, start=1):
+        if not isinstance(m, dict):
+            continue
+        candidate = m.get("candidate") if isinstance(m.get("candidate"), dict) else {}
+        score = match_score_obj(m)
+        add_candidate(candidate, f"global rank {i} | score {score:.4f}")
+
+    # Add extra per-decomposition matches (if not already included globally).
+    top_n = max(1, int(evidence_per_decomp))
+    for group in retrieval_by_decomposition:
+        if not isinstance(group, dict):
+            continue
+        dq = str(group.get("decomposed_query") or "").strip()
+        ranked_for_dq = group.get("ranked_results") if isinstance(group.get("ranked_results"), list) else []
+        ranked_for_dq = ranked_for_dq[:top_n]
+        for j, one in enumerate(ranked_for_dq, start=1):
+            if not isinstance(one, dict):
+                continue
+            candidate = one.get("candidate") if isinstance(one.get("candidate"), dict) else {}
+            score = match_score_obj(one)
+            label = f"{dq} | top {j} | score {score:.4f}" if dq else f"top {j} | score {score:.4f}"
+            add_candidate(candidate, label)
+
+    retrieved_questions_text = "\n".join(q_lines) if q_lines else "- (none)"
+    retrieved_sql_text = "\n\n".join(sql_blocks) if sql_blocks else "-- (none)"
+    return retrieved_questions_text, retrieved_sql_text
+
+
 def build_synthesis_messages(
     *,
     question: str,
@@ -293,7 +376,19 @@ def build_synthesis_messages(
     include_global_merged: bool,
     where_only_evidence: bool,
 ) -> List[Dict[str, str]]:
-    base = render_base_prompt(base_prompt=base_prompt, schema_text=schema_text, question=question)
+    uses_retrieved_placeholders = "{RETRIEVED_QUESTIONS}" in base_prompt or "{RETRIEVED_SQL}" in base_prompt
+    retrieved_questions_text, retrieved_sql_text = build_retrieved_placeholder_blocks(
+        retrieval_by_decomposition=retrieval_by_decomposition,
+        ranked_results=ranked_results,
+        evidence_per_decomp=evidence_per_decomp,
+    )
+    base = render_base_prompt(
+        base_prompt=base_prompt,
+        schema_text=schema_text,
+        question=question,
+        retrieved_questions_text=retrieved_questions_text,
+        retrieved_sql_text=retrieved_sql_text,
+    )
 
     decomp_block = "\n".join([f"- {q}" for q in decomposed_queries]) if decomposed_queries else "- (none)"
 
@@ -365,15 +460,21 @@ def build_synthesis_messages(
         else ""
     )
 
+    retrieval_fallback = (
+        f"Per-decomposed-query top matched seed question+SQL (top {top_n} per decomposition):\n"
+        f"{per_decomp_text}\n\n"
+        f"{global_block}"
+        if not uses_retrieved_placeholders
+        else ""
+    )
+
     user = (
         f"{base}\n\n"
         "Parent question:\n"
         f"{question}\n\n"
         "Decomposed sub-questions used for retrieval:\n"
         f"{decomp_block}\n\n"
-        f"Per-decomposed-query top matched seed question+SQL (top {top_n} per decomposition):\n"
-        f"{per_decomp_text}\n\n"
-        f"{global_block}"
+        f"{retrieval_fallback}"
         "Synthesize one best final SQL query for the original question.\n"
         "Use retrieved examples as structural hints; do not copy wrong literals from unrelated seeds.\n"
         f"{out_instruction}\n"
@@ -1012,6 +1113,21 @@ def main() -> None:
     root = Path(__file__).resolve().parent.parent
 
     if args.backend == "openai_compat":
+        try:
+            args.api_base, args.api_key, args.model_name, provider_meta = resolve_openai_compat(
+                provider=str(args.provider),
+                api_base=str(args.api_base),
+                api_key=str(args.api_key),
+                model_name=str(args.model_name),
+                api_key_env=str(args.api_key_env),
+                local_default_api_base="http://127.0.0.1:8000/v1",
+                local_default_model_name="gemma-3-27b-local",
+            )
+            args.provider = str(provider_meta.get("provider") or args.provider)
+        except ValueError as e:  # noqa: BLE001
+            raise SystemExit(str(e))
+
+    if args.backend == "openai_compat":
         if OpenAI is None:
             raise RuntimeError("openai package is required for backend=openai_compat")
         if bool(int(args.use_pydantic_schema)):
@@ -1198,6 +1314,8 @@ def main() -> None:
             "schema_json": args.schema_json,
             "api_base": args.api_base if args.backend == "openai_compat" else None,
             "model_name": args.model_name if args.backend == "openai_compat" else None,
+            "provider": args.provider if args.backend == "openai_compat" else None,
+            "api_key_env": (str(args.api_key_env).strip() or None) if args.backend == "openai_compat" else None,
             "model_path": args.model_path if args.backend == "vllm_local" else None,
             "db_path": args.db_path,
             "skip_exec": int(args.skip_exec),

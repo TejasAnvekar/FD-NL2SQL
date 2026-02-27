@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "pipeline_stage": "synthesis_from_decomposition_retrieval",
+    "retrieval_json": "/mnt/data1/srchowd3/MAYO_AIM2/results/chatgpt_ready_pipeline/single_20260227_110427.decompose_retrieve.json",
+    "retrieval_meta": {
+      "backend": "openai_compat",
+      "question": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+      "question_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/natural_question_1500.json",
+      "question_index": 0,
+      "batch_mode": 0,
+      "start_index": 0,
+      "limit": 1,
+      "prompt_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/decompose_prompt.txt",
+      "schema_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/schema.json",
+      "decompose_examples_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/decompose_examples.txt",
+      "seed_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/seed_questions.json",
+      "candidate_json": null,
+      "candidate_sqlite": null,
+      "candidate_table": "query_library",
+      "top_k": 5,
+      "retrieval_per_decomp": 5,
+      "max_decomposed_queries": 8,
+      "sbert": {
+        "model": "/mnt/shared/shared_hf_home/hub/models--google--embeddinggemma-300m/snapshots/57c266a740f537b4dc058e1b0cda161fd15afa75",
+        "device": null,
+        "batch_size": 64
+      },
+      "api_base": "https://api.openai.com/v1",
+      "model_name": "gpt-5-nano",
+      "model_path": null,
+      "gen_batch_size": 32,
+      "batch_concurrency": 8,
+      "pipeline_stage": "decompose_then_retrieve"
+    },
+    "retrieval_contract": "expects per-decomposed top-k in retrieval_by_decomposition when available",
+    "backend": "openai_compat",
+    "prompt_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/synthesis_prompt.txt",
+    "schema_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/schema.json",
+    "api_base": "https://api.openai.com/v1",
+    "model_name": "gpt-5-nano",
+    "model_path": null,
+    "db_path": "/mnt/data1/srchowd3/MAYO_AIM2/data/database.db",
+    "skip_exec": 1,
+    "logprobs": 0,
+    "logprob_mode": "structured",
+    "use_pydantic_schema": true,
+    "synth_evidence_per_decomp": 5,
+    "synth_include_global_merged": false,
+    "synth_where_only_evidence": true,
+    "gen_batch_size": 32,
+    "batch_concurrency": 8,
+    "eval": {
+      "run_eval": 1,
+      "gt_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/natural_question_1500.json",
+      "eval_script": "/mnt/data1/srchowd3/MAYO_AIM2/eval_run_baselines_v2.py",
+      "eval_ready_json": "/mnt/data1/srchowd3/MAYO_AIM2/results/chatgpt_ready_pipeline/single_20260227_110427.eval_ready.json",
+      "eval_ready_jsonl": "/mnt/data1/srchowd3/MAYO_AIM2/results/chatgpt_ready_pipeline/single_20260227_110427.eval_ready.jsonl",
+      "eval_output_json": "/mnt/data1/srchowd3/MAYO_AIM2/results/chatgpt_ready_pipeline/single_20260227_110427.eval.json",
+      "eval_ran": true
+    },
+    "acceptance": {
+      "config_path": "/mnt/data1/srchowd3/MAYO_AIM2/method/decompose_method/seed_acceptance_rules.config",
+      "config_format": "seed_acceptance_rules.config",
+      "acceptance_output_json": "/mnt/data1/srchowd3/MAYO_AIM2/results/chatgpt_ready_pipeline/single_20260227_110427.acceptance.json"
+    }
+  },
+  "counts": {
+    "total_tasks": 1,
+    "error_tasks": 1,
+    "generated_nonempty_sql": 0,
+    "exec_ok": 0,
+    "with_confidence": 0
+  },
+  "eval_summary": {
+    "total_gt_items": 1500,
+    "total_pred_items": 0,
+    "evaluated_items": 1500,
+    "pred_with_sql": 0,
+    "pred_exec_ok": 0,
+    "gt_exec_ok": 0,
+    "exec_eval_ok": 0,
+    "exec_exact_match": 0,
+    "exec_exact_match_rate": 0.0,
+    "avg_sql_ast_similarity": null,
+    "avg_precision": 0.0,
+    "avg_recall": 0.0,
+    "avg_f1": 0.0,
+    "avg_row_jaccard": 0.0,
+    "avg_normalization_factor": 0.0,
+    "avg_column_alignment_score": 0.0,
+    "avg_chrf": null,
+    "avg_rouge_l_f1": null,
+    "avg_bertscore_f1": null,
+    "avg_pred_confidence": null,
+    "pred_limit_no_order": 0,
+    "gt_limit_no_order": 0
+  },
+  "acceptance_summary": {
+    "evaluated": 1500,
+    "accepted": 0,
+    "accepted_main_metric": 0,
+    "accepted_non_main": 0,
+    "rejected": 1500
+  },
+  "results": [
+    {
+      "task_index": 0,
+      "question_index": null,
+      "item_id": null,
+      "input_question": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+      "error": "Error code: 403 - {'error': {'message': 'You are not allowed to request logprobs from this model', 'type': 'invalid_request_error', 'param': None, 'code': None}}",
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?"
+        ],
+        "model_meta": {
+          "provider_call_ok": false,
+          "backend": "openai_compat"
+        },
+        "error": "Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+          "top1_candidate_id": "seed[9].query_3",
+          "top1_score": 0.897330105304718
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.897330105304718,
+              "sbert_score": 0.897330105304718,
+              "candidate": {
+                "candidate_id": "seed[9].query_3",
+                "question": "Which trials have Control arm equal to Multikinase inhibitor?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Control arm\" = 'Multikinase inhibitor';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8692147135734558,
+              "sbert_score": 0.8692147135734558,
+              "candidate": {
+                "candidate_id": "seed[149].query_3",
+                "question": "Among Melanoma trials with 3 or more arms, which used chemotherapy as control?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+                "parent_question": "Which Melanoma trials with 3 or more arms used chemotherapy as a control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8557604551315308,
+              "sbert_score": 0.8557604551315308,
+              "candidate": {
+                "candidate_id": "seed[9].query_4",
+                "question": "Which trials satisfy Name of ICI = Atezolizumab AND Cancer type = Colorectal AND Control arm = Multikinase inhibitor?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Cancer type\" = 'Colorectal' AND \"Control arm\" = 'Multikinase inhibitor';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8551058769226074,
+              "sbert_score": 0.8551058769226074,
+              "candidate": {
+                "candidate_id": "seed[64].query_3",
+                "question": "Among Melanoma trials with 3 or more arms, which have Chemo as the control arm?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+                "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8523867130279541,
+              "sbert_score": 0.8523867130279541,
+              "candidate": {
+                "candidate_id": "seed[64].query_2",
+                "question": "Among Melanoma trials, which have 3 or more arms?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3;",
+                "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.897330105304718,
+          "sbert_score": 0.897330105304718,
+          "candidate": {
+            "candidate_id": "seed[9].query_3",
+            "question": "Which trials have Control arm equal to Multikinase inhibitor?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Control arm\" = 'Multikinase inhibitor';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8692147135734558,
+          "sbert_score": 0.8692147135734558,
+          "candidate": {
+            "candidate_id": "seed[149].query_3",
+            "question": "Among Melanoma trials with 3 or more arms, which used chemotherapy as control?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+            "parent_question": "Which Melanoma trials with 3 or more arms used chemotherapy as a control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8557604551315308,
+          "sbert_score": 0.8557604551315308,
+          "candidate": {
+            "candidate_id": "seed[9].query_4",
+            "question": "Which trials satisfy Name of ICI = Atezolizumab AND Cancer type = Colorectal AND Control arm = Multikinase inhibitor?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Cancer type\" = 'Colorectal' AND \"Control arm\" = 'Multikinase inhibitor';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8551058769226074,
+          "sbert_score": 0.8551058769226074,
+          "candidate": {
+            "candidate_id": "seed[64].query_3",
+            "question": "Among Melanoma trials with 3 or more arms, which have Chemo as the control arm?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+            "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8523867130279541,
+          "sbert_score": 0.8523867130279541,
+          "candidate": {
+            "candidate_id": "seed[64].query_2",
+            "question": "Among Melanoma trials, which have 3 or more arms?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3;",
+            "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ],
+      "synthesized": {
+        "raw_text": "",
+        "final_sql": "",
+        "field_logprobs": {},
+        "field_confidence": {},
+        "confidence_overall": null,
+        "model_meta": {}
+      },
+      "execution_preview": {
+        "columns": [],
+        "rows": [],
+        "error": "Error code: 403 - {'error': {'message': 'You are not allowed to request logprobs from this model', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      }
+    }
+  ]
+}

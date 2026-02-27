@@ -36,6 +36,13 @@ from utils import (
     structured_logprob_payload,
 )
 
+
+def _choose_token_param_name(model_name: str) -> str:
+    m = (model_name or "").strip().lower()
+    if m.startswith(("gpt-5", "o1", "o3", "o4")):
+        return "max_completion_tokens"
+    return "max_tokens"
+
 try:
     from structured_logprobs import add_logprobs
 except Exception:
@@ -324,15 +331,34 @@ def generate_with_openai_compat(args: argparse.Namespace, messages: List[Dict[st
         "messages": messages,
         "temperature": float(args.temperature),
         "top_p": float(args.top_p),
-        "max_tokens": int(args.max_new_tokens),
         "timeout": float(args.timeout),
         "logprobs": args.logprob_mode == "structured",
     }
+    token_param = _choose_token_param_name(str(args.model_name))
+    if int(args.max_new_tokens) > 0:
+        req[token_param] = int(args.max_new_tokens)
 
     if bool(int(args.use_pydantic_schema)):
         req["response_format"] = build_response_schema_from_model(SQLOnlyResponse)
 
-    completion = client.chat.completions.create(**req)
+    try:
+        completion = client.chat.completions.create(**req)
+    except Exception as e:  # noqa: BLE001
+        msg = str(e or "").lower()
+        if "unsupported parameter" in msg:
+            swapped = dict(req)
+            if "max_tokens" in msg and "max_tokens" in swapped:
+                swapped.pop("max_tokens", None)
+                swapped["max_completion_tokens"] = int(args.max_new_tokens)
+                completion = client.chat.completions.create(**swapped)
+            elif "max_completion_tokens" in msg and "max_completion_tokens" in swapped:
+                swapped.pop("max_completion_tokens", None)
+                swapped["max_tokens"] = int(args.max_new_tokens)
+                completion = client.chat.completions.create(**swapped)
+            else:
+                raise
+        else:
+            raise
     raw_text = parse_openai_text(completion)
     model_meta: Dict[str, Any] = openai_completion_to_meta(completion)
 

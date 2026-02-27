@@ -1,0 +1,12 @@
+[
+  {
+    "task_index": 0,
+    "question_index": null,
+    "item_id": null,
+    "question": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+    "natural_question": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 403 - {'error': {'message': 'You are not allowed to request logprobs from this model', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+  }
+]

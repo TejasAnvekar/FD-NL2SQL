@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "backend": "openai_compat",
+    "question": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+    "question_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/natural_question_1500.json",
+    "question_index": 0,
+    "batch_mode": 0,
+    "start_index": 0,
+    "limit": 1,
+    "prompt_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/decompose_prompt.txt",
+    "schema_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/schema.json",
+    "decompose_examples_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/decompose_examples.txt",
+    "seed_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/seed_questions.json",
+    "candidate_json": null,
+    "candidate_sqlite": null,
+    "candidate_table": "query_library",
+    "top_k": 5,
+    "retrieval_per_decomp": 5,
+    "max_decomposed_queries": 8,
+    "sbert": {
+      "model": "/mnt/shared/shared_hf_home/hub/models--google--embeddinggemma-300m/snapshots/57c266a740f537b4dc058e1b0cda161fd15afa75",
+      "device": null,
+      "batch_size": 64
+    },
+    "api_base": "https://api.openai.com/v1",
+    "model_name": "gpt-5-nano",
+    "model_path": null,
+    "gen_batch_size": 32,
+    "batch_concurrency": 8,
+    "pipeline_stage": "decompose_then_retrieve"
+  },
+  "counts": {
+    "total_tasks": 1,
+    "error_tasks": 0,
+    "with_decomposition": 1,
+    "with_retrieval": 1
+  },
+  "results": [
+    {
+      "task_index": 0,
+      "question_index": null,
+      "item_id": null,
+      "input_question": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?"
+        ],
+        "model_meta": {
+          "provider_call_ok": false,
+          "backend": "openai_compat"
+        },
+        "error": "Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+          "top1_candidate_id": "seed[9].query_3",
+          "top1_score": 0.897330105304718
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Which colorectal trials had 3 or more arms and used multikinase inhibitor as control?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.897330105304718,
+              "sbert_score": 0.897330105304718,
+              "candidate": {
+                "candidate_id": "seed[9].query_3",
+                "question": "Which trials have Control arm equal to Multikinase inhibitor?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Control arm\" = 'Multikinase inhibitor';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8692147135734558,
+              "sbert_score": 0.8692147135734558,
+              "candidate": {
+                "candidate_id": "seed[149].query_3",
+                "question": "Among Melanoma trials with 3 or more arms, which used chemotherapy as control?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+                "parent_question": "Which Melanoma trials with 3 or more arms used chemotherapy as a control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8557604551315308,
+              "sbert_score": 0.8557604551315308,
+              "candidate": {
+                "candidate_id": "seed[9].query_4",
+                "question": "Which trials satisfy Name of ICI = Atezolizumab AND Cancer type = Colorectal AND Control arm = Multikinase inhibitor?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Cancer type\" = 'Colorectal' AND \"Control arm\" = 'Multikinase inhibitor';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8551058769226074,
+              "sbert_score": 0.8551058769226074,
+              "candidate": {
+                "candidate_id": "seed[64].query_3",
+                "question": "Among Melanoma trials with 3 or more arms, which have Chemo as the control arm?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+                "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8523867130279541,
+              "sbert_score": 0.8523867130279541,
+              "candidate": {
+                "candidate_id": "seed[64].query_2",
+                "question": "Among Melanoma trials, which have 3 or more arms?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3;",
+                "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.897330105304718,
+          "sbert_score": 0.897330105304718,
+          "candidate": {
+            "candidate_id": "seed[9].query_3",
+            "question": "Which trials have Control arm equal to Multikinase inhibitor?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Control arm\" = 'Multikinase inhibitor';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8692147135734558,
+          "sbert_score": 0.8692147135734558,
+          "candidate": {
+            "candidate_id": "seed[149].query_3",
+            "question": "Among Melanoma trials with 3 or more arms, which used chemotherapy as control?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+            "parent_question": "Which Melanoma trials with 3 or more arms used chemotherapy as a control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8557604551315308,
+          "sbert_score": 0.8557604551315308,
+          "candidate": {
+            "candidate_id": "seed[9].query_4",
+            "question": "Which trials satisfy Name of ICI = Atezolizumab AND Cancer type = Colorectal AND Control arm = Multikinase inhibitor?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Cancer type\" = 'Colorectal' AND \"Control arm\" = 'Multikinase inhibitor';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8551058769226074,
+          "sbert_score": 0.8551058769226074,
+          "candidate": {
+            "candidate_id": "seed[64].query_3",
+            "question": "Among Melanoma trials with 3 or more arms, which have Chemo as the control arm?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+            "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8523867130279541,
+          "sbert_score": 0.8523867130279541,
+          "candidate": {
+            "candidate_id": "seed[64].query_2",
+            "question": "Among Melanoma trials, which have 3 or more arms?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3;",
+            "parent_question": "Which Melanoma trials had 3 or more arms and used Chemo as a control?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    }
+  ]
+}

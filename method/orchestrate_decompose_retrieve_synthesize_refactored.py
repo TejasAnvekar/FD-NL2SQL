@@ -118,7 +118,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--api-base", default="https://api.openai.com/v1")
     ap.add_argument("--api-key", default="")
     ap.add_argument("--api-key-env", default="OPENAI_API_KEY")
-    ap.add_argument("--model-name", default="gpt-4.1-mini")
+    ap.add_argument("--model-name", default="gpt-5-nano")
     ap.add_argument("--timeout", type=float, default=120.0)
     ap.add_argument("--num-retries", type=int, default=3)
 
@@ -152,16 +152,28 @@ def parse_args() -> argparse.Namespace:
     # Wrapper/runtime
     ap.add_argument("--python-exe", default=sys.executable)
     ap.add_argument("--base-script", default=str(default_base_script))
-    ap.add_argument("--output-dir", default=str(root / "results" / "chatgpt_ready_pipeline"))
+    ap.add_argument("--output-dir", default=str(root / "results" / "chatgpt_ready_pipeline_v2"))
     ap.add_argument("--run-tag", default="")
     ap.add_argument("--skip-exec", type=int, default=1)
     ap.add_argument("--dry-run", type=int, default=0)
+
+    # Staged seed-growth mode (forwarded to base orchestrator for parity)
+    ap.add_argument("--staged-batch-mode", type=int, default=0)
+    ap.add_argument("--stage-size", type=int, default=500)
+    ap.add_argument("--stage-count", type=int, default=3)
+    ap.add_argument("--batch-root", default=str(root / "method" / "batch"))
+    ap.add_argument("--seed-copy-name", default="seed_working.json")
+    ap.add_argument("--append-accepted-to-seed", type=int, default=1)
+    ap.add_argument("--resume-staged", type=int, default=1)
+    ap.add_argument("--checkpoint-path", default="")
 
     return ap.parse_args()
 
 
 def main() -> None:
     args = parse_args()
+    if int(args.staged_batch_mode) == 1 and args.mode != "batch":
+        raise SystemExit("--staged-batch-mode=1 requires --mode batch")
 
     output_dir = Path(args.output_dir)
     if not bool(int(args.dry_run)):
@@ -294,7 +306,22 @@ def main() -> None:
         str(output_dir),
         "--run-tag",
         str(run_tag),
+        "--staged-batch-mode",
+        str(int(args.staged_batch_mode)),
+        "--stage-size",
+        str(int(args.stage_size)),
+        "--stage-count",
+        str(int(args.stage_count)),
+        "--batch-root",
+        str(args.batch_root),
+        "--seed-copy-name",
+        str(args.seed_copy_name),
+        "--append-accepted-to-seed",
+        str(int(args.append_accepted_to_seed)),
+        "--resume-staged",
+        str(int(args.resume_staged)),
     ])
+    _append(cmd, "--checkpoint-path", str(args.checkpoint_path))
 
     _append(cmd, "--sbert-device", args.sbert_device)
 

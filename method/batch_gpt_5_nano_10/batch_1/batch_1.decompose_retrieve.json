@@ -1,0 +1,1610 @@
+{
+  "meta": {
+    "backend": "openai_compat",
+    "question": null,
+    "question_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/natural_question_1500.json",
+    "question_index": 0,
+    "batch_mode": 1,
+    "start_index": 0,
+    "limit": 10,
+    "prompt_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/decompose_prompt.txt",
+    "schema_json": "/mnt/data1/srchowd3/MAYO_AIM2/data/schema.json",
+    "decompose_examples_file": "/mnt/data1/srchowd3/MAYO_AIM2/method/prompt/decompose_examples.txt",
+    "seed_json": "method/batch_gpt_5_nano_10/seeds/seed_working.json",
+    "candidate_json": null,
+    "candidate_sqlite": null,
+    "candidate_table": "query_library",
+    "top_k": 5,
+    "retrieval_per_decomp": 5,
+    "max_decomposed_queries": 8,
+    "sbert": {
+      "model": "/mnt/shared/shared_hf_home/hub/models--google--embeddinggemma-300m/snapshots/57c266a740f537b4dc058e1b0cda161fd15afa75",
+      "device": null,
+      "batch_size": 64
+    },
+    "api_base": "https://api.openai.com/v1",
+    "model_name": "gpt-5-nano",
+    "model_path": null,
+    "gen_batch_size": 32,
+    "batch_concurrency": 8,
+    "pipeline_stage": "decompose_then_retrieve"
+  },
+  "counts": {
+    "total_tasks": 10,
+    "error_tasks": 0,
+    "with_decomposition": 10,
+    "with_retrieval": 10
+  },
+  "results": [
+    {
+      "task_index": 0,
+      "question_index": 0,
+      "item_id": "line_1",
+      "input_question": "Which Colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Which Colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Which Colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+          "top1_candidate_id": "seed[9].query_3",
+          "top1_score": 0.872552216053009
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Which Colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.872552216053009,
+              "sbert_score": 0.872552216053009,
+              "candidate": {
+                "candidate_id": "seed[9].query_3",
+                "question": "Which trials have Control arm equal to Multikinase inhibitor?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Control arm\" = 'Multikinase inhibitor';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8652817606925964,
+              "sbert_score": 0.8652817606925964,
+              "candidate": {
+                "candidate_id": "seed[9].query_4",
+                "question": "Which trials satisfy Name of ICI = Atezolizumab AND Cancer type = Colorectal AND Control arm = Multikinase inhibitor?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Cancer type\" = 'Colorectal' AND \"Control arm\" = 'Multikinase inhibitor';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.863641083240509,
+              "sbert_score": 0.863641083240509,
+              "candidate": {
+                "candidate_id": "seed[149].query_3",
+                "question": "Among Melanoma trials with 3 or more arms, which used chemotherapy as control?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+                "parent_question": "Which Melanoma trials with 3 or more arms used chemotherapy as a control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8571512699127197,
+              "sbert_score": 0.8571512699127197,
+              "candidate": {
+                "candidate_id": "seed[95].query_2",
+                "question": "Colorectal cancer trials with Number of arms >= 4.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\" FROM clinical_trials WHERE \"Cancer type\" = 'Colorectal' AND \"Number of arms\" >= 4;",
+                "parent_question": "Find Colorectal cancer trials with at least 4 arms where the control treatment was Chemo/Anti-EGFR?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8506049811840057,
+              "sbert_score": 0.8506049811840057,
+              "candidate": {
+                "candidate_id": "seed[9].query_2",
+                "question": "Which trials have Cancer type equal to Colorectal?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Cancer type\" = 'Colorectal';",
+                "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.872552216053009,
+          "sbert_score": 0.872552216053009,
+          "candidate": {
+            "candidate_id": "seed[9].query_3",
+            "question": "Which trials have Control arm equal to Multikinase inhibitor?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Control arm\" = 'Multikinase inhibitor';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8652817606925964,
+          "sbert_score": 0.8652817606925964,
+          "candidate": {
+            "candidate_id": "seed[9].query_4",
+            "question": "Which trials satisfy Name of ICI = Atezolizumab AND Cancer type = Colorectal AND Control arm = Multikinase inhibitor?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Cancer type\" = 'Colorectal' AND \"Control arm\" = 'Multikinase inhibitor';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.863641083240509,
+          "sbert_score": 0.863641083240509,
+          "candidate": {
+            "candidate_id": "seed[149].query_3",
+            "question": "Among Melanoma trials with 3 or more arms, which used chemotherapy as control?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Number of arms\" >= 3 AND \"Control arm\" = 'Chemo';",
+            "parent_question": "Which Melanoma trials with 3 or more arms used chemotherapy as a control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8571512699127197,
+          "sbert_score": 0.8571512699127197,
+          "candidate": {
+            "candidate_id": "seed[95].query_2",
+            "question": "Colorectal cancer trials with Number of arms >= 4.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\" FROM clinical_trials WHERE \"Cancer type\" = 'Colorectal' AND \"Number of arms\" >= 4;",
+            "parent_question": "Find Colorectal cancer trials with at least 4 arms where the control treatment was Chemo/Anti-EGFR?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8506049811840057,
+          "sbert_score": 0.8506049811840057,
+          "candidate": {
+            "candidate_id": "seed[9].query_2",
+            "question": "Which trials have Cancer type equal to Colorectal?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Control arm\", \"Cancer type\", \"Trial name\" FROM clinical_trials WHERE \"Cancer type\" = 'Colorectal';",
+            "parent_question": "Which trials of Atezolizumab for Colorectal cancer used a multikinase inhibitor as the control?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 1,
+      "question_index": 1,
+      "item_id": "line_2",
+      "input_question": "Find clinical trials for renal cell cancer that used nivolumab in combination with other treatments?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Find clinical trials for renal cell cancer that used nivolumab in combination with other treatments?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Find clinical trials for renal cell cancer that used nivolumab in combination with other treatments?",
+          "top1_candidate_id": "seed[106].query_2",
+          "top1_score": 0.8781458139419556
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Find clinical trials for renal cell cancer that used nivolumab in combination with other treatments?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.8781458139419556,
+              "sbert_score": 0.8781458139419556,
+              "candidate": {
+                "candidate_id": "seed[106].query_2",
+                "question": "Which trials have Cancer type = 'Renal cell' and Type of combination = 'ICI+Chemo'?",
+                "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "Which renal cell cancer studies tested combinations of immunotherapy and chemotherapy, and what treatments were used?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8757364153862,
+              "sbert_score": 0.8757364153862,
+              "candidate": {
+                "candidate_id": "seed[157].query_1",
+                "question": "Which trials have Cancer type = 'Renal cell'?...",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+                "parent_question": "Which trials for Renal cell cancer used an mTOR inhibitor as the control arm?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8714830875396729,
+              "sbert_score": 0.8714830875396729,
+              "candidate": {
+                "candidate_id": "seed[167].query_1",
+                "question": "What trials have Cancer type = 'Renal cell'?",
+                "sql": "SELECT \"NCT\", \"Trial name\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+                "parent_question": "Which trials for Renal cell cancer used an mTOR inhibitor as the control treatment?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8695675134658813,
+              "sbert_score": 0.8695675134658813,
+              "candidate": {
+                "candidate_id": "seed[117].query_1",
+                "question": "What trials have Cancer type = 'Renal cell' ?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+                "parent_question": "List trials of Nivolumab and Ipilimumab for Renal cell cancer with overall follow-up longer than 21 months?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8695675134658813,
+              "sbert_score": 0.8695675134658813,
+              "candidate": {
+                "candidate_id": "seed[134].query_1",
+                "question": "What trials have Cancer type = 'Renal cell' ?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+                "parent_question": "Which renal cell cancer trials had at least 1 treatment arm and used an mTOR inhibitor as a control?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.8781458139419556,
+          "sbert_score": 0.8781458139419556,
+          "candidate": {
+            "candidate_id": "seed[106].query_2",
+            "question": "Which trials have Cancer type = 'Renal cell' and Type of combination = 'ICI+Chemo'?",
+            "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "Which renal cell cancer studies tested combinations of immunotherapy and chemotherapy, and what treatments were used?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8757364153862,
+          "sbert_score": 0.8757364153862,
+          "candidate": {
+            "candidate_id": "seed[157].query_1",
+            "question": "Which trials have Cancer type = 'Renal cell'?...",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+            "parent_question": "Which trials for Renal cell cancer used an mTOR inhibitor as the control arm?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8714830875396729,
+          "sbert_score": 0.8714830875396729,
+          "candidate": {
+            "candidate_id": "seed[167].query_1",
+            "question": "What trials have Cancer type = 'Renal cell'?",
+            "sql": "SELECT \"NCT\", \"Trial name\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+            "parent_question": "Which trials for Renal cell cancer used an mTOR inhibitor as the control treatment?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8695675134658813,
+          "sbert_score": 0.8695675134658813,
+          "candidate": {
+            "candidate_id": "seed[117].query_1",
+            "question": "What trials have Cancer type = 'Renal cell' ?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+            "parent_question": "List trials of Nivolumab and Ipilimumab for Renal cell cancer with overall follow-up longer than 21 months?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8695675134658813,
+          "sbert_score": 0.8695675134658813,
+          "candidate": {
+            "candidate_id": "seed[134].query_1",
+            "question": "What trials have Cancer type = 'Renal cell' ?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell';",
+            "parent_question": "Which renal cell cancer trials had at least 1 treatment arm and used an mTOR inhibitor as a control?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 2,
+      "question_index": 2,
+      "item_id": "line_3",
+      "input_question": "Show trials of CTLA-4 for non-small cell lung cancer that began in 2018 or later?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Show trials of CTLA-4 for non-small cell lung cancer that began in 2018 or later?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Show trials of CTLA-4 for non-small cell lung cancer that began in 2018 or later?",
+          "top1_candidate_id": "seed[30].query_2",
+          "top1_score": 0.9610854387283325
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Show trials of CTLA-4 for non-small cell lung cancer that began in 2018 or later?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.9610854387283325,
+              "sbert_score": 0.9610854387283325,
+              "candidate": {
+                "candidate_id": "seed[30].query_2",
+                "question": "What is the Year for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+                "sql": "SELECT \"Year\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+                "parent_question": "Show the author and year for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.9348312616348267,
+              "sbert_score": 0.9348312616348267,
+              "candidate": {
+                "candidate_id": "seed[30].query_1",
+                "question": "What is the Author for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+                "sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+                "parent_question": "Show the author and year for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.9283913969993591,
+              "sbert_score": 0.9283913969993591,
+              "candidate": {
+                "candidate_id": "seed[54].query_1",
+                "question": "What cancer types appear in CTLA-4 trials started in 2018 or later?",
+                "sql": "SELECT DISTINCT \"Cancer type\" FROM clinical_trials WHERE \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+                "parent_question": "Show the cancer type and trial phase for CTLA-4 treatments for prostate cancer that began in 2018 or later?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.9279370903968811,
+              "sbert_score": 0.9279370903968811,
+              "candidate": {
+                "candidate_id": "seed[54].query_2",
+                "question": "What trial phases are reported for prostate cancer CTLA-4 trials started in 2018 or later?",
+                "sql": "SELECT DISTINCT \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Prostate' AND \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+                "parent_question": "Show the cancer type and trial phase for CTLA-4 treatments for prostate cancer that began in 2018 or later?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.9096799492835999,
+              "sbert_score": 0.9096799492835999,
+              "candidate": {
+                "candidate_id": "seed[111].query_3",
+                "question": "Among renal cell cancer trials started in 2018 or later, which used CTLA-4 inhibitors?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Class of ICI\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Year\" >= 2018 AND \"Class of ICI\" = 'CTLA-4';",
+                "parent_question": "Show trials for renal cell cancer that used PD1 or CTLA-4 inhibitors and began in 2018 or later?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.9610854387283325,
+          "sbert_score": 0.9610854387283325,
+          "candidate": {
+            "candidate_id": "seed[30].query_2",
+            "question": "What is the Year for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+            "sql": "SELECT \"Year\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+            "parent_question": "Show the author and year for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.9348312616348267,
+          "sbert_score": 0.9348312616348267,
+          "candidate": {
+            "candidate_id": "seed[30].query_1",
+            "question": "What is the Author for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+            "sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+            "parent_question": "Show the author and year for Non-Small Cell Lung cancer trials testing CTLA-4 that began in 2018 or later?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.9283913969993591,
+          "sbert_score": 0.9283913969993591,
+          "candidate": {
+            "candidate_id": "seed[54].query_1",
+            "question": "What cancer types appear in CTLA-4 trials started in 2018 or later?",
+            "sql": "SELECT DISTINCT \"Cancer type\" FROM clinical_trials WHERE \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+            "parent_question": "Show the cancer type and trial phase for CTLA-4 treatments for prostate cancer that began in 2018 or later?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.9279370903968811,
+          "sbert_score": 0.9279370903968811,
+          "candidate": {
+            "candidate_id": "seed[54].query_2",
+            "question": "What trial phases are reported for prostate cancer CTLA-4 trials started in 2018 or later?",
+            "sql": "SELECT DISTINCT \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Prostate' AND \"Class of ICI\" = 'CTLA-4' AND \"Year\" >= 2018;",
+            "parent_question": "Show the cancer type and trial phase for CTLA-4 treatments for prostate cancer that began in 2018 or later?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.9096799492835999,
+          "sbert_score": 0.9096799492835999,
+          "candidate": {
+            "candidate_id": "seed[111].query_3",
+            "question": "Among renal cell cancer trials started in 2018 or later, which used CTLA-4 inhibitors?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Class of ICI\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Year\" >= 2018 AND \"Class of ICI\" = 'CTLA-4';",
+            "parent_question": "Show trials for renal cell cancer that used PD1 or CTLA-4 inhibitors and began in 2018 or later?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 3,
+      "question_index": 3,
+      "item_id": "line_4",
+      "input_question": "Which trials for Small Cell Lung cancer evaluated Ipilimumab in phase 3?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Which trials for Small Cell Lung cancer evaluated Ipilimumab in phase 3?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Which trials for Small Cell Lung cancer evaluated Ipilimumab in phase 3?",
+          "top1_candidate_id": "seed[65].query_1",
+          "top1_score": 0.8792837560176849
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Which trials for Small Cell Lung cancer evaluated Ipilimumab in phase 3?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.8792837560176849,
+              "sbert_score": 0.8792837560176849,
+              "candidate": {
+                "candidate_id": "seed[65].query_1",
+                "question": "What Phase 3 non-small cell lung cancer trials exist?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Trial phase\", \"Control arm\", \"Cancer type\", \"Name of ICI\", \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Which phase 3 trials for Non-Small Cell Lung cancer compared immunotherapy to an mTOR inhibitor, excluding trials with chemotherapy as the control arm?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8713441789150238,
+              "sbert_score": 0.8713441789150238,
+              "candidate": {
+                "candidate_id": "seed[39].query_1",
+                "question": "What Phase 3 trials for NSCLC exist?",
+                "sql": "SELECT \"NCT\", \"Trial name\" FROM clinical_trials WHERE \"Cancer type\" = 'NSCLC' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "What phase 3 trials for non-small cell lung cancer compared chemotherapy to a treatment regimen?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8712631464004517,
+              "sbert_score": 0.8712631464004517,
+              "candidate": {
+                "candidate_id": "seed[133].query_1",
+                "question": "Which trials evaluated Ipilimumab?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials WHERE \"Name of ICI\" = 'Ipilimumab';",
+                "parent_question": "Which clinical trials evaluated Ipilimumab for pancreatic cancer in phase 3?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8697597086429596,
+              "sbert_score": 0.8697597086429596,
+              "candidate": {
+                "candidate_id": "seed[65].query_2",
+                "question": "Among Phase 3 NSCLC trials, which ones include immunotherapy in the treatment regimen?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Trial phase\", \"Control arm\", \"Cancer type\", \"Name of ICI\", \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Trial phase\" = 'Phase 3' AND \"Name of ICI\" IS NOT NULL;",
+                "parent_question": "Which phase 3 trials for Non-Small Cell Lung cancer compared immunotherapy to an mTOR inhibitor, excluding trials with chemotherapy as the control arm?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8680639863014221,
+              "sbert_score": 0.8680639863014221,
+              "candidate": {
+                "candidate_id": "seed[97].query_1",
+                "question": "Phase 3 Nivolumab trials.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.8792837560176849,
+          "sbert_score": 0.8792837560176849,
+          "candidate": {
+            "candidate_id": "seed[65].query_1",
+            "question": "What Phase 3 non-small cell lung cancer trials exist?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Trial phase\", \"Control arm\", \"Cancer type\", \"Name of ICI\", \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Which phase 3 trials for Non-Small Cell Lung cancer compared immunotherapy to an mTOR inhibitor, excluding trials with chemotherapy as the control arm?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8713441789150238,
+          "sbert_score": 0.8713441789150238,
+          "candidate": {
+            "candidate_id": "seed[39].query_1",
+            "question": "What Phase 3 trials for NSCLC exist?",
+            "sql": "SELECT \"NCT\", \"Trial name\" FROM clinical_trials WHERE \"Cancer type\" = 'NSCLC' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "What phase 3 trials for non-small cell lung cancer compared chemotherapy to a treatment regimen?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8712631464004517,
+          "sbert_score": 0.8712631464004517,
+          "candidate": {
+            "candidate_id": "seed[133].query_1",
+            "question": "Which trials evaluated Ipilimumab?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials WHERE \"Name of ICI\" = 'Ipilimumab';",
+            "parent_question": "Which clinical trials evaluated Ipilimumab for pancreatic cancer in phase 3?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8697597086429596,
+          "sbert_score": 0.8697597086429596,
+          "candidate": {
+            "candidate_id": "seed[65].query_2",
+            "question": "Among Phase 3 NSCLC trials, which ones include immunotherapy in the treatment regimen?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Trial phase\", \"Control arm\", \"Cancer type\", \"Name of ICI\", \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Trial phase\" = 'Phase 3' AND \"Name of ICI\" IS NOT NULL;",
+            "parent_question": "Which phase 3 trials for Non-Small Cell Lung cancer compared immunotherapy to an mTOR inhibitor, excluding trials with chemotherapy as the control arm?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8680639863014221,
+          "sbert_score": 0.8680639863014221,
+          "candidate": {
+            "candidate_id": "seed[97].query_1",
+            "question": "Phase 3 Nivolumab trials.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 4,
+      "question_index": 4,
+      "item_id": "line_5",
+      "input_question": "Which trials evaluated Nivolumab and Ipilimumab in phase 3 for renal cell cancer?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Which trials evaluated Nivolumab and Ipilimumab in phase 3 for renal cell cancer?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Which trials evaluated Nivolumab and Ipilimumab in phase 3 for renal cell cancer?",
+          "top1_candidate_id": "seed[97].query_2",
+          "top1_score": 0.9409565925598145
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Which trials evaluated Nivolumab and Ipilimumab in phase 3 for renal cell cancer?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.9409565925598145,
+              "sbert_score": 0.9409565925598145,
+              "candidate": {
+                "candidate_id": "seed[97].query_2",
+                "question": "Phase 3 Nivolumab trials in Renal cell cancer.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3' AND \"Cancer type\" = 'Renal cell cancer';",
+                "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.9088564217090607,
+              "sbert_score": 0.9088564217090607,
+              "candidate": {
+                "candidate_id": "seed[97].query_3",
+                "question": "Phase 3 Nivolumab trials in Renal cell cancer with follow-up publication.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3' AND \"Originial publication or Follow-up\" = 'Follow-up';",
+                "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8957981467247009,
+              "sbert_score": 0.8957981467247009,
+              "candidate": {
+                "candidate_id": "seed[97].query_1",
+                "question": "Phase 3 Nivolumab trials.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8887359499931335,
+              "sbert_score": 0.8887359499931335,
+              "candidate": {
+                "candidate_id": "seed[87].query_3",
+                "question": "Among Tremelimumab trials for renal cell cancer, identify Phase 3 studies.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Renal cell cancer' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Find Phase 3 trials of Tremelimumab for renal cell cancer that were originally published?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8740839958190918,
+              "sbert_score": 0.8740839958190918,
+              "candidate": {
+                "candidate_id": "seed[74].query_1",
+                "question": "What are the NCT numbers for renal cell cancer trials using Nivolumab and Ipilimumab with overall follow-up > 21 months?",
+                "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;",
+                "parent_question": "List trials of Nivolumab and Ipilimumab for Renal cell cancer with overall follow-up exceeding 21 months?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.9409565925598145,
+          "sbert_score": 0.9409565925598145,
+          "candidate": {
+            "candidate_id": "seed[97].query_2",
+            "question": "Phase 3 Nivolumab trials in Renal cell cancer.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3' AND \"Cancer type\" = 'Renal cell cancer';",
+            "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.9088564217090607,
+          "sbert_score": 0.9088564217090607,
+          "candidate": {
+            "candidate_id": "seed[97].query_3",
+            "question": "Phase 3 Nivolumab trials in Renal cell cancer with follow-up publication.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3' AND \"Originial publication or Follow-up\" = 'Follow-up';",
+            "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8957981467247009,
+          "sbert_score": 0.8957981467247009,
+          "candidate": {
+            "candidate_id": "seed[97].query_1",
+            "question": "Phase 3 Nivolumab trials.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Find Phase 3 Nivolumab trials in Renal cell cancer that were follow-up publications?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8887359499931335,
+          "sbert_score": 0.8887359499931335,
+          "candidate": {
+            "candidate_id": "seed[87].query_3",
+            "question": "Among Tremelimumab trials for renal cell cancer, identify Phase 3 studies.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Renal cell cancer' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Find Phase 3 trials of Tremelimumab for renal cell cancer that were originally published?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8740839958190918,
+          "sbert_score": 0.8740839958190918,
+          "candidate": {
+            "candidate_id": "seed[74].query_1",
+            "question": "What are the NCT numbers for renal cell cancer trials using Nivolumab and Ipilimumab with overall follow-up > 21 months?",
+            "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;",
+            "parent_question": "List trials of Nivolumab and Ipilimumab for Renal cell cancer with overall follow-up exceeding 21 months?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 5,
+      "question_index": 5,
+      "item_id": "line_6",
+      "input_question": "What were the primary endpoints for Non-Small Cell Lung cancer studies testing combinations of immunotherapy and chemotherapy?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "What were the primary endpoints for Non-Small Cell Lung cancer studies testing combinations of immunotherapy and chemotherapy?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "What were the primary endpoints for Non-Small Cell Lung cancer studies testing combinations of immunotherapy and chemotherapy?",
+          "top1_candidate_id": "seed[88].query_2",
+          "top1_score": 0.8996044099330902
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "What were the primary endpoints for Non-Small Cell Lung cancer studies testing combinations of immunotherapy and chemotherapy?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.8996044099330902,
+              "sbert_score": 0.8996044099330902,
+              "candidate": {
+                "candidate_id": "seed[88].query_2",
+                "question": "For the same Small Cell Lung Cancer trials with Type of combination = 'ICI+ICI+Chemo', what are their Primary endpoints?",
+                "sql": "SELECT \"NCT\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Small Cell Lung Cancer' AND \"Type of combination\" = 'ICI+ICI+Chemo';",
+                "parent_question": "What Small Cell Lung studies tested combinations of immunotherapy plus immunotherapy plus chemotherapy, and what were their primary endpoints?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8842339515686035,
+              "sbert_score": 0.8842339515686035,
+              "candidate": {
+                "candidate_id": "seed[2].query_7",
+                "question": "What is the Primary endpoint for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "sql": "SELECT \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.881118893623352,
+              "sbert_score": 0.881118893623352,
+              "candidate": {
+                "candidate_id": "seed[191].query_2",
+                "question": "What were the primary endpoints for those NSCLC trials that used ICI+Chemo?",
+                "sql": "SELECT \"Author\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'NSCLC' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "Which non-small cell lung cancer studies tested immunotherapy plus chemotherapy combinations, and what were the primary endpoints?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8740575313568115,
+              "sbert_score": 0.8740575313568115,
+              "candidate": {
+                "candidate_id": "seed[161].query_1",
+                "question": "What are the NCT numbers of Non-Small Cell Lung cancer trials that used an ICI+ICI+Chemo combination?",
+                "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Type of combination\" = 'ICI+ICI+Chemo';",
+                "parent_question": "What are the study details, including the primary endpoint, for Non-Small Cell Lung cancer trials that used an ICI and vaccine combination, but had a different combination of ICI, ICI, and chemotherapy?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8697431087493896,
+              "sbert_score": 0.8697431087493896,
+              "candidate": {
+                "candidate_id": "seed[2].query_4",
+                "question": "What is the Type of combination for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "sql": "SELECT \"Type of combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.8996044099330902,
+          "sbert_score": 0.8996044099330902,
+          "candidate": {
+            "candidate_id": "seed[88].query_2",
+            "question": "For the same Small Cell Lung Cancer trials with Type of combination = 'ICI+ICI+Chemo', what are their Primary endpoints?",
+            "sql": "SELECT \"NCT\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Small Cell Lung Cancer' AND \"Type of combination\" = 'ICI+ICI+Chemo';",
+            "parent_question": "What Small Cell Lung studies tested combinations of immunotherapy plus immunotherapy plus chemotherapy, and what were their primary endpoints?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8842339515686035,
+          "sbert_score": 0.8842339515686035,
+          "candidate": {
+            "candidate_id": "seed[2].query_7",
+            "question": "What is the Primary endpoint for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "sql": "SELECT \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.881118893623352,
+          "sbert_score": 0.881118893623352,
+          "candidate": {
+            "candidate_id": "seed[191].query_2",
+            "question": "What were the primary endpoints for those NSCLC trials that used ICI+Chemo?",
+            "sql": "SELECT \"Author\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'NSCLC' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "Which non-small cell lung cancer studies tested immunotherapy plus chemotherapy combinations, and what were the primary endpoints?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8740575313568115,
+          "sbert_score": 0.8740575313568115,
+          "candidate": {
+            "candidate_id": "seed[161].query_1",
+            "question": "What are the NCT numbers of Non-Small Cell Lung cancer trials that used an ICI+ICI+Chemo combination?",
+            "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Type of combination\" = 'ICI+ICI+Chemo';",
+            "parent_question": "What are the study details, including the primary endpoint, for Non-Small Cell Lung cancer trials that used an ICI and vaccine combination, but had a different combination of ICI, ICI, and chemotherapy?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8697431087493896,
+          "sbert_score": 0.8697431087493896,
+          "candidate": {
+            "candidate_id": "seed[2].query_4",
+            "question": "What is the Type of combination for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "sql": "SELECT \"Type of combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 6,
+      "question_index": 6,
+      "item_id": "line_7",
+      "input_question": "What are the study details, including primary endpoints, for breast cancer trials testing immunotherapy plus chemotherapy?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "What are the study details, including primary endpoints, for breast cancer trials testing immunotherapy plus chemotherapy?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "What are the study details, including primary endpoints, for breast cancer trials testing immunotherapy plus chemotherapy?",
+          "top1_candidate_id": "seed[2].query_7",
+          "top1_score": 0.8848658800125122
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "What are the study details, including primary endpoints, for breast cancer trials testing immunotherapy plus chemotherapy?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.8848658800125122,
+              "sbert_score": 0.8848658800125122,
+              "candidate": {
+                "candidate_id": "seed[2].query_7",
+                "question": "What is the Primary endpoint for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "sql": "SELECT \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.8584696054458618,
+              "sbert_score": 0.8584696054458618,
+              "candidate": {
+                "candidate_id": "seed[191].query_1",
+                "question": "Which NSCLC trials used immunotherapy plus chemotherapy (ICI+Chemo)? Provide NCT, Trial name, and Author.",
+                "sql": "SELECT \"NCT\", \"Trial name\", \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'NSCLC' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "Which non-small cell lung cancer studies tested immunotherapy plus chemotherapy combinations, and what were the primary endpoints?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8569684326648712,
+              "sbert_score": 0.8569684326648712,
+              "candidate": {
+                "candidate_id": "seed[2].query_6",
+                "question": "What is the Treatment regimen for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "sql": "SELECT \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8542720973491669,
+              "sbert_score": 0.8542720973491669,
+              "candidate": {
+                "candidate_id": "seed[155].query_2",
+                "question": "Show breast cancer trials that used combination treatment.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Breast' AND \"Monotherapy/combination\" = 'Combination';",
+                "parent_question": "Show trials for breast cancer that used combination treatment and had at least 2 prior lines of therapy?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8540605306625366,
+              "sbert_score": 0.8540605306625366,
+              "candidate": {
+                "candidate_id": "seed[2].query_4",
+                "question": "What is the Type of combination for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "sql": "SELECT \"Type of combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+                "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.8848658800125122,
+          "sbert_score": 0.8848658800125122,
+          "candidate": {
+            "candidate_id": "seed[2].query_7",
+            "question": "What is the Primary endpoint for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "sql": "SELECT \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.8584696054458618,
+          "sbert_score": 0.8584696054458618,
+          "candidate": {
+            "candidate_id": "seed[191].query_1",
+            "question": "Which NSCLC trials used immunotherapy plus chemotherapy (ICI+Chemo)? Provide NCT, Trial name, and Author.",
+            "sql": "SELECT \"NCT\", \"Trial name\", \"Author\" FROM clinical_trials WHERE \"Cancer type\" = 'NSCLC' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "Which non-small cell lung cancer studies tested immunotherapy plus chemotherapy combinations, and what were the primary endpoints?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8569684326648712,
+          "sbert_score": 0.8569684326648712,
+          "candidate": {
+            "candidate_id": "seed[2].query_6",
+            "question": "What is the Treatment regimen for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "sql": "SELECT \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8542720973491669,
+          "sbert_score": 0.8542720973491669,
+          "candidate": {
+            "candidate_id": "seed[155].query_2",
+            "question": "Show breast cancer trials that used combination treatment.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Lines of treatment\", \"Monotherapy/combination\", \"Cancer type\", \"Type of combination\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Breast' AND \"Monotherapy/combination\" = 'Combination';",
+            "parent_question": "Show trials for breast cancer that used combination treatment and had at least 2 prior lines of therapy?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8540605306625366,
+          "sbert_score": 0.8540605306625366,
+          "candidate": {
+            "candidate_id": "seed[2].query_4",
+            "question": "What is the Type of combination for those Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "sql": "SELECT \"Type of combination\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Type of combination\" = 'ICI+Chemo';",
+            "parent_question": "What are the study details, including the primary endpoint, for Urothelial cancer trials testing immune checkpoint inhibitors plus chemotherapy?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 7,
+      "question_index": 7,
+      "item_id": "line_8",
+      "input_question": "Find Bladder cancer trials using PD1 where PD‑L1 positivity was not an inclusion criterion?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Find Bladder cancer trials using PD1 where PD‑L1 positivity was not an inclusion criterion?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Find Bladder cancer trials using PD1 where PD‑L1 positivity was not an inclusion criterion?",
+          "top1_candidate_id": "seed[42].query_2",
+          "top1_score": 0.9228790104389191
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Find Bladder cancer trials using PD1 where PD‑L1 positivity was not an inclusion criterion?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.9228790104389191,
+              "sbert_score": 0.9228790104389191,
+              "candidate": {
+                "candidate_id": "seed[42].query_2",
+                "question": "Among bladder cancer trials, which do not require PD-L1 as a biomarker for inclusion?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.9211897253990173,
+              "sbert_score": 0.9211897253990173,
+              "candidate": {
+                "candidate_id": "seed[91].query_2",
+                "question": "Among urothelial cancer trials, which do not require PD-L1 positivity inclusion criteria?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Is PD-L1 positivity inclusion criteria\", \"Cancer type\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "List trials for Urothelial cancer that do not require PD‑L1 as an inclusion biomarker?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8945772051811218,
+              "sbert_score": 0.8945772051811218,
+              "candidate": {
+                "candidate_id": "seed[4].query_3",
+                "question": "Among Melanoma trials using PD1, which have 'Is PD-L1 positivity inclusion criteria' = 'No'?",
+                "sql": "SELECT \"Originial publication or Follow-up\", \"Class of ICI\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Class of ICI\" = 'PD1' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "Show trials for Melanoma using PD1 that did not require PD-L1 positivity for inclusion?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8830603361129761,
+              "sbert_score": 0.8830603361129761,
+              "candidate": {
+                "candidate_id": "seed[182].query_3",
+                "question": "What trials have Is PD-L1 positivity inclusion criteria equal to 'No'?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\", \"Class of ICI\", \"Cancer type\", \"Name of ICI\", \"Trial phase\" FROM clinical_trials WHERE \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "Show trials for Melanoma using PD-L1 and CTLA-4 where PD-L1 positivity was not an inclusion criterion?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8825259208679199,
+              "sbert_score": 0.8825259208679199,
+              "candidate": {
+                "candidate_id": "seed[112].query_3",
+                "question": "What trials have Is PD-L1 positivity inclusion criteria equal to No?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\", \"Class of ICI\", \"Cancer type\", \"Name of ICI\", \"Trial phase\" FROM clinical_trials WHERE \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "Show trials for Small Cell Lung cancer using PD-L1 and CTLA-4 where PD-L1 positivity was not an inclusion criterion?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.9228790104389191,
+          "sbert_score": 0.9228790104389191,
+          "candidate": {
+            "candidate_id": "seed[42].query_2",
+            "question": "Among bladder cancer trials, which do not require PD-L1 as a biomarker for inclusion?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.9211897253990173,
+          "sbert_score": 0.9211897253990173,
+          "candidate": {
+            "candidate_id": "seed[91].query_2",
+            "question": "Among urothelial cancer trials, which do not require PD-L1 positivity inclusion criteria?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Is PD-L1 positivity inclusion criteria\", \"Cancer type\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "List trials for Urothelial cancer that do not require PD‑L1 as an inclusion biomarker?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8945772051811218,
+          "sbert_score": 0.8945772051811218,
+          "candidate": {
+            "candidate_id": "seed[4].query_3",
+            "question": "Among Melanoma trials using PD1, which have 'Is PD-L1 positivity inclusion criteria' = 'No'?",
+            "sql": "SELECT \"Originial publication or Follow-up\", \"Class of ICI\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Class of ICI\" = 'PD1' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "Show trials for Melanoma using PD1 that did not require PD-L1 positivity for inclusion?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8830603361129761,
+          "sbert_score": 0.8830603361129761,
+          "candidate": {
+            "candidate_id": "seed[182].query_3",
+            "question": "What trials have Is PD-L1 positivity inclusion criteria equal to 'No'?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\", \"Class of ICI\", \"Cancer type\", \"Name of ICI\", \"Trial phase\" FROM clinical_trials WHERE \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "Show trials for Melanoma using PD-L1 and CTLA-4 where PD-L1 positivity was not an inclusion criterion?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8825259208679199,
+          "sbert_score": 0.8825259208679199,
+          "candidate": {
+            "candidate_id": "seed[112].query_3",
+            "question": "What trials have Is PD-L1 positivity inclusion criteria equal to No?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\", \"Class of ICI\", \"Cancer type\", \"Name of ICI\", \"Trial phase\" FROM clinical_trials WHERE \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "Show trials for Small Cell Lung cancer using PD-L1 and CTLA-4 where PD-L1 positivity was not an inclusion criterion?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 8,
+      "question_index": 8,
+      "item_id": "line_9",
+      "input_question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+          "top1_candidate_id": "seed[42].query_2",
+          "top1_score": 0.978771835565567
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.978771835565567,
+              "sbert_score": 0.978771835565567,
+              "candidate": {
+                "candidate_id": "seed[42].query_2",
+                "question": "Among bladder cancer trials, which do not require PD-L1 as a biomarker for inclusion?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.9308537542819977,
+              "sbert_score": 0.9308537542819977,
+              "candidate": {
+                "candidate_id": "seed[91].query_2",
+                "question": "Among urothelial cancer trials, which do not require PD-L1 positivity inclusion criteria?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Is PD-L1 positivity inclusion criteria\", \"Cancer type\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+                "parent_question": "List trials for Urothelial cancer that do not require PD‑L1 as an inclusion biomarker?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.8833067417144775,
+              "sbert_score": 0.8833067417144775,
+              "candidate": {
+                "candidate_id": "seed[132].query_1",
+                "question": "What are the NCT numbers of bladder cancer trials that used PD-L1 agents and Included in MA = Yes?",
+                "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Class of ICI\" = 'PD-L1' AND \"Included in MA\" = 'Yes';",
+                "parent_question": "Show the details of bladder cancer studies included in a meta-analysis that used PD-L1 agents?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.8792890310287476,
+              "sbert_score": 0.8792890310287476,
+              "candidate": {
+                "candidate_id": "seed[35].query_4",
+                "question": "Which trials satisfy all constraints: bladder cancer, at least 4 arms, and chemotherapy as control?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Number of arms\" >= 4 AND \"Control arm\" = 'Chemo';",
+                "parent_question": "Which trials for bladder cancer had at least 4 arms and used chemotherapy as a control?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8761877715587616,
+              "sbert_score": 0.8761877715587616,
+              "candidate": {
+                "candidate_id": "seed[35].query_1",
+                "question": "What bladder cancer trials exist?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder';",
+                "parent_question": "Which trials for bladder cancer had at least 4 arms and used chemotherapy as a control?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.978771835565567,
+          "sbert_score": 0.978771835565567,
+          "candidate": {
+            "candidate_id": "seed[42].query_2",
+            "question": "Among bladder cancer trials, which do not require PD-L1 as a biomarker for inclusion?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Is PD-L1 positivity inclusion criteria\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.9308537542819977,
+          "sbert_score": 0.9308537542819977,
+          "candidate": {
+            "candidate_id": "seed[91].query_2",
+            "question": "Among urothelial cancer trials, which do not require PD-L1 positivity inclusion criteria?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Is PD-L1 positivity inclusion criteria\", \"Cancer type\", \"Primary endpoint\" FROM clinical_trials WHERE \"Cancer type\" = 'Urothelial' AND \"Is PD-L1 positivity inclusion criteria\" = 'No';",
+            "parent_question": "List trials for Urothelial cancer that do not require PD‑L1 as an inclusion biomarker?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.8833067417144775,
+          "sbert_score": 0.8833067417144775,
+          "candidate": {
+            "candidate_id": "seed[132].query_1",
+            "question": "What are the NCT numbers of bladder cancer trials that used PD-L1 agents and Included in MA = Yes?",
+            "sql": "SELECT \"NCT\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Class of ICI\" = 'PD-L1' AND \"Included in MA\" = 'Yes';",
+            "parent_question": "Show the details of bladder cancer studies included in a meta-analysis that used PD-L1 agents?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.8792890310287476,
+          "sbert_score": 0.8792890310287476,
+          "candidate": {
+            "candidate_id": "seed[35].query_4",
+            "question": "Which trials satisfy all constraints: bladder cancer, at least 4 arms, and chemotherapy as control?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Number of arms\", \"Control arm\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Number of arms\" >= 4 AND \"Control arm\" = 'Chemo';",
+            "parent_question": "Which trials for bladder cancer had at least 4 arms and used chemotherapy as a control?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8761877715587616,
+          "sbert_score": 0.8761877715587616,
+          "candidate": {
+            "candidate_id": "seed[35].query_1",
+            "question": "What bladder cancer trials exist?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder';",
+            "parent_question": "Which trials for bladder cancer had at least 4 arms and used chemotherapy as a control?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    },
+    {
+      "task_index": 9,
+      "question_index": 9,
+      "item_id": "line_10",
+      "input_question": "Which clinical trials evaluated Tremelimumab for Melanoma in phase 3?",
+      "error": null,
+      "decomposition": {
+        "raw_text": "",
+        "decomposed_queries": [
+          "Which clinical trials evaluated Tremelimumab for Melanoma in phase 3?"
+        ],
+        "model_meta": {
+          "provider_call_ok": true,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids_len": 384,
+          "backend": "openai_compat"
+        },
+        "error": "FAILED_TO_PARSE_DECOMPOSITION"
+      },
+      "retrieval_trace": [
+        {
+          "decomposed_query": "Which clinical trials evaluated Tremelimumab for Melanoma in phase 3?",
+          "top1_candidate_id": "seed[127].query_3",
+          "top1_score": 0.9476884603500366
+        }
+      ],
+      "retrieval_by_decomposition": [
+        {
+          "decomposed_query": "Which clinical trials evaluated Tremelimumab for Melanoma in phase 3?",
+          "ranked_results": [
+            {
+              "rank": 1,
+              "total_score": 0.9476884603500366,
+              "sbert_score": 0.9476884603500366,
+              "candidate": {
+                "candidate_id": "seed[127].query_3",
+                "question": "Among Tremelimumab trials with Melanoma, which are Phase 3?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Melanoma' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Find Phase 3 Tremelimumab trials for Melanoma that were originally published?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 2,
+              "total_score": 0.9239360690116882,
+              "sbert_score": 0.9239360690116882,
+              "candidate": {
+                "candidate_id": "seed[153].query_2",
+                "question": "What Melanoma trials have Phase 3?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Find Phase 3 Ipilimumab trials in Melanoma that were follow-up publications?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 3,
+              "total_score": 0.9229650795459747,
+              "sbert_score": 0.9229650795459747,
+              "candidate": {
+                "candidate_id": "seed[127].query_4",
+                "question": "Among Tremelimumab trials with Melanoma that are Phase 3, which were Original publication?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Melanoma' AND \"Trial phase\" = 'Phase 3' AND \"Originial publication or Follow-up\" = 'Original publication';",
+                "parent_question": "Find Phase 3 Tremelimumab trials for Melanoma that were originally published?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 4,
+              "total_score": 0.9185204207897186,
+              "sbert_score": 0.9185204207897186,
+              "candidate": {
+                "candidate_id": "seed[87].query_3",
+                "question": "Among Tremelimumab trials for renal cell cancer, identify Phase 3 studies.",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Renal cell cancer' AND \"Trial phase\" = 'Phase 3';",
+                "parent_question": "Find Phase 3 trials of Tremelimumab for renal cell cancer that were originally published?",
+                "source": "seed_json/decomposed"
+              }
+            },
+            {
+              "rank": 5,
+              "total_score": 0.8918197154998779,
+              "sbert_score": 0.8918197154998779,
+              "candidate": {
+                "candidate_id": "seed[87].query_4",
+                "question": "Among Tremelimumab Phase 3 renal cell cancer trials, which were originally published?",
+                "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Renal cell cancer' AND \"Trial phase\" = 'Phase 3' AND \"Originial publication or Follow-up\" = 'Originial publication';",
+                "parent_question": "Find Phase 3 trials of Tremelimumab for renal cell cancer that were originally published?",
+                "source": "seed_json/decomposed"
+              }
+            }
+          ]
+        }
+      ],
+      "ranked_results": [
+        {
+          "rank": 1,
+          "total_score": 0.9476884603500366,
+          "sbert_score": 0.9476884603500366,
+          "candidate": {
+            "candidate_id": "seed[127].query_3",
+            "question": "Among Tremelimumab trials with Melanoma, which are Phase 3?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Melanoma' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Find Phase 3 Tremelimumab trials for Melanoma that were originally published?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 2,
+          "total_score": 0.9239360690116882,
+          "sbert_score": 0.9239360690116882,
+          "candidate": {
+            "candidate_id": "seed[153].query_2",
+            "question": "What Melanoma trials have Phase 3?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Find Phase 3 Ipilimumab trials in Melanoma that were follow-up publications?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 3,
+          "total_score": 0.9229650795459747,
+          "sbert_score": 0.9229650795459747,
+          "candidate": {
+            "candidate_id": "seed[127].query_4",
+            "question": "Among Tremelimumab trials with Melanoma that are Phase 3, which were Original publication?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Melanoma' AND \"Trial phase\" = 'Phase 3' AND \"Originial publication or Follow-up\" = 'Original publication';",
+            "parent_question": "Find Phase 3 Tremelimumab trials for Melanoma that were originally published?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 4,
+          "total_score": 0.9185204207897186,
+          "sbert_score": 0.9185204207897186,
+          "candidate": {
+            "candidate_id": "seed[87].query_3",
+            "question": "Among Tremelimumab trials for renal cell cancer, identify Phase 3 studies.",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Renal cell cancer' AND \"Trial phase\" = 'Phase 3';",
+            "parent_question": "Find Phase 3 trials of Tremelimumab for renal cell cancer that were originally published?",
+            "source": "seed_json/decomposed"
+          }
+        },
+        {
+          "rank": 5,
+          "total_score": 0.8918197154998779,
+          "sbert_score": 0.8918197154998779,
+          "candidate": {
+            "candidate_id": "seed[87].query_4",
+            "question": "Among Tremelimumab Phase 3 renal cell cancer trials, which were originally published?",
+            "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Trial phase\", \"Cancer type\" FROM clinical_trials WHERE \"Name of ICI\" = 'Tremelimumab' AND \"Cancer type\" = 'Renal cell cancer' AND \"Trial phase\" = 'Phase 3' AND \"Originial publication or Follow-up\" = 'Originial publication';",
+            "parent_question": "Find Phase 3 trials of Tremelimumab for renal cell cancer that were originally published?",
+            "source": "seed_json/decomposed"
+          }
+        }
+      ]
+    }
+  ]
+}

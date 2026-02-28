@@ -1,0 +1,25 @@
+{
+  "mode": "staged_batch_mode",
+  "stage_count": 1,
+  "stage_size": 10,
+  "initial_seed": "/mnt/data1/srchowd3/MAYO_AIM2/data/seed_questions.json",
+  "final_seed": "method/batch_gpt_5_nano_10/seeds/seed_after_batch_1.json",
+  "stages": [
+    {
+      "stage": 1,
+      "start_index": 0,
+      "limit": 10,
+      "end_index": 9,
+      "output_dir": "method/batch_gpt_5_nano_10/batch_1",
+      "decompose_json": "method/batch_gpt_5_nano_10/batch_1/batch_1.decompose_retrieve.json",
+      "synth_json": "method/batch_gpt_5_nano_10/batch_1/batch_1.synth.json",
+      "eval_output_json": "method/batch_gpt_5_nano_10/batch_1/batch_1.eval.json",
+      "acceptance_output_json": "method/batch_gpt_5_nano_10/batch_1/batch_1.acceptance.json",
+      "seed_in": "method/batch_gpt_5_nano_10/seeds/seed_working.json",
+      "seed_out": "method/batch_gpt_5_nano_10/seeds/seed_after_batch_1.json",
+      "accepted_rows": 0,
+      "seed_rows_added": 0,
+      "seed_rows_skipped_existing": 0
+    }
+  ]
+}

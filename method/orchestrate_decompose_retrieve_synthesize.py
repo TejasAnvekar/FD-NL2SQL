@@ -171,6 +171,17 @@ def parse_args() -> argparse.Namespace:
         default=1,
         help="1=append accepted (question,sql) to next stage seed copy",
     )
+    ap.add_argument(
+        "--resume-staged",
+        type=int,
+        default=1,
+        help="1=resume staged run from checkpoint if present under --batch-root",
+    )
+    ap.add_argument(
+        "--checkpoint-path",
+        default="",
+        help="Optional staged checkpoint path (defaults to <batch-root>/staged_pipeline_checkpoint.json)",
+    )
 
     return ap.parse_args()
 
@@ -191,6 +202,18 @@ def _run(cmd: List[str], *, dry_run: bool) -> None:
     proc = subprocess.run(cmd)
     if proc.returncode != 0:
         raise SystemExit(proc.returncode)
+
+
+def _read_json(path: Path) -> Dict[str, Any]:
+    obj = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(obj, dict):
+        raise SystemExit(f"Expected JSON object at {path}")
+    return obj
+
+
+def _write_json(path: Path, obj: Dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _norm_ws(s: str) -> str:
@@ -547,6 +570,11 @@ def main() -> None:
 
         batch_root = Path(args.batch_root)
         seeds_dir = batch_root / "seeds"
+        checkpoint_path = (
+            Path(args.checkpoint_path)
+            if str(args.checkpoint_path).strip()
+            else (batch_root / "staged_pipeline_checkpoint.json")
+        )
         if not bool(int(args.dry_run)):
             batch_root.mkdir(parents=True, exist_ok=True)
             seeds_dir.mkdir(parents=True, exist_ok=True)
@@ -556,13 +584,50 @@ def main() -> None:
         print("Staged mode root:", batch_root)
         print("Initial seed source:", seed_src)
         print("Initial working seed:", seed_working0)
-        if not bool(int(args.dry_run)):
+        print("Checkpoint path:", checkpoint_path)
+        if not bool(int(args.dry_run)) and not (bool(int(args.resume_staged)) and checkpoint_path.exists()):
             seed_working0.write_text(seed_src.read_text(encoding="utf-8"), encoding="utf-8")
 
         current_seed = seed_working0
         stage_manifest: List[Dict[str, Any]] = []
+        next_stage_idx = 1
 
-        for stage_idx in range(1, stage_count + 1):
+        if bool(int(args.resume_staged)) and not bool(int(args.dry_run)) and checkpoint_path.exists():
+            cp = _read_json(checkpoint_path)
+            cp_stages = cp.get("stages")
+            if isinstance(cp_stages, list):
+                stage_manifest = [s for s in cp_stages if isinstance(s, dict)]
+            cp_current_seed = str(cp.get("current_seed") or "").strip()
+            if cp_current_seed:
+                current_seed = Path(cp_current_seed)
+            last_completed = int(cp.get("last_completed_stage") or 0)
+            next_stage_idx = max(1, last_completed + 1)
+            print(
+                f"Resuming staged run from checkpoint: last_completed_stage={last_completed}, "
+                f"next_stage={next_stage_idx}, current_seed={current_seed}"
+            )
+        elif bool(int(args.resume_staged)) and bool(int(args.dry_run)):
+            print("[dry-run] resume-staged enabled, but checkpoint loading is skipped in dry-run mode")
+
+        if next_stage_idx > stage_count:
+            print("All staged batches are already completed per checkpoint.")
+            summary = {
+                "mode": "staged_batch_mode",
+                "stage_count": stage_count,
+                "stage_size": stage_size,
+                "initial_seed": str(seed_src),
+                "final_seed": str(current_seed),
+                "stages": stage_manifest,
+            }
+            summary_path = batch_root / "staged_pipeline_summary.json"
+            if not bool(int(args.dry_run)):
+                _write_json(summary_path, summary)
+            print("\nStaged pipeline complete")
+            print("Summary:", summary_path)
+            print("Final seed copy:", current_seed)
+            return
+
+        for stage_idx in range(next_stage_idx, stage_count + 1):
             stage_start = base_start + (stage_idx - 1) * stage_size
             stage_limit = stage_size
             stage_end = stage_start + stage_limit - 1
@@ -635,6 +700,19 @@ def main() -> None:
                     "seed_rows_skipped_existing": skipped_existing,
                 }
             )
+            if not bool(int(args.dry_run)):
+                _write_json(
+                    checkpoint_path,
+                    {
+                        "mode": "staged_batch_mode",
+                        "stage_count": stage_count,
+                        "stage_size": stage_size,
+                        "initial_seed": str(seed_src),
+                        "current_seed": str(current_seed),
+                        "last_completed_stage": stage_idx,
+                        "stages": stage_manifest,
+                    },
+                )
 
         summary = {
             "mode": "staged_batch_mode",
@@ -646,10 +724,24 @@ def main() -> None:
         }
         summary_path = batch_root / "staged_pipeline_summary.json"
         if not bool(int(args.dry_run)):
-            summary_path.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+            _write_json(summary_path, summary)
+            _write_json(
+                checkpoint_path,
+                {
+                    "mode": "staged_batch_mode",
+                    "stage_count": stage_count,
+                    "stage_size": stage_size,
+                    "initial_seed": str(seed_src),
+                    "current_seed": str(current_seed),
+                    "last_completed_stage": stage_count,
+                    "completed": True,
+                    "stages": stage_manifest,
+                },
+            )
 
         print("\nStaged pipeline complete")
         print("Summary:", summary_path)
+        print("Checkpoint:", checkpoint_path)
         print("Final seed copy:", current_seed)
         return
 

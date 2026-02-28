@@ -1,0 +1,77 @@
+{
+  "run_started_at": "2026-02-27T20:51:41.872046Z",
+  "api_keys": [
+    "key_1"
+  ],
+  "api_key_strategy": "round_robin",
+  "model": "gpt-5-mini",
+  "input_path": "/Users/mananroychoudhury/Downloads/approach1_bilstm_concat_nofilter/Mayo/natural_question_1500.json",
+  "schema_path": "/Users/mananroychoudhury/Downloads/approach1_bilstm_concat_nofilter/Mayo/schema.json",
+  "output_root": "/Users/mananroychoudhury/Downloads/approach1_bilstm_concat_nofilter/Mayo/gpt_predictions",
+  "styles": {
+    "zero_shot": {
+      "style": "zero_shot",
+      "total_rows": 1500,
+      "pending_rows": 1500,
+      "processed": 1500,
+      "success": 1500,
+      "error": 0,
+      "cache_hit": 105,
+      "cache_miss": 1395,
+      "started_at": "2026-02-27T20:51:41.872684Z",
+      "model": "gpt-5-mini",
+      "api_keys": [
+        "key_1"
+      ],
+      "api_key_strategy": "round_robin",
+      "api_key_usage_count": {
+        "key_1": 1500
+      },
+      "elapsed_sec": 830.02,
+      "completed_at": "2026-02-27T21:05:31.892597Z"
+    },
+    "few_shot": {
+      "style": "few_shot",
+      "total_rows": 1500,
+      "pending_rows": 1500,
+      "processed": 1500,
+      "success": 1500,
+      "error": 0,
+      "cache_hit": 105,
+      "cache_miss": 1395,
+      "started_at": "2026-02-27T21:05:31.894247Z",
+      "model": "gpt-5-mini",
+      "api_keys": [
+        "key_1"
+      ],
+      "api_key_strategy": "round_robin",
+      "api_key_usage_count": {
+        "key_1": 1500
+      },
+      "elapsed_sec": 964.372,
+      "completed_at": "2026-02-27T21:21:36.266218Z"
+    },
+    "cot": {
+      "style": "cot",
+      "total_rows": 1500,
+      "pending_rows": 1500,
+      "processed": 1500,
+      "success": 560,
+      "error": 940,
+      "cache_hit": 104,
+      "cache_miss": 1396,
+      "started_at": "2026-02-27T21:21:36.268046Z",
+      "model": "gpt-5-mini",
+      "api_keys": [
+        "key_1"
+      ],
+      "api_key_strategy": "round_robin",
+      "api_key_usage_count": {
+        "key_1": 1500
+      },
+      "elapsed_sec": 2750.737,
+      "completed_at": "2026-02-27T22:07:27.004619Z"
+    }
+  },
+  "run_completed_at": "2026-02-27T22:07:27.005741Z"
+}

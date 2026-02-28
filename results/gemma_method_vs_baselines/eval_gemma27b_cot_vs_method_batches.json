@@ -1,9 +1,9 @@
 {
   "baseline_eval": "/mnt/data1/srchowd3/MAYO_AIM2/results/eval_baselines_v3/20260226_062742/eval_gemma27b_cot.json",
   "batch_evals": [
-    "/mnt/data1/srchowd3/MAYO_AIM2/method/batch/batch_1/batch_1.eval.json",
-    "/mnt/data1/srchowd3/MAYO_AIM2/method/batch/batch_2/batch_2.eval.json",
-    "/mnt/data1/srchowd3/MAYO_AIM2/method/batch/batch_3/batch_3.eval.json"
+    "/mnt/data1/srchowd3/MAYO_AIM2/method/batch_gemma_27b/batch_1/batch_1.eval.json",
+    "/mnt/data1/srchowd3/MAYO_AIM2/method/batch_gemma_27b/batch_2/batch_2.eval.json",
+    "/mnt/data1/srchowd3/MAYO_AIM2/method/batch_gemma_27b/batch_3/batch_3.eval.json"
   ],
   "id_source": "pred_nonempty",
   "results": [
@@ -19,15 +19,15 @@
       },
       "exact_head_to_head": {
         "both_true": 34,
-        "batch_only_true": 180,
+        "batch_only_true": 144,
         "fewshot_only_true": 24,
-        "both_false": 262
+        "both_false": 298
       },
       "metrics": {
         "exact_exec_match": {
-          "batch": 0.428,
+          "batch": 0.356,
           "fewshot": 0.116,
-          "delta_batch_minus_fewshot": 0.312
+          "delta_batch_minus_fewshot": 0.24
         },
         "pred_exec_ok": {
           "batch": 1.0,
@@ -35,44 +35,44 @@
           "delta_batch_minus_fewshot": 0.010000000000000009
         },
         "sql_ast_similarity": {
-          "batch": 0.903905314344619,
+          "batch": 0.8937113845638259,
           "fewshot": 0.8544101718592075,
-          "delta_batch_minus_fewshot": 0.049495142485411425
+          "delta_batch_minus_fewshot": 0.03930121270461839
         },
         "precision": {
-          "batch": 0.5303023221957781,
+          "batch": 0.4345539912546215,
           "fewshot": 0.4081728378449423,
-          "delta_batch_minus_fewshot": 0.12212948435083582
+          "delta_batch_minus_fewshot": 0.026381153409679226
         },
         "recall": {
-          "batch": 0.5567122863247863,
+          "batch": 0.45553701705040994,
           "fewshot": 0.4359456718546004,
-          "delta_batch_minus_fewshot": 0.12076661447018588
+          "delta_batch_minus_fewshot": 0.019591345195809517
         },
         "f1": {
-          "batch": 0.533145208591007,
+          "batch": 0.43479642767385174,
           "fewshot": 0.40188909281237,
-          "delta_batch_minus_fewshot": 0.131256115778637
+          "delta_batch_minus_fewshot": 0.03290733486148173
         },
         "row_jaccard": {
-          "batch": 0.5143705021095465,
+          "batch": 0.42021047483965057,
           "fewshot": 0.34445281657243004,
-          "delta_batch_minus_fewshot": 0.16991768553711645
+          "delta_batch_minus_fewshot": 0.07575765826722053
         },
         "column_alignment_score": {
-          "batch": 0.8383401676332926,
+          "batch": 0.8144026648351649,
           "fewshot": 0.722253697954823,
-          "delta_batch_minus_fewshot": 0.11608646967846958
+          "delta_batch_minus_fewshot": 0.09214896688034191
         },
         "chrf": {
-          "batch": 94.8249467088503,
+          "batch": 95.07324848370845,
           "fewshot": 78.0430624984755,
-          "delta_batch_minus_fewshot": 16.7818842103748
+          "delta_batch_minus_fewshot": 17.030185985232947
         },
         "rouge_l_f1": {
-          "batch": 0.9394695103728521,
+          "batch": 0.9496423661954817,
           "fewshot": 0.7996434659842652,
-          "delta_batch_minus_fewshot": 0.13982604438858692
+          "delta_batch_minus_fewshot": 0.14999890021121653
         }
       },
       "sample_common_ids": [
@@ -99,16 +99,16 @@
         "deduped_scope_ids": 0
       },
       "exact_head_to_head": {
-        "both_true": 28,
-        "batch_only_true": 94,
-        "fewshot_only_true": 42,
-        "both_false": 336
+        "both_true": 36,
+        "batch_only_true": 74,
+        "fewshot_only_true": 34,
+        "both_false": 356
       },
       "metrics": {
         "exact_exec_match": {
-          "batch": 0.244,
+          "batch": 0.22,
           "fewshot": 0.14,
-          "delta_batch_minus_fewshot": 0.10399999999999998
+          "delta_batch_minus_fewshot": 0.07999999999999999
         },
         "pred_exec_ok": {
           "batch": 1.0,
@@ -116,44 +116,44 @@
           "delta_batch_minus_fewshot": 0.01200000000000001
         },
         "sql_ast_similarity": {
-          "batch": 0.8424229927296307,
+          "batch": 0.8185648405075444,
           "fewshot": 0.8038776729709405,
-          "delta_batch_minus_fewshot": 0.038545319758690244
+          "delta_batch_minus_fewshot": 0.014687167536603929
         },
         "precision": {
-          "batch": 0.4040541766283378,
+          "batch": 0.39680951645696455,
           "fewshot": 0.36854123192545324,
-          "delta_batch_minus_fewshot": 0.035512944702884575
+          "delta_batch_minus_fewshot": 0.028268284531511312
         },
         "recall": {
-          "batch": 0.37487549439953466,
+          "batch": 0.3589516357886949,
           "fewshot": 0.33725643517833315,
-          "delta_batch_minus_fewshot": 0.03761905922120151
+          "delta_batch_minus_fewshot": 0.02169520061036173
         },
         "f1": {
-          "batch": 0.3689052184424939,
+          "batch": 0.3539696377618696,
           "fewshot": 0.31600682831840365,
-          "delta_batch_minus_fewshot": 0.052898390124090255
+          "delta_batch_minus_fewshot": 0.03796280944346597
         },
         "row_jaccard": {
-          "batch": 0.3429618190820164,
+          "batch": 0.3258003639479199,
           "fewshot": 0.2723492769881128,
-          "delta_batch_minus_fewshot": 0.07061254209390361
+          "delta_batch_minus_fewshot": 0.053451086959807104
         },
         "column_alignment_score": {
-          "batch": 0.7738559527189216,
+          "batch": 0.7644536716244302,
           "fewshot": 0.6899366130856011,
-          "delta_batch_minus_fewshot": 0.08391933963332054
+          "delta_batch_minus_fewshot": 0.07451705853882917
         },
         "chrf": {
-          "batch": 90.47015655859981,
+          "batch": 91.31174332812452,
           "fewshot": 78.15344083202737,
-          "delta_batch_minus_fewshot": 12.31671572657244
+          "delta_batch_minus_fewshot": 13.15830249609715
         },
         "rouge_l_f1": {
-          "batch": 0.9011051596568145,
+          "batch": 0.9089355055728423,
           "fewshot": 0.7976821981327088,
-          "delta_batch_minus_fewshot": 0.10342296152410568
+          "delta_batch_minus_fewshot": 0.11125330744013351
         }
       },
       "sample_common_ids": [
@@ -180,16 +180,16 @@
         "deduped_scope_ids": 0
       },
       "exact_head_to_head": {
-        "both_true": 49,
-        "batch_only_true": 104,
-        "fewshot_only_true": 23,
-        "both_false": 324
+        "both_true": 36,
+        "batch_only_true": 86,
+        "fewshot_only_true": 36,
+        "both_false": 342
       },
       "metrics": {
         "exact_exec_match": {
-          "batch": 0.306,
+          "batch": 0.244,
           "fewshot": 0.144,
-          "delta_batch_minus_fewshot": 0.162
+          "delta_batch_minus_fewshot": 0.1
         },
         "pred_exec_ok": {
           "batch": 1.0,
@@ -197,44 +197,44 @@
           "delta_batch_minus_fewshot": 0.010000000000000009
         },
         "sql_ast_similarity": {
-          "batch": 0.8400549710484819,
+          "batch": 0.8164626353047966,
           "fewshot": 0.8047356417211226,
-          "delta_batch_minus_fewshot": 0.03531932932735937
+          "delta_batch_minus_fewshot": 0.011726993583674017
         },
         "precision": {
-          "batch": 0.48915972910713107,
+          "batch": 0.3838837641723356,
           "fewshot": 0.3663302507980294,
-          "delta_batch_minus_fewshot": 0.12282947830910168
+          "delta_batch_minus_fewshot": 0.017553513374306218
         },
         "recall": {
-          "batch": 0.4341645612109767,
+          "batch": 0.35266470789172055,
           "fewshot": 0.3581816901867361,
-          "delta_batch_minus_fewshot": 0.07598287102424056
+          "delta_batch_minus_fewshot": -0.005516982295015571
         },
         "f1": {
-          "batch": 0.43240878400489074,
+          "batch": 0.34840842762617374,
           "fewshot": 0.3287755700880242,
-          "delta_batch_minus_fewshot": 0.10363321391686653
+          "delta_batch_minus_fewshot": 0.01963285753814953
         },
         "row_jaccard": {
-          "batch": 0.4061315042798422,
+          "batch": 0.32508672687533413,
           "fewshot": 0.28318883594818384,
-          "delta_batch_minus_fewshot": 0.12294266833165834
+          "delta_batch_minus_fewshot": 0.041897890927150294
         },
         "column_alignment_score": {
-          "batch": 0.7973009657532153,
+          "batch": 0.7552301907905491,
           "fewshot": 0.6957169997195863,
-          "delta_batch_minus_fewshot": 0.10158396603362896
+          "delta_batch_minus_fewshot": 0.059513191070962757
         },
         "chrf": {
-          "batch": 92.03379100729217,
+          "batch": 89.62573432931664,
           "fewshot": 77.47052494472163,
-          "delta_batch_minus_fewshot": 14.563266062570534
+          "delta_batch_minus_fewshot": 12.155209384595011
         },
         "rouge_l_f1": {
-          "batch": 0.9251490569978164,
+          "batch": 0.8933193219380922,
           "fewshot": 0.7826794767642956,
-          "delta_batch_minus_fewshot": 0.14246958023352074
+          "delta_batch_minus_fewshot": 0.11063984517379655
         }
       },
       "sample_common_ids": [
@@ -262,16 +262,16 @@
       "deduped_scope_ids": 0
     },
     "exact_head_to_head": {
-      "both_true": 111,
-      "batch_only_true": 378,
-      "fewshot_only_true": 89,
-      "both_false": 922
+      "both_true": 106,
+      "batch_only_true": 304,
+      "fewshot_only_true": 94,
+      "both_false": 996
     },
     "metrics": {
       "exact_exec_match": {
-        "batch": 0.326,
+        "batch": 0.2733333333333333,
         "fewshot": 0.13333333333333333,
-        "delta_batch_minus_fewshot": 0.19266666666666668
+        "delta_batch_minus_fewshot": 0.13999999999999999
       },
       "pred_exec_ok": {
         "batch": 1.0,
@@ -279,44 +279,44 @@
         "delta_batch_minus_fewshot": 0.010666666666666713
       },
       "sql_ast_similarity": {
-        "batch": 0.8621277593742438,
+        "batch": 0.8429129534587223,
         "fewshot": 0.8210193720821481,
-        "delta_batch_minus_fewshot": 0.04110838729209565
+        "delta_batch_minus_fewshot": 0.021893581376574156
       },
       "precision": {
-        "batch": 0.4745054093104156,
+        "batch": 0.4050824239613072,
         "fewshot": 0.38101477352280827,
-        "delta_batch_minus_fewshot": 0.09349063578760736
+        "delta_batch_minus_fewshot": 0.024067650438498955
       },
       "recall": {
-        "batch": 0.4552507806450992,
+        "batch": 0.38905112024360844,
         "fewshot": 0.37712793240655657,
-        "delta_batch_minus_fewshot": 0.07812284823854265
+        "delta_batch_minus_fewshot": 0.011923187837051874
       },
       "f1": {
-        "batch": 0.44481973701279715,
+        "batch": 0.37905816435396505,
         "fewshot": 0.3488904970729326,
-        "delta_batch_minus_fewshot": 0.09592923993986452
+        "delta_batch_minus_fewshot": 0.03016766728103243
       },
       "row_jaccard": {
-        "batch": 0.4211546084904683,
+        "batch": 0.35703252188763485,
         "fewshot": 0.29999697650290885,
-        "delta_batch_minus_fewshot": 0.12115763198755947
+        "delta_batch_minus_fewshot": 0.057035545384725994
       },
       "column_alignment_score": {
-        "batch": 0.8031656953684765,
+        "batch": 0.7780288424167148,
         "fewshot": 0.7026357702533368,
-        "delta_batch_minus_fewshot": 0.1005299251151397
+        "delta_batch_minus_fewshot": 0.07539307216337798
       },
       "chrf": {
-        "batch": 92.61785228620586,
+        "batch": 92.08669489516829,
         "fewshot": 77.88969936925142,
-        "delta_batch_minus_fewshot": 14.728152916954443
+        "delta_batch_minus_fewshot": 14.196995525916876
       },
       "rouge_l_f1": {
-        "batch": 0.9235168165527954,
+        "batch": 0.9181671395150804,
         "fewshot": 0.7934368573020404,
-        "delta_batch_minus_fewshot": 0.130079959250755
+        "delta_batch_minus_fewshot": 0.12473028221304006
       }
     },
     "sample_common_ids": [

@@ -1,0 +1,59 @@
+{
+  "mode": "staged_batch_mode",
+  "stage_count": 3,
+  "stage_size": 500,
+  "initial_seed": "/mnt/data1/srchowd3/MAYO_AIM2/data/seed_questions.json",
+  "current_seed": "method/batch_gpt_5_nano_from10/seeds/seed_after_batch_3.json",
+  "last_completed_stage": 3,
+  "completed": true,
+  "stages": [
+    {
+      "stage": 1,
+      "start_index": 10,
+      "limit": 500,
+      "end_index": 509,
+      "output_dir": "method/batch_gpt_5_nano_from10/batch_1",
+      "decompose_json": "method/batch_gpt_5_nano_from10/batch_1/batch_1.decompose_retrieve.json",
+      "synth_json": "method/batch_gpt_5_nano_from10/batch_1/batch_1.synth.json",
+      "eval_output_json": "method/batch_gpt_5_nano_from10/batch_1/batch_1.eval.json",
+      "acceptance_output_json": "method/batch_gpt_5_nano_from10/batch_1/batch_1.acceptance.json",
+      "seed_in": "method/batch_gpt_5_nano_from10/seeds/seed_working.json",
+      "seed_out": "method/batch_gpt_5_nano_from10/seeds/seed_after_batch_1.json",
+      "accepted_rows": 220,
+      "seed_rows_added": 219,
+      "seed_rows_skipped_existing": 1
+    },
+    {
+      "stage": 2,
+      "start_index": 510,
+      "limit": 500,
+      "end_index": 1009,
+      "output_dir": "method/batch_gpt_5_nano_from10/batch_2",
+      "decompose_json": "method/batch_gpt_5_nano_from10/batch_2/batch_2.decompose_retrieve.json",
+      "synth_json": "method/batch_gpt_5_nano_from10/batch_2/batch_2.synth.json",
+      "eval_output_json": "method/batch_gpt_5_nano_from10/batch_2/batch_2.eval.json",
+      "acceptance_output_json": "method/batch_gpt_5_nano_from10/batch_2/batch_2.acceptance.json",
+      "seed_in": "method/batch_gpt_5_nano_from10/seeds/seed_after_batch_1.json",
+      "seed_out": "method/batch_gpt_5_nano_from10/seeds/seed_after_batch_2.json",
+      "accepted_rows": 209,
+      "seed_rows_added": 203,
+      "seed_rows_skipped_existing": 6
+    },
+    {
+      "stage": 3,
+      "start_index": 1010,
+      "limit": 500,
+      "end_index": 1509,
+      "output_dir": "method/batch_gpt_5_nano_from10/batch_3",
+      "decompose_json": "method/batch_gpt_5_nano_from10/batch_3/batch_3.decompose_retrieve.json",
+      "synth_json": "method/batch_gpt_5_nano_from10/batch_3/batch_3.synth.json",
+      "eval_output_json": "method/batch_gpt_5_nano_from10/batch_3/batch_3.eval.json",
+      "acceptance_output_json": "method/batch_gpt_5_nano_from10/batch_3/batch_3.acceptance.json",
+      "seed_in": "method/batch_gpt_5_nano_from10/seeds/seed_after_batch_2.json",
+      "seed_out": "method/batch_gpt_5_nano_from10/seeds/seed_after_batch_3.json",
+      "accepted_rows": 231,
+      "seed_rows_added": 222,
+      "seed_rows_skipped_existing": 9
+    }
+  ]
+}

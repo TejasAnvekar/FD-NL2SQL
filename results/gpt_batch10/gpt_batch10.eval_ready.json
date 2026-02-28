@@ -1,0 +1,102 @@
+[
+  {
+    "task_index": 0,
+    "question_index": 0,
+    "item_id": "line_1",
+    "question": "Which Colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+    "natural_question": "Which Colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 1,
+    "question_index": 1,
+    "item_id": "line_2",
+    "question": "Find clinical trials for renal cell cancer that used nivolumab in combination with other treatments?",
+    "natural_question": "Find clinical trials for renal cell cancer that used nivolumab in combination with other treatments?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 2,
+    "question_index": 2,
+    "item_id": "line_3",
+    "question": "Show trials of CTLA-4 for non-small cell lung cancer that began in 2018 or later?",
+    "natural_question": "Show trials of CTLA-4 for non-small cell lung cancer that began in 2018 or later?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 3,
+    "question_index": 3,
+    "item_id": "line_4",
+    "question": "Which trials for Small Cell Lung cancer evaluated Ipilimumab in phase 3?",
+    "natural_question": "Which trials for Small Cell Lung cancer evaluated Ipilimumab in phase 3?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 4,
+    "question_index": 4,
+    "item_id": "line_5",
+    "question": "Which trials evaluated Nivolumab and Ipilimumab in phase 3 for renal cell cancer?",
+    "natural_question": "Which trials evaluated Nivolumab and Ipilimumab in phase 3 for renal cell cancer?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 5,
+    "question_index": 5,
+    "item_id": "line_6",
+    "question": "What were the primary endpoints for Non-Small Cell Lung cancer studies testing combinations of immunotherapy and chemotherapy?",
+    "natural_question": "What were the primary endpoints for Non-Small Cell Lung cancer studies testing combinations of immunotherapy and chemotherapy?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 6,
+    "question_index": 6,
+    "item_id": "line_7",
+    "question": "What are the study details, including primary endpoints, for breast cancer trials testing immunotherapy plus chemotherapy?",
+    "natural_question": "What are the study details, including primary endpoints, for breast cancer trials testing immunotherapy plus chemotherapy?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 7,
+    "question_index": 7,
+    "item_id": "line_8",
+    "question": "Find Bladder cancer trials using PD1 where PD‑L1 positivity was not an inclusion criterion?",
+    "natural_question": "Find Bladder cancer trials using PD1 where PD‑L1 positivity was not an inclusion criterion?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 8,
+    "question_index": 8,
+    "item_id": "line_9",
+    "question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+    "natural_question": "List trials for bladder cancer that do not require PD-L1 as a biomarker for inclusion?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  },
+  {
+    "task_index": 9,
+    "question_index": 9,
+    "item_id": "line_10",
+    "question": "Which clinical trials evaluated Tremelimumab for Melanoma in phase 3?",
+    "natural_question": "Which clinical trials evaluated Tremelimumab for Melanoma in phase 3?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}"
+  }
+]

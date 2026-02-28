@@ -11,17 +11,15 @@ export default function HeroBlock() {
         <h2 className="hero-block-heading">Test Heading: About This Database</h2>
         <div className="hero-block-body">
           <p>
-            {/* TODO: Replace this paragraph with your actual introduction/description */}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            FD-NL2SQL is a natural-language-to-SQL assistant for oncology clinical-trial databases that
+            leverages the power of large language models to make complex trial querying fast, flexible,
+            and accessible.
           </p>
           <p>
-            {/* TODO: Replace this paragraph with methods/scope description */}
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+            It enables ad-hoc, multi-constraint questions across biomarkers, endpoints, interventions,
+            and time, translating everyday questions into executable database queries without requiring SQL
+            or schema expertise. Designed for iterative use, it supports easy refinement and learns from
+            feedback so it improves over time.
           </p>
         </div>
         <div className="hero-block-pills">

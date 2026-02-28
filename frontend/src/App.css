@@ -982,6 +982,8 @@ a { text-decoration: none; }
   font-size: 0.82rem;
   line-height: 1.5;
   word-break: break-word;
+  max-width: 100%;
+  overflow: hidden;
 }
 .chat-message.bot .chat-bubble {
   background: white;
@@ -996,6 +998,23 @@ a { text-decoration: none; }
   border-bottom-right-radius: 4px;
   min-width: 40px;
   text-align: center;
+}
+
+/* SQL block inside chat bubbles */
+.sql-preview {
+  margin: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  overflow-x: auto;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  font-size: 0.76rem;
+  line-height: 1.45;
 }
 
 /* Typing indicator */

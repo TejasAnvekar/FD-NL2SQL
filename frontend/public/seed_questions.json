@@ -4354,5 +4354,55 @@
         "sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Trial phase\", \"Control arm\", \"Cancer type\", \"Name of ICI\", \"Treatment regimen\" FROM clinical_trials WHERE \"Control arm\" = 'TKI';"
       }
     }
+  },
+  {
+    "original_question": "List IMblaze130 authors",
+    "gt_sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Trial name\" = 'IMblaze130'",
+    "decomposed_query": {
+      "query_1": {
+        "question": "List IMblaze130 authors",
+        "sql": "SELECT \"Author\" FROM clinical_trials WHERE \"Trial name\" = 'IMblaze130'"
+      }
+    }
+  },
+  {
+    "original_question": "List Powels T et al's original publications",
+    "gt_sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Cancer type\", \"Trial phase\"\nFROM clinical_trials\nWHERE LOWER(\"Author\") LIKE LOWER('%Powles T et al%')\n  AND \"Originial publication or Follow-up\" = 'Original publication';",
+    "decomposed_query": {
+      "query_1": {
+        "question": "List Powels T et al's original publications",
+        "sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Cancer type\", \"Trial phase\"\nFROM clinical_trials\nWHERE LOWER(\"Author\") LIKE LOWER('%Powles T et al%')\n  AND \"Originial publication or Follow-up\" = 'Original publication';"
+      }
+    }
+  },
+  {
+    "original_question": "List Eng C et al 1 and their studies",
+    "gt_sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Author\" = 'Eng C et al'",
+    "decomposed_query": {
+      "query_1": {
+        "question": "List Eng C et al 1 and their studies",
+        "sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Author\" = 'Eng C et al'"
+      }
+    }
+  },
+  {
+    "original_question": "List imblaze13 studies",
+    "gt_sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Trial name\" LIKE '%imblaze13%'",
+    "decomposed_query": {
+      "query_1": {
+        "question": "List imblaze13 studies",
+        "sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Trial name\" LIKE '%imblaze13%'"
+      }
+    }
+  },
+  {
+    "original_question": "Find me studies from the imvigor211 trials",
+    "gt_sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Trial name\" LIKE '%imvigor211%';",
+    "decomposed_query": {
+      "query_1": {
+        "question": "Find me studies from the imvigor211 trials",
+        "sql": "SELECT \"NCT\", \"Trial name\", \"Author\", \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Trial name\" LIKE '%imvigor211%';"
+      }
+    }
   }
 ]

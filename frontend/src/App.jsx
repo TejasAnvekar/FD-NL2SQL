@@ -149,8 +149,18 @@ export default function App() {
 
   // Called by ChatBot when a SQL query runs successfully
   const handleQueryResult = (rows, columns, label) => {
-    setSqlData(rows)
-    setSqlColumns(columns)
+    const cols = Array.isArray(columns) ? columns : []
+    const rawRows = Array.isArray(rows) ? rows : []
+
+    // Chat SQL execution returns sqlite-style arrays; DataTable expects objects.
+    const normalizedRows = rawRows.map((row, idx) => {
+      if (row && typeof row === 'object' && !Array.isArray(row)) return row
+      const arr = Array.isArray(row) ? row : []
+      return Object.fromEntries(cols.map((c, i) => [c, arr[i]]))
+    })
+
+    setSqlData(normalizedRows)
+    setSqlColumns(cols)
     setSqlLabel(label)
     setSqlMode(true)
   }
@@ -268,28 +278,25 @@ export default function App() {
                   <path d="M18 6L30 28H6L18 6Z" fill="white" opacity="0.9"/>
                 </svg>
                 
-                <span>test-project</span>
+                <span>FD-NL2SQL</span>
               </div>
             
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>FD-NL2SQL is a natural-language-to-SQL assistant for oncology clinical-trial databases. It translates everyday research questions into executable SQL so users can query biomarkers, endpoints, interventions, eligibility criteria, and follow-up outcomes without needing SQL or schema expertise.</p>
             </div>
             <div className="footer-col">
              
               <h4>About This Resource</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.</p>
+              <p>This interface supports ad-hoc, multi-constraint analysis of a curated oncology trial dataset (Phase 2/3 studies, ICI-focused variables, trial metadata, and endpoint information). It is designed for interactive exploration: generate SQL, inspect results, refine queries, and iterate quickly.</p>
             </div>
             <div className="footer-col">
              
-              <h4>Contact & Citation</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus.</p>
-              <p className="footer-citation">
-                <em>Citation placeholder. Author et al. Journal Name. Year.</em>
-              </p>
+              <h4>Contact</h4>
+              <p>For project questions, collaboration requests, or data/method clarification, contact the FD-NL2SQL team. If you use this resource in research outputs, please cite the FD-NL2SQL project and associated manuscript/materials.</p>
             </div>
           </div>
           <div className="footer-bottom">
            
-            <span>© 2026 test-project. For research purposes only.</span>
+            <span>© 2026 FD-NL2SQL. For research purposes only.</span>
             <span className="footer-links">
               <a href="#">Terms of Use</a>
               <a href="#">Privacy Policy</a>

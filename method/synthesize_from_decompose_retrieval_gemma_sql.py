@@ -456,8 +456,11 @@ def _run_one_openai_call(
                 "top_p": float(args.top_p),
                 "max_tokens": int(args.max_new_tokens),
                 "timeout": float(args.timeout),
-                "logprobs": bool(use_logprobs),
             }
+            # Some OpenAI-compatible providers (e.g., Gemini OpenAI endpoint)
+            # reject unknown fields even when set to false. Only include when needed.
+            if bool(use_logprobs):
+                req["logprobs"] = True
             if response_schema is not None:
                 req["response_format"] = response_schema
             return client.chat.completions.create(**req)

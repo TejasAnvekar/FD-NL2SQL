@@ -29,7 +29,7 @@ VLLM_HOST="${VLLM_HOST:-127.0.0.1}"
 VLLM_API_BASE="http://${VLLM_HOST}:${VLLM_PORT}/v1"
 
 PROJECT_DIR="/mnt/data1/tanvekar/MAYO_AIM2"
-LOG_ROOT="${LOG_ROOT:-${PROJECT_DIR}/logs/sql_r1_vllm}"
+LOG_ROOT="${LOG_ROOT:-${PROJECT_DIR}/logs/sql_r1_vllm/7B/sql_with_conf}"
 mkdir -p "$LOG_ROOT"
 
 RUN_ID=$(date +%Y%m%d_%H%M%S)
@@ -38,7 +38,7 @@ RUN_ID=$(date +%Y%m%d_%H%M%S)
 INPUT_JSON="${INPUT_JSON:-${PROJECT_DIR}/data/natural_question_1500.json}"
 SCHEMA_JSON="${SCHEMA_JSON:-${PROJECT_DIR}/data/schema.json}"
 
-PROMPT_STYLE="${PROMPT_STYLE:-sql_only}"   # use "cot" if you want chain-of-thought
+PROMPT_STYLE="${PROMPT_STYLE:-cot}"   # use "cot" if you want chain-of-thought
 USE_PYDANTIC="${USE_PYDANTIC:-1}"
 LOGPROB_MODE="${LOGPROB_MODE:-structured}"
 
@@ -124,7 +124,7 @@ python run_sqlr1.py \
     --model "$MODEL_NAME" \
     --input_json "$INPUT_JSON" \
     --schema_json "$SCHEMA_JSON" \
-    --output_json "${RUN_LOG_DIR}/generated_sql.json" \
+    --output_json "${RUN_LOG_DIR}/generated_sql.jsonl" \
     --start "${START:-0}" \
     --limit "${LIMIT:-1500}" \
     --question_keys "${QUESTION_KEYS:-natural_question,question,original_question,new_question}" \
@@ -145,5 +145,5 @@ python run_sqlr1.py \
 echo "=========================================="
 echo "Run complete."
 echo "Logs:       $RUN_LOG_DIR"
-echo "Outputs:    ${RUN_LOG_DIR}/generated_sql.json"
+echo "Outputs:    ${RUN_LOG_DIR}/generated_sql.jsonl"
 echo "=========================================="

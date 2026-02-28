@@ -26,6 +26,13 @@ try:
 except Exception:
     OpenAI = None
 
+
+def _choose_token_param_name(model_name: str) -> str:
+    m = (model_name or "").strip().lower()
+    if m.startswith(("gpt-5", "o1", "o3", "o4")):
+        return "max_completion_tokens"
+    return "max_tokens"
+
 try:
     from pydantic import BaseModel
 except Exception:
@@ -454,9 +461,11 @@ def _run_one_openai_call(
                 "messages": messages,
                 "temperature": float(args.temperature),
                 "top_p": float(args.top_p),
-                "max_tokens": int(args.max_new_tokens),
                 "timeout": float(args.timeout),
             }
+            token_param = _choose_token_param_name(str(args.model_name))
+            if int(args.max_new_tokens) > 0:
+                req[token_param] = int(args.max_new_tokens)
             # Some OpenAI-compatible providers (e.g., Gemini OpenAI endpoint)
             # reject unknown fields even when set to false. Only include when needed.
             if bool(use_logprobs):

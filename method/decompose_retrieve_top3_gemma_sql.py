@@ -27,6 +27,13 @@ except Exception:
     OpenAI = None
 
 
+def _choose_token_param_name(model_name: str) -> str:
+    m = (model_name or "").strip().lower()
+    if m.startswith(("gpt-5", "o1", "o3", "o4")):
+        return "max_completion_tokens"
+    return "max_tokens"
+
+
 def parse_args() -> argparse.Namespace:
     here = Path(__file__).resolve().parent
     root = here.parent
@@ -619,9 +626,11 @@ def _run_one_openai_call(
                 "messages": messages,
                 "temperature": float(args.temperature),
                 "top_p": float(args.top_p),
-                "max_tokens": int(args.max_new_tokens),
                 "timeout": float(args.timeout),
             }
+            token_param = _choose_token_param_name(str(args.model_name))
+            if int(args.max_new_tokens) > 0:
+                req[token_param] = int(args.max_new_tokens)
             return client.chat.completions.create(**req)
         except Exception as e:  # noqa: BLE001
             last_err = e

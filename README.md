@@ -14,7 +14,7 @@ This guide explains how to run FD-NL2SQL locally end-to-end:
 ## 2) Clone and Enter Project
 
 ```bash
-git clone <your-repo-url> FD-NL2SQL
+git clone https://github.com/TejasAnvekar/FD-NL2SQL.git FD-NL2SQL
 cd FD-NL2SQL
 ```
 

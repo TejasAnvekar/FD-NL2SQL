@@ -124,7 +124,7 @@ python chat_pipeline_api.py
 
 ### Windows (PowerShell)
 ```powershell
-$env:CHAT_API_PORT="8182"
+$env:CHAT_API_PORT="8181"
 python .\chat_pipeline_api.py
 ```
 

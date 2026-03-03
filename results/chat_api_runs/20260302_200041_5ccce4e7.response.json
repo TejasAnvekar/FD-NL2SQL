@@ -1,0 +1,57 @@
+{
+  "status": "error",
+  "item_id": null,
+  "question": "List the names of ipilimumab trials for melanoma where the overall follow-up duration was greater than 21 months?",
+  "final_sql": "",
+  "confidence_overall": null,
+  "error": "FAILED_TO_EXTRACT_FINAL_SQL",
+  "decomposed_queries": [
+    "Which trials have Name of ICI = 'ipilimumab'?",
+    "Which trials have Cancer type = 'Melanoma'?",
+    "Which trials have Follow-up duration for primary endpoint(s) in months | Overall > 21?"
+  ],
+  "retrieval_top": [
+    {
+      "rank": 1,
+      "score": 0.9917363765313834,
+      "candidate_id": "seed[117].query_3",
+      "candidate_question": "What trials have Follow-up duration for primary endpoint(s) in months | Overall > 21?",
+      "candidate_sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
+    },
+    {
+      "rank": 2,
+      "score": 0.9892520933593505,
+      "candidate_id": "seed[43].query_3",
+      "candidate_question": "What trials have Follow-up duration for primary endpoint(s) in months | Overall greater than 21?",
+      "candidate_sql": "SELECT \"NCT\", \"Author\", \"Year\", \"Originial publication or Follow-up\", \"Name of ICI\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Follow-up duration for primary endpoint(s) in months | Overall\" > 21;"
+    },
+    {
+      "rank": 3,
+      "score": 0.9881175792794803,
+      "candidate_id": "seed[64].query_1",
+      "candidate_question": "Which trials have Cancer type Melanoma?",
+      "candidate_sql": "SELECT \"NCT\", \"Author\", \"Originial publication or Follow-up\", \"Cancer type\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma';"
+    }
+  ],
+  "execution_preview": {
+    "error": "FAILED_TO_EXTRACT_FINAL_SQL",
+    "columns": [],
+    "rows": []
+  },
+  "artifacts": {
+    "decompose_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200041_5ccce4e7/decompose_retrieve.json",
+    "synth_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200041_5ccce4e7/synth.json",
+    "eval_ready_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200041_5ccce4e7/eval_ready.json",
+    "eval_ready_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200041_5ccce4e7/eval_ready.jsonl",
+    "eval_output_json": null
+  },
+  "meta": {
+    "backend": "openai_compat",
+    "model_name": "gpt-5-nano",
+    "use_pydantic_schema": true,
+    "logprob_mode": "none",
+    "run_eval": 0,
+    "skip_exec": 0,
+    "run_tag": "20260302_200041_5ccce4e7"
+  }
+}

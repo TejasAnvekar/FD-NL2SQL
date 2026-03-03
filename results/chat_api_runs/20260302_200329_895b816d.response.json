@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "item_id": null,
+  "question": "Give me gastric cancer related research",
+  "final_sql": "SELECT \"NCT\", \"Trial name\", \"Year\", \"Author\", \"Total sample size\", \"Primary endpoint\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Gastric/GEJ';",
+  "confidence_overall": null,
+  "error": null,
+  "decomposed_queries": [
+    "Give me gastric cancer related research"
+  ],
+  "retrieval_top": [
+    {
+      "rank": 1,
+      "score": 0.9999997447381967,
+      "candidate_id": "seed[205].query_1",
+      "candidate_question": "Give me gastric cancer related research",
+      "candidate_sql": "SELECT \"NCT\", \"Trial name\", \"Year\", \"Author\", \"Total sample size\", \"Primary endpoint\", \"Trial phase\" FROM clinical_trials WHERE \"Cancer type\" = 'Gastric/GEJ';"
+    },
+    {
+      "rank": 2,
+      "score": 0.8149525377652931,
+      "candidate_id": "seed[113].query_1",
+      "candidate_question": "Which trials have cancer type Gastric/GEJ?",
+      "candidate_sql": "SELECT \"Author\", \"Originial publication or Follow-up\" FROM clinical_trials WHERE \"Cancer type\" = 'Gastric/GEJ';"
+    },
+    {
+      "rank": 3,
+      "score": 0.8111830196869791,
+      "candidate_id": "seed[37].query_2",
+      "candidate_question": "Which trials have Cancer type equal to 'Gastric/GEJ'?",
+      "candidate_sql": "SELECT \"Year\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Gastric/GEJ';"
+    }
+  ],
+  "execution_preview": {
+    "error": null,
+    "columns": [
+      "NCT",
+      "Trial name",
+      "Year",
+      "Author",
+      "Total sample size",
+      "Primary endpoint",
+      "Trial phase"
+    ],
+    "rows": [
+      [
+        "NCT01585987",
+        null,
+        2017,
+        "Bang YJ et al",
+        114.0,
+        "PFS",
+        "Phase 2"
+      ],
+      [
+        "NCT02267343",
+        "ATTRACTION-2",
+        2017,
+        "Kang YK et al",
+        493.0,
+        "OS",
+        "Phase 3"
+      ],
+      [
+        "NCT02625623",
+        "JAVELIN Gastric 300",
+        2018,
+        "Bang YJ et al",
+        371.0,
+        "OS",
+        "Phase 3"
+      ],
+      [
+        "NCT02370498",
+        "Keynote-061",
+        2018,
+        "Shitara K et al",
+        395.0,
+        "OS+PFS",
+        "Phase 3"
+      ],
+      [
+        "NCT02267343",
+        "ATTRACTION-2",
+        2019,
+        "Chen LT et al",
+        493.0,
+        "OS",
+        "Phase 3"
+      ],
+      [
+        "NCT02494583",
+        "Keynote-062",
+        2020,
+        "Shitara K et al",
+        763.0,
+        "OS+PFS",
+        "Phase 3"
+      ],
+      [
+        "NCT02494583",
+        "Keynote-062",
+        2020,
+        "Shitara K et al (1)",
+        763.0,
+        "OS+PFS",
+        "Phase 3"
+      ],
+      [
+        " NCT02625610",
+        "Javelin Gastric 100",
+        2020,
+        "Moehler M et al",
+        499.0,
+        "OS",
+        "Phase 3"
+      ]
+    ]
+  },
+  "artifacts": {
+    "decompose_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200329_895b816d/decompose_retrieve.json",
+    "synth_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200329_895b816d/synth.json",
+    "eval_ready_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200329_895b816d/eval_ready.json",
+    "eval_ready_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_200329_895b816d/eval_ready.jsonl",
+    "eval_output_json": null
+  },
+  "meta": {
+    "backend": "openai_compat",
+    "model_name": "gpt-5-nano",
+    "use_pydantic_schema": true,
+    "logprob_mode": "none",
+    "run_eval": 0,
+    "skip_exec": 0,
+    "run_tag": "20260302_200329_895b816d"
+  }
+}

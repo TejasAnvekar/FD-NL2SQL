@@ -1,0 +1,33 @@
+{
+  "status": "error",
+  "item_id": null,
+  "question": "List the names of ipilimumab trials for melanoma where the overall follow-up duration was greater than 21 months?",
+  "final_sql": "",
+  "confidence_overall": null,
+  "error": "EMPTY_RETRIEVAL_RESULTS",
+  "decomposed_queries": [
+    "List the names of ipilimumab trials for melanoma where the overall follow-up duration was greater than 21 months?"
+  ],
+  "retrieval_top": [],
+  "execution_preview": {
+    "error": "EMPTY_RETRIEVAL_RESULTS",
+    "columns": [],
+    "rows": []
+  },
+  "artifacts": {
+    "decompose_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193159_a5f17373/decompose_retrieve.json",
+    "synth_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193159_a5f17373/synth.json",
+    "eval_ready_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193159_a5f17373/eval_ready.json",
+    "eval_ready_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193159_a5f17373/eval_ready.jsonl",
+    "eval_output_json": null
+  },
+  "meta": {
+    "backend": "openai_compat",
+    "model_name": "gpt-5-nano",
+    "use_pydantic_schema": true,
+    "logprob_mode": "none",
+    "run_eval": 0,
+    "skip_exec": 0,
+    "run_tag": "20260302_193159_a5f17373"
+  }
+}

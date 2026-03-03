@@ -1,0 +1,12 @@
+[
+  {
+    "task_index": 0,
+    "question_index": null,
+    "item_id": null,
+    "question": "Which colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+    "natural_question": "Which colorectal trials had 3 or more arms and used a multikinase inhibitor as a control?",
+    "pred_sql": "",
+    "confidence_overall": null,
+    "error": "EMPTY_RETRIEVAL_RESULTS"
+  }
+]

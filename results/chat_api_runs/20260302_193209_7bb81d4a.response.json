@@ -1,0 +1,33 @@
+{
+  "status": "error",
+  "item_id": null,
+  "question": "Give me gastric cancer related research",
+  "final_sql": "",
+  "confidence_overall": null,
+  "error": "EMPTY_RETRIEVAL_RESULTS",
+  "decomposed_queries": [
+    "Give me gastric cancer related research"
+  ],
+  "retrieval_top": [],
+  "execution_preview": {
+    "error": "EMPTY_RETRIEVAL_RESULTS",
+    "columns": [],
+    "rows": []
+  },
+  "artifacts": {
+    "decompose_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193209_7bb81d4a/decompose_retrieve.json",
+    "synth_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193209_7bb81d4a/synth.json",
+    "eval_ready_json": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193209_7bb81d4a/eval_ready.json",
+    "eval_ready_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/results/chat_api_runs/20260302_193209_7bb81d4a/eval_ready.jsonl",
+    "eval_output_json": null
+  },
+  "meta": {
+    "backend": "openai_compat",
+    "model_name": "gpt-5-nano",
+    "use_pydantic_schema": true,
+    "logprob_mode": "none",
+    "run_eval": 0,
+    "skip_exec": 0,
+    "run_tag": "20260302_193209_7bb81d4a"
+  }
+}

@@ -118,7 +118,7 @@ If port `8181` is occupied, choose another port first:
 
 ### Linux/macOS
 ```bash
-export CHAT_API_PORT=8182
+export CHAT_API_PORT=8181
 python chat_pipeline_api.py
 ```
 

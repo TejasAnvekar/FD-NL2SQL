@@ -230,29 +230,4 @@ python .\method\orchestrate_decompose_retrieve_synthesize.py `
   --model-name gpt-5-nano
 ```
 
-## 9) Common Issues
 
-### `Pipeline API error 405`
-- Usually wrong endpoint path or stale frontend build.
-- Confirm frontend calls `/api/chat-query` on the configured backend target.
-- Confirm backend is running and CORS includes frontend origin.
-
-### CORS blocked (`Access-Control-Allow-Origin` missing)
-- Set `CHAT_CORS_ALLOW_ORIGINS=http://localhost:5173` in `.env`.
-- Restart backend after changing env vars.
-
-### `401 invalid_api_key`
-- Check `OPENAI_API_KEY` / `CHAT_API_KEY` values.
-- Avoid quoting mistakes or truncated keys.
-
-### `Unsupported parameter: max_tokens`
-- GPT-5 models may require `max_completion_tokens` in some callers.
-- Use the current repo scripts (they already handle this where implemented).
-
-## 10) Suggested Local Workflow
-
-1. Start backend (`python chat_pipeline_api.py`).
-2. Start frontend (`npm run dev -- --host 0.0.0.0 --port 5173`).
-3. Validate `/health` in browser or curl.
-4. Ask a test question in chat.
-5. If errors occur, inspect browser Network tab + backend terminal logs.

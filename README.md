@@ -1,33 +1,54 @@
 # FD-NL2SQL Local Setup Guide
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c82fdf8-64a8-458e-b85d-737caf18aadd"
+       alt="FD-NL2SQL UI"
+       width="900" />
+</p>
+
+FD-NL2SQL is a natural-language-to-SQL assistant for oncology clinical-trial databases that leverages the power of large language models to make complex trial querying fast, flexible, and accessible.
+
+It enables ad-hoc, multi-constraint questions across biomarkers, endpoints, interventions, and time, translating everyday questions into executable database queries without requiring SQL or schema expertise. Designed for iterative use, it supports easy refinement and learns from feedback so it improves over time.
+
 This guide explains how to run FD-NL2SQL locally end-to-end:
-- method scripts (single question / batch)
-- chat backend API
-- frontend UI
+
+* Method scripts (single question / batch)
+* Chat backend API
+* Frontend UI
+
+---
 
 ## 1) Prerequisites
-- Python: 3.10+ (3.11 recommended)
-- Node.js: 18+ and npm
-- Git
-- OpenAI API key
+
+* Python: 3.10+ (3.11 recommended)
+* Node.js: 18+ and npm
+* Git
+* OpenAI API key
+
+---
 
 ## 2) Clone and Enter Project
 
 ### Linux/macOS (bash)
+
 ```bash
 git clone https://github.com/TejasAnvekar/FD-NL2SQL.git FD-NL2SQL
 cd FD-NL2SQL
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 git clone https://github.com/TejasAnvekar/FD-NL2SQL.git FD-NL2SQL
 Set-Location FD-NL2SQL
 ```
 
+---
+
 ## 3) Python Environment (Conda)
 
 ### Linux/macOS (bash)
+
 ```bash
 conda create -n fdnl2sql python=3.11 -y
 conda activate fdnl2sql
@@ -36,6 +57,7 @@ pip install fastapi "uvicorn[standard]" openai pydantic numpy
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 conda create -n fdnl2sql python=3.11 -y
 conda activate fdnl2sql
@@ -46,11 +68,14 @@ pip install fastapi "uvicorn[standard]" openai pydantic numpy
 OpenAI embeddings are the default retrieval backend in this repo.
 
 Optional SBERT fallback dependency:
+
 ```bash
 pip install sentence-transformers
 ```
 
 If your local pipeline path needs extra packages (for eval/model paths), install them in the same Conda env.
+
+---
 
 ## 4) Configure Environment Variables
 
@@ -77,6 +102,7 @@ CHAT_CORS_ALLOW_ORIGINS=http://localhost:5173
 Load `.env` into the current shell:
 
 ### Linux/macOS (bash)
+
 ```bash
 set -a
 source .env
@@ -84,6 +110,7 @@ set +a
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 Get-Content .env | ForEach-Object {
   if ($_ -match '^\s*#' -or $_ -match '^\s*$') { return }
@@ -92,24 +119,31 @@ Get-Content .env | ForEach-Object {
 }
 ```
 
+---
+
 ## 5) Verify Required Data Files
 
 Ensure these files exist:
-- `data/schema.json`
-- `data/database.db`
-- `data/seed_questions.json`
-- `data/natural_question_1500.json` (for batch/eval runs)
+
+* `data/schema.json`
+* `data/database.db`
+* `data/seed_questions.json`
+* `data/natural_question_1500.json` (for batch/eval runs)
+
+---
 
 ## 6) Run Chat Backend API
 
 From project root:
 
 ### Linux/macOS
+
 ```bash
 python chat_pipeline_api.py
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 python .\chat_pipeline_api.py
 ```
@@ -117,42 +151,54 @@ python .\chat_pipeline_api.py
 If port `8181` is occupied, choose another port first:
 
 ### Linux/macOS
+
 ```bash
 export CHAT_API_PORT=8181
 python chat_pipeline_api.py
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 $env:CHAT_API_PORT="8181"
-python .\chat_pipeline_api.py
+python chat_pipeline_api.py
 ```
 
 Health check:
 
 ### Linux/macOS
+
 ```bash
 curl http://127.0.0.1:8181/health
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 Invoke-RestMethod http://127.0.0.1:8181/health
 ```
 
-Expected: JSON with `"ok": true`.
+Expected output:
+
+```json
+{"ok": true}
+```
+
+---
 
 ## 7) Run Frontend
 
 In a second terminal:
 
 ### Linux/macOS
+
 ```bash
 cd frontend
 npm install
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
 Set-Location .\frontend
 npm install
@@ -172,13 +218,18 @@ npm run dev -- --host 0.0.0.0 --port 5173
 
 If you are on a remote machine (SSH/VM/WSL), open the **Network** URL shown by Vite (for example `http://10.x.x.x:5173`).
 
-If you are running directly on your local machine, open `http://localhost:5173`.
+If you are running directly on your local machine, open:
+
+[http://localhost:5173](http://localhost:5173)
+
+---
 
 ## 8) Run Method Without Frontend (Optional)
 
-### Single question (chat orchestrator)
+### Single Question (Chat Orchestrator)
 
 #### Linux/macOS
+
 ```bash
 python method/orchestrate_single_question_chat.py \
   --question "Which colorectal trials had 3 or more arms and used a multikinase inhibitor as control?" \
@@ -192,6 +243,7 @@ python method/orchestrate_single_question_chat.py \
 ```
 
 #### Windows (PowerShell)
+
 ```powershell
 python .\method\orchestrate_single_question_chat.py `
   --question "Which colorectal trials had 3 or more arms and used a multikinase inhibitor as control?" `
@@ -204,9 +256,12 @@ python .\method\orchestrate_single_question_chat.py `
   --skip-exec 0
 ```
 
-### Batch pipeline
+---
+
+### Batch Pipeline
 
 #### Linux/macOS
+
 ```bash
 python method/orchestrate_decompose_retrieve_synthesize.py \
   --mode batch \
@@ -219,6 +274,7 @@ python method/orchestrate_decompose_retrieve_synthesize.py \
 ```
 
 #### Windows (PowerShell)
+
 ```powershell
 python .\method\orchestrate_decompose_retrieve_synthesize.py `
   --mode batch `
@@ -230,4 +286,4 @@ python .\method\orchestrate_decompose_retrieve_synthesize.py `
   --model-name gpt-5-nano
 ```
 
-
+---

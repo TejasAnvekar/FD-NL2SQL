@@ -1,0 +1,15 @@
+{
+  "phase_count": 3,
+  "total_pred_items": 1500,
+  "pred_with_sql": 1500,
+  "pred_exec_ok": 1500,
+  "exec_ready": 1500,
+  "exec_exact_match": 494,
+  "overall_exec_exact_match_rate": 0.3293333333333333,
+  "macro_avg_f1": 0.5765325068609254,
+  "weighted_avg_f1": 0.5765325068609254,
+  "macro_avg_sql_ast_similarity": 0.8025645544346361,
+  "weighted_avg_sql_ast_similarity": 0.8025645544346361,
+  "macro_avg_precision": 0.6336057284394615,
+  "macro_avg_recall": 0.5968003250715176
+}

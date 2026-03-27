@@ -1,0 +1,11 @@
+{
+  "xlsx_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2).xlsx",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "sheet_name": "Sheet1",
+  "detected_sql_column": "sql_query",
+  "input_row_count": 500,
+  "ok_count": 500,
+  "error_count": 0,
+  "skipped_count": 0,
+  "output_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_executed.jsonl"
+}

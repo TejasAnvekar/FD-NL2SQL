@@ -1,0 +1,48 @@
+{
+  "baseline_evals": [
+    "/mnt/data1/srchowd3/FD-NL2SQL/results/eval_baselines_v3/20260226_062742/eval_gemma27b_cot.json",
+    "/mnt/data1/srchowd3/FD-NL2SQL/results/eval_baselines_v3/20260226_062742/eval_gemma27b_few_shot.json",
+    "/mnt/data1/srchowd3/FD-NL2SQL/results/eval_baselines_v3/20260226_062742/eval_gemma27b_zero_shot.json"
+  ],
+  "batch_evals": [
+    "/mnt/data1/srchowd3/FD-NL2SQL/results/decompose_method/staged_0_1499/batch_1/batch_1.eval.json",
+    "/mnt/data1/srchowd3/FD-NL2SQL/results/decompose_method/staged_0_1499/batch_2/batch_2.eval.json",
+    "/mnt/data1/srchowd3/FD-NL2SQL/results/decompose_method/staged_0_1499/batch_3/batch_3.eval.json"
+  ],
+  "id_source": "pred_nonempty",
+  "summary_rows": [
+    {
+      "baseline": "eval_gemma27b_cot",
+      "common_ids": 1500,
+      "exact_exec_match_batch": 0.10333333333333333,
+      "exact_exec_match_baseline": 0.13333333333333333,
+      "exact_exec_match_delta": -0.03,
+      "f1_batch": 0.18014473102059572,
+      "f1_baseline": 0.3488904970729326,
+      "f1_delta": -0.1687457660523369,
+      "sql_ast_similarity_delta": -0.008978606772478304
+    },
+    {
+      "baseline": "eval_gemma27b_few_shot",
+      "common_ids": 1500,
+      "exact_exec_match_batch": 0.10333333333333333,
+      "exact_exec_match_baseline": 0.30733333333333335,
+      "exact_exec_match_delta": -0.20400000000000001,
+      "f1_batch": 0.18014473102059572,
+      "f1_baseline": 0.45727428480733323,
+      "f1_delta": -0.27712955378673754,
+      "sql_ast_similarity_delta": -0.04232699044615518
+    },
+    {
+      "baseline": "eval_gemma27b_zero_shot",
+      "common_ids": 1500,
+      "exact_exec_match_batch": 0.10333333333333333,
+      "exact_exec_match_baseline": 0.2946666666666667,
+      "exact_exec_match_delta": -0.19133333333333336,
+      "f1_batch": 0.18014473102059572,
+      "f1_baseline": 0.399551280150781,
+      "f1_delta": -0.21940654913018529,
+      "sql_ast_similarity_delta": 0.21787900746608624
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "mode": "staged_batch_mode",
+  "stage_count": 3,
+  "stage_size": 500,
+  "initial_seed": "/mnt/data1/srchowd3/FD-NL2SQL/data/seed_questions.json",
+  "final_seed": "results/decompose_method/staged_20260318_gemma/seeds/seed_after_batch_3.json",
+  "stages": [
+    {
+      "stage": 1,
+      "start_index": 0,
+      "limit": 500,
+      "end_index": 499,
+      "output_dir": "results/decompose_method/staged_20260318_gemma/batch_1",
+      "decompose_json": "results/decompose_method/staged_20260318_gemma/batch_1/batch_1.decompose_retrieve.json",
+      "synth_json": "results/decompose_method/staged_20260318_gemma/batch_1/batch_1.synth.json",
+      "eval_output_json": "results/decompose_method/staged_20260318_gemma/batch_1/batch_1.eval.json",
+      "acceptance_output_json": "results/decompose_method/staged_20260318_gemma/batch_1/batch_1.acceptance.json",
+      "seed_in": "results/decompose_method/staged_20260318_gemma/seeds/seed_working.json",
+      "seed_out": "results/decompose_method/staged_20260318_gemma/seeds/seed_after_batch_1.json",
+      "accepted_rows": 256,
+      "seed_rows_added": 234,
+      "seed_rows_skipped_existing": 22
+    },
+    {
+      "stage": 2,
+      "start_index": 500,
+      "limit": 500,
+      "end_index": 999,
+      "output_dir": "results/decompose_method/staged_20260318_gemma/batch_2",
+      "decompose_json": "results/decompose_method/staged_20260318_gemma/batch_2/batch_2.decompose_retrieve.json",
+      "synth_json": "results/decompose_method/staged_20260318_gemma/batch_2/batch_2.synth.json",
+      "eval_output_json": "results/decompose_method/staged_20260318_gemma/batch_2/batch_2.eval.json",
+      "acceptance_output_json": "results/decompose_method/staged_20260318_gemma/batch_2/batch_2.acceptance.json",
+      "seed_in": "results/decompose_method/staged_20260318_gemma/seeds/seed_after_batch_1.json",
+      "seed_out": "results/decompose_method/staged_20260318_gemma/seeds/seed_after_batch_2.json",
+      "accepted_rows": 177,
+      "seed_rows_added": 156,
+      "seed_rows_skipped_existing": 21
+    },
+    {
+      "stage": 3,
+      "start_index": 1000,
+      "limit": 500,
+      "end_index": 1499,
+      "output_dir": "results/decompose_method/staged_20260318_gemma/batch_3",
+      "decompose_json": "results/decompose_method/staged_20260318_gemma/batch_3/batch_3.decompose_retrieve.json",
+      "synth_json": "results/decompose_method/staged_20260318_gemma/batch_3/batch_3.synth.json",
+      "eval_output_json": "results/decompose_method/staged_20260318_gemma/batch_3/batch_3.eval.json",
+      "acceptance_output_json": "results/decompose_method/staged_20260318_gemma/batch_3/batch_3.acceptance.json",
+      "seed_in": "results/decompose_method/staged_20260318_gemma/seeds/seed_after_batch_2.json",
+      "seed_out": "results/decompose_method/staged_20260318_gemma/seeds/seed_after_batch_3.json",
+      "accepted_rows": 210,
+      "seed_rows_added": 195,
+      "seed_rows_skipped_existing": 15
+    }
+  ]
+}

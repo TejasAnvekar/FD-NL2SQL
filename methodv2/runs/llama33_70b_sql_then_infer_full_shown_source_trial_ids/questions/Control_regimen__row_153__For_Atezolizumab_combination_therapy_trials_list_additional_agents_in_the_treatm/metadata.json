@@ -1,0 +1,11 @@
+{
+  "item_id": "row_153",
+  "question": "For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "hidden_column": "Control regimen",
+  "group_name": "Control_regimen",
+  "prompt_source_column_mode": "shown",
+  "gt_sql": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Atezolizumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "pred_sql": "SELECT \"NCT\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials WHERE \"Name of ICI\" = 'Atezolizumab' AND \"Monotherapy/combination\" = 'Combination'",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/questions/Control_regimen__row_153__For_Atezolizumab_combination_therapy_trials_list_additional_agents_in_the_treatm/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/questions/Control_regimen__row_153__For_Atezolizumab_combination_therapy_trials_list_additional_agents_in_the_treatm/ground_truth_table.csv"
+}

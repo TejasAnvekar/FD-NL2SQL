@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "api_base": "http://127.0.0.1:8000/v1",
+    "model_name": "llama-3.3-70b-instruct",
+    "prompt_source_column_mode": "shown",
+    "limit": 0,
+    "dry_run": false,
+    "loaded_completed_item_ids": 0,
+    "eligible_questions": 123,
+    "skipped": {
+      "source_equals_hidden": 186,
+      "final_column_not_usable": 191
+    },
+    "groups": {
+      "Class of ICI": 18,
+      "Control arm": 18,
+      "Control regimen": 15,
+      "Follow-up duration for primary endpoint(s) in months | Control": 17,
+      "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+      "Is any other biomarker used for inclusion": 18,
+      "Monotherapy/combination": 18,
+      "Secondary endpoint": 17,
+      "Treatment regimen": 1
+    }
+  },
+  "question_count": 123,
+  "row_prediction_count": 1017,
+  "avg_sql_result_exact_match": 0.056910569105691054,
+  "avg_inference_exact_match_rate": 0.08343152782177171,
+  "avg_inference_similarity": 0.08343152782177171,
+  "outputs": {
+    "all_question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/row_level_predictions.csv",
+    "questions_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/questions",
+    "question_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/question_results_checkpoint.jsonl",
+    "row_level_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/row_level_checkpoint.jsonl",
+    "sql_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/sql_requests.jsonl",
+    "sql_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/sql_responses.jsonl",
+    "inference_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/inference_requests.jsonl",
+    "inference_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/inference_responses.jsonl"
+  }
+}

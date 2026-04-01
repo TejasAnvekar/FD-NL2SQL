@@ -1,0 +1,11 @@
+{
+  "item_id": "row_297",
+  "question": "In Esophageal/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "hidden_column": "Class of ICI",
+  "group_name": "Class_of_ICI",
+  "prompt_source_column_mode": "hidden",
+  "gt_sql": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ';",
+  "pred_sql": "SELECT\n  \"Name of ICI\"\nFROM clinical_trials\nWHERE\n  \"Cancer type\" = 'Esophageal/GEJ';",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Class_of_ICI__row_297__In_Esophageal_GEJ_trials_classify_the_ICI_by_target_class_from_its_generic_name/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Class_of_ICI__row_297__In_Esophageal_GEJ_trials_classify_the_ICI_by_target_class_from_its_generic_name/ground_truth_table.csv"
+}

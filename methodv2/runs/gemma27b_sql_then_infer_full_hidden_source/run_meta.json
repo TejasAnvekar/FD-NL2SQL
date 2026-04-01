@@ -1,0 +1,26 @@
+{
+  "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "api_base": "http://127.0.0.1:8000/v1",
+  "model_name": "gemma-3-27b-it",
+  "prompt_source_column_mode": "hidden",
+  "limit": 0,
+  "dry_run": false,
+  "loaded_completed_item_ids": 0,
+  "eligible_questions": 123,
+  "skipped": {
+    "source_equals_hidden": 186,
+    "final_column_not_usable": 191
+  },
+  "groups": {
+    "Class of ICI": 18,
+    "Control arm": 18,
+    "Control regimen": 15,
+    "Follow-up duration for primary endpoint(s) in months | Control": 17,
+    "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+    "Is any other biomarker used for inclusion": 18,
+    "Monotherapy/combination": 18,
+    "Secondary endpoint": 17,
+    "Treatment regimen": 1
+  }
+}

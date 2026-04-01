@@ -1,0 +1,15 @@
+2026-04-01 13:03:47,676 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/test_row_153/logs/run_meta_20260401_130347.log
+2026-04-01 13:03:47,676 | INFO | CSV path: /tmp/cat3_row_153.csv
+2026-04-01 13:03:47,677 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-01 13:03:47,677 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/test_row_153
+2026-04-01 13:03:47,677 | INFO | API base: http://127.0.0.1:8000/v1
+2026-04-01 13:03:47,677 | INFO | Model name: llama-3.3-70b-instruct
+2026-04-01 13:03:47,677 | INFO | Prompt source-column mode: shown
+2026-04-01 13:03:47,677 | INFO | Dry run: False
+2026-04-01 13:03:47,677 | INFO | Eligible questions: 1
+2026-04-01 13:03:47,678 | INFO | Skipped: {}
+2026-04-01 13:03:47,678 | INFO | Groups: 1
+2026-04-01 13:03:47,678 | INFO |   Control regimen -> 1 rows
+2026-04-01 13:03:57,283 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/test_row_153/all_question_results.csv
+2026-04-01 13:03:57,283 | INFO | Wrote row-level predictions CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/test_row_153/row_level_predictions.csv
+2026-04-01 13:03:57,283 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/test_row_153/summary.json

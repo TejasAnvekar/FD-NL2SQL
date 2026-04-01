@@ -1,0 +1,5 @@
+row_index,NCT,Trial name,Type of therapy,Cancer type,Monotherapy/combination
+1,NCT02788279,IMblaze130,Combination,Colorectal,True
+2,NCT02788279,IMblaze130,Monotherapy,Colorectal,False
+3,NCT02870920,,Combination,Colorectal,True
+4,NCT02563002,MK-3475/Keynote-177,Monotherapy,Colorectal,False

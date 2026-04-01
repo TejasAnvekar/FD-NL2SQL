@@ -1,0 +1,15 @@
+2026-04-01 13:55:29,000 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/logs/run_meta_20260401_135528.log
+2026-04-01 13:55:29,000 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-04-01 13:55:29,000 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-01 13:55:29,000 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided
+2026-04-01 13:55:29,000 | INFO | API base: http://127.0.0.1:8000/v1
+2026-04-01 13:55:29,000 | INFO | Model name: llama-3.3-70b-instruct
+2026-04-01 13:55:29,000 | INFO | Prompt source-column mode: shown
+2026-04-01 13:55:29,000 | INFO | Dry run: False
+2026-04-01 13:55:29,006 | INFO | Loaded 1 completed question checkpoints from /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/question_results_checkpoint.jsonl
+2026-04-01 13:55:29,006 | INFO | Eligible questions: 0
+2026-04-01 13:55:29,006 | INFO | Skipped: {}
+2026-04-01 13:55:29,006 | INFO | Groups: 0
+2026-04-01 13:55:29,013 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/all_question_results.csv
+2026-04-01 13:55:29,013 | INFO | Wrote row-level predictions CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/row_level_predictions.csv
+2026-04-01 13:55:29,013 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/summary.json

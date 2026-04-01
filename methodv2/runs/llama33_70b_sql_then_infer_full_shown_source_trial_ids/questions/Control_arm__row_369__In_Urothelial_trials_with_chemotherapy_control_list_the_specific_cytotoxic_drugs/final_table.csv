@@ -1,0 +1,5 @@
+row_index,Control regimen,Control arm
+1,Placebo+Gemcitabine+Carboplatin or Cisplatin,"['Gemcitabine', 'Carboplatin', 'Cisplatin']"
+2,Placebo+Gemcitabine+Carboplatin or Cisplatin,"['Gemcitabine', 'Carboplatin', 'Cisplatin']"
+3,Gemcitabine+Cisplatin/Carboplatin,"['Gemcitabine', 'Cisplatin', 'Carboplatin']"
+4,Gemcitabine+Cisplatin/Carboplatin,"['Gemcitabine', 'Cisplatin', 'Carboplatin']"

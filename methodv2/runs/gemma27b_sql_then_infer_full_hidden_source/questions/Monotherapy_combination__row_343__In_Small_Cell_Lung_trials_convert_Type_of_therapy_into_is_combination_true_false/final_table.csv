@@ -1,0 +1,15 @@
+row_index,NCT,Type of therapy,is_combination,Monotherapy/combination
+1,NCT00527735,Combination,true,True
+2,NCT00527735,Combination,true,True
+3,NCT01450761,Combination,true,True
+4,NCT02763579,Combination,true,True
+5,NCT03059667,Monotherapy,false,False
+6,NCT03043872,Combination,true,True
+7,NCT03043872,Combination,true,True
+8,NCT02763579,Combination,true,True
+9,NCT03066778,Combination,true,True
+10,NCT03043872,Combination,true,True
+11,NCT03043872,Combination,true,True
+12,NCT02481830,Monotherapy,false,False
+13,NCT02538666,Combination,true,True
+14,NCT02538666,Monotherapy,false,False

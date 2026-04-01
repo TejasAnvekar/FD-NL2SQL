@@ -1,0 +1,5 @@
+row_index,Type of therapy,Cancer type,Monotherapy/combination
+1,Combination,Colorectal,True
+2,Monotherapy,Colorectal,False
+3,Combination,Colorectal,True
+4,Monotherapy,Colorectal,False

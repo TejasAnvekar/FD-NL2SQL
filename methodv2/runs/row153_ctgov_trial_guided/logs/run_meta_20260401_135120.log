@@ -1,0 +1,16 @@
+2026-04-01 13:51:20,918 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/logs/run_meta_20260401_135120.log
+2026-04-01 13:51:20,918 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-04-01 13:51:20,919 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-01 13:51:20,919 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided
+2026-04-01 13:51:20,919 | INFO | API base: http://127.0.0.1:8000/v1
+2026-04-01 13:51:20,919 | INFO | Model name: llama-3.3-70b-instruct
+2026-04-01 13:51:20,919 | INFO | Prompt source-column mode: shown
+2026-04-01 13:51:20,919 | INFO | Dry run: False
+2026-04-01 13:51:20,922 | INFO | Eligible questions: 1
+2026-04-01 13:51:20,922 | INFO | Skipped: {}
+2026-04-01 13:51:20,922 | INFO | Groups: 1
+2026-04-01 13:51:20,922 | INFO |   Control regimen -> 1 rows
+2026-04-01 13:51:25,266 | WARNING | value_inference call failed (attempt 1/3): HTTP Error 400: Bad Request
+2026-04-01 13:51:25,317 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/all_question_results.csv
+2026-04-01 13:51:25,317 | INFO | Wrote row-level predictions CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/row_level_predictions.csv
+2026-04-01 13:51:25,317 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/summary.json

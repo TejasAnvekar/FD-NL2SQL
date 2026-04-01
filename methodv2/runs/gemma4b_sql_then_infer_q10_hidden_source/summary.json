@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "api_base": "http://127.0.0.1:8000/v1",
+    "model_name": "gemma-3-4b-it",
+    "prompt_source_column_mode": "hidden",
+    "limit": 10,
+    "dry_run": false,
+    "eligible_questions": 10,
+    "skipped": {
+      "source_equals_hidden": 18,
+      "final_column_not_usable": 7
+    },
+    "groups": {
+      "Class of ICI": 2,
+      "Control arm": 1,
+      "Control regimen": 1,
+      "Follow-up duration for primary endpoint(s) in months | Control": 1,
+      "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+      "Monotherapy/combination": 2,
+      "Secondary endpoint": 1,
+      "Treatment regimen": 1
+    }
+  },
+  "question_count": 10,
+  "row_prediction_count": 79,
+  "avg_sql_result_exact_match": 0.7,
+  "avg_inference_exact_match_rate": 0.1197142857142857,
+  "avg_inference_similarity": 0.1197142857142857,
+  "outputs": {
+    "all_question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_sql_then_infer_q10_hidden_source/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_sql_then_infer_q10_hidden_source/row_level_predictions.csv",
+    "sql_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_sql_then_infer_q10_hidden_source/sql_requests.jsonl",
+    "sql_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_sql_then_infer_q10_hidden_source/sql_responses.jsonl",
+    "inference_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_sql_then_infer_q10_hidden_source/inference_requests.jsonl",
+    "inference_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_sql_then_infer_q10_hidden_source/inference_responses.jsonl"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "item_id": "row_71",
+  "question": "In Bladder trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "hidden_column": "Class of ICI",
+  "group_name": "Class_of_ICI",
+  "prompt_source_column_mode": "shown",
+  "gt_sql": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Bladder';",
+  "pred_sql": "SELECT \"NCT\", \"Trial name\", \"Name of ICI\" FROM clinical_trials WHERE \"Cancer type\" = 'Bladder'",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/questions/Class_of_ICI__row_71__In_Bladder_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/questions/Class_of_ICI__row_71__In_Bladder_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1/ground_truth_table.csv"
+}

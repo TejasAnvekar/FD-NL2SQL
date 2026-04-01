@@ -1,0 +1,22 @@
+2026-03-30 13:56:57,863 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_q10_hidden_source/logs/run_meta_20260330_135657.log
+2026-03-30 13:56:57,863 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-03-30 13:56:57,863 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-03-30 13:56:57,863 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_q10_hidden_source
+2026-03-30 13:56:57,863 | INFO | API base: http://127.0.0.1:8000/v1
+2026-03-30 13:56:57,863 | INFO | Model name: gemma-3-27b-it
+2026-03-30 13:56:57,863 | INFO | Prompt source-column mode: hidden
+2026-03-30 13:56:57,863 | INFO | Dry run: False
+2026-03-30 13:56:57,867 | INFO | Eligible questions: 10
+2026-03-30 13:56:57,867 | INFO | Skipped: {'source_equals_hidden': 18, 'final_column_not_usable': 7}
+2026-03-30 13:56:57,867 | INFO | Groups: 8
+2026-03-30 13:56:57,867 | INFO |   Class of ICI -> 2 rows
+2026-03-30 13:56:57,867 | INFO |   Control arm -> 1 rows
+2026-03-30 13:56:57,867 | INFO |   Control regimen -> 1 rows
+2026-03-30 13:56:57,867 | INFO |   Follow-up duration for primary endpoint(s) in months | Control -> 1 rows
+2026-03-30 13:56:57,867 | INFO |   Follow-up duration for primary endpoint(s) in months | Overall -> 1 rows
+2026-03-30 13:56:57,867 | INFO |   Monotherapy/combination -> 2 rows
+2026-03-30 13:56:57,867 | INFO |   Secondary endpoint -> 1 rows
+2026-03-30 13:56:57,867 | INFO |   Treatment regimen -> 1 rows
+2026-03-30 13:57:37,504 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_q10_hidden_source/all_question_results.csv
+2026-03-30 13:57:37,504 | INFO | Wrote row-level predictions CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_q10_hidden_source/row_level_predictions.csv
+2026-03-30 13:57:37,505 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_q10_hidden_source/summary.json

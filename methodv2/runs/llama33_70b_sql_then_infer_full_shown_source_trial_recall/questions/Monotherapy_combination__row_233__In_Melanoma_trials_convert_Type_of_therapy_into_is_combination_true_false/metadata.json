@@ -1,0 +1,11 @@
+{
+  "item_id": "row_233",
+  "question": "In Melanoma trials, convert 'Type of therapy' into is_combination = true/false.",
+  "hidden_column": "Monotherapy/combination",
+  "group_name": "Monotherapy_combination",
+  "prompt_source_column_mode": "shown",
+  "gt_sql": "SELECT \"Type of therapy\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma';",
+  "pred_sql": "SELECT \"NCT\", \"Trial name\", \"Type of therapy\", \"Cancer type\" FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma'",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_recall/questions/Monotherapy_combination__row_233__In_Melanoma_trials_convert_Type_of_therapy_into_is_combination_true_false/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_recall/questions/Monotherapy_combination__row_233__In_Melanoma_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv"
+}

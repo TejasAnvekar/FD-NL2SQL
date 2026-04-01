@@ -1,0 +1,11 @@
+row_index,Control regimen,Control arm
+1,Nab-paclitaxel,Nab-paclitaxel
+2,Placebo+Nab-paclitaxel+Epirubicin+Cyclophosphamide,"['Nab-paclitaxel', 'Epirubicin', 'Cyclophosphamide']"
+3,Paclitaxel+Doxorubicin+Cyclophosphamide,"['Paclitaxel', 'Doxorubicin', 'Cyclophosphamide']"
+4,Nab-paclitaxel,Nab-paclitaxel
+5,Placebo+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+6,Eribulin,Eribulin
+7,Placebo+Nab-paclitaxel/Gemcitabine+carboplatin,"['Nab-paclitaxel', 'Gemcitabine', 'carboplatin']"
+8,Placebo+Nab-paclitaxel+Doxorubicin+Cyclophosphamide+Filgrastim/Pegfilgrastim,"['Nab-paclitaxel', 'Doxorubicin', 'Cyclophosphamide']"
+9,Chemotherapy,Chemotherapy
+10,Chemotherapy,Chemotherapy

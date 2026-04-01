@@ -1,0 +1,24 @@
+2026-03-30 13:05:32,765 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source/logs/run_meta_20260330_130532.log
+2026-03-30 13:05:32,766 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-03-30 13:05:32,766 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-03-30 13:05:32,766 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source
+2026-03-30 13:05:32,766 | INFO | API base: http://127.0.0.1:8000/v1
+2026-03-30 13:05:32,766 | INFO | Model name: gemma-3-4b-it
+2026-03-30 13:05:32,766 | INFO | Prompt source-column mode: hidden
+2026-03-30 13:05:32,766 | INFO | Dry run: False
+2026-03-30 13:05:32,770 | INFO | Eligible questions: 10
+2026-03-30 13:05:32,770 | INFO | Skipped: {'source_equals_hidden': 18, 'final_column_not_usable': 7}
+2026-03-30 13:05:32,770 | INFO | Groups: 8
+2026-03-30 13:05:32,770 | INFO |   Class of ICI -> 2 rows
+2026-03-30 13:05:32,770 | INFO |   Control arm -> 1 rows
+2026-03-30 13:05:32,770 | INFO |   Control regimen -> 1 rows
+2026-03-30 13:05:32,771 | INFO |   Follow-up duration for primary endpoint(s) in months | Control -> 1 rows
+2026-03-30 13:05:32,771 | INFO |   Follow-up duration for primary endpoint(s) in months | Overall -> 1 rows
+2026-03-30 13:05:32,771 | INFO |   Monotherapy/combination -> 2 rows
+2026-03-30 13:05:32,771 | INFO |   Secondary endpoint -> 1 rows
+2026-03-30 13:05:32,771 | INFO |   Treatment regimen -> 1 rows
+2026-03-30 13:05:36,190 | INFO | Wrote question summary CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source/question_summary.csv
+2026-03-30 13:05:36,191 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source/all_question_results.csv
+2026-03-30 13:05:36,191 | INFO | Wrote value-level comparison CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source/value_level_comparison.csv
+2026-03-30 13:05:36,191 | INFO | Wrote requests JSONL: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source/requests.jsonl
+2026-03-30 13:05:36,191 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma4b_value_infer_q10_hidden_source/summary.json

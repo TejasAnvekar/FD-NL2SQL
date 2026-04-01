@@ -1,0 +1,9 @@
+row_index,Type of therapy,Cancer type,Monotherapy/combination
+1,Monotherapy,Gastric/GEJ,False
+2,Monotherapy,Gastric/GEJ,False
+3,Monotherapy,Gastric/GEJ,False
+4,Monotherapy,Gastric/GEJ,False
+5,Monotherapy,Gastric/GEJ,False
+6,Monotherapy,Gastric/GEJ,False
+7,Combination,Gastric/GEJ,True
+8,Combination,Gastric/GEJ,True

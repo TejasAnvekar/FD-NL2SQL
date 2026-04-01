@@ -1,0 +1,46 @@
+row_index,Name of ICI,Class of ICI
+1,Ipilimumab,CTLA-4
+2,Ipilimumab,CTLA-4
+3,Nivolumab,PD1
+4,Nivolumab,PD1
+5,Pembrolizumab,PD1
+6,Pembrolizumab,PD1
+7,Atezolizumab,PD-L1
+8,Nivolumab,PD1
+9,Ipilimumab,CTLA-4
+10,Durvalumab,PD-L1
+11,Durvalumab,PD-L1
+12,Atezolizumab,PD-L1
+13,Pembrolizumab,PD1
+14,Pembrolizumab,PD1
+15,Atezolizumab,PD-L1
+16,Atezolizumab,PD-L1
+17,Pembrolizumab,PD1
+18,Pembrolizumab,PD1
+19,Atezolizumab,PD-L1
+20,Atezolizumab,PD-L1
+21,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+22,Nivolumab,PD1
+23,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+24,Nivolumab,PD1
+25,Nivolumab,PD1
+26,Pembrolizumab,PD1
+27,Pembrolizumab,PD1
+28,Atezolizumab,PD-L1
+29,Nivolumab,PD1
+30,Durvalumab,PD-L1
+31,Durvalumab,PD-L1
+32,Tremelimumab,CTLA-4
+33,"Durvalumab, Tremelimumab","PD-L1, CTLA-4"
+34,Durvalumab,PD-L1
+35,"Durvalumab, Tremelimumab","PD-L1, CTLA-4"
+36,Atezolizumab,PD-L1
+37,Atezolizumab,PD-L1
+38,Pembrolizumab,PD1
+39,Pembrolizumab,PD1
+40,Atezolizumab,PD-L1
+41,Atezolizumab,PD-L1
+42,Atezolizumab,PD-L1
+43,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+44,Cemiplimab,PD1
+45,Nivolumab,PD1

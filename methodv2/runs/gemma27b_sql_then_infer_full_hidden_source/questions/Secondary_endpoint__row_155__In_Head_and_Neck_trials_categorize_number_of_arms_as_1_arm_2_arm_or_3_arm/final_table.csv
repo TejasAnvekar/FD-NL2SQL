@@ -1,0 +1,11 @@
+row_index,Number of arms category,NCT,Trial name,Cancer type,Secondary endpoint
+1,2-arm,NCT02252042,KEYNOTE-040,Head and Neck,2-arm
+2,2-arm,NCT02105636,CheckMate 141,Head and Neck,2-arm
+3,2-arm,NCT02105636,CheckMate 141,Head and Neck,2-arm
+4,≥3-arm,NCT02358031,KEYNOTE-048,Head and Neck,≥3-arm
+5,≥3-arm,NCT02358031,KEYNOTE-048,Head and Neck,≥3-arm
+6,2-arm,NCT02017717,CheckMate 143,Head and Neck,2-arm
+7,≥3-arm,NCT02369874,EAGLE,Head and Neck,≥3-arm
+8,≥3-arm,NCT02369874,EAGLE,Head and Neck,≥3-arm
+9,2-arm,NCT02952586,JAVELIN Head and Neck 101,Head and Neck,2-arm
+10,2-arm,NCT02999087,REACH,Head and Neck,2-arm

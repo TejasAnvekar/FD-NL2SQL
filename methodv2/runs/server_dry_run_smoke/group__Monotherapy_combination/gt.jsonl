@@ -1,0 +1,1 @@
+{"item_id": "row_4", "natural_language_query": "In Prostate trials, convert 'Type of therapy' into is_combination = true/false.", "sql_query": "SELECT \"Type of therapy\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Prostate';", "removed_column": "Monotherapy/combination", "csv_row_number": 4, "expected_llm_response": "{\"is_combination\": true}"}

@@ -1,0 +1,12 @@
+row_index,Control regimen,Control arm
+1,Dacarbazine,Dacarbazine
+2,Temozolomide/dacarbazine,"['Temozolomide', 'Dacarbazine']"
+3,Investigator's choice chemotherapy,Unknown
+4,Investigator's choice chemotherapy,Unknown
+5,Investigator's choice chemotherapy,Unknown
+6,Investigator's choice chemotherapy,Unknown
+7,Dacarbazine/carboplatin+paclitaxel,"['Dacarbazine', 'Carboplatin', 'Paclitaxel']"
+8,Dacarbazine/carboplatin+paclitaxel,"['Dacarbazine', 'Carboplatin', 'Paclitaxel']"
+9,Dacarbazine,Dacarbazine
+10,Dacarbazine,Dacarbazine
+11,Dacarbazine,Dacarbazine

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "api_base": "http://127.0.0.1:8000/v1",
+    "model_name": "gemma-3-4b-it",
+    "limit": 10,
+    "dry_run": true,
+    "eligible_questions": 10,
+    "skipped": {
+      "source_equals_hidden": 18,
+      "final_column_not_usable": 7
+    },
+    "groups": {
+      "Class of ICI": 2,
+      "Control arm": 1,
+      "Control regimen": 1,
+      "Follow-up duration for primary endpoint(s) in months | Control": 1,
+      "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+      "Monotherapy/combination": 2,
+      "Secondary endpoint": 1,
+      "Treatment regimen": 1
+    }
+  },
+  "question_count": 10,
+  "value_count": 0,
+  "avg_exact_match_rate": 0.0,
+  "avg_similarity": 0.0,
+  "outputs": {
+    "question_summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/question_summary.csv",
+    "value_level_comparison_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/value_level_comparison.csv",
+    "responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/responses.jsonl"
+  }
+}

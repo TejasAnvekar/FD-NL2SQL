@@ -1,0 +1,15 @@
+row_index,Name of ICI,Class of ICI
+1,Ipilimumab,CTLA-4
+2,Ipilimumab,CTLA-4
+3,Ipilimumab,CTLA-4
+4,Atezolizumab,PD-L1
+5,Atezolizumab,PD-L1
+6,Durvalumab,PD-L1
+7,"Durvalumab, Tremelimumab",PD-L1
+8,Atezolizumab,PD-L1
+9,Pembrolizumab,PD-1
+10,"Durvalumab, Tremelimumab",PD-L1
+11,Durvalumab,PD-L1
+12,Nivolumab,PD-1
+13,"Nivolumab, Ipilimumab",PD-1
+14,Nivolumab,PD-1

@@ -1,0 +1,419 @@
+item_id,csv_row_number,question,column_used,final_column,prompt_source_column_mode,row_index,visible_row_json,pred_sql,predicted_hidden_value,actual_hidden_values_json,exact_match,similarity,sql_result_exact_match
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,1,"{""Name of ICI"": ""Ipilimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""CTLA-4""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,2,"{""Name of ICI"": ""Ipilimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""CTLA-4""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,3,"{""Name of ICI"": ""Ipilimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""CTLA-4""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,4,"{""Name of ICI"": ""Atezolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-L1""","[""PD-L1""]",1,1.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,5,"{""Name of ICI"": ""Atezolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-L1""","[""PD-L1""]",1,1.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,6,"{""Name of ICI"": ""Durvalumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-L1""","[""PD-L1""]",1,1.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,7,"{""Name of ICI"": ""Durvalumab, Tremelimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-L1""","[""PD-L1, CTLA-4""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,8,"{""Name of ICI"": ""Atezolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-L1""","[""PD-L1""]",1,1.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,9,"{""Name of ICI"": ""Pembrolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""PD1""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,10,"{""Name of ICI"": ""Durvalumab, Tremelimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""PD-L1, CTLA-4""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,11,"{""Name of ICI"": ""Durvalumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-L1""","[""PD-L1""]",1,1.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,12,"{""Name of ICI"": ""Nivolumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""PD1""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,13,"{""Name of ICI"": ""Nivolumab, Ipilimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""PD1, CTLA-4""]",0,0.0,1
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,14,"{""Name of ICI"": ""Nivolumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Small Cell Lung'","""PD-1""","[""PD1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,1,"{""Name of ICI"": ""Ipilimumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-1""","[""CTLA-4""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,2,"{""Name of ICI"": ""Nivolumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-1""","[""PD1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,3,"{""Name of ICI"": ""Avelumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-1""","[""PD-L1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,4,"{""Name of ICI"": ""Pembrolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-L1""","[""PD1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,5,"{""Name of ICI"": ""Nivolumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-1""","[""PD1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,6,"{""Name of ICI"": ""Pembrolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-L1""","[""PD1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,7,"{""Name of ICI"": ""Pembrolizumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-L1""","[""PD1""]",0,0.0,1
+row_36,36,"In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,Class of ICI,hidden,8,"{""Name of ICI"": ""Avelumab""}","SELECT
+  ""Name of ICI""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Gastric/GEJ'","""PD-1""","[""PD-L1""]",0,0.0,1
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,1,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,2,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,3,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,4,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,5,"{""Primary endpoint"": ""OS+PFS+ORR""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""25.2"", ""32.4"", ""42""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,6,"{""Primary endpoint"": ""OS+PFS+ORR""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""25.2"", ""32.4"", ""42""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,7,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,8,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,9,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,10,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,11,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,12,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,13,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,14,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,15,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,16,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,17,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,18,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,19,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,20,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,21,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,22,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,23,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,24,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,25,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,26,"{""Primary endpoint"": ""OS+ORR""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""6"", ""24""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,27,"{""Primary endpoint"": ""OS+ORR""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""6"", ""24""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,28,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,29,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,30,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,31,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,32,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,33,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,34,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,35,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,36,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,37,"{""Primary endpoint"": ""Path CR+EFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""15.5""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,38,"{""Primary endpoint"": ""OS+RFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""57.4""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,39,"{""Primary endpoint"": ""OS+RFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""57.4""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,40,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,41,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,42,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,43,"{""Primary endpoint"": ""OS+PFS+ORR""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""25.2"", ""32.4"", ""42""]",0,0.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,44,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,45,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,46,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,47,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,48,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,49,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_18,18,"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",Primary endpoint,Follow-up duration for primary endpoint(s) in months | Overall,hidden,50,"{""Primary endpoint"": ""OS+PFS""}","SELECT
+  ""Primary endpoint""
+FROM ""clinical_trials""
+WHERE
+  ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Co-primary'
+  OR ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Multiple';",null,"[""14.1"", ""27.7"", ""12.9"", ""7.9"", null, ""12.8"", ""24, 15"", ""14.5"", ""25.2"", ""10.5"", ""13.9"", ""7.8"", ""MIN for PFS 9.5, OS 14; MEDIAN for OS 20"", ""11.2"", ""10"", ""28"", ""8.1"", ""9.1"", ""30.2, 10.6"", ""29.4"", ""30.6""]",1,1.0,0
+row_4,4,"In Prostate trials, convert 'Type of therapy' into is_combination = true/false.",Type of therapy,Monotherapy/combination,hidden,1,"{""Type of therapy"": ""Combination""}","SELECT
+  ""Type of therapy""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Prostate'",true,"[""Combination""]",0,0.0,1
+row_4,4,"In Prostate trials, convert 'Type of therapy' into is_combination = true/false.",Type of therapy,Monotherapy/combination,hidden,2,"{""Type of therapy"": ""Monotherapy""}","SELECT
+  ""Type of therapy""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Prostate'",false,"[""Monotherapy""]",0,0.0,1
+row_4,4,"In Prostate trials, convert 'Type of therapy' into is_combination = true/false.",Type of therapy,Monotherapy/combination,hidden,3,"{""Type of therapy"": ""Combination""}","SELECT
+  ""Type of therapy""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Prostate'",true,"[""Combination""]",0,0.0,1
+row_20,20,"In Mesothelioma trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",Number of arms,Secondary endpoint,hidden,1,"{""Number of arms"": 2}","SELECT
+  ""Number of arms""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Mesothelioma';","""2-arm""","[""18-month OS; disease control and durable disease control; PFS; proportion of patients achieving an objective response; duration of response;  patient-reported outcomes; pharmacokinetics; immunogenicity of tremelimumab; and safety and tolerability."", ""PFS, ORR, time to response, DoR, DCR"", ""investigator-assessed PFS, OS, ORR, time to treatment failure, safety""]",0,0.0,1
+row_20,20,"In Mesothelioma trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",Number of arms,Secondary endpoint,hidden,2,"{""Number of arms"": 2}","SELECT
+  ""Number of arms""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Mesothelioma';","""2-arm""","[""18-month OS; disease control and durable disease control; PFS; proportion of patients achieving an objective response; duration of response;  patient-reported outcomes; pharmacokinetics; immunogenicity of tremelimumab; and safety and tolerability."", ""PFS, ORR, time to response, DoR, DCR"", ""investigator-assessed PFS, OS, ORR, time to treatment failure, safety""]",0,0.0,1
+row_20,20,"In Mesothelioma trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",Number of arms,Secondary endpoint,hidden,3,"{""Number of arms"": 2}","SELECT
+  ""Number of arms""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = 'Mesothelioma';","""2-arm""","[""18-month OS; disease control and durable disease control; PFS; proportion of patients achieving an objective response; duration of response;  patient-reported outcomes; pharmacokinetics; immunogenicity of tremelimumab; and safety and tolerability."", ""PFS, ORR, time to response, DoR, DCR"", ""investigator-assessed PFS, OS, ORR, time to treatment failure, safety""]",0,0.0,1
+row_9,9,"In Urothelial trials comparing ICI to placebo, infer from the trial name whether ICI was used as induction or maintenance.",Trial name,Treatment regimen,hidden,1,"{""Trial name"": null}","SELECT
+  ""Trial name""
+FROM ""clinical_trials""
+WHERE ""Cancer type"" = ""Urothelial""
+  AND ""Name of ICI"" != 'Placebo'
+  AND ""Control regimen"" = 'Placebo'","""unknown""","[""Pembrolizumab""]",0,0.0,1

@@ -1,0 +1,28 @@
+{
+  "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "table_name": "clinical_trials",
+  "model_path": "/mnt/shared/shared_hf_home/hub/models--google--gemma-3-4b-it/snapshots/093f9f388b31de276ce2de164bdc2081324b9767",
+  "dry_run": false,
+  "eligible_items": 309,
+  "skipped": {
+    "final_column_not_usable": 191
+  },
+  "groups": {
+    "Class of ICI": 18,
+    "Control arm": 35,
+    "Control regimen": 15,
+    "Follow-up duration for primary endpoint(s) in months | Control": 17,
+    "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+    "Is any other biomarker used for inclusion": 18,
+    "Monotherapy/combination": 18,
+    "Originial publication or Follow-up": 17,
+    "Primary endpoint": 29,
+    "Secondary endpoint": 35,
+    "Treatment regimen": 18,
+    "Trial name": 43,
+    "Type of combination": 17,
+    "Type of follow-up given": 15,
+    "Year": 13
+  }
+}

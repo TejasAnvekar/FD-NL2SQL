@@ -1,0 +1,37 @@
+row_index,Control regimen,Control arm
+1,Placebo+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+2,Placebo+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+3,Docetaxel,['Docetaxel']
+4,Docetaxel,['Docetaxel']
+5,Docetaxel,['Docetaxel']
+6,Docetaxel,['Docetaxel']
+7,Docetaxel,['Docetaxel']
+8,Platinum-based chemotherapy,Platinum-based chemotherapy
+9,Placebo+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+10,Docetaxel,['Docetaxel']
+11,Pemetrexed+Carboplatin,"['Pemetrexed', 'Carboplatin']"
+12,Pemetrexed+Carboplatin,"['Pemetrexed', 'Carboplatin']"
+13,Docetaxel,['Docetaxel']
+14,Docetaxel,['Docetaxel']
+15,Placebo+Pemetrexed+Platinum agent,"['Pemetrexed', 'Platinum agent']"
+16,Placebo+Carboplatin+paclitaxel/nab-paclitaxel,"['Carboplatin', 'paclitaxel/nab-paclitaxel']"
+17,Chemotherapy,Chemotherapy
+18,Chemotherapy,Chemotherapy
+19,Chemotherapy,Chemotherapy
+20,Chemotherapy,Chemotherapy
+21,Chemotherapy,Chemotherapy
+22,Carboplatin+Pemetrexed+Paclitaxel,"['Carboplatin', 'Pemetrexed', 'Paclitaxel']"
+23,Platinum-based chemotherapy,Platinum-based chemotherapy
+24,Carboplatin+Nab-paclitaxel,"['Carboplatin', 'Nab-paclitaxel']"
+25,Docetaxel,['Docetaxel']
+26,Investigator's choice chemotherapy,Investigator's choice chemotherapy
+27,Investigator's choice chemotherapy,Investigator's choice chemotherapy
+28,Carboplatin+Nab-paclitaxel,"['Carboplatin', 'Nab-paclitaxel']"
+29,Carboplatin+Nab-paclitaxel,"['Carboplatin', 'Nab-paclitaxel']"
+30,Docetaxel,['Docetaxel']
+31,Platinum-based chemotherapy,Platinum-based chemotherapy
+32,Cisplatin/carboplatin+gemcitabine,"['Cisplatin/carboplatin', 'gemcitabine']"
+33,Docetaxel,['Docetaxel']
+34,Docetaxel,['Docetaxel']
+35,Chemotherapy,Chemotherapy
+36,Chemotherapy,Chemotherapy

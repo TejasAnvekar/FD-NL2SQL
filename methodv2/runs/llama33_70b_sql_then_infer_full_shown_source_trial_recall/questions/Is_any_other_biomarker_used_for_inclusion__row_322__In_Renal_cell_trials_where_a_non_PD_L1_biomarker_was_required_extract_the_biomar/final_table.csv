@@ -1,0 +1,15 @@
+row_index,Trial name,Is any other biomarker used for inclusion
+1,CheckMate 025,
+2,IMmotion150,TEMLA
+3,IMmotion150,TEMLA
+4,CheckMate 214,IMDC
+5,CheckMate 214,IMDC
+6,JAVELIN Renal 101,PD-L1
+7,KEYNOTE-426,
+8,IMmotion151,TEMLA
+9,CheckMate 214,IMDC
+10,CheckMate 025,
+11,JAVELIN Renal 101,PD-L1
+12,Keynote-426,
+13,CLEAR,"Thrombocytopenia, Hemoglobin, Corrected Calcium, Platelets, and neutrophil-to-lymphocyte ratio (THCIN)"
+14,CheckMate 9ER,IMDC

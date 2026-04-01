@@ -1,0 +1,10 @@
+row_index,NCT,Trial name,Cancer type,Follow-up duration for primary endpoint(s) in months | Overall,Follow-up duration for primary endpoint(s) in months | Control
+1,NCT02105636,CheckMate 141,Head and Neck,5.1,<12
+2,NCT02105636,CheckMate 141,Head and Neck,24.2,≥24
+3,NCT02358031,KEYNOTE-048,Head and Neck,,
+4,NCT02358031,KEYNOTE-048,Head and Neck,,
+5,NCT02017717,CheckMate 143,Head and Neck,9.5,<12
+6,NCT02369874,EAGLE,Head and Neck,,
+7,NCT02369874,EAGLE,Head and Neck,,
+8,NCT02952586,JAVELIN Head and Neck 101,Head and Neck,,
+9,NCT02999087,REACH,Head and Neck,,

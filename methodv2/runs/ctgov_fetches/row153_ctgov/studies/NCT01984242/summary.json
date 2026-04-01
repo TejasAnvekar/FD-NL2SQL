@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT01984242",
+  "brief_title": "A Study of Atezolizumab (an Engineered Anti-Programmed Death-Ligand 1 [PD-L1] Antibody) as Monotherapy or in Combination With Bevacizumab (Avastin®) Compared to Sunitinib (Sutent®) in Participants With Untreated Advanced Renal Cell Carcinoma",
+  "official_title": "A Phase II, Randomized Study of Atezolizumab (Anti-PD-L1 Antibody) Administered as Monotherapy or in Combination With Bevacizumab Versus Sunitinib in Patients With Untreated Advanced Renal Cell Carcinoma",
+  "acronym": "IMmotion150",
+  "organization": "Hoffmann-La Roche",
+  "overall_status": "COMPLETED",
+  "study_first_submit_date": "2013-11-07",
+  "study_first_post_date": {
+    "date": "2013-11-14",
+    "type": "ESTIMATED"
+  },
+  "last_update_posted": {
+    "date": "2019-12-23",
+    "type": "ACTUAL"
+  },
+  "phases": [
+    "PHASE2"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "conditions": [
+    "Renal Cell Carcinoma"
+  ],
+  "keywords": [],
+  "arm_groups": [
+    {
+      "label": "Atezolizumab and Bevacizumab",
+      "type": "EXPERIMENTAL",
+      "description": "Atezolizumab 1200 milligrams (mg) and bevacizumab 15 milligrams per kilogram (mg/kg) will be administered as intravenous (IV) infusions every 3 weeks (q3w) on Day 1 and Day 22 of each 6-week cycle until disease progression.",
+      "intervention_names": [
+        "Drug: Atezolizumab (MPDL3280A), an Engineered Anti-PD-L1 Antibody",
+        "Drug: Bevacizumab"
+      ]
+    },
+    {
+      "label": "Atezolizumab",
+      "type": "EXPERIMENTAL",
+      "description": "Atezolizumab 1200 mg will be administered as IV infusion q3w on Day 1 and Day 22 of each 6-week cycle until disease progression. Upon disease progression, participants (except European Union \\[EU\\] participants) can crossover to receive atezolizumab and bevacizumab combination until disease progression, lack of clinical benefit, unacceptable toxicity, withdrawal from study, or study completion or termination.",
+      "intervention_names": [
+        "Drug: Atezolizumab (MPDL3280A), an Engineered Anti-PD-L1 Antibody",
+        "Drug: Bevacizumab"
+      ]
+    },
+    {
+      "label": "Sunitinib",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Sunitinib 50 mg will be administered orally once daily on Days 1 to 28 of each 6-week cycle until disease progression. Upon disease progression, participants can crossover to receive atezolizumab and bevacizumab combination until disease progression, lack of clinical benefit, unacceptable toxicity, withdrawal from study, or study completion or termination.",
+      "intervention_names": [
+        "Drug: Atezolizumab (MPDL3280A), an Engineered Anti-PD-L1 Antibody",
+        "Drug: Bevacizumab",
+        "Drug: Sunitinib"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Atezolizumab (MPDL3280A), an Engineered Anti-PD-L1 Antibody",
+      "description": "Atezolizumab will be administered according to the dosage schedule mentioned in the arm description.",
+      "other_names": [
+        "Tecentriq",
+        "MPDL3280A",
+        "RO5541267"
+      ],
+      "arm_group_labels": [
+        "Atezolizumab",
+        "Atezolizumab and Bevacizumab",
+        "Sunitinib"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Bevacizumab",
+      "description": "Bevacizumab will be administered according to the dosage schedule mentioned in the arm description.",
+      "other_names": [
+        "Avastin"
+      ],
+      "arm_group_labels": [
+        "Atezolizumab",
+        "Atezolizumab and Bevacizumab",
+        "Sunitinib"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Sunitinib",
+      "description": "Sunitinib will be administered according to the dosage schedule mentioned in the arm description.",
+      "other_names": [
+        "Sutent"
+      ],
+      "arm_group_labels": [
+        "Sunitinib"
+      ]
+    }
+  ],
+  "candidate_control_arms": [
+    {
+      "label": "Sunitinib",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Sunitinib 50 mg will be administered orally once daily on Days 1 to 28 of each 6-week cycle until disease progression. Upon disease progression, participants can crossover to receive atezolizumab and bevacizumab combination until disease progression, lack of clinical benefit, unacceptable toxicity, withdrawal from study, or study completion or termination.",
+      "intervention_names": [
+        "Drug: Atezolizumab (MPDL3280A), an Engineered Anti-PD-L1 Antibody",
+        "Drug: Bevacizumab",
+        "Drug: Sunitinib"
+      ]
+    }
+  ],
+  "reference_pmids": [
+    "37146227",
+    "32233107"
+  ]
+}

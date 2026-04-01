@@ -1,0 +1,11 @@
+{
+  "item_id": "row_349",
+  "question": "In Esophageal/GEJ trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "hidden_column": "Secondary endpoint",
+  "group_name": "Secondary_endpoint",
+  "prompt_source_column_mode": "hidden",
+  "gt_sql": "SELECT \"Number of arms\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ';",
+  "pred_sql": "SELECT\n  CASE\n    WHEN \"Number of arms\" = 1\n    THEN '1-arm'\n    WHEN \"Number of arms\" = 2\n    THEN '2-arm'\n    ELSE '≥3-arm'\n  END AS \"Number of arms category\"\nFROM clinical_trials\nWHERE\n  \"Cancer type\" = 'Esophageal/GEJ';",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Secondary_endpoint__row_349__In_Esophageal_GEJ_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Secondary_endpoint__row_349__In_Esophageal_GEJ_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv"
+}

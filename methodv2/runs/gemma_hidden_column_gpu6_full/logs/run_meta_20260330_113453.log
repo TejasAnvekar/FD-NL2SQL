@@ -1,0 +1,24 @@
+2026-03-30 11:34:53,777 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma_hidden_column_gpu6_full/logs/run_meta_20260330_113453.log
+2026-03-30 11:34:53,777 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-03-30 11:34:53,778 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-03-30 11:34:53,778 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma_hidden_column_gpu6_full
+2026-03-30 11:34:53,778 | INFO | Model path: /mnt/shared/shared_hf_home/hub/models--google--gemma-3-27b-it/snapshots/005ad3404e59d6023443cb575daa05336842228a
+2026-03-30 11:34:53,778 | INFO | Dry run: False
+2026-03-30 11:34:53,782 | INFO | Eligible rows: 309
+2026-03-30 11:34:53,782 | INFO | Skipped rows: {'final_column_not_usable': 191}
+2026-03-30 11:34:53,782 | INFO | Groups: 15
+2026-03-30 11:34:53,782 | INFO |   Class of ICI -> 18 rows
+2026-03-30 11:34:53,782 | INFO |   Control arm -> 35 rows
+2026-03-30 11:34:53,782 | INFO |   Control regimen -> 15 rows
+2026-03-30 11:34:53,782 | INFO |   Follow-up duration for primary endpoint(s) in months | Control -> 17 rows
+2026-03-30 11:34:53,782 | INFO |   Follow-up duration for primary endpoint(s) in months | Overall -> 1 rows
+2026-03-30 11:34:53,782 | INFO |   Is any other biomarker used for inclusion -> 18 rows
+2026-03-30 11:34:53,782 | INFO |   Monotherapy/combination -> 18 rows
+2026-03-30 11:34:53,782 | INFO |   Originial publication or Follow-up -> 17 rows
+2026-03-30 11:34:53,782 | INFO |   Primary endpoint -> 29 rows
+2026-03-30 11:34:53,782 | INFO |   Secondary endpoint -> 35 rows
+2026-03-30 11:34:53,782 | INFO |   Treatment regimen -> 18 rows
+2026-03-30 11:34:53,782 | INFO |   Trial name -> 43 rows
+2026-03-30 11:34:53,782 | INFO |   Type of combination -> 17 rows
+2026-03-30 11:34:53,782 | INFO |   Type of follow-up given -> 15 rows
+2026-03-30 11:34:53,782 | INFO |   Year -> 13 rows

@@ -1,0 +1,21 @@
+2026-03-30 12:46:16,749 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/logs/run_meta_20260330_124616.log
+2026-03-30 12:46:16,749 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-03-30 12:46:16,749 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-03-30 12:46:16,749 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10
+2026-03-30 12:46:16,749 | INFO | API base: http://127.0.0.1:8000/v1
+2026-03-30 12:46:16,749 | INFO | Model name: gemma-3-4b-it
+2026-03-30 12:46:16,749 | INFO | Dry run: True
+2026-03-30 12:46:16,752 | INFO | Eligible questions: 10
+2026-03-30 12:46:16,753 | INFO | Skipped: {'source_equals_hidden': 18, 'final_column_not_usable': 7}
+2026-03-30 12:46:16,753 | INFO | Groups: 8
+2026-03-30 12:46:16,753 | INFO |   Class of ICI -> 2 rows
+2026-03-30 12:46:16,753 | INFO |   Control arm -> 1 rows
+2026-03-30 12:46:16,753 | INFO |   Control regimen -> 1 rows
+2026-03-30 12:46:16,753 | INFO |   Follow-up duration for primary endpoint(s) in months | Control -> 1 rows
+2026-03-30 12:46:16,753 | INFO |   Follow-up duration for primary endpoint(s) in months | Overall -> 1 rows
+2026-03-30 12:46:16,753 | INFO |   Monotherapy/combination -> 2 rows
+2026-03-30 12:46:16,753 | INFO |   Secondary endpoint -> 1 rows
+2026-03-30 12:46:16,753 | INFO |   Treatment regimen -> 1 rows
+2026-03-30 12:46:16,781 | INFO | Wrote question summary CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/question_summary.csv
+2026-03-30 12:46:16,781 | INFO | Wrote value-level comparison CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/value_level_comparison.csv
+2026-03-30 12:46:16,781 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/value_infer_dry_run_q10/summary.json

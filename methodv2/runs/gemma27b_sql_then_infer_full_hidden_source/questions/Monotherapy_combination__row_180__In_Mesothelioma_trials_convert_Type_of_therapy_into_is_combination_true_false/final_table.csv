@@ -1,0 +1,4 @@
+row_index,NCT,Trial name,Cancer type,Type of therapy,is_combination,Monotherapy/combination
+1,NCT01843374,DETERMINE,Mesothelioma,Monotherapy,false,false
+2,NCT02899299,CheckMate 743,Mesothelioma,Combination,true,true
+3,NCT02991482,PROMISE-meso,Mesothelioma,Monotherapy,false,false

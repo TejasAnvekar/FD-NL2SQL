@@ -1,0 +1,46 @@
+row_index,NCT,Trial name,Cancer type,Type of therapy,Monotherapy/combination
+1,NCT00527735,,Non-Small Cell Lung,Combination,True
+2,NCT00527735,,Non-Small Cell Lung,Combination,True
+3,NCT01673867,Checkmate 057,Non-Small Cell Lung,Monotherapy,False
+4,NCT01642004,Checkmate 017,Non-Small Cell Lung,Monotherapy,False
+5,NCT01905657,Keynote-010,Non-Small Cell Lung,Monotherapy,False
+6,NCT01905657,Keynote-010,Non-Small Cell Lung,Monotherapy,False
+7,NCT01903993,POPLAR,Non-Small Cell Lung,Monotherapy,False
+8,NCT02041533,Checkmate 026,Non-Small Cell Lung,Monotherapy,False
+9,NCT01285609,,Non-Small Cell Lung,Combination,True
+10,NCT02125461,PACIFIC,Non-Small Cell Lung,Monotherapy,False
+11,NCT02125461,PACIFIC,Non-Small Cell Lung,Monotherapy,False
+12,NCT02395172,JAVELIN Lung 200,Non-Small Cell Lung,Monotherapy,False
+13,NCT02039674,Keynote-021,Non-Small Cell Lung,Combination,True
+14,NCT02039674,Keynote-021,Non-Small Cell Lung,Combination,True
+15,NCT02008227,OAK,Non-Small Cell Lung,Monotherapy,False
+16,NCT02008227,OAK,Non-Small Cell Lung,Monotherapy,False
+17,NCT02578680,Keynote-189,Non-Small Cell Lung,Combination,True
+18,NCT02775435,Keynote-407,Non-Small Cell Lung,Combination,True
+19,NCT02366143,IMPower150,Non-Small Cell Lung,Combination,True
+20,NCT02366143,IMPower150,Non-Small Cell Lung,Combination,True
+21,NCT02477826,Checkmate 227,Non-Small Cell Lung,Combination,True
+22,NCT02477826,Checkmate 227,Non-Small Cell Lung,Monotherapy,False
+23,NCT02477826,Checkmate 227,Non-Small Cell Lung,Combination,True
+24,NCT02477826,Checkmate 227,Non-Small Cell Lung,Monotherapy,False
+25,NCT02477826,Checkmate 227,Non-Small Cell Lung,Combination,True
+26,NCT02220894,Keynote-042,Non-Small Cell Lung,Monotherapy,False
+27,NCT02142738,Keynote-024,Non-Small Cell Lung,Monotherapy,False
+28,NCT02367781,IMpower130,Non-Small Cell Lung,Combination,True
+29,NCT02613507,Checkmate 078,Non-Small Cell Lung,Monotherapy,False
+30,NCT02454933,CAURAL,Non-Small Cell Lung,Combination,True
+31,NCT02352948,ARCTIC,Non-Small Cell Lung,Monotherapy,False
+32,NCT02352948,ARCTIC,Non-Small Cell Lung,Monotherapy,False
+33,NCT02352948,ARCTIC,Non-Small Cell Lung,Combination,True
+34,NCT02453282,MYSTIC,Non-Small Cell Lung,Monotherapy,False
+35,NCT02453282,MYSTIC,Non-Small Cell Lung,Combination,True
+36,NCT02367794,IMpower131,Non-Small Cell Lung,Combination,True
+37,NCT02367794,IMpower131,Non-Small Cell Lung,Combination,True
+38,NCT02574598,PROLUNG,Non-Small Cell Lung,Combination,True
+39,NCT02142738,Keynote-024,Non-Small Cell Lung,Monotherapy,False
+40,NCT02409342,IMpower110,Non-Small Cell Lung,Monotherapy,False
+41,NCT01903993,POPLAR,Non-Small Cell Lung,Monotherapy,False
+42,NCT02008227,OAK,Non-Small Cell Lung,Monotherapy,False
+43,NCT03215706,CheckMate 9LA,Non-Small Cell Lung,Combination,True
+44,NCT03088540,EMPOWER-Lung 1,Non-Small Cell Lung,Monotherapy,False
+45,NCT02852083,ModuLung,Non-Small Cell Lung,Monotherapy,False

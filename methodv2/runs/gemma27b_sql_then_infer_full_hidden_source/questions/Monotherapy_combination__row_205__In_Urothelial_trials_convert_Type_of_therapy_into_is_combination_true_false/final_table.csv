@@ -1,0 +1,8 @@
+row_index,NCT,Cancer type,Type of therapy,is_combination,Monotherapy/combination
+1,NCT02500121,Urothelial,Monotherapy,false,false
+2,NCT02807636,Urothelial,Combination,true,true
+3,NCT02807636,Urothelial,Monotherapy,false,false
+4,NCT02516241,Urothelial,Monotherapy,false,false
+5,NCT02516241,Urothelial,Combination,true,true
+6,NCT02603432,Urothelial,Monotherapy,false,false
+7,NCT02450331,Urothelial,Monotherapy,false,false

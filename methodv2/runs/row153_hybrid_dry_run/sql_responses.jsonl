@@ -1,0 +1,1 @@
+{"stage": "sql_generation", "item_id": "row_2", "csv_row_number": 2, "question": "For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.", "column_used": "Treatment regimen", "final_column": "Control regimen", "prompt_source_column_mode": "shown", "raw_output": "", "pred_sql": "", "error": "", "model_meta_json": "{}"}

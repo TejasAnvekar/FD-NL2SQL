@@ -1,0 +1,23 @@
+2026-04-01 10:49:18,678 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/logs/run_meta_20260401_104918.log
+2026-04-01 10:49:18,679 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-04-01 10:49:18,679 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-01 10:49:18,679 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids
+2026-04-01 10:49:18,679 | INFO | API base: http://127.0.0.1:8000/v1
+2026-04-01 10:49:18,679 | INFO | Model name: llama-3.3-70b-instruct
+2026-04-01 10:49:18,679 | INFO | Prompt source-column mode: shown
+2026-04-01 10:49:18,679 | INFO | Dry run: False
+2026-04-01 10:49:18,683 | INFO | Eligible questions: 123
+2026-04-01 10:49:18,683 | INFO | Skipped: {'source_equals_hidden': 186, 'final_column_not_usable': 191}
+2026-04-01 10:49:18,683 | INFO | Groups: 9
+2026-04-01 10:49:18,683 | INFO |   Class of ICI -> 18 rows
+2026-04-01 10:49:18,683 | INFO |   Control arm -> 18 rows
+2026-04-01 10:49:18,683 | INFO |   Control regimen -> 15 rows
+2026-04-01 10:49:18,683 | INFO |   Follow-up duration for primary endpoint(s) in months | Control -> 17 rows
+2026-04-01 10:49:18,683 | INFO |   Follow-up duration for primary endpoint(s) in months | Overall -> 1 rows
+2026-04-01 10:49:18,683 | INFO |   Is any other biomarker used for inclusion -> 18 rows
+2026-04-01 10:49:18,683 | INFO |   Monotherapy/combination -> 18 rows
+2026-04-01 10:49:18,683 | INFO |   Secondary endpoint -> 17 rows
+2026-04-01 10:49:18,683 | INFO |   Treatment regimen -> 1 rows
+2026-04-01 10:56:28,845 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/all_question_results.csv
+2026-04-01 10:56:28,845 | INFO | Wrote row-level predictions CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/row_level_predictions.csv
+2026-04-01 10:56:28,845 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_shown_source_trial_ids/summary.json

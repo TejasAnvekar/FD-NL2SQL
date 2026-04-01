@@ -1,0 +1,15 @@
+row_index,Type of therapy,Cancer type,Monotherapy/combination
+1,Monotherapy,Renal cell,False
+2,Monotherapy,Renal cell,False
+3,Combination,Renal cell,True
+4,Combination,Renal cell,True
+5,Combination,Renal cell,True
+6,Combination,Renal cell,True
+7,Combination,Renal cell,True
+8,Combination,Renal cell,True
+9,Combination,Renal cell,True
+10,Monotherapy,Renal cell,False
+11,Combination,Renal cell,True
+12,Combination,Renal cell,True
+13,Combination,Renal cell,True
+14,Combination,Renal cell,True

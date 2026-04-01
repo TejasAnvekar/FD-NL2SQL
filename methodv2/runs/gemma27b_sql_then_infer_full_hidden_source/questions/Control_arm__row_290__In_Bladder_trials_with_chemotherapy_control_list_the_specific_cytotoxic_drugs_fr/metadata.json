@@ -1,0 +1,11 @@
+{
+  "item_id": "row_290",
+  "question": "In Bladder trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "hidden_column": "Control arm",
+  "group_name": "Control_arm",
+  "prompt_source_column_mode": "hidden",
+  "gt_sql": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Bladder' AND \"Control arm\" = 'Chemo';",
+  "pred_sql": "SELECT\n  \"Control regimen\"\nFROM clinical_trials\nWHERE\n  \"Cancer type\" = 'Bladder' AND \"Type of control\" = 'Chemo';",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Control_arm__row_290__In_Bladder_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_fr/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Control_arm__row_290__In_Bladder_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_fr/ground_truth_table.csv"
+}

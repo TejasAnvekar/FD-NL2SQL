@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "api_base": "http://127.0.0.1:9/v1",
+    "model_name": "gemma-3-27b-it",
+    "prompt_source_column_mode": "hidden",
+    "limit": 1,
+    "dry_run": false,
+    "loaded_completed_item_ids": 1,
+    "eligible_questions": 0,
+    "skipped": {},
+    "groups": {}
+  },
+  "question_count": 1,
+  "row_prediction_count": 0,
+  "avg_sql_result_exact_match": 0.0,
+  "avg_inference_exact_match_rate": 0.0,
+  "avg_inference_similarity": 0.0,
+  "outputs": {
+    "all_question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/row_level_predictions.csv",
+    "questions_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/questions",
+    "question_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/question_results_checkpoint.jsonl",
+    "row_level_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/row_level_checkpoint.jsonl",
+    "sql_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/sql_requests.jsonl",
+    "sql_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/sql_responses.jsonl",
+    "inference_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/inference_requests.jsonl",
+    "inference_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/checkpoint_smoke/inference_responses.jsonl"
+  }
+}

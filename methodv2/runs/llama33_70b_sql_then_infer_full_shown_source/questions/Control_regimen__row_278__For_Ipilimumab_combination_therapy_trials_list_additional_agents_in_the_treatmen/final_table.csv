@@ -1,0 +1,13 @@
+row_index,Treatment regimen,Control regimen
+1,Concurrent ipilimumab+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+2,Phased ipilimumab+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+3,Concurrent ipilimumab+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+4,Phased ipilimumab+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+5,Ipilimumab+Etoposide+Platinum agent,"['Etoposide', 'Platinum agent']"
+6,Ipilimumab+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+7,Ipilimumab+Dacarbazine,['Dacarbazine']
+8,Ipilimumab+Gp100 Vaccine,['Gp100 Vaccine']
+9,Ipilimumab,[]
+10,Ipilimumab+GVAX,['GVAX']
+11,Ipilimumab+Gp100 Vaccine,['Gp100 Vaccine']
+12,Ipilimumab,[]

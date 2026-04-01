@@ -1,0 +1,9 @@
+row_index,NCT,Cancer type,Type of therapy,is_combination,Monotherapy/combination
+1,NCT01585987,Gastric/GEJ,Monotherapy,false,false
+2,NCT02267343,Gastric/GEJ,Monotherapy,false,false
+3,NCT02625623,Gastric/GEJ,Monotherapy,false,false
+4,NCT02370498,Gastric/GEJ,Monotherapy,false,false
+5,NCT02267343,Gastric/GEJ,Monotherapy,false,false
+6,NCT02494583,Gastric/GEJ,Monotherapy,false,false
+7,NCT02494583,Gastric/GEJ,Combination,true,true
+8,NCT02625610,Gastric/GEJ,Combination,true,true

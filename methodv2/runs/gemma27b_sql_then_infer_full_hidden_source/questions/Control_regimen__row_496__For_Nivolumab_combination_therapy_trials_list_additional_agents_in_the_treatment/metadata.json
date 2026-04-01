@@ -1,0 +1,11 @@
+{
+  "item_id": "row_496",
+  "question": "For Nivolumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "hidden_column": "Control regimen",
+  "group_name": "Control_regimen",
+  "prompt_source_column_mode": "hidden",
+  "gt_sql": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "pred_sql": "SELECT\n  \"Treatment regimen\"\nFROM clinical_trials\nWHERE\n  \"Name of ICI\" = 'Nivolumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Control_regimen__row_496__For_Nivolumab_combination_therapy_trials_list_additional_agents_in_the_treatment/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Control_regimen__row_496__For_Nivolumab_combination_therapy_trials_list_additional_agents_in_the_treatment/ground_truth_table.csv"
+}

@@ -1,0 +1,15 @@
+row_index,Number of arms category,NCT,Trial name,Cancer type,Secondary endpoint
+1,2-arm,NCT01668784,CheckMate 025,Renal cell,2-arm
+2,≥3-arm,NCT01984242,IMmotion150,Renal cell,≥3-arm
+3,≥3-arm,NCT01984242,IMmotion150,Renal cell,≥3-arm
+4,2-arm,NCT02231749,CheckMate 214,Renal cell,2-arm
+5,2-arm,NCT02231749,CheckMate 214,Renal cell,2-arm
+6,2-arm,NCT02684006,JAVELIN Renal 101,Renal cell,2-arm
+7,2-arm,NCT02853331,KEYNOTE-426,Renal cell,2-arm
+8,2-arm,NCT02420821,IMmotion151,Renal cell,2-arm
+9,2-arm,NCT02231749,CheckMate 214,Renal cell,2-arm
+10,2-arm,NCT01668784,CheckMate 025,Renal cell,2-arm
+11,2-arm,NCT02684006,JAVELIN Renal 101,Renal cell,2-arm
+12,2-arm,NCT02853331,Keynote-426,Renal cell,2-arm
+13,≥3-arm,NCT02811861,CLEAR,Renal cell,≥3-arm
+14,2-arm,NCT03141177,CheckMate 9ER,Renal cell,2-arm

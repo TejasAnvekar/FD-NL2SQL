@@ -1,0 +1,14 @@
+{
+  "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "api_base": "http://127.0.0.1:8000/v1",
+  "model_name": "llama-3.3-70b-instruct",
+  "prompt_source_column_mode": "shown",
+  "csv_row_number": 153,
+  "limit": 0,
+  "dry_run": false,
+  "loaded_completed_item_ids": 1,
+  "eligible_questions": 0,
+  "skipped": {},
+  "groups": {}
+}

@@ -1,0 +1,12 @@
+row_index,Control regimen,Control arm
+1,Placebo+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+2,Placebo+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+3,Placebo+Etoposide+Platinum agent,"['Etoposide', 'Platinum agent']"
+4,Etoposide+Carboplatin/Topotecan,"['Etoposide', 'Carboplatin', 'Topotecan']"
+5,Platinum+Etoposide,"['Platinum', 'Etoposide']"
+6,Platinum+Etoposide,"['Platinum', 'Etoposide']"
+7,Placebo+Carboplatin+Etoposide,"['Carboplatin', 'Etoposide']"
+8,Placebo+Etoposide+Platinum agent,"['Etoposide', 'Platinum agent']"
+9,Platinum+Etoposide,"['Platinum', 'Etoposide']"
+10,Platinum+Etoposide,"['Platinum', 'Etoposide']"
+11,Chemotherapy,

@@ -1,0 +1,21 @@
+row_index,Treatment regimen,Control regimen
+1,Pembrolizumab+Axitinib,Axitinib
+2,Pembrolizumab+Pemetrexed+Carboplatin,"['Pemetrexed', 'Carboplatin']"
+3,Pembrolizumab+Pemetrexed+Carboplatin,"['Pemetrexed', 'Carboplatin']"
+4,Pembrolizumab+Platinum agent,Platinum agent
+5,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,"['Carboplatin', 'Paclitaxel/nab-paclitaxel']"
+6,Pembrolizumab+Dabrafenib+Trametinib,"['Dabrafenib', 'Trametinib']"
+7,Pembrolizumab+Pomalidomide+Dexamethasone,"['Pomalidomide', 'Dexamethasone']"
+8,Pembrolizumab+Lenalidomide+Dexamethasone,"['Lenalidomide', 'Dexamethasone']"
+9,Pembrolizumab+Paclitaxel,Paclitaxel
+10,Pembrolizumab+Platinum agent+5-Fluorouracil,"['Platinum agent', '5-Fluorouracil']"
+11,Pembrolizumab+Acalabrutinib,Acalabrutinib
+12,Pembrolizumab+Paclitaxel+Carboplatin,"['Paclitaxel', 'Carboplatin']"
+13,Pembrolizumab+Etoposide+Platinum agent,"['Etoposide', 'Platinum agent']"
+14,Pembrolizumab+ Docetaxel,Docetaxel
+15,Pembrolizumab+Eribulin,Eribulin
+16,Pembrolizumab+Cisplatin+5-FU+Capecitabine,"['Cisplatin', '5-FU', 'Capecitabine']"
+17,Pembrolizumab+nab-paclitaxel/paclitaxel/gemcitabine+ carboplatin,"['nab-paclitaxel/paclitaxel/gemcitabine', 'carboplatin']"
+18,Pembrolizumab+Axitinib,Axitinib
+19,Pembrolizumab+Dabrafenib+Trametinib,"['Dabrafenib', 'Trametinib']"
+20,Pembrolizumab+Lenvatinib,Lenvatinib

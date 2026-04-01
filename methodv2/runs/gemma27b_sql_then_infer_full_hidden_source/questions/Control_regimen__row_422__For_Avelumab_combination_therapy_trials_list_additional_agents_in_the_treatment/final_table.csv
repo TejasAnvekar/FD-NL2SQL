@@ -1,0 +1,6 @@
+row_index,Treatment regimen,Control regimen
+1,Avelumab+Axitinib,Axitinib
+2,Avelumab+Axitinib,Axitinib
+3,Avelumab,
+4,Avelumab+Chemoradiotherapy,Chemoradiotherapy
+5,Avelumab+cetuximab+radiotherapy,"['cetuximab', 'radiotherapy']"

@@ -1,0 +1,12 @@
+row_index,Name of ICI,Class of ICI
+1,Atezolizumab,PD-L1
+2,Durvalumab,PD-L1
+3,Pembrolizumab,PD-1
+4,Atezolizumab,PD-L1
+5,Pembrolizumab,PD-1
+6,Pembrolizumab,PD-1
+7,Pembrolizumab,PD-1
+8,Atezolizumab,PD-L1
+9,Atezolizumab+Trastuzumab emtansine+Placebo,PD-L1
+10,Durvalumab,PD-L1
+11,Chemotherapy,

@@ -1,0 +1,4 @@
+row_index,Type of therapy,Cancer type,Monotherapy/combination
+1,Monotherapy,Mesothelioma,False
+2,Combination,Mesothelioma,True
+3,Monotherapy,Mesothelioma,False

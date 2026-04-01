@@ -1,0 +1,11 @@
+{
+  "item_id": "row_196",
+  "question": "For Chemotherapy combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "hidden_column": "Control regimen",
+  "group_name": "Control_regimen",
+  "prompt_source_column_mode": "hidden",
+  "gt_sql": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Chemotherapy' AND \"Monotherapy/combination\" = 'Combination';",
+  "pred_sql": "SELECT\n  \"Treatment regimen\"\nFROM clinical_trials\nWHERE\n  \"Monotherapy/combination\" = 'Combination' AND \"Type of combination\" LIKE '%Chemo%' AND \"Name of ICI\" != 'Chemotherapy';",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Control_regimen__row_196__For_Chemotherapy_combination_therapy_trials_list_additional_agents_in_the_treatm/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gemma27b_sql_then_infer_full_hidden_source/questions/Control_regimen__row_196__For_Chemotherapy_combination_therapy_trials_list_additional_agents_in_the_treatm/ground_truth_table.csv"
+}

@@ -1,0 +1,1 @@
+{"stage": "sql_generation", "item_id": "row_4", "csv_row_number": 4, "question": "In Prostate trials, convert 'Type of therapy' into is_combination = true/false.", "column_used": "Type of therapy", "final_column": "Monotherapy/combination", "prompt_source_column_mode": "hidden", "raw_output": "", "pred_sql": "", "error": "", "model_meta_json": "{}"}

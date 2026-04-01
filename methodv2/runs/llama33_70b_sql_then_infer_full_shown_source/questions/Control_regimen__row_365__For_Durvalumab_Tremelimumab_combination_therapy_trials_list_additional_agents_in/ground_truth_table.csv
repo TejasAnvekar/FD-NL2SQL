@@ -1,0 +1,8 @@
+row_index,Treatment regimen,Control regimen
+1,Durvalumab+Tremelimumab+Etoposide+Platinum agent,Platinum+Etoposide
+2,Durvalumab+Tremelimumab,Erlotinib/gemcitabine/vinorelbine | Investigator's choice chemotherapy | Cetuximab+Taxane+Methotrexate+Fluoropyrimidine | Gemcitabine+Cisplatin/Carboplatin
+3,Durvalumab+Tremelimumab,Erlotinib/gemcitabine/vinorelbine | Investigator's choice chemotherapy | Cetuximab+Taxane+Methotrexate+Fluoropyrimidine | Gemcitabine+Cisplatin/Carboplatin
+4,Durvalumab+Tremelimumab,Erlotinib/gemcitabine/vinorelbine | Investigator's choice chemotherapy | Cetuximab+Taxane+Methotrexate+Fluoropyrimidine | Gemcitabine+Cisplatin/Carboplatin
+5,Durvalumab+Tremelimumab+Best supportive care,Best supportive care
+6,Durvalumab+Tremelimumab,Erlotinib/gemcitabine/vinorelbine | Investigator's choice chemotherapy | Cetuximab+Taxane+Methotrexate+Fluoropyrimidine | Gemcitabine+Cisplatin/Carboplatin
+7,Durvalumab+Tremelimumab+Etoposide+Platinum agent,Platinum+Etoposide

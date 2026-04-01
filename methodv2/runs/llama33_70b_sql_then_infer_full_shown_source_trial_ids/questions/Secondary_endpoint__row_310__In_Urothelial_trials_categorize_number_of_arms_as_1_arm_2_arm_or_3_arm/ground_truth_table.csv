@@ -1,0 +1,8 @@
+row_index,Number of arms,Secondary endpoint
+1,2,"OS, treatment outcomes CPS | PFS, ORR, time to response, DoR, DCR, safety | OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs"
+2,3,"RR, DOR, PFS | OS, PFS, ORR, DoR, DCR"
+3,3,"RR, DOR, PFS | OS, PFS, ORR, DoR, DCR"
+4,3,"RR, DOR, PFS | OS, PFS, ORR, DoR, DCR"
+5,3,"RR, DOR, PFS | OS, PFS, ORR, DoR, DCR"
+6,2,"OS, treatment outcomes CPS | PFS, ORR, time to response, DoR, DCR, safety | OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs"
+7,2,"OS, treatment outcomes CPS | PFS, ORR, time to response, DoR, DCR, safety | OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs"

@@ -1,0 +1,8 @@
+row_index,Treatment regimen,Control regimen
+1,Durvalumab+Tremelimumab+Etoposide+Platinum agent,"['Etoposide', 'Platinum agent']"
+2,Durvalumab+Tremelimumab,[]
+3,Durvalumab+Tremelimumab,[]
+4,Durvalumab+Tremelimumab,[]
+5,Durvalumab+Tremelimumab+Best supportive care,['Best supportive care']
+6,Durvalumab+Tremelimumab,[]
+7,Durvalumab+Tremelimumab+Etoposide+Platinum agent,"['Etoposide', 'Platinum agent']"

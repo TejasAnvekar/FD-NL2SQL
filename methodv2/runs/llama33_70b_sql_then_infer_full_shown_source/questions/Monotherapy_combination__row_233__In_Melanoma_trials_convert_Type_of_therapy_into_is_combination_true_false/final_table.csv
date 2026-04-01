@@ -1,0 +1,27 @@
+row_index,Type of therapy,Trial name,Cancer type,Monotherapy/combination
+1,Combination,,Melanoma,True
+2,Monotherapy,MDX010-20,Melanoma,False
+3,Combination,MDX010-20,Melanoma,True
+4,Monotherapy,,Melanoma,False
+5,Monotherapy,EORTC 1325-MG/KEYNOTE-054,Melanoma,False
+6,Monotherapy,KEYNOTE-002,Melanoma,False
+7,Monotherapy,KEYNOTE-002,Melanoma,False
+8,Monotherapy,KEYNOTE-002,Melanoma,False
+9,Monotherapy,KEYNOTE-002,Melanoma,False
+10,Monotherapy,,Melanoma,False
+11,Monotherapy,CheckMate 037,Melanoma,False
+12,Monotherapy,CheckMate 037,Melanoma,False
+13,Combination,KEYNOTE-022,Melanoma,True
+14,Monotherapy,CheckMate 066,Melanoma,False
+15,Monotherapy,CheckMate 066,Melanoma,False
+16,Monotherapy,E1609,Melanoma,False
+17,Monotherapy,E1609,Melanoma,False
+18,Monotherapy,IMMUNED,Melanoma,False
+19,Combination,IMMUNED,Melanoma,True
+20,Combination,IMspire150,Melanoma,True
+21,Monotherapy,MDX010-20,Melanoma,False
+22,Combination,MDX010-20,Melanoma,True
+23,Monotherapy,CheckMate 066,Melanoma,False
+24,Combination,KEYNOTE-022,Melanoma,True
+25,Monotherapy,EORTC 1325-MG/KEYNOTE-054,Melanoma,False
+26,Monotherapy,,Melanoma,False

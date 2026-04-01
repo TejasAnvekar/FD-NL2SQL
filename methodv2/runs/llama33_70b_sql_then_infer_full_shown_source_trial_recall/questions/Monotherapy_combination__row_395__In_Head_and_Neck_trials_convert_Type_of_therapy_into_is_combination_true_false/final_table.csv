@@ -1,0 +1,10 @@
+row_index,NCT,Trial name,Type of therapy,Cancer type,Monotherapy/combination
+1,NCT02105636,CheckMate 141,Monotherapy,Head and Neck,False
+2,NCT02105636,CheckMate 141,Monotherapy,Head and Neck,False
+3,NCT02358031,KEYNOTE-048,Monotherapy,Head and Neck,False
+4,NCT02358031,KEYNOTE-048,Combination,Head and Neck,True
+5,NCT02017717,CheckMate 143,Monotherapy,Head and Neck,False
+6,NCT02369874,EAGLE,Monotherapy,Head and Neck,False
+7,NCT02369874,EAGLE,Combination,Head and Neck,True
+8,NCT02952586,JAVELIN Head and Neck 101,Combination,Head and Neck,True
+9,NCT02999087,REACH,Combination,Head and Neck,True

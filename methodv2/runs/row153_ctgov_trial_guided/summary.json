@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "api_base": "http://127.0.0.1:8000/v1",
+    "model_name": "llama-3.3-70b-instruct",
+    "prompt_source_column_mode": "shown",
+    "csv_row_number": 153,
+    "limit": 0,
+    "dry_run": false,
+    "loaded_completed_item_ids": 1,
+    "eligible_questions": 0,
+    "skipped": {},
+    "groups": {}
+  },
+  "question_count": 1,
+  "row_prediction_count": 17,
+  "avg_sql_result_exact_match": 0.0,
+  "avg_inference_exact_match_rate": 0.0,
+  "avg_inference_similarity": 0.0,
+  "outputs": {
+    "all_question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/row_level_predictions.csv",
+    "questions_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/questions",
+    "question_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/question_results_checkpoint.jsonl",
+    "row_level_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/row_level_checkpoint.jsonl",
+    "sql_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/sql_requests.jsonl",
+    "sql_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/sql_responses.jsonl",
+    "inference_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/inference_requests.jsonl",
+    "inference_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/row153_ctgov_trial_guided/inference_responses.jsonl"
+  }
+}

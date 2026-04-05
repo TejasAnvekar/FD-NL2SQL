@@ -1,0 +1,1092 @@
+{
+  "input_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+  "inventory_row_count": 581,
+  "unique_key_count": 36,
+  "keys": {
+    "added_agents": {
+      "count": 13,
+      "column_used_counts": {
+        "Treatment regimen": 13
+      },
+      "sample_expected_llm_response": "{\"added_agents\": [\"oxaliplatin\", \"capecitabine\"]}",
+      "expected_llm_responses": [
+        "{\"added_agents\": [\"oxaliplatin\", \"capecitabine\"]}"
+      ],
+      "sample_question": "For Tremelimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Tremelimumab' AND \"Monotherapy/combination\" = 'Combination';",
+      "csv_row_numbers": [
+        123,
+        153,
+        170,
+        196,
+        197,
+        274,
+        278,
+        288,
+        315,
+        365,
+        367,
+        422,
+        496
+      ]
+    },
+    "anti_vegf_agents": {
+      "count": 1,
+      "column_used_counts": {
+        "Treatment regimen": 1
+      },
+      "sample_expected_llm_response": "{\"anti_vegf_agents\": [\"bevacizumab\"]}",
+      "expected_llm_responses": [
+        "{\"anti_vegf_agents\": [\"bevacizumab\"]}"
+      ],
+      "sample_question": "In renal cell carcinoma studies using ICI+Anti-VEGF, list the specific anti-VEGF agent(s) from the treatment regimen.",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Renal cell' AND \"Type of combination\" = 'ICI+Anti-VEGF';",
+      "csv_row_numbers": [
+        102
+      ]
+    },
+    "arm_category": {
+      "count": 17,
+      "column_used_counts": {
+        "Number of arms": 17
+      },
+      "sample_expected_llm_response": "{\"arm_category\": \"≥3-arm\"}",
+      "expected_llm_responses": [
+        "{\"arm_category\": \"≥3-arm\"}"
+      ],
+      "sample_question": "In Mesothelioma trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+      "sample_sql_query": "SELECT \"Number of arms\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Mesothelioma';",
+      "csv_row_numbers": [
+        20,
+        155,
+        161,
+        185,
+        189,
+        229,
+        250,
+        280,
+        287,
+        310,
+        349,
+        383,
+        425,
+        431,
+        434,
+        479,
+        484
+      ]
+    },
+    "biomarkers": {
+      "count": 18,
+      "column_used_counts": {
+        "Trial name": 18
+      },
+      "sample_expected_llm_response": "{\"biomarkers\": [\"MSI-H\"]}",
+      "expected_llm_responses": [
+        "{\"biomarkers\": [\"MSI-H\"]}"
+      ],
+      "sample_question": "In Breast trials where a non–PD-L1 biomarker was required, extract the biomarker name(s) from the trial name.",
+      "sample_sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Breast' AND \"Is any other biomarker used for inclusion\" = 'Yes';",
+      "csv_row_numbers": [
+        52,
+        59,
+        112,
+        122,
+        146,
+        174,
+        184,
+        208,
+        212,
+        263,
+        285,
+        291,
+        292,
+        304,
+        306,
+        322,
+        396,
+        495
+      ]
+    },
+    "braf_inhibitor": {
+      "count": 1,
+      "column_used_counts": {
+        "Treatment regimen": 1
+      },
+      "sample_expected_llm_response": "{\"braf_inhibitor\": \"dabrafenib\", \"mek_inhibitor\": \"trametinib\"}",
+      "expected_llm_responses": [
+        "{\"braf_inhibitor\": \"dabrafenib\", \"mek_inhibitor\": \"trametinib\"}"
+      ],
+      "sample_question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+BRAFi+MEKi';",
+      "csv_row_numbers": [
+        45
+      ]
+    },
+    "brand_name": {
+      "count": 18,
+      "column_used_counts": {
+        "Name of ICI": 18
+      },
+      "sample_expected_llm_response": "{\"brand_name\": \"Tecentriq\"}",
+      "expected_llm_responses": [
+        "{\"brand_name\": \"Tecentriq\"}"
+      ],
+      "sample_question": "In Melanoma trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+      "sample_sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Class of ICI\" = 'PD-L1' AND \"Included in MA\" = 'Yes';",
+      "csv_row_numbers": [
+        76,
+        88,
+        91,
+        95,
+        156,
+        252,
+        276,
+        279,
+        282,
+        319,
+        363,
+        377,
+        381,
+        397,
+        408,
+        429,
+        450,
+        471
+      ]
+    },
+    "class": {
+      "count": 18,
+      "column_used_counts": {
+        "Name of ICI": 18
+      },
+      "sample_expected_llm_response": "{\"class\": \"PD-1\"}",
+      "expected_llm_responses": [
+        "{\"class\": \"PD-1\"}"
+      ],
+      "sample_question": "In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+      "sample_sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Small Cell Lung';",
+      "csv_row_numbers": [
+        2,
+        36,
+        71,
+        83,
+        119,
+        128,
+        144,
+        182,
+        213,
+        218,
+        228,
+        242,
+        295,
+        297,
+        338,
+        364,
+        380,
+        398
+      ]
+    },
+    "combo_type_norm": {
+      "count": 17,
+      "column_used_counts": {
+        "Type of combination": 17
+      },
+      "sample_expected_llm_response": "{\"combo_type_norm\": \"ICI+Chemo\"}",
+      "expected_llm_responses": [
+        "{\"combo_type_norm\": \"ICI+Chemo\"}"
+      ],
+      "sample_question": "In Esophageal/GEJ combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+      "sample_sql_query": "SELECT \"Type of combination\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ' AND \"Monotherapy/combination\" = 'Combination';",
+      "csv_row_numbers": [
+        22,
+        37,
+        58,
+        80,
+        96,
+        132,
+        145,
+        158,
+        187,
+        236,
+        238,
+        251,
+        299,
+        366,
+        374,
+        385,
+        485
+      ]
+    },
+    "components": {
+      "count": 1,
+      "column_used_counts": {
+        "Primary endpoint": 1
+      },
+      "sample_expected_llm_response": "{\"components\": [\"OS\", \"PFS\"]}",
+      "expected_llm_responses": [
+        "{\"components\": [\"OS\", \"PFS\"]}"
+      ],
+      "sample_question": "For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+      "sample_sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Priamry Multiple, composite, or co-primary endpoints?\" = 'Yes';",
+      "csv_row_numbers": [
+        18
+      ]
+    },
+    "control_backbone": {
+      "count": 52,
+      "column_used_counts": {
+        "Control regimen": 52
+      },
+      "sample_expected_llm_response": "{\"control_backbone\": \"FOLFOX\", \"specific_regimens\": [\"FOLFOX\"]}",
+      "expected_llm_responses": [
+        "{\"control_backbone\": \"FOLFOX\", \"specific_regimens\": [\"FOLFOX\"]}"
+      ],
+      "sample_question": "In Chemotherapy trials for Gastric/GEJ where chemotherapy was the control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+      "sample_sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Chemotherapy' AND \"Cancer type\" = 'Gastric/GEJ' AND \"Control arm\" = 'Chemo';",
+      "csv_row_numbers": [
+        13,
+        32,
+        133,
+        141,
+        167,
+        177,
+        183,
+        188,
+        190,
+        202,
+        214,
+        222,
+        231,
+        259,
+        260,
+        271,
+        275,
+        284,
+        298,
+        308,
+        318,
+        323,
+        330,
+        331,
+        333,
+        348,
+        352,
+        354,
+        358,
+        359,
+        361,
+        373,
+        376,
+        378,
+        413,
+        417,
+        419,
+        433,
+        439,
+        440,
+        441,
+        449,
+        454,
+        458,
+        460,
+        467,
+        468,
+        470,
+        474,
+        478,
+        481,
+        492
+      ]
+    },
+    "control_category": {
+      "count": 17,
+      "column_used_counts": {
+        "Control arm": 17
+      },
+      "sample_expected_llm_response": "{\"control_category\": \"placebo\"}",
+      "expected_llm_responses": [
+        "{\"control_category\": \"placebo\"}"
+      ],
+      "sample_question": "In Small Cell Lung Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+      "sample_sql_query": "SELECT \"Control arm\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Small Cell Lung' AND \"Trial phase\" = 'Phase 3';",
+      "csv_row_numbers": [
+        26,
+        27,
+        33,
+        101,
+        103,
+        129,
+        148,
+        157,
+        245,
+        258,
+        328,
+        347,
+        375,
+        421,
+        443,
+        452,
+        490
+      ]
+    },
+    "control_drugs": {
+      "count": 18,
+      "column_used_counts": {
+        "Control regimen": 18
+      },
+      "sample_expected_llm_response": "{\"control_drugs\": [\"paclitaxel\", \"carboplatin\"]}",
+      "expected_llm_responses": [
+        "{\"control_drugs\": [\"paclitaxel\", \"carboplatin\"]}"
+      ],
+      "sample_question": "In NSCLC trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+      "sample_sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC' AND \"Control arm\" = 'Chemo';",
+      "csv_row_numbers": [
+        24,
+        85,
+        98,
+        100,
+        110,
+        114,
+        115,
+        151,
+        172,
+        200,
+        207,
+        270,
+        290,
+        314,
+        369,
+        416,
+        424,
+        432
+      ]
+    },
+    "endpoint_role": {
+      "count": 18,
+      "column_used_counts": {
+        "Secondary endpoint": 18
+      },
+      "sample_expected_llm_response": "{\"endpoint_role\": \"secondary\"}",
+      "expected_llm_responses": [
+        "{\"endpoint_role\": \"secondary\"}"
+      ],
+      "sample_question": "In Melanoma trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+      "sample_sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma';",
+      "csv_row_numbers": [
+        25,
+        28,
+        29,
+        105,
+        106,
+        116,
+        150,
+        152,
+        179,
+        248,
+        302,
+        312,
+        321,
+        339,
+        362,
+        418,
+        436,
+        469
+      ]
+    },
+    "era": {
+      "count": 13,
+      "column_used_counts": {
+        "Year": 13
+      },
+      "sample_expected_llm_response": "{\"era\": \"≥2019\"}",
+      "expected_llm_responses": [
+        "{\"era\": \"≥2019\"}"
+      ],
+      "sample_question": "For Atezolizumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+      "sample_sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Atezolizumab';",
+      "csv_row_numbers": [
+        8,
+        57,
+        142,
+        191,
+        224,
+        264,
+        294,
+        326,
+        368,
+        400,
+        405,
+        448,
+        476
+      ]
+    },
+    "followup_bucket": {
+      "count": 17,
+      "column_used_counts": {
+        "Follow-up duration for primary endpoint(s) in months | Overall": 17
+      },
+      "sample_expected_llm_response": "{\"followup_bucket\": \"≥24\"}",
+      "expected_llm_responses": [
+        "{\"followup_bucket\": \"≥24\"}"
+      ],
+      "sample_question": "In Melanoma trials, bucket overall follow-up months into <12, 12–23, or ≥24.",
+      "sample_sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma';",
+      "csv_row_numbers": [
+        10,
+        63,
+        109,
+        135,
+        147,
+        159,
+        169,
+        181,
+        199,
+        226,
+        234,
+        257,
+        296,
+        334,
+        345,
+        382,
+        486
+      ]
+    },
+    "followup_type": {
+      "count": 15,
+      "column_used_counts": {
+        "Type of follow-up given": 15
+      },
+      "sample_expected_llm_response": "{\"followup_type\": \"imaging\"}",
+      "expected_llm_responses": [
+        "{\"followup_type\": \"imaging\"}"
+      ],
+      "sample_question": "In Breast trials, normalize the type of follow-up into imaging, clinical, or mixed.",
+      "sample_sql_query": "SELECT \"Type of follow-up given\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Breast';",
+      "csv_row_numbers": [
+        7,
+        12,
+        39,
+        49,
+        55,
+        61,
+        113,
+        192,
+        243,
+        281,
+        301,
+        313,
+        337,
+        341,
+        355
+      ]
+    },
+    "irAE_assessed": {
+      "count": 15,
+      "column_used_counts": {
+        "Secondary endpoint": 15
+      },
+      "sample_expected_llm_response": "{\"irAE_assessed\": true}",
+      "expected_llm_responses": [
+        "{\"irAE_assessed\": true}"
+      ],
+      "sample_question": "In Head and Neck trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+      "sample_sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Head and Neck';",
+      "csv_row_numbers": [
+        16,
+        56,
+        70,
+        79,
+        104,
+        138,
+        186,
+        209,
+        324,
+        327,
+        329,
+        346,
+        457,
+        500,
+        501
+      ]
+    },
+    "is_combination": {
+      "count": 18,
+      "column_used_counts": {
+        "Type of therapy": 18
+      },
+      "sample_expected_llm_response": "{\"is_combination\": true}",
+      "expected_llm_responses": [
+        "{\"is_combination\": true}"
+      ],
+      "sample_question": "In Prostate trials, convert 'Type of therapy' into is_combination = true/false.",
+      "sample_sql_query": "SELECT \"Type of therapy\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Prostate';",
+      "csv_row_numbers": [
+        4,
+        35,
+        60,
+        93,
+        125,
+        126,
+        180,
+        205,
+        215,
+        233,
+        261,
+        336,
+        343,
+        379,
+        389,
+        395,
+        437,
+        497
+      ]
+    },
+    "is_follow_up": {
+      "count": 17,
+      "column_used_counts": {
+        "Originial publication or Follow-up": 17
+      },
+      "sample_expected_llm_response": "{\"is_follow_up\": false}",
+      "expected_llm_responses": [
+        "{\"is_follow_up\": false}"
+      ],
+      "sample_question": "In Esophageal/GEJ trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+      "sample_sql_query": "SELECT \"Originial publication or Follow-up\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ';",
+      "csv_row_numbers": [
+        3,
+        51,
+        68,
+        75,
+        92,
+        111,
+        131,
+        134,
+        204,
+        254,
+        303,
+        305,
+        394,
+        403,
+        412,
+        423,
+        459
+      ]
+    },
+    "maturity": {
+      "count": 18,
+      "column_used_counts": {
+        "Follow-up duration for primary endpoint(s) in months | Overall": 18
+      },
+      "sample_expected_llm_response": "{\"maturity\": \"mature\"}",
+      "expected_llm_responses": [
+        "{\"maturity\": \"mature\"}"
+      ],
+      "sample_question": "In Hodgkin Lymphoma trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+      "sample_sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Hodgkin Lymphoma';",
+      "csv_row_numbers": [
+        41,
+        42,
+        62,
+        64,
+        73,
+        78,
+        86,
+        99,
+        121,
+        163,
+        176,
+        230,
+        244,
+        256,
+        273,
+        371,
+        390,
+        456
+      ]
+    },
+    "mek_inhibitor": {
+      "count": 1,
+      "column_used_counts": {
+        "Treatment regimen": 1
+      },
+      "sample_expected_llm_response": "{\"braf_inhibitor\": \"dabrafenib\", \"mek_inhibitor\": \"trametinib\"}",
+      "expected_llm_responses": [
+        "{\"braf_inhibitor\": \"dabrafenib\", \"mek_inhibitor\": \"trametinib\"}"
+      ],
+      "sample_question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+BRAFi+MEKi';",
+      "csv_row_numbers": [
+        45
+      ]
+    },
+    "meki_agents": {
+      "count": 1,
+      "column_used_counts": {
+        "Treatment regimen": 1
+      },
+      "sample_expected_llm_response": "{\"meki_agents\": [\"trametinib\"]}",
+      "expected_llm_responses": [
+        "{\"meki_agents\": [\"trametinib\"]}"
+      ],
+      "sample_question": "In melanoma trials using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+MEKi';",
+      "csv_row_numbers": [
+        30
+      ]
+    },
+    "pd_l1_required": {
+      "count": 16,
+      "column_used_counts": {
+        "Is PD-L1 positivity inclusion criteria": 16
+      },
+      "sample_expected_llm_response": "{\"pd_l1_required\": true}",
+      "expected_llm_responses": [
+        "{\"pd_l1_required\": true}"
+      ],
+      "sample_question": "In Hepatocellular trials, interpret the PD-L1 requirement flag as boolean true/false.",
+      "sample_sql_query": "SELECT \"Is PD-L1 positivity inclusion criteria\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular';",
+      "csv_row_numbers": [
+        38,
+        82,
+        137,
+        143,
+        175,
+        198,
+        216,
+        217,
+        232,
+        335,
+        387,
+        409,
+        438,
+        447,
+        473,
+        480
+      ]
+    },
+    "pdl1_system": {
+      "count": 1,
+      "column_used_counts": {
+        "Trial name": 1
+      },
+      "sample_expected_llm_response": "{\"pdl1_system\": \"CPS\", \"pdl1_threshold\": \"≥10\"}",
+      "expected_llm_responses": [
+        "{\"pdl1_system\": \"CPS\", \"pdl1_threshold\": \"≥10\"}"
+      ],
+      "sample_question": "In pembrolizumab monotherapy head & neck trials requiring PD-L1 positivity, identify the PD-L1 scoring system and threshold (e.g., CPS ≥10, TPS ≥50%).",
+      "sample_sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Pembrolizumab' AND \"Cancer type\" = 'Head and Neck' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Is PD-L1 positivity inclusion criteria\" = 'Yes';",
+      "csv_row_numbers": [
+        19
+      ]
+    },
+    "pdl1_threshold": {
+      "count": 1,
+      "column_used_counts": {
+        "Trial name": 1
+      },
+      "sample_expected_llm_response": "{\"pdl1_system\": \"CPS\", \"pdl1_threshold\": \"≥10\"}",
+      "expected_llm_responses": [
+        "{\"pdl1_system\": \"CPS\", \"pdl1_threshold\": \"≥10\"}"
+      ],
+      "sample_question": "In pembrolizumab monotherapy head & neck trials requiring PD-L1 positivity, identify the PD-L1 scoring system and threshold (e.g., CPS ≥10, TPS ≥50%).",
+      "sample_sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Pembrolizumab' AND \"Cancer type\" = 'Head and Neck' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Is PD-L1 positivity inclusion criteria\" = 'Yes';",
+      "csv_row_numbers": [
+        19
+      ]
+    },
+    "phase_bucket": {
+      "count": 13,
+      "column_used_counts": {
+        "Trial phase": 13
+      },
+      "sample_expected_llm_response": "{\"phase_bucket\": \"late\"}",
+      "expected_llm_responses": [
+        "{\"phase_bucket\": \"late\"}"
+      ],
+      "sample_question": "For Avelumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+      "sample_sql_query": "SELECT \"Trial phase\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Avelumab';",
+      "csv_row_numbers": [
+        81,
+        89,
+        107,
+        117,
+        171,
+        173,
+        247,
+        269,
+        293,
+        300,
+        357,
+        392,
+        415
+      ]
+    },
+    "platinum_agent": {
+      "count": 27,
+      "column_used_counts": {
+        "Treatment regimen": 27
+      },
+      "sample_expected_llm_response": "{\"schedule\": \"q3w\", \"platinum_agent\": \"carboplatin\"}",
+      "expected_llm_responses": [
+        "{\"schedule\": \"q3w\", \"platinum_agent\": \"carboplatin\"}"
+      ],
+      "sample_question": "Which Phase 3 PD-1 monotherapy trials in Bladder should I review, and from the treatment regimen extract dosing schedule and whether cisplatin or carboplatin was used?",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Trial phase\" = 'Phase 3' AND \"Class of ICI\" = 'PD-1' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Cancer type\" = 'Bladder';",
+      "csv_row_numbers": [
+        15,
+        43,
+        54,
+        77,
+        90,
+        127,
+        140,
+        166,
+        178,
+        194,
+        235,
+        240,
+        307,
+        316,
+        332,
+        344,
+        351,
+        386,
+        388,
+        430,
+        445,
+        446,
+        453,
+        462,
+        465,
+        487,
+        491
+      ]
+    },
+    "primary_endpoint_category": {
+      "count": 29,
+      "column_used_counts": {
+        "Primary endpoint": 29
+      },
+      "sample_expected_llm_response": "{\"primary_endpoint_category\": \"PFS\"}",
+      "expected_llm_responses": [
+        "{\"primary_endpoint_category\": \"PFS\"}"
+      ],
+      "sample_question": "In Esophageal/GEJ Phase 2 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+      "sample_sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ' AND \"Trial phase\" = 'Phase 2';",
+      "csv_row_numbers": [
+        44,
+        48,
+        50,
+        53,
+        66,
+        84,
+        118,
+        154,
+        201,
+        221,
+        227,
+        237,
+        241,
+        249,
+        267,
+        272,
+        277,
+        317,
+        325,
+        384,
+        391,
+        411,
+        414,
+        426,
+        451,
+        461,
+        464,
+        488,
+        494
+      ]
+    },
+    "pubmed_url": {
+      "count": 1,
+      "column_used_counts": {
+        "PubMed ID": 1
+      },
+      "sample_expected_llm_response": "{\"pubmed_url\": \"https://pubmed.ncbi.nlm.nih.gov/12345678/\"}",
+      "expected_llm_responses": [
+        "{\"pubmed_url\": \"https://pubmed.ncbi.nlm.nih.gov/12345678/\"}"
+      ],
+      "sample_question": "For trials retrieved, construct a PubMed URL from the PubMed ID.",
+      "sample_sql_query": "SELECT \"PubMed ID\"\nFROM clinical_trials\nWHERE \"Year\" >= 2015;",
+      "csv_row_numbers": [
+        40
+      ]
+    },
+    "schedule": {
+      "count": 27,
+      "column_used_counts": {
+        "Treatment regimen": 27
+      },
+      "sample_expected_llm_response": "{\"schedule\": \"q3w\", \"platinum_agent\": \"carboplatin\"}",
+      "expected_llm_responses": [
+        "{\"schedule\": \"q3w\", \"platinum_agent\": \"carboplatin\"}"
+      ],
+      "sample_question": "Which Phase 3 PD-1 monotherapy trials in Bladder should I review, and from the treatment regimen extract dosing schedule and whether cisplatin or carboplatin was used?",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Trial phase\" = 'Phase 3' AND \"Class of ICI\" = 'PD-1' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Cancer type\" = 'Bladder';",
+      "csv_row_numbers": [
+        15,
+        43,
+        54,
+        77,
+        90,
+        127,
+        140,
+        166,
+        178,
+        194,
+        235,
+        240,
+        307,
+        316,
+        332,
+        344,
+        351,
+        386,
+        388,
+        430,
+        445,
+        446,
+        453,
+        462,
+        465,
+        487,
+        491
+      ]
+    },
+    "setting_normalized": {
+      "count": 16,
+      "column_used_counts": {
+        "Clinical setting": 16
+      },
+      "sample_expected_llm_response": "{\"setting_normalized\": \"metastatic/advanced\"}",
+      "expected_llm_responses": [
+        "{\"setting_normalized\": \"metastatic/advanced\"}"
+      ],
+      "sample_question": "In Hodgkin Lymphoma trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+      "sample_sql_query": "SELECT \"Clinical setting\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Hodgkin Lymphoma';",
+      "csv_row_numbers": [
+        23,
+        34,
+        65,
+        67,
+        87,
+        149,
+        160,
+        165,
+        193,
+        203,
+        210,
+        266,
+        268,
+        289,
+        442,
+        472
+      ]
+    },
+    "size_bucket": {
+      "count": 13,
+      "column_used_counts": {
+        "Total sample size": 13
+      },
+      "sample_expected_llm_response": "{\"size_bucket\": \"large\"}",
+      "expected_llm_responses": [
+        "{\"size_bucket\": \"large\"}"
+      ],
+      "sample_question": "For Avelumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+      "sample_sql_query": "SELECT \"Total sample size\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Avelumab';",
+      "csv_row_numbers": [
+        47,
+        94,
+        108,
+        130,
+        162,
+        220,
+        223,
+        255,
+        262,
+        283,
+        350,
+        420,
+        466
+      ]
+    },
+    "specific_regimens": {
+      "count": 52,
+      "column_used_counts": {
+        "Control regimen": 52
+      },
+      "sample_expected_llm_response": "{\"control_backbone\": \"FOLFOX\", \"specific_regimens\": [\"FOLFOX\"]}",
+      "expected_llm_responses": [
+        "{\"control_backbone\": \"FOLFOX\", \"specific_regimens\": [\"FOLFOX\"]}"
+      ],
+      "sample_question": "In Chemotherapy trials for Gastric/GEJ where chemotherapy was the control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+      "sample_sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Chemotherapy' AND \"Cancer type\" = 'Gastric/GEJ' AND \"Control arm\" = 'Chemo';",
+      "csv_row_numbers": [
+        13,
+        32,
+        133,
+        141,
+        167,
+        177,
+        183,
+        188,
+        190,
+        202,
+        214,
+        222,
+        231,
+        259,
+        260,
+        271,
+        275,
+        284,
+        298,
+        308,
+        318,
+        323,
+        330,
+        331,
+        333,
+        348,
+        352,
+        354,
+        358,
+        359,
+        361,
+        373,
+        376,
+        378,
+        413,
+        417,
+        419,
+        433,
+        439,
+        440,
+        441,
+        449,
+        454,
+        458,
+        460,
+        467,
+        468,
+        470,
+        474,
+        478,
+        481,
+        492
+      ]
+    },
+    "tki_agents": {
+      "count": 17,
+      "column_used_counts": {
+        "Treatment regimen": 17
+      },
+      "sample_expected_llm_response": "{\"tki_agents\": [\"axitinib\"]}",
+      "expected_llm_responses": [
+        "{\"tki_agents\": [\"axitinib\"]}"
+      ],
+      "sample_question": "In NSCLC studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+      "sample_sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC' AND \"Type of combination\" = 'ICI+TKI';",
+      "csv_row_numbers": [
+        6,
+        31,
+        46,
+        69,
+        74,
+        136,
+        211,
+        219,
+        239,
+        246,
+        309,
+        353,
+        372,
+        401,
+        407,
+        435,
+        475
+      ]
+    },
+    "treatment_setting": {
+      "count": 1,
+      "column_used_counts": {
+        "Trial name": 1
+      },
+      "sample_expected_llm_response": "{\"treatment_setting\": \"maintenance\"}",
+      "expected_llm_responses": [
+        "{\"treatment_setting\": \"maintenance\"}"
+      ],
+      "sample_question": "In Urothelial trials comparing ICI to placebo, infer from the trial name whether ICI was used as induction or maintenance.",
+      "sample_sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Urothelial' AND \"Control arm\" = 'Placebo';",
+      "csv_row_numbers": [
+        9
+      ]
+    },
+    "trial_acronym": {
+      "count": 43,
+      "column_used_counts": {
+        "Trial name": 43
+      },
+      "sample_expected_llm_response": "{\"trial_acronym\": \"KEYNOTE-042\"}",
+      "expected_llm_responses": [
+        "{\"trial_acronym\": \"KEYNOTE-042\"}"
+      ],
+      "sample_question": "For Avelumab trials in Multiple Myeloma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+      "sample_sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Avelumab' AND \"Cancer type\" = 'Multiple Myeloma';",
+      "csv_row_numbers": [
+        5,
+        11,
+        14,
+        17,
+        21,
+        72,
+        97,
+        120,
+        124,
+        139,
+        164,
+        168,
+        195,
+        206,
+        225,
+        253,
+        265,
+        286,
+        311,
+        320,
+        340,
+        342,
+        356,
+        360,
+        370,
+        393,
+        399,
+        402,
+        404,
+        406,
+        410,
+        427,
+        428,
+        444,
+        455,
+        463,
+        477,
+        482,
+        483,
+        489,
+        493,
+        498,
+        499
+      ]
+    }
+  }
+}

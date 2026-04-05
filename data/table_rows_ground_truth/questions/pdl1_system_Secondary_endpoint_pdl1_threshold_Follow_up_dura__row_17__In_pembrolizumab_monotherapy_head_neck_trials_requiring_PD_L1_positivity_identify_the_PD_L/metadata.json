@@ -1,0 +1,19 @@
+{
+  "item_id": "row_17",
+  "csv_row_number": 17,
+  "question": "In pembrolizumab monotherapy head & neck trials requiring PD-L1 positivity, identify the PD-L1 scoring system and threshold (e.g., CPS ≥10, TPS ≥50%).",
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Pembrolizumab' AND \"Cancer type\" = 'Head and Neck' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Is PD-L1 positivity inclusion criteria\" = 'Yes';",
+  "ground_truth_column": "pdl1_system -> Secondary endpoint | pdl1_threshold -> Follow-up duration for primary endpoint(s) in months | Control",
+  "target_pairs": [
+    {
+      "output_name": "pdl1_system",
+      "db_column": "Secondary endpoint"
+    },
+    {
+      "output_name": "pdl1_threshold",
+      "db_column": "Follow-up duration for primary endpoint(s) in months"
+    }
+  ],
+  "status": "skipped",
+  "error": "ground truth targets not in schema: ['Follow-up duration for primary endpoint(s) in months']"
+}

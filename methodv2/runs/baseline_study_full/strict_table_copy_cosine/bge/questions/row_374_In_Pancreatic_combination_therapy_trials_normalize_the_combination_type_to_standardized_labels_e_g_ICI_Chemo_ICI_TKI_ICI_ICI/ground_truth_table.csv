@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02362048,32114502,KEYNOTE144,ICI+TKI,ICI+TKI,"{""combo_type_norm"": ""ICI+TKI""}"
+2,NCT01896869,32591464,,ICI+Vaccine,ICI+Vaccine,"{""combo_type_norm"": ""ICI+Vaccine""}"

@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT02657434,33333328,Impower 132,Combination,true,"{""is_combination"": true}"

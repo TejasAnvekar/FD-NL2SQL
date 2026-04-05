@@ -1,0 +1,4 @@
+row_index,NCT,Trial name,Number of arms,Secondary endpoint
+1,NCT01843374,DETERMINE,2,18-month OS; disease control and durable disease control; PFS; proportion of patients achieving an objective response; duration of response;  patient-reported outcomes; pharmacokinetics; immunogenicity of tremelimumab; and safety and tolerability.
+2,NCT02899299,CheckMate 743,2,"PFS, ORR, time to response, DoR, DCR"
+3,NCT02991482,PROMISE-meso,2,"investigator-assessed PFS, OS, ORR, time to treatment failure, safety"

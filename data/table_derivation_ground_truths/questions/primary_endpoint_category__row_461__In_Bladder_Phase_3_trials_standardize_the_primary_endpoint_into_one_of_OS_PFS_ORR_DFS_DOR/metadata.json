@@ -1,0 +1,14 @@
+{
+  "item_id": "row_461",
+  "csv_row_number": 461,
+  "expected_key": "primary_endpoint_category",
+  "question": "In Bladder Phase 3 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "column_used": "Primary endpoint",
+  "expected_llm_response": "{\"primary_endpoint_category\": \"PFS\"}",
+  "derivation_expression": "derive_primary_endpoint_category(source_value)",
+  "derivation_notes": "Normalize primary endpoint into canonical labels.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Primary endpoint\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Bladder' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_primary_endpoint_category(source_value) AS \"primary_endpoint_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/primary_endpoint_category__row_461__In_Bladder_Phase_3_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR/ground_truth_table.csv",
+  "row_count": 3,
+  "null_value_count": 0
+}

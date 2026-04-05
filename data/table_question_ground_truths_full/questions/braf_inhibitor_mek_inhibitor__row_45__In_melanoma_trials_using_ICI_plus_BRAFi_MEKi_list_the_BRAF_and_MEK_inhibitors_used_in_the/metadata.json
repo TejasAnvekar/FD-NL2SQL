@@ -1,0 +1,18 @@
+{
+  "item_id": "row_45",
+  "csv_row_number": 45,
+  "question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "braf_inhibitor",
+    "mek_inhibitor"
+  ],
+  "expected_llm_response": {
+    "braf_inhibitor": "dabrafenib",
+    "mek_inhibitor": "trametinib"
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+BRAFi+MEKi';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+BRAFi+MEKi'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_braf_inhibitor(source_value) AS \"braf_inhibitor\", derive_mek_inhibitor(source_value) AS \"mek_inhibitor\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/braf_inhibitor_mek_inhibitor__row_45__In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the/ground_truth_table.csv",
+  "row_count": 3
+}

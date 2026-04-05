@@ -1,0 +1,16 @@
+{
+  "item_id": "row_403",
+  "csv_row_number": 403,
+  "question": "In Gastric/GEJ trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "column_used": "Originial publication or Follow-up",
+  "expected_keys": [
+    "is_follow_up"
+  ],
+  "expected_llm_response": {
+    "is_follow_up": false
+  },
+  "sql_query": "SELECT \"Originial publication or Follow-up\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Originial publication or Follow-up\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_is_follow_up(source_value) AS \"is_follow_up\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/is_follow_up__row_403__In_Gastric_GEJ_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_table.csv",
+  "row_count": 8
+}

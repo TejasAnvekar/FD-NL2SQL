@@ -1,0 +1,11 @@
+{
+  "item_id": "row_279",
+  "csv_row_number": 279,
+  "question": "In Pancreatic trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "brand_name"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_279_In_Pancreatic_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/brand_name__row_279__In_Pancreatic_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_n"
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "row_331",
+  "csv_row_number": 331,
+  "question": "In Breast Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "sql_query": "SELECT \"Control arm\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Breast' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_column": "Control arm",
+  "target_pairs": [
+    {
+      "output_name": "Control arm",
+      "db_column": "Control arm"
+    }
+  ],
+  "visible_columns": [
+    "Control arm"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Control arm\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Breast' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Control_arm__row_331__In_Breast_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_car/ground_truth_table.csv"
+}

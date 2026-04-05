@@ -1,0 +1,14 @@
+{
+  "item_id": "row_371",
+  "csv_row_number": 371,
+  "expected_key": "maturity",
+  "question": "In Small Cell Lung trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_llm_response": "{\"maturity\": \"mature\"}",
+  "derivation_expression": "derive_followup_maturity(source_value)",
+  "derivation_notes": "Classify maturity from follow-up months.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Small Cell Lung'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_maturity(source_value) AS \"maturity\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/maturity__row_371__In_Small_Cell_Lung_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_imm/ground_truth_table.csv",
+  "row_count": 14,
+  "null_value_count": 0
+}

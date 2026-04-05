@@ -1,0 +1,18 @@
+{
+  "item_id": "row_229",
+  "csv_row_number": 229,
+  "question": "In Mesothelioma trials, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Mesothelioma';",
+  "ground_truth_column": "Follow-up duration for primary endpoint(s) in months | Control",
+  "target_pairs": [
+    {
+      "output_name": "Follow-up duration for primary endpoint(s) in months | Control",
+      "db_column": "Follow-up duration for primary endpoint(s) in months | Control"
+    }
+  ],
+  "visible_columns": [
+    "Follow-up duration for primary endpoint(s) in months | Overall"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Follow-up duration for primary endpoint(s) in months | Overall\", \"Follow-up duration for primary endpoint(s) in months | Control\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Mesothelioma';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Follow_up_duration_for_primary_endpoint_s_in_months_Control__row_229__In_Mesothelioma_trials_bucket_overall_follow_up_months_into_12_12_23_or_24/ground_truth_table.csv"
+}

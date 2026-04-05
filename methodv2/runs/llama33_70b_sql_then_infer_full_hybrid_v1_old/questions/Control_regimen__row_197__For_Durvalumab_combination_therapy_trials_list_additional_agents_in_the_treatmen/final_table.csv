@@ -1,0 +1,5 @@
+row_index,NCT,Trial name,Treatment regimen,Control regimen
+1,NCT02685059,GeparNuevo,Durvalumab+Nab-paclitaxel+epirubicin+cyclophosphamide,Nab-paclitaxel+Epirubicin+Cyclophosphamide
+2,NCT02454933,CAURAL,Durvalumab+Osimertinib,
+3,NCT03043872,CASPIAN,Durvalumab+Etoposide+Platinum agent,Carboplatin+Cisplatin+Etoposide
+4,NCT03043872,CASPIAN,Durvalumab+Etoposide+Platinum agent,Carboplatin+Cisplatin+Etoposide

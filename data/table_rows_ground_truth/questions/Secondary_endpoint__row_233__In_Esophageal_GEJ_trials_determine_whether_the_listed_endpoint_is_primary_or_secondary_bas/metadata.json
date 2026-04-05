@@ -1,0 +1,18 @@
+{
+  "item_id": "row_233",
+  "csv_row_number": 233,
+  "question": "In Esophageal/GEJ trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ';",
+  "ground_truth_column": "Secondary endpoint",
+  "target_pairs": [
+    {
+      "output_name": "Secondary endpoint",
+      "db_column": "Secondary endpoint"
+    }
+  ],
+  "visible_columns": [
+    "Secondary endpoint"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Secondary endpoint\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Secondary_endpoint__row_233__In_Esophageal_GEJ_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_bas/ground_truth_table.csv"
+}

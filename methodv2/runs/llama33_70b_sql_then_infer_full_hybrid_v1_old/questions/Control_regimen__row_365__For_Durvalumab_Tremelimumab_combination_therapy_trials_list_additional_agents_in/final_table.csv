@@ -1,0 +1,8 @@
+row_index,NCT,Trial name,Treatment regimen,Control regimen
+1,NCT03043872,CASPIAN,Durvalumab+Tremelimumab+Etoposide+Platinum agent,Etoposide+Carboplatin+Cisplatin
+2,NCT02352948,ARCTIC,Durvalumab+Tremelimumab,Vinorelbine+Gemcitabine+Erlotinib
+3,NCT02453282,MYSTIC,Durvalumab+Tremelimumab,Paclitaxel+Carboplatin
+4,NCT02369874,EAGLE,Durvalumab+Tremelimumab,Standard of Care
+5,NCT02870920,,Durvalumab+Tremelimumab+Best supportive care,Best Supportive Care
+6,NCT02516241,DANUBE,Durvalumab+Tremelimumab,Cisplatin+Carboplatin+Gemcitabine
+7,NCT03043872,CASPIAN,Durvalumab+Tremelimumab+Etoposide+Platinum agent,Etoposide+Carboplatin+Cisplatin

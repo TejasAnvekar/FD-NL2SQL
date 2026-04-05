@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Type of combination
+1,,,ICI+Chemo
+2,,,ICI+ICI
+3,,,ICI+ICI
+4,,,ICI+TKI
+5,,,ICI+TKI
+6,,,ICI+Anti-VEGF
+7,,,ICI+ICI
+8,,,ICI+TKI
+9,,,ICI+TKI
+10,,,ICI+TKI
+11,,,ICI+TKI

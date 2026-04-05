@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01585987,28655793,,"PFS by mWHO criteria, OS, immune-related best overall response rate (irBORR)",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02267343,28993052,ATTRACTION-2,"PFS, ORR, disease control rate, DoR, time to response, best overall response, the maximum percentage change from baseline in the sum of diameters of target lesions.",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02625623,30052729,JAVELIN Gastric 300,"PFS, ORR per independent review committee assessment, safety, tolerability",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02370498,29880231,Keynote-061,"ORR, DoR, in patients with PD-L1 CPS of 1 or higher and in the total population; PFS, OS in the total population; PFS in the population with CPS of 1 or higher and in the total population; and time to progression in the population with CPS of 1 or higher and in the total population; safety",secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02267343,31863227,ATTRACTION-2,"PFS, ORR, disease control rate, DoR, time to response, best overall response, the maximum percentage change from baseline in the sum of diameters of target lesions.",secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02494583,32880601,Keynote-062,"ORR, DoR, safety, tolerability, HRQOL",secondary,"{""endpoint_role"": ""secondary""}"
+7,NCT02494583,32880601,Keynote-062,"ORR, DoR, safety, tolerability, HRQOL",secondary,"{""endpoint_role"": ""secondary""}"
+8, NCT02625610,33197226,Javelin Gastric 100,"PFS, best overall response, DOR, safety",secondary,"{""endpoint_role"": ""secondary""}"

@@ -136,6 +136,16 @@ def execute_query(conn: sqlite3.Connection, sql: str) -> Tuple[List[str], List[T
     return cols, rows
 
 
+def sql_references_column(sql: str, column_name: str) -> bool:
+    sql_text = (sql or "").strip()
+    if not sql_text or not column_name:
+        return False
+    quoted = quote_ident(column_name)
+    if quoted in sql_text:
+        return True
+    return bool(re.search(rf"\b{re.escape(column_name)}\b", sql_text, flags=re.IGNORECASE))
+
+
 def rows_to_objects(cols: Sequence[str], rows: Sequence[Tuple[Any, ...]]) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for row in rows:
@@ -881,6 +891,7 @@ def main() -> None:
                     gt_visible_cols: List[str] = []
                     gt_visible_rows: List[Tuple[Any, ...]] = []
                     gt_visible_error = ""
+                    gt_visible_source_db = "reduced"
                     gt_evidence_sql = ""
                     gt_evidence_cols: List[str] = []
                     gt_evidence_rows: List[Tuple[Any, ...]] = []
@@ -889,18 +900,32 @@ def main() -> None:
                     gt_actual_mapping: Dict[str, Dict[str, Any]] = {}
                     gt_actual_error = ""
 
+                    gt_sql_uses_hidden_column = sql_references_column(item["gt_sql"], hidden_column)
+                    gt_query_conn = original_conn if gt_sql_uses_hidden_column else reduced_conn
+                    gt_query_schema = list(schema_cols) if gt_sql_uses_hidden_column else list(visible_schema)
+                    gt_visible_source_db = "original" if gt_sql_uses_hidden_column else "reduced"
+
                     try:
-                        gt_visible_cols, gt_visible_rows = execute_query(reduced_conn, item["gt_sql"])
+                        gt_visible_cols, gt_visible_rows = execute_query(gt_query_conn, item["gt_sql"])
                     except Exception as exc:
                         gt_visible_error = str(exc)
+                        if not gt_sql_uses_hidden_column and sql_references_column(gt_visible_error, hidden_column):
+                            try:
+                                gt_visible_cols, gt_visible_rows = execute_query(original_conn, item["gt_sql"])
+                                gt_visible_error = ""
+                                gt_query_conn = original_conn
+                                gt_query_schema = list(schema_cols)
+                                gt_visible_source_db = "original_fallback"
+                            except Exception as fallback_exc:
+                                gt_visible_error = str(fallback_exc)
 
                     if gt_visible_cols:
                         try:
                             gt_evidence_sql, gt_evidence_cols, gt_evidence_rows, gt_evidence_error = try_enrich_result_sql(
                                 base_sql=item["gt_sql"],
-                                schema_cols=visible_schema,
+                                schema_cols=gt_query_schema,
                                 selected_cols=gt_visible_cols,
-                                conn=reduced_conn,
+                                conn=gt_query_conn,
                             )
                             if gt_evidence_error or not gt_evidence_rows:
                                 gt_evidence_cols, gt_evidence_rows = gt_visible_cols, gt_visible_rows
@@ -1288,6 +1313,7 @@ def main() -> None:
                         "gt_visible_columns_json": json.dumps(gt_visible_cols, ensure_ascii=False),
                         "gt_visible_rows_json": json.dumps(rows_to_objects(gt_visible_cols, gt_visible_rows), ensure_ascii=False),
                         "gt_visible_row_count": len(gt_visible_rows),
+                        "gt_visible_source_db": gt_visible_source_db,
                         "gt_visible_exec_error": gt_visible_error,
                         "gt_evidence_sql": gt_evidence_sql,
                         "gt_evidence_columns_json": json.dumps(gt_evidence_cols, ensure_ascii=False),

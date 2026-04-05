@@ -1,0 +1,18 @@
+{
+  "item_id": "row_175",
+  "csv_row_number": 175,
+  "question": "In Non-Small Cell Lung Phase 2 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_column": "Primary endpoint",
+  "target_pairs": [
+    {
+      "output_name": "Primary endpoint",
+      "db_column": "Primary endpoint"
+    }
+  ],
+  "visible_columns": [
+    "Primary endpoint"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Primary endpoint\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Primary_endpoint__row_175__In_Non_Small_Cell_Lung_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS/ground_truth_table.csv"
+}

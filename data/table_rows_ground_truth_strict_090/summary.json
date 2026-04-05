@@ -1,0 +1,9 @@
+{
+  "input_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches_table_rows.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "output_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth_strict_090",
+  "question_count": 47,
+  "exported_count": 47,
+  "skipped_count": 0,
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth_strict_090/manifest.csv"
+}

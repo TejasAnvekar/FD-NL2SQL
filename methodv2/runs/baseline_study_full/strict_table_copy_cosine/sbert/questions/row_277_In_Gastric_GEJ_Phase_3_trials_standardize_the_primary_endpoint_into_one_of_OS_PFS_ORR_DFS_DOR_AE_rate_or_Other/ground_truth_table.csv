@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT02370498,29880231,Keynote-061,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+4,NCT02267343,31863227,ATTRACTION-2,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+5,NCT02494583,32880601,Keynote-062,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+6,NCT02494583,32880601,Keynote-062,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+7, NCT02625610,33197226,Javelin Gastric 100,OS,OS,"{""primary_endpoint_category"": ""OS""}"

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_224",
+  "csv_row_number": 224,
+  "question": "For Durvalumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "expected_llm_response": {
+    "era": "≥2019"
+  },
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Durvalumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Durvalumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/era__row_224__For_Durvalumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv",
+  "row_count": 11
+}

@@ -1,0 +1,14 @@
+{
+  "item_id": "row_313",
+  "csv_row_number": 313,
+  "expected_key": "followup_type",
+  "question": "In Prostate trials, normalize the type of follow-up into imaging, clinical, or mixed.",
+  "column_used": "Type of follow-up given",
+  "expected_llm_response": "{\"followup_type\": \"imaging\"}",
+  "derivation_expression": "derive_followup_type(source_value)",
+  "derivation_notes": "Normalize follow-up type into imaging/clinical/mixed.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of follow-up given\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Prostate'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_type(source_value) AS \"followup_type\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/followup_type__row_313__In_Prostate_trials_normalize_the_type_of_follow_up_into_imaging_clinical_or_mixed/ground_truth_table.csv",
+  "row_count": 3,
+  "null_value_count": 3
+}

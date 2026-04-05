@@ -1,0 +1,5 @@
+row_index,NCT,Trial name,Control regimen,Control arm
+1,NCT02807636,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"['Gemcitabine', 'Carboplatin', 'Cisplatin']"
+2,NCT02807636,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"['Gemcitabine', 'Carboplatin', 'Cisplatin']"
+3,NCT02516241,DANUBE,Gemcitabine+Cisplatin/Carboplatin,"['Gemcitabine', 'Cisplatin', 'Carboplatin']"
+4,NCT02516241,DANUBE,Gemcitabine+Cisplatin/Carboplatin,"['Gemcitabine', 'Cisplatin', 'Carboplatin']"

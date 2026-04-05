@@ -1,0 +1,19 @@
+{
+  "item_id": "row_448",
+  "csv_row_number": 448,
+  "question": "For Nivolumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "predicted_answer": "CheckMate 037",
+  "selected_cells": [
+    "CheckMate 037"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 0.7464832067489624,
+  "chunk_start": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_448_For_Nivolumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_448_For_Nivolumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_448_For_Nivolumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv"
+}

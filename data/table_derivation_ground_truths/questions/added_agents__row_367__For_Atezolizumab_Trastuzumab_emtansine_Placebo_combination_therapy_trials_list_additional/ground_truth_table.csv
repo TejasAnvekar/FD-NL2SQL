@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT02924883,33002436,KATE2,Atezolizumab,,"{""added_agents"": null}"

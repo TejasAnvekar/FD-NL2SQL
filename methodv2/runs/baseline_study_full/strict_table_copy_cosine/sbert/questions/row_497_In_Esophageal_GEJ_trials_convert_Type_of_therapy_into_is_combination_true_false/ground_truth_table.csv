@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT02569242,31582355,ATTRACTION-3,Monotherapy,false,"{""is_combination"": false}"
+2,NCT02564263,33026938,KEYNOTE-181,Monotherapy,false,"{""is_combination"": false}"

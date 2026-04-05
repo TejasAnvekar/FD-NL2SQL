@@ -1,0 +1,19 @@
+{
+  "item_id": "row_255",
+  "csv_row_number": 255,
+  "question": "For Cemiplimab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "predicted_answer": "JAVELIN Gastric 300",
+  "selected_cells": [
+    "JAVELIN Gastric 300"
+  ],
+  "aggregation_prediction": 3,
+  "chunk_score": 114.30274200439453,
+  "chunk_start": 0,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_255_For_Cemiplimab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_255_For_Cemiplimab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_255_For_Cemiplimab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/ground_truth_table.csv"
+}

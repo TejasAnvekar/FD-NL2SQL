@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT02685059,31095287,GeparNuevo,Durvalumab+Nab-paclitaxel+epirubicin+cyclophosphamide,"[""nab-paclitaxel"", ""epirubicin"", ""cyclophosphamide""]","{""added_agents"": [""nab-paclitaxel"", ""epirubicin"", ""cyclophosphamide""]}"
+2,NCT02454933,30763730,CAURAL,Durvalumab+Osimertinib,"[""osimertinib""]","{""added_agents"": [""osimertinib""]}"
+3,NCT03043872,31590988,CASPIAN,Durvalumab+Etoposide+Platinum agent,"[""etoposide"", ""platinum agent""]","{""added_agents"": [""etoposide"", ""platinum agent""]}"
+4,NCT03043872,33285097,CASPIAN,Durvalumab+Etoposide+Platinum agent,"[""etoposide"", ""platinum agent""]","{""added_agents"": [""etoposide"", ""platinum agent""]}"

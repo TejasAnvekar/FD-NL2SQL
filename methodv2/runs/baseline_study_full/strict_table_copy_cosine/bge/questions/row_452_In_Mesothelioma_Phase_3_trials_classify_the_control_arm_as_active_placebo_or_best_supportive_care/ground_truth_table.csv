@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02899299,33485464,CheckMate 743,Chemo,active,"{""control_category"": ""active""}"
+2,NCT02991482,32976938,PROMISE-meso,Chemo,active,"{""control_category"": ""active""}"

@@ -1,0 +1,14 @@
+{
+  "item_id": "row_442",
+  "csv_row_number": 442,
+  "expected_key": "setting_normalized",
+  "question": "In Multiple Myeloma trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_llm_response": "{\"setting_normalized\": \"metastatic/advanced\"}",
+  "derivation_expression": "derive_setting_normalized(source_value)",
+  "derivation_notes": "Normalize clinical setting into canonical categories.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Clinical setting\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Multiple Myeloma'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_setting_normalized(source_value) AS \"setting_normalized\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/setting_normalized__row_442__In_Multiple_Myeloma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_p/ground_truth_table.csv",
+  "row_count": 2,
+  "null_value_count": 2
+}

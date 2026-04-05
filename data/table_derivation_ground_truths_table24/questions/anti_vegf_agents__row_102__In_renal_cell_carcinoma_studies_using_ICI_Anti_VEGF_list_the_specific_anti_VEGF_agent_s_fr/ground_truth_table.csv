@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,anti_vegf_agents,derived_expected_llm_response
+1,NCT02420821,31079938,IMmotion151,Atezolizumab+Bevacizumab,"[""bevacizumab""]","{""anti_vegf_agents"": [""bevacizumab""]}"

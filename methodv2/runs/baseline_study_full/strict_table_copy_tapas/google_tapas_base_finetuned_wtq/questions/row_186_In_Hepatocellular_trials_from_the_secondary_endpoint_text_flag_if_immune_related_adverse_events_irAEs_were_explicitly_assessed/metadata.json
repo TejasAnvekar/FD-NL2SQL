@@ -1,0 +1,19 @@
+{
+  "item_id": "row_186",
+  "csv_row_number": 186,
+  "question": "In Hepatocellular trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "predicted_answer": "CheckMate 066",
+  "selected_cells": [
+    "CheckMate 066"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 79.96479797363281,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_186_In_Hepatocellular_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_186_In_Hepatocellular_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_186_In_Hepatocellular_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/ground_truth_table.csv"
+}

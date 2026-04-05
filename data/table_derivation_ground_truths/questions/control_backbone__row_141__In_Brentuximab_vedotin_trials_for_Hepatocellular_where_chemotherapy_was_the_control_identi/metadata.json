@@ -1,0 +1,14 @@
+{
+  "item_id": "row_141",
+  "csv_row_number": 141,
+  "expected_key": "control_backbone",
+  "question": "In Brentuximab-vedotin trials for Hepatocellular where chemotherapy was the control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "column_used": "Control regimen",
+  "expected_llm_response": "{\"control_backbone\": \"FOLFOX\", \"specific_regimens\": [\"FOLFOX\"]}",
+  "derivation_expression": "derive_control_backbone(source_value)",
+  "derivation_notes": "Extract chemotherapy backbone from control regimen text.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Brentuximab-vedotin' AND \"Cancer type\" = 'Hepatocellular' AND \"Control arm\" = 'Chemo'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_backbone(source_value) AS \"control_backbone\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/control_backbone__row_141__In_Brentuximab_vedotin_trials_for_Hepatocellular_where_chemotherapy_was_the_control_identi/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

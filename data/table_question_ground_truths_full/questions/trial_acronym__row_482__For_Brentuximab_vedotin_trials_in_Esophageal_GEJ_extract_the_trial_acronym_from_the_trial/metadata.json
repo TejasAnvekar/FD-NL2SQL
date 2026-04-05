@@ -1,0 +1,16 @@
+{
+  "item_id": "row_482",
+  "csv_row_number": 482,
+  "question": "For Brentuximab-vedotin trials in Esophageal/GEJ, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "expected_llm_response": {
+    "trial_acronym": "KEYNOTE-042"
+  },
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Brentuximab-vedotin' AND \"Cancer type\" = 'Esophageal/GEJ';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Trial name\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Brentuximab-vedotin' AND \"Cancer type\" = 'Esophageal/GEJ'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_trial_acronym(source_value) AS \"trial_acronym\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/trial_acronym__row_482__For_Brentuximab_vedotin_trials_in_Esophageal_GEJ_extract_the_trial_acronym_from_the_trial/ground_truth_table.csv",
+  "row_count": 0
+}

@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT00324155,21639810,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+2,NCT00094653,20525992,MDX010-20,ICI+Vaccine,ICI+Vaccine,"{""combo_type_norm"": ""ICI+Vaccine""}"
+3,NCT02130466,31171878,KEYNOTE-022,ICI+BRAFi+MEKi,ICI+BRAFi+MEKi,"{""combo_type_norm"": ""ICI+BRAFi+MEKi""}"
+4,NCT02523313,32416781,IMMUNED,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"
+5,NCT02908672,32534646,IMspire150,ICI+BRAFi+MEKi,ICI+BRAFi+MEKi,"{""combo_type_norm"": ""ICI+BRAFi+MEKi""}"
+6,NCT00094653,23942774,MDX010-20,ICI+Vaccine,ICI+Vaccine,"{""combo_type_norm"": ""ICI+Vaccine""}"
+7,NCT02130466,33361337,KEYNOTE-022,ICI+BRAFi+MEKi,ICI+BRAFi+MEKi,"{""combo_type_norm"": ""ICI+BRAFi+MEKi""}"

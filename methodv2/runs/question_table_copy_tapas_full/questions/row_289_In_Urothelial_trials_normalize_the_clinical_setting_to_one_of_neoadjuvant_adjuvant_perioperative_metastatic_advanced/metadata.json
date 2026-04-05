@@ -1,0 +1,19 @@
+{
+  "item_id": "row_289",
+  "csv_row_number": 289,
+  "question": "In Urothelial trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "predicted_answer": "EORTC 1325-MG/KEYNOTE-054",
+  "selected_cells": [
+    "EORTC 1325-MG/KEYNOTE-054"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 55.752716064453125,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_289_In_Urothelial_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_289_In_Urothelial_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_289_In_Urothelial_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_table.csv"
+}

@@ -1,0 +1,18 @@
+row_index,NCT,PubMed ID,Number of arms,Secondary endpoint
+1,,,2,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events."
+2,,,3,"Investigator-assessed PFS; ORR; 
+DOR; OS; patient-reported outcomes; safety."
+3,,,3,"Investigator-assessed PFS; ORR; 
+DOR; OS; patient-reported outcomes; safety."
+4,,,2,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients."
+5,,,2,"ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients."
+6,,,2,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.
+7,,,2,ORR; duration of response; safety
+8,,,2,OS in PD-L1 positive population; PFS in the ITT population; proportion of patients who achieved an objective response; duration of response; patient-reported outcomes; safety
+9,,,2,"ORR, PFS and OS in ITT population; incidence rate of AEs."
+10,,,2,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events."
+11,,,2,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.
+12,,,2,"ORR, DoR, safety, tolerability"
+13,,,3,OS; ORR; safety; investigator-assessed PFS
+14,,,2,OS; ORR; safety

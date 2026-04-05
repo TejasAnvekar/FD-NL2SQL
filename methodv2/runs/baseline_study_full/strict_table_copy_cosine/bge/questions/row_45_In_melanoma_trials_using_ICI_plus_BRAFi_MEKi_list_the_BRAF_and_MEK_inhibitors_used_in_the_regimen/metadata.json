@@ -1,0 +1,12 @@
+{
+  "item_id": "row_45",
+  "csv_row_number": 45,
+  "question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "braf_inhibitor",
+    "mek_inhibitor"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_45_In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the_regimen/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/braf_inhibitor_mek_inhibitor__row_45__In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the"
+}

@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Secondary endpoint
+1,,,"investigator-assessed RECIST v1.1 ORR,  DoR"
+2,,,"response rate by other path CR definitions (ypT0/is ypN0, ypT0/is ypN0/þ, and ypN0) and by clinical and imaging assessment; rate of breast conserving surgery and axilla lymph node dissection; efficacy in predefined subgroups according to centrally assessed sTILs [low ( 10%), intermediate (11%–59%), high ( 60%)]"
+3,,,residual cancer burden (RCB) and 3-year event-free and distant recurrence-free survival.
+4,,,"investigator-assessed RECIST v1.1 ORR,  DoR"
+5,,,"pathological complete response, a pathological complete response according to all definitions in patients with PD-L1–positive tumors, eventfree survival among patients with PD-L1–positive tumors, and OS among all patients and patients with PD-L1–positive tumors."
+6,,,"PFS per irRECIST, ORR, OS, DoR, clinical benefit rate, safety, tolerability"
+7,,,"ORR, DoR, DCR"
+8,,,"OS, Event free survival , disease free survival"
+9,,,"OS, ORR, DOR"
+10,,,OS
+11,,,PFS; ORR; DCR; DoR; safety

@@ -1,0 +1,19 @@
+{
+  "item_id": "row_65",
+  "csv_row_number": 65,
+  "question": "In Renal cell trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "predicted_answer": "GeparNuevo",
+  "selected_cells": [
+    "GeparNuevo"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 49.26018524169922,
+  "chunk_start": 0,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_table.csv"
+}

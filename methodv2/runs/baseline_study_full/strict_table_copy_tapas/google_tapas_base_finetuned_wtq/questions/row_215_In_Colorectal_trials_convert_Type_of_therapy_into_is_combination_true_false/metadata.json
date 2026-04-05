@@ -1,0 +1,19 @@
+{
+  "item_id": "row_215",
+  "csv_row_number": 215,
+  "question": "In Colorectal trials, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "predicted_answer": "Monotherapy",
+  "selected_cells": [
+    "Monotherapy"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 17.752103805541992,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_215_In_Colorectal_trials_convert_Type_of_therapy_into_is_combination_true_false/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_215_In_Colorectal_trials_convert_Type_of_therapy_into_is_combination_true_false/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_215_In_Colorectal_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv"
+}

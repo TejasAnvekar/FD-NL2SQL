@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Treatment regimen,Control regimen
+1,,,Nivolumab+Ipilimumab,Sunitinib
+2,,,Nivolumab+Ipilimumab,Sunitinib
+3,,,Nivolumab+Ipilimumab,Chemotherapy
+4,,,Nivolumab+Ipilimumab,Chemotherapy
+5,,,Nivolumab+Ipilimumab,Placebo
+6,,,Nivolumab+Ipilimumab,Sunitinib
+7,,,Nivolumab+Ipilimumab,Pemetrexed+Cisplatin/Carboplatin
+8,,,Nivolumab+Ipilimumab+Chemotherapy,Chemotherapy
+9,,,Nivolumab+Ipilimumab,Placebo

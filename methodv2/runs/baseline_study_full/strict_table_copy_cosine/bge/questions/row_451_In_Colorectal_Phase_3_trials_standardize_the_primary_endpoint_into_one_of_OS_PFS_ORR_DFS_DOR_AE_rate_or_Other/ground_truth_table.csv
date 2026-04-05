@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02788279,31003911,IMblaze130,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT02563002,33264544,MK-3475/Keynote-177,PFS+OS,PFS,"{""primary_endpoint_category"": ""PFS""}"

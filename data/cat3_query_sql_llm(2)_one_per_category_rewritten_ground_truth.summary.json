@@ -1,0 +1,31 @@
+{
+  "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_rewritten_ground_truth.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "table_name": "clinical_trials",
+  "max_per_group": 1,
+  "selected_count": 7,
+  "eligible_count": 137,
+  "skipped": {
+    "source_equals_hidden": 282,
+    "final_column_not_usable": 81
+  },
+  "groups_available": {
+    "Class of ICI": 18,
+    "Clincal setting in relation to surgery": 17,
+    "Control regimen": 15,
+    "Follow-up duration for primary endpoint(s) in months | Control": 17,
+    "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+    "Monotherapy/combination": 18,
+    "Trial name": 51
+  },
+  "groups_selected": {
+    "Class of ICI": 1,
+    "Clincal setting in relation to surgery": 1,
+    "Control regimen": 1,
+    "Follow-up duration for primary endpoint(s) in months | Control": 1,
+    "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+    "Monotherapy/combination": 1,
+    "Trial name": 1
+  },
+  "output_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_one_per_category_rewritten_ground_truth.csv"
+}

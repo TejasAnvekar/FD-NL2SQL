@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Name of ICI,Class of ICI
+1,,,Tremelimumab,CTLA-4
+2,,,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+3,,,Pembrolizumab,PD1

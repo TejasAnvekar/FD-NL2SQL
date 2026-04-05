@@ -1,0 +1,37 @@
+csv_row_number,expected_key,column_used,expected_llm_response,natural_language_query,sql_query,Table or Retrieval,base_sql,derivation_expression,derivation_notes,derivation_sql
+2,class,Name of ICI,"{""class"": ""PD-1""}","In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.","SELECT ""Name of ICI""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Small Cell Lung';",Table,"SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Small Cell Lung';",derive_ici_class(source_value),Map generic ICI names to PD-1/PD-L1/CTLA-4.,"WITH base AS (
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Small Cell Lung';
+)
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", source_value, derive_ici_class(source_value) AS ""class""
+FROM base;"
+36,class,Name of ICI,"{""class"": ""PD-1""}","In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.","SELECT ""Name of ICI""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Gastric/GEJ';",Table,"SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Gastric/GEJ';",derive_ici_class(source_value),Map generic ICI names to PD-1/PD-L1/CTLA-4.,"WITH base AS (
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Gastric/GEJ';
+)
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", source_value, derive_ici_class(source_value) AS ""class""
+FROM base;"
+71,class,Name of ICI,"{""class"": ""PD-1""}","In Bladder trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.","SELECT ""Name of ICI""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Bladder';",Table,"SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Bladder';",derive_ici_class(source_value),Map generic ICI names to PD-1/PD-L1/CTLA-4.,"WITH base AS (
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Bladder';
+)
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", source_value, derive_ici_class(source_value) AS ""class""
+FROM base;"
+83,class,Name of ICI,"{""class"": ""PD-1""}","In Multiple Myeloma trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.","SELECT ""Name of ICI""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Multiple Myeloma';",Table,"SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Multiple Myeloma';",derive_ici_class(source_value),Map generic ICI names to PD-1/PD-L1/CTLA-4.,"WITH base AS (
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", ""Name of ICI"" AS source_value FROM clinical_trials
+WHERE ""Cancer type"" = 'Multiple Myeloma';
+)
+SELECT ""NCT"", ""PubMed ID"", ""Trial name"", source_value, derive_ici_class(source_value) AS ""class""
+FROM base;"

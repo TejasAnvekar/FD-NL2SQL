@@ -1,0 +1,18 @@
+row_index,NCT,PubMed ID,Treatment regimen,Control regimen
+1,,,Atezolizumab+Nab-paclitaxel,Nab-paclitaxel
+2,,,Atezolizumab+Cobimetinib,Regorafenib
+3,,,Atezolizumab+Bevacizumab,Sunitinib
+4,,,Atezolizumab+Bevacizumab,Sunitinib
+5,,,Atezolizumab+Etoposide+Carboplatin,Placebo
+6,,,Atezolizumab+Carboplatin+Paclitaxel,Bevacizumab+Carboplatin+Paclitaxel
+7,,,Atezolizumab+Carboplatin+Paclitaxel+Bevacizumab,Bevacizumab+Carboplatin+Paclitaxel
+8,,,Atezolizumab+Carboplatin+Nab-paclitaxel,Carboplatin+Nab-paclitaxel
+9,,,Atezolizumab+Nab-paclitaxel,Nab-paclitaxel
+10,,,Atezolizumab+Carboplatin+Etoposide,Placebo+Carboplatin+Etoposide
+11,,,Atezolizumab+Carboplatin+Paclitaxel,Carboplatin+Nab-paclitaxel
+12,,,Atezolizumab+Carboplatin+Nab-paclitaxel,Carboplatin+Nab-paclitaxel
+13,,,Atezolizumab+Vemurafenib+Cobimetinib,Placebo+Vemurafenib+Cobimetinib
+14,,,Atezolizumab+Gemcitabine+Carboplatin or Cisplatin,Placebo+Gemcitabine+Carboplatin or Cisplatin
+15,,,Atezolizumab+Bevacizumab,Sunitinib
+16,,,Atezolizumab+Nab-paclitaxel+Doxorubicin+Cyclophosphamide+Filgrastim/Pegfilgrastim,Placebo+Nab-paclitaxel+Doxorubicin+Cyclophosphamide+Filgrastim/Pegfilgrastim
+17,,,Atezolizumab+Carboplatin/Cisplatin+Pemetrexed,Carboplatin/Cisplatin+Pemetrexed

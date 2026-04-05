@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02500121,32271672,,"OS, treatment outcomes CPS",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02807636,32416780,IMvigor130,"RR, DOR, PFS",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02807636,32416780,IMvigor130,"RR, DOR, PFS",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02516241,32971005,DANUBE,"OS, PFS, ORR, DoR, DCR",secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02516241,32971005,DANUBE,"OS, PFS, ORR, DoR, DCR",secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02603432,32945632,,"PFS, ORR, time to response, DoR, DCR, safety ",secondary,"{""endpoint_role"": ""secondary""}"
+7,NCT02450331, 33721560,Imvigor010,OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs,secondary,"{""endpoint_role"": ""secondary""}"

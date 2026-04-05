@@ -1,0 +1,15 @@
+row_index,NCT,Trial name,Name of ICI,Class of ICI
+1,NCT01668784,CheckMate 025,Nivolumab,PD1
+2,NCT01984242,IMmotion150,Atezolizumab,PD-L1
+3,NCT01984242,IMmotion150,Atezolizumab,PD-L1
+4,NCT02231749,CheckMate 214,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+5,NCT02231749,CheckMate 214,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+6,NCT02684006,JAVELIN Renal 101,Avelumab,PD-L1
+7,NCT02853331,KEYNOTE-426,Pembrolizumab,PD1
+8,NCT02420821,IMmotion151,Atezolizumab,PD-L1
+9,NCT02231749,CheckMate 214,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+10,NCT01668784,CheckMate 025,Nivolumab,PD1
+11,NCT02684006,JAVELIN Renal 101,Avelumab,PD-L1
+12,NCT02853331,Keynote-426,Pembrolizumab,PD1
+13,NCT02811861,CLEAR,Pembrolizumab,PD1
+14,NCT03141177,CheckMate 9ER,Nivolumab,PD1

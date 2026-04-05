@@ -1,0 +1,18 @@
+{
+  "item_id": "row_122",
+  "csv_row_number": 122,
+  "question": "For Pembrolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Pembrolizumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_column": "Control regimen",
+  "target_pairs": [
+    {
+      "output_name": "Control regimen",
+      "db_column": "Control regimen"
+    }
+  ],
+  "visible_columns": [
+    "Treatment regimen"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Treatment regimen\", \"Control regimen\" FROM clinical_trials\nWHERE \"Name of ICI\" = 'Pembrolizumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Control_regimen__row_122__For_Pembrolizumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regim/ground_truth_table.csv"
+}

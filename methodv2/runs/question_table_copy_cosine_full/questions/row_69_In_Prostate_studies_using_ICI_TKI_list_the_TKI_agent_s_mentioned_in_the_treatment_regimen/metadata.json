@@ -1,0 +1,11 @@
+{
+  "item_id": "row_69",
+  "csv_row_number": 69,
+  "question": "In Prostate studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_69_In_Prostate_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/tki_agents__row_69__In_Prostate_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen"
+}

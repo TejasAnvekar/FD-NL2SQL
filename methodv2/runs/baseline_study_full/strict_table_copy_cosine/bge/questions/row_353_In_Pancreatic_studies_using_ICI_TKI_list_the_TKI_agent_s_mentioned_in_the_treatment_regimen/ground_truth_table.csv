@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,tki_agents,derived_expected_llm_response
+1,NCT02362048,32114502,KEYNOTE144,Pembrolizumab+Acalabrutinib,,"{""tki_agents"": null}"

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_350",
+  "csv_row_number": 350,
+  "question": "For Atezolizumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "expected_llm_response": {
+    "size_bucket": "large"
+  },
+  "sql_query": "SELECT \"Total sample size\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Atezolizumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Total sample size\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Atezolizumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_size_bucket(source_value) AS \"size_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/size_bucket__row_350__For_Atezolizumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/ground_truth_table.csv",
+  "row_count": 30
+}

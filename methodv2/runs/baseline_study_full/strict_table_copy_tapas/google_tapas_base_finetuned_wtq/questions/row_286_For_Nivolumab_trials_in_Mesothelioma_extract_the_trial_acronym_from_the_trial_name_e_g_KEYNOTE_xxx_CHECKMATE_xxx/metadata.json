@@ -1,0 +1,19 @@
+{
+  "item_id": "row_286",
+  "csv_row_number": 286,
+  "question": "For Nivolumab trials in Mesothelioma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "predicted_answer": "Keynote-119",
+  "selected_cells": [
+    "Keynote-119"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 30.0082950592041,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_286_For_Nivolumab_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_286_For_Nivolumab_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_286_For_Nivolumab_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv"
+}

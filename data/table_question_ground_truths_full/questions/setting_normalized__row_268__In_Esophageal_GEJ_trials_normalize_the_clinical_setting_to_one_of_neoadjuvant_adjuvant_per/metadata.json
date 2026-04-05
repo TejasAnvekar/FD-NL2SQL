@@ -1,0 +1,16 @@
+{
+  "item_id": "row_268",
+  "csv_row_number": 268,
+  "question": "In Esophageal/GEJ trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "expected_llm_response": {
+    "setting_normalized": "metastatic/advanced"
+  },
+  "sql_query": "SELECT \"Clinical setting\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Clinical setting\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_setting_normalized(source_value) AS \"setting_normalized\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/setting_normalized__row_268__In_Esophageal_GEJ_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_per/ground_truth_table.csv",
+  "row_count": 2
+}

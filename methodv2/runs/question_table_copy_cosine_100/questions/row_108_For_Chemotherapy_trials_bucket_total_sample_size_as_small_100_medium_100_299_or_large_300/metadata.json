@@ -1,0 +1,11 @@
+{
+  "item_id": "row_108",
+  "csv_row_number": 108,
+  "question": "For Chemotherapy trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_100/questions/row_108_For_Chemotherapy_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/size_bucket__row_108__For_Chemotherapy_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300"
+}

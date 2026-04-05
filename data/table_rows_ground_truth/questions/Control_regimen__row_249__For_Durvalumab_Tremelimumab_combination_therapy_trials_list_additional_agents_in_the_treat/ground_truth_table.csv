@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Treatment regimen,Control regimen
+1,,,Durvalumab+Tremelimumab+Etoposide+Platinum agent,Platinum+Etoposide
+2,,,Durvalumab+Tremelimumab,Erlotinib/gemcitabine/vinorelbine
+3,,,Durvalumab+Tremelimumab,Investigator's choice chemotherapy
+4,,,Durvalumab+Tremelimumab,Cetuximab+Taxane+Methotrexate+Fluoropyrimidine
+5,,,Durvalumab+Tremelimumab+Best supportive care,Best supportive care
+6,,,Durvalumab+Tremelimumab,Gemcitabine+Cisplatin/Carboplatin
+7,,,Durvalumab+Tremelimumab+Etoposide+Platinum agent,Platinum+Etoposide

@@ -1,0 +1,10 @@
+row_index,NCT,Trial name,Name of ICI,Class of ICI
+1,NCT02105636,CheckMate 141,Nivolumab,PD-1
+2,NCT02105636,CheckMate 141,Nivolumab,PD-1
+3,NCT02358031,KEYNOTE-048,Pembrolizumab,PD-1
+4,NCT02358031,KEYNOTE-048,Pembrolizumab,PD-1
+5,NCT02017717,CheckMate 143,Nivolumab,PD-1
+6,NCT02369874,EAGLE,Durvalumab,PD-L1
+7,NCT02369874,EAGLE,"Durvalumab, Tremelimumab","['PD-L1', 'CTLA-4']"
+8,NCT02952586,JAVELIN Head and Neck 101,Avelumab,PD-L1
+9,NCT02999087,REACH,Avelumab,PD-L1

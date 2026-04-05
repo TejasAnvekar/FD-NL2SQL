@@ -1,0 +1,18 @@
+{
+  "item_id": "row_69",
+  "csv_row_number": 69,
+  "question": "In Prostate studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "expected_llm_response": {
+    "tki_agents": [
+      "axitinib"
+    ]
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Prostate' AND \"Type of combination\" = 'ICI+TKI';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Prostate' AND \"Type of combination\" = 'ICI+TKI'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_tki_agents(source_value) AS \"tki_agents\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/tki_agents__row_69__In_Prostate_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_table.csv",
+  "row_count": 0
+}

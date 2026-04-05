@@ -1,0 +1,33 @@
+{
+  "cosine": {
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full",
+    "models": {
+      "bert": {
+        "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full",
+        "model_name": "bert",
+        "question_result_rows": 888,
+        "row_prediction_rows": 17760,
+        "question_folder_count": 296
+      },
+      "bge": {
+        "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full",
+        "model_name": "bge",
+        "question_result_rows": 888,
+        "row_prediction_rows": 17760,
+        "question_folder_count": 296
+      },
+      "sbert": {
+        "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full",
+        "model_name": "sbert",
+        "question_result_rows": 888,
+        "row_prediction_rows": 17760,
+        "question_folder_count": 296
+      }
+    }
+  },
+  "tapas": {
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full",
+    "model_name": "google_tapas_base_finetuned_wtq",
+    "question_folder_count": 367
+  }
+}

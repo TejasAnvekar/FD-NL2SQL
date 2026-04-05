@@ -1,0 +1,14 @@
+{
+  "item_id": "row_40",
+  "csv_row_number": 40,
+  "expected_key": "pubmed_url",
+  "question": "For trials retrieved, construct a PubMed URL from the PubMed ID.",
+  "column_used": "PubMed ID",
+  "expected_llm_response": "{\"pubmed_url\": \"https://pubmed.ncbi.nlm.nih.gov/12345678/\"}",
+  "derivation_expression": "derive_pubmed_url(source_value)",
+  "derivation_notes": "Construct a PubMed URL from PubMed ID.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"PubMed ID\" AS source_value FROM clinical_trials\nWHERE \"Year\" >= 2015\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_pubmed_url(source_value) AS \"pubmed_url\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/pubmed_url__row_40__For_trials_retrieved_construct_a_PubMed_URL_from_the_PubMed_ID/ground_truth_table.csv",
+  "row_count": 148,
+  "null_value_count": 0
+}

@@ -1,0 +1,14 @@
+{
+  "item_id": "row_433",
+  "csv_row_number": 433,
+  "expected_key": "specific_regimens",
+  "question": "In Nivolumab, Ipilimumab trials for Melanoma where chemotherapy was the control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "column_used": "Control regimen",
+  "expected_llm_response": "{\"control_backbone\": \"FOLFOX\", \"specific_regimens\": [\"FOLFOX\"]}",
+  "derivation_expression": "derive_specific_regimens(source_value)",
+  "derivation_notes": "Extract specific regimen names as a JSON array string.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Cancer type\" = 'Melanoma' AND \"Control arm\" = 'Chemo'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_specific_regimens(source_value) AS \"specific_regimens\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/specific_regimens__row_433__In_Nivolumab_Ipilimumab_trials_for_Melanoma_where_chemotherapy_was_the_control_identify_th/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

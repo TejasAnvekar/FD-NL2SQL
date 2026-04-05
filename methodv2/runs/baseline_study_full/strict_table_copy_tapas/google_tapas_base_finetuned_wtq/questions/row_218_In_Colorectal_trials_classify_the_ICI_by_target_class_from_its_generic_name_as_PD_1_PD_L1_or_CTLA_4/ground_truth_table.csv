@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+2,NCT02788279,31003911,IMblaze130,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+3,NCT02870920,32379280,,"Durvalumab, Tremelimumab","PD-L1, CTLA-4","{""class"": ""PD-L1, CTLA-4""}"
+4,NCT02563002,33264544,MK-3475/Keynote-177,Pembrolizumab,PD1,"{""class"": ""PD1""}"

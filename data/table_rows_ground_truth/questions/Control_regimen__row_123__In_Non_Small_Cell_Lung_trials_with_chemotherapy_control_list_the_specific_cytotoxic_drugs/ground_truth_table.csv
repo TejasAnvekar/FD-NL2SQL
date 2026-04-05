@@ -1,0 +1,37 @@
+row_index,NCT,PubMed ID,Control regimen
+1,,,Placebo+Paclitaxel+Carboplatin
+2,,,Placebo+Paclitaxel+Carboplatin
+3,,,Docetaxel
+4,,,Docetaxel
+5,,,Docetaxel
+6,,,Docetaxel
+7,,,Docetaxel
+8,,,Platinum-based chemotherapy
+9,,,Placebo+Paclitaxel+Carboplatin
+10,,,Docetaxel
+11,,,Pemetrexed+Carboplatin
+12,,,Pemetrexed+Carboplatin
+13,,,Docetaxel
+14,,,Docetaxel
+15,,,Placebo+Pemetrexed+Platinum agent
+16,,,Placebo+Carboplatin+paclitaxel/nab-paclitaxel
+17,,,Chemotherapy
+18,,,Chemotherapy
+19,,,Chemotherapy
+20,,,Chemotherapy
+21,,,Chemotherapy
+22,,,Carboplatin+Pemetrexed+Paclitaxel
+23,,,Platinum-based chemotherapy
+24,,,Carboplatin+Nab-paclitaxel
+25,,,Docetaxel
+26,,,Investigator's choice chemotherapy
+27,,,Investigator's choice chemotherapy
+28,,,Carboplatin+Nab-paclitaxel
+29,,,Carboplatin+Nab-paclitaxel
+30,,,Docetaxel
+31,,,Platinum-based chemotherapy
+32,,,Cisplatin/carboplatin+gemcitabine
+33,,,Docetaxel
+34,,,Docetaxel
+35,,,Chemotherapy
+36,,,Chemotherapy

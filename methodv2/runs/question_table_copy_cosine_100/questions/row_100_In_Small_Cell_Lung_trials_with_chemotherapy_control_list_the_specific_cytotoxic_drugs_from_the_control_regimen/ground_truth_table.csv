@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT00527735,22858559,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"
+2,NCT00527735,22858559,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"
+3,NCT01450761,27458307,CA184-156,Placebo+Etoposide+Platinum agent ,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+4,NCT03059667,30664989,IFCT-1603,Etoposide+Carboplatin/Topotecan,"[""etoposide"", ""carboplatin"", ""topotecan""]","{""control_drugs"": [""etoposide"", ""carboplatin"", ""topotecan""]}"
+5,NCT03043872,31590988,CASPIAN,Platinum+Etoposide,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+6,NCT03043872,31590988,CASPIAN,Platinum+Etoposide,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+7,NCT02763579,31959349,IMpower133,Placebo+Carboplatin+Etoposide,"[""carboplatin"", ""etoposide""]","{""control_drugs"": [""carboplatin"", ""etoposide""]}"
+8,NCT03066778,32468956,KEYNOTE-604,Placebo+Etoposide+Platinum agent,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+9,NCT03043872,33285097,CASPIAN,Platinum+Etoposide,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+10,NCT03043872,33285097,CASPIAN,Platinum+Etoposide,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+11,NCT02481830,33539946,CheckMate 331,Chemotherapy,,"{""control_drugs"": null}"

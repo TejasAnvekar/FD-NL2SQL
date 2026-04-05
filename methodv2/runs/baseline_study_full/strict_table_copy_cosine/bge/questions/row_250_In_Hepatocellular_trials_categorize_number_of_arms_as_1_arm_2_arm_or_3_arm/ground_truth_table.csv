@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT02702401,31790344,KEYNOTE-240,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT03434379,32402160,IMbrave150,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"

@@ -1,0 +1,13 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT01668784,26406148,CheckMate 025,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02231749,29562145,CheckMate 214,OS+PFS+ORR,PFS,"{""primary_endpoint_category"": ""PFS""}"
+3,NCT02231749,31427204,CheckMate 214,OS+PFS+ORR,PFS,"{""primary_endpoint_category"": ""PFS""}"
+4,NCT02684006,30779531,JAVELIN Renal 101,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+5,NCT02853331,30779529,KEYNOTE-426,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+6,NCT02420821,31079938,IMmotion151,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+7,NCT02231749,32661118,CheckMate 214,OS+PFS+ORR,PFS,"{""primary_endpoint_category"": ""PFS""}"
+8,NCT01668784,32673417,CheckMate 025,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+9,NCT02684006,32339648,JAVELIN Renal 101,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+10,NCT02853331,33284113,Keynote-426,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+11,NCT02811861,33616314,CLEAR,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+12,NCT03141177,33657295,CheckMate 9ER,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"

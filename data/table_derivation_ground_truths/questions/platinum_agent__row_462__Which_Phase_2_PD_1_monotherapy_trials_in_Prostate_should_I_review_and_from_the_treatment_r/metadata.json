@@ -1,0 +1,14 @@
+{
+  "item_id": "row_462",
+  "csv_row_number": 462,
+  "expected_key": "platinum_agent",
+  "question": "Which Phase 2 PD-1 monotherapy trials in Prostate should I review, and from the treatment regimen extract dosing schedule and whether cisplatin or carboplatin was used?",
+  "column_used": "Treatment regimen",
+  "expected_llm_response": "{\"schedule\": \"q3w\", \"platinum_agent\": \"carboplatin\"}",
+  "derivation_expression": "derive_platinum_agent(source_value)",
+  "derivation_notes": "Identify cisplatin vs carboplatin from the regimen.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials\nWHERE \"Trial phase\" = 'Phase 2' AND \"Class of ICI\" = 'PD-1' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Cancer type\" = 'Prostate'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_platinum_agent(source_value) AS \"platinum_agent\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/platinum_agent__row_462__Which_Phase_2_PD_1_monotherapy_trials_in_Prostate_should_I_review_and_from_the_treatment_r/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

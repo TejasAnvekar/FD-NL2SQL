@@ -1,0 +1,19 @@
+{
+  "item_id": "row_191",
+  "csv_row_number": 191,
+  "question": "For Brentuximab-vedotin trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "predicted_answer": "2015",
+  "selected_cells": [
+    "2015"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 62.0740966796875,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_191_For_Brentuximab_vedotin_trials_bucket_the_publication_year_into_2014_2015_2018_2019/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_191_For_Brentuximab_vedotin_trials_bucket_the_publication_year_into_2014_2015_2018_2019/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_191_For_Brentuximab_vedotin_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv"
+}

@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,Phase 3,late,"{""phase_bucket"": ""late""}"
+2,NCT02352948,32201234,ARCTIC,Phase 3,late,"{""phase_bucket"": ""late""}"
+3,NCT02453282,32271377,MYSTIC,Phase 3,late,"{""phase_bucket"": ""late""}"
+4,NCT02369874,32294530,EAGLE,Phase 3,late,"{""phase_bucket"": ""late""}"
+5,NCT02870920,32379280,,Phase 2,early,"{""phase_bucket"": ""early""}"
+6,NCT02516241,32971005,DANUBE,Phase 3,late,"{""phase_bucket"": ""late""}"
+7,NCT03043872,33285097,CASPIAN,Phase 3,late,"{""phase_bucket"": ""late""}"

@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02576977,31327687,KEYNOTE-183,Overall response; duration of response; disease control; safety and tolerability of both treatments; secondary PFS.,secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02579863,31327689,KEYNOTE-185,Safety; OS; overall response; duration of response; disease control; secondary PFS.,secondary,"{""endpoint_role"": ""secondary""}"

@@ -1,0 +1,4398 @@
+{
+  "bundle": {
+    "ncts": [
+      "NCT00527735",
+      "NCT01450761",
+      "NCT02763579",
+      "NCT03059667",
+      "NCT03043872",
+      "NCT03066778",
+      "NCT02481830",
+      "NCT02538666"
+    ],
+    "summaries_by_nct": {
+      "NCT00527735": {
+        "nct_id": "NCT00527735",
+        "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+        "acronym": null,
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2007-09-07",
+        "study_first_post_date": {
+          "date": "2007-09-11",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2018-07-18",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Lung Cancer",
+          "Small Cell Lung Cancer",
+          "Carcinoma, Non-Small-Cell Lung"
+        ],
+        "keywords": [
+          "Non Small Cell Lung Cancer (NSCLC)",
+          "Small Cell Lung Cancer (SCLC)"
+        ],
+        "arm_groups": [
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": null,
+            "intervention_names": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Ipilimumab",
+            "description": "Ipilimumab, 10 mg/kg, administered as a single-dose, intravenously (IV), over 90 minutes depending on randomization every 3 weeks (up to 6 doses). Participants could receive additional maintenance ipilimumab at a dose of 10 mg/kg every 12 weeks starting 24 weeks after the first ipilimumab dose.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matched placebo for ipilimumab administered as a single dose IV over 90 minutes every 3 weeks (up to 6 doses) as part of induction. Participants could also receive additional maintenance placebo administered IV over 90 minutes every 12 weeks starting 24 weeks after the first placebo dose.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "175 mg/m\\^2, administered as a single IV dose over 3 hours every 3 weeks (up to 6 doses). Dose modifications (reductions as well as delays) done as per product label.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Area under the concentration curve (AUC)=6, administered as a single IV dose over 30 minutes every 3 weeks (up to 6 doses) as per randomization. Dose modifications (reductions as well as delays) done as per product label.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": null,
+            "intervention_names": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "reference_pmids": []
+      },
+      "NCT01450761": {
+        "nct_id": "NCT01450761",
+        "brief_title": "Trial in Extensive-Disease Small Cell Lung Cancer (ED-SCLC) Subjects Comparing Ipilimumab Plus Etoposide and Platinum Therapy to Etoposide and Platinum Therapy Alone",
+        "official_title": "Randomized, Multicenter, Double-Blind, Phase 3 Trial Comparing the Efficacy of Ipilimumab Plus Etoposide/Platinum Versus Etoposide/Platinum in Subjects With Newly Diagnosed Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC)",
+        "acronym": null,
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2011-10-10",
+        "study_first_post_date": {
+          "date": "2011-10-12",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2020-07-08",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Small Cell Lung Carcinoma"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+            "type": "EXPERIMENTAL",
+            "description": "Ipilimumab: IV solution, Intravenous (IV), 10 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+            "intervention_names": [
+              "Biological: Ipilimumab",
+              "Drug: Etoposide",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo matching Ipilimumab: IV solution, IV, 0 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+            "intervention_names": [
+              "Biological: Placebo matching Ipilimumab",
+              "Drug: Etoposide",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy",
+              "BMS-734016"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Placebo matching Ipilimumab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": null,
+            "other_names": [
+              "Etopophos",
+              "Neoposid",
+              "Eposin"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": null,
+            "other_names": [
+              "Platinol"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": null,
+            "other_names": [
+              "Paraplatin"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo matching Ipilimumab: IV solution, IV, 0 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+            "intervention_names": [
+              "Biological: Placebo matching Ipilimumab",
+              "Drug: Etoposide",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "27458307"
+        ]
+      },
+      "NCT02763579": {
+        "nct_id": "NCT02763579",
+        "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+        "acronym": "IMpower133",
+        "organization": "Hoffmann-La Roche",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2016-05-04",
+        "study_first_post_date": {
+          "date": "2016-05-05",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2023-07-28",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Small Cell Lung Carcinoma"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Atezolizumab + Carboplatin + Etoposide",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received intravenous infusions of atezolizumab 1200 milligrams (mg) in combination with carboplatin to achieve an initial target area under the concentration-time curve (AUC) of 5 milligrams per milliliter per minute (mg/mL/min) followed by etoposide 100 milligrams per square meter (mg/m\\^2) on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) atezolizumab 1200 mg on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+            "intervention_names": [
+              "Drug: Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody",
+              "Drug: Carboplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Placebo + Carboplatin + Etoposide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Etoposide",
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody",
+            "description": "Atezolizumab intravenous infusion was administered at a dose of 1200 mg on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+            "other_names": [
+              "MPDL3280A, RO5541267, Tecentriq"
+            ],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Carboplatin intravenous infusion to achieve an initial target AUC of 5 mg/mL/min was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "Etoposide intravenous infusion was administered at a dose of 100 mg/m\\^2 on Days 1, 2, and 3 of each 21-day cycle during the induction phase (Cycles 1-4).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo intravenous infusion was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo + Carboplatin + Etoposide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Etoposide",
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "38280181",
+          "37931445",
+          "33439693",
+          "31959349",
+          "31466854",
+          "30280641"
+        ]
+      },
+      "NCT03059667": {
+        "nct_id": "NCT03059667",
+        "brief_title": "Immunotherapy as Second-line in Patient With Small Cell Lung Cancer",
+        "official_title": "A Randomized Non-comparative Phase II Study of Anti-PDL1 ATEZOLIZUMAB (MPDL3280A) or Chemotherapy as Second-line Therapy in Patients With Small Cell Lung Cancer (SCLC)",
+        "acronym": null,
+        "organization": "Intergroupe Francophone de Cancerologie Thoracique",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2017-02-14",
+        "study_first_post_date": {
+          "date": "2017-02-23",
+          "type": "ACTUAL"
+        },
+        "last_update_posted": {
+          "date": "2021-02-10",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Small Cell Lung Cancer",
+          "Small Cell Lung Cancer Limited Stage",
+          "Small Cell Lung Cancer Extensive Stage"
+        ],
+        "keywords": [
+          "Small Cell Lun cancer",
+          "IFCT",
+          "immune therapy"
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm A : chemotherapy",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients randomly assigned to the control arm will receive either:\n\n* topotecan (oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended)\n* or re-induction by carboplatin - etoposide chemotherapy.",
+            "intervention_names": [
+              "Drug: Topotecan",
+              "Drug: Carboplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm B : immune therapy",
+            "type": "EXPERIMENTAL",
+            "description": "Patients randomly assigned to the experimental arm will receive Anti PDL1 ATEZOLIZUMAB (MPDL3280A) at a fixed dose of 1200 mg IV every three weeks until progression or unacceptable toxicity.",
+            "intervention_names": [
+              "Drug: Atezolizumab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Atezolizumab",
+            "description": "Atezolizumab at 1200 mg IV every 3 weeks",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B : immune therapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Topotecan",
+            "description": "oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "In accordance with the summary of product characteristics.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "In accordance with the summary of product characteristics.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm A : chemotherapy",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients randomly assigned to the control arm will receive either:\n\n* topotecan (oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended)\n* or re-induction by carboplatin - etoposide chemotherapy.",
+            "intervention_names": [
+              "Drug: Topotecan",
+              "Drug: Carboplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "34589918"
+        ]
+      },
+      "NCT03043872": {
+        "nct_id": "NCT03043872",
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "acronym": "CASPIAN",
+        "organization": "AstraZeneca",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "study_first_submit_date": "2017-01-18",
+        "study_first_post_date": {
+          "date": "2017-02-06",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-10-21",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Small Cell Lung Carcinoma Extensive Disease"
+        ],
+        "keywords": [
+          "Carcinoma, Small Cell Lung",
+          "Oat Cell Carcinoma of Lung",
+          "Oat Cell Lung Cancer",
+          "Small Cell Cancer Of The Lung",
+          "Small Cell Lung Cancer"
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 1",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Tremelimumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 2",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Tremelimumab",
+            "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "40331625",
+          "38811992",
+          "33285097",
+          "31590988"
+        ]
+      },
+      "NCT03066778": {
+        "nct_id": "NCT03066778",
+        "brief_title": "A Study of Pembrolizumab (MK-3475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for Participants With Extensive Stage Small Cell Lung Cancer (MK-3475-604/KEYNOTE-604)",
+        "official_title": "A Phase 3 Randomized, Double-Blind, Placebo-controlled Trial of Pembrolizumab (MK-3475/SCH900475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for the First-line Treatment of Subjects With Extensive Stage Small Cell Lung Cancer (KEYNOTE-604)",
+        "acronym": null,
+        "organization": "Merck Sharp & Dohme LLC",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2017-02-23",
+        "study_first_post_date": {
+          "date": "2017-02-28",
+          "type": "ACTUAL"
+        },
+        "last_update_posted": {
+          "date": "2022-10-03",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Small Cell Lung Cancer (SCLC)"
+        ],
+        "keywords": [
+          "Extensive stage small cell lung cancer (ES-SCLC)",
+          "Programmed Cell Death-1 (PD1, PD-1)",
+          "Programmed Cell Death Ligand 1 (PDL1, PD-L1)",
+          "Programmed Cell Death Ligand 2 (PDL2, PD-L2)"
+        ],
+        "arm_groups": [
+          {
+            "label": "Pembrolizumab+EP",
+            "type": "EXPERIMENTAL",
+            "description": "During each 21-day cycle, participants receive pembrolizumab 200 mg intravenously (IV) on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an area under the plasma drug concentration-time curve \\[AUC\\] 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1). Participants who stop pembrolizumab as a result of obtaining a response of stable disease (SD), partial response (PR), complete response (CR) or those who stop after receiving pembrolizumab for 24 months for reasons other than disease progression or intolerability, are eligible for up to an additional 1 year of treatment after progressive disease if they meet the criteria for retreatment.",
+            "intervention_names": [
+              "Biological: Pembrolizumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Placebo+EP",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "During each 21-day cycle, participants receive placebo (normal saline solution) IV on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an AUC 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1).",
+            "intervention_names": [
+              "Drug: Normal saline solution",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Pembrolizumab",
+            "description": "IV infusion on Day 1 of each cycle prior to chemotherapy",
+            "other_names": [
+              "MK-3475",
+              "KEYTRUDA®"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Normal saline solution",
+            "description": "IV infusion on Day 1 of each cycle prior to chemotherapy",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "IV infusion on Day 1 of each cycle",
+            "other_names": [
+              "PARAPLATIN®"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "IV infusion on Day 1 of each cycle",
+            "other_names": [
+              "PLATINOL®"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "IV infusion on Days 1, 2 and 3 of each cycle",
+            "other_names": [
+              "TOPOSAR™"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo+EP",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "During each 21-day cycle, participants receive placebo (normal saline solution) IV on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an AUC 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1).",
+            "intervention_names": [
+              "Drug: Normal saline solution",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "32468956"
+        ]
+      },
+      "NCT02481830": {
+        "nct_id": "NCT02481830",
+        "brief_title": "Effectiveness Study of Nivolumab Compared to Chemotherapy in Patients With Relapsed Small-cell Lung Cancer",
+        "official_title": "An Open-label, Randomized, Phase 3 Study of Nivolumab or Chemotherapy in Subjects With Relapsed Small-cell Lung Cancer After Platinum-based First Line Chemotherapy (CheckMate 331: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 331)",
+        "acronym": "CheckMate331",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-06-23",
+        "study_first_post_date": {
+          "date": "2015-06-25",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2023-07-27",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Lung Cancer"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Arm A Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenous infusion as specified",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm B Chemotherapy Topotecan",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Topotecan as specified",
+            "intervention_names": [
+              "Drug: Topotecan"
+            ]
+          },
+          {
+            "label": "Arm B Chemotherapy Amrubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Amrubicin intravenous infusion as specified (upon investigator's choice, where locally approved for 2nd line SCLC treatment)",
+            "intervention_names": [
+              "Drug: Amrubicin"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A Nivolumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Topotecan",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Chemotherapy Topotecan"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Amrubicin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Chemotherapy Amrubicin"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B Chemotherapy Topotecan",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Topotecan as specified",
+            "intervention_names": [
+              "Drug: Topotecan"
+            ]
+          },
+          {
+            "label": "Arm B Chemotherapy Amrubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Amrubicin intravenous infusion as specified (upon investigator's choice, where locally approved for 2nd line SCLC treatment)",
+            "intervention_names": [
+              "Drug: Amrubicin"
+            ]
+          }
+        ],
+        "reference_pmids": []
+      },
+      "NCT02538666": {
+        "nct_id": "NCT02538666",
+        "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+        "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+        "acronym": "CheckMate 451",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-08-26",
+        "study_first_post_date": {
+          "date": "2015-09-02",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2023-01-05",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Lung Cancer"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Nivolumab monotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenous fusion",
+            "intervention_names": [
+              "Biological: Nivolumab"
+            ]
+          },
+          {
+            "label": "Nivolumab and ipilimumab combination therapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab and ipilimumab intravenous fusion",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy",
+              "Nivolumab monotherapy"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy"
+            ]
+          },
+          {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "35383114",
+          "33683919"
+        ]
+      }
+    },
+    "errors_by_nct": {},
+    "rows_with_metadata": [
+      {
+        "row_index": 1,
+        "nct": "NCT00527735",
+        "trial_name": null,
+        "ctgov_summary": {
+          "nct_id": "NCT00527735",
+          "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+          "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2007-09-07",
+          "study_first_post_date": {
+            "date": "2007-09-11",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2018-07-18",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Lung Cancer",
+            "Small Cell Lung Cancer",
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "keywords": [
+            "Non Small Cell Lung Cancer (NSCLC)",
+            "Small Cell Lung Cancer (SCLC)"
+          ],
+          "arm_groups": [
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": null,
+              "intervention_names": [
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Ipilimumab",
+              "description": "Ipilimumab, 10 mg/kg, administered as a single-dose, intravenously (IV), over 90 minutes depending on randomization every 3 weeks (up to 6 doses). Participants could receive additional maintenance ipilimumab at a dose of 10 mg/kg every 12 weeks starting 24 weeks after the first ipilimumab dose.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Matched placebo for ipilimumab administered as a single dose IV over 90 minutes every 3 weeks (up to 6 doses) as part of induction. Participants could also receive additional maintenance placebo administered IV over 90 minutes every 12 weeks starting 24 weeks after the first placebo dose.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab placebo + paclitaxel + carboplatin",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "175 mg/m\\^2, administered as a single IV dose over 3 hours every 3 weeks (up to 6 doses). Dose modifications (reductions as well as delays) done as per product label.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab placebo + paclitaxel + carboplatin",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Area under the concentration curve (AUC)=6, administered as a single IV dose over 30 minutes every 3 weeks (up to 6 doses) as per randomization. Dose modifications (reductions as well as delays) done as per product label.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab placebo + paclitaxel + carboplatin",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": null,
+              "intervention_names": [
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "reference_pmids": []
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 2,
+        "nct": "NCT00527735",
+        "trial_name": null,
+        "ctgov_summary": {
+          "nct_id": "NCT00527735",
+          "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+          "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2007-09-07",
+          "study_first_post_date": {
+            "date": "2007-09-11",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2018-07-18",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Lung Cancer",
+            "Small Cell Lung Cancer",
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "keywords": [
+            "Non Small Cell Lung Cancer (NSCLC)",
+            "Small Cell Lung Cancer (SCLC)"
+          ],
+          "arm_groups": [
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": null,
+              "intervention_names": [
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Ipilimumab",
+              "description": "Ipilimumab, 10 mg/kg, administered as a single-dose, intravenously (IV), over 90 minutes depending on randomization every 3 weeks (up to 6 doses). Participants could receive additional maintenance ipilimumab at a dose of 10 mg/kg every 12 weeks starting 24 weeks after the first ipilimumab dose.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Matched placebo for ipilimumab administered as a single dose IV over 90 minutes every 3 weeks (up to 6 doses) as part of induction. Participants could also receive additional maintenance placebo administered IV over 90 minutes every 12 weeks starting 24 weeks after the first placebo dose.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab placebo + paclitaxel + carboplatin",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "175 mg/m\\^2, administered as a single IV dose over 3 hours every 3 weeks (up to 6 doses). Dose modifications (reductions as well as delays) done as per product label.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab placebo + paclitaxel + carboplatin",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Area under the concentration curve (AUC)=6, administered as a single IV dose over 30 minutes every 3 weeks (up to 6 doses) as per randomization. Dose modifications (reductions as well as delays) done as per product label.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Ipilimumab placebo + paclitaxel + carboplatin",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+                "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+              "type": "EXPERIMENTAL",
+              "description": null,
+              "intervention_names": [
+                "Drug: Ipilimumab",
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": null,
+              "intervention_names": [
+                "Drug: Placebo",
+                "Drug: Paclitaxel",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "reference_pmids": []
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 3,
+        "nct": "NCT01450761",
+        "trial_name": "CA184-156",
+        "ctgov_summary": {
+          "nct_id": "NCT01450761",
+          "brief_title": "Trial in Extensive-Disease Small Cell Lung Cancer (ED-SCLC) Subjects Comparing Ipilimumab Plus Etoposide and Platinum Therapy to Etoposide and Platinum Therapy Alone",
+          "official_title": "Randomized, Multicenter, Double-Blind, Phase 3 Trial Comparing the Efficacy of Ipilimumab Plus Etoposide/Platinum Versus Etoposide/Platinum in Subjects With Newly Diagnosed Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC)",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2011-10-10",
+          "study_first_post_date": {
+            "date": "2011-10-12",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2020-07-08",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "type": "EXPERIMENTAL",
+              "description": "Ipilimumab: IV solution, Intravenous (IV), 10 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+              "intervention_names": [
+                "Biological: Ipilimumab",
+                "Drug: Etoposide",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin"
+              ]
+            },
+            {
+              "label": "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo matching Ipilimumab: IV solution, IV, 0 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+              "intervention_names": [
+                "Biological: Placebo matching Ipilimumab",
+                "Drug: Etoposide",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy",
+                "BMS-734016"
+              ],
+              "arm_group_labels": [
+                "Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Placebo matching Ipilimumab",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": null,
+              "other_names": [
+                "Etopophos",
+                "Neoposid",
+                "Eposin"
+              ],
+              "arm_group_labels": [
+                "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+                "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": null,
+              "other_names": [
+                "Platinol"
+              ],
+              "arm_group_labels": [
+                "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+                "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": null,
+              "other_names": [
+                "Paraplatin"
+              ],
+              "arm_group_labels": [
+                "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+                "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo matching Ipilimumab: IV solution, IV, 0 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+              "intervention_names": [
+                "Biological: Placebo matching Ipilimumab",
+                "Drug: Etoposide",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "27458307"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 4,
+        "nct": "NCT02763579",
+        "trial_name": "IMPower 133",
+        "ctgov_summary": {
+          "nct_id": "NCT02763579",
+          "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+          "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+          "acronym": "IMpower133",
+          "organization": "Hoffmann-La Roche",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2016-05-04",
+          "study_first_post_date": {
+            "date": "2016-05-05",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2023-07-28",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Atezolizumab + Carboplatin + Etoposide",
+              "type": "EXPERIMENTAL",
+              "description": "Participants received intravenous infusions of atezolizumab 1200 milligrams (mg) in combination with carboplatin to achieve an initial target area under the concentration-time curve (AUC) of 5 milligrams per milliliter per minute (mg/mL/min) followed by etoposide 100 milligrams per square meter (mg/m\\^2) on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) atezolizumab 1200 mg on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+              "intervention_names": [
+                "Drug: Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody",
+                "Drug: Carboplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Placebo + Carboplatin + Etoposide",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Etoposide",
+                "Drug: Placebo"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody",
+              "description": "Atezolizumab intravenous infusion was administered at a dose of 1200 mg on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+              "other_names": [
+                "MPDL3280A, RO5541267, Tecentriq"
+              ],
+              "arm_group_labels": [
+                "Atezolizumab + Carboplatin + Etoposide"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Carboplatin intravenous infusion to achieve an initial target AUC of 5 mg/mL/min was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Atezolizumab + Carboplatin + Etoposide",
+                "Placebo + Carboplatin + Etoposide"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "Etoposide intravenous infusion was administered at a dose of 100 mg/m\\^2 on Days 1, 2, and 3 of each 21-day cycle during the induction phase (Cycles 1-4).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Atezolizumab + Carboplatin + Etoposide",
+                "Placebo + Carboplatin + Etoposide"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo intravenous infusion was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo + Carboplatin + Etoposide"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo + Carboplatin + Etoposide",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Etoposide",
+                "Drug: Placebo"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "38280181",
+            "37931445",
+            "33439693",
+            "31959349",
+            "31466854",
+            "30280641"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 5,
+        "nct": "NCT03059667",
+        "trial_name": "IFCT-1603",
+        "ctgov_summary": {
+          "nct_id": "NCT03059667",
+          "brief_title": "Immunotherapy as Second-line in Patient With Small Cell Lung Cancer",
+          "official_title": "A Randomized Non-comparative Phase II Study of Anti-PDL1 ATEZOLIZUMAB (MPDL3280A) or Chemotherapy as Second-line Therapy in Patients With Small Cell Lung Cancer (SCLC)",
+          "acronym": null,
+          "organization": "Intergroupe Francophone de Cancerologie Thoracique",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2017-02-14",
+          "study_first_post_date": {
+            "date": "2017-02-23",
+            "type": "ACTUAL"
+          },
+          "last_update_posted": {
+            "date": "2021-02-10",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Cancer",
+            "Small Cell Lung Cancer Limited Stage",
+            "Small Cell Lung Cancer Extensive Stage"
+          ],
+          "keywords": [
+            "Small Cell Lun cancer",
+            "IFCT",
+            "immune therapy"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm A : chemotherapy",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Patients randomly assigned to the control arm will receive either:\n\n* topotecan (oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended)\n* or re-induction by carboplatin - etoposide chemotherapy.",
+              "intervention_names": [
+                "Drug: Topotecan",
+                "Drug: Carboplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm B : immune therapy",
+              "type": "EXPERIMENTAL",
+              "description": "Patients randomly assigned to the experimental arm will receive Anti PDL1 ATEZOLIZUMAB (MPDL3280A) at a fixed dose of 1200 mg IV every three weeks until progression or unacceptable toxicity.",
+              "intervention_names": [
+                "Drug: Atezolizumab"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Atezolizumab",
+              "description": "Atezolizumab at 1200 mg IV every 3 weeks",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B : immune therapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Topotecan",
+              "description": "oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm A : chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "In accordance with the summary of product characteristics.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm A : chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "In accordance with the summary of product characteristics.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm A : chemotherapy"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm A : chemotherapy",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Patients randomly assigned to the control arm will receive either:\n\n* topotecan (oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended)\n* or re-induction by carboplatin - etoposide chemotherapy.",
+              "intervention_names": [
+                "Drug: Topotecan",
+                "Drug: Carboplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "34589918"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 6,
+        "nct": "NCT03043872",
+        "trial_name": "CASPIAN",
+        "ctgov_summary": {
+          "nct_id": "NCT03043872",
+          "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+          "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+          "acronym": "CASPIAN",
+          "organization": "AstraZeneca",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2017-01-18",
+          "study_first_post_date": {
+            "date": "2017-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma Extensive Disease"
+          ],
+          "keywords": [
+            "Carcinoma, Small Cell Lung",
+            "Oat Cell Carcinoma of Lung",
+            "Oat Cell Lung Cancer",
+            "Small Cell Cancer Of The Lung",
+            "Small Cell Lung Cancer"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Tremelimumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Durvalumab",
+              "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tremelimumab",
+              "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40331625",
+            "38811992",
+            "33285097",
+            "31590988"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 7,
+        "nct": "NCT03043872",
+        "trial_name": "CASPIAN",
+        "ctgov_summary": {
+          "nct_id": "NCT03043872",
+          "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+          "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+          "acronym": "CASPIAN",
+          "organization": "AstraZeneca",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2017-01-18",
+          "study_first_post_date": {
+            "date": "2017-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma Extensive Disease"
+          ],
+          "keywords": [
+            "Carcinoma, Small Cell Lung",
+            "Oat Cell Carcinoma of Lung",
+            "Oat Cell Lung Cancer",
+            "Small Cell Cancer Of The Lung",
+            "Small Cell Lung Cancer"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Tremelimumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Durvalumab",
+              "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tremelimumab",
+              "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40331625",
+            "38811992",
+            "33285097",
+            "31590988"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 8,
+        "nct": "NCT02763579",
+        "trial_name": "IMpower133",
+        "ctgov_summary": {
+          "nct_id": "NCT02763579",
+          "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+          "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+          "acronym": "IMpower133",
+          "organization": "Hoffmann-La Roche",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2016-05-04",
+          "study_first_post_date": {
+            "date": "2016-05-05",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2023-07-28",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Atezolizumab + Carboplatin + Etoposide",
+              "type": "EXPERIMENTAL",
+              "description": "Participants received intravenous infusions of atezolizumab 1200 milligrams (mg) in combination with carboplatin to achieve an initial target area under the concentration-time curve (AUC) of 5 milligrams per milliliter per minute (mg/mL/min) followed by etoposide 100 milligrams per square meter (mg/m\\^2) on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) atezolizumab 1200 mg on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+              "intervention_names": [
+                "Drug: Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody",
+                "Drug: Carboplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Placebo + Carboplatin + Etoposide",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Etoposide",
+                "Drug: Placebo"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody",
+              "description": "Atezolizumab intravenous infusion was administered at a dose of 1200 mg on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+              "other_names": [
+                "MPDL3280A, RO5541267, Tecentriq"
+              ],
+              "arm_group_labels": [
+                "Atezolizumab + Carboplatin + Etoposide"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Carboplatin intravenous infusion to achieve an initial target AUC of 5 mg/mL/min was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Atezolizumab + Carboplatin + Etoposide",
+                "Placebo + Carboplatin + Etoposide"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "Etoposide intravenous infusion was administered at a dose of 100 mg/m\\^2 on Days 1, 2, and 3 of each 21-day cycle during the induction phase (Cycles 1-4).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Atezolizumab + Carboplatin + Etoposide",
+                "Placebo + Carboplatin + Etoposide"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo intravenous infusion was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo + Carboplatin + Etoposide"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo + Carboplatin + Etoposide",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Etoposide",
+                "Drug: Placebo"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "38280181",
+            "37931445",
+            "33439693",
+            "31959349",
+            "31466854",
+            "30280641"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 9,
+        "nct": "NCT03066778",
+        "trial_name": "KEYNOTE-604",
+        "ctgov_summary": {
+          "nct_id": "NCT03066778",
+          "brief_title": "A Study of Pembrolizumab (MK-3475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for Participants With Extensive Stage Small Cell Lung Cancer (MK-3475-604/KEYNOTE-604)",
+          "official_title": "A Phase 3 Randomized, Double-Blind, Placebo-controlled Trial of Pembrolizumab (MK-3475/SCH900475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for the First-line Treatment of Subjects With Extensive Stage Small Cell Lung Cancer (KEYNOTE-604)",
+          "acronym": null,
+          "organization": "Merck Sharp & Dohme LLC",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2017-02-23",
+          "study_first_post_date": {
+            "date": "2017-02-28",
+            "type": "ACTUAL"
+          },
+          "last_update_posted": {
+            "date": "2022-10-03",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Cancer (SCLC)"
+          ],
+          "keywords": [
+            "Extensive stage small cell lung cancer (ES-SCLC)",
+            "Programmed Cell Death-1 (PD1, PD-1)",
+            "Programmed Cell Death Ligand 1 (PDL1, PD-L1)",
+            "Programmed Cell Death Ligand 2 (PDL2, PD-L2)"
+          ],
+          "arm_groups": [
+            {
+              "label": "Pembrolizumab+EP",
+              "type": "EXPERIMENTAL",
+              "description": "During each 21-day cycle, participants receive pembrolizumab 200 mg intravenously (IV) on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an area under the plasma drug concentration-time curve \\[AUC\\] 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1). Participants who stop pembrolizumab as a result of obtaining a response of stable disease (SD), partial response (PR), complete response (CR) or those who stop after receiving pembrolizumab for 24 months for reasons other than disease progression or intolerability, are eligible for up to an additional 1 year of treatment after progressive disease if they meet the criteria for retreatment.",
+              "intervention_names": [
+                "Biological: Pembrolizumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Placebo+EP",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "During each 21-day cycle, participants receive placebo (normal saline solution) IV on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an AUC 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1).",
+              "intervention_names": [
+                "Drug: Normal saline solution",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "IV infusion on Day 1 of each cycle prior to chemotherapy",
+              "other_names": [
+                "MK-3475",
+                "KEYTRUDA®"
+              ],
+              "arm_group_labels": [
+                "Pembrolizumab+EP"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Normal saline solution",
+              "description": "IV infusion on Day 1 of each cycle prior to chemotherapy",
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo+EP"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "IV infusion on Day 1 of each cycle",
+              "other_names": [
+                "PARAPLATIN®"
+              ],
+              "arm_group_labels": [
+                "Pembrolizumab+EP",
+                "Placebo+EP"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "IV infusion on Day 1 of each cycle",
+              "other_names": [
+                "PLATINOL®"
+              ],
+              "arm_group_labels": [
+                "Pembrolizumab+EP",
+                "Placebo+EP"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "IV infusion on Days 1, 2 and 3 of each cycle",
+              "other_names": [
+                "TOPOSAR™"
+              ],
+              "arm_group_labels": [
+                "Pembrolizumab+EP",
+                "Placebo+EP"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo+EP",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "During each 21-day cycle, participants receive placebo (normal saline solution) IV on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an AUC 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1).",
+              "intervention_names": [
+                "Drug: Normal saline solution",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "32468956"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 10,
+        "nct": "NCT03043872",
+        "trial_name": "CASPIAN",
+        "ctgov_summary": {
+          "nct_id": "NCT03043872",
+          "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+          "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+          "acronym": "CASPIAN",
+          "organization": "AstraZeneca",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2017-01-18",
+          "study_first_post_date": {
+            "date": "2017-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma Extensive Disease"
+          ],
+          "keywords": [
+            "Carcinoma, Small Cell Lung",
+            "Oat Cell Carcinoma of Lung",
+            "Oat Cell Lung Cancer",
+            "Small Cell Cancer Of The Lung",
+            "Small Cell Lung Cancer"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Tremelimumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Durvalumab",
+              "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tremelimumab",
+              "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40331625",
+            "38811992",
+            "33285097",
+            "31590988"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 11,
+        "nct": "NCT03043872",
+        "trial_name": "CASPIAN",
+        "ctgov_summary": {
+          "nct_id": "NCT03043872",
+          "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+          "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+          "acronym": "CASPIAN",
+          "organization": "AstraZeneca",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2017-01-18",
+          "study_first_post_date": {
+            "date": "2017-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma Extensive Disease"
+          ],
+          "keywords": [
+            "Carcinoma, Small Cell Lung",
+            "Oat Cell Carcinoma of Lung",
+            "Oat Cell Lung Cancer",
+            "Small Cell Cancer Of The Lung",
+            "Small Cell Lung Cancer"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Tremelimumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Durvalumab",
+              "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tremelimumab",
+              "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40331625",
+            "38811992",
+            "33285097",
+            "31590988"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 12,
+        "nct": "NCT02481830",
+        "trial_name": "CheckMate 331",
+        "ctgov_summary": {
+          "nct_id": "NCT02481830",
+          "brief_title": "Effectiveness Study of Nivolumab Compared to Chemotherapy in Patients With Relapsed Small-cell Lung Cancer",
+          "official_title": "An Open-label, Randomized, Phase 3 Study of Nivolumab or Chemotherapy in Subjects With Relapsed Small-cell Lung Cancer After Platinum-based First Line Chemotherapy (CheckMate 331: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 331)",
+          "acronym": "CheckMate331",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-06-23",
+          "study_first_post_date": {
+            "date": "2015-06-25",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2023-07-27",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A Nivolumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab intravenous infusion as specified",
+              "intervention_names": [
+                "Drug: Nivolumab"
+              ]
+            },
+            {
+              "label": "Arm B Chemotherapy Topotecan",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Topotecan as specified",
+              "intervention_names": [
+                "Drug: Topotecan"
+              ]
+            },
+            {
+              "label": "Arm B Chemotherapy Amrubicin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Amrubicin intravenous infusion as specified (upon investigator's choice, where locally approved for 2nd line SCLC treatment)",
+              "intervention_names": [
+                "Drug: Amrubicin"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm A Nivolumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Topotecan",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B Chemotherapy Topotecan"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Amrubicin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B Chemotherapy Amrubicin"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B Chemotherapy Topotecan",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Topotecan as specified",
+              "intervention_names": [
+                "Drug: Topotecan"
+              ]
+            },
+            {
+              "label": "Arm B Chemotherapy Amrubicin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Amrubicin intravenous infusion as specified (upon investigator's choice, where locally approved for 2nd line SCLC treatment)",
+              "intervention_names": [
+                "Drug: Amrubicin"
+              ]
+            }
+          ],
+          "reference_pmids": []
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 13,
+        "nct": "NCT02538666",
+        "trial_name": "CheckMate 451",
+        "ctgov_summary": {
+          "nct_id": "NCT02538666",
+          "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+          "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+          "acronym": "CheckMate 451",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-08-26",
+          "study_first_post_date": {
+            "date": "2015-09-02",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2023-01-05",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Nivolumab monotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab intravenous fusion",
+              "intervention_names": [
+                "Biological: Nivolumab"
+              ]
+            },
+            {
+              "label": "Nivolumab and ipilimumab combination therapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab and ipilimumab intravenous fusion",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo",
+              "intervention_names": [
+                "Other: Placebo"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and ipilimumab combination therapy",
+                "Nivolumab monotherapy"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and ipilimumab combination therapy"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo",
+              "intervention_names": [
+                "Other: Placebo"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "35383114",
+            "33683919"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 14,
+        "nct": "NCT02538666",
+        "trial_name": "CheckMate 451",
+        "ctgov_summary": {
+          "nct_id": "NCT02538666",
+          "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+          "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+          "acronym": "CheckMate 451",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-08-26",
+          "study_first_post_date": {
+            "date": "2015-09-02",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2023-01-05",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Nivolumab monotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab intravenous fusion",
+              "intervention_names": [
+                "Biological: Nivolumab"
+              ]
+            },
+            {
+              "label": "Nivolumab and ipilimumab combination therapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab and ipilimumab intravenous fusion",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo",
+              "intervention_names": [
+                "Other: Placebo"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and ipilimumab combination therapy",
+                "Nivolumab monotherapy"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and ipilimumab combination therapy"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo",
+              "intervention_names": [
+                "Other: Placebo"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "35383114",
+            "33683919"
+          ]
+        },
+        "ctgov_error": ""
+      }
+    ]
+  },
+  "plan": {
+    "need_ctgov_metadata": true,
+    "relevant_fields": [
+      "brief_title",
+      "official_title",
+      "interventions",
+      "arm_groups",
+      "conditions"
+    ],
+    "focus": "extract the biomarker name(s) from the trial name and identify other biomarkers used for inclusion in Small Cell Lung trials",
+    "notes": "The question requires analyzing trial names and identifying biomarkers, so metadata fields related to trial titles, interventions, and conditions are necessary."
+  },
+  "planner_prompt": "You are choosing which ClinicalTrials.gov metadata fields are most useful for answering a question.\nThe final answer will be produced in a later step.\nYour job now is only to select the most relevant study metadata fields to extract for the target field that will be inferred later.\nReturn ONLY valid JSON in this exact shape:\n{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"field_name\"], \"focus\": \"...\", \"notes\": \"...\"}\nAllowed field names: ['brief_title', 'official_title', 'acronym', 'organization', 'overall_status', 'phases', 'study_type', 'conditions', 'keywords', 'arm_groups', 'interventions', 'candidate_control_arms', 'reference_pmids']\nField descriptions:\n- brief_title: Short study title from ClinicalTrials.gov.\n- official_title: Long-form official study title.\n- acronym: Study acronym or short identifier.\n- organization: Lead sponsor or responsible organization.\n- overall_status: Recruitment or completion status.\n- phases: Study phase information.\n- study_type: Interventional or observational study type.\n- conditions: Study conditions or cancer types.\n- keywords: Supplementary study keywords.\n- arm_groups: Arm labels, arm types, and arm descriptions.\n- interventions: Named interventions with types and descriptions.\n- candidate_control_arms: Likely comparator/control arms derived from the CTGov record.\n- reference_pmids: PubMed IDs referenced by the study record.\n\nQuestion: In Small Cell Lung trials where a non–PD-L1 biomarker was required, extract the biomarker name(s) from the trial name.\nTarget field to infer later: Is any other biomarker used for inclusion\nSource column shown to the model: \"Trial name\"\n\nFew-shot examples:\nExample 1\nQuestion: For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.\nTarget field to infer later: Control regimen\nOutput: {\"need_ctgov_metadata\": true, \"relevant_fields\": [\"candidate_control_arms\", \"arm_groups\", \"interventions\"], \"focus\": \"identify the comparator or control arm regimen for each study and normalize it to the control regimen value\", \"notes\": \"The question retrieves the studies, but the target field is Control regimen, so comparator-arm metadata is needed.\"}\n\nExample 2\nQuestion: In NSCLC trials classify the ICI by target class from its generic name.\nTarget field to infer later: Class of ICI\nOutput: {\"need_ctgov_metadata\": false, \"relevant_fields\": [], \"focus\": \"the row evidence already names the ICI and CTGov metadata is not needed\", \"notes\": \"Do not request CTGov metadata when the target can be inferred directly from the visible row.\"}\nRows and compact CTGov previews:\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)\", \"Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)\", \"Ipilimumab placebo + paclitaxel + carboplatin\"], \"brief_title\": \"Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)\", \"candidate_control_arm_labels\": [\"Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)\", \"Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)\", \"Ipilimumab placebo + paclitaxel + carboplatin\"], \"conditions\": [\"Lung Cancer\", \"Small Cell Lung Cancer\", \"Carcinoma, Non-Small-Cell Lung\"], \"intervention_names\": [\"Ipilimumab\", \"Placebo\", \"Paclitaxel\", \"Carboplatin\"]}, \"nct\": \"NCT00527735\", \"row\": {\"NCT\": \"NCT00527735\", \"Trial name\": null}, \"trial_name\": null}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)\", \"Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)\", \"Ipilimumab placebo + paclitaxel + carboplatin\"], \"brief_title\": \"Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)\", \"candidate_control_arm_labels\": [\"Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)\", \"Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)\", \"Ipilimumab placebo + paclitaxel + carboplatin\"], \"conditions\": [\"Lung Cancer\", \"Small Cell Lung Cancer\", \"Carcinoma, Non-Small-Cell Lung\"], \"intervention_names\": [\"Ipilimumab\", \"Placebo\", \"Paclitaxel\", \"Carboplatin\"]}, \"nct\": \"NCT00527735\", \"row\": {\"NCT\": \"NCT00527735\", \"Trial name\": null}, \"trial_name\": null}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Ipilimumab+Etoposide+Cisplatin/Carboplatin\", \"Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin\"], \"brief_title\": \"Trial in Extensive-Disease Small Cell Lung Cancer (ED-SCLC) Subjects Comparing Ipilimumab Plus Etoposide and Platinum Therapy to Etoposide and Platinum Therapy Alone\", \"candidate_control_arm_labels\": [\"Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin\"], \"conditions\": [\"Small Cell Lung Carcinoma\"], \"intervention_names\": [\"Ipilimumab\", \"Placebo matching Ipilimumab\", \"Etoposide\", \"Cisplatin\", \"Carboplatin\"]}, \"nct\": \"NCT01450761\", \"row\": {\"NCT\": \"NCT01450761\", \"Trial name\": \"CA184-156\"}, \"trial_name\": \"CA184-156\"}\n{\"ctgov_preview\": {\"acronym\": \"IMpower133\", \"arm_group_labels\": [\"Atezolizumab + Carboplatin + Etoposide\", \"Placebo + Carboplatin + Etoposide\"], \"brief_title\": \"A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)\", \"candidate_control_arm_labels\": [\"Placebo + Carboplatin + Etoposide\"], \"conditions\": [\"Small Cell Lung Carcinoma\"], \"intervention_names\": [\"Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody\", \"Carboplatin\", \"Etoposide\", \"Placebo\"]}, \"nct\": \"NCT02763579\", \"row\": {\"NCT\": \"NCT02763579\", \"Trial name\": \"IMPower 133\"}, \"trial_name\": \"IMPower 133\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Arm A : chemotherapy\", \"Arm B : immune therapy\"], \"brief_title\": \"Immunotherapy as Second-line in Patient With Small Cell Lung Cancer\", \"candidate_control_arm_labels\": [\"Arm A : chemotherapy\"], \"conditions\": [\"Small Cell Lung Cancer\", \"Small Cell Lung Cancer Limited Stage\", \"Small Cell Lung Cancer Extensive Stage\"], \"intervention_names\": [\"Atezolizumab\", \"Topotecan\", \"Carboplatin\", \"Etoposide\"]}, \"nct\": \"NCT03059667\", \"row\": {\"NCT\": \"NCT03059667\", \"Trial name\": \"IFCT-1603\"}, \"trial_name\": \"IFCT-1603\"}\n{\"ctgov_preview\": {\"acronym\": \"CASPIAN\", \"arm_group_labels\": [\"Arm 1\", \"Arm 2\", \"Arm 3\"], \"brief_title\": \"Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)\", \"candidate_control_arm_labels\": [\"Arm 3\"], \"conditions\": [\"Small Cell Lung Carcinoma Extensive Disease\"], \"intervention_names\": [\"Durvalumab\", \"Tremelimumab\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03043872\", \"row\": {\"NCT\": \"NCT03043872\", \"Trial name\": \"CASPIAN\"}, \"trial_name\": \"CASPIAN\"}\n{\"ctgov_preview\": {\"acronym\": \"CASPIAN\", \"arm_group_labels\": [\"Arm 1\", \"Arm 2\", \"Arm 3\"], \"brief_title\": \"Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)\", \"candidate_control_arm_labels\": [\"Arm 3\"], \"conditions\": [\"Small Cell Lung Carcinoma Extensive Disease\"], \"intervention_names\": [\"Durvalumab\", \"Tremelimumab\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03043872\", \"row\": {\"NCT\": \"NCT03043872\", \"Trial name\": \"CASPIAN\"}, \"trial_name\": \"CASPIAN\"}\n{\"ctgov_preview\": {\"acronym\": \"IMpower133\", \"arm_group_labels\": [\"Atezolizumab + Carboplatin + Etoposide\", \"Placebo + Carboplatin + Etoposide\"], \"brief_title\": \"A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)\", \"candidate_control_arm_labels\": [\"Placebo + Carboplatin + Etoposide\"], \"conditions\": [\"Small Cell Lung Carcinoma\"], \"intervention_names\": [\"Atezolizumab (MPDL3280A), an engineered anti-PD-L1 antibody\", \"Carboplatin\", \"Etoposide\", \"Placebo\"]}, \"nct\": \"NCT02763579\", \"row\": {\"NCT\": \"NCT02763579\", \"Trial name\": \"IMpower133\"}, \"trial_name\": \"IMpower133\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Pembrolizumab+EP\", \"Placebo+EP\"], \"brief_title\": \"A Study of Pembrolizumab (MK-3475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for Participants With Extensive Stage Small Cell Lung Cancer (MK-3475-604/KEYNOTE-604)\", \"candidate_control_arm_labels\": [\"Placebo+EP\"], \"conditions\": [\"Small Cell Lung Cancer (SCLC)\"], \"intervention_names\": [\"Pembrolizumab\", \"Normal saline solution\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03066778\", \"row\": {\"NCT\": \"NCT03066778\", \"Trial name\": \"KEYNOTE-604\"}, \"trial_name\": \"KEYNOTE-604\"}\n{\"ctgov_preview\": {\"acronym\": \"CASPIAN\", \"arm_group_labels\": [\"Arm 1\", \"Arm 2\", \"Arm 3\"], \"brief_title\": \"Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)\", \"candidate_control_arm_labels\": [\"Arm 3\"], \"conditions\": [\"Small Cell Lung Carcinoma Extensive Disease\"], \"intervention_names\": [\"Durvalumab\", \"Tremelimumab\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03043872\", \"row\": {\"NCT\": \"NCT03043872\", \"Trial name\": \"CASPIAN\"}, \"trial_name\": \"CASPIAN\"}\n{\"ctgov_preview\": {\"acronym\": \"CASPIAN\", \"arm_group_labels\": [\"Arm 1\", \"Arm 2\", \"Arm 3\"], \"brief_title\": \"Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)\", \"candidate_control_arm_labels\": [\"Arm 3\"], \"conditions\": [\"Small Cell Lung Carcinoma Extensive Disease\"], \"intervention_names\": [\"Durvalumab\", \"Tremelimumab\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03043872\", \"row\": {\"NCT\": \"NCT03043872\", \"Trial name\": \"CASPIAN\"}, \"trial_name\": \"CASPIAN\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate331\", \"arm_group_labels\": [\"Arm A Nivolumab\", \"Arm B Chemotherapy Topotecan\", \"Arm B Chemotherapy Amrubicin\"], \"brief_title\": \"Effectiveness Study of Nivolumab Compared to Chemotherapy in Patients With Relapsed Small-cell Lung Cancer\", \"candidate_control_arm_labels\": [\"Arm B Chemotherapy Topotecan\", \"Arm B Chemotherapy Amrubicin\"], \"conditions\": [\"Lung Cancer\"], \"intervention_names\": [\"Nivolumab\", \"Topotecan\", \"Amrubicin\"]}, \"nct\": \"NCT02481830\", \"row\": {\"NCT\": \"NCT02481830\", \"Trial name\": \"CheckMate 331\"}, \"trial_name\": \"CheckMate 331\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 451\", \"arm_group_labels\": [\"Nivolumab monotherapy\", \"Nivolumab and ipilimumab combination therapy\", \"Placebo\"], \"brief_title\": \"An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy\", \"candidate_control_arm_labels\": [\"Placebo\"], \"conditions\": [\"Lung Cancer\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Placebo\"]}, \"nct\": \"NCT02538666\", \"row\": {\"NCT\": \"NCT02538666\", \"Trial name\": \"CheckMate 451\"}, \"trial_name\": \"CheckMate 451\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 451\", \"arm_group_labels\": [\"Nivolumab monotherapy\", \"Nivolumab and ipilimumab combination therapy\", \"Placebo\"], \"brief_title\": \"An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy\", \"candidate_control_arm_labels\": [\"Placebo\"], \"conditions\": [\"Lung Cancer\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Placebo\"]}, \"nct\": \"NCT02538666\", \"row\": {\"NCT\": \"NCT02538666\", \"Trial name\": \"CheckMate 451\"}, \"trial_name\": \"CheckMate 451\"}",
+  "planner_raw_output": "{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"brief_title\", \"official_title\", \"interventions\", \"arm_groups\", \"conditions\"], \"focus\": \"extract the biomarker name(s) from the trial name and identify other biomarkers used for inclusion in Small Cell Lung trials\", \"notes\": \"The question requires analyzing trial names and identifying biomarkers, so metadata fields related to trial titles, interventions, and conditions are necessary.\"}",
+  "planner_error": "",
+  "planner_meta": {
+    "response_id": "chatcmpl-a2d7df87bffb3942",
+    "finish_reason": "stop",
+    "prompt_tokens": 3416,
+    "completion_tokens": 93,
+    "total_tokens": 3509
+  },
+  "selected_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT00527735",
+      "trial_name": null,
+      "selected_ctgov_evidence": {
+        "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Ipilimumab",
+            "description": "Ipilimumab, 10 mg/kg, administered as a single-dose, intravenously (IV), over 90 minutes depending on randomization every 3 weeks (up to 6 doses). Participants could receive additional maintenance ipilimumab at a dose of 10 mg/kg every 12 weeks starting 24 weeks after the first ipilimumab dose.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matched placebo for ipilimumab administered as a single dose IV over 90 minutes every 3 weeks (up to 6 doses) as part of induction. Participants could also receive additional maintenance placebo administered IV over 90 minutes every 12 weeks starting 24 weeks after the first placebo dose.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "175 mg/m\\^2, administered as a single IV dose over 3 hours every 3 weeks (up to 6 doses). Dose modifications (reductions as well as delays) done as per product label.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Area under the concentration curve (AUC)=6, administered as a single IV dose over 30 minutes every 3 weeks (up to 6 doses) as per randomization. Dose modifications (reductions as well as delays) done as per product label.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": null,
+            "intervention_names": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "conditions": [
+          "Lung Cancer",
+          "Small Cell Lung Cancer",
+          "Carcinoma, Non-Small-Cell Lung"
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT00527735",
+      "trial_name": null,
+      "selected_ctgov_evidence": {
+        "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Ipilimumab",
+            "description": "Ipilimumab, 10 mg/kg, administered as a single-dose, intravenously (IV), over 90 minutes depending on randomization every 3 weeks (up to 6 doses). Participants could receive additional maintenance ipilimumab at a dose of 10 mg/kg every 12 weeks starting 24 weeks after the first ipilimumab dose.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matched placebo for ipilimumab administered as a single dose IV over 90 minutes every 3 weeks (up to 6 doses) as part of induction. Participants could also receive additional maintenance placebo administered IV over 90 minutes every 12 weeks starting 24 weeks after the first placebo dose.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "175 mg/m\\^2, administered as a single IV dose over 3 hours every 3 weeks (up to 6 doses). Dose modifications (reductions as well as delays) done as per product label.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Area under the concentration curve (AUC)=6, administered as a single IV dose over 30 minutes every 3 weeks (up to 6 doses) as per randomization. Dose modifications (reductions as well as delays) done as per product label.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+            "type": "EXPERIMENTAL",
+            "description": null,
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": null,
+            "intervention_names": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "conditions": [
+          "Lung Cancer",
+          "Small Cell Lung Cancer",
+          "Carcinoma, Non-Small-Cell Lung"
+        ]
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT01450761",
+      "trial_name": "CA184-156",
+      "selected_ctgov_evidence": {
+        "brief_title": "Trial in Extensive-Disease Small Cell Lung Cancer (ED-SCLC) Subjects Comparing Ipilimumab Plus Etoposide and Platinum Therapy to Etoposide and Platinum Therapy Alone",
+        "official_title": "Randomized, Multicenter, Double-Blind, Phase 3 Trial Comparing the Efficacy of Ipilimumab Plus Etoposide/Platinum Versus Etoposide/Platinum in Subjects With Newly Diagnosed Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC)",
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Placebo matching Ipilimumab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": null,
+            "other_names": [
+              "Etopophos",
+              "Neoposid",
+              "Eposin"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": null,
+            "other_names": [
+              "Platinol"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": null,
+            "other_names": [
+              "Paraplatin"
+            ],
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo matching Ipilimumab: IV solution, IV, 0 mg/kg, Once every 3 weeks for 4 doses, then every 12 weeks, Until progression of disease or unacceptable toxicity, or until the maximum treatment period of 3 years is reached\n\nEtoposide: IV solution, IV, 100 mg/m2, Days 1-3 every 3 weeks, 4 cycles\n\nCisplatin: IV solution, IV, 75 mg/m2, Once every 3 weeks, 4 doses\n\nCarboplatin: IV Solution, IV, Area Under the Curve (AUC) 5, Once every 3 weeks, 4 doses",
+            "intervention_names": [
+              "Biological: Placebo matching Ipilimumab",
+              "Drug: Etoposide",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma"
+        ]
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT02763579",
+      "trial_name": "IMPower 133",
+      "selected_ctgov_evidence": {
+        "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Carboplatin intravenous infusion to achieve an initial target AUC of 5 mg/mL/min was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "Etoposide intravenous infusion was administered at a dose of 100 mg/m\\^2 on Days 1, 2, and 3 of each 21-day cycle during the induction phase (Cycles 1-4).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo intravenous infusion was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo + Carboplatin + Etoposide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Etoposide",
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma"
+        ]
+      }
+    },
+    {
+      "row_index": 5,
+      "nct": "NCT03059667",
+      "trial_name": "IFCT-1603",
+      "selected_ctgov_evidence": {
+        "brief_title": "Immunotherapy as Second-line in Patient With Small Cell Lung Cancer",
+        "official_title": "A Randomized Non-comparative Phase II Study of Anti-PDL1 ATEZOLIZUMAB (MPDL3280A) or Chemotherapy as Second-line Therapy in Patients With Small Cell Lung Cancer (SCLC)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Atezolizumab",
+            "description": "Atezolizumab at 1200 mg IV every 3 weeks",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B : immune therapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Topotecan",
+            "description": "oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "In accordance with the summary of product characteristics.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "In accordance with the summary of product characteristics.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm A : chemotherapy",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients randomly assigned to the control arm will receive either:\n\n* topotecan (oral 2.3 mg/m² or IV 1.5 mg/m² day 1-4 recommended)\n* or re-induction by carboplatin - etoposide chemotherapy.",
+            "intervention_names": [
+              "Drug: Topotecan",
+              "Drug: Carboplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Cancer",
+          "Small Cell Lung Cancer Limited Stage",
+          "Small Cell Lung Cancer Extensive Stage"
+        ]
+      }
+    },
+    {
+      "row_index": 6,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Tremelimumab",
+            "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma Extensive Disease"
+        ]
+      }
+    },
+    {
+      "row_index": 7,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Tremelimumab",
+            "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma Extensive Disease"
+        ]
+      }
+    },
+    {
+      "row_index": 8,
+      "nct": "NCT02763579",
+      "trial_name": "IMpower133",
+      "selected_ctgov_evidence": {
+        "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Carboplatin intravenous infusion to achieve an initial target AUC of 5 mg/mL/min was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "Etoposide intravenous infusion was administered at a dose of 100 mg/m\\^2 on Days 1, 2, and 3 of each 21-day cycle during the induction phase (Cycles 1-4).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo intravenous infusion was administered on Day 1 of each 21-day cycle during the induction phase (Cycles 1-4) and maintenance phase (Cycle 5 onward).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo + Carboplatin + Etoposide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received intravenous infusions of placebo in combination with carboplatin to achieve an initial target AUC of 5 mg/mL/min followed by etoposide 100 mg/m\\^2 on Day 1 of every 21-day cycle during the induction phase (Cycles 1-4). On Days 2 and 3 of every 21-day cycle during the induction phase (Cycles 1-4), etoposide 100 mg/m\\^2 was administered alone. Thereafter, participants received maintenance (Cycle 5 onward) placebo on Day 1 of every 21-day cycle until persistent radiographic PD, symptomatic deterioration, intolerable toxicity, withdrawal of consent, death, or study termination by the Sponsor.",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Etoposide",
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma"
+        ]
+      }
+    },
+    {
+      "row_index": 9,
+      "nct": "NCT03066778",
+      "trial_name": "KEYNOTE-604",
+      "selected_ctgov_evidence": {
+        "brief_title": "A Study of Pembrolizumab (MK-3475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for Participants With Extensive Stage Small Cell Lung Cancer (MK-3475-604/KEYNOTE-604)",
+        "official_title": "A Phase 3 Randomized, Double-Blind, Placebo-controlled Trial of Pembrolizumab (MK-3475/SCH900475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for the First-line Treatment of Subjects With Extensive Stage Small Cell Lung Cancer (KEYNOTE-604)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Normal saline solution",
+            "description": "IV infusion on Day 1 of each cycle prior to chemotherapy",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "IV infusion on Day 1 of each cycle",
+            "other_names": [
+              "PARAPLATIN®"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "IV infusion on Day 1 of each cycle",
+            "other_names": [
+              "PLATINOL®"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "IV infusion on Days 1, 2 and 3 of each cycle",
+            "other_names": [
+              "TOPOSAR™"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo+EP",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "During each 21-day cycle, participants receive placebo (normal saline solution) IV on Day 1 PLUS etoposide 100 mg/m\\^2 IV on Days 1, 2 and 3 PLUS investigator's choice of platinum therapy (carboplatin titrated to an AUC 5 IV on Day 1 OR cisplatin 75 mg/m\\^2 IV on Day 1).",
+            "intervention_names": [
+              "Drug: Normal saline solution",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Cancer (SCLC)"
+        ]
+      }
+    },
+    {
+      "row_index": 10,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Tremelimumab",
+            "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma Extensive Disease"
+        ]
+      }
+    },
+    {
+      "row_index": 11,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Tremelimumab",
+            "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": [
+          "Small Cell Lung Carcinoma Extensive Disease"
+        ]
+      }
+    },
+    {
+      "row_index": 12,
+      "nct": "NCT02481830",
+      "trial_name": "CheckMate 331",
+      "selected_ctgov_evidence": {
+        "brief_title": "Effectiveness Study of Nivolumab Compared to Chemotherapy in Patients With Relapsed Small-cell Lung Cancer",
+        "official_title": "An Open-label, Randomized, Phase 3 Study of Nivolumab or Chemotherapy in Subjects With Relapsed Small-cell Lung Cancer After Platinum-based First Line Chemotherapy (CheckMate 331: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 331)",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A Nivolumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Topotecan",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Chemotherapy Topotecan"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Amrubicin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Chemotherapy Amrubicin"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B Chemotherapy Topotecan",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Topotecan as specified",
+            "intervention_names": [
+              "Drug: Topotecan"
+            ]
+          },
+          {
+            "label": "Arm B Chemotherapy Amrubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Amrubicin intravenous infusion as specified (upon investigator's choice, where locally approved for 2nd line SCLC treatment)",
+            "intervention_names": [
+              "Drug: Amrubicin"
+            ]
+          }
+        ],
+        "conditions": [
+          "Lung Cancer"
+        ]
+      }
+    },
+    {
+      "row_index": 13,
+      "nct": "NCT02538666",
+      "trial_name": "CheckMate 451",
+      "selected_ctgov_evidence": {
+        "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+        "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "conditions": [
+          "Lung Cancer"
+        ]
+      }
+    },
+    {
+      "row_index": 14,
+      "nct": "NCT02538666",
+      "trial_name": "CheckMate 451",
+      "selected_ctgov_evidence": {
+        "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+        "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "conditions": [
+          "Lung Cancer"
+        ]
+      }
+    }
+  ],
+  "prompt_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT00527735",
+      "trial_name": null,
+      "selected_ctgov_evidence": {
+        "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+        "interventions": [
+          {
+            "name": "Ipilimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "name": "Placebo",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "name": "Paclitaxel",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT00527735",
+      "trial_name": null,
+      "selected_ctgov_evidence": {
+        "brief_title": "Phase II Study for Previously Untreated Subjects With Non Small Cell Lung Cancer (NSCLC) or Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Randomized, Double Blind, Parallel, Three Arm Trial Evaluating the Efficacy and Safety of Ipilimumab (BMS-734016) in Combination With Paclitaxel/Carboplatin Compared to Paclitaxel/Carboplatin Alone in Previously Untreated Subjects With Lung Cancer",
+        "interventions": [
+          {
+            "name": "Ipilimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "name": "Placebo",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          },
+          {
+            "name": "Paclitaxel",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab placebo + paclitaxel + carboplatin",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+              "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (concurrent)",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab/ placebo + paclitaxel + carboplatin (sequential)",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Ipilimumab",
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Ipilimumab placebo + paclitaxel + carboplatin",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT01450761",
+      "trial_name": "CA184-156",
+      "selected_ctgov_evidence": {
+        "brief_title": "Trial in Extensive-Disease Small Cell Lung Cancer (ED-SCLC) Subjects Comparing Ipilimumab Plus Etoposide and Platinum Therapy to Etoposide and Platinum Therapy Alone",
+        "official_title": "Randomized, Multicenter, Double-Blind, Phase 3 Trial Comparing the Efficacy of Ipilimumab Plus Etoposide/Platinum Versus Etoposide/Platinum in Subjects With Newly Diagnosed Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC)",
+        "interventions": [
+          {
+            "name": "Placebo matching Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "name": "Etoposide",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          },
+          {
+            "name": "Cisplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+              "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo matching Ipilimumab+Etoposide+Cisplatin/Carboplatin",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Biological: Placebo matching Ipilimumab",
+              "Drug: Etoposide",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT02763579",
+      "trial_name": "IMPower 133",
+      "selected_ctgov_evidence": {
+        "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+        "interventions": [
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "name": "Etoposide",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "name": "Placebo",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo + Carboplatin + Etoposide",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Etoposide",
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 5,
+      "nct": "NCT03059667",
+      "trial_name": "IFCT-1603",
+      "selected_ctgov_evidence": {
+        "brief_title": "Immunotherapy as Second-line in Patient With Small Cell Lung Cancer",
+        "official_title": "A Randomized Non-comparative Phase II Study of Anti-PDL1 ATEZOLIZUMAB (MPDL3280A) or Chemotherapy as Second-line Therapy in Patients With Small Cell Lung Cancer (SCLC)",
+        "interventions": [
+          {
+            "name": "Atezolizumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B : immune therapy"
+            ]
+          },
+          {
+            "name": "Topotecan",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A : chemotherapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm A : chemotherapy",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Topotecan",
+              "Drug: Carboplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 6,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "name": "Durvalumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "name": "Tremelimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 7,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "name": "Durvalumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "name": "Tremelimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 8,
+      "nct": "NCT02763579",
+      "trial_name": "IMpower133",
+      "selected_ctgov_evidence": {
+        "brief_title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+        "official_title": "A Phase I/III, Randomized, Double-Blind, Placebo-Controlled Study of Carboplatin Plus Etoposide With or Without Atezolizumab (Anti-PD-L1 Antibody) in Patients With Untreated Extensive-Stage Small Cell Lung Cancer",
+        "interventions": [
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "name": "Etoposide",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Atezolizumab + Carboplatin + Etoposide",
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          },
+          {
+            "name": "Placebo",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Placebo + Carboplatin + Etoposide"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo + Carboplatin + Etoposide",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Etoposide",
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 9,
+      "nct": "NCT03066778",
+      "trial_name": "KEYNOTE-604",
+      "selected_ctgov_evidence": {
+        "brief_title": "A Study of Pembrolizumab (MK-3475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for Participants With Extensive Stage Small Cell Lung Cancer (MK-3475-604/KEYNOTE-604)",
+        "official_title": "A Phase 3 Randomized, Double-Blind, Placebo-controlled Trial of Pembrolizumab (MK-3475/SCH900475) in Combination With Etoposide/Platinum (Cisplatin or Carboplatin) for the First-line Treatment of Subjects With Extensive Stage Small Cell Lung Cancer (KEYNOTE-604)",
+        "interventions": [
+          {
+            "name": "Normal saline solution",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Placebo+EP"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          },
+          {
+            "name": "Cisplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Pembrolizumab+EP",
+              "Placebo+EP"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo+EP",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Normal saline solution",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 10,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "name": "Durvalumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "name": "Tremelimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 11,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "interventions": [
+          {
+            "name": "Durvalumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "name": "Tremelimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 12,
+      "nct": "NCT02481830",
+      "trial_name": "CheckMate 331",
+      "selected_ctgov_evidence": {
+        "brief_title": "Effectiveness Study of Nivolumab Compared to Chemotherapy in Patients With Relapsed Small-cell Lung Cancer",
+        "official_title": "An Open-label, Randomized, Phase 3 Study of Nivolumab or Chemotherapy in Subjects With Relapsed Small-cell Lung Cancer After Platinum-based First Line Chemotherapy (CheckMate 331: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 331)",
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A Nivolumab"
+            ]
+          },
+          {
+            "name": "Topotecan",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B Chemotherapy Topotecan"
+            ]
+          },
+          {
+            "name": "Amrubicin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B Chemotherapy Amrubicin"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B Chemotherapy Topotecan",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Topotecan"
+            ]
+          },
+          {
+            "label": "Arm B Chemotherapy Amrubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Amrubicin"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 13,
+      "nct": "NCT02538666",
+      "trial_name": "CheckMate 451",
+      "selected_ctgov_evidence": {
+        "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+        "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+        "interventions": [
+          {
+            "name": "Placebo",
+            "type": "OTHER",
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    },
+    {
+      "row_index": 14,
+      "nct": "NCT02538666",
+      "trial_name": "CheckMate 451",
+      "selected_ctgov_evidence": {
+        "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+        "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+        "interventions": [
+          {
+            "name": "Placebo",
+            "type": "OTHER",
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    }
+  ]
+}

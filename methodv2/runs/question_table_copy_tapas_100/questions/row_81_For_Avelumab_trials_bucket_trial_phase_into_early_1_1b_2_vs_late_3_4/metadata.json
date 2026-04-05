@@ -1,0 +1,19 @@
+{
+  "item_id": "row_81",
+  "csv_row_number": 81,
+  "question": "For Avelumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "column_used": "Trial phase",
+  "expected_keys": [
+    "phase_bucket"
+  ],
+  "predicted_answer": "Phase 2",
+  "selected_cells": [
+    "Phase 2"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 12.802489280700684,
+  "chunk_start": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_81_For_Avelumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_81_For_Avelumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_81_For_Avelumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_table.csv"
+}

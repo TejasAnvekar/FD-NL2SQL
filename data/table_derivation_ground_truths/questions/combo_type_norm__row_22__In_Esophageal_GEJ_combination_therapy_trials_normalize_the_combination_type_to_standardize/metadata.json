@@ -1,0 +1,14 @@
+{
+  "item_id": "row_22",
+  "csv_row_number": 22,
+  "expected_key": "combo_type_norm",
+  "question": "In Esophageal/GEJ combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_llm_response": "{\"combo_type_norm\": \"ICI+Chemo\"}",
+  "derivation_expression": "derive_combo_type_norm(source_value)",
+  "derivation_notes": "Normalize combination type into canonical labels.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of combination\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Esophageal/GEJ' AND \"Monotherapy/combination\" = 'Combination'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_combo_type_norm(source_value) AS \"combo_type_norm\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/combo_type_norm__row_22__In_Esophageal_GEJ_combination_therapy_trials_normalize_the_combination_type_to_standardize/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

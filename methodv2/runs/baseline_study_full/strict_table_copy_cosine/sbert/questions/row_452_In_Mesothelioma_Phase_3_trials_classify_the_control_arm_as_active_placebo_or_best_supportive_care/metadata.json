@@ -1,0 +1,11 @@
+{
+  "item_id": "row_452",
+  "csv_row_number": 452,
+  "question": "In Mesothelioma Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_452_In_Mesothelioma_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/control_category__row_452__In_Mesothelioma_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supporti"
+}

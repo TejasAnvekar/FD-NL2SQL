@@ -1,0 +1,15 @@
+row_index,NCT,Trial name,Number of arms,Secondary endpoint
+1,NCT00527735,,3,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)"
+2,NCT00527735,,3,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)"
+3,NCT01450761,CA184-156,2,"PFS, ORR, DOR"
+4,NCT02763579,IMPower 133,2,"ORR, DOR"
+5,NCT03059667,IFCT-1603,2,"OS, PFS, RR, Disease progression/Death, QoL"
+6,NCT03043872,CASPIAN,3,"PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments. | PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+7,NCT03043872,CASPIAN,3,"PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments. | PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+8,NCT02763579,IMpower133,2,Patient-reported outcomes
+9,NCT03066778,KEYNOTE-604,2,ORR; DOR
+10,NCT03043872,CASPIAN,3,"PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments. | PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+11,NCT03043872,CASPIAN,3,"PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments. | PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+12,NCT02481830,CheckMate 331,2,PFS; ORR; DoR
+13,NCT02538666,CheckMate 451,3,OS in Arm 2 vs Arm 3; PFS
+14,NCT02538666,CheckMate 451,3,OS in Arm 2 vs Arm 3; PFS

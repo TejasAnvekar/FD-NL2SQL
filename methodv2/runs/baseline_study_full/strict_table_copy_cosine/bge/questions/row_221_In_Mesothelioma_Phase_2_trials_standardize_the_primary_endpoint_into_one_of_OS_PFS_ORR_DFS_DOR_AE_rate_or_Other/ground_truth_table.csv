@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT01843374,28729154,DETERMINE,OS,OS,"{""primary_endpoint_category"": ""OS""}"

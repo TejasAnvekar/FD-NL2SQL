@@ -1,0 +1,21 @@
+{
+  "item_id": "row_479",
+  "csv_row_number": 479,
+  "question": "In Melanoma trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "predicted_answer": "IMvigor211 | Keynote-045 | GeparNuevo",
+  "selected_cells": [
+    "IMvigor211",
+    "Keynote-045",
+    "GeparNuevo"
+  ],
+  "aggregation_prediction": 3,
+  "chunk_score": 52.5258903503418,
+  "chunk_start": 0,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_479_In_Melanoma_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_479_In_Melanoma_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_479_In_Melanoma_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv"
+}

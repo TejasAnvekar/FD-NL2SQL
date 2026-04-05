@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Chemo,active,"{""control_category"": ""active""}"
+2,NCT02763579,30280641,IMPower 133,Placebo,placebo,"{""control_category"": ""placebo""}"
+3,NCT03043872,31590988,CASPIAN,Chemo,active,"{""control_category"": ""active""}"
+4,NCT03043872,31590988,CASPIAN,Chemo,active,"{""control_category"": ""active""}"
+5,NCT02763579,31959349,IMpower133,Chemo,active,"{""control_category"": ""active""}"
+6,NCT03066778,32468956,KEYNOTE-604,Chemo,active,"{""control_category"": ""active""}"
+7,NCT03043872,33285097,CASPIAN,Chemo,active,"{""control_category"": ""active""}"
+8,NCT03043872,33285097,CASPIAN,Chemo,active,"{""control_category"": ""active""}"
+9,NCT02481830,33539946,CheckMate 331,Chemo,active,"{""control_category"": ""active""}"
+10,NCT02538666,33683919,CheckMate 451,Placebo,placebo,"{""control_category"": ""placebo""}"
+11,NCT02538666,33683919,CheckMate 451,Placebo,placebo,"{""control_category"": ""placebo""}"

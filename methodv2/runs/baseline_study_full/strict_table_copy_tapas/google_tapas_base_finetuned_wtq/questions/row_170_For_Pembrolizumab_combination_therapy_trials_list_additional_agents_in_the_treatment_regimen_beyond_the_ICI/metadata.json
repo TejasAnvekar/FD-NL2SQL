@@ -1,0 +1,20 @@
+{
+  "item_id": "row_170",
+  "csv_row_number": 170,
+  "question": "For Pembrolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "predicted_answer": "Pembrolizumab 2 mg/kg | Pembrolizumab+Dabrafenib+Trametinib",
+  "selected_cells": [
+    "Pembrolizumab 2 mg/kg",
+    "Pembrolizumab+Dabrafenib+Trametinib"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 57.21209716796875,
+  "chunk_start": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_170_For_Pembrolizumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_170_For_Pembrolizumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_170_For_Pembrolizumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_table.csv"
+}

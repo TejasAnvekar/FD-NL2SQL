@@ -1,0 +1,16 @@
+{
+  "item_id": "row_93",
+  "csv_row_number": 93,
+  "question": "In NSCLC trials, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "expected_llm_response": {
+    "is_combination": true
+  },
+  "sql_query": "SELECT \"Type of therapy\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of therapy\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_is_combination(source_value) AS \"is_combination\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/is_combination__row_93__In_NSCLC_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv",
+  "row_count": 1
+}

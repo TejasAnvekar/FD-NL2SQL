@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Treatment regimen,Control regimen
+1,,,Durvalumab+Nab-paclitaxel+epirubicin+cyclophosphamide,Placebo+Nab-paclitaxel+Epirubicin+Cyclophosphamide
+2,,,Durvalumab+Osimertinib,Osimertinib
+3,,,Durvalumab+Etoposide+Platinum agent,Platinum+Etoposide
+4,,,Durvalumab+Etoposide+Platinum agent,Platinum+Etoposide

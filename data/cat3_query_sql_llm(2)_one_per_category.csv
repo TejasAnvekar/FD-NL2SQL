@@ -1,0 +1,28 @@
+natural_language_query,sql_query,column_used,expected_llm_response,expected_llm_response_key_column_match,expected_llm_response_value_column_candidates,final_column,_csv_row_number
+"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.","SELECT ""Name of ICI""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Small Cell Lung';",Name of ICI,"{""class"": ""PD-1""}",class -> Class of ICI [MATCH 1.00],"class=""PD-1"" -> Class of ICI [1.00], Primary endpoint [1.00], Secondary endpoint [1.00]",Class of ICI,2
+"In NSCLC trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.","SELECT ""Control regimen""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'NSCLC' AND ""Control arm"" = 'Chemo';",Control regimen,"{""control_drugs"": [""paclitaxel"", ""carboplatin""]}",control_drugs -> Control arm [MATCH 0.78],"control_drugs=[""paclitaxel"", ""carboplatin""] -> Control regimen [1.00], Treatment regimen [1.00]",Control arm,24
+"In melanoma trials using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.","SELECT ""Treatment regimen""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Melanoma' AND ""Type of combination"" = 'ICI+MEKi';",Treatment regimen,"{""meki_agents"": [""trametinib""]}","meki_agents -> no close match (best: Number of arms, 0.40)","meki_agents=[""trametinib""] -> Control regimen [1.00], Treatment regimen [1.00]",Control regimen,30
+"In Melanoma trials, bucket overall follow-up months into <12, 12–23, or ≥24.","SELECT ""Follow-up duration for primary endpoint(s) in months | Overall""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Melanoma';",Follow-up duration for primary endpoint(s) in months | Overall,"{""followup_bucket"": ""≥24""}","followup_bucket -> no close match (best: Originial publication or Follow-up, 0.67)","followup_bucket=""≥24"" -> Follow-up duration for primary endpoint(s) in months | Control [1.00], Follow-up duration for primary endpoint(s) in months | Overall [1.00], Follow-up duration for primary endpoint(s) in months | Rx [1.00], Number of arms [0.85], Total sample size [0.75]",Follow-up duration for primary endpoint(s) in months | Control,10
+"For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.","SELECT ""Primary endpoint""
+FROM clinical_trials
+WHERE ""Priamry Multiple, composite, or co-primary endpoints?"" = 'Yes';",Primary endpoint,"{""components"": [""OS"", ""PFS""]}","components -> no close match (best: Secondary endpoint, 0.44)","components=[""OS"", ""PFS""] -> Follow-up duration for primary endpoint(s) in months | Overall [1.00], Primary endpoint [1.00], Secondary endpoint [1.00]",Follow-up duration for primary endpoint(s) in months | Overall,18
+"In Breast trials where a non–PD-L1 biomarker was required, extract the biomarker name(s) from the trial name.","SELECT ""Trial name""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Breast' AND ""Is any other biomarker used for inclusion"" = 'Yes';",Trial name,"{""biomarkers"": [""MSI-H""]}",biomarkers -> Is any other biomarker used for inclusion [MATCH 1.00],"biomarkers=[""MSI-H""] -> no close value match (best: Trial name, 0.55)",Is any other biomarker used for inclusion,52
+"In Prostate trials, convert 'Type of therapy' into is_combination = true/false.","SELECT ""Type of therapy""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Prostate';",Type of therapy,"{""is_combination"": true}",is_combination -> Monotherapy/combination [MATCH 1.00],"is_combination=true -> no close value match (best: Trial name, 0.69)",Monotherapy/combination,4
+"In Mesothelioma trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.","SELECT ""Number of arms""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Mesothelioma';",Number of arms,"{""arm_category"": ""≥3-arm""}","arm_category -> no close match (best: Number of arms, 0.50)","arm_category=""≥3-arm"" -> Secondary endpoint [1.00]",Secondary endpoint,20
+"In Urothelial trials comparing ICI to placebo, infer from the trial name whether ICI was used as induction or maintenance.","SELECT ""Trial name""
+FROM clinical_trials
+WHERE ""Cancer type"" = 'Urothelial' AND ""Control arm"" = 'Placebo';",Trial name,"{""treatment_setting"": ""maintenance""}",treatment_setting -> Treatment regimen [MATCH 0.76],"treatment_setting=""maintenance"" -> Clincal setting in relation to surgery [1.00], Clinical setting [1.00]",Treatment regimen,9

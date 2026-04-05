@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02685059,31095287,GeparNuevo,Path CR,Other,"{""primary_endpoint_category"": ""Other""}"
+2,NCT01042379,32053137,I-SPY2,Path CR,Other,"{""primary_endpoint_category"": ""Other""}"
+3,NCT03051659,32880602,,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+4,NCT02924883,33002436,KATE2,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+5,NCT02299999,33462450,SAFIR02-BREAST IMMUNO,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"

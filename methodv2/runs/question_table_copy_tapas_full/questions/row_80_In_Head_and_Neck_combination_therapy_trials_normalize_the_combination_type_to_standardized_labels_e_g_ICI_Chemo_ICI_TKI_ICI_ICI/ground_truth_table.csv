@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02358031,31679945,KEYNOTE-048,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+2,NCT02369874,32294530,EAGLE,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"
+3,NCT02952586,33794205,JAVELIN Head and Neck 101,ICI+Chemoradiotherapy,ICI+Chemoradiotherapy,"{""combo_type_norm"": ""ICI+Chemoradiotherapy""}"
+4,NCT02999087,33125944,REACH,ICI+Chemoradiotherapy,ICI+Chemoradiotherapy,"{""combo_type_norm"": ""ICI+Chemoradiotherapy""}"

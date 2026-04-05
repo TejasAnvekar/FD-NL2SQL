@@ -1,0 +1,13 @@
+{
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "sample_question_count": 367,
+  "question_result_count": 2664,
+  "topk_row_count": 53280,
+  "outputs": {
+    "sample_manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/sample_manifest.csv",
+    "question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/all_question_results.csv",
+    "row_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/row_level_predictions.csv",
+    "baseline_summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/baseline_summary.csv"
+  }
+}

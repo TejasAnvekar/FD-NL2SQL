@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response
+1,NCT02684292,33721562,Keynote-204,Relapsed/refractory,metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"

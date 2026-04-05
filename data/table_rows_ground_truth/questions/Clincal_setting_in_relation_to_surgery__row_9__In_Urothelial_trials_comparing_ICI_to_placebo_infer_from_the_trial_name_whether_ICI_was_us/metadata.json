@@ -1,0 +1,18 @@
+{
+  "item_id": "row_9",
+  "csv_row_number": 9,
+  "question": "In Urothelial trials comparing ICI to placebo, infer from the trial name whether ICI was used as induction or maintenance.",
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Urothelial' AND \"Control arm\" = 'Placebo';",
+  "ground_truth_column": "Clincal setting in relation to surgery",
+  "target_pairs": [
+    {
+      "output_name": "Clincal setting in relation to surgery",
+      "db_column": "Clincal setting in relation to surgery"
+    }
+  ],
+  "visible_columns": [
+    "Trial name"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Clincal setting in relation to surgery\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Urothelial' AND \"Control arm\" = 'Placebo';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Clincal_setting_in_relation_to_surgery__row_9__In_Urothelial_trials_comparing_ICI_to_placebo_infer_from_the_trial_name_whether_ICI_was_us/ground_truth_table.csv"
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "row_36",
+  "csv_row_number": 36,
+  "question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+BRAFi+MEKi';",
+  "ground_truth_column": "braf_inhibitor -> Control regimen | mek_inhibitor -> Control regimen",
+  "target_pairs": [
+    {
+      "output_name": "braf_inhibitor",
+      "db_column": "Control regimen"
+    },
+    {
+      "output_name": "mek_inhibitor",
+      "db_column": "Control regimen"
+    }
+  ],
+  "visible_columns": [
+    "Treatment regimen"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Treatment regimen\", \"Control regimen\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+BRAFi+MEKi';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/braf_inhibitor_Control_regimen_mek_inhibitor_Control_regimen__row_36__In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the/ground_truth_table.csv"
+}

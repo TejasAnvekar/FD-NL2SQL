@@ -23,8 +23,12 @@ XML_SPACE = "{http://www.w3.org/XML/1998/namespace}space"
 ANNOTATION_HEADER = "expected_llm_response_key_column_match"
 VALUE_ANNOTATION_HEADER = "expected_llm_response_value_column_candidates"
 FINAL_COLUMN_HEADER = "final_column"
+GROUND_TRUTH_COLUMN_HEADER = "ground_truth_column"
+GROUND_TRUTH_DETAILS_HEADER = "ground_truth_selection_details"
 FINAL_KEY_SCORE_THRESHOLD = 0.75
 FINAL_VALUE_SCORE_THRESHOLD = 0.90
+QUESTION_MENTION_THRESHOLD = 0.75
+GROUND_TRUTH_SCORE_CUTOFF = 0.90
 STOPWORDS = {
     "a",
     "an",
@@ -62,6 +66,15 @@ class MatchResult:
     matched_column: Optional[str]
     score: float
     is_match: bool
+
+
+@dataclass
+class CandidateChoice:
+    chosen_column: str
+    chosen_reason: str
+    score_winner: str
+    question_mention_winner: Optional[str]
+    candidates: List[Dict[str, Any]]
 
 
 @dataclass
@@ -376,6 +389,123 @@ def best_column_match(key: str, db_columns: Sequence[str], threshold: float) -> 
     )
 
 
+def best_value_match(value: Any, db_profile: DbProfile) -> MatchResult:
+    _, best = find_value_candidate_columns(
+        value=value,
+        db_profile=db_profile,
+        threshold=0.0,
+        top_k=1,
+    )
+    if best is None:
+        return MatchResult(key="", matched_column=None, score=0.0, is_match=False)
+    return MatchResult(
+        key="",
+        matched_column=best[0],
+        score=float(best[1]),
+        is_match=True,
+    )
+
+
+def all_key_column_scores(key: str, db_columns: Sequence[str]) -> List[Tuple[str, float]]:
+    scored = [(column, float(score_column_match(key, column))) for column in db_columns]
+    scored.sort(key=lambda item: (-item[1], item[0]))
+    return scored
+
+
+def all_value_column_scores(value: Any, db_profile: DbProfile) -> List[Tuple[str, float]]:
+    scored, _ = find_value_candidate_columns(
+        value=value,
+        db_profile=db_profile,
+        threshold=0.0,
+        top_k=len(db_profile.columns),
+    )
+    return [(column, float(score)) for column, score in scored]
+
+
+def build_candidate_choice(
+    *,
+    question_text: str,
+    key: str,
+    value: Any,
+    db_profile: DbProfile,
+) -> CandidateChoice:
+    key_scores = {column: score for column, score in all_key_column_scores(key, db_profile.columns)}
+    value_scores = {column: score for column, score in all_value_column_scores(value, db_profile)}
+
+    by_column: Dict[str, Dict[str, Any]] = {}
+    for column in db_profile.columns:
+        key_score = float(key_scores.get(column, 0.0))
+        value_score = float(value_scores.get(column, 0.0))
+        if key_score < GROUND_TRUTH_SCORE_CUTOFF or value_score < GROUND_TRUTH_SCORE_CUTOFF:
+            continue
+        by_column[column] = {
+            "column": column,
+            "candidate_score": min(key_score, value_score),
+            "combined_score": (key_score + value_score) / 2.0,
+            "key_score": key_score,
+            "value_score": value_score,
+            "mention_score": 0.0,
+            "sources": ["key_match", "value_match"],
+        }
+
+    if not by_column:
+        return CandidateChoice(
+            chosen_column="no_match",
+            chosen_reason="no_candidates_above_cutoff",
+            score_winner="no_match",
+            question_mention_winner=None,
+            candidates=[],
+        )
+
+    for entry in by_column.values():
+        entry["mention_score"] = float(score_column_match(entry["column"], question_text or ""))
+
+    candidates = sorted(
+        by_column.values(),
+        key=lambda item: (
+            -float(item["combined_score"]),
+            -float(item["candidate_score"]),
+            -float(item["mention_score"]),
+            item["column"],
+        ),
+    )
+    score_winner = candidates[0]["column"]
+
+    mentioned = [
+        entry
+        for entry in candidates
+        if float(entry["mention_score"]) >= QUESTION_MENTION_THRESHOLD
+    ]
+
+    if len(mentioned) == 1:
+        chosen = mentioned[0]["column"]
+        reason = "question_mention_override"
+        mention_winner: Optional[str] = chosen
+    elif len(mentioned) >= 2:
+        mentioned.sort(
+            key=lambda item: (
+                -float(item["mention_score"]),
+                -float(item["candidate_score"]),
+                item["column"],
+            )
+        )
+        chosen = mentioned[0]["column"]
+        reason = "question_mention_tiebreak"
+        mention_winner = chosen
+    else:
+        chosen = score_winner
+        reason = "highest_candidate_score"
+        mention_winner = None
+
+    return CandidateChoice(
+        chosen_column=chosen,
+        chosen_reason=reason,
+        score_winner=score_winner,
+        question_mention_winner=mention_winner,
+        candidates=candidates,
+    )
+
+
 def scalar_to_search_terms(value: Any) -> List[str]:
     if value is None:
         return ["null"]
@@ -548,41 +678,66 @@ def value_annotation_from_payload(
     return " | ".join(parts)
 
 
-def final_column_from_payload(payload_text: str, db_profile: DbProfile) -> str:
+def ground_truth_selection_from_payload(
+    payload_text: str,
+    question_text: str,
+    db_profile: DbProfile,
+) -> Tuple[str, str]:
     payload_text = (payload_text or "").strip()
     if not payload_text:
-        return "no_match"
+        details = {
+            "reason": "empty_expected_llm_response",
+            "entries": [],
+        }
+        return "no_match", json.dumps(details, ensure_ascii=False)
 
     try:
         payload = json.loads(payload_text)
     except Exception:
-        return "no_match"
+        details = {
+            "reason": "invalid_json",
+            "entries": [],
+        }
+        return "no_match", json.dumps(details, ensure_ascii=False)
 
     if not isinstance(payload, dict):
-        return "no_match"
+        details = {
+            "reason": f"json_type_{type(payload).__name__}",
+            "entries": [],
+        }
+        return "no_match", json.dumps(details, ensure_ascii=False)
 
     chosen: List[str] = []
+    detail_entries: List[Dict[str, Any]] = []
     for key, value in payload.items():
-        key_match = best_column_match(key, db_profile.columns, threshold=0.0)
-        if key_match.matched_column and key_match.score > FINAL_KEY_SCORE_THRESHOLD:
-            selected = key_match.matched_column
-        else:
-            _, best_value_match = find_value_candidate_columns(
-                value=value,
-                db_profile=db_profile,
-                threshold=FINAL_VALUE_SCORE_THRESHOLD,
-                top_k=1,
-            )
-            if best_value_match is not None and best_value_match[1] > FINAL_VALUE_SCORE_THRESHOLD:
-                selected = best_value_match[0]
-            else:
-                selected = "no_match"
-
+        choice = build_candidate_choice(
+            question_text=question_text,
+            key=key,
+            value=value,
+            db_profile=db_profile,
+        )
+        selected = choice.chosen_column
         chosen.append(f"{key} -> {selected}")
+        detail_entries.append(
+            {
+                "key": key,
+                "chosen_column": choice.chosen_column,
+                "chosen_reason": choice.chosen_reason,
+                "score_winner": choice.score_winner,
+                "question_mention_winner": choice.question_mention_winner,
+                "candidates": choice.candidates,
+            }
+        )
 
     if len(chosen) == 1:
-        return chosen[0].split(" -> ", 1)[1]
-    return " | ".join(chosen)
+        selected_text = chosen[0].split(" -> ", 1)[1]
+    else:
+        selected_text = " | ".join(chosen)
+    details = {
+        "question": question_text,
+        "entries": detail_entries,
+    }
+    return selected_text, json.dumps(details, ensure_ascii=False)
 
 
 def make_inline_string_cell(ref: str, text: str, style_id: Optional[str]) -> ET.Element:
@@ -657,7 +812,13 @@ def write_csv_annotation(
     if "expected_llm_response" not in headers:
         raise ValueError("Could not find 'expected_llm_response' in worksheet headers.")
 
-    output_headers = list(headers) + [ANNOTATION_HEADER, VALUE_ANNOTATION_HEADER, FINAL_COLUMN_HEADER]
+    output_headers = list(headers) + [
+        ANNOTATION_HEADER,
+        VALUE_ANNOTATION_HEADER,
+        GROUND_TRUTH_COLUMN_HEADER,
+        GROUND_TRUTH_DETAILS_HEADER,
+        FINAL_COLUMN_HEADER,
+    ]
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=output_headers)
@@ -673,14 +834,17 @@ def write_csv_annotation(
                 db_profile,
                 threshold,
             )
-            final_column_text = final_column_from_payload(
+            ground_truth_column_text, ground_truth_details_text = ground_truth_selection_from_payload(
                 row.values.get("expected_llm_response", ""),
+                row.values.get("natural_language_query", ""),
                 db_profile,
             )
             out_row = dict(row.values)
             out_row[ANNOTATION_HEADER] = key_annotation_text
             out_row[VALUE_ANNOTATION_HEADER] = value_annotation_text
-            out_row[FINAL_COLUMN_HEADER] = final_column_text
+            out_row[GROUND_TRUTH_COLUMN_HEADER] = ground_truth_column_text
+            out_row[GROUND_TRUTH_DETAILS_HEADER] = ground_truth_details_text
+            out_row[FINAL_COLUMN_HEADER] = ground_truth_column_text
             writer.writerow(out_row)
 
     return resolved_sheet_name, len(rows)
@@ -703,9 +867,16 @@ def annotate_workbook(
         shared_strings=shared_strings,
         header_name="expected_llm_response",
     )
+    question_col_index, _ = find_header_column(
+        sheet_root=sheet_root,
+        shared_strings=shared_strings,
+        header_name="natural_language_query",
+    )
     annotation_col_index = target_col_index + 1
     value_annotation_col_index = target_col_index + 2
-    final_annotation_col_index = target_col_index + 3
+    ground_truth_col_index = target_col_index + 3
+    ground_truth_details_col_index = target_col_index + 4
+    final_annotation_col_index = target_col_index + 5
 
     sheet_data = sheet_root.find("main:sheetData", NS)
     if sheet_data is None:
@@ -713,8 +884,11 @@ def annotate_workbook(
 
     header_style = None
     target_col_letter = column_index_to_letters(target_col_index)
+    question_col_letter = column_index_to_letters(question_col_index)
     annotation_col_letter = column_index_to_letters(annotation_col_index)
     value_annotation_col_letter = column_index_to_letters(value_annotation_col_index)
+    ground_truth_col_letter = column_index_to_letters(ground_truth_col_index)
+    ground_truth_details_col_letter = column_index_to_letters(ground_truth_details_col_index)
     final_annotation_col_letter = column_index_to_letters(final_annotation_col_index)
     for cell in header_row.findall("main:c", NS):
         if cell.attrib.get("r") == f"{target_col_letter}1":
@@ -732,6 +906,20 @@ def annotate_workbook(
         make_inline_string_cell(
             ref=f"{value_annotation_col_letter}1",
             text=VALUE_ANNOTATION_HEADER,
+            style_id=header_style,
+        )
+    )
+    header_row.append(
+        make_inline_string_cell(
+            ref=f"{ground_truth_col_letter}1",
+            text=GROUND_TRUTH_COLUMN_HEADER,
+            style_id=header_style,
+        )
+    )
+    header_row.append(
+        make_inline_string_cell(
+            ref=f"{ground_truth_details_col_letter}1",
+            text=GROUND_TRUTH_DETAILS_HEADER,
             style_id=header_style,
         )
     )
@@ -758,9 +946,19 @@ def annotate_workbook(
 
         style_id = target_cell.attrib.get("s") if target_cell is not None else None
         payload_text = cell_text(target_cell, shared_strings) if target_cell is not None else ""
+        question_cell = None
+        for cell in row.findall("main:c", NS):
+            if cell.attrib.get("r") == f"{question_col_letter}{row_number}":
+                question_cell = cell
+                break
+        question_cell_text = cell_text(question_cell, shared_strings) if question_cell is not None else ""
         key_annotation_text = annotation_from_payload(payload_text, db_profile.columns, threshold)
         value_annotation_text = value_annotation_from_payload(payload_text, db_profile, threshold)
-        final_column_text = final_column_from_payload(payload_text, db_profile)
+        ground_truth_column_text, ground_truth_details_text = ground_truth_selection_from_payload(
+            payload_text,
+            question_cell_text,
+            db_profile,
+        )
         row.append(
             make_inline_string_cell(
                 ref=f"{annotation_col_letter}{row_number}",
@@ -777,8 +975,22 @@ def annotate_workbook(
         )
         row.append(
             make_inline_string_cell(
+                ref=f"{ground_truth_col_letter}{row_number}",
+                text=ground_truth_column_text,
+                style_id=style_id,
+            )
+        )
+        row.append(
+            make_inline_string_cell(
+                ref=f"{ground_truth_details_col_letter}{row_number}",
+                text=ground_truth_details_text,
+                style_id=style_id,
+            )
+        )
+        row.append(
+            make_inline_string_cell(
                 ref=f"{final_annotation_col_letter}{row_number}",
-                text=final_column_text,
+                text=ground_truth_column_text,
                 style_id=style_id,
             )
         )

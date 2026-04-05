@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches_table_rows.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "question_count": 1,
+    "skipped": {},
+    "models": [
+      {
+        "name": "bert",
+        "path": "/mnt/shared/shared_hf_home/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594"
+      }
+    ]
+  },
+  "question_count": 1,
+  "row_prediction_count": 42,
+  "outputs": {
+    "question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/all_question_results.csv",
+    "row_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/row_level_predictions.csv",
+    "baseline_summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/baseline_summary.csv"
+  }
+}

@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Number of arms,Secondary endpoint
+1,,,2,"PFS, ORR"
+2,,,2,"PFS, ORR"
+3,,,3,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing."
+4,,,3,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing."
+5,,,2,OS rate at 12 months; investigator-assessed PFS and ORR.
+6,,,3,"PFS, ORR, DOR"
+7,,,3,"PFS, ORR, DOR"
+8,,,2,OS; ORR; DoR; path CR
+9,,,2,Safety

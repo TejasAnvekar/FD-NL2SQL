@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT02569242,31582355,ATTRACTION-3,No,false,"{""pd_l1_required"": false}"
+2,NCT02564263,33026938,KEYNOTE-181,No,false,"{""pd_l1_required"": false}"

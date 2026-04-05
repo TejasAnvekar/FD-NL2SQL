@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02302807,29268948,IMvigor211,"investigator-assessed RECIST v1.1 ORR, PFS, DoR",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02256436,28212060,Keynote-045,"Safety, tolerability, ORR, DoR",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02256436,31050707,Keynote-045,"Safety, tolerability, ORR, DoR",secondary,"{""endpoint_role"": ""secondary""}"

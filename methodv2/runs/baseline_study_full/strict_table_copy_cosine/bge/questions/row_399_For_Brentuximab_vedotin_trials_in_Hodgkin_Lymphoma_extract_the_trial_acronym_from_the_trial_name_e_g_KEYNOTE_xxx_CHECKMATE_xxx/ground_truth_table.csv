@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02684292,33721562,Keynote-204,Keynote-204,KEYNOTE-204,"{""trial_acronym"": ""KEYNOTE-204""}"

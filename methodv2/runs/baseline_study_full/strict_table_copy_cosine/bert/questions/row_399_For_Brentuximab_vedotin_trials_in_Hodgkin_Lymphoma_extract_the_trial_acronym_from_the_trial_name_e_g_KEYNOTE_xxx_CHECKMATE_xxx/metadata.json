@@ -1,0 +1,11 @@
+{
+  "item_id": "row_399",
+  "csv_row_number": 399,
+  "question": "For Brentuximab-vedotin trials in Hodgkin Lymphoma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_399_For_Brentuximab_vedotin_trials_in_Hodgkin_Lymphoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/trial_acronym__row_399__For_Brentuximab_vedotin_trials_in_Hodgkin_Lymphoma_extract_the_trial_acronym_from_the_tria"
+}

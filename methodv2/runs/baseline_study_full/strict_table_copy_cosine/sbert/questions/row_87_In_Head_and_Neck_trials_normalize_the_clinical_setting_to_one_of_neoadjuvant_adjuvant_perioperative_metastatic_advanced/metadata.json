@@ -1,0 +1,11 @@
+{
+  "item_id": "row_87",
+  "csv_row_number": 87,
+  "question": "In Head and Neck trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_87_In_Head_and_Neck_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/setting_normalized__row_87__In_Head_and_Neck_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_peri"
+}

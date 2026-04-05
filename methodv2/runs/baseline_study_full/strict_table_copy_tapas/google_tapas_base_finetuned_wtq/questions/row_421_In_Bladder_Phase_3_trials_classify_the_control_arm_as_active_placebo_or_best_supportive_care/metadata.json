@@ -1,0 +1,19 @@
+{
+  "item_id": "row_421",
+  "csv_row_number": 421,
+  "question": "In Bladder Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "predicted_answer": "Placebo",
+  "selected_cells": [
+    "Placebo"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 31.36667251586914,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_421_In_Bladder_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_421_In_Bladder_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_421_In_Bladder_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_table.csv"
+}

@@ -1,0 +1,1538 @@
+{
+  "bundle": {
+    "ncts": [
+      "NCT02685059",
+      "NCT02454933",
+      "NCT03043872"
+    ],
+    "summaries_by_nct": {
+      "NCT02685059": {
+        "nct_id": "NCT02685059",
+        "brief_title": "Addition of PD-L1 Antibody MEDI4736 to a Taxane-anthracycline Chemotherapy in Triple Negative Breast Cancer",
+        "official_title": "A Randomized Phase II Study to Investigate the Addition of PD-L1 Antibody MEDI4736 to a Taxane-anthracycline Containing Chemotherapy in Triple Negative Breast Cancer (GeparNuevo)",
+        "acronym": "GeparNuevo",
+        "organization": "GBG Forschungs GmbH",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2016-01-14",
+        "study_first_post_date": {
+          "date": "2016-02-18",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2021-02-15",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Breast Cancer"
+        ],
+        "keywords": [
+          "breast cancer",
+          "Medi4736",
+          "Anti PD-L1",
+          "Nab-Paclitaxel",
+          "Placebo",
+          "triple negative"
+        ],
+        "arm_groups": [
+          {
+            "label": "MEDI4736",
+            "type": "EXPERIMENTAL",
+            "description": "part 1: MEDI4736 (with half dose as monotherapy for the first two weeks) part 2: MEDI4736 1.5 g total for 20 weeks",
+            "intervention_names": [
+              "Drug: MEDI4736 (Anti PD-L1)"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "part 1: Placebo (for the first two weeks) part 2: Placebo for 20 weeks",
+            "intervention_names": [
+              "Drug: Placebo"
+            ]
+          },
+          {
+            "label": "Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+            "intervention_names": [
+              "Drug: nab-Paclitaxel"
+            ]
+          },
+          {
+            "label": "Epirubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Epirubicin"
+            ]
+          },
+          {
+            "label": "Cyclophosphamide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Cyclophosphamide"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "MEDI4736 (Anti PD-L1)",
+            "description": "MEDI4736 1.5g total i.v. every 4 weeks\n\nAs monotherapy for the first two weeks (0.75g absolute) (part 1) followed by:\n\nMEDI4736 in combination with nab-paclitaxel 125 mg/m² every week for 12 weeks (part 2) followed by\n\nMEDI4736 in combination with epirubicin 90mg/m² plus cyclophosphamide 600 mg/m² every 2 weeks for 4 cycles (part 3).",
+            "other_names": [
+              "Antibody against cell death ligand 1 (PD-L1)"
+            ],
+            "arm_group_labels": [
+              "MEDI4736"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo i.v. every 4 weeks\n\nAs monotherapy for the first two weeks (0.75g absolute) (part 1) followed by:\n\nPlacebo in combination with nab-paclitaxel 125 mg/m² every week for 12 weeks (part 2) followed by\n\nMEDI4736/Placebo in combination with epirubicin 90mg/m² plus cyclophosphamide 600 mg/m² every 2 weeks for 4 cycles (part 3).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "nab-Paclitaxel",
+            "description": "nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+            "other_names": [
+              "non-solvent based taxane"
+            ],
+            "arm_group_labels": [
+              "Taxane"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Epirubicin",
+            "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+            "other_names": [
+              "Farmorubicin"
+            ],
+            "arm_group_labels": [
+              "Epirubicin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cyclophosphamide",
+            "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+            "other_names": [
+              "Endoxan"
+            ],
+            "arm_group_labels": [
+              "Cyclophosphamide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "part 1: Placebo (for the first two weeks) part 2: Placebo for 20 weeks",
+            "intervention_names": [
+              "Drug: Placebo"
+            ]
+          },
+          {
+            "label": "Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+            "intervention_names": [
+              "Drug: nab-Paclitaxel"
+            ]
+          },
+          {
+            "label": "Epirubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Epirubicin"
+            ]
+          },
+          {
+            "label": "Cyclophosphamide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Cyclophosphamide"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "33199511",
+          "32450725",
+          "31095287"
+        ]
+      },
+      "NCT02454933": {
+        "nct_id": "NCT02454933",
+        "brief_title": "Study of AZD9291 Plus MEDI4736 Versus AZD9291 Monotherapy in NSCLC After Previous EGFR TKI Therapy in T790M Mutation Positive Tumours",
+        "official_title": "A Phase III, Multi-Centre, Open Label, Randomized Study to Assess the Efficacy and Safety of AZD9291 in Combination With MEDI4736 Versus AZD9291 Monotherapy in Patients With Locally Advanced or Metastatic Epidermal Growth Factor Receptor T790M Mutation-positive Non-Small Cell Lung Cancer Who Have Received Prior Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor Therapy (CAURAL)",
+        "acronym": "CAURAL",
+        "organization": "AstraZeneca",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-05-14",
+        "study_first_post_date": {
+          "date": "2015-05-27",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2024-09-19",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Locally Advanced or Metastatic EGFR T790M+ NSCLC"
+        ],
+        "keywords": [
+          "Phase III Open Label Study; AZD9291 plus MEDI4736 versus AZD9291 Monotherapy; NSCLC After Previous EGFR TKI Therapy; T790M Mutation Positive Tumours."
+        ],
+        "arm_groups": [
+          {
+            "label": "MEDI4736 & AZD9291 Combination",
+            "type": "EXPERIMENTAL",
+            "description": "10mg/kg q2w (IV) infusion \\& once daily tablet 80 mg",
+            "intervention_names": [
+              "Drug: AZD9291",
+              "Drug: MEDI4736"
+            ]
+          },
+          {
+            "label": "AZD9291 Monotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Once daily tablet 80 mg",
+            "intervention_names": [
+              "Drug: AZD9291"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "AZD9291",
+            "description": "Once daily tablet 80 mg",
+            "other_names": [],
+            "arm_group_labels": [
+              "AZD9291 Monotherapy",
+              "MEDI4736 & AZD9291 Combination"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MEDI4736",
+            "description": "10mg/kg q2w (IV) infusion",
+            "other_names": [],
+            "arm_group_labels": [
+              "MEDI4736 & AZD9291 Combination"
+            ]
+          }
+        ],
+        "candidate_control_arms": [],
+        "reference_pmids": []
+      },
+      "NCT03043872": {
+        "nct_id": "NCT03043872",
+        "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+        "acronym": "CASPIAN",
+        "organization": "AstraZeneca",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "study_first_submit_date": "2017-01-18",
+        "study_first_post_date": {
+          "date": "2017-02-06",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-10-21",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Small Cell Lung Carcinoma Extensive Disease"
+        ],
+        "keywords": [
+          "Carcinoma, Small Cell Lung",
+          "Oat Cell Carcinoma of Lung",
+          "Oat Cell Lung Cancer",
+          "Small Cell Cancer Of The Lung",
+          "Small Cell Lung Cancer"
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 1",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Tremelimumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 2",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Tremelimumab",
+            "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "40331625",
+          "38811992",
+          "33285097",
+          "31590988"
+        ]
+      }
+    },
+    "errors_by_nct": {},
+    "rows_with_metadata": [
+      {
+        "row_index": 1,
+        "nct": "NCT02685059",
+        "trial_name": "GeparNuevo",
+        "ctgov_summary": {
+          "nct_id": "NCT02685059",
+          "brief_title": "Addition of PD-L1 Antibody MEDI4736 to a Taxane-anthracycline Chemotherapy in Triple Negative Breast Cancer",
+          "official_title": "A Randomized Phase II Study to Investigate the Addition of PD-L1 Antibody MEDI4736 to a Taxane-anthracycline Containing Chemotherapy in Triple Negative Breast Cancer (GeparNuevo)",
+          "acronym": "GeparNuevo",
+          "organization": "GBG Forschungs GmbH",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2016-01-14",
+          "study_first_post_date": {
+            "date": "2016-02-18",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2021-02-15",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Breast Cancer"
+          ],
+          "keywords": [
+            "breast cancer",
+            "Medi4736",
+            "Anti PD-L1",
+            "Nab-Paclitaxel",
+            "Placebo",
+            "triple negative"
+          ],
+          "arm_groups": [
+            {
+              "label": "MEDI4736",
+              "type": "EXPERIMENTAL",
+              "description": "part 1: MEDI4736 (with half dose as monotherapy for the first two weeks) part 2: MEDI4736 1.5 g total for 20 weeks",
+              "intervention_names": [
+                "Drug: MEDI4736 (Anti PD-L1)"
+              ]
+            },
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "part 1: Placebo (for the first two weeks) part 2: Placebo for 20 weeks",
+              "intervention_names": [
+                "Drug: Placebo"
+              ]
+            },
+            {
+              "label": "Taxane",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+              "intervention_names": [
+                "Drug: nab-Paclitaxel"
+              ]
+            },
+            {
+              "label": "Epirubicin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+              "intervention_names": [
+                "Drug: Epirubicin"
+              ]
+            },
+            {
+              "label": "Cyclophosphamide",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+              "intervention_names": [
+                "Drug: Cyclophosphamide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "MEDI4736 (Anti PD-L1)",
+              "description": "MEDI4736 1.5g total i.v. every 4 weeks\n\nAs monotherapy for the first two weeks (0.75g absolute) (part 1) followed by:\n\nMEDI4736 in combination with nab-paclitaxel 125 mg/m² every week for 12 weeks (part 2) followed by\n\nMEDI4736 in combination with epirubicin 90mg/m² plus cyclophosphamide 600 mg/m² every 2 weeks for 4 cycles (part 3).",
+              "other_names": [
+                "Antibody against cell death ligand 1 (PD-L1)"
+              ],
+              "arm_group_labels": [
+                "MEDI4736"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo i.v. every 4 weeks\n\nAs monotherapy for the first two weeks (0.75g absolute) (part 1) followed by:\n\nPlacebo in combination with nab-paclitaxel 125 mg/m² every week for 12 weeks (part 2) followed by\n\nMEDI4736/Placebo in combination with epirubicin 90mg/m² plus cyclophosphamide 600 mg/m² every 2 weeks for 4 cycles (part 3).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "nab-Paclitaxel",
+              "description": "nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+              "other_names": [
+                "non-solvent based taxane"
+              ],
+              "arm_group_labels": [
+                "Taxane"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Epirubicin",
+              "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+              "other_names": [
+                "Farmorubicin"
+              ],
+              "arm_group_labels": [
+                "Epirubicin"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cyclophosphamide",
+              "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+              "other_names": [
+                "Endoxan"
+              ],
+              "arm_group_labels": [
+                "Cyclophosphamide"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "part 1: Placebo (for the first two weeks) part 2: Placebo for 20 weeks",
+              "intervention_names": [
+                "Drug: Placebo"
+              ]
+            },
+            {
+              "label": "Taxane",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+              "intervention_names": [
+                "Drug: nab-Paclitaxel"
+              ]
+            },
+            {
+              "label": "Epirubicin",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+              "intervention_names": [
+                "Drug: Epirubicin"
+              ]
+            },
+            {
+              "label": "Cyclophosphamide",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+              "intervention_names": [
+                "Drug: Cyclophosphamide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "33199511",
+            "32450725",
+            "31095287"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 2,
+        "nct": "NCT02454933",
+        "trial_name": "CAURAL",
+        "ctgov_summary": {
+          "nct_id": "NCT02454933",
+          "brief_title": "Study of AZD9291 Plus MEDI4736 Versus AZD9291 Monotherapy in NSCLC After Previous EGFR TKI Therapy in T790M Mutation Positive Tumours",
+          "official_title": "A Phase III, Multi-Centre, Open Label, Randomized Study to Assess the Efficacy and Safety of AZD9291 in Combination With MEDI4736 Versus AZD9291 Monotherapy in Patients With Locally Advanced or Metastatic Epidermal Growth Factor Receptor T790M Mutation-positive Non-Small Cell Lung Cancer Who Have Received Prior Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor Therapy (CAURAL)",
+          "acronym": "CAURAL",
+          "organization": "AstraZeneca",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-05-14",
+          "study_first_post_date": {
+            "date": "2015-05-27",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2024-09-19",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Locally Advanced or Metastatic EGFR T790M+ NSCLC"
+          ],
+          "keywords": [
+            "Phase III Open Label Study; AZD9291 plus MEDI4736 versus AZD9291 Monotherapy; NSCLC After Previous EGFR TKI Therapy; T790M Mutation Positive Tumours."
+          ],
+          "arm_groups": [
+            {
+              "label": "MEDI4736 & AZD9291 Combination",
+              "type": "EXPERIMENTAL",
+              "description": "10mg/kg q2w (IV) infusion \\& once daily tablet 80 mg",
+              "intervention_names": [
+                "Drug: AZD9291",
+                "Drug: MEDI4736"
+              ]
+            },
+            {
+              "label": "AZD9291 Monotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Once daily tablet 80 mg",
+              "intervention_names": [
+                "Drug: AZD9291"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AZD9291",
+              "description": "Once daily tablet 80 mg",
+              "other_names": [],
+              "arm_group_labels": [
+                "AZD9291 Monotherapy",
+                "MEDI4736 & AZD9291 Combination"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "MEDI4736",
+              "description": "10mg/kg q2w (IV) infusion",
+              "other_names": [],
+              "arm_group_labels": [
+                "MEDI4736 & AZD9291 Combination"
+              ]
+            }
+          ],
+          "candidate_control_arms": [],
+          "reference_pmids": []
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 3,
+        "nct": "NCT03043872",
+        "trial_name": "CASPIAN",
+        "ctgov_summary": {
+          "nct_id": "NCT03043872",
+          "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+          "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+          "acronym": "CASPIAN",
+          "organization": "AstraZeneca",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2017-01-18",
+          "study_first_post_date": {
+            "date": "2017-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma Extensive Disease"
+          ],
+          "keywords": [
+            "Carcinoma, Small Cell Lung",
+            "Oat Cell Carcinoma of Lung",
+            "Oat Cell Lung Cancer",
+            "Small Cell Cancer Of The Lung",
+            "Small Cell Lung Cancer"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Tremelimumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Durvalumab",
+              "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tremelimumab",
+              "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40331625",
+            "38811992",
+            "33285097",
+            "31590988"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 4,
+        "nct": "NCT03043872",
+        "trial_name": "CASPIAN",
+        "ctgov_summary": {
+          "nct_id": "NCT03043872",
+          "brief_title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+          "official_title": "A Phase III, Randomized, Multicenter,Open-Label, Comparative Study to Determine the Efficacy of Durvalumab or Durvalumab and Tremelimumab in Combination With Platinum-Based Chemotherapy for the First-Line Treatment in Patients With Extensive Disease Small-Cell Lung Cancer (SCLC) (CASPIAN)",
+          "acronym": "CASPIAN",
+          "organization": "AstraZeneca",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2017-01-18",
+          "study_first_post_date": {
+            "date": "2017-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Small Cell Lung Carcinoma Extensive Disease"
+          ],
+          "keywords": [
+            "Carcinoma, Small Cell Lung",
+            "Oat Cell Carcinoma of Lung",
+            "Oat Cell Lung Cancer",
+            "Small Cell Cancer Of The Lung",
+            "Small Cell Lung Cancer"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Tremelimumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL",
+              "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Durvalumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            },
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Durvalumab",
+              "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tremelimumab",
+              "description": "IV infusions every 3 weeks for 12 weeks(4 cycles). An additional dose of tremelimumab will be administered in the week 16.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm 1",
+                "Arm 2",
+                "Arm 3"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm 3",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "EP (carboplatin or cisplatin + etoposide)",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Etoposide"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40331625",
+            "38811992",
+            "33285097",
+            "31590988"
+          ]
+        },
+        "ctgov_error": ""
+      }
+    ]
+  },
+  "plan": {
+    "need_ctgov_metadata": true,
+    "relevant_fields": [
+      "interventions",
+      "arm_groups",
+      "candidate_control_arms"
+    ],
+    "focus": "identify the additional agents in the treatment regimen beyond the ICI for Durvalumab combination therapy trials",
+    "notes": "The question requires information about the treatment regimen, and the target field is Control regimen, so metadata about interventions, arm groups, and candidate control arms is needed to infer the control regimen."
+  },
+  "planner_prompt": "You are choosing which ClinicalTrials.gov metadata fields are most useful for answering a question.\nThe final answer will be produced in a later step.\nYour job now is only to select the most relevant study metadata fields to extract for the target field that will be inferred later.\nReturn ONLY valid JSON in this exact shape:\n{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"field_name\"], \"focus\": \"...\", \"notes\": \"...\"}\nAllowed field names: ['brief_title', 'official_title', 'acronym', 'organization', 'overall_status', 'phases', 'study_type', 'conditions', 'keywords', 'arm_groups', 'interventions', 'candidate_control_arms', 'reference_pmids']\nField descriptions:\n- brief_title: Short study title from ClinicalTrials.gov.\n- official_title: Long-form official study title.\n- acronym: Study acronym or short identifier.\n- organization: Lead sponsor or responsible organization.\n- overall_status: Recruitment or completion status.\n- phases: Study phase information.\n- study_type: Interventional or observational study type.\n- conditions: Study conditions or cancer types.\n- keywords: Supplementary study keywords.\n- arm_groups: Arm labels, arm types, and arm descriptions.\n- interventions: Named interventions with types and descriptions.\n- candidate_control_arms: Likely comparator/control arms derived from the CTGov record.\n- reference_pmids: PubMed IDs referenced by the study record.\n\nQuestion: For Durvalumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.\nTarget field to infer later: Control regimen\nSource column shown to the model: \"Treatment regimen\"\n\nFew-shot examples:\nExample 1\nQuestion: For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.\nTarget field to infer later: Control regimen\nOutput: {\"need_ctgov_metadata\": true, \"relevant_fields\": [\"candidate_control_arms\", \"arm_groups\", \"interventions\"], \"focus\": \"identify the comparator or control arm regimen for each study and normalize it to the control regimen value\", \"notes\": \"The question retrieves the studies, but the target field is Control regimen, so comparator-arm metadata is needed.\"}\n\nExample 2\nQuestion: In NSCLC trials classify the ICI by target class from its generic name.\nTarget field to infer later: Class of ICI\nOutput: {\"need_ctgov_metadata\": false, \"relevant_fields\": [], \"focus\": \"the row evidence already names the ICI and CTGov metadata is not needed\", \"notes\": \"Do not request CTGov metadata when the target can be inferred directly from the visible row.\"}\nRows and compact CTGov previews:\n{\"ctgov_preview\": {\"acronym\": \"GeparNuevo\", \"arm_group_labels\": [\"MEDI4736\", \"Placebo\", \"Taxane\", \"Epirubicin\", \"Cyclophosphamide\"], \"brief_title\": \"Addition of PD-L1 Antibody MEDI4736 to a Taxane-anthracycline Chemotherapy in Triple Negative Breast Cancer\", \"candidate_control_arm_labels\": [\"Placebo\", \"Taxane\", \"Epirubicin\", \"Cyclophosphamide\"], \"conditions\": [\"Breast Cancer\"], \"intervention_names\": [\"MEDI4736 (Anti PD-L1)\", \"Placebo\", \"nab-Paclitaxel\", \"Epirubicin\", \"Cyclophosphamide\"]}, \"nct\": \"NCT02685059\", \"row\": {\"NCT\": \"NCT02685059\", \"Treatment regimen\": \"Durvalumab+Nab-paclitaxel+epirubicin+cyclophosphamide\", \"Trial name\": \"GeparNuevo\"}, \"trial_name\": \"GeparNuevo\"}\n{\"ctgov_preview\": {\"acronym\": \"CAURAL\", \"arm_group_labels\": [\"MEDI4736 & AZD9291 Combination\", \"AZD9291 Monotherapy\"], \"brief_title\": \"Study of AZD9291 Plus MEDI4736 Versus AZD9291 Monotherapy in NSCLC After Previous EGFR TKI Therapy in T790M Mutation Positive Tumours\", \"candidate_control_arm_labels\": [], \"conditions\": [\"Locally Advanced or Metastatic EGFR T790M+ NSCLC\"], \"intervention_names\": [\"AZD9291\", \"MEDI4736\"]}, \"nct\": \"NCT02454933\", \"row\": {\"NCT\": \"NCT02454933\", \"Treatment regimen\": \"Durvalumab+Osimertinib\", \"Trial name\": \"CAURAL\"}, \"trial_name\": \"CAURAL\"}\n{\"ctgov_preview\": {\"acronym\": \"CASPIAN\", \"arm_group_labels\": [\"Arm 1\", \"Arm 2\", \"Arm 3\"], \"brief_title\": \"Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)\", \"candidate_control_arm_labels\": [\"Arm 3\"], \"conditions\": [\"Small Cell Lung Carcinoma Extensive Disease\"], \"intervention_names\": [\"Durvalumab\", \"Tremelimumab\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03043872\", \"row\": {\"NCT\": \"NCT03043872\", \"Treatment regimen\": \"Durvalumab+Etoposide+Platinum agent\", \"Trial name\": \"CASPIAN\"}, \"trial_name\": \"CASPIAN\"}\n{\"ctgov_preview\": {\"acronym\": \"CASPIAN\", \"arm_group_labels\": [\"Arm 1\", \"Arm 2\", \"Arm 3\"], \"brief_title\": \"Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)\", \"candidate_control_arm_labels\": [\"Arm 3\"], \"conditions\": [\"Small Cell Lung Carcinoma Extensive Disease\"], \"intervention_names\": [\"Durvalumab\", \"Tremelimumab\", \"Carboplatin\", \"Cisplatin\", \"Etoposide\"]}, \"nct\": \"NCT03043872\", \"row\": {\"NCT\": \"NCT03043872\", \"Treatment regimen\": \"Durvalumab+Etoposide+Platinum agent\", \"Trial name\": \"CASPIAN\"}, \"trial_name\": \"CASPIAN\"}",
+  "planner_raw_output": "{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"interventions\", \"arm_groups\", \"candidate_control_arms\"], \"focus\": \"identify the additional agents in the treatment regimen beyond the ICI for Durvalumab combination therapy trials\", \"notes\": \"The question requires information about the treatment regimen, and the target field is Control regimen, so metadata about interventions, arm groups, and candidate control arms is needed to infer the control regimen.\"}",
+  "planner_error": "",
+  "planner_meta": {
+    "response_id": "chatcmpl-afc27f8bed1f85cf",
+    "finish_reason": "stop",
+    "prompt_tokens": 1390,
+    "completion_tokens": 95,
+    "total_tokens": 1485
+  },
+  "selected_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT02685059",
+      "trial_name": "GeparNuevo",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo i.v. every 4 weeks\n\nAs monotherapy for the first two weeks (0.75g absolute) (part 1) followed by:\n\nPlacebo in combination with nab-paclitaxel 125 mg/m² every week for 12 weeks (part 2) followed by\n\nMEDI4736/Placebo in combination with epirubicin 90mg/m² plus cyclophosphamide 600 mg/m² every 2 weeks for 4 cycles (part 3).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MEDI4736 (Anti PD-L1)",
+            "description": "MEDI4736 1.5g total i.v. every 4 weeks\n\nAs monotherapy for the first two weeks (0.75g absolute) (part 1) followed by:\n\nMEDI4736 in combination with nab-paclitaxel 125 mg/m² every week for 12 weeks (part 2) followed by\n\nMEDI4736 in combination with epirubicin 90mg/m² plus cyclophosphamide 600 mg/m² every 2 weeks for 4 cycles (part 3).",
+            "other_names": [
+              "Antibody against cell death ligand 1 (PD-L1)"
+            ],
+            "arm_group_labels": [
+              "MEDI4736"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "nab-Paclitaxel",
+            "description": "nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+            "other_names": [
+              "non-solvent based taxane"
+            ],
+            "arm_group_labels": [
+              "Taxane"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Epirubicin",
+            "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+            "other_names": [
+              "Farmorubicin"
+            ],
+            "arm_group_labels": [
+              "Epirubicin"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cyclophosphamide",
+            "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+            "other_names": [
+              "Endoxan"
+            ],
+            "arm_group_labels": [
+              "Cyclophosphamide"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+            "intervention_names": [
+              "Drug: nab-Paclitaxel"
+            ]
+          },
+          {
+            "label": "Epirubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Epirubicin"
+            ]
+          },
+          {
+            "label": "Cyclophosphamide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Cyclophosphamide"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "part 1: Placebo (for the first two weeks) part 2: Placebo for 20 weeks",
+            "intervention_names": [
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nab-Paclitaxel 125 mg/m² weekly for 12 weeks",
+            "intervention_names": [
+              "Drug: nab-Paclitaxel"
+            ]
+          },
+          {
+            "label": "Epirubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Epirubicin 90 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Epirubicin"
+            ]
+          },
+          {
+            "label": "Cyclophosphamide",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cyclophosphamide 600 mg/m² 2-weekly for 8 weeks",
+            "intervention_names": [
+              "Drug: Cyclophosphamide"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "part 1: Placebo (for the first two weeks) part 2: Placebo for 20 weeks",
+            "intervention_names": [
+              "Drug: Placebo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT02454933",
+      "trial_name": "CAURAL",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "AZD9291",
+            "description": "Once daily tablet 80 mg",
+            "other_names": [],
+            "arm_group_labels": [
+              "AZD9291 Monotherapy",
+              "MEDI4736 & AZD9291 Combination"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MEDI4736",
+            "description": "10mg/kg q2w (IV) infusion",
+            "other_names": [],
+            "arm_group_labels": [
+              "MEDI4736 & AZD9291 Combination"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "MEDI4736 & AZD9291 Combination",
+            "type": "EXPERIMENTAL",
+            "description": "10mg/kg q2w (IV) infusion \\& once daily tablet 80 mg",
+            "intervention_names": [
+              "Drug: AZD9291",
+              "Drug: MEDI4736"
+            ]
+          },
+          {
+            "label": "AZD9291 Monotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Once daily tablet 80 mg",
+            "intervention_names": [
+              "Drug: AZD9291"
+            ]
+          }
+        ],
+        "candidate_control_arms": []
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 1",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Tremelimumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 2",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Durvalumab",
+            "description": "IV infusions every 3 weeks for 12 weeks (4 cycles) and every 4 weeks thereafter until PD or other discontinuation criteria.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Etoposide",
+            "description": "up to 4 cycles every 3 weeks in Arm 1 and 2, up to 6 cycles every 3 weeks in Arm 3",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 1",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+tremelimumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Tremelimumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 2",
+            "type": "EXPERIMENTAL",
+            "description": "durvalumab+EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "EP (carboplatin or cisplatin + etoposide)",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "prompt_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT02685059",
+      "trial_name": "GeparNuevo",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Placebo",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          },
+          {
+            "name": "MEDI4736 (Anti PD-L1)",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "MEDI4736"
+            ]
+          },
+          {
+            "name": "nab-Paclitaxel",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Taxane"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: nab-Paclitaxel"
+            ]
+          },
+          {
+            "label": "Epirubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Epirubicin"
+            ]
+          },
+          {
+            "label": "Cyclophosphamide",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cyclophosphamide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: nab-Paclitaxel"
+            ]
+          },
+          {
+            "label": "Epirubicin",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Epirubicin"
+            ]
+          },
+          {
+            "label": "Cyclophosphamide",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cyclophosphamide"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT02454933",
+      "trial_name": "CAURAL",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "AZD9291",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "AZD9291 Monotherapy",
+              "MEDI4736 & AZD9291 Combination"
+            ]
+          },
+          {
+            "name": "MEDI4736",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "MEDI4736 & AZD9291 Combination"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "MEDI4736 & AZD9291 Combination",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: AZD9291",
+              "Drug: MEDI4736"
+            ]
+          },
+          {
+            "label": "AZD9291 Monotherapy",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: AZD9291"
+            ]
+          }
+        ],
+        "candidate_control_arms": []
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Durvalumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "name": "Etoposide",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 1",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Tremelimumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 2",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT03043872",
+      "trial_name": "CASPIAN",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Durvalumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2"
+            ]
+          },
+          {
+            "name": "Etoposide",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm 1",
+              "Arm 2",
+              "Arm 3"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 1",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Tremelimumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          },
+          {
+            "label": "Arm 2",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Durvalumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm 3",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Etoposide"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3222 @@
+{
+  "bundle": {
+    "ncts": [
+      "NCT02231749",
+      "NCT02477826",
+      "NCT02523313",
+      "NCT02899299",
+      "NCT03215706",
+      "NCT02538666"
+    ],
+    "summaries_by_nct": {
+      "NCT02231749": {
+        "nct_id": "NCT02231749",
+        "brief_title": "Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)",
+        "official_title": "A Phase 3, Randomized, Open-Label Study of Nivolumab Combined With Ipilimumab Versus Sunitinib Monotherapy in Subjects With Previously Untreated, Advanced or Metastatic Renal Cell Carcinoma",
+        "acronym": null,
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2014-09-01",
+        "study_first_post_date": {
+          "date": "2014-09-04",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-06-26",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Advanced Renal Cell Carcinoma",
+          "Metastatic Renal Cell Carcinoma"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558",
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Sunitinib",
+            "description": null,
+            "other_names": [
+              "Sutent"
+            ],
+            "arm_group_labels": [
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "39060019",
+          "38280218",
+          "37146227",
+          "36549781",
+          "35383908",
+          "35383907",
+          "34750035",
+          "33246931",
+          "32661118",
+          "31992108",
+          "31633185",
+          "31427204",
+          "30658932",
+          "29562145"
+        ]
+      },
+      "NCT02477826": {
+        "nct_id": "NCT02477826",
+        "brief_title": "An Investigational Immuno-therapy Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum-doublet Chemotherapy, Compared to Platinum Doublet Chemotherapy in Patients With Stage IV Non-Small Cell Lung Cancer (NSCLC)",
+        "official_title": "An Open-Label, Randomized Phase 3 Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum Doublet Chemotherapy Versus Platinum Doublet Chemotherapy in Subjects With Chemotherapy-Naïve Stage IV or Recurrent Non-Small Cell Lung Cancer (NSCLC)",
+        "acronym": "CheckMate 227",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-06-18",
+        "study_first_post_date": {
+          "date": "2015-06-23",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-10-30",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Non-Small Cell Lung Cancer"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Arm A: Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenously (IV) as specified",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm B: Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab + Ipilimumab IV as specified",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab + Platinum doublet chemotherapy (IV) dose as specified",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Gemcitabine",
+              "Drug: Pemetrexed",
+              "Drug: Paclitaxel"
+            ]
+          },
+          {
+            "label": "Arm D: Platinum doublet chemotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Chemotherapy administered on specified days of IV chemotherapy",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Gemcitabine",
+              "Drug: Pemetrexed",
+              "Drug: Paclitaxel"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab",
+              "Arm B: Nivolumab + Ipilimumab",
+              "Arm C: Nivolumab + Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm B: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Gemcitabine",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Pemetrexed",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          }
+        ],
+        "candidate_control_arms": [],
+        "reference_pmids": [
+          "39369790",
+          "38383458",
+          "36223558",
+          "33485960",
+          "31562796",
+          "31195357",
+          "29658845"
+        ]
+      },
+      "NCT02523313": {
+        "nct_id": "NCT02523313",
+        "brief_title": "Immunotherapy With Nivolumab or Nivolumab Plus Ipilimumab vs. Double Placebo for Stage IV Melanoma w. NED",
+        "official_title": "A Phase II Randomized, Double-Blind Trial of Immunotherapy With Nivolumab or Nivolumab Plus Ipilimumab Versus Double-Placebo Control as a Post-Surgical/Post-Radiation Treatment for Stage IV Melanoma With No Evidence of Disease",
+        "acronym": null,
+        "organization": "University Hospital, Essen",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-08-05",
+        "study_first_post_date": {
+          "date": "2015-08-14",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-04-09",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Malignant Melanoma"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Nivolumab + Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nivolumab (3 mg/kg) i.v. every 2 weeks + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10",
+            "intervention_names": [
+              "Drug: Nivolumab + Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) i.v. every 3 weeks for 4 doses. Both study drugs are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12: Nivolumab as maintenance and at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "label": "Double Placebo Control",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab i.v. every 3 weeks for 4 doses. Both placebos are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab as maintenance and applied as IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Double Placebo Control"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab + Placebo",
+            "description": "Nivolumab will be applied at a dose of 3 mg/kg given as IV infusion every 2 weeks for up to 1 year after initial dosing or until PD + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10.",
+            "other_names": [
+              "Treatment Arm A"
+            ],
+            "arm_group_labels": [
+              "Nivolumab + Placebo"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Nivolumab + Ipilimumab",
+            "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) will be applied as IV infusion every 3 weeks for 4 doses. Both study drugs are to be administered on the same day over the first 12 weeks + Nivolumab-Placebo on weeks 3, 5, 9 and 11. After week 12 Nivolumab is given as maintenance and will be applied at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "other_names": [
+              "Treatment Arm B"
+            ],
+            "arm_group_labels": [
+              "Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Double Placebo Control",
+            "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab will be applied as IV infusion every 3 weeks for 4 doses. Both placebos are to be administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab is given as maintenance and will be applied intravenously every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "other_names": [
+              "Treatment Arm C"
+            ],
+            "arm_group_labels": [
+              "Double Placebo Control"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Nivolumab + Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nivolumab (3 mg/kg) i.v. every 2 weeks + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10",
+            "intervention_names": [
+              "Drug: Nivolumab + Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) i.v. every 3 weeks for 4 doses. Both study drugs are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12: Nivolumab as maintenance and at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "label": "Double Placebo Control",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab i.v. every 3 weeks for 4 doses. Both placebos are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab as maintenance and applied as IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Double Placebo Control"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "36099927",
+          "32416781"
+        ]
+      },
+      "NCT02899299": {
+        "nct_id": "NCT02899299",
+        "brief_title": "Study of Nivolumab Combined With Ipilimumab Versus Pemetrexed and Cisplatin or Carboplatin as First Line Therapy in Unresectable Pleural Mesothelioma Patients",
+        "official_title": "A Phase III, Randomized, Open Label Trial of Nivolumab in Combination With Ipilimumab Versus Pemetrexed With Cisplatin or Carboplatin as First Line Therapy in Unresectable Pleural Mesothelioma",
+        "acronym": "CheckMate743",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2016-08-31",
+        "study_first_post_date": {
+          "date": "2016-09-14",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2024-05-21",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Mesothelioma"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Nivolumab and Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Specified dose on specified days",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Specified dose on specified days",
+            "intervention_names": [
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558",
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and Ipilimumab"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "BMS-734016",
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and Ipilimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Pemetrexed",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Pemetrexed and Cisplatin (or Carboplatin)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Pemetrexed and Cisplatin (or Carboplatin)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Pemetrexed and Cisplatin (or Carboplatin)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Specified dose on specified days",
+            "intervention_names": [
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "41734361",
+          "35367910",
+          "35124183",
+          "33485464",
+          "33206991"
+        ]
+      },
+      "NCT03215706": {
+        "nct_id": "NCT03215706",
+        "brief_title": "A Study of Nivolumab and Ipilimumab Combined With Chemotherapy Compared to Chemotherapy Alone in First Line NSCLC",
+        "official_title": "A Phase 3, Randomized Study of Nivolumab Plus Ipilimumab in Combination With Chemotherapy vs Chemotherapy Alone as First Line Therapy in Stage IV Non-Small Cell Lung Cancer",
+        "acronym": "CheckMate 9LA",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2017-07-11",
+        "study_first_post_date": {
+          "date": "2017-07-12",
+          "type": "ACTUAL"
+        },
+        "last_update_posted": {
+          "date": "2025-12-17",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Non-Small Cell Lung Cancer"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Module A",
+            "type": "EXPERIMENTAL",
+            "description": "Chemotherapy/Biologics combined",
+            "intervention_names": [
+              "Biological: Ipilimumab",
+              "Biological: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          },
+          {
+            "label": "Module B",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Chemotherapy Combination",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Yervoy, BMS734016"
+            ],
+            "arm_group_labels": [
+              "Module A"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Opdivo, BMS936558"
+            ],
+            "arm_group_labels": [
+              "Module A"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Specified dose on specified day",
+            "other_names": [],
+            "arm_group_labels": [
+              "Module A",
+              "Module B"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Taxol"
+            ],
+            "arm_group_labels": [
+              "Module A",
+              "Module B"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Pemetrexed",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Alimta"
+            ],
+            "arm_group_labels": [
+              "Module A",
+              "Module B"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Platinol"
+            ],
+            "arm_group_labels": [
+              "Module A",
+              "Module B"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Module B",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Chemotherapy Combination",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "39369790",
+          "39270380",
+          "33476593"
+        ]
+      },
+      "NCT02538666": {
+        "nct_id": "NCT02538666",
+        "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+        "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+        "acronym": "CheckMate 451",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-08-26",
+        "study_first_post_date": {
+          "date": "2015-09-02",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2023-01-05",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Lung Cancer"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Nivolumab monotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenous fusion",
+            "intervention_names": [
+              "Biological: Nivolumab"
+            ]
+          },
+          {
+            "label": "Nivolumab and ipilimumab combination therapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab and ipilimumab intravenous fusion",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy",
+              "Nivolumab monotherapy"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy"
+            ]
+          },
+          {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "35383114",
+          "33683919"
+        ]
+      }
+    },
+    "errors_by_nct": {},
+    "rows_with_metadata": [
+      {
+        "row_index": 1,
+        "nct": "NCT02231749",
+        "trial_name": "CheckMate 214",
+        "ctgov_summary": {
+          "nct_id": "NCT02231749",
+          "brief_title": "Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)",
+          "official_title": "A Phase 3, Randomized, Open-Label Study of Nivolumab Combined With Ipilimumab Versus Sunitinib Monotherapy in Subjects With Previously Untreated, Advanced or Metastatic Renal Cell Carcinoma",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2014-09-01",
+          "study_first_post_date": {
+            "date": "2014-09-04",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-06-26",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Advanced Renal Cell Carcinoma",
+            "Metastatic Renal Cell Carcinoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Arm B: Sunitinib 50 mg",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab",
+                "Drug: Sunitinib"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "BMS-936558",
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+                "Arm B: Sunitinib 50 mg"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+                "Arm B: Sunitinib 50 mg"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Sunitinib",
+              "description": null,
+              "other_names": [
+                "Sutent"
+              ],
+              "arm_group_labels": [
+                "Arm B: Sunitinib 50 mg"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B: Sunitinib 50 mg",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab",
+                "Drug: Sunitinib"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "39060019",
+            "38280218",
+            "37146227",
+            "36549781",
+            "35383908",
+            "35383907",
+            "34750035",
+            "33246931",
+            "32661118",
+            "31992108",
+            "31633185",
+            "31427204",
+            "30658932",
+            "29562145"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 2,
+        "nct": "NCT02231749",
+        "trial_name": "CheckMate 214",
+        "ctgov_summary": {
+          "nct_id": "NCT02231749",
+          "brief_title": "Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)",
+          "official_title": "A Phase 3, Randomized, Open-Label Study of Nivolumab Combined With Ipilimumab Versus Sunitinib Monotherapy in Subjects With Previously Untreated, Advanced or Metastatic Renal Cell Carcinoma",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2014-09-01",
+          "study_first_post_date": {
+            "date": "2014-09-04",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-06-26",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Advanced Renal Cell Carcinoma",
+            "Metastatic Renal Cell Carcinoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Arm B: Sunitinib 50 mg",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab",
+                "Drug: Sunitinib"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "BMS-936558",
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+                "Arm B: Sunitinib 50 mg"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+                "Arm B: Sunitinib 50 mg"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Sunitinib",
+              "description": null,
+              "other_names": [
+                "Sutent"
+              ],
+              "arm_group_labels": [
+                "Arm B: Sunitinib 50 mg"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B: Sunitinib 50 mg",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab",
+                "Drug: Sunitinib"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "39060019",
+            "38280218",
+            "37146227",
+            "36549781",
+            "35383908",
+            "35383907",
+            "34750035",
+            "33246931",
+            "32661118",
+            "31992108",
+            "31633185",
+            "31427204",
+            "30658932",
+            "29562145"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 3,
+        "nct": "NCT02477826",
+        "trial_name": "Checkmate 227",
+        "ctgov_summary": {
+          "nct_id": "NCT02477826",
+          "brief_title": "An Investigational Immuno-therapy Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum-doublet Chemotherapy, Compared to Platinum Doublet Chemotherapy in Patients With Stage IV Non-Small Cell Lung Cancer (NSCLC)",
+          "official_title": "An Open-Label, Randomized Phase 3 Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum Doublet Chemotherapy Versus Platinum Doublet Chemotherapy in Subjects With Chemotherapy-Naïve Stage IV or Recurrent Non-Small Cell Lung Cancer (NSCLC)",
+          "acronym": "CheckMate 227",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-06-18",
+          "study_first_post_date": {
+            "date": "2015-06-23",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-30",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab intravenously (IV) as specified",
+              "intervention_names": [
+                "Drug: Nivolumab"
+              ]
+            },
+            {
+              "label": "Arm B: Nivolumab + Ipilimumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab + Ipilimumab IV as specified",
+              "intervention_names": [
+                "Drug: Nivolumab",
+                "Drug: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab + Platinum doublet chemotherapy (IV) dose as specified",
+              "intervention_names": [
+                "Drug: Nivolumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Gemcitabine",
+                "Drug: Pemetrexed",
+                "Drug: Paclitaxel"
+              ]
+            },
+            {
+              "label": "Arm D: Platinum doublet chemotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Chemotherapy administered on specified days of IV chemotherapy",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Gemcitabine",
+                "Drug: Pemetrexed",
+                "Drug: Paclitaxel"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab",
+                "Arm B: Nivolumab + Ipilimumab",
+                "Arm C: Nivolumab + Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Arm B: Nivolumab + Ipilimumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Gemcitabine",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            }
+          ],
+          "candidate_control_arms": [],
+          "reference_pmids": [
+            "39369790",
+            "38383458",
+            "36223558",
+            "33485960",
+            "31562796",
+            "31195357",
+            "29658845"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 4,
+        "nct": "NCT02477826",
+        "trial_name": "Checkmate 227",
+        "ctgov_summary": {
+          "nct_id": "NCT02477826",
+          "brief_title": "An Investigational Immuno-therapy Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum-doublet Chemotherapy, Compared to Platinum Doublet Chemotherapy in Patients With Stage IV Non-Small Cell Lung Cancer (NSCLC)",
+          "official_title": "An Open-Label, Randomized Phase 3 Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum Doublet Chemotherapy Versus Platinum Doublet Chemotherapy in Subjects With Chemotherapy-Naïve Stage IV or Recurrent Non-Small Cell Lung Cancer (NSCLC)",
+          "acronym": "CheckMate 227",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-06-18",
+          "study_first_post_date": {
+            "date": "2015-06-23",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-10-30",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab intravenously (IV) as specified",
+              "intervention_names": [
+                "Drug: Nivolumab"
+              ]
+            },
+            {
+              "label": "Arm B: Nivolumab + Ipilimumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab + Ipilimumab IV as specified",
+              "intervention_names": [
+                "Drug: Nivolumab",
+                "Drug: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab + Platinum doublet chemotherapy (IV) dose as specified",
+              "intervention_names": [
+                "Drug: Nivolumab",
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Gemcitabine",
+                "Drug: Pemetrexed",
+                "Drug: Paclitaxel"
+              ]
+            },
+            {
+              "label": "Arm D: Platinum doublet chemotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Chemotherapy administered on specified days of IV chemotherapy",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Cisplatin",
+                "Drug: Gemcitabine",
+                "Drug: Pemetrexed",
+                "Drug: Paclitaxel"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab",
+                "Arm B: Nivolumab + Ipilimumab",
+                "Arm C: Nivolumab + Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Arm B: Nivolumab + Ipilimumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Gemcitabine",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm C: Nivolumab + Platinum doublet chemotherapy",
+                "Arm D: Platinum doublet chemotherapy"
+              ]
+            }
+          ],
+          "candidate_control_arms": [],
+          "reference_pmids": [
+            "39369790",
+            "38383458",
+            "36223558",
+            "33485960",
+            "31562796",
+            "31195357",
+            "29658845"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 5,
+        "nct": "NCT02523313",
+        "trial_name": "IMMUNED",
+        "ctgov_summary": {
+          "nct_id": "NCT02523313",
+          "brief_title": "Immunotherapy With Nivolumab or Nivolumab Plus Ipilimumab vs. Double Placebo for Stage IV Melanoma w. NED",
+          "official_title": "A Phase II Randomized, Double-Blind Trial of Immunotherapy With Nivolumab or Nivolumab Plus Ipilimumab Versus Double-Placebo Control as a Post-Surgical/Post-Radiation Treatment for Stage IV Melanoma With No Evidence of Disease",
+          "acronym": null,
+          "organization": "University Hospital, Essen",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-08-05",
+          "study_first_post_date": {
+            "date": "2015-08-14",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-04-09",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Malignant Melanoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Nivolumab + Placebo",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Nivolumab (3 mg/kg) i.v. every 2 weeks + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10",
+              "intervention_names": [
+                "Drug: Nivolumab + Placebo"
+              ]
+            },
+            {
+              "label": "Nivolumab + Ipilimumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) i.v. every 3 weeks for 4 doses. Both study drugs are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12: Nivolumab as maintenance and at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+              "intervention_names": [
+                "Drug: Nivolumab + Ipilimumab"
+              ]
+            },
+            {
+              "label": "Double Placebo Control",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab i.v. every 3 weeks for 4 doses. Both placebos are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab as maintenance and applied as IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+              "intervention_names": [
+                "Drug: Double Placebo Control"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nivolumab + Placebo",
+              "description": "Nivolumab will be applied at a dose of 3 mg/kg given as IV infusion every 2 weeks for up to 1 year after initial dosing or until PD + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10.",
+              "other_names": [
+                "Treatment Arm A"
+              ],
+              "arm_group_labels": [
+                "Nivolumab + Placebo"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Nivolumab + Ipilimumab",
+              "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) will be applied as IV infusion every 3 weeks for 4 doses. Both study drugs are to be administered on the same day over the first 12 weeks + Nivolumab-Placebo on weeks 3, 5, 9 and 11. After week 12 Nivolumab is given as maintenance and will be applied at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+              "other_names": [
+                "Treatment Arm B"
+              ],
+              "arm_group_labels": [
+                "Nivolumab + Ipilimumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Double Placebo Control",
+              "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab will be applied as IV infusion every 3 weeks for 4 doses. Both placebos are to be administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab is given as maintenance and will be applied intravenously every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+              "other_names": [
+                "Treatment Arm C"
+              ],
+              "arm_group_labels": [
+                "Double Placebo Control"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Nivolumab + Placebo",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Nivolumab (3 mg/kg) i.v. every 2 weeks + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10",
+              "intervention_names": [
+                "Drug: Nivolumab + Placebo"
+              ]
+            },
+            {
+              "label": "Nivolumab + Ipilimumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) i.v. every 3 weeks for 4 doses. Both study drugs are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12: Nivolumab as maintenance and at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+              "intervention_names": [
+                "Drug: Nivolumab + Ipilimumab"
+              ]
+            },
+            {
+              "label": "Double Placebo Control",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab i.v. every 3 weeks for 4 doses. Both placebos are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab as maintenance and applied as IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+              "intervention_names": [
+                "Drug: Double Placebo Control"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "36099927",
+            "32416781"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 6,
+        "nct": "NCT02231749",
+        "trial_name": "CheckMate 214",
+        "ctgov_summary": {
+          "nct_id": "NCT02231749",
+          "brief_title": "Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)",
+          "official_title": "A Phase 3, Randomized, Open-Label Study of Nivolumab Combined With Ipilimumab Versus Sunitinib Monotherapy in Subjects With Previously Untreated, Advanced or Metastatic Renal Cell Carcinoma",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2014-09-01",
+          "study_first_post_date": {
+            "date": "2014-09-04",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-06-26",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Advanced Renal Cell Carcinoma",
+            "Metastatic Renal Cell Carcinoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Arm B: Sunitinib 50 mg",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab",
+                "Drug: Sunitinib"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "BMS-936558",
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+                "Arm B: Sunitinib 50 mg"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+                "Arm B: Sunitinib 50 mg"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Sunitinib",
+              "description": null,
+              "other_names": [
+                "Sutent"
+              ],
+              "arm_group_labels": [
+                "Arm B: Sunitinib 50 mg"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B: Sunitinib 50 mg",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab",
+                "Drug: Sunitinib"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "39060019",
+            "38280218",
+            "37146227",
+            "36549781",
+            "35383908",
+            "35383907",
+            "34750035",
+            "33246931",
+            "32661118",
+            "31992108",
+            "31633185",
+            "31427204",
+            "30658932",
+            "29562145"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 7,
+        "nct": "NCT02899299",
+        "trial_name": "CheckMate 743",
+        "ctgov_summary": {
+          "nct_id": "NCT02899299",
+          "brief_title": "Study of Nivolumab Combined With Ipilimumab Versus Pemetrexed and Cisplatin or Carboplatin as First Line Therapy in Unresectable Pleural Mesothelioma Patients",
+          "official_title": "A Phase III, Randomized, Open Label Trial of Nivolumab in Combination With Ipilimumab Versus Pemetrexed With Cisplatin or Carboplatin as First Line Therapy in Unresectable Pleural Mesothelioma",
+          "acronym": "CheckMate743",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2016-08-31",
+          "study_first_post_date": {
+            "date": "2016-09-14",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2024-05-21",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Mesothelioma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Nivolumab and Ipilimumab",
+              "type": "EXPERIMENTAL",
+              "description": "Specified dose on specified days",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Specified dose on specified days",
+              "intervention_names": [
+                "Drug: Pemetrexed",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "BMS-936558",
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and Ipilimumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "BMS-734016",
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and Ipilimumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Pemetrexed and Cisplatin (or Carboplatin)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Pemetrexed and Cisplatin (or Carboplatin)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Pemetrexed and Cisplatin (or Carboplatin)"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Specified dose on specified days",
+              "intervention_names": [
+                "Drug: Pemetrexed",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "41734361",
+            "35367910",
+            "35124183",
+            "33485464",
+            "33206991"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 8,
+        "nct": "NCT03215706",
+        "trial_name": "CheckMate 9LA",
+        "ctgov_summary": {
+          "nct_id": "NCT03215706",
+          "brief_title": "A Study of Nivolumab and Ipilimumab Combined With Chemotherapy Compared to Chemotherapy Alone in First Line NSCLC",
+          "official_title": "A Phase 3, Randomized Study of Nivolumab Plus Ipilimumab in Combination With Chemotherapy vs Chemotherapy Alone as First Line Therapy in Stage IV Non-Small Cell Lung Cancer",
+          "acronym": "CheckMate 9LA",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2017-07-11",
+          "study_first_post_date": {
+            "date": "2017-07-12",
+            "type": "ACTUAL"
+          },
+          "last_update_posted": {
+            "date": "2025-12-17",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Module A",
+              "type": "EXPERIMENTAL",
+              "description": "Chemotherapy/Biologics combined",
+              "intervention_names": [
+                "Biological: Ipilimumab",
+                "Biological: Nivolumab",
+                "Drug: Carboplatin",
+                "Drug: Paclitaxel",
+                "Drug: Pemetrexed",
+                "Drug: Cisplatin"
+              ]
+            },
+            {
+              "label": "Module B",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Chemotherapy Combination",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Paclitaxel",
+                "Drug: Pemetrexed",
+                "Drug: Cisplatin"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": "Specified dose on specified day",
+              "other_names": [
+                "Yervoy, BMS734016"
+              ],
+              "arm_group_labels": [
+                "Module A"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": "Specified dose on specified day",
+              "other_names": [
+                "Opdivo, BMS936558"
+              ],
+              "arm_group_labels": [
+                "Module A"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Specified dose on specified day",
+              "other_names": [],
+              "arm_group_labels": [
+                "Module A",
+                "Module B"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "Specified dose on specified day",
+              "other_names": [
+                "Taxol"
+              ],
+              "arm_group_labels": [
+                "Module A",
+                "Module B"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "description": "Specified dose on specified day",
+              "other_names": [
+                "Alimta"
+              ],
+              "arm_group_labels": [
+                "Module A",
+                "Module B"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "Specified dose on specified day",
+              "other_names": [
+                "Platinol"
+              ],
+              "arm_group_labels": [
+                "Module A",
+                "Module B"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Module B",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Chemotherapy Combination",
+              "intervention_names": [
+                "Drug: Carboplatin",
+                "Drug: Paclitaxel",
+                "Drug: Pemetrexed",
+                "Drug: Cisplatin"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "39369790",
+            "39270380",
+            "33476593"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 9,
+        "nct": "NCT02538666",
+        "trial_name": "CheckMate 451",
+        "ctgov_summary": {
+          "nct_id": "NCT02538666",
+          "brief_title": "An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy",
+          "official_title": "A Randomized, Multicenter, Double-Blind, Phase 3 Study of Nivolumab, Nivolumab in Combination With Ipilimumab, or Placebo as Maintenance Therapy in Subjects With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based First Line Chemotherapy (CheckMate 451: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 451)",
+          "acronym": "CheckMate 451",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-08-26",
+          "study_first_post_date": {
+            "date": "2015-09-02",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2023-01-05",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Lung Cancer"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Nivolumab monotherapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab intravenous fusion",
+              "intervention_names": [
+                "Biological: Nivolumab"
+              ]
+            },
+            {
+              "label": "Nivolumab and ipilimumab combination therapy",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab and ipilimumab intravenous fusion",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo",
+              "intervention_names": [
+                "Other: Placebo"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "Opdivo"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and ipilimumab combination therapy",
+                "Nivolumab monotherapy"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": null,
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Nivolumab and ipilimumab combination therapy"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo",
+              "intervention_names": [
+                "Other: Placebo"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "35383114",
+            "33683919"
+          ]
+        },
+        "ctgov_error": ""
+      }
+    ]
+  },
+  "plan": {
+    "need_ctgov_metadata": true,
+    "relevant_fields": [
+      "interventions",
+      "arm_groups",
+      "candidate_control_arms"
+    ],
+    "focus": "identify additional agents in the treatment regimen beyond Nivolumab and Ipilimumab",
+    "notes": "The question asks for additional agents in the treatment regimen, so metadata about interventions, arm groups, and control arms is necessary to determine the full regimen."
+  },
+  "planner_prompt": "You are choosing which ClinicalTrials.gov metadata fields are most useful for answering a question.\nThe final answer will be produced in a later step.\nYour job now is only to select the most relevant study metadata fields to extract for the target field that will be inferred later.\nReturn ONLY valid JSON in this exact shape:\n{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"field_name\"], \"focus\": \"...\", \"notes\": \"...\"}\nAllowed field names: ['brief_title', 'official_title', 'acronym', 'organization', 'overall_status', 'phases', 'study_type', 'conditions', 'keywords', 'arm_groups', 'interventions', 'candidate_control_arms', 'reference_pmids']\nField descriptions:\n- brief_title: Short study title from ClinicalTrials.gov.\n- official_title: Long-form official study title.\n- acronym: Study acronym or short identifier.\n- organization: Lead sponsor or responsible organization.\n- overall_status: Recruitment or completion status.\n- phases: Study phase information.\n- study_type: Interventional or observational study type.\n- conditions: Study conditions or cancer types.\n- keywords: Supplementary study keywords.\n- arm_groups: Arm labels, arm types, and arm descriptions.\n- interventions: Named interventions with types and descriptions.\n- candidate_control_arms: Likely comparator/control arms derived from the CTGov record.\n- reference_pmids: PubMed IDs referenced by the study record.\n\nQuestion: For Nivolumab, Ipilimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.\nTarget field to infer later: Control regimen\nSource column shown to the model: \"Treatment regimen\"\n\nFew-shot examples:\nExample 1\nQuestion: For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.\nTarget field to infer later: Control regimen\nOutput: {\"need_ctgov_metadata\": true, \"relevant_fields\": [\"candidate_control_arms\", \"arm_groups\", \"interventions\"], \"focus\": \"identify the comparator or control arm regimen for each study and normalize it to the control regimen value\", \"notes\": \"The question retrieves the studies, but the target field is Control regimen, so comparator-arm metadata is needed.\"}\n\nExample 2\nQuestion: In NSCLC trials classify the ICI by target class from its generic name.\nTarget field to infer later: Class of ICI\nOutput: {\"need_ctgov_metadata\": false, \"relevant_fields\": [], \"focus\": \"the row evidence already names the ICI and CTGov metadata is not needed\", \"notes\": \"Do not request CTGov metadata when the target can be inferred directly from the visible row.\"}\nRows and compact CTGov previews:\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg\", \"Arm B: Sunitinib 50 mg\"], \"brief_title\": \"Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)\", \"candidate_control_arm_labels\": [\"Arm B: Sunitinib 50 mg\"], \"conditions\": [\"Advanced Renal Cell Carcinoma\", \"Metastatic Renal Cell Carcinoma\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Sunitinib\"]}, \"nct\": \"NCT02231749\", \"row\": {\"NCT\": \"NCT02231749\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"CheckMate 214\"}, \"trial_name\": \"CheckMate 214\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg\", \"Arm B: Sunitinib 50 mg\"], \"brief_title\": \"Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)\", \"candidate_control_arm_labels\": [\"Arm B: Sunitinib 50 mg\"], \"conditions\": [\"Advanced Renal Cell Carcinoma\", \"Metastatic Renal Cell Carcinoma\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Sunitinib\"]}, \"nct\": \"NCT02231749\", \"row\": {\"NCT\": \"NCT02231749\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"CheckMate 214\"}, \"trial_name\": \"CheckMate 214\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 227\", \"arm_group_labels\": [\"Arm A: Nivolumab\", \"Arm B: Nivolumab + Ipilimumab\", \"Arm C: Nivolumab + Platinum doublet chemotherapy\", \"Arm D: Platinum doublet chemotherapy\"], \"brief_title\": \"An Investigational Immuno-therapy Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum-doublet Chemotherapy, Compared to Platinum Doublet Chemotherapy in Patients With Stage IV Non-Small Cell Lung Cancer (NSCLC)\", \"candidate_control_arm_labels\": [], \"conditions\": [\"Non-Small Cell Lung Cancer\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Carboplatin\", \"Cisplatin\", \"Gemcitabine\", \"Pemetrexed\", \"Paclitaxel\"]}, \"nct\": \"NCT02477826\", \"row\": {\"NCT\": \"NCT02477826\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"Checkmate 227\"}, \"trial_name\": \"Checkmate 227\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 227\", \"arm_group_labels\": [\"Arm A: Nivolumab\", \"Arm B: Nivolumab + Ipilimumab\", \"Arm C: Nivolumab + Platinum doublet chemotherapy\", \"Arm D: Platinum doublet chemotherapy\"], \"brief_title\": \"An Investigational Immuno-therapy Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum-doublet Chemotherapy, Compared to Platinum Doublet Chemotherapy in Patients With Stage IV Non-Small Cell Lung Cancer (NSCLC)\", \"candidate_control_arm_labels\": [], \"conditions\": [\"Non-Small Cell Lung Cancer\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Carboplatin\", \"Cisplatin\", \"Gemcitabine\", \"Pemetrexed\", \"Paclitaxel\"]}, \"nct\": \"NCT02477826\", \"row\": {\"NCT\": \"NCT02477826\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"Checkmate 227\"}, \"trial_name\": \"Checkmate 227\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Nivolumab + Placebo\", \"Nivolumab + Ipilimumab\", \"Double Placebo Control\"], \"brief_title\": \"Immunotherapy With Nivolumab or Nivolumab Plus Ipilimumab vs. Double Placebo for Stage IV Melanoma w. NED\", \"candidate_control_arm_labels\": [\"Nivolumab + Placebo\", \"Nivolumab + Ipilimumab\", \"Double Placebo Control\"], \"conditions\": [\"Malignant Melanoma\"], \"intervention_names\": [\"Nivolumab + Placebo\", \"Nivolumab + Ipilimumab\", \"Double Placebo Control\"]}, \"nct\": \"NCT02523313\", \"row\": {\"NCT\": \"NCT02523313\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"IMMUNED\"}, \"trial_name\": \"IMMUNED\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg\", \"Arm B: Sunitinib 50 mg\"], \"brief_title\": \"Nivolumab Combined With Ipilimumab Versus Sunitinib in Previously Untreated Advanced or Metastatic Renal Cell Carcinoma (CheckMate 214)\", \"candidate_control_arm_labels\": [\"Arm B: Sunitinib 50 mg\"], \"conditions\": [\"Advanced Renal Cell Carcinoma\", \"Metastatic Renal Cell Carcinoma\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Sunitinib\"]}, \"nct\": \"NCT02231749\", \"row\": {\"NCT\": \"NCT02231749\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"CheckMate 214\"}, \"trial_name\": \"CheckMate 214\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate743\", \"arm_group_labels\": [\"Nivolumab and Ipilimumab\", \"Pemetrexed and Cisplatin (or Carboplatin)\"], \"brief_title\": \"Study of Nivolumab Combined With Ipilimumab Versus Pemetrexed and Cisplatin or Carboplatin as First Line Therapy in Unresectable Pleural Mesothelioma Patients\", \"candidate_control_arm_labels\": [\"Pemetrexed and Cisplatin (or Carboplatin)\"], \"conditions\": [\"Mesothelioma\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Pemetrexed\", \"Cisplatin\", \"Carboplatin\"]}, \"nct\": \"NCT02899299\", \"row\": {\"NCT\": \"NCT02899299\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"CheckMate 743\"}, \"trial_name\": \"CheckMate 743\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 9LA\", \"arm_group_labels\": [\"Module A\", \"Module B\"], \"brief_title\": \"A Study of Nivolumab and Ipilimumab Combined With Chemotherapy Compared to Chemotherapy Alone in First Line NSCLC\", \"candidate_control_arm_labels\": [\"Module B\"], \"conditions\": [\"Non-Small Cell Lung Cancer\"], \"intervention_names\": [\"Ipilimumab\", \"Nivolumab\", \"Carboplatin\", \"Paclitaxel\", \"Pemetrexed\", \"Cisplatin\"]}, \"nct\": \"NCT03215706\", \"row\": {\"NCT\": \"NCT03215706\", \"Treatment regimen\": \"Nivolumab+Ipilimumab+Chemotherapy\", \"Trial name\": \"CheckMate 9LA\"}, \"trial_name\": \"CheckMate 9LA\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 451\", \"arm_group_labels\": [\"Nivolumab monotherapy\", \"Nivolumab and ipilimumab combination therapy\", \"Placebo\"], \"brief_title\": \"An Investigational Immuno-therapy Study of Nivolumab, or Nivolumab in Combination With Ipilimumab, or Placebo in Patients With Extensive-Stage Disease Small Cell Lung Cancer (ED-SCLC) After Completion of Platinum-based Chemotherapy\", \"candidate_control_arm_labels\": [\"Placebo\"], \"conditions\": [\"Lung Cancer\"], \"intervention_names\": [\"Nivolumab\", \"Ipilimumab\", \"Placebo\"]}, \"nct\": \"NCT02538666\", \"row\": {\"NCT\": \"NCT02538666\", \"Treatment regimen\": \"Nivolumab+Ipilimumab\", \"Trial name\": \"CheckMate 451\"}, \"trial_name\": \"CheckMate 451\"}",
+  "planner_raw_output": "{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"interventions\", \"arm_groups\", \"candidate_control_arms\"], \"focus\": \"identify additional agents in the treatment regimen beyond Nivolumab and Ipilimumab\", \"notes\": \"The question asks for additional agents in the treatment regimen, so metadata about interventions, arm groups, and control arms is necessary to determine the full regimen.\"}",
+  "planner_error": "",
+  "planner_meta": {
+    "response_id": "chatcmpl-982e5d54a1068bc1",
+    "finish_reason": "stop",
+    "prompt_tokens": 2594,
+    "completion_tokens": 85,
+    "total_tokens": 2679
+  },
+  "selected_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT02231749",
+      "trial_name": "CheckMate 214",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558",
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT02231749",
+      "trial_name": "CheckMate 214",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558",
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT02477826",
+      "trial_name": "Checkmate 227",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab",
+              "Arm B: Nivolumab + Ipilimumab",
+              "Arm C: Nivolumab + Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm B: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Gemcitabine",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Pemetrexed",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab + Ipilimumab IV as specified",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenously (IV) as specified",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab + Platinum doublet chemotherapy (IV) dose as specified",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Gemcitabine",
+              "Drug: Pemetrexed",
+              "Drug: Paclitaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": []
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT02477826",
+      "trial_name": "Checkmate 227",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab",
+              "Arm B: Nivolumab + Ipilimumab",
+              "Arm C: Nivolumab + Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm B: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Gemcitabine",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Pemetrexed",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab + Ipilimumab IV as specified",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenously (IV) as specified",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab + Platinum doublet chemotherapy (IV) dose as specified",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Gemcitabine",
+              "Drug: Pemetrexed",
+              "Drug: Paclitaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": []
+      }
+    },
+    {
+      "row_index": 5,
+      "nct": "NCT02523313",
+      "trial_name": "IMMUNED",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab + Placebo",
+            "description": "Nivolumab will be applied at a dose of 3 mg/kg given as IV infusion every 2 weeks for up to 1 year after initial dosing or until PD + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10.",
+            "other_names": [
+              "Treatment Arm A"
+            ],
+            "arm_group_labels": [
+              "Nivolumab + Placebo"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Nivolumab + Ipilimumab",
+            "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) will be applied as IV infusion every 3 weeks for 4 doses. Both study drugs are to be administered on the same day over the first 12 weeks + Nivolumab-Placebo on weeks 3, 5, 9 and 11. After week 12 Nivolumab is given as maintenance and will be applied at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "other_names": [
+              "Treatment Arm B"
+            ],
+            "arm_group_labels": [
+              "Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Double Placebo Control",
+            "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab will be applied as IV infusion every 3 weeks for 4 doses. Both placebos are to be administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab is given as maintenance and will be applied intravenously every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "other_names": [
+              "Treatment Arm C"
+            ],
+            "arm_group_labels": [
+              "Double Placebo Control"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Nivolumab + Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nivolumab (3 mg/kg) i.v. every 2 weeks + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10",
+            "intervention_names": [
+              "Drug: Nivolumab + Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) i.v. every 3 weeks for 4 doses. Both study drugs are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12: Nivolumab as maintenance and at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "label": "Double Placebo Control",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab i.v. every 3 weeks for 4 doses. Both placebos are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab as maintenance and applied as IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Double Placebo Control"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Nivolumab + Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nivolumab (3 mg/kg) i.v. every 2 weeks + Placebo instead of Ipilimumab on weeks 1, 4, 7 and 10 + Placebo instead of Nivolumab on weeks 4 and 10",
+            "intervention_names": [
+              "Drug: Nivolumab + Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab (1 mg/kg) and Ipilimumab (3 mg/kg) i.v. every 3 weeks for 4 doses. Both study drugs are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12: Nivolumab as maintenance and at a dose of 3 mg/kg IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "label": "Double Placebo Control",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo instead of Nivolumab and Placebo instead of Ipilimumab i.v. every 3 weeks for 4 doses. Both placebos are administered on the same day over the first 12 weeks + Placebo instead of Nivolumab on weeks 3, 5, 9 and 11. After week 12 Placebo instead of Nivolumab as maintenance and applied as IV every 2 weeks for up to 1 year after initial dosing (of the combination) or until PD.",
+            "intervention_names": [
+              "Drug: Double Placebo Control"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 6,
+      "nct": "NCT02231749",
+      "trial_name": "CheckMate 214",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558",
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab 3 mg/kg combined with Ipilimumab 1 mg/kg solutions intravenously every 3 weeks for 4 doses then Nivolumab 3 mg/kg solutions intravenously every 2 weeks until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Sunitinib 50 mg capsules by mouth once daily for 4 weeks then 2 weeks off, continuously until documented disease progression, discontinuation due to toxicity, withdrawal of consent or the study ends\n\nAfter completion of final analysis eligible participants may switch from receiving Sunitinib to receiving Nivolumab 3 mg/kg IV combined with Ipilimumab 1 mg/kg IV every 3 weeks for 4 doses then Nivolumab 240mg flat dose IV every 2 weeks",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 7,
+      "nct": "NCT02899299",
+      "trial_name": "CheckMate 743",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558",
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and Ipilimumab"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "BMS-734016",
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and Ipilimumab"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Specified dose on specified days",
+            "intervention_names": [
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Nivolumab and Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Specified dose on specified days",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Specified dose on specified days",
+            "intervention_names": [
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 8,
+      "nct": "NCT03215706",
+      "trial_name": "CheckMate 9LA",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Yervoy, BMS734016"
+            ],
+            "arm_group_labels": [
+              "Module A"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": "Specified dose on specified day",
+            "other_names": [
+              "Opdivo, BMS936558"
+            ],
+            "arm_group_labels": [
+              "Module A"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Module B",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Chemotherapy Combination",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          },
+          {
+            "label": "Module A",
+            "type": "EXPERIMENTAL",
+            "description": "Chemotherapy/Biologics combined",
+            "intervention_names": [
+              "Biological: Ipilimumab",
+              "Biological: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Module B",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Chemotherapy Combination",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 9,
+      "nct": "NCT02538666",
+      "trial_name": "CheckMate 451",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "Opdivo"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy",
+              "Nivolumab monotherapy"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": null,
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab and ipilimumab combination therapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab and ipilimumab intravenous fusion",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Nivolumab monotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab intravenous fusion",
+            "intervention_names": [
+              "Biological: Nivolumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "prompt_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT02231749",
+      "trial_name": "CheckMate 214",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT02231749",
+      "trial_name": "CheckMate 214",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT02477826",
+      "trial_name": "Checkmate 227",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A: Nivolumab",
+              "Arm B: Nivolumab + Ipilimumab",
+              "Arm C: Nivolumab + Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Gemcitabine",
+              "Drug: Pemetrexed",
+              "Drug: Paclitaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": []
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT02477826",
+      "trial_name": "Checkmate 227",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A: Nivolumab",
+              "Arm B: Nivolumab + Ipilimumab",
+              "Arm C: Nivolumab + Platinum doublet chemotherapy"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm C: Nivolumab + Platinum doublet chemotherapy",
+              "Arm D: Platinum doublet chemotherapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm C: Nivolumab + Platinum doublet chemotherapy",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Cisplatin",
+              "Drug: Gemcitabine",
+              "Drug: Pemetrexed",
+              "Drug: Paclitaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": []
+      }
+    },
+    {
+      "row_index": 5,
+      "nct": "NCT02523313",
+      "trial_name": "IMMUNED",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab + Placebo",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Nivolumab + Placebo"
+            ]
+          },
+          {
+            "name": "Nivolumab + Ipilimumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "name": "Double Placebo Control",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Double Placebo Control"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Nivolumab + Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Nivolumab + Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "label": "Double Placebo Control",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Drug: Double Placebo Control"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Nivolumab + Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Nivolumab + Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Drug: Nivolumab + Ipilimumab"
+            ]
+          },
+          {
+            "label": "Double Placebo Control",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Drug: Double Placebo Control"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 6,
+      "nct": "NCT02231749",
+      "trial_name": "CheckMate 214",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+              "Arm B: Sunitinib 50 mg"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          },
+          {
+            "label": "Arm A: Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Sunitinib 50 mg",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab",
+              "Drug: Sunitinib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 7,
+      "nct": "NCT02899299",
+      "trial_name": "CheckMate 743",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Nivolumab and Ipilimumab"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Nivolumab and Ipilimumab"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          },
+          {
+            "label": "Nivolumab and Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Pemetrexed and Cisplatin (or Carboplatin)",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 8,
+      "nct": "NCT03215706",
+      "trial_name": "CheckMate 9LA",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Module A"
+            ]
+          },
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Module A"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Module B",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          },
+          {
+            "label": "Module A",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Ipilimumab",
+              "Biological: Nivolumab",
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Module B",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Pemetrexed",
+              "Drug: Cisplatin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 9,
+      "nct": "NCT02538666",
+      "trial_name": "CheckMate 451",
+      "selected_ctgov_evidence": {
+        "interventions": [
+          {
+            "name": "Placebo",
+            "type": "OTHER",
+            "arm_group_labels": [
+              "Placebo"
+            ]
+          },
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy",
+              "Nivolumab monotherapy"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Nivolumab and ipilimumab combination therapy"
+            ]
+          }
+        ],
+        "arm_groups": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          },
+          {
+            "label": "Nivolumab and ipilimumab combination therapy",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Nivolumab monotherapy",
+            "type": "EXPERIMENTAL",
+            "intervention_names": [
+              "Biological: Nivolumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Other: Placebo"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

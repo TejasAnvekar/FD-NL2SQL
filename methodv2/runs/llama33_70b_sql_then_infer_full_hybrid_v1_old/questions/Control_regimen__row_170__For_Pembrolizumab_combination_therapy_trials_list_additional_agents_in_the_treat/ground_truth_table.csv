@@ -1,0 +1,21 @@
+row_index,NCT,Trial name,Treatment regimen,Control regimen
+1,NCT02853331,KEYNOTE-426,Pembrolizumab+Axitinib,Sunitinib
+2,NCT02039674,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,Pemetrexed+Carboplatin
+3,NCT02039674,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,Pemetrexed+Carboplatin
+4,NCT02578680,Keynote-189,Pembrolizumab+Platinum agent,Placebo+Pemetrexed+Platinum agent
+5,NCT02775435,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,Placebo+Carboplatin+paclitaxel/nab-paclitaxel
+6,NCT02130466,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,Dabrafenib+trametinib+placebo
+7,NCT02576977,KEYNOTE-183,Pembrolizumab+Pomalidomide+Dexamethasone,Pomalidomide+Dexamethasone
+8,NCT02579863,KEYNOTE-185,Pembrolizumab+Lenalidomide+Dexamethasone,Lenalidomide+Dexamethasone
+9,NCT01042379,I-SPY2,Pembrolizumab+Paclitaxel,Paclitaxel+Doxorubicin+Cyclophosphamide
+10,NCT02358031,KEYNOTE-048,Pembrolizumab+Platinum agent+5-Fluorouracil,Cetuximab+Platinum agent+5-fluorouracil
+11,NCT02362048,KEYNOTE144,Pembrolizumab+Acalabrutinib,Acalabrutinib
+12,NCT03036488,KEYNOTE-522,Pembrolizumab+Paclitaxel+Carboplatin,Placebo+Paclitaxel+Carboplatin
+13,NCT03066778,KEYNOTE-604,Pembrolizumab+Etoposide+Platinum agent,Placebo+Etoposide+Platinum agent
+14,NCT02574598,PROLUNG,Pembrolizumab+ Docetaxel,Docetaxel
+15,NCT03051659,,Pembrolizumab+Eribulin,Eribulin
+16,NCT02494583,Keynote-062,Pembrolizumab+Cisplatin+5-FU+Capecitabine,Placebo+Cisplatin+5-FU+Capecitabine
+17,NCT02819518,MK-3475/Keynote-355,Pembrolizumab+nab-paclitaxel/paclitaxel/gemcitabine+ carboplatin,Placebo+Nab-paclitaxel/Gemcitabine+carboplatin
+18,NCT02853331,Keynote-426,Pembrolizumab+Axitinib,Sunitinib
+19,NCT02130466,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,Dabrafenib+trametinib+placebo
+20,NCT02811861,CLEAR,Pembrolizumab+Lenvatinib,Sunitinib

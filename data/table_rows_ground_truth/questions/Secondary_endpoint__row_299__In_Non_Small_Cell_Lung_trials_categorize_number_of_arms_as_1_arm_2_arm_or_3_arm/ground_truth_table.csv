@@ -1,0 +1,48 @@
+row_index,NCT,PubMed ID,Number of arms,Secondary endpoint
+1,,,3,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate"
+2,,,3,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate"
+3,,,2,"OR, PFS, PRO"
+4,,,2,"OR, PFS, PRO"
+5,,,3,"RR, DOR"
+6,,,3,"RR, DOR"
+7,,,2,"ORR, PFS, DOR,OR"
+8,,,2,"OS,PFS(PD-L1),RR,"
+9,,,2,"PFS, ORR, DOR, safety"
+10,,,2,"12-18 month PSA, DOR, ORR, Time to death, secondary progression, safety"
+11,,,2,"Time to death, secondary progression, safety"
+12,,,2,"PFS, ORR, , BOR, PRO, Safety"
+13,,,2,"PFS, DOR, OS"
+14,,,2,"PFS, DOR, OS"
+15,,,2,"PFS, ORR, DoR"
+16,,,2,"PFS, ORR, DoR"
+17,,,2,"ORR, DOR, safety"
+18,,,2,"ORR, DOR, safety"
+19,,,3,"PFS, OS in ITT population"
+20,,,3,"PFS, OS in ITT population"
+21,,,3,PFS with nivolumab VS chemotherapy among patients with a TMB of at least 13 mutations per megabase and a PD-L1 expression level of >= 1%; OS with nivolumab + ipilimumab VS platinum doublet chemotherapy among patients with a TMB of >=10 mutations per megabase
+22,,,3,PFS with nivolumab VS chemotherapy among patients with a TMB of at least 13 mutations per megabase and a PD-L1 expression level of >= 1%; OS with nivolumab + ipilimumab VS platinum doublet chemotherapy among patients with a TMB of >=10 mutations per megabase
+23,,,4,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%
+24,,,4,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%
+25,,,4,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%
+26,,,2,"PFS, ORR in pts with PD-L1 TPS of >=50%; >=20%; >=1%"
+27,,,2,"OS, ORR, safety"
+28,,,2,
+29,,,2,
+30,,,2,
+31,,,4,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.
+32,,,4,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.
+33,,,4,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.
+34,,,3,PFS for durvalumab vs. chemotherapy; ORR and DOR in patients with PD-L1 TC ≥25%; safety and tolerability.
+35,,,3,PFS for durvalumab vs. chemotherapy; ORR and DOR in patients with PD-L1 TC ≥25%; safety and tolerability.
+36,,,3,"ORR, DOR, PFS and OS in PD-L1 subgroups and T-effector population; safety."
+37,,,3,"ORR, DOR, PFS and OS in PD-L1 subgroups and T-effector population; safety."
+38,,,2,"PFS, OS, safety"
+39,,,2,"OS, ORR, safety"
+40,,,2,"investigator-assessed PFS, DOR"
+41,,,2,
+42,,,2,
+43,,,2,PFS; ORR
+44,,,2,ORR; DoR; HRQOL; safety
+45,,,2,OS; DoR; safety; HRQOL

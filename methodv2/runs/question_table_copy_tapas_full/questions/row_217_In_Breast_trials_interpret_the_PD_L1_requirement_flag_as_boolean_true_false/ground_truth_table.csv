@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT02425891,30345906,IMpassion130,No,false,"{""pd_l1_required"": false}"
+2,NCT02685059,31095287,GeparNuevo,No,false,"{""pd_l1_required"": false}"
+3,NCT01042379,32053137,I-SPY2,No,false,"{""pd_l1_required"": false}"
+4,NCT02425891,31786121,IMpassion130,No,false,"{""pd_l1_required"": false}"
+5,NCT03036488,32101663,KEYNOTE-522,No,false,"{""pd_l1_required"": false}"
+6,NCT03051659,32880602,,No,false,"{""pd_l1_required"": false}"
+7,NCT02819518,33278935,MK-3475/Keynote-355,Yes,true,"{""pd_l1_required"": true}"
+8,NCT03197935,32966830,IMpassion031,No,false,"{""pd_l1_required"": false}"
+9,NCT02924883,33002436,KATE2,No,false,"{""pd_l1_required"": false}"
+10,NCT02299999,33462450,SAFIR02-BREAST IMMUNO,No,false,"{""pd_l1_required"": false}"
+11,NCT02555657,33676601,Keynote-119,No,false,"{""pd_l1_required"": false}"

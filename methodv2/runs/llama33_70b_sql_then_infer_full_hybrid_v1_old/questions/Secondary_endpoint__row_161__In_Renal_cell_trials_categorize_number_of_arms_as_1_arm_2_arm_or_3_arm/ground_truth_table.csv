@@ -1,0 +1,20 @@
+row_index,NCT,Trial name,Number of arms,Secondary endpoint
+1,NCT01668784,CheckMate 025,2,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events."
+2,NCT01984242,IMmotion150,3,"Investigator-assessed PFS; ORR; 
+DOR; OS; patient-reported outcomes; safety."
+3,NCT01984242,IMmotion150,3,"Investigator-assessed PFS; ORR; 
+DOR; OS; patient-reported outcomes; safety."
+4,NCT02231749,CheckMate 214,2,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients. | ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients. | ORR, PFS and OS in ITT population; incidence rate of AEs."
+5,NCT02231749,CheckMate 214,2,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients. | ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients. | ORR, PFS and OS in ITT population; incidence rate of AEs."
+6,NCT02684006,JAVELIN Renal 101,2,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.
+7,NCT02853331,KEYNOTE-426,2,ORR; duration of response; safety
+8,NCT02420821,IMmotion151,2,OS in PD-L1 positive population; PFS in the ITT population; proportion of patients who achieved an objective response; duration of response; patient-reported outcomes; safety
+9,NCT02231749,CheckMate 214,2,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients. | ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients. | ORR, PFS and OS in ITT population; incidence rate of AEs."
+10,NCT01668784,CheckMate 025,2,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events."
+11,NCT02684006,JAVELIN Renal 101,2,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.
+12,NCT02853331,Keynote-426,2,"ORR, DoR, safety, tolerability"
+13,NCT02811861,CLEAR,3,OS; ORR; safety; investigator-assessed PFS
+14,NCT03141177,CheckMate 9ER,2,OS; ORR; safety

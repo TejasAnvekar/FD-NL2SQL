@@ -1,0 +1,15 @@
+row_index,NCT,Trial name,Number of arms,Cancer type,Secondary endpoint
+1,NCT00527735,,3,Small Cell Lung,Overall Survival
+2,NCT00527735,,3,Small Cell Lung,Overall Survival
+3,NCT01450761,CA184-156,2,Small Cell Lung,Progression-Free Survival
+4,NCT02763579,IMPower 133,2,Small Cell Lung,Progression-Free Survival
+5,NCT03059667,IFCT-1603,2,Small Cell Lung,Overall Survival
+6,NCT03043872,CASPIAN,3,Small Cell Lung,Overall Survival
+7,NCT03043872,CASPIAN,3,Small Cell Lung,Overall Survival
+8,NCT02763579,IMpower133,2,Small Cell Lung,Progression-Free Survival
+9,NCT03066778,KEYNOTE-604,2,Small Cell Lung,Progression-Free Survival
+10,NCT03043872,CASPIAN,3,Small Cell Lung,Overall Survival
+11,NCT03043872,CASPIAN,3,Small Cell Lung,Overall Survival
+12,NCT02481830,CheckMate 331,2,Small Cell Lung,Overall Survival
+13,NCT02538666,CheckMate 451,3,Small Cell Lung,Overall Survival
+14,NCT02538666,CheckMate 451,3,Small Cell Lung,Overall Survival

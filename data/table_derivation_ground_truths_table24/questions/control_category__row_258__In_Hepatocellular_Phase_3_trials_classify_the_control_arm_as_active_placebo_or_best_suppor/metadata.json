@@ -1,0 +1,14 @@
+{
+  "item_id": "row_258",
+  "csv_row_number": 258,
+  "expected_key": "control_category",
+  "question": "In Hepatocellular Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_llm_response": "{\"control_category\": \"placebo\"}",
+  "derivation_expression": "derive_control_category(source_value)",
+  "derivation_notes": "Classify the control arm as placebo / active / best supportive care.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control arm\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_category(source_value) AS \"control_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/control_category__row_258__In_Hepatocellular_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_suppor/ground_truth_table.csv",
+  "row_count": 2,
+  "null_value_count": 0
+}

@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT02684292,33721562,Keynote-204,304.0,large,"{""size_bucket"": ""large""}"

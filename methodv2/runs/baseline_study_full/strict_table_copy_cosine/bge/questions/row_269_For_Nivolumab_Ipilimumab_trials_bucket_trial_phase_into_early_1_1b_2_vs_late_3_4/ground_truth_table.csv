@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT02231749,29562145,CheckMate 214,Phase 3,late,"{""phase_bucket"": ""late""}"
+2,NCT02231749,31427204,CheckMate 214,Phase 3,late,"{""phase_bucket"": ""late""}"
+3,NCT02477826,29658845,Checkmate 227,Phase 3,late,"{""phase_bucket"": ""late""}"
+4,NCT02477826,31562796,Checkmate 227,Phase 3,late,"{""phase_bucket"": ""late""}"
+5,NCT02523313,32416781,IMMUNED,Phase 2,early,"{""phase_bucket"": ""early""}"
+6,NCT02231749,32661118,CheckMate 214,Phase 3,late,"{""phase_bucket"": ""late""}"
+7,NCT02899299,33485464,CheckMate 743,Phase 3,late,"{""phase_bucket"": ""late""}"
+8,NCT03215706,33476593,CheckMate 9LA,Phase 3,late,"{""phase_bucket"": ""late""}"
+9,NCT02538666,33683919,CheckMate 451,Phase 3,late,"{""phase_bucket"": ""late""}"

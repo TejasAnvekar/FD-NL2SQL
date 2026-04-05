@@ -1,0 +1,18 @@
+{
+  "item_id": "row_179",
+  "csv_row_number": 179,
+  "question": "In NSCLC trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "sql_query": "SELECT \"Originial publication or Follow-up\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC';",
+  "ground_truth_column": "Originial publication or Follow-up",
+  "target_pairs": [
+    {
+      "output_name": "Originial publication or Follow-up",
+      "db_column": "Originial publication or Follow-up"
+    }
+  ],
+  "visible_columns": [
+    "Originial publication or Follow-up"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Originial publication or Follow-up\" FROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Originial_publication_or_Follow_up__row_179__In_NSCLC_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_table.csv"
+}

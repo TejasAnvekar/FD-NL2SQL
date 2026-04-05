@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02425891,30345906,IMpassion130,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+2,NCT02685059,31095287,GeparNuevo,Durvalumab,PD-L1,"{""class"": ""PD-L1""}"
+3,NCT01042379,32053137,I-SPY2,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+4,NCT02425891,31786121,IMpassion130,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+5,NCT03036488,32101663,KEYNOTE-522,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+6,NCT03051659,32880602,,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+7,NCT02819518,33278935,MK-3475/Keynote-355,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+8,NCT03197935,32966830,IMpassion031,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+9,NCT02924883,33002436,KATE2,Atezolizumab+Trastuzumab emtansine+Placebo,PD-L1,"{""class"": ""PD-L1""}"
+10,NCT02299999,33462450,SAFIR02-BREAST IMMUNO,Durvalumab,PD-L1,"{""class"": ""PD-L1""}"
+11,NCT02555657,33676601,Keynote-119,Chemotherapy,,"{""class"": null}"

@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT02657434,33333328,Impower 132,Original publication,false,"{""is_follow_up"": false}"

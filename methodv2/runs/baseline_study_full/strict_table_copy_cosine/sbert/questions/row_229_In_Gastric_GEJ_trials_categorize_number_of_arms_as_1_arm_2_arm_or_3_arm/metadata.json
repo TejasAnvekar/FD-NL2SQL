@@ -1,0 +1,11 @@
+{
+  "item_id": "row_229",
+  "csv_row_number": 229,
+  "question": "In Gastric/GEJ trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_229_In_Gastric_GEJ_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/arm_category__row_229__In_Gastric_GEJ_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm"
+}

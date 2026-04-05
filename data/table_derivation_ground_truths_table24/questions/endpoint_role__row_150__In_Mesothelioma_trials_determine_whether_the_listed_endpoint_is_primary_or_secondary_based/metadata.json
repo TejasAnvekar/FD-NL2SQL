@@ -1,0 +1,14 @@
+{
+  "item_id": "row_150",
+  "csv_row_number": 150,
+  "expected_key": "endpoint_role",
+  "question": "In Mesothelioma trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_llm_response": "{\"endpoint_role\": \"secondary\"}",
+  "derivation_expression": "derive_endpoint_role(source_value, \"Secondary endpoint\")",
+  "derivation_notes": "Infer endpoint role from the source column context.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Mesothelioma'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_role(source_value, \"Secondary endpoint\") AS \"endpoint_role\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/endpoint_role__row_150__In_Mesothelioma_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based/ground_truth_table.csv",
+  "row_count": 3,
+  "null_value_count": 0
+}

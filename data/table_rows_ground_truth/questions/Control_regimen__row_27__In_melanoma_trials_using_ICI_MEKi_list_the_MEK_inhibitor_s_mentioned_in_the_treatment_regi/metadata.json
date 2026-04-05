@@ -1,0 +1,18 @@
+{
+  "item_id": "row_27",
+  "csv_row_number": 27,
+  "question": "In melanoma trials using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.",
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+MEKi';",
+  "ground_truth_column": "Control regimen",
+  "target_pairs": [
+    {
+      "output_name": "Control regimen",
+      "db_column": "Control regimen"
+    }
+  ],
+  "visible_columns": [
+    "Treatment regimen"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Treatment regimen\", \"Control regimen\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+MEKi';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Control_regimen__row_27__In_melanoma_trials_using_ICI_MEKi_list_the_MEK_inhibitor_s_mentioned_in_the_treatment_regi/ground_truth_table.csv"
+}

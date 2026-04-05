@@ -1,0 +1,28 @@
+{
+  "item_id": "row_250",
+  "csv_row_number": 250,
+  "question": "In Hepatocellular trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "predicted_answer": "IMpower110 | KATE2 | Keynote-426 | KEYNOTE-181 | KEYNOTE-022 | MK-3475/Keynote-177 | EORTC 1325-MG/KEYNOTE-054 | SAFIR02-BREAST IMMUNO | EMPOWER-Lung 1 | JAVELIN Head and Neck 101",
+  "selected_cells": [
+    "IMpower110",
+    "KATE2",
+    "Keynote-426",
+    "KEYNOTE-181",
+    "KEYNOTE-022",
+    "MK-3475/Keynote-177",
+    "EORTC 1325-MG/KEYNOTE-054",
+    "SAFIR02-BREAST IMMUNO",
+    "EMPOWER-Lung 1",
+    "JAVELIN Head and Neck 101"
+  ],
+  "aggregation_prediction": 3,
+  "chunk_score": 80.3136978149414,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv"
+}

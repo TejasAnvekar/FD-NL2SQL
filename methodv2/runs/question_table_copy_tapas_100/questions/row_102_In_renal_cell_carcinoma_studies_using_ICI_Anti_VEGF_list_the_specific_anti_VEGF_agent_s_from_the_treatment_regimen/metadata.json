@@ -1,0 +1,19 @@
+{
+  "item_id": "row_102",
+  "csv_row_number": 102,
+  "question": "In renal cell carcinoma studies using ICI+Anti-VEGF, list the specific anti-VEGF agent(s) from the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "anti_vegf_agents"
+  ],
+  "predicted_answer": "Atezolizumab",
+  "selected_cells": [
+    "Atezolizumab"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 103.21417236328125,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/ground_truth_table.csv"
+}

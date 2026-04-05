@@ -1,0 +1,4 @@
+model_name,view_name,row_count,avg_exact_match,avg_similarity,avg_cosine_score
+bert,column,14,1.0,1.0,1.0000000170298986
+bert,row,14,1.0,1.0,0.9987604660647256
+bert,tuple,14,1.0,1.0,0.9994770543915885

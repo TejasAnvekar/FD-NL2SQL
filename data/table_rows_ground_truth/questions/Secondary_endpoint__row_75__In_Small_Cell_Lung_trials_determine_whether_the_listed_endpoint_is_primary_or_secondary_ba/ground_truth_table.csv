@@ -1,0 +1,15 @@
+row_index,NCT,PubMed ID,Secondary endpoint
+1,,,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)"
+2,,,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)"
+3,,,"PFS, ORR, DOR"
+4,,,"ORR, DOR"
+5,,,"OS, PFS, RR, Disease progression/Death, QoL"
+6,,,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.
+7,,,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.
+8,,,Patient-reported outcomes
+9,,,ORR; DOR
+10,,,"PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+11,,,"PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+12,,,PFS; ORR; DoR
+13,,,OS in Arm 2 vs Arm 3; PFS
+14,,,OS in Arm 2 vs Arm 3; PFS

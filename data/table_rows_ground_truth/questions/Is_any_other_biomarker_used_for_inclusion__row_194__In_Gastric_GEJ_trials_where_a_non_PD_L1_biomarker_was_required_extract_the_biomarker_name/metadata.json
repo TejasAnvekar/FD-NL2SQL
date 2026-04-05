@@ -1,0 +1,18 @@
+{
+  "item_id": "row_194",
+  "csv_row_number": 194,
+  "question": "In Gastric/GEJ trials where a non–PD-L1 biomarker was required, extract the biomarker name(s) from the trial name.",
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ' AND \"Is any other biomarker used for inclusion\" = 'Yes';",
+  "ground_truth_column": "Is any other biomarker used for inclusion",
+  "target_pairs": [
+    {
+      "output_name": "Is any other biomarker used for inclusion",
+      "db_column": "Is any other biomarker used for inclusion"
+    }
+  ],
+  "visible_columns": [
+    "Trial name"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Is any other biomarker used for inclusion\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ' AND \"Is any other biomarker used for inclusion\" = 'Yes';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Is_any_other_biomarker_used_for_inclusion__row_194__In_Gastric_GEJ_trials_where_a_non_PD_L1_biomarker_was_required_extract_the_biomarker_name/ground_truth_table.csv"
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "row_252",
+  "csv_row_number": 252,
+  "question": "For Nivolumab, Ipilimumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab, Ipilimumab';",
+  "ground_truth_column": "Year",
+  "target_pairs": [
+    {
+      "output_name": "Year",
+      "db_column": "Year"
+    }
+  ],
+  "visible_columns": [
+    "Year"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Year\" FROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab, Ipilimumab';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Year__row_252__For_Nivolumab_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv"
+}

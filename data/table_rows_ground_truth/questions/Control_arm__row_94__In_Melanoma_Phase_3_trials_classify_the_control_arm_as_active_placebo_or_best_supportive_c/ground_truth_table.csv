@@ -1,0 +1,19 @@
+row_index,NCT,PubMed ID,Control arm
+1,,,Chemo
+2,,,Vaccine
+3,,,Vaccine
+4,,,Chemo
+5,,,Placebo
+6,,,Placebo
+7,,,Chemo
+8,,,Chemo
+9,,,Chemo
+10,,,Chemo
+11,,,Interferon
+12,,,Interferon
+13,,,BRAFi+MEKi
+14,,,Vaccine
+15,,,Vaccine
+16,,,Chemo
+17,,,Placebo
+18,,,Placebo

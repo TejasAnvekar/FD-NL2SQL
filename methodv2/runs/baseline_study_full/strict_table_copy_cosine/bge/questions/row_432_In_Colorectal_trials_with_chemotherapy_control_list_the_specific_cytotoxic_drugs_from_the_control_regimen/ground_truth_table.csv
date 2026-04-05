@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT02563002,33264544,MK-3475/Keynote-177,Oxaliplatin+ leucovorin+5-fluoropyrimidine/mFOLFOX6+bevacizumab/mFOLFOX6+cetuximab,"[""oxaliplatin"", ""leucovorin"", ""5-fluoropyrimidine"", ""mfolfox6"", ""bevacizumab"", ""cetuximab""]","{""control_drugs"": [""oxaliplatin"", ""leucovorin"", ""5-fluoropyrimidine"", ""mfolfox6"", ""bevacizumab"", ""cetuximab""]}"

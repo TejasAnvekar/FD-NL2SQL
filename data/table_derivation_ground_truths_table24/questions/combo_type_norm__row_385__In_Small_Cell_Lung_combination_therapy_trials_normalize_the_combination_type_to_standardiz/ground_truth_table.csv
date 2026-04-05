@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT00527735,22858559,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+2,NCT00527735,22858559,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+3,NCT01450761,27458307,CA184-156,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+4,NCT02763579,30280641,IMPower 133,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+5,NCT03043872,31590988,CASPIAN,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+6,NCT03043872,31590988,CASPIAN,ICI+ICI+Chemo,ICI+ICI+Chemo,"{""combo_type_norm"": ""ICI+ICI+Chemo""}"
+7,NCT02763579,31959349,IMpower133,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+8,NCT03066778,32468956,KEYNOTE-604,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+9,NCT03043872,33285097,CASPIAN,ICI+ICI+Chemo,ICI+ICI+Chemo,"{""combo_type_norm"": ""ICI+ICI+Chemo""}"
+10,NCT03043872,33285097,CASPIAN,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+11,NCT02538666,33683919,CheckMate 451,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"

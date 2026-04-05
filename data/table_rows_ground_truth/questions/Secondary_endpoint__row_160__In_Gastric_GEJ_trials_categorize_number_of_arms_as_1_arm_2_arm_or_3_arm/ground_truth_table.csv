@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Number of arms,Secondary endpoint
+1,,,2,"PFS by mWHO criteria, OS, immune-related best overall response rate (irBORR)"
+2,,,2,"PFS, ORR, disease control rate, DoR, time to response, best overall response, the maximum percentage change from baseline in the sum of diameters of target lesions."
+3,,,2,"PFS, ORR per independent review committee assessment, safety, tolerability"
+4,,,2,"ORR, DoR, in patients with PD-L1 CPS of 1 or higher and in the total population; PFS, OS in the total population; PFS in the population with CPS of 1 or higher and in the total population; and time to progression in the population with CPS of 1 or higher and in the total population; safety"
+5,,,2,"PFS, ORR, disease control rate, DoR, time to response, best overall response, the maximum percentage change from baseline in the sum of diameters of target lesions."
+6,,,3,"ORR, DoR, safety, tolerability, HRQOL"
+7,,,3,"ORR, DoR, safety, tolerability, HRQOL"
+8,,,2,"PFS, best overall response, DOR, safety"

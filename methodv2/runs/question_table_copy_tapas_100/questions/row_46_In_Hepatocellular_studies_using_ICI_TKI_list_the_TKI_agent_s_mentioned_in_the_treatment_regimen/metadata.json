@@ -1,0 +1,20 @@
+{
+  "item_id": "row_46",
+  "csv_row_number": 46,
+  "question": "In Hepatocellular studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "predicted_answer": "Atezolizumab | Pembrolizumab",
+  "selected_cells": [
+    "Atezolizumab",
+    "Pembrolizumab"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 56.89200973510742,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_46_In_Hepatocellular_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_46_In_Hepatocellular_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_46_In_Hepatocellular_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_table.csv"
+}

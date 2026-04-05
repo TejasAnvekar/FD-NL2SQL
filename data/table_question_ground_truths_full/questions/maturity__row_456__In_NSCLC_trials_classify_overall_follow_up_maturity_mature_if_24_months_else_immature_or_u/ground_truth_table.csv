@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT02657434,33333328,Impower 132,"PFS: 14.8, OS: 28.4",unknown,"{""maturity"": ""unknown""}"

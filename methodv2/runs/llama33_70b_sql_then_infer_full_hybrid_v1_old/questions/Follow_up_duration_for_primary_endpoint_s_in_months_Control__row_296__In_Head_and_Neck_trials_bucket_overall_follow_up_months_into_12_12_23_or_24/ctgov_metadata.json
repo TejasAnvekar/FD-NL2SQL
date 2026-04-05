@@ -1,0 +1,2747 @@
+{
+  "bundle": {
+    "ncts": [
+      "NCT02105636",
+      "NCT02358031",
+      "NCT02017717",
+      "NCT02369874",
+      "NCT02952586",
+      "NCT02999087"
+    ],
+    "summaries_by_nct": {
+      "NCT02105636": {
+        "nct_id": "NCT02105636",
+        "brief_title": "Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Head and Neck Carcinoma (CheckMate 141)",
+        "official_title": "An Open Label, Randomized Phase 3 Clinical Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Platinum-refractory Squamous Cell Carcinoma of the Head and Neck (SCCHN)",
+        "acronym": null,
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2014-04-03",
+        "study_first_post_date": {
+          "date": "2014-04-07",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2022-10-05",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Squamous Cell Carcinoma of the Head and Neck"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Arm A: Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Nivolumab 3mg/kg intravenous (IV) Solution for Injection every 2 weeks until disease progression",
+            "intervention_names": [
+              "Drug: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cetuximab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Methotrexate",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Docetaxel",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "32583557",
+          "31422216",
+          "30972702",
+          "30944020",
+          "29884413",
+          "28939066",
+          "28651929",
+          "27718784"
+        ]
+      },
+      "NCT02358031": {
+        "nct_id": "NCT02358031",
+        "brief_title": "A Study of Pembrolizumab (MK-3475) for First Line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (MK-3475-048/KEYNOTE-048)",
+        "official_title": "A Phase 3 Clinical Trial of Pembrolizumab (MK-3475) in First Line Treatment of Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma",
+        "acronym": null,
+        "organization": "Merck Sharp & Dohme LLC",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-02-03",
+        "study_first_post_date": {
+          "date": "2015-02-06",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-07-18",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Recurrent Head and Neck Cancer",
+          "Metastatic Head and Neck Cancer"
+        ],
+        "keywords": [
+          "Programmed Cell Death-1 (PD1, PD-1),",
+          "Programmed Cell Death Receptor Ligand 1 (PDL1, PD-L1)",
+          "Programmed Cell Death Receptor Ligand 2 (PDL2, PD-L2)",
+          "chemotherapy, 5-fluorouracil, cisplatin, carboplatin"
+        ],
+        "arm_groups": [
+          {
+            "label": "Pembrolizumab Monotherapy (Pembro Mono)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive pembrolizumab 200 mg intravenously (IV) on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years).",
+            "intervention_names": [
+              "Biological: Pembrolizumab"
+            ]
+          },
+          {
+            "label": "Pembrolizumab + Chemotherapy (Pembro Combo)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive pembrolizumab 200 mg IV on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years); plus cisplatin 100 mg/m\\^2 IV or carboplatin at a target area under the curve of 5 (AUC 5) IV, per Investigator's choice, on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Biological: Pembrolizumab",
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU"
+            ]
+          },
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Pembrolizumab",
+            "description": "Pembrolizumab 200 mg IV on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years).",
+            "other_names": [
+              "KEYTRUDA®",
+              "MK-3475"
+            ],
+            "arm_group_labels": [
+              "Pembrolizumab + Chemotherapy (Pembro Combo)",
+              "Pembrolizumab Monotherapy (Pembro Mono)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "Cisplatin 100 mg/m\\^2 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Carboplatin at a target AUC 5 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "5-FU",
+            "description": "5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Cetuximab",
+            "description": "Cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "40262400",
+          "39382718",
+          "37699333",
+          "36264378",
+          "36219809",
+          "35381576",
+          "35333599",
+          "31679945"
+        ]
+      },
+      "NCT02017717": {
+        "nct_id": "NCT02017717",
+        "brief_title": "A Study of the Effectiveness and Safety of Nivolumab Compared to Bevacizumab and of Nivolumab With or Without Ipilimumab in Glioblastoma Patients",
+        "official_title": "A Randomized Phase 3 Open Label Study of Nivolumab Versus Bevacizumab and Multiple Phase 1 Safety Cohorts of Nivolumab or Nivolumab in Combination With Ipilimumab Across Different Lines of Glioblastoma",
+        "acronym": "CheckMate 143",
+        "organization": "Bristol-Myers Squibb",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2013-12-17",
+        "study_first_post_date": {
+          "date": "2013-12-23",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-04-04",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Recurrent Glioblastoma"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Arm N:Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Cohort 1, 1c, 1d and 2: Nivolumab specified dose on specified days",
+            "intervention_names": [
+              "Biological: Nivolumab"
+            ]
+          },
+          {
+            "label": "Arm N + I:Nivolumab + Ipilimumab",
+            "type": "EXPERIMENTAL",
+            "description": "Cohort 1: Nivolumab specified dose on specified days + Ipilimumab specified dose on specified days, then Nivolumab specified dose on specified days\n\nCohort 1b: Nivolumab specified dose on specified days + Ipilimumab specified dose on specified days, then Nivolumab specified dose on specified days",
+            "intervention_names": [
+              "Biological: Nivolumab",
+              "Biological: Ipilimumab"
+            ]
+          },
+          {
+            "label": "Arm B: Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cohort 2: Bevacizumab specified dose on specified days",
+            "intervention_names": [
+              "Biological: Bevacizumab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": "specified dose on specified days",
+            "other_names": [
+              "BMS-936558"
+            ],
+            "arm_group_labels": [
+              "Arm N + I:Nivolumab + Ipilimumab",
+              "Arm N:Nivolumab"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Bevacizumab",
+            "description": "specified dose on specified days",
+            "other_names": [
+              "Avastin"
+            ],
+            "arm_group_labels": [
+              "Arm B: Bevacizumab"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": "specified dose on specified days",
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm N + I:Nivolumab + Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cohort 2: Bevacizumab specified dose on specified days",
+            "intervention_names": [
+              "Biological: Bevacizumab"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "39777725",
+          "32691060",
+          "32437507",
+          "30522968"
+        ]
+      },
+      "NCT02369874": {
+        "nct_id": "NCT02369874",
+        "brief_title": "Study of MEDI4736 Monotherapy and in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Head and Neck Cancer",
+        "official_title": "A Phase III Randomized, Open-Label, Multi-Center, Global Study of MEDI4736 Monotherapy and MEDI4736 in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck (SCCHN)",
+        "acronym": "EAGLE",
+        "organization": "AstraZeneca",
+        "overall_status": "COMPLETED",
+        "study_first_submit_date": "2015-02-18",
+        "study_first_post_date": {
+          "date": "2015-02-24",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2021-02-10",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Recurrent or Metastatic PD-L1-positive or -Negative Squamous Cell Carcinoma of the Head and Neck SCCHN"
+        ],
+        "keywords": [
+          "Head and Neck cancer; MEDI4736; Tremelimumab"
+        ],
+        "arm_groups": [
+          {
+            "label": "MEDI4736",
+            "type": "EXPERIMENTAL",
+            "description": "MEDI4736 monotherapy",
+            "intervention_names": [
+              "Drug: MEDI4736"
+            ]
+          },
+          {
+            "label": "MEDI4736 + Tremelimumab",
+            "type": "EXPERIMENTAL",
+            "description": "MEDI4736 + tremelimumab combination therapy",
+            "intervention_names": [
+              "Drug: MEDI4736 + Tremelimumab"
+            ]
+          },
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Standard of Care",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "MEDI4736",
+            "description": "MEDI4736 Monotherapy",
+            "other_names": [],
+            "arm_group_labels": [
+              "MEDI4736"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MEDI4736 + Tremelimumab",
+            "description": "MEDI4736 + Tremelimumab combination therapy",
+            "other_names": [],
+            "arm_group_labels": [
+              "MEDI4736 + Tremelimumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Standard of Care",
+            "description": "Standard of Care",
+            "other_names": [],
+            "arm_group_labels": [
+              "Standard of Care"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Standard of Care",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "32294530"
+        ]
+      },
+      "NCT02952586": {
+        "nct_id": "NCT02952586",
+        "brief_title": "Study To Compare Avelumab In Combination With Standard of Care Chemoradiotherapy (SoC CRT) Versus SoC CRT for Definitive Treatment In Patients With Locally Advanced Squamous Cell Carcinoma Of The Head And Neck (JAVELIN HEAD AND NECK 100)",
+        "official_title": "A RANDOMIZED DOUBLE-BLIND PHASE 3 STUDY OF AVELUMAB IN COMBINATION WITH STANDARD OF CARE CHEMORADIOTHERAPY (CISPLATIN PLUS DEFINITIVE RADIATION THERAPY) VERSUS STANDARD OF CARE CHEMORADIOTHERAPY IN THE FRONT-LINE TREATMENT OF PATIENTS WITH LOCALLY ADVANCED SQUAMOUS CELL CARCINOMA OF THE HEAD AND NECK",
+        "acronym": null,
+        "organization": "Pfizer",
+        "overall_status": "TERMINATED",
+        "study_first_submit_date": "2016-10-31",
+        "study_first_post_date": {
+          "date": "2016-11-02",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2021-09-22",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Squamous Cell Carcinoma of the Head and Neck"
+        ],
+        "keywords": [],
+        "arm_groups": [
+          {
+            "label": "Avelumab + SOC Chemoradiation Therapy",
+            "type": "EXPERIMENTAL",
+            "description": "* Avelumab 10 mg/kg IV: Day 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; and Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* Intensity Modulated Radiation Therapy (IMRT) 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+            "intervention_names": [
+              "Drug: Avelumab"
+            ]
+          },
+          {
+            "label": "Placebo + SOC CRT",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "* Placebo IV matching avelumab: Days 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* IMRT 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+            "intervention_names": [
+              "Other: Chemoradiation"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Avelumab",
+            "description": "Avelumab + SOC Chemoradiation",
+            "other_names": [],
+            "arm_group_labels": [
+              "Avelumab + SOC Chemoradiation Therapy"
+            ]
+          },
+          {
+            "type": "OTHER",
+            "name": "Chemoradiation",
+            "description": "Cisplatin + Radiation Therapy",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo + SOC CRT"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo + SOC CRT",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "* Placebo IV matching avelumab: Days 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* IMRT 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+            "intervention_names": [
+              "Other: Chemoradiation"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "33794205"
+        ]
+      },
+      "NCT02999087": {
+        "nct_id": "NCT02999087",
+        "brief_title": "Randomized Trial of Avelumab-cetuximab-radiotherapy Versus SOCs in LA SCCHN (REACH)",
+        "official_title": "A Phase III Randomized Trial of Avelumab-cetuximab-Radiotherapy Versus Standards of Care in Locally Advanced Squamous Cell Carcinoma of the Head and Neck",
+        "acronym": "REACH",
+        "organization": "Groupe Oncologie Radiotherapie Tete et Cou",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "study_first_submit_date": "2016-12-14",
+        "study_first_post_date": {
+          "date": "2016-12-21",
+          "type": "ESTIMATED"
+        },
+        "last_update_posted": {
+          "date": "2025-05-07",
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "HNSCC"
+        ],
+        "keywords": [
+          "Head and Neck cancer",
+          "Immunotherapy"
+        ],
+        "arm_groups": [
+          {
+            "label": "Arm A Patient FIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8) : no treatment\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cisplatin 100mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm B Patient FIT",
+            "type": "EXPERIMENTAL",
+            "description": "Lead-in phase (Day-8) : Cetuximab 400mg/m2 and avelumab 10mg/kg\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cetuximab 250mg/m2 and avelumab 10mg/kg\n\nMaintenance phase : avelumab 10mg/kg every 2 weeks during 12 months",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: avelumab",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm C Patient UNFIT",
+            "type": "EXPERIMENTAL",
+            "description": "Lead-in phase (Day-8) : Cetuximab 400mg/m2 and avelumab 10mg/kg\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2 and avelumab 10mg/kg\n\nMaintenance phase : avelumab 10mg/kg every 2 weeks during 12 months",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: avelumab",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm D Patient UNFIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8): Cetuximab 400mg/m2\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Radiation: IMRT"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Cetuximab",
+            "description": "Loading dose of 400 mg/m² IV on Day-8, followed by weekly dose of 250 mg/m² IV during the whole course of RT.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT",
+              "Arm D Patient UNFIT"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "avelumab",
+            "description": "IV infusion of avelumab (10 mg/kg over 1 hour) once every 2 weeks. Avelumab will start on Day-8 together with cetuximab and subsequently every 2 weeks during the course of RT. Avelumab with be continued every 2 weeks for an additional 12 months following RT.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "100 mg/m² IV after hyperhydration and at a maximal rate of 1 mg/min, on days 1, 22, 43.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A Patient FIT"
+            ]
+          },
+          {
+            "type": "RADIATION",
+            "name": "IMRT",
+            "description": "RT will be performed using IMRT (intensity modulated radiotherapy), with a simultaneous integrated boost (SIB) technique. RT dose to the GTV will be 69.96 Gy in 2.12 Gy daily fractions over 6.5 weeks (33 fractions). Prophylactic dose will be 52.8 Gy in 1.6 Gy daily fractions over 6.5 weeks (33 fractions).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A Patient FIT",
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT",
+              "Arm D Patient UNFIT"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm A Patient FIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8) : no treatment\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cisplatin 100mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm D Patient UNFIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8): Cetuximab 400mg/m2\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Radiation: IMRT"
+            ]
+          }
+        ],
+        "reference_pmids": [
+          "33125944"
+        ]
+      }
+    },
+    "errors_by_nct": {},
+    "rows_with_metadata": [
+      {
+        "row_index": 1,
+        "nct": "NCT02105636",
+        "trial_name": "CheckMate 141",
+        "ctgov_summary": {
+          "nct_id": "NCT02105636",
+          "brief_title": "Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Head and Neck Carcinoma (CheckMate 141)",
+          "official_title": "An Open Label, Randomized Phase 3 Clinical Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Platinum-refractory Squamous Cell Carcinoma of the Head and Neck (SCCHN)",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2014-04-03",
+          "study_first_post_date": {
+            "date": "2014-04-07",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2022-10-05",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Squamous Cell Carcinoma of the Head and Neck"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab 3mg/kg intravenous (IV) Solution for Injection every 2 weeks until disease progression",
+              "intervention_names": [
+                "Drug: Nivolumab"
+              ]
+            },
+            {
+              "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Drug: Methotrexate",
+                "Drug: Docetaxel"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "BMS-936558"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cetuximab",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B: Cetuximab/Methotrexate/Docetaxel"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Methotrexate",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B: Cetuximab/Methotrexate/Docetaxel"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Docetaxel",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B: Cetuximab/Methotrexate/Docetaxel"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Drug: Methotrexate",
+                "Drug: Docetaxel"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "32583557",
+            "31422216",
+            "30972702",
+            "30944020",
+            "29884413",
+            "28939066",
+            "28651929",
+            "27718784"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 2,
+        "nct": "NCT02105636",
+        "trial_name": "CheckMate 141",
+        "ctgov_summary": {
+          "nct_id": "NCT02105636",
+          "brief_title": "Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Head and Neck Carcinoma (CheckMate 141)",
+          "official_title": "An Open Label, Randomized Phase 3 Clinical Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Platinum-refractory Squamous Cell Carcinoma of the Head and Neck (SCCHN)",
+          "acronym": null,
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2014-04-03",
+          "study_first_post_date": {
+            "date": "2014-04-07",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2022-10-05",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Squamous Cell Carcinoma of the Head and Neck"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm A: Nivolumab",
+              "type": "EXPERIMENTAL",
+              "description": "Nivolumab 3mg/kg intravenous (IV) Solution for Injection every 2 weeks until disease progression",
+              "intervention_names": [
+                "Drug: Nivolumab"
+              ]
+            },
+            {
+              "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Drug: Methotrexate",
+                "Drug: Docetaxel"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nivolumab",
+              "description": null,
+              "other_names": [
+                "BMS-936558"
+              ],
+              "arm_group_labels": [
+                "Arm A: Nivolumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cetuximab",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B: Cetuximab/Methotrexate/Docetaxel"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Methotrexate",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B: Cetuximab/Methotrexate/Docetaxel"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Docetaxel",
+              "description": null,
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B: Cetuximab/Methotrexate/Docetaxel"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Drug: Methotrexate",
+                "Drug: Docetaxel"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "32583557",
+            "31422216",
+            "30972702",
+            "30944020",
+            "29884413",
+            "28939066",
+            "28651929",
+            "27718784"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 3,
+        "nct": "NCT02358031",
+        "trial_name": "KEYNOTE-048",
+        "ctgov_summary": {
+          "nct_id": "NCT02358031",
+          "brief_title": "A Study of Pembrolizumab (MK-3475) for First Line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (MK-3475-048/KEYNOTE-048)",
+          "official_title": "A Phase 3 Clinical Trial of Pembrolizumab (MK-3475) in First Line Treatment of Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma",
+          "acronym": null,
+          "organization": "Merck Sharp & Dohme LLC",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-02-03",
+          "study_first_post_date": {
+            "date": "2015-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-07-18",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Recurrent Head and Neck Cancer",
+            "Metastatic Head and Neck Cancer"
+          ],
+          "keywords": [
+            "Programmed Cell Death-1 (PD1, PD-1),",
+            "Programmed Cell Death Receptor Ligand 1 (PDL1, PD-L1)",
+            "Programmed Cell Death Receptor Ligand 2 (PDL2, PD-L2)",
+            "chemotherapy, 5-fluorouracil, cisplatin, carboplatin"
+          ],
+          "arm_groups": [
+            {
+              "label": "Pembrolizumab Monotherapy (Pembro Mono)",
+              "type": "EXPERIMENTAL",
+              "description": "Participants receive pembrolizumab 200 mg intravenously (IV) on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years).",
+              "intervention_names": [
+                "Biological: Pembrolizumab"
+              ]
+            },
+            {
+              "label": "Pembrolizumab + Chemotherapy (Pembro Combo)",
+              "type": "EXPERIMENTAL",
+              "description": "Participants receive pembrolizumab 200 mg IV on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years); plus cisplatin 100 mg/m\\^2 IV or carboplatin at a target area under the curve of 5 (AUC 5) IV, per Investigator's choice, on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "intervention_names": [
+                "Biological: Pembrolizumab",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin",
+                "Drug: 5-FU"
+              ]
+            },
+            {
+              "label": "Cetuximab + Chemotherapy (Control)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "intervention_names": [
+                "Drug: Cisplatin",
+                "Drug: Carboplatin",
+                "Drug: 5-FU",
+                "Biological: Cetuximab"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "Pembrolizumab 200 mg IV on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years).",
+              "other_names": [
+                "KEYTRUDA®",
+                "MK-3475"
+              ],
+              "arm_group_labels": [
+                "Pembrolizumab + Chemotherapy (Pembro Combo)",
+                "Pembrolizumab Monotherapy (Pembro Mono)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "Cisplatin 100 mg/m\\^2 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)",
+                "Pembrolizumab + Chemotherapy (Pembro Combo)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Carboplatin at a target AUC 5 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)",
+                "Pembrolizumab + Chemotherapy (Pembro Combo)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "5-FU",
+              "description": "5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)",
+                "Pembrolizumab + Chemotherapy (Pembro Combo)"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Cetuximab",
+              "description": "Cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Cetuximab + Chemotherapy (Control)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "intervention_names": [
+                "Drug: Cisplatin",
+                "Drug: Carboplatin",
+                "Drug: 5-FU",
+                "Biological: Cetuximab"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40262400",
+            "39382718",
+            "37699333",
+            "36264378",
+            "36219809",
+            "35381576",
+            "35333599",
+            "31679945"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 4,
+        "nct": "NCT02358031",
+        "trial_name": "KEYNOTE-048",
+        "ctgov_summary": {
+          "nct_id": "NCT02358031",
+          "brief_title": "A Study of Pembrolizumab (MK-3475) for First Line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (MK-3475-048/KEYNOTE-048)",
+          "official_title": "A Phase 3 Clinical Trial of Pembrolizumab (MK-3475) in First Line Treatment of Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma",
+          "acronym": null,
+          "organization": "Merck Sharp & Dohme LLC",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-02-03",
+          "study_first_post_date": {
+            "date": "2015-02-06",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-07-18",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Recurrent Head and Neck Cancer",
+            "Metastatic Head and Neck Cancer"
+          ],
+          "keywords": [
+            "Programmed Cell Death-1 (PD1, PD-1),",
+            "Programmed Cell Death Receptor Ligand 1 (PDL1, PD-L1)",
+            "Programmed Cell Death Receptor Ligand 2 (PDL2, PD-L2)",
+            "chemotherapy, 5-fluorouracil, cisplatin, carboplatin"
+          ],
+          "arm_groups": [
+            {
+              "label": "Pembrolizumab Monotherapy (Pembro Mono)",
+              "type": "EXPERIMENTAL",
+              "description": "Participants receive pembrolizumab 200 mg intravenously (IV) on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years).",
+              "intervention_names": [
+                "Biological: Pembrolizumab"
+              ]
+            },
+            {
+              "label": "Pembrolizumab + Chemotherapy (Pembro Combo)",
+              "type": "EXPERIMENTAL",
+              "description": "Participants receive pembrolizumab 200 mg IV on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years); plus cisplatin 100 mg/m\\^2 IV or carboplatin at a target area under the curve of 5 (AUC 5) IV, per Investigator's choice, on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "intervention_names": [
+                "Biological: Pembrolizumab",
+                "Drug: Cisplatin",
+                "Drug: Carboplatin",
+                "Drug: 5-FU"
+              ]
+            },
+            {
+              "label": "Cetuximab + Chemotherapy (Control)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "intervention_names": [
+                "Drug: Cisplatin",
+                "Drug: Carboplatin",
+                "Drug: 5-FU",
+                "Biological: Cetuximab"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "Pembrolizumab 200 mg IV on Day 1 of each 3-week cycle for up to 35 cycles (up to \\~2 years).",
+              "other_names": [
+                "KEYTRUDA®",
+                "MK-3475"
+              ],
+              "arm_group_labels": [
+                "Pembrolizumab + Chemotherapy (Pembro Combo)",
+                "Pembrolizumab Monotherapy (Pembro Mono)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "Cisplatin 100 mg/m\\^2 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)",
+                "Pembrolizumab + Chemotherapy (Pembro Combo)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "Carboplatin at a target AUC 5 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)",
+                "Pembrolizumab + Chemotherapy (Pembro Combo)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "5-FU",
+              "description": "5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)",
+                "Pembrolizumab + Chemotherapy (Pembro Combo)"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Cetuximab",
+              "description": "Cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity",
+              "other_names": [],
+              "arm_group_labels": [
+                "Cetuximab + Chemotherapy (Control)"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Cetuximab + Chemotherapy (Control)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+              "intervention_names": [
+                "Drug: Cisplatin",
+                "Drug: Carboplatin",
+                "Drug: 5-FU",
+                "Biological: Cetuximab"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "40262400",
+            "39382718",
+            "37699333",
+            "36264378",
+            "36219809",
+            "35381576",
+            "35333599",
+            "31679945"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 5,
+        "nct": "NCT02017717",
+        "trial_name": "CheckMate 143",
+        "ctgov_summary": {
+          "nct_id": "NCT02017717",
+          "brief_title": "A Study of the Effectiveness and Safety of Nivolumab Compared to Bevacizumab and of Nivolumab With or Without Ipilimumab in Glioblastoma Patients",
+          "official_title": "A Randomized Phase 3 Open Label Study of Nivolumab Versus Bevacizumab and Multiple Phase 1 Safety Cohorts of Nivolumab or Nivolumab in Combination With Ipilimumab Across Different Lines of Glioblastoma",
+          "acronym": "CheckMate 143",
+          "organization": "Bristol-Myers Squibb",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2013-12-17",
+          "study_first_post_date": {
+            "date": "2013-12-23",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-04-04",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Recurrent Glioblastoma"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Arm N:Nivolumab",
+              "type": "EXPERIMENTAL",
+              "description": "Cohort 1, 1c, 1d and 2: Nivolumab specified dose on specified days",
+              "intervention_names": [
+                "Biological: Nivolumab"
+              ]
+            },
+            {
+              "label": "Arm N + I:Nivolumab + Ipilimumab",
+              "type": "EXPERIMENTAL",
+              "description": "Cohort 1: Nivolumab specified dose on specified days + Ipilimumab specified dose on specified days, then Nivolumab specified dose on specified days\n\nCohort 1b: Nivolumab specified dose on specified days + Ipilimumab specified dose on specified days, then Nivolumab specified dose on specified days",
+              "intervention_names": [
+                "Biological: Nivolumab",
+                "Biological: Ipilimumab"
+              ]
+            },
+            {
+              "label": "Arm B: Bevacizumab",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cohort 2: Bevacizumab specified dose on specified days",
+              "intervention_names": [
+                "Biological: Bevacizumab"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Nivolumab",
+              "description": "specified dose on specified days",
+              "other_names": [
+                "BMS-936558"
+              ],
+              "arm_group_labels": [
+                "Arm N + I:Nivolumab + Ipilimumab",
+                "Arm N:Nivolumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Bevacizumab",
+              "description": "specified dose on specified days",
+              "other_names": [
+                "Avastin"
+              ],
+              "arm_group_labels": [
+                "Arm B: Bevacizumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ipilimumab",
+              "description": "specified dose on specified days",
+              "other_names": [
+                "Yervoy"
+              ],
+              "arm_group_labels": [
+                "Arm N + I:Nivolumab + Ipilimumab"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm B: Bevacizumab",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Cohort 2: Bevacizumab specified dose on specified days",
+              "intervention_names": [
+                "Biological: Bevacizumab"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "39777725",
+            "32691060",
+            "32437507",
+            "30522968"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 6,
+        "nct": "NCT02369874",
+        "trial_name": "EAGLE",
+        "ctgov_summary": {
+          "nct_id": "NCT02369874",
+          "brief_title": "Study of MEDI4736 Monotherapy and in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Head and Neck Cancer",
+          "official_title": "A Phase III Randomized, Open-Label, Multi-Center, Global Study of MEDI4736 Monotherapy and MEDI4736 in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck (SCCHN)",
+          "acronym": "EAGLE",
+          "organization": "AstraZeneca",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-02-18",
+          "study_first_post_date": {
+            "date": "2015-02-24",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2021-02-10",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Recurrent or Metastatic PD-L1-positive or -Negative Squamous Cell Carcinoma of the Head and Neck SCCHN"
+          ],
+          "keywords": [
+            "Head and Neck cancer; MEDI4736; Tremelimumab"
+          ],
+          "arm_groups": [
+            {
+              "label": "MEDI4736",
+              "type": "EXPERIMENTAL",
+              "description": "MEDI4736 monotherapy",
+              "intervention_names": [
+                "Drug: MEDI4736"
+              ]
+            },
+            {
+              "label": "MEDI4736 + Tremelimumab",
+              "type": "EXPERIMENTAL",
+              "description": "MEDI4736 + tremelimumab combination therapy",
+              "intervention_names": [
+                "Drug: MEDI4736 + Tremelimumab"
+              ]
+            },
+            {
+              "label": "Standard of Care",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Standard of Care",
+              "intervention_names": [
+                "Drug: Standard of Care"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "MEDI4736",
+              "description": "MEDI4736 Monotherapy",
+              "other_names": [],
+              "arm_group_labels": [
+                "MEDI4736"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "MEDI4736 + Tremelimumab",
+              "description": "MEDI4736 + Tremelimumab combination therapy",
+              "other_names": [],
+              "arm_group_labels": [
+                "MEDI4736 + Tremelimumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Standard of Care",
+              "description": "Standard of Care",
+              "other_names": [],
+              "arm_group_labels": [
+                "Standard of Care"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Standard of Care",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Standard of Care",
+              "intervention_names": [
+                "Drug: Standard of Care"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "32294530"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 7,
+        "nct": "NCT02369874",
+        "trial_name": "EAGLE",
+        "ctgov_summary": {
+          "nct_id": "NCT02369874",
+          "brief_title": "Study of MEDI4736 Monotherapy and in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Head and Neck Cancer",
+          "official_title": "A Phase III Randomized, Open-Label, Multi-Center, Global Study of MEDI4736 Monotherapy and MEDI4736 in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck (SCCHN)",
+          "acronym": "EAGLE",
+          "organization": "AstraZeneca",
+          "overall_status": "COMPLETED",
+          "study_first_submit_date": "2015-02-18",
+          "study_first_post_date": {
+            "date": "2015-02-24",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2021-02-10",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Recurrent or Metastatic PD-L1-positive or -Negative Squamous Cell Carcinoma of the Head and Neck SCCHN"
+          ],
+          "keywords": [
+            "Head and Neck cancer; MEDI4736; Tremelimumab"
+          ],
+          "arm_groups": [
+            {
+              "label": "MEDI4736",
+              "type": "EXPERIMENTAL",
+              "description": "MEDI4736 monotherapy",
+              "intervention_names": [
+                "Drug: MEDI4736"
+              ]
+            },
+            {
+              "label": "MEDI4736 + Tremelimumab",
+              "type": "EXPERIMENTAL",
+              "description": "MEDI4736 + tremelimumab combination therapy",
+              "intervention_names": [
+                "Drug: MEDI4736 + Tremelimumab"
+              ]
+            },
+            {
+              "label": "Standard of Care",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Standard of Care",
+              "intervention_names": [
+                "Drug: Standard of Care"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "MEDI4736",
+              "description": "MEDI4736 Monotherapy",
+              "other_names": [],
+              "arm_group_labels": [
+                "MEDI4736"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "MEDI4736 + Tremelimumab",
+              "description": "MEDI4736 + Tremelimumab combination therapy",
+              "other_names": [],
+              "arm_group_labels": [
+                "MEDI4736 + Tremelimumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Standard of Care",
+              "description": "Standard of Care",
+              "other_names": [],
+              "arm_group_labels": [
+                "Standard of Care"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Standard of Care",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Standard of Care",
+              "intervention_names": [
+                "Drug: Standard of Care"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "32294530"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 8,
+        "nct": "NCT02952586",
+        "trial_name": "JAVELIN Head and Neck 101",
+        "ctgov_summary": {
+          "nct_id": "NCT02952586",
+          "brief_title": "Study To Compare Avelumab In Combination With Standard of Care Chemoradiotherapy (SoC CRT) Versus SoC CRT for Definitive Treatment In Patients With Locally Advanced Squamous Cell Carcinoma Of The Head And Neck (JAVELIN HEAD AND NECK 100)",
+          "official_title": "A RANDOMIZED DOUBLE-BLIND PHASE 3 STUDY OF AVELUMAB IN COMBINATION WITH STANDARD OF CARE CHEMORADIOTHERAPY (CISPLATIN PLUS DEFINITIVE RADIATION THERAPY) VERSUS STANDARD OF CARE CHEMORADIOTHERAPY IN THE FRONT-LINE TREATMENT OF PATIENTS WITH LOCALLY ADVANCED SQUAMOUS CELL CARCINOMA OF THE HEAD AND NECK",
+          "acronym": null,
+          "organization": "Pfizer",
+          "overall_status": "TERMINATED",
+          "study_first_submit_date": "2016-10-31",
+          "study_first_post_date": {
+            "date": "2016-11-02",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2021-09-22",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "Squamous Cell Carcinoma of the Head and Neck"
+          ],
+          "keywords": [],
+          "arm_groups": [
+            {
+              "label": "Avelumab + SOC Chemoradiation Therapy",
+              "type": "EXPERIMENTAL",
+              "description": "* Avelumab 10 mg/kg IV: Day 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; and Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* Intensity Modulated Radiation Therapy (IMRT) 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+              "intervention_names": [
+                "Drug: Avelumab"
+              ]
+            },
+            {
+              "label": "Placebo + SOC CRT",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "* Placebo IV matching avelumab: Days 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* IMRT 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+              "intervention_names": [
+                "Other: Chemoradiation"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Avelumab",
+              "description": "Avelumab + SOC Chemoradiation",
+              "other_names": [],
+              "arm_group_labels": [
+                "Avelumab + SOC Chemoradiation Therapy"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Chemoradiation",
+              "description": "Cisplatin + Radiation Therapy",
+              "other_names": [],
+              "arm_group_labels": [
+                "Placebo + SOC CRT"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Placebo + SOC CRT",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "* Placebo IV matching avelumab: Days 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* IMRT 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+              "intervention_names": [
+                "Other: Chemoradiation"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "33794205"
+          ]
+        },
+        "ctgov_error": ""
+      },
+      {
+        "row_index": 9,
+        "nct": "NCT02999087",
+        "trial_name": "REACH",
+        "ctgov_summary": {
+          "nct_id": "NCT02999087",
+          "brief_title": "Randomized Trial of Avelumab-cetuximab-radiotherapy Versus SOCs in LA SCCHN (REACH)",
+          "official_title": "A Phase III Randomized Trial of Avelumab-cetuximab-Radiotherapy Versus Standards of Care in Locally Advanced Squamous Cell Carcinoma of the Head and Neck",
+          "acronym": "REACH",
+          "organization": "Groupe Oncologie Radiotherapie Tete et Cou",
+          "overall_status": "ACTIVE_NOT_RECRUITING",
+          "study_first_submit_date": "2016-12-14",
+          "study_first_post_date": {
+            "date": "2016-12-21",
+            "type": "ESTIMATED"
+          },
+          "last_update_posted": {
+            "date": "2025-05-07",
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "study_type": "INTERVENTIONAL",
+          "conditions": [
+            "HNSCC"
+          ],
+          "keywords": [
+            "Head and Neck cancer",
+            "Immunotherapy"
+          ],
+          "arm_groups": [
+            {
+              "label": "Arm A Patient FIT",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Lead-in phase (Day-8) : no treatment\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cisplatin 100mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+              "intervention_names": [
+                "Drug: Cisplatin",
+                "Radiation: IMRT"
+              ]
+            },
+            {
+              "label": "Arm B Patient FIT",
+              "type": "EXPERIMENTAL",
+              "description": "Lead-in phase (Day-8) : Cetuximab 400mg/m2 and avelumab 10mg/kg\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cetuximab 250mg/m2 and avelumab 10mg/kg\n\nMaintenance phase : avelumab 10mg/kg every 2 weeks during 12 months",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Drug: avelumab",
+                "Radiation: IMRT"
+              ]
+            },
+            {
+              "label": "Arm C Patient UNFIT",
+              "type": "EXPERIMENTAL",
+              "description": "Lead-in phase (Day-8) : Cetuximab 400mg/m2 and avelumab 10mg/kg\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2 and avelumab 10mg/kg\n\nMaintenance phase : avelumab 10mg/kg every 2 weeks during 12 months",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Drug: avelumab",
+                "Radiation: IMRT"
+              ]
+            },
+            {
+              "label": "Arm D Patient UNFIT",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Lead-in phase (Day-8): Cetuximab 400mg/m2\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Radiation: IMRT"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Cetuximab",
+              "description": "Loading dose of 400 mg/m² IV on Day-8, followed by weekly dose of 250 mg/m² IV during the whole course of RT.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B Patient FIT",
+                "Arm C Patient UNFIT",
+                "Arm D Patient UNFIT"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "avelumab",
+              "description": "IV infusion of avelumab (10 mg/kg over 1 hour) once every 2 weeks. Avelumab will start on Day-8 together with cetuximab and subsequently every 2 weeks during the course of RT. Avelumab with be continued every 2 weeks for an additional 12 months following RT.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm B Patient FIT",
+                "Arm C Patient UNFIT"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "100 mg/m² IV after hyperhydration and at a maximal rate of 1 mg/min, on days 1, 22, 43.",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm A Patient FIT"
+              ]
+            },
+            {
+              "type": "RADIATION",
+              "name": "IMRT",
+              "description": "RT will be performed using IMRT (intensity modulated radiotherapy), with a simultaneous integrated boost (SIB) technique. RT dose to the GTV will be 69.96 Gy in 2.12 Gy daily fractions over 6.5 weeks (33 fractions). Prophylactic dose will be 52.8 Gy in 1.6 Gy daily fractions over 6.5 weeks (33 fractions).",
+              "other_names": [],
+              "arm_group_labels": [
+                "Arm A Patient FIT",
+                "Arm B Patient FIT",
+                "Arm C Patient UNFIT",
+                "Arm D Patient UNFIT"
+              ]
+            }
+          ],
+          "candidate_control_arms": [
+            {
+              "label": "Arm A Patient FIT",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Lead-in phase (Day-8) : no treatment\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cisplatin 100mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+              "intervention_names": [
+                "Drug: Cisplatin",
+                "Radiation: IMRT"
+              ]
+            },
+            {
+              "label": "Arm D Patient UNFIT",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Lead-in phase (Day-8): Cetuximab 400mg/m2\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+              "intervention_names": [
+                "Drug: Cetuximab",
+                "Radiation: IMRT"
+              ]
+            }
+          ],
+          "reference_pmids": [
+            "33125944"
+          ]
+        },
+        "ctgov_error": ""
+      }
+    ]
+  },
+  "plan": {
+    "need_ctgov_metadata": true,
+    "relevant_fields": [
+      "arm_groups",
+      "interventions",
+      "candidate_control_arms"
+    ],
+    "focus": "identify the control arm and its corresponding follow-up duration for primary endpoint(s) in months",
+    "notes": "The question requires bucketing overall follow-up months into <12, 12–23, or ≥24 for Head and Neck trials, and the target field to infer later is Follow-up duration for primary endpoint(s) in months | Control, so arm-level metadata is needed to determine the control arm and its follow-up duration."
+  },
+  "planner_prompt": "You are choosing which ClinicalTrials.gov metadata fields are most useful for answering a question.\nThe final answer will be produced in a later step.\nYour job now is only to select the most relevant study metadata fields to extract for the target field that will be inferred later.\nReturn ONLY valid JSON in this exact shape:\n{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"field_name\"], \"focus\": \"...\", \"notes\": \"...\"}\nAllowed field names: ['brief_title', 'official_title', 'acronym', 'organization', 'overall_status', 'phases', 'study_type', 'conditions', 'keywords', 'arm_groups', 'interventions', 'candidate_control_arms', 'reference_pmids']\nField descriptions:\n- brief_title: Short study title from ClinicalTrials.gov.\n- official_title: Long-form official study title.\n- acronym: Study acronym or short identifier.\n- organization: Lead sponsor or responsible organization.\n- overall_status: Recruitment or completion status.\n- phases: Study phase information.\n- study_type: Interventional or observational study type.\n- conditions: Study conditions or cancer types.\n- keywords: Supplementary study keywords.\n- arm_groups: Arm labels, arm types, and arm descriptions.\n- interventions: Named interventions with types and descriptions.\n- candidate_control_arms: Likely comparator/control arms derived from the CTGov record.\n- reference_pmids: PubMed IDs referenced by the study record.\n\nQuestion: In Head and Neck trials, bucket overall follow-up months into <12, 12–23, or ≥24.\nTarget field to infer later: Follow-up duration for primary endpoint(s) in months | Control\nSource column shown to the model: \"Follow-up duration for primary endpoint(s) in months | Overall\"\n\nFew-shot examples:\nExample 1\nQuestion: For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.\nTarget field to infer later: Control regimen\nOutput: {\"need_ctgov_metadata\": true, \"relevant_fields\": [\"candidate_control_arms\", \"arm_groups\", \"interventions\"], \"focus\": \"identify the comparator or control arm regimen for each study and normalize it to the control regimen value\", \"notes\": \"The question retrieves the studies, but the target field is Control regimen, so comparator-arm metadata is needed.\"}\n\nExample 2\nQuestion: In NSCLC trials classify the ICI by target class from its generic name.\nTarget field to infer later: Class of ICI\nOutput: {\"need_ctgov_metadata\": false, \"relevant_fields\": [], \"focus\": \"the row evidence already names the ICI and CTGov metadata is not needed\", \"notes\": \"Do not request CTGov metadata when the target can be inferred directly from the visible row.\"}\nRows and compact CTGov previews:\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Arm A: Nivolumab\", \"Arm B: Cetuximab/Methotrexate/Docetaxel\"], \"brief_title\": \"Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Head and Neck Carcinoma (CheckMate 141)\", \"candidate_control_arm_labels\": [\"Arm B: Cetuximab/Methotrexate/Docetaxel\"], \"conditions\": [\"Squamous Cell Carcinoma of the Head and Neck\"], \"intervention_names\": [\"Nivolumab\", \"Cetuximab\", \"Methotrexate\", \"Docetaxel\"]}, \"nct\": \"NCT02105636\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": \"5.1\", \"NCT\": \"NCT02105636\", \"Trial name\": \"CheckMate 141\"}, \"trial_name\": \"CheckMate 141\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Arm A: Nivolumab\", \"Arm B: Cetuximab/Methotrexate/Docetaxel\"], \"brief_title\": \"Trial of Nivolumab vs Therapy of Investigator's Choice in Recurrent or Metastatic Head and Neck Carcinoma (CheckMate 141)\", \"candidate_control_arm_labels\": [\"Arm B: Cetuximab/Methotrexate/Docetaxel\"], \"conditions\": [\"Squamous Cell Carcinoma of the Head and Neck\"], \"intervention_names\": [\"Nivolumab\", \"Cetuximab\", \"Methotrexate\", \"Docetaxel\"]}, \"nct\": \"NCT02105636\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": \"24.2\", \"NCT\": \"NCT02105636\", \"Trial name\": \"CheckMate 141\"}, \"trial_name\": \"CheckMate 141\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Pembrolizumab Monotherapy (Pembro Mono)\", \"Pembrolizumab + Chemotherapy (Pembro Combo)\", \"Cetuximab + Chemotherapy (Control)\"], \"brief_title\": \"A Study of Pembrolizumab (MK-3475) for First Line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (MK-3475-048/KEYNOTE-048)\", \"candidate_control_arm_labels\": [\"Cetuximab + Chemotherapy (Control)\"], \"conditions\": [\"Recurrent Head and Neck Cancer\", \"Metastatic Head and Neck Cancer\"], \"intervention_names\": [\"Pembrolizumab\", \"Cisplatin\", \"Carboplatin\", \"5-FU\", \"Cetuximab\"]}, \"nct\": \"NCT02358031\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": null, \"NCT\": \"NCT02358031\", \"Trial name\": \"KEYNOTE-048\"}, \"trial_name\": \"KEYNOTE-048\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Pembrolizumab Monotherapy (Pembro Mono)\", \"Pembrolizumab + Chemotherapy (Pembro Combo)\", \"Cetuximab + Chemotherapy (Control)\"], \"brief_title\": \"A Study of Pembrolizumab (MK-3475) for First Line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (MK-3475-048/KEYNOTE-048)\", \"candidate_control_arm_labels\": [\"Cetuximab + Chemotherapy (Control)\"], \"conditions\": [\"Recurrent Head and Neck Cancer\", \"Metastatic Head and Neck Cancer\"], \"intervention_names\": [\"Pembrolizumab\", \"Cisplatin\", \"Carboplatin\", \"5-FU\", \"Cetuximab\"]}, \"nct\": \"NCT02358031\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": null, \"NCT\": \"NCT02358031\", \"Trial name\": \"KEYNOTE-048\"}, \"trial_name\": \"KEYNOTE-048\"}\n{\"ctgov_preview\": {\"acronym\": \"CheckMate 143\", \"arm_group_labels\": [\"Arm N:Nivolumab\", \"Arm N + I:Nivolumab + Ipilimumab\", \"Arm B: Bevacizumab\"], \"brief_title\": \"A Study of the Effectiveness and Safety of Nivolumab Compared to Bevacizumab and of Nivolumab With or Without Ipilimumab in Glioblastoma Patients\", \"candidate_control_arm_labels\": [\"Arm B: Bevacizumab\"], \"conditions\": [\"Recurrent Glioblastoma\"], \"intervention_names\": [\"Nivolumab\", \"Bevacizumab\", \"Ipilimumab\"]}, \"nct\": \"NCT02017717\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": \"9.5\", \"NCT\": \"NCT02017717\", \"Trial name\": \"CheckMate 143\"}, \"trial_name\": \"CheckMate 143\"}\n{\"ctgov_preview\": {\"acronym\": \"EAGLE\", \"arm_group_labels\": [\"MEDI4736\", \"MEDI4736 + Tremelimumab\", \"Standard of Care\"], \"brief_title\": \"Study of MEDI4736 Monotherapy and in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Head and Neck Cancer\", \"candidate_control_arm_labels\": [\"Standard of Care\"], \"conditions\": [\"Recurrent or Metastatic PD-L1-positive or -Negative Squamous Cell Carcinoma of the Head and Neck SCCHN\"], \"intervention_names\": [\"MEDI4736\", \"MEDI4736 + Tremelimumab\", \"Standard of Care\"]}, \"nct\": \"NCT02369874\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": null, \"NCT\": \"NCT02369874\", \"Trial name\": \"EAGLE\"}, \"trial_name\": \"EAGLE\"}\n{\"ctgov_preview\": {\"acronym\": \"EAGLE\", \"arm_group_labels\": [\"MEDI4736\", \"MEDI4736 + Tremelimumab\", \"Standard of Care\"], \"brief_title\": \"Study of MEDI4736 Monotherapy and in Combination With Tremelimumab Versus Standard of Care Therapy in Patients With Head and Neck Cancer\", \"candidate_control_arm_labels\": [\"Standard of Care\"], \"conditions\": [\"Recurrent or Metastatic PD-L1-positive or -Negative Squamous Cell Carcinoma of the Head and Neck SCCHN\"], \"intervention_names\": [\"MEDI4736\", \"MEDI4736 + Tremelimumab\", \"Standard of Care\"]}, \"nct\": \"NCT02369874\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": null, \"NCT\": \"NCT02369874\", \"Trial name\": \"EAGLE\"}, \"trial_name\": \"EAGLE\"}\n{\"ctgov_preview\": {\"acronym\": null, \"arm_group_labels\": [\"Avelumab + SOC Chemoradiation Therapy\", \"Placebo + SOC CRT\"], \"brief_title\": \"Study To Compare Avelumab In Combination With Standard of Care Chemoradiotherapy (SoC CRT) Versus SoC CRT for Definitive Treatment In Patients With Locally Advanced Squamous Cell Carcinoma Of The Head And Neck (JAVELIN HEAD AND NECK 100)\", \"candidate_control_arm_labels\": [\"Placebo + SOC CRT\"], \"conditions\": [\"Squamous Cell Carcinoma of the Head and Neck\"], \"intervention_names\": [\"Avelumab\", \"Chemoradiation\"]}, \"nct\": \"NCT02952586\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": null, \"NCT\": \"NCT02952586\", \"Trial name\": \"JAVELIN Head and Neck 101\"}, \"trial_name\": \"JAVELIN Head and Neck 101\"}\n{\"ctgov_preview\": {\"acronym\": \"REACH\", \"arm_group_labels\": [\"Arm A Patient FIT\", \"Arm B Patient FIT\", \"Arm C Patient UNFIT\", \"Arm D Patient UNFIT\"], \"brief_title\": \"Randomized Trial of Avelumab-cetuximab-radiotherapy Versus SOCs in LA SCCHN (REACH)\", \"candidate_control_arm_labels\": [\"Arm A Patient FIT\", \"Arm D Patient UNFIT\"], \"conditions\": [\"HNSCC\"], \"intervention_names\": [\"Cetuximab\", \"avelumab\", \"Cisplatin\", \"IMRT\"]}, \"nct\": \"NCT02999087\", \"row\": {\"Follow-up duration for primary endpoint(s) in months | Overall\": null, \"NCT\": \"NCT02999087\", \"Trial name\": \"REACH\"}, \"trial_name\": \"REACH\"}",
+  "planner_raw_output": "{\"need_ctgov_metadata\": true, \"relevant_fields\": [\"arm_groups\", \"interventions\", \"candidate_control_arms\"], \"focus\": \"identify the control arm and its corresponding follow-up duration for primary endpoint(s) in months\", \"notes\": \"The question requires bucketing overall follow-up months into <12, 12–23, or ≥24 for Head and Neck trials, and the target field to infer later is Follow-up duration for primary endpoint(s) in months | Control, so arm-level metadata is needed to determine the control arm and its follow-up duration.\"}",
+  "planner_error": "",
+  "planner_meta": {
+    "response_id": "chatcmpl-bce896b9de873f5b",
+    "finish_reason": "stop",
+    "prompt_tokens": 2584,
+    "completion_tokens": 120,
+    "total_tokens": 2704
+  },
+  "selected_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT02105636",
+      "trial_name": "CheckMate 141",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cetuximab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Methotrexate",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Docetaxel",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT02105636",
+      "trial_name": "CheckMate 141",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": null,
+            "other_names": [
+              "BMS-936558"
+            ],
+            "arm_group_labels": [
+              "Arm A: Nivolumab"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cetuximab",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Methotrexate",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Docetaxel",
+            "description": null,
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cetuximab intravenous (IV) Solution for Injection 400 mg/m2 (first dose) then 250 mg/m2 weekly until disease progression\n\nOR\n\nMethotrexate intravenous (IV) Solution for Injection 40 or 60 mg/m2 weekly until disease progression\n\nOR\n\nDocetaxel intravenous (IV) Solution for Injection 30 or 40 mg/m2 weekly until disease progression",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT02358031",
+      "trial_name": "KEYNOTE-048",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "Cisplatin 100 mg/m\\^2 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Carboplatin at a target AUC 5 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "5-FU",
+            "description": "5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Cetuximab",
+            "description": "Cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT02358031",
+      "trial_name": "KEYNOTE-048",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "Cisplatin 100 mg/m\\^2 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Carboplatin at a target AUC 5 IV on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "5-FU",
+            "description": "5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Cetuximab",
+            "description": "Cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity",
+            "other_names": [],
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive cetuximab on Day 1 at a dose of 400 mg/m\\^2 IV, and then 250 mg/m\\^2 IV on Day 1 of each subsequent week until disease progression or unacceptable toxicity; plus cisplatin 100 mg/m\\^2 IV or carboplatin AUC 5 IV (Investigator's choice) on Day 1 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\] for platinum-based therapy); plus 5-FU 1000 mg/m\\^2/day IV continuous from Day 1-4 of each 3-week cycle (6 cycle maximum \\[up to \\~4 months\\]).",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 5,
+      "nct": "NCT02017717",
+      "trial_name": "CheckMate 143",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm B: Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cohort 2: Bevacizumab specified dose on specified days",
+            "intervention_names": [
+              "Biological: Bevacizumab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "description": "specified dose on specified days",
+            "other_names": [
+              "BMS-936558"
+            ],
+            "arm_group_labels": [
+              "Arm N + I:Nivolumab + Ipilimumab",
+              "Arm N:Nivolumab"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Bevacizumab",
+            "description": "specified dose on specified days",
+            "other_names": [
+              "Avastin"
+            ],
+            "arm_group_labels": [
+              "Arm B: Bevacizumab"
+            ]
+          },
+          {
+            "type": "BIOLOGICAL",
+            "name": "Ipilimumab",
+            "description": "specified dose on specified days",
+            "other_names": [
+              "Yervoy"
+            ],
+            "arm_group_labels": [
+              "Arm N + I:Nivolumab + Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Cohort 2: Bevacizumab specified dose on specified days",
+            "intervention_names": [
+              "Biological: Bevacizumab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 6,
+      "nct": "NCT02369874",
+      "trial_name": "EAGLE",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Standard of Care",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Standard of Care",
+            "description": "Standard of Care",
+            "other_names": [],
+            "arm_group_labels": [
+              "Standard of Care"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Standard of Care",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 7,
+      "nct": "NCT02369874",
+      "trial_name": "EAGLE",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Standard of Care",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Standard of Care",
+            "description": "Standard of Care",
+            "other_names": [],
+            "arm_group_labels": [
+              "Standard of Care"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Standard of Care",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 8,
+      "nct": "NCT02952586",
+      "trial_name": "JAVELIN Head and Neck 101",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Placebo + SOC CRT",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "* Placebo IV matching avelumab: Days 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* IMRT 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+            "intervention_names": [
+              "Other: Chemoradiation"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Chemoradiation",
+            "description": "Cisplatin + Radiation Therapy",
+            "other_names": [],
+            "arm_group_labels": [
+              "Placebo + SOC CRT"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo + SOC CRT",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "* Placebo IV matching avelumab: Days 1 of the Lead-in Phase; Days 8, 25, and 39 of the CRT Phase; Q2W for 12 months during the Maintenance Phase\n* Cisplatin 100 mg/m2 IV: Days 1, 22, and 43 of the CRT Phase\n* IMRT 70 Gy/35 fractions/7 weeks; 1 fraction per day, 5 fractions/week for 7 weeks during the CRT Phase",
+            "intervention_names": [
+              "Other: Chemoradiation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 9,
+      "nct": "NCT02999087",
+      "trial_name": "REACH",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm A Patient FIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8) : no treatment\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cisplatin 100mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm D Patient UNFIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8): Cetuximab 400mg/m2\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Radiation: IMRT"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Cetuximab",
+            "description": "Loading dose of 400 mg/m² IV on Day-8, followed by weekly dose of 250 mg/m² IV during the whole course of RT.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT",
+              "Arm D Patient UNFIT"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "avelumab",
+            "description": "IV infusion of avelumab (10 mg/kg over 1 hour) once every 2 weeks. Avelumab will start on Day-8 together with cetuximab and subsequently every 2 weeks during the course of RT. Avelumab with be continued every 2 weeks for an additional 12 months following RT.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Cisplatin",
+            "description": "100 mg/m² IV after hyperhydration and at a maximal rate of 1 mg/min, on days 1, 22, 43.",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A Patient FIT"
+            ]
+          },
+          {
+            "type": "RADIATION",
+            "name": "IMRT",
+            "description": "RT will be performed using IMRT (intensity modulated radiotherapy), with a simultaneous integrated boost (SIB) technique. RT dose to the GTV will be 69.96 Gy in 2.12 Gy daily fractions over 6.5 weeks (33 fractions). Prophylactic dose will be 52.8 Gy in 1.6 Gy daily fractions over 6.5 weeks (33 fractions).",
+            "other_names": [],
+            "arm_group_labels": [
+              "Arm A Patient FIT",
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT",
+              "Arm D Patient UNFIT"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm A Patient FIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8) : no treatment\n\nConcomitant radiotherapy phase : Radiotherapy by IMRT + cisplatin 100mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm D Patient UNFIT",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Lead-in phase (Day-8): Cetuximab 400mg/m2\n\nConcomitant radiotherapy phase: Radiotherapy by IMRT + cetuximab 250mg/m2\n\nMaintenance phase : no treatment until follow-up phase",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Radiation: IMRT"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "prompt_rows": [
+    {
+      "row_index": 1,
+      "nct": "NCT02105636",
+      "trial_name": "CheckMate 141",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A: Nivolumab"
+            ]
+          },
+          {
+            "name": "Cetuximab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "name": "Methotrexate",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 2,
+      "nct": "NCT02105636",
+      "trial_name": "CheckMate 141",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A: Nivolumab"
+            ]
+          },
+          {
+            "name": "Cetuximab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          },
+          {
+            "name": "Methotrexate",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B: Cetuximab/Methotrexate/Docetaxel"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Cetuximab/Methotrexate/Docetaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Drug: Methotrexate",
+              "Drug: Docetaxel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 3,
+      "nct": "NCT02358031",
+      "trial_name": "KEYNOTE-048",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Cisplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "name": "5-FU",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 4,
+      "nct": "NCT02358031",
+      "trial_name": "KEYNOTE-048",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Cisplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "name": "Carboplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          },
+          {
+            "name": "5-FU",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Cetuximab + Chemotherapy (Control)",
+              "Pembrolizumab + Chemotherapy (Pembro Combo)"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Cetuximab + Chemotherapy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Drug: Carboplatin",
+              "Drug: 5-FU",
+              "Biological: Cetuximab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 5,
+      "nct": "NCT02017717",
+      "trial_name": "CheckMate 143",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm B: Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Bevacizumab"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Nivolumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm N + I:Nivolumab + Ipilimumab",
+              "Arm N:Nivolumab"
+            ]
+          },
+          {
+            "name": "Bevacizumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm B: Bevacizumab"
+            ]
+          },
+          {
+            "name": "Ipilimumab",
+            "type": "BIOLOGICAL",
+            "arm_group_labels": [
+              "Arm N + I:Nivolumab + Ipilimumab"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm B: Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Biological: Bevacizumab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 6,
+      "nct": "NCT02369874",
+      "trial_name": "EAGLE",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Standard of Care",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Standard of Care"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 7,
+      "nct": "NCT02369874",
+      "trial_name": "EAGLE",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Standard of Care",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Standard of Care"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Standard of Care",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Standard of Care"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 8,
+      "nct": "NCT02952586",
+      "trial_name": "JAVELIN Head and Neck 101",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Placebo + SOC CRT",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Other: Chemoradiation"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Chemoradiation",
+            "type": "OTHER",
+            "arm_group_labels": [
+              "Placebo + SOC CRT"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Placebo + SOC CRT",
+            "type": "PLACEBO_COMPARATOR",
+            "intervention_names": [
+              "Other: Chemoradiation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "row_index": 9,
+      "nct": "NCT02999087",
+      "trial_name": "REACH",
+      "selected_ctgov_evidence": {
+        "arm_groups": [
+          {
+            "label": "Arm A Patient FIT",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm D Patient UNFIT",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Radiation: IMRT"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "name": "Cetuximab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT",
+              "Arm D Patient UNFIT"
+            ]
+          },
+          {
+            "name": "avelumab",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm B Patient FIT",
+              "Arm C Patient UNFIT"
+            ]
+          },
+          {
+            "name": "Cisplatin",
+            "type": "DRUG",
+            "arm_group_labels": [
+              "Arm A Patient FIT"
+            ]
+          }
+        ],
+        "candidate_control_arms": [
+          {
+            "label": "Arm A Patient FIT",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cisplatin",
+              "Radiation: IMRT"
+            ]
+          },
+          {
+            "label": "Arm D Patient UNFIT",
+            "type": "ACTIVE_COMPARATOR",
+            "intervention_names": [
+              "Drug: Cetuximab",
+              "Radiation: IMRT"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

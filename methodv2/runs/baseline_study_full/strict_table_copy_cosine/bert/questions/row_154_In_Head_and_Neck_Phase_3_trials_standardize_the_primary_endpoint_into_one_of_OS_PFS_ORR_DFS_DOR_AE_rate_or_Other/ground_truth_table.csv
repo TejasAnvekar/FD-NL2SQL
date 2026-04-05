@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02105636,27718784,CheckMate 141,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02105636,29884413,CheckMate 141,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT02358031,31679945,KEYNOTE-048,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+4,NCT02358031,31679945,KEYNOTE-048,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+5,NCT02017717,32437507,CheckMate 143,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+6,NCT02369874,32294530,EAGLE,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+7,NCT02369874,32294530,EAGLE,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+8,NCT02952586,33794205,JAVELIN Head and Neck 101,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+9,NCT02999087,33125944,REACH,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"

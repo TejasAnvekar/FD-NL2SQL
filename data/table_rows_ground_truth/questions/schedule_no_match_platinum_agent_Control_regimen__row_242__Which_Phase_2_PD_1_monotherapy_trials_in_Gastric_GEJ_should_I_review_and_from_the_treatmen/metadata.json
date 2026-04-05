@@ -1,0 +1,18 @@
+{
+  "item_id": "row_242",
+  "csv_row_number": 242,
+  "question": "Which Phase 2 PD-1 monotherapy trials in Gastric/GEJ should I review, and from the treatment regimen extract dosing schedule and whether cisplatin or carboplatin was used?",
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Trial phase\" = 'Phase 2' AND \"Class of ICI\" = 'PD-1' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Cancer type\" = 'Gastric/GEJ';",
+  "ground_truth_column": "schedule -> no_match | platinum_agent -> Control regimen",
+  "target_pairs": [
+    {
+      "output_name": "platinum_agent",
+      "db_column": "Control regimen"
+    }
+  ],
+  "visible_columns": [
+    "Treatment regimen"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Treatment regimen\", \"Control regimen\" FROM clinical_trials\nWHERE \"Trial phase\" = 'Phase 2' AND \"Class of ICI\" = 'PD-1' AND \"Monotherapy/combination\" = 'Monotherapy' AND \"Cancer type\" = 'Gastric/GEJ';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/schedule_no_match_platinum_agent_Control_regimen__row_242__Which_Phase_2_PD_1_monotherapy_trials_in_Gastric_GEJ_should_I_review_and_from_the_treatmen/ground_truth_table.csv"
+}

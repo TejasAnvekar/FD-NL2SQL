@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02684292,33721562,Keynote-204,Brentuximab-vedotin,,"{""class"": null}"

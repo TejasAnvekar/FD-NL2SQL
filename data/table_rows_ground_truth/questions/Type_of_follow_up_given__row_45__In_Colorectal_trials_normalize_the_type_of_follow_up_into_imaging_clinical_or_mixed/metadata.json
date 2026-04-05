@@ -1,0 +1,18 @@
+{
+  "item_id": "row_45",
+  "csv_row_number": 45,
+  "question": "In Colorectal trials, normalize the type of follow-up into imaging, clinical, or mixed.",
+  "sql_query": "SELECT \"Type of follow-up given\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Colorectal';",
+  "ground_truth_column": "Type of follow-up given",
+  "target_pairs": [
+    {
+      "output_name": "Type of follow-up given",
+      "db_column": "Type of follow-up given"
+    }
+  ],
+  "visible_columns": [
+    "Type of follow-up given"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Type of follow-up given\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Colorectal';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Type_of_follow_up_given__row_45__In_Colorectal_trials_normalize_the_type_of_follow_up_into_imaging_clinical_or_mixed/ground_truth_table.csv"
+}

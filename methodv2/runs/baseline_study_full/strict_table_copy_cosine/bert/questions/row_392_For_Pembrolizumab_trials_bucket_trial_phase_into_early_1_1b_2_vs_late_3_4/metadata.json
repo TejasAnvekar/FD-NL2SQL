@@ -1,0 +1,11 @@
+{
+  "item_id": "row_392",
+  "csv_row_number": 392,
+  "question": "For Pembrolizumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "column_used": "Trial phase",
+  "expected_keys": [
+    "phase_bucket"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_392_For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/phase_bucket__row_392__For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4"
+}

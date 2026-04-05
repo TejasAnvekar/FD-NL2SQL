@@ -1,0 +1,18 @@
+{
+  "item_id": "row_254",
+  "csv_row_number": 254,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo trials in Hodgkin Lymphoma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Atezolizumab+Trastuzumab emtansine+Placebo' AND \"Cancer type\" = 'Hodgkin Lymphoma';",
+  "ground_truth_column": "Trial name",
+  "target_pairs": [
+    {
+      "output_name": "Trial name",
+      "db_column": "Trial name"
+    }
+  ],
+  "visible_columns": [
+    "Trial name"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Trial name\" FROM clinical_trials\nWHERE \"Name of ICI\" = 'Atezolizumab+Trastuzumab emtansine+Placebo' AND \"Cancer type\" = 'Hodgkin Lymphoma';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Trial_name__row_254__For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Hodgkin_Lymphoma_extract_the_tria/ground_truth_table.csv"
+}

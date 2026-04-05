@@ -1,0 +1,13 @@
+2026-04-03 20:10:52,450 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/logs/run_meta_20260403_201052.log
+2026-04-03 20:10:52,450 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches_table_rows.csv
+2026-04-03 20:10:52,451 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-03 20:10:52,451 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b
+2026-04-03 20:10:52,451 | INFO | Dry run: False
+2026-04-03 20:10:52,452 | INFO | Eligible questions: 1
+2026-04-03 20:10:52,452 | INFO | Skipped: {}
+2026-04-03 20:10:52,452 | INFO | Groups: {'Class of ICI': 1}
+2026-04-03 20:10:52,452 | INFO | Loading embedder bert from /mnt/shared/shared_hf_home/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594
+2026-04-03 20:10:52,552 | INFO | Processing row_2 target=Class of ICI
+2026-04-03 20:10:54,121 | INFO | Wrote question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/all_question_results.csv
+2026-04-03 20:10:54,122 | INFO | Wrote row-level CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/row_level_predictions.csv
+2026-04-03 20:10:54,122 | INFO | Wrote baseline summary CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/embedding_baseline_smoke_1b/baseline_summary.csv

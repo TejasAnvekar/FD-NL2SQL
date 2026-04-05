@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT02702401,31790344,KEYNOTE-240,Monotherapy,false,"{""is_combination"": false}"
+2,NCT03434379,32402160,IMbrave150,Combination,true,"{""is_combination"": true}"

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_469",
+  "csv_row_number": 469,
+  "question": "In Multiple Myeloma trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "expected_llm_response": {
+    "endpoint_role": "secondary"
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Multiple Myeloma';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Multiple Myeloma'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_role(source_value, \"Secondary endpoint\") AS \"endpoint_role\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/endpoint_role__row_469__In_Multiple_Myeloma_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_b/ground_truth_table.csv",
+  "row_count": 2
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "row_259",
+  "csv_row_number": 259,
+  "question": "In Hepatocellular trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular';",
+  "ground_truth_column": "Class of ICI",
+  "target_pairs": [
+    {
+      "output_name": "Class of ICI",
+      "db_column": "Class of ICI"
+    }
+  ],
+  "visible_columns": [
+    "Name of ICI"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Name of ICI\", \"Class of ICI\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Class_of_ICI__row_259__In_Hepatocellular_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD/ground_truth_table.csv"
+}

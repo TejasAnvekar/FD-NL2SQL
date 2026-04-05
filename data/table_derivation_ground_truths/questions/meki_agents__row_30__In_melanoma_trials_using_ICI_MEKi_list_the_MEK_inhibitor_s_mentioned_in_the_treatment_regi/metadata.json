@@ -1,0 +1,14 @@
+{
+  "item_id": "row_30",
+  "csv_row_number": 30,
+  "expected_key": "meki_agents",
+  "question": "In melanoma trials using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_llm_response": "{\"meki_agents\": [\"trametinib\"]}",
+  "derivation_expression": "derive_meki_agents(source_value)",
+  "derivation_notes": "Extract MEK inhibitors as a JSON array string.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Type of combination\" = 'ICI+MEKi'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_meki_agents(source_value) AS \"meki_agents\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/meki_agents__row_30__In_melanoma_trials_using_ICI_MEKi_list_the_MEK_inhibitor_s_mentioned_in_the_treatment_regi/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

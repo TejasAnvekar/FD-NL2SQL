@@ -1,0 +1,14 @@
+{
+  "item_id": "row_420",
+  "csv_row_number": 420,
+  "expected_key": "size_bucket",
+  "question": "For Durvalumab, Tremelimumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_llm_response": "{\"size_bucket\": \"large\"}",
+  "derivation_expression": "derive_size_bucket(source_value)",
+  "derivation_notes": "Bucket sample size into small / medium / large.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Total sample size\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Durvalumab, Tremelimumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_size_bucket(source_value) AS \"size_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/size_bucket__row_420__For_Durvalumab_Tremelimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or/ground_truth_table.csv",
+  "row_count": 7,
+  "null_value_count": 0
+}

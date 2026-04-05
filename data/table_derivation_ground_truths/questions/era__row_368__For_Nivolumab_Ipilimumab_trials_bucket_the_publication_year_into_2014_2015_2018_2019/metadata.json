@@ -1,0 +1,14 @@
+{
+  "item_id": "row_368",
+  "csv_row_number": 368,
+  "expected_key": "era",
+  "question": "For Nivolumab, Ipilimumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_llm_response": "{\"era\": \"≥2019\"}",
+  "derivation_expression": "derive_era_bucket(source_value)",
+  "derivation_notes": "Bucket publication year into ≤2014 / 2015–2018 / ≥2019.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab, Ipilimumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/era__row_368__For_Nivolumab_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv",
+  "row_count": 9,
+  "null_value_count": 0
+}

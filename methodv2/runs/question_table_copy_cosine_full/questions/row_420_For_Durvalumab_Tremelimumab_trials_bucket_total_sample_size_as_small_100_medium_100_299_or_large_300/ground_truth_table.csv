@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,805.0,large,"{""size_bucket"": ""large""}"
+2,NCT02352948,32201234,ARCTIC,595.0,large,"{""size_bucket"": ""large""}"
+3,NCT02453282,32271377,MYSTIC,1118.0,large,"{""size_bucket"": ""large""}"
+4,NCT02369874,32294530,EAGLE,736.0,large,"{""size_bucket"": ""large""}"
+5,NCT02870920,32379280,,180.0,medium,"{""size_bucket"": ""medium""}"
+6,NCT02516241,32971005,DANUBE,1032.0,large,"{""size_bucket"": ""large""}"
+7,NCT03043872,33285097,CASPIAN,805.0,large,"{""size_bucket"": ""large""}"

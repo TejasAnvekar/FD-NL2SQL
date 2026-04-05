@@ -1,0 +1,13 @@
+row_index,NCT,Trial name,Treatment regimen,Control regimen
+1,NCT00527735,,Concurrent ipilimumab+Paclitaxel+Carboplatin,Paclitaxel+Carboplatin
+2,NCT00527735,,Phased ipilimumab+Paclitaxel+Carboplatin,Paclitaxel+Carboplatin
+3,NCT00527735,,Concurrent ipilimumab+Paclitaxel+Carboplatin,Paclitaxel+Carboplatin
+4,NCT00527735,,Phased ipilimumab+Paclitaxel+Carboplatin,Paclitaxel+Carboplatin
+5,NCT01450761,CA184-156,Ipilimumab+Etoposide+Platinum agent,Etoposide+Platinum agent
+6,NCT01285609,,Ipilimumab+Paclitaxel+Carboplatin,Paclitaxel+Carboplatin
+7,NCT00324155,,Ipilimumab+Dacarbazine,Dacarbazine
+8,NCT00094653,MDX010-20,Ipilimumab+Gp100 Vaccine,Gp100 Vaccine
+9,NCT00861614,CA184-043,Ipilimumab,None
+10,NCT01896869,,Ipilimumab+GVAX,GVAX
+11,NCT00094653,MDX010-20,Ipilimumab+Gp100 Vaccine,Gp100 Vaccine
+12,NCT00861614,CA184-043,Ipilimumab,None

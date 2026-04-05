@@ -1,0 +1,18 @@
+{
+  "item_id": "row_16",
+  "csv_row_number": 16,
+  "question": "For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Priamry Multiple, composite, or co-primary endpoints?\" = 'Yes';",
+  "ground_truth_column": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "target_pairs": [
+    {
+      "output_name": "Follow-up duration for primary endpoint(s) in months | Overall",
+      "db_column": "Follow-up duration for primary endpoint(s) in months | Overall"
+    }
+  ],
+  "visible_columns": [
+    "Primary endpoint"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Primary endpoint\", \"Follow-up duration for primary endpoint(s) in months | Overall\" FROM clinical_trials\nWHERE \"Priamry Multiple, composite, or co-primary endpoints?\" = 'Yes';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Follow_up_duration_for_primary_endpoint_s_in_months_Overall__row_16__For_trials_with_composite_or_co_primary_endpoints_list_the_individual_components_from_the/ground_truth_table.csv"
+}

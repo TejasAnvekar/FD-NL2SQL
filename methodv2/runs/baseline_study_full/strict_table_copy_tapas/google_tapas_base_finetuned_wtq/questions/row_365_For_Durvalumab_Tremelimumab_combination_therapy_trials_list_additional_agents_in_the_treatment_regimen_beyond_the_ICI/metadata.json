@@ -1,0 +1,21 @@
+{
+  "item_id": "row_365",
+  "csv_row_number": 365,
+  "question": "For Durvalumab, Tremelimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "predicted_answer": "Atezolizumab | Pembrolizumab | Nivolumab",
+  "selected_cells": [
+    "Atezolizumab",
+    "Pembrolizumab",
+    "Nivolumab"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 16.86434555053711,
+  "chunk_start": 0,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_365_For_Durvalumab_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_365_For_Durvalumab_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_365_For_Durvalumab_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_table.csv"
+}

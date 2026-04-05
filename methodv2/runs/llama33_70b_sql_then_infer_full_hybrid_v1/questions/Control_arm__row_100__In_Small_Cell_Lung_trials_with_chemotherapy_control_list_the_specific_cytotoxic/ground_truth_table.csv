@@ -1,0 +1,12 @@
+row_index,NCT,Trial name,Control regimen,Control arm
+1,NCT00527735,,Placebo+Paclitaxel+Carboplatin,Chemo
+2,NCT00527735,,Placebo+Paclitaxel+Carboplatin,Chemo
+3,NCT01450761,CA184-156,Placebo+Etoposide+Platinum agent,Chemo
+4,NCT03059667,IFCT-1603,Etoposide+Carboplatin/Topotecan,Chemo
+5,NCT03043872,CASPIAN,Platinum+Etoposide,Chemo
+6,NCT03043872,CASPIAN,Platinum+Etoposide,Chemo
+7,NCT02763579,IMpower133,Placebo+Carboplatin+Etoposide,Chemo
+8,NCT03066778,KEYNOTE-604,Placebo+Etoposide+Platinum agent,Chemo
+9,NCT03043872,CASPIAN,Platinum+Etoposide,Chemo
+10,NCT03043872,CASPIAN,Platinum+Etoposide,Chemo
+11,NCT02481830,CheckMate 331,Chemotherapy,Chemo

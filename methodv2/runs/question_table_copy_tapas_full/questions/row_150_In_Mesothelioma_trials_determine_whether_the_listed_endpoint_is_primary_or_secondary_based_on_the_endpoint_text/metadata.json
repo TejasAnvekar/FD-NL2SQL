@@ -1,0 +1,19 @@
+{
+  "item_id": "row_150",
+  "csv_row_number": 150,
+  "question": "In Mesothelioma trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "predicted_answer": "Checkmate 057",
+  "selected_cells": [
+    "Checkmate 057"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 18.7554931640625,
+  "chunk_start": 0,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_150_In_Mesothelioma_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_150_In_Mesothelioma_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_150_In_Mesothelioma_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_table.csv"
+}

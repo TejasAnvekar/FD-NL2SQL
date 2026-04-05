@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02684006,30779531,JAVELIN Renal 101,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"
+2,NCT02420821,31079938,IMmotion151,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"

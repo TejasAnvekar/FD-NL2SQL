@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02807636,32416780,IMvigor130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+2,NCT02807636,32416780,IMvigor130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"

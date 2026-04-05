@@ -1,0 +1,19 @@
+{
+  "item_id": "row_198",
+  "csv_row_number": 198,
+  "question": "In NSCLC trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_keys": [
+    "pd_l1_required"
+  ],
+  "predicted_answer": "Yes",
+  "selected_cells": [
+    "Yes"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 43.41149139404297,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_198_In_NSCLC_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_198_In_NSCLC_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_198_In_NSCLC_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_table.csv"
+}

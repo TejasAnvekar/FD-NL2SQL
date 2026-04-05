@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02358031,31679945,KEYNOTE-048,KEYNOTE-048,KEYNOTE-048,"{""trial_acronym"": ""KEYNOTE-048""}"
+2,NCT02358031,31679945,KEYNOTE-048,KEYNOTE-048,KEYNOTE-048,"{""trial_acronym"": ""KEYNOTE-048""}"

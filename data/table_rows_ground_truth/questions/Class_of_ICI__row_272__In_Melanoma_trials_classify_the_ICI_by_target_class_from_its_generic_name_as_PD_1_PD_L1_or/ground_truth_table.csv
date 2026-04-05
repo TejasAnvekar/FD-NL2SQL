@@ -1,0 +1,27 @@
+row_index,NCT,PubMed ID,Name of ICI,Class of ICI
+1,,,Ipilimumab,CTLA-4
+2,,,Ipilimumab,CTLA-4
+3,,,Ipilimumab,CTLA-4
+4,,,Tremelimumab,CTLA-4
+5,,,Pembrolizumab,PD1
+6,,,Pembrolizumab,PD1
+7,,,Pembrolizumab,PD1
+8,,,Pembrolizumab,PD1
+9,,,Pembrolizumab,PD1
+10,,,Ipilimumab,CTLA-4
+11,,,Nivolumab,PD1
+12,,,Nivolumab,PD1
+13,,,Pembrolizumab,PD1
+14,,,Nivolumab,PD1
+15,,,Nivolumab,PD1
+16,,,Ipilimumab,CTLA-4
+17,,,Ipilimumab,CTLA-4
+18,,,Nivolumab,PD1
+19,,,"Nivolumab, Ipilimumab","PD1, CTLA-4"
+20,,,Atezolizumab,PD-L1
+21,,,Ipilimumab,CTLA-4
+22,,,Ipilimumab,CTLA-4
+23,,,Nivolumab,PD1
+24,,,Pembrolizumab,PD1
+25,,,Pembrolizumab,PD1
+26,,,Ipilimumab,CTLA-4

@@ -1,0 +1,27 @@
+row_index,NCT,Trial name,Number of arms,Secondary endpoint
+1,NCT00324155,,2,"PFS, best ORR, DCR, time to response, DOR, safety"
+2,NCT00094653,MDX010-20,3,"Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS. | DOS, responses, and safety among patients with ≥2 years’ survival."
+3,NCT00094653,MDX010-20,3,"Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS. | DOS, responses, and safety among patients with ≥2 years’ survival."
+4,NCT00257205,,2,PFS; best overall response; duration of response; PFS at 6 months after random assignment; safety.
+5,NCT02362594,EORTC 1325-MG/KEYNOTE-054,2,Distant metastasis-free survival; OS; safety measures; measures of health-related quality of life.
+6,NCT01704287,KEYNOTE-002,3,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety. | ORR; response duration; safety.
+7,NCT01704287,KEYNOTE-002,3,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety. | ORR; response duration; safety.
+8,NCT01704287,KEYNOTE-002,3,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety. | ORR; response duration; safety.
+9,NCT01704287,KEYNOTE-002,3,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety. | ORR; response duration; safety.
+10,NCT00636168,,2,OS; distant metastasis–free survival; safety; health-related quality of life.
+11,NCT01721746,CheckMate 037,2,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.
+12,NCT01721746,CheckMate 037,2,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.
+13,NCT02130466,KEYNOTE-022,2,ORR; duration of response; time to response; OS. | ORR; duration of response; time to response; OS
+14,NCT01721772,CheckMate 066,2,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.
+15,NCT01721772,CheckMate 066,2,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.
+16,NCT01274338,E1609,3,"Safety, tolerability and quality-of-life with adjuvant ipilimumab"
+17,NCT01274338,E1609,3,"Safety, tolerability and quality-of-life with adjuvant ipilimumab"
+18,NCT02523313,IMMUNED,3,OS; time to recurrence; safety; PFS or RFS 2.
+19,NCT02523313,IMMUNED,3,OS; time to recurrence; safety; PFS or RFS 2.
+20,NCT02908672,IMspire150,2,PFS assessed by independent review committee; ORR; DOR; OS; time to deterioration in global health status and physical function.
+21,NCT00094653,MDX010-20,3,"Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS. | DOS, responses, and safety among patients with ≥2 years’ survival."
+22,NCT00094653,MDX010-20,3,"Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS. | DOS, responses, and safety among patients with ≥2 years’ survival."
+23,NCT01721772,CheckMate 066,2,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.
+24,NCT02130466,KEYNOTE-022,2,ORR; duration of response; time to response; OS. | ORR; duration of response; time to response; OS
+25,NCT02362594,EORTC 1325-MG/KEYNOTE-054,2,Distant metastasis-free survival; OS; safety measures; measures of health-related quality of life.
+26,NCT00636168,,2,OS; distant metastasis–free survival; safety; health-related quality of life.

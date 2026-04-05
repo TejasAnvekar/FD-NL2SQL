@@ -1,0 +1,18 @@
+{
+  "item_id": "row_326",
+  "csv_row_number": 326,
+  "question": "In Hepatocellular combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "sql_query": "SELECT \"Type of combination\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_column": "Type of combination",
+  "target_pairs": [
+    {
+      "output_name": "Type of combination",
+      "db_column": "Type of combination"
+    }
+  ],
+  "visible_columns": [
+    "Type of combination"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Type of combination\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Type_of_combination__row_326__In_Hepatocellular_combination_therapy_trials_normalize_the_combination_type_to_standardize/ground_truth_table.csv"
+}

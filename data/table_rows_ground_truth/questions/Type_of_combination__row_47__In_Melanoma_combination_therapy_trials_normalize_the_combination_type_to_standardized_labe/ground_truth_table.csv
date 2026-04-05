@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Type of combination
+1,,,ICI+Chemo
+2,,,ICI+Vaccine
+3,,,ICI+BRAFi+MEKi
+4,,,ICI+ICI
+5,,,ICI+BRAFi+MEKi
+6,,,ICI+Vaccine
+7,,,ICI+BRAFi+MEKi

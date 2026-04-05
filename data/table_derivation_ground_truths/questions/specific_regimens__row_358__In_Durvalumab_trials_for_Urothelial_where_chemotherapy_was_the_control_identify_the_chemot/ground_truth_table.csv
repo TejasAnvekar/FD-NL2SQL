@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02516241,32971005,DANUBE,Gemcitabine+Cisplatin/Carboplatin,"[""Gemcitabine+Platinum""]","{""specific_regimens"": [""Gemcitabine+Platinum""]}"

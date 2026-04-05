@@ -1,0 +1,18 @@
+{
+  "item_id": "row_21",
+  "csv_row_number": 21,
+  "question": "In NSCLC trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC' AND \"Control arm\" = 'Chemo';",
+  "ground_truth_column": "Control regimen",
+  "target_pairs": [
+    {
+      "output_name": "Control regimen",
+      "db_column": "Control regimen"
+    }
+  ],
+  "visible_columns": [
+    "Control regimen"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Control regimen\" FROM clinical_trials\nWHERE \"Cancer type\" = 'NSCLC' AND \"Control arm\" = 'Chemo';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Control_regimen__row_21__In_NSCLC_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_contr/ground_truth_table.csv"
+}

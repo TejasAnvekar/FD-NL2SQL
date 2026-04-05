@@ -1,0 +1,14 @@
+{
+  "input_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+  "table_output_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches_table_rows.csv",
+  "retrieval_output_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches_retrieval_rows.csv",
+  "row_count": 500,
+  "table_count": 47,
+  "retrieval_count": 453,
+  "other_count": 0,
+  "raw_label_counts": {
+    "Retrieval": 453,
+    "Table (Class of ICI)": 18,
+    "Table (Primary endpoint)": 29
+  }
+}

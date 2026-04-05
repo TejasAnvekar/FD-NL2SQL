@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,era,derived_expected_llm_response
+1,NCT02625623,30052729,JAVELIN Gastric 300,2018,2015–2018,"{""era"": ""2015–2018""}"
+2,NCT02684006,30779531,JAVELIN Renal 101,2019,≥2019,"{""era"": ""≥2019""}"
+3,NCT02684006,32339648,JAVELIN Renal 101,2020,≥2019,"{""era"": ""≥2019""}"
+4,NCT02603432,32945632,,2020,≥2019,"{""era"": ""≥2019""}"
+5, NCT02625610,33197226,Javelin Gastric 100,2020,≥2019,"{""era"": ""≥2019""}"
+6,NCT02952586,33794205,JAVELIN Head and Neck 101,2021,≥2019,"{""era"": ""≥2019""}"
+7,NCT02999087,33125944,REACH,2021,≥2019,"{""era"": ""≥2019""}"

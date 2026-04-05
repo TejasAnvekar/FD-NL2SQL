@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02807636,32416780,IMvigor130,Chemo,active,"{""control_category"": ""active""}"
+2,NCT02807636,32416780,IMvigor130,Chemo,active,"{""control_category"": ""active""}"
+3,NCT02516241,32971005,DANUBE,Chemo,active,"{""control_category"": ""active""}"
+4,NCT02516241,32971005,DANUBE,Chemo,active,"{""control_category"": ""active""}"
+5,NCT02603432,32945632,,Best supportive care,best supportive care,"{""control_category"": ""best supportive care""}"
+6,NCT02450331, 33721560,Imvigor010,Observation,best supportive care,"{""control_category"": ""best supportive care""}"

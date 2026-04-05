@@ -1,0 +1,11 @@
+{
+  "item_id": "row_8",
+  "csv_row_number": 8,
+  "question": "For Atezolizumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_100/questions/row_8_For_Atezolizumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/era__row_8__For_Atezolizumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019"
+}

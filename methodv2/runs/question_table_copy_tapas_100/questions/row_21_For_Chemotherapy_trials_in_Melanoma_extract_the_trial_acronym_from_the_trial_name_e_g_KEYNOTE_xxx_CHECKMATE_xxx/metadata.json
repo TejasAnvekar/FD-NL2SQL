@@ -1,0 +1,19 @@
+{
+  "item_id": "row_21",
+  "csv_row_number": 21,
+  "question": "For Chemotherapy trials in Melanoma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "predicted_answer": "CheckMate 214",
+  "selected_cells": [
+    "CheckMate 214"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 19.989871978759766,
+  "chunk_start": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_21_For_Chemotherapy_trials_in_Melanoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_21_For_Chemotherapy_trials_in_Melanoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/questions/row_21_For_Chemotherapy_trials_in_Melanoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv"
+}

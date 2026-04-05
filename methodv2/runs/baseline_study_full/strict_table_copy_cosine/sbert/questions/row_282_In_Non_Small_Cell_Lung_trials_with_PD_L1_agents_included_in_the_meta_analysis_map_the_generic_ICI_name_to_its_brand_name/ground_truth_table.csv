@@ -1,0 +1,11 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+2,NCT02125461,28885881,PACIFIC,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+3,NCT02395172,30262187,JAVELIN Lung 200,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+4,NCT02366143,29863955,IMPower150,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+5,NCT02366143,29863955,IMPower150,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+6,NCT02367781,31122901,IMpower130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+7,NCT02352948,32201234,ARCTIC,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+8,NCT02453282,32271377,MYSTIC,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+9,NCT02367794,32302702,IMpower131,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+10,NCT02367794,32302702,IMpower131,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"

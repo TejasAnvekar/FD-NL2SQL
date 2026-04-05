@@ -1,0 +1,16 @@
+{
+  "item_id": "row_37",
+  "csv_row_number": 37,
+  "question": "In Gastric/GEJ combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "expected_llm_response": {
+    "combo_type_norm": "ICI+Chemo"
+  },
+  "sql_query": "SELECT \"Type of combination\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of combination\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ' AND \"Monotherapy/combination\" = 'Combination'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_combo_type_norm(source_value) AS \"combo_type_norm\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/combo_type_norm__row_37__In_Gastric_GEJ_combination_therapy_trials_normalize_the_combination_type_to_standardized_l/ground_truth_table.csv",
+  "row_count": 2
+}

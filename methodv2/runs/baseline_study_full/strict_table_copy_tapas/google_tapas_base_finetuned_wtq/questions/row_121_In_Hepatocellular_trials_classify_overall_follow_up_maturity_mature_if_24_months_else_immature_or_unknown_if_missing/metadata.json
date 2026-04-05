@@ -1,0 +1,19 @@
+{
+  "item_id": "row_121",
+  "csv_row_number": 121,
+  "question": "In Hepatocellular trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "maturity"
+  ],
+  "predicted_answer": "MYSTIC",
+  "selected_cells": [
+    "MYSTIC"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 44.23318862915039,
+  "chunk_start": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_121_In_Hepatocellular_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_121_In_Hepatocellular_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_121_In_Hepatocellular_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/ground_truth_table.csv"
+}

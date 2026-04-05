@@ -1,0 +1,14 @@
+{
+  "item_id": "row_286",
+  "csv_row_number": 286,
+  "expected_key": "trial_acronym",
+  "question": "For Nivolumab trials in Mesothelioma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_llm_response": "{\"trial_acronym\": \"KEYNOTE-042\"}",
+  "derivation_expression": "derive_trial_acronym(source_value)",
+  "derivation_notes": "Extract or normalize the trial acronym from Trial name.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Trial name\" AS source_value FROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab' AND \"Cancer type\" = 'Mesothelioma'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_trial_acronym(source_value) AS \"trial_acronym\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/trial_acronym__row_286__For_Nivolumab_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEY/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

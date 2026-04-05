@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Treatment regimen,Control regimen
+1,,,Avelumab+Axitinib,Sunitinib
+2,,,Avelumab+Axitinib,Sunitinib
+3,,,Avelumab,Oxaliplstin+5-FU+Leucovorin+Capecitabine+Best supportive care
+4,,,Avelumab+Chemoradiotherapy,Chemoradiotherapy
+5,,,Avelumab+cetuximab+radiotherapy,Cisplatin/cetuximab+radiotherapy

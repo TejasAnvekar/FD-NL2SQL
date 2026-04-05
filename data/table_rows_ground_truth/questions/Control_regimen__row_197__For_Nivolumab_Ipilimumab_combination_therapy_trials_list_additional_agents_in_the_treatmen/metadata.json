@@ -1,0 +1,18 @@
+{
+  "item_id": "row_197",
+  "csv_row_number": 197,
+  "question": "For Nivolumab, Ipilimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_column": "Control regimen",
+  "target_pairs": [
+    {
+      "output_name": "Control regimen",
+      "db_column": "Control regimen"
+    }
+  ],
+  "visible_columns": [
+    "Treatment regimen"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Treatment regimen\", \"Control regimen\" FROM clinical_trials\nWHERE \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Monotherapy/combination\" = 'Combination';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Control_regimen__row_197__For_Nivolumab_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatmen/ground_truth_table.csv"
+}

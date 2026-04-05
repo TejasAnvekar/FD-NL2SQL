@@ -1,0 +1,18 @@
+{
+  "item_id": "row_258",
+  "csv_row_number": 258,
+  "question": "In Renal cell trials, convert 'Type of therapy' into is_combination = true/false.",
+  "sql_query": "SELECT \"Type of therapy\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Renal cell';",
+  "ground_truth_column": "Monotherapy/combination",
+  "target_pairs": [
+    {
+      "output_name": "Monotherapy/combination",
+      "db_column": "Monotherapy/combination"
+    }
+  ],
+  "visible_columns": [
+    "Type of therapy"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Type of therapy\", \"Monotherapy/combination\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Renal cell';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Monotherapy_combination__row_258__In_Renal_cell_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv"
+}

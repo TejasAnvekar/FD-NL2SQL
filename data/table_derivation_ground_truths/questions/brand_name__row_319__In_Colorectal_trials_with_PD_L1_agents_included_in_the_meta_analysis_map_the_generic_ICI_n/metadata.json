@@ -1,0 +1,14 @@
+{
+  "item_id": "row_319",
+  "csv_row_number": 319,
+  "expected_key": "brand_name",
+  "question": "In Colorectal trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "column_used": "Name of ICI",
+  "expected_llm_response": "{\"brand_name\": \"Tecentriq\"}",
+  "derivation_expression": "derive_ici_brand_name(source_value)",
+  "derivation_notes": "Map generic ICI names to brand names.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Colorectal' AND \"Class of ICI\" = 'PD-L1' AND \"Included in MA\" = 'Yes'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_brand_name(source_value) AS \"brand_name\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/brand_name__row_319__In_Colorectal_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_n/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

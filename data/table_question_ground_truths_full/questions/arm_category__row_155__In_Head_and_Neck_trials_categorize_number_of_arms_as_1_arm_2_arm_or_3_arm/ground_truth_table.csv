@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT02105636,27718784,CheckMate 141,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT02105636,29884413,CheckMate 141,2,2-arm,"{""arm_category"": ""2-arm""}"
+3,NCT02358031,31679945,KEYNOTE-048,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+4,NCT02358031,31679945,KEYNOTE-048,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+5,NCT02017717,32437507,CheckMate 143,2,2-arm,"{""arm_category"": ""2-arm""}"
+6,NCT02369874,32294530,EAGLE,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+7,NCT02369874,32294530,EAGLE,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+8,NCT02952586,33794205,JAVELIN Head and Neck 101,2,2-arm,"{""arm_category"": ""2-arm""}"
+9,NCT02999087,33125944,REACH,2,2-arm,"{""arm_category"": ""2-arm""}"

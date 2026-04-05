@@ -1,0 +1,5 @@
+row_index,NCT,Trial name,Control regimen,Control arm
+1,NCT02370498,Keynote-061,Paclitaxel,Chemo
+2,NCT02494583,Keynote-062,Placebo+Cisplatin+5-FU+Capecitabine,Chemo
+3,NCT02494583,Keynote-062,Placebo+Cisplatin+5-FU+Capecitabine,Chemo
+4,NCT02625610,Javelin Gastric 100,Oxaliplstin+5-FU+Leucovorin+Capecitabine+Best supportive care,Chemo

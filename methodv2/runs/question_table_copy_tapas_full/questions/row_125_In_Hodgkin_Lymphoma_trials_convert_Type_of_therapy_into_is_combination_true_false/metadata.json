@@ -1,0 +1,19 @@
+{
+  "item_id": "row_125",
+  "csv_row_number": 125,
+  "question": "In Hodgkin Lymphoma trials, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "predicted_answer": "Combination",
+  "selected_cells": [
+    "Combination"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 10.853157997131348,
+  "chunk_start": 0,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_125_In_Hodgkin_Lymphoma_trials_convert_Type_of_therapy_into_is_combination_true_false/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_125_In_Hodgkin_Lymphoma_trials_convert_Type_of_therapy_into_is_combination_true_false/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_125_In_Hodgkin_Lymphoma_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv"
+}

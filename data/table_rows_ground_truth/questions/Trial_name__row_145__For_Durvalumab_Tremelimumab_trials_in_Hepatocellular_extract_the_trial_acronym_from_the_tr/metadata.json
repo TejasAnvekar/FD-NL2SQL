@@ -1,0 +1,18 @@
+{
+  "item_id": "row_145",
+  "csv_row_number": 145,
+  "question": "For Durvalumab, Tremelimumab trials in Hepatocellular, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Durvalumab, Tremelimumab' AND \"Cancer type\" = 'Hepatocellular';",
+  "ground_truth_column": "Trial name",
+  "target_pairs": [
+    {
+      "output_name": "Trial name",
+      "db_column": "Trial name"
+    }
+  ],
+  "visible_columns": [
+    "Trial name"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Trial name\" FROM clinical_trials\nWHERE \"Name of ICI\" = 'Durvalumab, Tremelimumab' AND \"Cancer type\" = 'Hepatocellular';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Trial_name__row_145__For_Durvalumab_Tremelimumab_trials_in_Hepatocellular_extract_the_trial_acronym_from_the_tr/ground_truth_table.csv"
+}

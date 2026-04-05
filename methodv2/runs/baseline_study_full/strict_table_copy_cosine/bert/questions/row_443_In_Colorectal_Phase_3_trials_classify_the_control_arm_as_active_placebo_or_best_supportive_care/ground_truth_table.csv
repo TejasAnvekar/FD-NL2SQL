@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Multikinase inhibitor,active,"{""control_category"": ""active""}"
+2,NCT02788279,31003911,IMblaze130,Multikinase inhibitor,active,"{""control_category"": ""active""}"
+3,NCT02563002,33264544,MK-3475/Keynote-177,Chemo,active,"{""control_category"": ""active""}"

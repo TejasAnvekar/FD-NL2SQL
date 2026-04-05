@@ -1,0 +1,18 @@
+{
+  "item_id": "row_5",
+  "csv_row_number": 5,
+  "question": "For Avelumab trials in Multiple Myeloma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Avelumab' AND \"Cancer type\" = 'Multiple Myeloma';",
+  "ground_truth_column": "Trial name",
+  "target_pairs": [
+    {
+      "output_name": "Trial name",
+      "db_column": "Trial name"
+    }
+  ],
+  "visible_columns": [
+    "Trial name"
+  ],
+  "augmented_sql": "SELECT \"NCT\", \"PubMed ID\", \"Trial name\" FROM clinical_trials\nWHERE \"Name of ICI\" = 'Avelumab' AND \"Cancer type\" = 'Multiple Myeloma';",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_rows_ground_truth/questions/Trial_name__row_5__For_Avelumab_trials_in_Multiple_Myeloma_extract_the_trial_acronym_from_the_trial_name_e_g/ground_truth_table.csv"
+}

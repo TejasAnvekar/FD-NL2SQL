@@ -1,0 +1,14 @@
+{
+  "item_id": "row_18",
+  "csv_row_number": 18,
+  "expected_key": "components",
+  "question": "For trials with composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "column_used": "Primary endpoint",
+  "expected_llm_response": "{\"components\": [\"OS\", \"PFS\"]}",
+  "derivation_expression": "derive_endpoint_components(source_value)",
+  "derivation_notes": "Extract endpoint components as a JSON array string.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Primary endpoint\" AS source_value FROM clinical_trials\nWHERE \"Priamry Multiple, composite, or co-primary endpoints?\" = 'Yes'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_components(source_value) AS \"components\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/components__row_18__For_trials_with_composite_or_co_primary_endpoints_list_the_individual_components_from_the/ground_truth_table.csv",
+  "row_count": 0,
+  "null_value_count": 0
+}

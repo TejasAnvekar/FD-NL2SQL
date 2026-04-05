@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02657434,33333328,Impower 132,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"

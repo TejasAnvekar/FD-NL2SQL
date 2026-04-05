@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT01843374,28729154,DETERMINE,No,false,"{""pd_l1_required"": false}"
+2,NCT02899299,33485464,CheckMate 743,No,false,"{""pd_l1_required"": false}"
+3,NCT02991482,32976938,PROMISE-meso,No,false,"{""pd_l1_required"": false}"

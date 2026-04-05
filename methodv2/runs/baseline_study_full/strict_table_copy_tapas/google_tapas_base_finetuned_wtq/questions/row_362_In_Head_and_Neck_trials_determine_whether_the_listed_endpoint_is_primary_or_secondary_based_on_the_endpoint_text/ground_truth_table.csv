@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02105636,27718784,CheckMate 141,"PFS, ORR",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02105636,29884413,CheckMate 141,"PFS, ORR",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing.",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing.",secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02017717,32437507,CheckMate 143,OS rate at 12 months; investigator-assessed PFS and ORR.,secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02369874,32294530,EAGLE,"PFS, ORR, DOR",secondary,"{""endpoint_role"": ""secondary""}"
+7,NCT02369874,32294530,EAGLE,"PFS, ORR, DOR",secondary,"{""endpoint_role"": ""secondary""}"
+8,NCT02952586,33794205,JAVELIN Head and Neck 101,OS; ORR; DoR; path CR,secondary,"{""endpoint_role"": ""secondary""}"
+9,NCT02999087,33125944,REACH,Safety,secondary,"{""endpoint_role"": ""secondary""}"

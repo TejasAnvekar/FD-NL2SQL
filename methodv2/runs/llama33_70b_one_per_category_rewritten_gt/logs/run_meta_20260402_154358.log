@@ -1,0 +1,21 @@
+2026-04-02 15:43:58,180 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category_rewritten_gt/logs/run_meta_20260402_154358.log
+2026-04-02 15:43:58,180 | INFO | CSV path: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_one_per_category_rewritten_ground_truth.csv
+2026-04-02 15:43:58,180 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-02 15:43:58,180 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category_rewritten_gt
+2026-04-02 15:43:58,181 | INFO | API base: http://127.0.0.1:8000/v1
+2026-04-02 15:43:58,181 | INFO | Model name: llama-3.3-70b-instruct
+2026-04-02 15:43:58,181 | INFO | Prompt source-column mode: shown
+2026-04-02 15:43:58,181 | INFO | Dry run: False
+2026-04-02 15:43:58,181 | INFO | Eligible questions: 7
+2026-04-02 15:43:58,181 | INFO | Skipped: {}
+2026-04-02 15:43:58,181 | INFO | Groups: 7
+2026-04-02 15:43:58,182 | INFO |   Class of ICI -> 1 rows
+2026-04-02 15:43:58,182 | INFO |   Clincal setting in relation to surgery -> 1 rows
+2026-04-02 15:43:58,182 | INFO |   Control regimen -> 1 rows
+2026-04-02 15:43:58,182 | INFO |   Follow-up duration for primary endpoint(s) in months | Control -> 1 rows
+2026-04-02 15:43:58,182 | INFO |   Follow-up duration for primary endpoint(s) in months | Overall -> 1 rows
+2026-04-02 15:43:58,182 | INFO |   Monotherapy/combination -> 1 rows
+2026-04-02 15:43:58,182 | INFO |   Trial name -> 1 rows
+2026-04-02 15:44:55,101 | INFO | Wrote all-question results CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category_rewritten_gt/all_question_results.csv
+2026-04-02 15:44:55,101 | INFO | Wrote row-level predictions CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category_rewritten_gt/row_level_predictions.csv
+2026-04-02 15:44:55,101 | INFO | Wrote summary JSON: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category_rewritten_gt/summary.json

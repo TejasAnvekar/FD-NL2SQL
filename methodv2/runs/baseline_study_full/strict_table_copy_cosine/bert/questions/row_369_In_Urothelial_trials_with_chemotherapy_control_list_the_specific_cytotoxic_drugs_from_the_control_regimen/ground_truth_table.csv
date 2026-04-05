@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"[""gemcitabine"", ""carboplatin"", ""cisplatin""]","{""control_drugs"": [""gemcitabine"", ""carboplatin"", ""cisplatin""]}"
+2,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"[""gemcitabine"", ""carboplatin"", ""cisplatin""]","{""control_drugs"": [""gemcitabine"", ""carboplatin"", ""cisplatin""]}"
+3,NCT02516241,32971005,DANUBE,Gemcitabine+Cisplatin/Carboplatin,"[""gemcitabine"", ""cisplatin"", ""carboplatin""]","{""control_drugs"": [""gemcitabine"", ""cisplatin"", ""carboplatin""]}"
+4,NCT02516241,32971005,DANUBE,Gemcitabine+Cisplatin/Carboplatin,"[""gemcitabine"", ""cisplatin"", ""carboplatin""]","{""control_drugs"": [""gemcitabine"", ""cisplatin"", ""carboplatin""]}"

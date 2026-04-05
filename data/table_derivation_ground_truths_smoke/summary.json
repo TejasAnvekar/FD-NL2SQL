@@ -1,0 +1,15 @@
+{
+  "derivation_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_table_derivation_sqls_smoke.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "output_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_smoke",
+  "question_count": 4,
+  "exported_count": 4,
+  "skipped_count": 0,
+  "row_count_by_key": {
+    "class": 27
+  },
+  "null_value_count_by_key": {
+    "class": 0
+  },
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_smoke/manifest.csv"
+}

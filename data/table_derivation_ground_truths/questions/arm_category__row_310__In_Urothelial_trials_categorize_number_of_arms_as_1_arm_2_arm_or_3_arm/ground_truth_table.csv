@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT02500121,32271672,,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT02807636,32416780,IMvigor130,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+3,NCT02807636,32416780,IMvigor130,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+4,NCT02516241,32971005,DANUBE,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+5,NCT02516241,32971005,DANUBE,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+6,NCT02603432,32945632,,2,2-arm,"{""arm_category"": ""2-arm""}"
+7,NCT02450331, 33721560,Imvigor010,2,2-arm,"{""arm_category"": ""2-arm""}"

@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02105636,27718784,CheckMate 141,Chemo/Anti-EGFR,active,"{""control_category"": ""active""}"
+2,NCT02105636,29884413,CheckMate 141,Chemo/Anti-EGFR,active,"{""control_category"": ""active""}"
+3,NCT02358031,31679945,KEYNOTE-048,Chemo+Anti-EGFR,active,"{""control_category"": ""active""}"
+4,NCT02358031,31679945,KEYNOTE-048,Chemo+Anti-EGFR,active,"{""control_category"": ""active""}"
+5,NCT02017717,32437507,CheckMate 143,Anti-VEGF,active,"{""control_category"": ""active""}"
+6,NCT02369874,32294530,EAGLE,Chemo+Anti-EGFR,active,"{""control_category"": ""active""}"
+7,NCT02369874,32294530,EAGLE,Chemo+Anti-EGFR,active,"{""control_category"": ""active""}"
+8,NCT02952586,33794205,JAVELIN Head and Neck 101,Chemoradio,active,"{""control_category"": ""active""}"
+9,NCT02999087,33125944,REACH,Chemo/Anti-EGFR+Radiotherapy,active,"{""control_category"": ""active""}"

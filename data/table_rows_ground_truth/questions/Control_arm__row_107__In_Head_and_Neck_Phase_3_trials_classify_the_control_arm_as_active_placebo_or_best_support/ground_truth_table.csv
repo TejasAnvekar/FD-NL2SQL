@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Control arm
+1,,,Chemo/Anti-EGFR
+2,,,Chemo/Anti-EGFR
+3,,,Chemo+Anti-EGFR
+4,,,Chemo+Anti-EGFR
+5,,,Anti-VEGF
+6,,,Chemo+Anti-EGFR
+7,,,Chemo+Anti-EGFR
+8,,,Chemoradio
+9,,,Chemo/Anti-EGFR+Radiotherapy

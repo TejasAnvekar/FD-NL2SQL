@@ -1,0 +1,19 @@
+{
+  "item_id": "row_317",
+  "csv_row_number": 317,
+  "question": "In Pancreatic Phase 2 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "primary_endpoint_category"
+  ],
+  "predicted_answer": "PFS",
+  "selected_cells": [
+    "PFS"
+  ],
+  "aggregation_prediction": 0,
+  "chunk_score": 8.130273818969727,
+  "chunk_start": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_317_In_Pancreatic_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_317_In_Pancreatic_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_317_In_Pancreatic_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/ground_truth_table.csv"
+}

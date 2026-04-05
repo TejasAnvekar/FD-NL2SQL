@@ -1,0 +1,11 @@
+{
+  "item_id": "row_447",
+  "csv_row_number": 447,
+  "question": "In Non-Small Cell Lung trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_keys": [
+    "pd_l1_required"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_447_In_Non_Small_Cell_Lung_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/pd_l1_required__row_447__In_Non_Small_Cell_Lung_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false"
+}

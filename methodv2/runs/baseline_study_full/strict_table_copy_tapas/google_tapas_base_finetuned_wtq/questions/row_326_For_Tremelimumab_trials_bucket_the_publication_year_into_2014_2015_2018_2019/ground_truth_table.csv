@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,era,derived_expected_llm_response
+1,NCT00257205,23295794,,2013,≤2014,"{""era"": ""≤2014""}"
+2,NCT01843374,28729154,DETERMINE,2017,2015–2018,"{""era"": ""2015–2018""}"
+3,NCT02352948,32201234,ARCTIC,2020,≥2019,"{""era"": ""≥2019""}"

@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Secondary endpoint
+1,,,"OS, treatment outcomes CPS"
+2,,,"RR, DOR, PFS"
+3,,,"RR, DOR, PFS"
+4,,,"OS, PFS, ORR, DoR, DCR"
+5,,,"OS, PFS, ORR, DoR, DCR"
+6,,,"PFS, ORR, time to response, DoR, DCR, safety"
+7,,,OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs

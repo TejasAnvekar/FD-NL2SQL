@@ -1,0 +1,14 @@
+{
+  "item_id": "row_36",
+  "csv_row_number": 36,
+  "expected_key": "class",
+  "question": "In Gastric/GEJ trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "column_used": "Name of ICI",
+  "expected_llm_response": "{\"class\": \"PD-1\"}",
+  "derivation_expression": "derive_ici_class(source_value)",
+  "derivation_notes": "Map generic ICI names to PD-1/PD-L1/CTLA-4.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_class(source_value) AS \"class\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths/questions/class__row_36__In_Gastric_GEJ_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1/ground_truth_table.csv",
+  "row_count": 8,
+  "null_value_count": 0
+}

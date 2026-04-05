@@ -1,0 +1,11 @@
+{
+  "item_id": "row_437",
+  "csv_row_number": 437,
+  "question": "In Multiple Myeloma trials, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_437_In_Multiple_Myeloma_trials_convert_Type_of_therapy_into_is_combination_true_false/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/is_combination__row_437__In_Multiple_Myeloma_trials_convert_Type_of_therapy_into_is_combination_true_false"
+}

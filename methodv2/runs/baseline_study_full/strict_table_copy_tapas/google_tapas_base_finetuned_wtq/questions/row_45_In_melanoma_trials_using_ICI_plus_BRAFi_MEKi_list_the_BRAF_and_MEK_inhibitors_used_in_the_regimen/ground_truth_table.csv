@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,braf_inhibitor,mek_inhibitor,derived_expected_llm_response
+1,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,dabrafenib,trametinib,"{""braf_inhibitor"": ""dabrafenib"", ""mek_inhibitor"": ""trametinib""}"
+2,NCT02908672,32534646,IMspire150,Atezolizumab+Vemurafenib+Cobimetinib,vemurafenib,cobimetinib,"{""braf_inhibitor"": ""vemurafenib"", ""mek_inhibitor"": ""cobimetinib""}"
+3,NCT02130466,33361337,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,dabrafenib,trametinib,"{""braf_inhibitor"": ""dabrafenib"", ""mek_inhibitor"": ""trametinib""}"

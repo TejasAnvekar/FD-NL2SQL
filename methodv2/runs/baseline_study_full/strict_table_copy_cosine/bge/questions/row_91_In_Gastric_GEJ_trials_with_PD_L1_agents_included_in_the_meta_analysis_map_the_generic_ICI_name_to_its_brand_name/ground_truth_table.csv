@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02625623,30052729,JAVELIN Gastric 300,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"

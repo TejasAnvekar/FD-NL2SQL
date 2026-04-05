@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02569242,31582355,ATTRACTION-3,Paclitaxel/Docetaxel,,"{""specific_regimens"": null}"

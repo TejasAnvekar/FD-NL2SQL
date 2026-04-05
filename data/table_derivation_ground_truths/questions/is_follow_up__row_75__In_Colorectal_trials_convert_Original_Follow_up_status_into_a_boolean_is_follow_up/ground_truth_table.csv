@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Original publication,false,"{""is_follow_up"": false}"
+2,NCT02788279,31003911,IMblaze130,Original publication,false,"{""is_follow_up"": false}"
+3,NCT02870920,32379280,,Original publication,false,"{""is_follow_up"": false}"
+4,NCT02563002,33264544,MK-3475/Keynote-177,Original publication,false,"{""is_follow_up"": false}"

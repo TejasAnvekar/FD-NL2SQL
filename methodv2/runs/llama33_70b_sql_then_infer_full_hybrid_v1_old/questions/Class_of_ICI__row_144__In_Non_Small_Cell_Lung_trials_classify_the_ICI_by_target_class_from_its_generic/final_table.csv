@@ -1,0 +1,46 @@
+row_index,NCT,Trial name,Name of ICI,Class of ICI
+1,NCT00527735,,Ipilimumab,CTLA-4
+2,NCT00527735,,Ipilimumab,CTLA-4
+3,NCT01673867,Checkmate 057,Nivolumab,PD-1
+4,NCT01642004,Checkmate 017,Nivolumab,PD-1
+5,NCT01905657,Keynote-010,Pembrolizumab,PD-1
+6,NCT01905657,Keynote-010,Pembrolizumab,PD-1
+7,NCT01903993,POPLAR,Atezolizumab,PD-L1
+8,NCT02041533,Checkmate 026,Nivolumab,PD-1
+9,NCT01285609,,Ipilimumab,CTLA-4
+10,NCT02125461,PACIFIC,Durvalumab,PD-L1
+11,NCT02125461,PACIFIC,Durvalumab,PD-L1
+12,NCT02395172,JAVELIN Lung 200,Atezolizumab,PD-L1
+13,NCT02039674,Keynote-021,Pembrolizumab,PD-1
+14,NCT02039674,Keynote-021,Pembrolizumab,PD-1
+15,NCT02008227,OAK,Atezolizumab,PD-L1
+16,NCT02008227,OAK,Atezolizumab,PD-L1
+17,NCT02578680,Keynote-189,Pembrolizumab,PD-1
+18,NCT02775435,Keynote-407,Pembrolizumab,PD-1
+19,NCT02366143,IMPower150,Atezolizumab,PD-L1
+20,NCT02366143,IMPower150,Atezolizumab,PD-L1
+21,NCT02477826,Checkmate 227,"Nivolumab, Ipilimumab","['PD-1', 'CTLA-4']"
+22,NCT02477826,Checkmate 227,Nivolumab,PD-1
+23,NCT02477826,Checkmate 227,"Nivolumab, Ipilimumab","['PD-1', 'CTLA-4']"
+24,NCT02477826,Checkmate 227,Nivolumab,PD-1
+25,NCT02477826,Checkmate 227,Nivolumab,PD-1
+26,NCT02220894,Keynote-042,Pembrolizumab,PD-1
+27,NCT02142738,Keynote-024,Pembrolizumab,PD-1
+28,NCT02367781,IMpower130,Atezolizumab,PD-L1
+29,NCT02613507,Checkmate 078,Nivolumab,PD-1
+30,NCT02454933,CAURAL,Durvalumab,PD-L1
+31,NCT02352948,ARCTIC,Durvalumab,PD-L1
+32,NCT02352948,ARCTIC,Tremelimumab,CTLA-4
+33,NCT02352948,ARCTIC,"Durvalumab, Tremelimumab","['PD-L1', 'CTLA-4']"
+34,NCT02453282,MYSTIC,Durvalumab,PD-L1
+35,NCT02453282,MYSTIC,"Durvalumab, Tremelimumab","['PD-L1', 'CTLA-4']"
+36,NCT02367794,IMpower131,Atezolizumab,PD-L1
+37,NCT02367794,IMpower131,Atezolizumab,PD-L1
+38,NCT02574598,PROLUNG,Pembrolizumab,PD-1
+39,NCT02142738,Keynote-024,Pembrolizumab,PD-1
+40,NCT02409342,IMpower110,Atezolizumab,PD-L1
+41,NCT01903993,POPLAR,Atezolizumab,PD-L1
+42,NCT02008227,OAK,Atezolizumab,PD-L1
+43,NCT03215706,CheckMate 9LA,"Nivolumab, Ipilimumab","['PD-1', 'CTLA-4']"
+44,NCT03088540,EMPOWER-Lung 1,Cemiplimab,PD-1
+45,NCT02852083,ModuLung,Nivolumab,PD-1

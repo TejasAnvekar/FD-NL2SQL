@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "csv_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_one_per_category.csv",
+    "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+    "api_base": "http://127.0.0.1:8000/v1",
+    "model_name": "llama-3.3-70b-instruct",
+    "prompt_source_column_mode": "shown",
+    "csv_row_number": 0,
+    "limit": 0,
+    "dry_run": false,
+    "use_ctgov_metadata": true,
+    "use_ctgov_hybrid_planner": true,
+    "loaded_completed_item_ids": 0,
+    "eligible_questions": 9,
+    "skipped": {},
+    "groups": {
+      "Class of ICI": 1,
+      "Control arm": 1,
+      "Control regimen": 1,
+      "Follow-up duration for primary endpoint(s) in months | Control": 1,
+      "Follow-up duration for primary endpoint(s) in months | Overall": 1,
+      "Is any other biomarker used for inclusion": 1,
+      "Monotherapy/combination": 1,
+      "Secondary endpoint": 1,
+      "Treatment regimen": 1
+    }
+  },
+  "question_count": 9,
+  "row_prediction_count": 108,
+  "avg_sql_result_exact_match": 0.2222222222222222,
+  "avg_inference_exact_match_rate": 0.10981684981684982,
+  "avg_inference_similarity": 0.10981684981684982,
+  "outputs": {
+    "all_question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/row_level_predictions.csv",
+    "questions_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/questions",
+    "question_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/question_results_checkpoint.jsonl",
+    "row_level_checkpoint_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/row_level_checkpoint.jsonl",
+    "sql_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/sql_requests.jsonl",
+    "sql_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/sql_responses.jsonl",
+    "planner_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/planner_requests.jsonl",
+    "planner_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/planner_responses.jsonl",
+    "inference_requests_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/inference_requests.jsonl",
+    "inference_responses_jsonl": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_one_per_category/inference_responses.jsonl"
+  }
+}

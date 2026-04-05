@@ -1,0 +1,14 @@
+{
+  "item_id": "row_143",
+  "csv_row_number": 143,
+  "expected_key": "pd_l1_required",
+  "question": "In Prostate trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_llm_response": "{\"pd_l1_required\": true}",
+  "derivation_expression": "derive_pd_l1_required(source_value)",
+  "derivation_notes": "Convert the PD-L1 requirement flag into a boolean-like JSON literal.",
+  "derivation_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Is PD-L1 positivity inclusion criteria\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Prostate'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_pd_l1_required(source_value) AS \"pd_l1_required\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_derivation_ground_truths_table24/questions/pd_l1_required__row_143__In_Prostate_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_table.csv",
+  "row_count": 3,
+  "null_value_count": 0
+}

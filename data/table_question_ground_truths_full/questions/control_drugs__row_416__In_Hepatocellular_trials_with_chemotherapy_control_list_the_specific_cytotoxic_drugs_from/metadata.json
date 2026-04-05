@@ -1,0 +1,19 @@
+{
+  "item_id": "row_416",
+  "csv_row_number": 416,
+  "question": "In Hepatocellular trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_drugs"
+  ],
+  "expected_llm_response": {
+    "control_drugs": [
+      "paclitaxel",
+      "carboplatin"
+    ]
+  },
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular' AND \"Control arm\" = 'Chemo';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials\nWHERE \"Cancer type\" = 'Hepatocellular' AND \"Control arm\" = 'Chemo'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_drugs(source_value) AS \"control_drugs\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/control_drugs__row_416__In_Hepatocellular_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from/ground_truth_table.csv",
+  "row_count": 0
+}

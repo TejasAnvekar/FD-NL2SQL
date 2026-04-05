@@ -1,0 +1,26 @@
+{
+  "item_id": "row_131",
+  "csv_row_number": 131,
+  "question": "In Multiple Myeloma trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "column_used": "Originial publication or Follow-up",
+  "expected_keys": [
+    "is_follow_up"
+  ],
+  "predicted_answer": "KATE2 | Keynote-426 | CA184-043 | CheckMate 066 | CASPIAN | EORTC 1325-MG/KEYNOTE-054 | POPLAR | OAK",
+  "selected_cells": [
+    "KATE2",
+    "Keynote-426",
+    "CA184-043",
+    "CheckMate 066",
+    "CASPIAN",
+    "EORTC 1325-MG/KEYNOTE-054",
+    "POPLAR",
+    "OAK"
+  ],
+  "aggregation_prediction": 3,
+  "chunk_score": 69.46412658691406,
+  "chunk_start": 128,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_131_In_Multiple_Myeloma_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/table_copy.csv",
+  "tapas_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_131_In_Multiple_Myeloma_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/tapas_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_full/questions/row_131_In_Multiple_Myeloma_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_table.csv"
+}

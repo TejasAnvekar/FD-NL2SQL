@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT02625623,30052729,JAVELIN Gastric 300,371.0,large,"{""size_bucket"": ""large""}"
+2,NCT02684006,30779531,JAVELIN Renal 101,886.0,large,"{""size_bucket"": ""large""}"
+3,NCT02684006,32339648,JAVELIN Renal 101,886.0,large,"{""size_bucket"": ""large""}"
+4,NCT02603432,32945632,,700.0,large,"{""size_bucket"": ""large""}"
+5, NCT02625610,33197226,Javelin Gastric 100,499.0,large,"{""size_bucket"": ""large""}"
+6,NCT02952586,33794205,JAVELIN Head and Neck 101,697.0,large,"{""size_bucket"": ""large""}"
+7,NCT02999087,33125944,REACH,82.0,small,"{""size_bucket"": ""small""}"

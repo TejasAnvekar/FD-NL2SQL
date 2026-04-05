@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT01843374,28729154,DETERMINE,18-month OS; disease control and durable disease control; PFS; proportion of patients achieving an objective response; duration of response;  patient-reported outcomes; pharmacokinetics; immunogenicity of tremelimumab; and safety and tolerability.,false,"{""irAE_assessed"": false}"
+2,NCT02899299,33485464,CheckMate 743,"PFS, ORR, time to response, DoR, DCR ",false,"{""irAE_assessed"": false}"
+3,NCT02991482,32976938,PROMISE-meso,"investigator-assessed PFS, OS, ORR, time to treatment failure, safety",false,"{""irAE_assessed"": false}"

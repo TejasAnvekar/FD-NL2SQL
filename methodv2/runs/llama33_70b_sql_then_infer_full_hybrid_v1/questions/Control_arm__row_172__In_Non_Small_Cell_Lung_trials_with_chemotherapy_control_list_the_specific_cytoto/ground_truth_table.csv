@@ -1,0 +1,37 @@
+row_index,NCT,Trial name,Control regimen,Control arm
+1,NCT00527735,,Placebo+Paclitaxel+Carboplatin,Chemo
+2,NCT00527735,,Placebo+Paclitaxel+Carboplatin,Chemo
+3,NCT01673867,Checkmate 057,Docetaxel,Chemo
+4,NCT01642004,Checkmate 017,Docetaxel,Chemo
+5,NCT01905657,Keynote-010,Docetaxel,Chemo
+6,NCT01905657,Keynote-010,Docetaxel,Chemo
+7,NCT01903993,POPLAR,Docetaxel,Chemo
+8,NCT02041533,Checkmate 026,Platinum-based chemotherapy,Chemo
+9,NCT01285609,,Placebo+Paclitaxel+Carboplatin,Chemo
+10,NCT02395172,JAVELIN Lung 200,Docetaxel,Chemo
+11,NCT02039674,Keynote-021,Pemetrexed+Carboplatin,Chemo
+12,NCT02039674,Keynote-021,Pemetrexed+Carboplatin,Chemo
+13,NCT02008227,OAK,Docetaxel,Chemo
+14,NCT02008227,OAK,Docetaxel,Chemo
+15,NCT02578680,Keynote-189,Placebo+Pemetrexed+Platinum agent,Chemo
+16,NCT02775435,Keynote-407,Placebo+Carboplatin+paclitaxel/nab-paclitaxel,Chemo
+17,NCT02477826,Checkmate 227,Chemotherapy,Chemo
+18,NCT02477826,Checkmate 227,Chemotherapy,Chemo
+19,NCT02477826,Checkmate 227,Chemotherapy,Chemo
+20,NCT02477826,Checkmate 227,Chemotherapy,Chemo
+21,NCT02477826,Checkmate 227,Chemotherapy,Chemo
+22,NCT02220894,Keynote-042,Carboplatin+Pemetrexed+Paclitaxel,Chemo
+23,NCT02142738,Keynote-024,Platinum-based chemotherapy,Chemo
+24,NCT02367781,IMpower130,Carboplatin+Nab-paclitaxel,Chemo
+25,NCT02613507,Checkmate 078,Docetaxel,Chemo
+26,NCT02453282,MYSTIC,Investigator's choice chemotherapy,Chemo
+27,NCT02453282,MYSTIC,Investigator's choice chemotherapy,Chemo
+28,NCT02367794,IMpower131,Carboplatin+Nab-paclitaxel,Chemo
+29,NCT02367794,IMpower131,Carboplatin+Nab-paclitaxel,Chemo
+30,NCT02574598,PROLUNG,Docetaxel,Chemo
+31,NCT02142738,Keynote-024,Platinum-based chemotherapy,Chemo
+32,NCT02409342,IMpower110,Cisplatin/carboplatin+gemcitabine,Chemo
+33,NCT01903993,POPLAR,Docetaxel,Chemo
+34,NCT02008227,OAK,Docetaxel,Chemo
+35,NCT03215706,CheckMate 9LA,Chemotherapy,Chemo
+36,NCT03088540,EMPOWER-Lung 1,Chemotherapy,Chemo

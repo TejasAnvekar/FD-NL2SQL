@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,tki_agents,derived_expected_llm_response
+1,NCT02684006,30779531,JAVELIN Renal 101,Avelumab+Axitinib,"[""axitinib""]","{""tki_agents"": [""axitinib""]}"
+2,NCT02853331,30779529,KEYNOTE-426,Pembrolizumab+Axitinib,"[""axitinib""]","{""tki_agents"": [""axitinib""]}"
+3,NCT02684006,32339648,JAVELIN Renal 101,Avelumab+Axitinib,"[""axitinib""]","{""tki_agents"": [""axitinib""]}"
+4,NCT02853331,33284113,Keynote-426,Pembrolizumab+Axitinib,"[""axitinib""]","{""tki_agents"": [""axitinib""]}"
+5,NCT02811861,33616314,CLEAR,Pembrolizumab+Lenvatinib,"[""lenvatinib""]","{""tki_agents"": [""lenvatinib""]}"
+6,NCT03141177,33657295,CheckMate 9ER,Nivolumab+Cabozantinib,"[""cabozantinib""]","{""tki_agents"": [""cabozantinib""]}"

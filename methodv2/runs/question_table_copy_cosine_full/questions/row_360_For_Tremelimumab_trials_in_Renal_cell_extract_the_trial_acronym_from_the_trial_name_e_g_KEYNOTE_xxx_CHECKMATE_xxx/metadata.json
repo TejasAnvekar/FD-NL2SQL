@@ -1,0 +1,11 @@
+{
+  "item_id": "row_360",
+  "csv_row_number": 360,
+  "question": "For Tremelimumab trials in Renal cell, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full/questions/row_360_For_Tremelimumab_trials_in_Renal_cell_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/trial_acronym__row_360__For_Tremelimumab_trials_in_Renal_cell_extract_the_trial_acronym_from_the_trial_name_e_g_KE"
+}

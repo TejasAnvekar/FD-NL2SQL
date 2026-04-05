@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Treatment regimen,braf_inhibitor,mek_inhibitor
+1,,,Pembrolizumab+Dabrafenib+Trametinib,Dabrafenib+trametinib+placebo,Dabrafenib+trametinib+placebo
+2,,,Atezolizumab+Vemurafenib+Cobimetinib,Placebo+Vemurafenib+Cobimetinib,Placebo+Vemurafenib+Cobimetinib
+3,,,Pembrolizumab+Dabrafenib+Trametinib,Dabrafenib+trametinib+placebo,Dabrafenib+trametinib+placebo

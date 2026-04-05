@@ -1,0 +1,11 @@
+{
+  "item_id": "row_102",
+  "question": "In renal cell carcinoma studies using ICI+Anti-VEGF, list the specific anti-VEGF agent(s) from the treatment regimen.",
+  "hidden_column": "Control regimen",
+  "group_name": "Control_regimen",
+  "prompt_source_column_mode": "shown",
+  "gt_sql": "SELECT \"NCT\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials\nWHERE \"Cancer type\" = 'Renal cell' AND \"Type of combination\" = 'ICI+Anti-VEGF';",
+  "pred_sql": "SELECT \"NCT\", \"Trial name\", \"Treatment regimen\" FROM clinical_trials WHERE \"Cancer type\" = 'Renal cell' AND \"Type of combination\" = 'ICI+Anti-VEGF';",
+  "final_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_hybrid_v1/questions/Control_regimen__row_102__In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF/final_table.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_70b_sql_then_infer_full_hybrid_v1/questions/Control_regimen__row_102__In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF/ground_truth_table.csv"
+}

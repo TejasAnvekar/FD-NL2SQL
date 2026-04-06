@@ -1,4 +1,0 @@
-row_index,NCT,Type of therapy,is_combination,Monotherapy/combination
-1,NCT00861614,Combination,true,True
-2,NCT01057810,Monotherapy,false,False
-3,NCT00861614,Combination,true,True

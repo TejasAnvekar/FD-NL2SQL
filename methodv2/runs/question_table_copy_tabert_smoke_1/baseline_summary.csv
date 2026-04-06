@@ -1,3 +1,0 @@
-model_name,view_name,question_count,avg_hit_at_1,avg_hit_at_5,avg_hit_at_10,avg_mrr,avg_top1_cosine_score,avg_naive_source_as_answer_exact
-tabert,row_table,1,0.0,0.0,1.0,0.14285714285714285,0.8471344113349915,0.0
-tabert,source_column,1,0.0,1.0,1.0,0.5,0.8176747560501099,0.0

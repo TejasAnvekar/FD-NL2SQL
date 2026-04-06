@@ -1,8 +1,0 @@
-row_index,NCT,Trial name,Number of arms,Secondary endpoint
-1,NCT02500121,,2,"OS, treatment outcomes CPS"
-2,NCT02807636,IMvigor130,3,"RR, DOR, PFS"
-3,NCT02807636,IMvigor130,3,"RR, DOR, PFS"
-4,NCT02516241,DANUBE,3,"OS, PFS, ORR, DoR, DCR"
-5,NCT02516241,DANUBE,3,"OS, PFS, ORR, DoR, DCR"
-6,NCT02603432,,2,"PFS, ORR, time to response, DoR, DCR, safety"
-7,NCT02450331,Imvigor010,2,OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs

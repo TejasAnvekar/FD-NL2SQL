@@ -1,6 +1,0 @@
-2026-04-06 12:36:46,745 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/logs/run_meta_20260406_123646.log
-2026-04-06 12:36:46,745 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv
-2026-04-06 12:36:46,746 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
-2026-04-06 12:36:46,746 | INFO | TaBERT checkpoint: /mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin
-2026-04-06 12:36:46,746 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu
-2026-04-06 12:36:46,806 | INFO | Loading TaBERT model

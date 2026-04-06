@@ -1,8 +1,0 @@
-row_index,Name of ICI,Class of ICI
-1,Pembrolizumab,PD-1
-2,Atezolizumab,PD-L1
-3,Atezolizumab,PD-L1
-4,Durvalumab,PD-L1
-5,"Durvalumab, Tremelimumab","['PD-L1', 'CTLA-4']"
-6,Avelumab,PD-L1
-7,Atezolizumab,PD-L1

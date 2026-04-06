@@ -1,9 +1,0 @@
-row_index,NCT,Trial name,Type of therapy,Cancer type,Monotherapy/combination
-1,NCT01585987,,Monotherapy,Gastric/GEJ,False
-2,NCT02267343,ATTRACTION-2,Monotherapy,Gastric/GEJ,False
-3,NCT02625623,JAVELIN Gastric 300,Monotherapy,Gastric/GEJ,False
-4,NCT02370498,Keynote-061,Monotherapy,Gastric/GEJ,False
-5,NCT02267343,ATTRACTION-2,Monotherapy,Gastric/GEJ,False
-6,NCT02494583,Keynote-062,Monotherapy,Gastric/GEJ,False
-7,NCT02494583,Keynote-062,Combination,Gastric/GEJ,True
-8,NCT02625610,Javelin Gastric 100,Combination,Gastric/GEJ,True

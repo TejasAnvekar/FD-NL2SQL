@@ -1,8 +1,0 @@
-row_index,Type of therapy,Cancer type,Monotherapy/combination
-1,Monotherapy,Urothelial,False
-2,Combination,Urothelial,True
-3,Monotherapy,Urothelial,False
-4,Monotherapy,Urothelial,False
-5,Combination,Urothelial,True
-6,Monotherapy,Urothelial,False
-7,Monotherapy,Urothelial,False

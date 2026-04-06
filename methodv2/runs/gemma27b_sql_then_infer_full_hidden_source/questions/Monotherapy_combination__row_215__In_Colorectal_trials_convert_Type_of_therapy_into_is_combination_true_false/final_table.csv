@@ -1,5 +1,0 @@
-row_index,NCT,Cancer type,Type of therapy,is_combination,Monotherapy/combination
-1,NCT02788279,Colorectal,Combination,true,True
-2,NCT02788279,Colorectal,Monotherapy,false,False
-3,NCT02870920,Colorectal,Combination,true,True
-4,NCT02563002,Colorectal,Monotherapy,false,False

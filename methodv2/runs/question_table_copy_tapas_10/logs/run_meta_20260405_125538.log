@@ -1,5 +1,0 @@
-2026-04-05 12:55:38,808 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_10/logs/run_meta_20260405_125538.log
-2026-04-05 12:55:38,808 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv
-2026-04-05 12:55:38,809 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
-2026-04-05 12:55:38,809 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_10
-2026-04-05 12:55:38,809 | INFO | Model: google/tapas-base-finetuned-wtq

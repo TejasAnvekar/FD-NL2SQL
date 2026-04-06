@@ -1,8 +1,0 @@
-2026-04-05 13:05:47,309 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/logs/run_meta_20260405_130547.log
-2026-04-05 13:05:47,309 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv
-2026-04-05 13:05:47,310 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
-2026-04-05 13:05:47,310 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100
-2026-04-05 13:05:47,310 | INFO | Model: google/tapas-base-finetuned-wtq
-2026-04-05 13:06:19,771 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/sample_manifest.csv
-2026-04-05 13:06:19,771 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/all_question_results.csv
-2026-04-05 13:06:19,771 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapas_100/summary.json

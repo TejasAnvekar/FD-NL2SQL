@@ -1,1 +1,0 @@
-{"stage": "sql_generation", "item_id": "row_2", "csv_row_number": 2, "question": "In NSCLC trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.", "column_used": "Control regimen", "final_column": "Control arm", "prompt_source_column_mode": "shown", "raw_output": "", "pred_sql": "", "error": "", "model_meta_json": "{}"}

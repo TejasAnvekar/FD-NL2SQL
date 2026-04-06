@@ -1,5 +1,0 @@
-row_index,Control regimen,Control arm
-1,Paclitaxel,Paclitaxel
-2,Placebo+Cisplatin+5-FU+Capecitabine,"['Cisplatin', '5-FU', 'Capecitabine']"
-3,Placebo+Cisplatin+5-FU+Capecitabine,"['Cisplatin', '5-FU', 'Capecitabine']"
-4,Oxaliplstin+5-FU+Leucovorin+Capecitabine+Best supportive care,"['Oxaliplatin', '5-FU', 'Leucovorin', 'Capecitabine']"

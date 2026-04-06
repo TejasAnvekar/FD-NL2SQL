@@ -1,4 +1,0 @@
-row_index,Type of therapy,Cancer type,Monotherapy/combination
-1,Combination,Prostate,True
-2,Monotherapy,Prostate,False
-3,Combination,Prostate,True

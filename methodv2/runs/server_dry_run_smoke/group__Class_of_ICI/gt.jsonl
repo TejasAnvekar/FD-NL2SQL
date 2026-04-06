@@ -1,1 +1,0 @@
-{"item_id": "row_2", "natural_language_query": "In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.", "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Small Cell Lung';", "removed_column": "Class of ICI", "csv_row_number": 2, "expected_llm_response": "{\"class\": \"PD-1\"}"}

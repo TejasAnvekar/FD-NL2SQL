@@ -1,3 +1,0 @@
-row_index,NCT,Trial name,Control regimen,Control arm
-1,NCT02569242,ATTRACTION-3,Paclitaxel/Docetaxel,"['Docetaxel', 'Paclitaxel']"
-2,NCT02564263,KEYNOTE-181,Paclitaxel/Docetaxel/Irinotecan,"['paclitaxel', 'docetaxel', 'irinotecan']"

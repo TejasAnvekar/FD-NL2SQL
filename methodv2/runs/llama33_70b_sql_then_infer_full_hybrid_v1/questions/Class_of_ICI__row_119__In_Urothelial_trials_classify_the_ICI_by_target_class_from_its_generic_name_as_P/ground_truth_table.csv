@@ -1,8 +1,0 @@
-row_index,NCT,Trial name,Name of ICI,Class of ICI
-1,NCT02500121,,Pembrolizumab,PD1
-2,NCT02807636,IMvigor130,Atezolizumab,PD-L1
-3,NCT02807636,IMvigor130,Atezolizumab,PD-L1
-4,NCT02516241,DANUBE,Durvalumab,PD-L1
-5,NCT02516241,DANUBE,"Durvalumab, Tremelimumab","PD-L1, CTLA-4"
-6,NCT02603432,,Avelumab,PD-L1
-7,NCT02450331,Imvigor010,Atezolizumab,PD-L1

@@ -1,0 +1,517 @@
+{
+  "item_id": "row_392",
+  "csv_row_number": 392,
+  "question": "For Pembrolizumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "column_used": "Trial phase",
+  "expected_keys": [
+    "phase_bucket"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_392_For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_392_For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_392_For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_392_For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 2, \"answer\": \"late\"}, {\"table_row_id\": 3, \"answer\": \"late\"}, {\"table_row_id\": 11, \"answer\": \"late\"}, {\"table_row_id\": 12, \"answer\": \"late\"}, {\"table_row_id\": 29, \"answer\": \"late\"}, {\"table_row_id\": 30, \"answer\": \"late\"}, {\"table_row_id\": 37, \"answer\": \"late\"}, {\"table_row_id\": 40, \"answer\": \"late\"}, {\"table_row_id\": 41, \"answer\": \"late\"}, {\"table_row_id\": 42, \"answer\": \"early\"}, {\"table_row_id\": 44, \"answer\": \"early\"}, {\"table_row_id\": 46, \"answer\": \"early\"}, {\"table_row_id\": 47, \"answer\": \"early\"}, {\"table_row_id\": 48, \"answer\": \"early\"}, {\"table_row_id\": 49, \"answer\": \"early\"}, {\"table_row_id\": 50, \"answer\": \"early\"}, {\"table_row_id\": 51, \"answer\": \"early\"}, {\"table_row_id\": 52, \"answer\": \"early\"}, {\"table_row_id\": 54, \"answer\": \"early\"}, {\"table_row_id\": 55, \"answer\": \"early\"}, {\"table_row_id\": 56, \"answer\": \"late\"}, {\"table_row_id\": 58, \"answer\": \"early\"}, {\"table_row_id\": 59, \"answer\": \"late\"}, {\"table_row_id\": 60, \"answer\": \"late\"}, {\"table_row_id\": 61, \"answer\": \"early\"}, {\"table_row_id\": 62, \"answer\": \"early\"}, {\"table_row_id\": 63, \"answer\": \"late\"}, {\"table_row_id\": 64, \"answer\": \"late\"}, {\"table_row_id\": 65, \"answer\": \"late\"}, {\"table_row_id\": 66, \"answer\": \"late\"}, {\"table_row_id\": 67, \"answer\": \"early\"}, {\"table_row_id\": 68, \"answer\": \"late\"}, {\"table_row_id\": 69, \"answer\": \"late\"}, {\"table_row_id\": 70, \"answer\": \"late\"}, {\"table_row_id\": 71, \"answer\": \"early\"}, {\"table_row_id\": 72, \"answer\": \"early\"}, {\"table_row_id\": 73, \"answer\": \"late\"}, {\"table_row_id\": 74, \"answer\": \"late\"}, {\"table_row_id\": 75, \"answer\": \"early\"}, {\"table_row_id\": 76, \"answer\": \"late\"}, {\"table_row_id\": 77, \"answer\": \"early\"}, {\"table_row_id\": 78, \"answer\": \"late\"}, {\"table_row_id\": 79, \"answer\": \"late\"}, {\"table_row_id\": 80, \"answer\": \"late\"}, {\"table_row_id\": 81, \"answer\": \"early\"}, {\"table_row_id\": 82, \"answer\": \"early\"}, {\"table_row_id\": 83, \"answer\": \"early\"}, {\"table_row_id\": 84, \"answer\": \"early\"}, {\"table_row_id\": 85, \"answer\": \"early\"}, {\"table_row_id\": 86, \"answer\": \"early\"}, {\"table_row_id\": 87, \"answer\": \"early\"}, {\"table_row_id\": 88, \"answer\": \"late\"}, {\"table_row_id\": 89, \"answer\": \"late\"}, {\"table_row_id\": 90, \"answer\": \"late\"}, {\"table_row_id\": 91, \"answer\": \"late\"}, {\"table_row_id\": 92, \"answer\": \"early\"}, {\"table_row_id\": 93, \"answer\": \"early\"}, {\"table_row_id\": 94, \"answer\": \"early\"}, {\"table_row_id\": 95, \"answer\": \"late\"}, {\"table_row_id\": 96, \"answer\": \"late\"}, {\"table_row_id\": 97, \"answer\": \"late\"}, {\"table_row_id\": 98, \"answer\": \"early\"}, {\"table_row_id\": 99, \"answer\": \"early\"}, {\"table_row_id\": 100, \"answer\": \"early\"}, {\"table_row_id\": 101, \"answer\": \"early\"}, {\"table_row_id\": 102, \"answer\": \"early\"}, {\"table_row_id\": 103, \"answer\": \"early\"}, {\"table_row_id\": 104, \"answer\": \"early\"}, {\"table_row_id\": 105, \"answer\": \"early\"}, {\"table_row_id\": 106, \"answer\": \"late\"}, {\"table_row_id\": 107, \"answer\": \"early\"}, {\"table_row_id\": 108, \"answer\": \"early\"}, {\"table_row_id\": 109, \"answer\": \"early\"}, {\"table_row_id\": 110, \"answer\": \"late\"}, {\"table_row_id\": 111, \"answer\": \"late\"}, {\"table_row_id\": 112, \"answer\": \"late\"}, {\"table_row_id\": 113, \"answer\": \"late\"}, {\"table_row_id\": 114, \"answer\": \"late\"}, {\"table_row_id\": 115, \"answer\": \"early\"}, {\"table_row_id\": 116, \"answer\": \"early\"}, {\"table_row_id\": 117, \"answer\": \"late\"}, {\"table_row_id\": 118, \"answer\": \"late\"}, {\"table_row_id\": 119, \"answer\": \"late\"}, {\"table_row_id\": 120, \"answer\": \"early\"}, {\"table_row_id\": 121, \"answer\": \"early\"}, {\"table_row_id\": 122, \"answer\": \"early\"}, {\"table_row_id\": 123, \"answer\": \"early\"}, {\"table_row_id\": 124, \"answer\": \"early\"}, {\"table_row_id\": 125, \"answer\": \"early\"}, {\"table_row_id\": 126, \"answer\": \"late\"}, {\"table_row_id\": 127, \"answer\": \"early\"}, {\"table_row_id\": 128, \"answer\": \"early\"}, {\"table_row_id\": 129, \"answer\": \"early\"}, {\"table_row_id\": 130, \"answer\": \"early\"}, {\"table_row_id\": 131, \"answer\": \"early\"}, {\"table_row_id\": 132, \"answer\": \"early\"}, {\"table_row_id\": 133, \"answer\": \"late\"}, {\"table_row_id\": 134, \"answer\": \"late\"}, {\"table_row_id\": 135, \"answer\": \"early\"}, {\"table_row_id\": 136, \"answer\": \"late\"}, {\"table_row_id\": 137, \"answer\": \"early\"}, {\"table_row_id\": 138, \"answer\": \"early\"}, {\"table_row_id\": 139, \"answer\": \"late\"}, {\"table_row_id\": 140, \"answer\": \"early\"}, {\"table_row_id\": 141, \"answer\": \"early\"}, {\"table_row_id\": 142, \"answer\": \"early\"}, {\"table_row_id\": 143, \"answer\": \"late\"}, {\"table_row_id\": 144, \"answer\": \"late\"}, {\"table_row_id\": 145, \"answer\": \"early\"}, {\"table_row_id\": 146, \"answer\": \"early\"}, {\"table_row_id\": 147, \"answer\": \"late\"}, {\"table_row_id\": 148, \"answer\": \"early\"}, {\"table_row_id\": 149, \"answer\": \"early\"}, {\"table_row_id\": 150, \"answer\": \"early\"}, {\"table_row_id\": 151, \"answer\": \"late\"}, {\"table_row_id\": 152, \"answer\": \"late\"}, {\"table_row_id\": 153, \"answer\": \"early\"}, {\"table_row_id\": 154, \"answer\": \"late\"}, {\"table_row_id\": 155, \"answer\": \"early\"}, {\"table_row_id\": 156, \"answer\": \"late\"}, {\"table_row_id\": 157, \"answer\": \"early\"}, {\"table_row_id\": 158, \"answer\": \"early\"}, {\"table_row_id\": 159, \"answer\": \"early\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "early"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9cb2e502c7d49eba",
+    "finish_reason": "stop",
+    "prompt_tokens": 28013,
+    "completion_tokens": 1907,
+    "total_tokens": 29920
+  }
+}

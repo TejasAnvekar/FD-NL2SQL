@@ -1,0 +1,513 @@
+{
+  "item_id": "row_346",
+  "csv_row_number": 346,
+  "question": "In NSCLC trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_346_In_NSCLC_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_346_In_NSCLC_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_346_In_NSCLC_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_346_In_NSCLC_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 23, \"answer\": true}, {\"table_row_id\": 24, \"answer\": true}, {\"table_row_id\": 25, \"answer\": true}, {\"table_row_id\": 26, \"answer\": true}, {\"table_row_id\": 32, \"answer\": true}, {\"table_row_id\": 34, \"answer\": true}, {\"table_row_id\": 40, \"answer\": true}, {\"table_row_id\": 41, \"answer\": true}, {\"table_row_id\": 43, \"answer\": true}, {\"table_row_id\": 47, \"answer\": true}, {\"table_row_id\": 48, \"answer\": true}, {\"table_row_id\": 49, \"answer\": true}, {\"table_row_id\": 50, \"answer\": true}, {\"table_row_id\": 51, \"answer\": true}, {\"table_row_id\": 52, \"answer\": true}, {\"table_row_id\": 53, \"answer\": true}, {\"table_row_id\": 54, \"answer\": true}, {\"table_row_id\": 55, \"answer\": true}, {\"table_row_id\": 56, \"answer\": true}, {\"table_row_id\": 57, \"answer\": true}, {\"table_row_id\": 58, \"answer\": true}, {\"table_row_id\": 59, \"answer\": true}, {\"table_row_id\": 60, \"answer\": true}, {\"table_row_id\": 61, \"answer\": true}, {\"table_row_id\": 62, \"answer\": true}, {\"table_row_id\": 63, \"answer\": true}, {\"table_row_id\": 64, \"answer\": true}, {\"table_row_id\": 65, \"answer\": true}, {\"table_row_id\": 66, \"answer\": true}, {\"table_row_id\": 67, \"answer\": true}, {\"table_row_id\": 68, \"answer\": true}, {\"table_row_id\": 69, \"answer\": true}, {\"table_row_id\": 70, \"answer\": true}, {\"table_row_id\": 71, \"answer\": true}, {\"table_row_id\": 72, \"answer\": true}, {\"table_row_id\": 73, \"answer\": true}, {\"table_row_id\": 74, \"answer\": true}, {\"table_row_id\": 75, \"answer\": true}, {\"table_row_id\": 76, \"answer\": true}, {\"table_row_id\": 77, \"answer\": true}, {\"table_row_id\": 78, \"answer\": true}, {\"table_row_id\": 79, \"answer\": true}, {\"table_row_id\": 80, \"answer\": true}, {\"table_row_id\": 81, \"answer\": true}, {\"table_row_id\": 82, \"answer\": true}, {\"table_row_id\": 83, \"answer\": true}, {\"table_row_id\": 84, \"answer\": true}, {\"table_row_id\": 85, \"answer\": true}, {\"table_row_id\": 86, \"answer\": true}, {\"table_row_id\": 87, \"answer\": true}, {\"table_row_id\": 88, \"answer\": true}, {\"table_row_id\": 89, \"answer\": true}, {\"table_row_id\": 90, \"answer\": true}, {\"table_row_id\": 91, \"answer\": true}, {\"table_row_id\": 92, \"answer\": true}, {\"table_row_id\": 93, \"answer\": true}, {\"table_row_id\": 94, \"answer\": true}, {\"table_row_id\": 95, \"answer\": true}, {\"table_row_id\": 96, \"answer\": true}, {\"table_row_id\": 97, \"answer\": true}, {\"table_row_id\": 98, \"answer\": true}, {\"table_row_id\": 99, \"answer\": true}, {\"table_row_id\": 100, \"answer\": true}, {\"table_row_id\": 101, \"answer\": true}, {\"table_row_id\": 102, \"answer\": true}, {\"table_row_id\": 103, \"answer\": true}, {\"table_row_id\": 104, \"answer\": true}, {\"table_row_id\": 105, \"answer\": true}, {\"table_row_id\": 106, \"answer\": true}, {\"table_row_id\": 107, \"answer\": true}, {\"table_row_id\": 108, \"answer\": true}, {\"table_row_id\": 109, \"answer\": true}, {\"table_row_id\": 110, \"answer\": true}, {\"table_row_id\": 111, \"answer\": true}, {\"table_row_id\": 112, \"answer\": true}, {\"table_row_id\": 113, \"answer\": true}, {\"table_row_id\": 114, \"answer\": true}, {\"table_row_id\": 115, \"answer\": true}, {\"table_row_id\": 116, \"answer\": true}, {\"table_row_id\": 117, \"answer\": true}, {\"table_row_id\": 118, \"answer\": true}, {\"table_row_id\": 119, \"answer\": true}, {\"table_row_id\": 120, \"answer\": true}, {\"table_row_id\": 121, \"answer\": true}, {\"table_row_id\": 122, \"answer\": true}, {\"table_row_id\": 123, \"answer\": true}, {\"table_row_id\": 124, \"answer\": true}, {\"table_row_id\": 125, \"answer\": true}, {\"table_row_id\": 126, \"answer\": true}, {\"table_row_id\": 127, \"answer\": true}, {\"table_row_id\": 128, \"answer\": true}, {\"table_row_id\": 129, \"answer\": true}, {\"table_row_id\": 130, \"answer\": true}, {\"table_row_id\": 131, \"answer\": true}, {\"table_row_id\": 132, \"answer\": true}, {\"table_row_id\": 133, \"answer\": true}, {\"table_row_id\": 134, \"answer\": true}, {\"table_row_id\": 135, \"answer\": true}, {\"table_row_id\": 136, \"answer\": true}, {\"table_row_id\": 137, \"answer\": true}, {\"table_row_id\": 138, \"answer\": true}, {\"table_row_id\": 139, \"answer\": true}, {\"table_row_id\": 140, \"answer\": true}, {\"table_row_id\": 141, \"answer\": true}, {\"table_row_id\": 142, \"answer\": true}, {\"table_row_id\": 143, \"answer\": true}, {\"table_row_id\": 144, \"answer\": true}, {\"table_row_id\": 145, \"answer\": true}, {\"table_row_id\": 146, \"answer\": true}, {\"table_row_id\": 147, \"answer\": true}, {\"table_row_id\": 148, \"answer\": true}, {\"table_row_id\": 149, \"answer\": true}, {\"table_row_id\": 150, \"answer\": true}, {\"table_row_id\": 151, \"answer\": true}, {\"table_row_id\": 152, \"answer\": true}, {\"table_row_id\": 153, \"answer\": true}, {\"table_row_id\": 154, \"answer\": true}, {\"table_row_id\": 155, \"answer\": true}, {\"table_row_id\": 156, \"answer\": true}, {\"table_row_id\": 157, \"answer\": true}, {\"table_row_id\": 158, \"answer\": true}, {\"table_row_id\": 159, \"answer\": true}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 23,
+      "answer": true
+    },
+    {
+      "table_row_id": 24,
+      "answer": true
+    },
+    {
+      "table_row_id": 25,
+      "answer": true
+    },
+    {
+      "table_row_id": 26,
+      "answer": true
+    },
+    {
+      "table_row_id": 32,
+      "answer": true
+    },
+    {
+      "table_row_id": 34,
+      "answer": true
+    },
+    {
+      "table_row_id": 40,
+      "answer": true
+    },
+    {
+      "table_row_id": 41,
+      "answer": true
+    },
+    {
+      "table_row_id": 43,
+      "answer": true
+    },
+    {
+      "table_row_id": 47,
+      "answer": true
+    },
+    {
+      "table_row_id": 48,
+      "answer": true
+    },
+    {
+      "table_row_id": 49,
+      "answer": true
+    },
+    {
+      "table_row_id": 50,
+      "answer": true
+    },
+    {
+      "table_row_id": 51,
+      "answer": true
+    },
+    {
+      "table_row_id": 52,
+      "answer": true
+    },
+    {
+      "table_row_id": 53,
+      "answer": true
+    },
+    {
+      "table_row_id": 54,
+      "answer": true
+    },
+    {
+      "table_row_id": 55,
+      "answer": true
+    },
+    {
+      "table_row_id": 56,
+      "answer": true
+    },
+    {
+      "table_row_id": 57,
+      "answer": true
+    },
+    {
+      "table_row_id": 58,
+      "answer": true
+    },
+    {
+      "table_row_id": 59,
+      "answer": true
+    },
+    {
+      "table_row_id": 60,
+      "answer": true
+    },
+    {
+      "table_row_id": 61,
+      "answer": true
+    },
+    {
+      "table_row_id": 62,
+      "answer": true
+    },
+    {
+      "table_row_id": 63,
+      "answer": true
+    },
+    {
+      "table_row_id": 64,
+      "answer": true
+    },
+    {
+      "table_row_id": 65,
+      "answer": true
+    },
+    {
+      "table_row_id": 66,
+      "answer": true
+    },
+    {
+      "table_row_id": 67,
+      "answer": true
+    },
+    {
+      "table_row_id": 68,
+      "answer": true
+    },
+    {
+      "table_row_id": 69,
+      "answer": true
+    },
+    {
+      "table_row_id": 70,
+      "answer": true
+    },
+    {
+      "table_row_id": 71,
+      "answer": true
+    },
+    {
+      "table_row_id": 72,
+      "answer": true
+    },
+    {
+      "table_row_id": 73,
+      "answer": true
+    },
+    {
+      "table_row_id": 74,
+      "answer": true
+    },
+    {
+      "table_row_id": 75,
+      "answer": true
+    },
+    {
+      "table_row_id": 76,
+      "answer": true
+    },
+    {
+      "table_row_id": 77,
+      "answer": true
+    },
+    {
+      "table_row_id": 78,
+      "answer": true
+    },
+    {
+      "table_row_id": 79,
+      "answer": true
+    },
+    {
+      "table_row_id": 80,
+      "answer": true
+    },
+    {
+      "table_row_id": 81,
+      "answer": true
+    },
+    {
+      "table_row_id": 82,
+      "answer": true
+    },
+    {
+      "table_row_id": 83,
+      "answer": true
+    },
+    {
+      "table_row_id": 84,
+      "answer": true
+    },
+    {
+      "table_row_id": 85,
+      "answer": true
+    },
+    {
+      "table_row_id": 86,
+      "answer": true
+    },
+    {
+      "table_row_id": 87,
+      "answer": true
+    },
+    {
+      "table_row_id": 88,
+      "answer": true
+    },
+    {
+      "table_row_id": 89,
+      "answer": true
+    },
+    {
+      "table_row_id": 90,
+      "answer": true
+    },
+    {
+      "table_row_id": 91,
+      "answer": true
+    },
+    {
+      "table_row_id": 92,
+      "answer": true
+    },
+    {
+      "table_row_id": 93,
+      "answer": true
+    },
+    {
+      "table_row_id": 94,
+      "answer": true
+    },
+    {
+      "table_row_id": 95,
+      "answer": true
+    },
+    {
+      "table_row_id": 96,
+      "answer": true
+    },
+    {
+      "table_row_id": 97,
+      "answer": true
+    },
+    {
+      "table_row_id": 98,
+      "answer": true
+    },
+    {
+      "table_row_id": 99,
+      "answer": true
+    },
+    {
+      "table_row_id": 100,
+      "answer": true
+    },
+    {
+      "table_row_id": 101,
+      "answer": true
+    },
+    {
+      "table_row_id": 102,
+      "answer": true
+    },
+    {
+      "table_row_id": 103,
+      "answer": true
+    },
+    {
+      "table_row_id": 104,
+      "answer": true
+    },
+    {
+      "table_row_id": 105,
+      "answer": true
+    },
+    {
+      "table_row_id": 106,
+      "answer": true
+    },
+    {
+      "table_row_id": 107,
+      "answer": true
+    },
+    {
+      "table_row_id": 108,
+      "answer": true
+    },
+    {
+      "table_row_id": 109,
+      "answer": true
+    },
+    {
+      "table_row_id": 110,
+      "answer": true
+    },
+    {
+      "table_row_id": 111,
+      "answer": true
+    },
+    {
+      "table_row_id": 112,
+      "answer": true
+    },
+    {
+      "table_row_id": 113,
+      "answer": true
+    },
+    {
+      "table_row_id": 114,
+      "answer": true
+    },
+    {
+      "table_row_id": 115,
+      "answer": true
+    },
+    {
+      "table_row_id": 116,
+      "answer": true
+    },
+    {
+      "table_row_id": 117,
+      "answer": true
+    },
+    {
+      "table_row_id": 118,
+      "answer": true
+    },
+    {
+      "table_row_id": 119,
+      "answer": true
+    },
+    {
+      "table_row_id": 120,
+      "answer": true
+    },
+    {
+      "table_row_id": 121,
+      "answer": true
+    },
+    {
+      "table_row_id": 122,
+      "answer": true
+    },
+    {
+      "table_row_id": 123,
+      "answer": true
+    },
+    {
+      "table_row_id": 124,
+      "answer": true
+    },
+    {
+      "table_row_id": 125,
+      "answer": true
+    },
+    {
+      "table_row_id": 126,
+      "answer": true
+    },
+    {
+      "table_row_id": 127,
+      "answer": true
+    },
+    {
+      "table_row_id": 128,
+      "answer": true
+    },
+    {
+      "table_row_id": 129,
+      "answer": true
+    },
+    {
+      "table_row_id": 130,
+      "answer": true
+    },
+    {
+      "table_row_id": 131,
+      "answer": true
+    },
+    {
+      "table_row_id": 132,
+      "answer": true
+    },
+    {
+      "table_row_id": 133,
+      "answer": true
+    },
+    {
+      "table_row_id": 134,
+      "answer": true
+    },
+    {
+      "table_row_id": 135,
+      "answer": true
+    },
+    {
+      "table_row_id": 136,
+      "answer": true
+    },
+    {
+      "table_row_id": 137,
+      "answer": true
+    },
+    {
+      "table_row_id": 138,
+      "answer": true
+    },
+    {
+      "table_row_id": 139,
+      "answer": true
+    },
+    {
+      "table_row_id": 140,
+      "answer": true
+    },
+    {
+      "table_row_id": 141,
+      "answer": true
+    },
+    {
+      "table_row_id": 142,
+      "answer": true
+    },
+    {
+      "table_row_id": 143,
+      "answer": true
+    },
+    {
+      "table_row_id": 144,
+      "answer": true
+    },
+    {
+      "table_row_id": 145,
+      "answer": true
+    },
+    {
+      "table_row_id": 146,
+      "answer": true
+    },
+    {
+      "table_row_id": 147,
+      "answer": true
+    },
+    {
+      "table_row_id": 148,
+      "answer": true
+    },
+    {
+      "table_row_id": 149,
+      "answer": true
+    },
+    {
+      "table_row_id": 150,
+      "answer": true
+    },
+    {
+      "table_row_id": 151,
+      "answer": true
+    },
+    {
+      "table_row_id": 152,
+      "answer": true
+    },
+    {
+      "table_row_id": 153,
+      "answer": true
+    },
+    {
+      "table_row_id": 154,
+      "answer": true
+    },
+    {
+      "table_row_id": 155,
+      "answer": true
+    },
+    {
+      "table_row_id": 156,
+      "answer": true
+    },
+    {
+      "table_row_id": 157,
+      "answer": true
+    },
+    {
+      "table_row_id": 158,
+      "answer": true
+    },
+    {
+      "table_row_id": 159,
+      "answer": true
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8689ac21ee7287bf",
+    "finish_reason": "stop",
+    "prompt_tokens": 28011,
+    "completion_tokens": 1772,
+    "total_tokens": 29783
+  }
+}

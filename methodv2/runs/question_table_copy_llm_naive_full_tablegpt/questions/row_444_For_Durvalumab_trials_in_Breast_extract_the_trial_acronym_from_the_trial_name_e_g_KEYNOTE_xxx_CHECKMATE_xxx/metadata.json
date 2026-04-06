@@ -1,0 +1,33 @@
+{
+  "item_id": "row_444",
+  "csv_row_number": 444,
+  "question": "For Durvalumab trials in Breast, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_444_For_Durvalumab_trials_in_Breast_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_444_For_Durvalumab_trials_in_Breast_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_444_For_Durvalumab_trials_in_Breast_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_444_For_Durvalumab_trials_in_Breast_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 121, \"answer\": \"KEYNOTE-062\"},{\"table_row_id\": 122, \"answer\": \"KEYNOTE-355\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 121,
+      "answer": "KEYNOTE-062"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "KEYNOTE-355"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8344782e62bb86e8",
+    "finish_reason": "stop",
+    "prompt_tokens": 29586,
+    "completion_tokens": 45,
+    "total_tokens": 29631
+  }
+}

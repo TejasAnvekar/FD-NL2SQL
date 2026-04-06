@@ -1,0 +1,29 @@
+{
+  "item_id": "row_357",
+  "csv_row_number": 357,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "column_used": "Trial phase",
+  "expected_keys": [
+    "phase_bucket"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_357_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_357_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_357_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_357_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 130, \"answer\": \"late\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 130,
+      "answer": "late"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-94323993975b5f4d",
+    "finish_reason": "stop",
+    "prompt_tokens": 28028,
+    "completion_tokens": 20,
+    "total_tokens": 28048
+  }
+}

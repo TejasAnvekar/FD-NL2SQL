@@ -1,0 +1,165 @@
+{
+  "item_id": "row_452",
+  "csv_row_number": 452,
+  "question": "In Mesothelioma Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_452_In_Mesothelioma_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_452_In_Mesothelioma_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_452_In_Mesothelioma_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_452_In_Mesothelioma_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 73, \"answer\": \"Placebo\"},{\"table_row_id\": 107, \"answer\": \"Placebo\"},{\"table_row_id\": 111, \"answer\": \"Best supportive care\"},{\"table_row_id\": 112, \"answer\": \"Best supportive care\"},{\"table_row_id\": 117, \"answer\": \"Chemo\"},{\"table_row_id\": 118, \"answer\": \"Chemo\"},{\"table_row_id\": 126, \"answer\": \"Best supportive care\"},{\"table_row_id\": 131, \"answer\": \"Chemo\"},{\"table_row_id\": 133, \"answer\": \"Chemo\"},{\"table_row_id\": 134, \"answer\": \"Radiation\"},{\"table_row_id\": 135, \"answer\": \"Chemo\"},{\"table_row_id\": 136, \"answer\": \"Chemo\"},{\"table_row_id\": 137, \"answer\": \"Chemo\"},{\"table_row_id\": 138, \"answer\": \"Chemo\"},{\"table_row_id\": 139, \"answer\": \"Chemo\"},{\"table_row_id\": 140, \"answer\": \"Chemo\"},{\"table_row_id\": 141, \"answer\": \"Placebo\"},{\"table_row_id\": 142, \"answer\": \"Placebo\"},{\"table_row_id\": 143, \"answer\": \"Chemo\"},{\"table_row_id\": 144, \"answer\": \"Chemo\"},{\"table_row_id\": 145, \"answer\": \"TKI\"},{\"table_row_id\": 146, \"answer\": \"Chemo\"},{\"table_row_id\": 147, \"answer\": \"Chemo\"},{\"table_row_id\": 148, \"answer\": \"TKI\"},{\"table_row_id\": 149, \"answer\": \"Placebo\"},{\"table_row_id\": 150, \"answer\": \"Placebo\"},{\"table_row_id\": 151, \"answer\": \"Chemo\"},{\"table_row_id\": 152, \"answer\": \"Antibody-drug conjugate\"},{\"table_row_id\": 153, \"answer\": \"Observation\"},{\"table_row_id\": 154, \"answer\": \"Chemo\"},{\"table_row_id\": 155, \"answer\": \"Chemo\"},{\"table_row_id\": 156, \"answer\": \"Bimodulatory\"},{\"table_row_id\": 157, \"answer\": \"Chemoradio\"},{\"table_row_id\": 158, \"answer\": \"Placebo\"},{\"table_row_id\": 159, \"answer\": \"Chemo\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 73,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Radiation"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "TKI"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "TKI"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Antibody-drug conjugate"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Observation"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Bimodulatory"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Chemoradio"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Chemo"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8639b46a2938f8a8",
+    "finish_reason": "stop",
+    "prompt_tokens": 29578,
+    "completion_tokens": 575,
+    "total_tokens": 30153
+  }
+}

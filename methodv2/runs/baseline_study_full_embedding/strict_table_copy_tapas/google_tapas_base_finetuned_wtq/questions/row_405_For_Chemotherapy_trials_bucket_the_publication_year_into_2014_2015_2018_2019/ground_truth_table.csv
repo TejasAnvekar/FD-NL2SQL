@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,era,derived_expected_llm_response
+1,NCT02555657,33676601,Keynote-119,2021,≥2019,"{""era"": ""≥2019""}"

@@ -1,0 +1,29 @@
+{
+  "item_id": "row_425",
+  "csv_row_number": 425,
+  "question": "In Pancreatic trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_425_In_Pancreatic_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_425_In_Pancreatic_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_425_In_Pancreatic_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_425_In_Pancreatic_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 88, \"answer\": \"2-arm\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 88,
+      "answer": "2-arm"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-bebc32eed6250e59",
+    "finish_reason": "stop",
+    "prompt_tokens": 28010,
+    "completion_tokens": 20,
+    "total_tokens": 28030
+  }
+}

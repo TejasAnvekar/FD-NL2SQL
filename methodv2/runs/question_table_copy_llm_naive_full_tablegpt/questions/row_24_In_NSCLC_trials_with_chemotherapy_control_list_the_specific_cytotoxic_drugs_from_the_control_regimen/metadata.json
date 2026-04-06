@@ -1,0 +1,65 @@
+{
+  "item_id": "row_24",
+  "csv_row_number": 24,
+  "question": "In NSCLC trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_drugs"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_24_In_NSCLC_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_24_In_NSCLC_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_24_In_NSCLC_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_24_In_NSCLC_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 1, \"answer\": \"Vinflunine+Paclitaxel+Docetaxel\"}, {\"table_row_id\": 2, \"answer\": \"Vinflunine+Paclitaxel+Docetaxel\"}, {\"table_row_id\": 3, \"answer\": \"Vinflunine+Paclitaxel+Docetaxel\"}, {\"table_row_id\": 4, \"answer\": \"Nab-paclitaxel\"}, {\"table_row_id\": 5, \"answer\": \"Placebo+Nab-paclitaxel+Epirubicin+Cyclophosphamide\"}, {\"table_row_id\": 6, \"answer\": \"Regorafenib\"}, {\"table_row_id\": 7, \"answer\": \"Regorafenib\"}, {\"table_row_id\": 8, \"answer\": \"Best supportive care (+/-fluoropyrimidine)\"}, {\"table_row_id\": 9, \"answer\": \"Placebo\"}, {\"table_row_id\": 10, \"answer\": \"Best supportive care (+/-paclitaxel, irinotecan)\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "Vinflunine+Paclitaxel+Docetaxel"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "Vinflunine+Paclitaxel+Docetaxel"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "Vinflunine+Paclitaxel+Docetaxel"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "Nab-paclitaxel"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "Placebo+Nab-paclitaxel+Epirubicin+Cyclophosphamide"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "Regorafenib"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "Regorafenib"
+    },
+    {
+      "table_row_id": 8,
+      "answer": "Best supportive care (+/-fluoropyrimidine)"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "Best supportive care (+/-paclitaxel, irinotecan)"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8f0e90f33a3caf24",
+    "finish_reason": "stop",
+    "prompt_tokens": 29574,
+    "completion_tokens": 243,
+    "total_tokens": 29817
+  }
+}

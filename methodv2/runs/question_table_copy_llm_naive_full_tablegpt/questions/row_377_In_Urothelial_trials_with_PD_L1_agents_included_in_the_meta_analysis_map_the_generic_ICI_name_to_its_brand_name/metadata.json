@@ -1,0 +1,89 @@
+{
+  "item_id": "row_377",
+  "csv_row_number": 377,
+  "question": "In Urothelial trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "brand_name"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_377_In_Urothelial_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_377_In_Urothelial_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_377_In_Urothelial_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_377_In_Urothelial_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 104, \"answer\": \"Atezolizumab+Vemurafenib+Cobimetinib -> Atezolizumab\"}, {\"table_row_id\": 106, \"answer\": \"Pembrolizumab -> Pembrolizumab\"}, {\"table_row_id\": 110, \"answer\": \"Durvalumab+Tremelimumab+Best supportive care -> Durvalumab, Tremelimumab\"}, {\"table_row_id\": 112, \"answer\": \"Durvalumab+Tremelimumab+Best supportive care -> Durvalumab, Tremelimumab\"}, {\"table_row_id\": 119, \"answer\": \"Pembrolizumab+Eribulin -> Pembrolizumab\"}, {\"table_row_id\": 126, \"answer\": \"Avelumab+Best Supportive Care -> Avelumab\"}, {\"table_row_id\": 131, \"answer\": \"Pembrolizumab+Axitinib -> Pembrolizumab\"}, {\"table_row_id\": 133, \"answer\": \"Pembrolizumab -> Pembrolizumab\"}, {\"table_row_id\": 139, \"answer\": \"Pembrolizumab+Gemcitabine/Vinorelbine -> Pembrolizumab\"}, {\"table_row_id\": 145, \"answer\": \"Pembrolizumab+Lenvatinib -> Pembrolizumab\"}, {\"table_row_id\": 149, \"answer\": \"Nivolumab+Ipilimumab -> Nivolumab, Ipilimumab\"}, {\"table_row_id\": 150, \"answer\": \"Nivolumab -> Nivolumab\"}, {\"table_row_id\": 151, \"answer\": \"Durvalumab+Chemotherapy -> Durvalumab\"}, {\"table_row_id\": 153, \"answer\": \"Atezolizumab+Observation -> Atezolizumab\"}, {\"table_row_id\": 155, \"answer\": \"Cemiplimab+Chemotherapy -> Cemiplimab\"}, {\"table_row_id\": 157, \"answer\": \"Avelumab+Chemoradiotherapy -> Avelumab\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 104,
+      "answer": "Atezolizumab+Vemurafenib+Cobimetinib -> Atezolizumab"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Pembrolizumab -> Pembrolizumab"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Durvalumab+Tremelimumab+Best supportive care -> Durvalumab, Tremelimumab"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Durvalumab+Tremelimumab+Best supportive care -> Durvalumab, Tremelimumab"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Pembrolizumab+Eribulin -> Pembrolizumab"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Avelumab+Best Supportive Care -> Avelumab"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Pembrolizumab+Axitinib -> Pembrolizumab"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Pembrolizumab -> Pembrolizumab"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Pembrolizumab+Gemcitabine/Vinorelbine -> Pembrolizumab"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Pembrolizumab+Lenvatinib -> Pembrolizumab"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Nivolumab+Ipilimumab -> Nivolumab, Ipilimumab"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Nivolumab -> Nivolumab"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Durvalumab+Chemotherapy -> Durvalumab"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Atezolizumab+Observation -> Atezolizumab"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Cemiplimab+Chemotherapy -> Cemiplimab"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Avelumab+Chemoradiotherapy -> Avelumab"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-ba9c4053b0859c4b",
+    "finish_reason": "stop",
+    "prompt_tokens": 29582,
+    "completion_tokens": 512,
+    "total_tokens": 30094
+  }
+}

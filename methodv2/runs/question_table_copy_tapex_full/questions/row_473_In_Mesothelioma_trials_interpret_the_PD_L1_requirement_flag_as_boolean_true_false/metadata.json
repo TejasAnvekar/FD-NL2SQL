@@ -1,0 +1,16 @@
+{
+  "item_id": "row_473",
+  "csv_row_number": 473,
+  "question": "In Mesothelioma trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_keys": [
+    "pd_l1_required"
+  ],
+  "predicted_answer": "false",
+  "chunk_score": -0.5594339370727539,
+  "chunk_start": 0,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_473_In_Mesothelioma_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_473_In_Mesothelioma_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_473_In_Mesothelioma_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_table.csv"
+}

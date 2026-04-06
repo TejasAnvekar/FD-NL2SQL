@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response,table_row_id
+1,NCT00324155,21639810,,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}",58
+2,NCT00257205,23295794,,Temozolomide/dacarbazine,"[""temozolomide"", ""dacarbazine""]","{""control_drugs"": [""temozolomide"", ""dacarbazine""]}",61
+3,NCT01704287,26115796,KEYNOTE-002,Investigator's choice chemotherapy,,"{""control_drugs"": null}",63
+4,NCT01704287,26115796,KEYNOTE-002,Investigator's choice chemotherapy,,"{""control_drugs"": null}",64
+5,NCT01704287,28961465,KEYNOTE-002,Investigator's choice chemotherapy,,"{""control_drugs"": null}",65
+6,NCT01704287,28961465,KEYNOTE-002,Investigator's choice chemotherapy,,"{""control_drugs"": null}",66
+7,NCT01721746,25795410,CheckMate 037,Dacarbazine/carboplatin+paclitaxel,"[""dacarbazine"", ""carboplatin"", ""paclitaxel""]","{""control_drugs"": [""dacarbazine"", ""carboplatin"", ""paclitaxel""]}",68
+8,NCT01721746,28671856,CheckMate 037,Dacarbazine/carboplatin+paclitaxel,"[""dacarbazine"", ""carboplatin"", ""paclitaxel""]","{""control_drugs"": [""dacarbazine"", ""carboplatin"", ""paclitaxel""]}",69
+9,NCT01721772,25399552,CheckMate 066,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}",71
+10,NCT01721772,30422243,CheckMate 066,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}",72
+11,NCT01721772,32997575,CheckMate 066,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}",135

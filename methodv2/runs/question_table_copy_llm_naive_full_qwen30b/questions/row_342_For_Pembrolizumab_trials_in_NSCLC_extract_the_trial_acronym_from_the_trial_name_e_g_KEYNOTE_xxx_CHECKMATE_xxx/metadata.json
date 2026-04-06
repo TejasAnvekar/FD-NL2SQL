@@ -1,0 +1,333 @@
+{
+  "item_id": "row_342",
+  "csv_row_number": 342,
+  "question": "For Pembrolizumab trials in NSCLC, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_342_For_Pembrolizumab_trials_in_NSCLC_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_342_For_Pembrolizumab_trials_in_NSCLC_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_342_For_Pembrolizumab_trials_in_NSCLC_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_342_For_Pembrolizumab_trials_in_NSCLC_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 2, \"answer\": \"Keynote-045\"},{\"table_row_id\": 11, \"answer\": \"Keynote-061\"},{\"table_row_id\": 12, \"answer\": \"KEYNOTE-040\"},{\"table_row_id\": 29, \"answer\": \"Keynote-010\"},{\"table_row_id\": 30, \"answer\": \"Keynote-010\"},{\"table_row_id\": 42, \"answer\": \"Keynote-189\"},{\"table_row_id\": 44, \"answer\": \"Keynote-407\"},{\"table_row_id\": 52, \"answer\": \"Keynote-042\"},{\"table_row_id\": 54, \"answer\": \"Keynote-024\"},{\"table_row_id\": 56, \"answer\": \"Checkmate 078\"},{\"table_row_id\": 62, \"answer\": \"EORTC 1325-MG/KEYNOTE-054\"},{\"table_row_id\": 63, \"answer\": \"KEYNOTE-002\"},{\"table_row_id\": 64, \"answer\": \"KEYNOTE-002\"},{\"table_row_id\": 70, \"answer\": \"KEYNOTE-022\"},{\"table_row_id\": 72, \"answer\": \"CheckMate 066\"},{\"table_row_id\": 74, \"answer\": \"KEYNOTE-183\"},{\"table_row_id\": 75, \"answer\": \"KEYNOTE-185\"},{\"table_row_id\": 79, \"answer\": \"KEYNOTE-240\"},{\"table_row_id\": 81, \"answer\": \"I-SPY2\"},{\"table_row_id\": 85, \"answer\": \"KEYNOTE-048\"},{\"table_row_id\": 86, \"answer\": \"KEYNOTE-048\"},{\"table_row_id\": 88, \"answer\": \"KEYNOTE144\"},{\"table_row_id\": 92, \"answer\": \"KEYNOTE-522\"},{\"table_row_id\": 95, \"answer\": \"IMMUNED\"},{\"table_row_id\": 96, \"answer\": \"IMMUNED\"},{\"table_row_id\": 98, \"answer\": \"KEYNOTE-604\"},{\"table_row_id\": 101, \"answer\": \"CheckMate 214\"},{\"table_row_id\": 104, \"answer\": \"IMbrave150\"},{\"table_row_id\": 106, \"answer\": \"Keynote-204\"},{\"table_row_id\": 107, \"answer\": \"IMvigor130\"},{\"table_row_id\": 108, \"answer\": \"IMvigor130\"},{\"table_row_id\": 109, \"answer\": \"IMbrave150\"},{\"table_row_id\": 110, \"answer\": \"EAGLE\"},{\"table_row_id\": 111, \"answer\": \"EAGLE\"},{\"table_row_id\": 113, \"answer\": \"PROLUNG\"},{\"table_row_id\": 114, \"answer\": \"CheckMate 025\"},{\"table_row_id\": 115, \"answer\": \"JAVELIN Renal 101\"},{\"table_row_id\": 116, \"answer\": \"Keynote-024\"},{\"table_row_id\": 119, \"answer\": \"Keynote-355\"},{\"table_row_id\": 120, \"answer\": \"Keynote-062\"},{\"table_row_id\": 121, \"answer\": \"Keynote-062\"},{\"table_row_id\": 122, \"answer\": \"MK-3475/Keynote-355\"},{\"table_row_id\": 123, \"answer\": \"DANUBE\"},{\"table_row_id\": 124, \"answer\": \"DANUBE\"},{\"table_row_id\": 125, \"answer\": \"IMpassion031\"},{\"table_row_id\": 126, \"answer\": \"Javelin Gastric 100\"},{\"table_row_id\": 127, \"answer\": \"Javelin Gastric 100\"},{\"table_row_id\": 128, \"answer\": \"CheckMate 743\"},{\"table_row_id\": 129, \"answer\": \"IMpower110\"},{\"table_row_id\": 130, \"answer\": \"KATE2\"},{\"table_row_id\": 131, \"answer\": \"Keynote-426\"},{\"table_row_id\": 132, \"answer\": \"Impower 132\"},{\"table_row_id\": 133, \"answer\": \"KEYNOTE-181\"},{\"table_row_id\": 135, \"answer\": \"CheckMate 066\"},{\"table_row_id\": 136, \"answer\": \"KEYNOTE-022\"},{\"table_row_id\": 137, \"answer\": \"CASPIAN\"},{\"table_row_id\": 138, \"answer\": \"CASPIAN\"},{\"table_row_id\": 139, \"answer\": \"PROMISE-meso\"},{\"table_row_id\": 140, \"answer\": \"MK-3475/Keynote-177\"},{\"table_row_id\": 141, \"answer\": \"EORTC 1325-MG/KEYNOTE-054\"},{\"table_row_id\": 143, \"answer\": \"POPLAR\"},{\"table_row_id\": 144, \"answer\": \"OAK\"},{\"table_row_id\": 145, \"answer\": \"CLEAR\"},{\"table_row_id\": 146, \"answer\": \"CheckMate 9LA\"},{\"table_row_id\": 147, \"answer\": \"CheckMate 331\"},{\"table_row_id\": 148, \"answer\": \"CheckMate 9ER\"},{\"table_row_id\": 149, \"answer\": \"CheckMate 451\"},{\"table_row_id\": 150, \"answer\": \"CheckMate 451\"},{\"table_row_id\": 151, \"answer\": \"SAFIR02-BREAST IMMUNO\"},{\"table_row_id\": 152, \"answer\": \"Keynote-204\"},{\"table_row_id\": 153, \"answer\": \"Imvigor010\"},{\"table_row_id\": 154, \"answer\": \"Keynote-119\"},{\"table_row_id\": 155, \"answer\": \"EMPOWER-Lung 1\"},{\"table_row_id\": 156, \"answer\": \"ModuLung\"},{\"table_row_id\": 157, \"answer\": \"JAVELIN Head and Neck 101\"},{\"table_row_id\": 158, \"answer\": \"CheckMate 577\"},{\"table_row_id\": 159, \"answer\": \"REACH\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "Keynote-045"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "Keynote-061"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "KEYNOTE-040"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Keynote-010"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Keynote-010"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Keynote-189"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Keynote-407"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Keynote-042"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "Keynote-024"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Checkmate 078"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "EORTC 1325-MG/KEYNOTE-054"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "KEYNOTE-002"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "KEYNOTE-002"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "KEYNOTE-022"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "CheckMate 066"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "KEYNOTE-183"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "KEYNOTE-185"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "KEYNOTE-240"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "I-SPY2"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "KEYNOTE-048"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "KEYNOTE-048"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "KEYNOTE144"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "KEYNOTE-522"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "IMMUNED"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "IMMUNED"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "KEYNOTE-604"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "CheckMate 214"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "IMbrave150"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Keynote-204"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "IMvigor130"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "IMvigor130"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "IMbrave150"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "EAGLE"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "EAGLE"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "PROLUNG"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "CheckMate 025"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "JAVELIN Renal 101"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Keynote-024"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Keynote-355"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Keynote-062"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Keynote-062"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "MK-3475/Keynote-355"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "DANUBE"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "DANUBE"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "IMpassion031"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Javelin Gastric 100"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Javelin Gastric 100"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "CheckMate 743"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "IMpower110"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "KATE2"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Keynote-426"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Impower 132"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "KEYNOTE-181"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "CheckMate 066"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "KEYNOTE-022"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "CASPIAN"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "CASPIAN"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "PROMISE-meso"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "MK-3475/Keynote-177"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "EORTC 1325-MG/KEYNOTE-054"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "POPLAR"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "OAK"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "CLEAR"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "CheckMate 9LA"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "CheckMate 331"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "CheckMate 9ER"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "CheckMate 451"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "CheckMate 451"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "SAFIR02-BREAST IMMUNO"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Keynote-204"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Imvigor010"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Keynote-119"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "EMPOWER-Lung 1"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "ModuLung"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "JAVELIN Head and Neck 101"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "CheckMate 577"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "REACH"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-bded55a72c949418",
+    "finish_reason": "stop",
+    "prompt_tokens": 28020,
+    "completion_tokens": 1524,
+    "total_tokens": 29544
+  }
+}

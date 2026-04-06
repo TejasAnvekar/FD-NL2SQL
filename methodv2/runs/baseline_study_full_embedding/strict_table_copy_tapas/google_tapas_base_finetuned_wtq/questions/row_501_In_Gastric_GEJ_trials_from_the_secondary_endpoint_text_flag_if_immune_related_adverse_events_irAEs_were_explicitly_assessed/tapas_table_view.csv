@@ -1,0 +1,165 @@
+NCT,PubMed ID,Trial name,source_value
+NCT02302807,29268948,IMvigor211,"investigator-assessed RECIST v1.1 ORR, PFS, DoR"
+NCT02256436,28212060,Keynote-045,"Safety, tolerability, ORR, DoR"
+NCT02256436,31050707,Keynote-045,"Safety, tolerability, ORR, DoR"
+NCT02425891,30345906,IMpassion130,"investigator-assessed RECIST v1.1 ORR,  DoR"
+NCT02685059,31095287,GeparNuevo,"response rate by other path CR definitions (ypT0/is ypN0, ypT0/is ypN0/þ, and ypN0) and by clinical and imaging assessment; rate of breast conserving surgery and axilla lymph node dissection; efficacy in predefined subgroups according to centrally assessed sTILs [low ( 10%), intermediate (11%–59%), high ( 60%)]"
+NCT02788279,31003911,IMblaze130,"investigator-assessed RECIST v1.1 ORR, PFS, DoR"
+NCT02788279,31003911,IMblaze130,"investigator-assessed RECIST v1.1 ORR, PFS, DoR"
+NCT01585987,28655793,,"PFS by mWHO criteria, OS, immune-related best overall response rate (irBORR)"
+NCT02267343,28993052,ATTRACTION-2,"PFS, ORR, disease control rate, DoR, time to response, best overall response, the maximum percentage change from baseline in the sum of diameters of target lesions."
+NCT02625623,30052729,JAVELIN Gastric 300,"PFS, ORR per independent review committee assessment, safety, tolerability"
+NCT02370498,29880231,Keynote-061,"ORR, DoR, in patients with PD-L1 CPS of 1 or higher and in the total population; PFS, OS in the total population; PFS in the population with CPS of 1 or higher and in the total population; and time to progression in the population with CPS of 1 or higher and in the total population; safety"
+NCT02252042,30509740,KEYNOTE-040,"OS in the population with 
+a PD-L1 combined positive 
+score of 1 or higher; safety, 
+PFS,ORR, duration of 
+confirmed response in all 
+participants and those with a PD-L1 combined positive score of 1 or higher."
+NCT02105636,27718784,CheckMate 141,"PFS, ORR"
+NCT02105636,29884413,CheckMate 141,"PFS, ORR"
+NCT01668784,26406148,CheckMate 025,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events."
+NCT01984242,29867230,IMmotion150,"Investigator-assessed PFS; ORR; 
+DOR; OS; patient-reported outcomes; safety."
+NCT01984242,29867230,IMmotion150,"Investigator-assessed PFS; ORR; 
+DOR; OS; patient-reported outcomes; safety."
+NCT02231749,29562145,CheckMate 214,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients."
+NCT02231749,31427204,CheckMate 214,"ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients."
+NCT02684006,30779531,JAVELIN Renal 101,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.
+NCT02853331,30779529,KEYNOTE-426,ORR; duration of response; safety
+NCT02420821,31079938,IMmotion151,OS in PD-L1 positive population; PFS in the ITT population; proportion of patients who achieved an objective response; duration of response; patient-reported outcomes; safety
+NCT00527735,22547592,,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate"
+NCT00527735,22547592,,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate"
+NCT00527735,22858559,,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)"
+NCT00527735,22858559,,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)"
+NCT01673867,26412456,Checkmate 057,"OR, PFS, PRO"
+NCT01642004,26028407,Checkmate 017,"OR, PFS, PRO"
+NCT01905657,26712084,Keynote-010,"RR, DOR"
+NCT01905657,26712084,Keynote-010,"RR, DOR"
+NCT01903993,26970723,POPLAR,"ORR, PFS, DOR,OR"
+NCT01450761,27458307,CA184-156,"PFS, ORR, DOR"
+NCT02041533,28636851,Checkmate 026,"OS,PFS(PD-L1),RR,"
+NCT01285609,28854067,,"PFS, ORR, DOR, safety"
+NCT02125461,28885881,PACIFIC,"12-18 month PSA, DOR, ORR, Time to death, secondary progression, safety"
+NCT02125461,30280658,PACIFIC,"Time to death, secondary progression, safety"
+NCT02395172,30262187,JAVELIN Lung 200,"PFS, ORR, , BOR, PRO, Safety"
+NCT02039674,27745820,Keynote-021,"PFS, DOR, OS"
+NCT02039674,30138764,Keynote-021,"PFS, DOR, OS"
+NCT02008227,27979383,OAK,"PFS, ORR, DoR"
+NCT02008227,29777823,OAK,"PFS, ORR, DoR"
+NCT02578680,29658856,Keynote-189,"ORR, DOR, safety"
+NCT02763579,30280641,IMPower 133,"ORR, DOR"
+NCT02775435,30280635,Keynote-407,"ORR, DOR, safety"
+NCT02366143,29863955,IMPower150,"PFS, OS in ITT population"
+NCT02366143,29863955,IMPower150,"PFS, OS in ITT population"
+NCT02477826,29658845,Checkmate 227,PFS with nivolumab VS chemotherapy among patients with a TMB of at least 13 mutations per megabase and a PD-L1 expression level of >= 1%; OS with nivolumab + ipilimumab VS platinum doublet chemotherapy among patients with a TMB of >=10 mutations per megabase
+NCT02477826,29658845,Checkmate 227,PFS with nivolumab VS chemotherapy among patients with a TMB of at least 13 mutations per megabase and a PD-L1 expression level of >= 1%; OS with nivolumab + ipilimumab VS platinum doublet chemotherapy among patients with a TMB of >=10 mutations per megabase
+NCT02477826,31562796,Checkmate 227,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%
+NCT02477826,31562796,Checkmate 227,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%
+NCT02477826,31562796,Checkmate 227,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%
+NCT02220894,30955977,Keynote-042,"PFS, ORR in pts with PD-L1 TPS of >=50%; >=20%; >=1%"
+NCT03059667,30664989,IFCT-1603,"OS, PFS, RR, Disease progression/Death, QoL"
+NCT02142738,30620668,Keynote-024,"OS, ORR, safety"
+NCT00324155,21639810,,"PFS, best ORR, DCR, time to response, DOR, safety"
+NCT00094653,20525992,MDX010-20,Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS.
+NCT00094653,20525992,MDX010-20,Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS.
+NCT00257205,23295794,,PFS; best overall response; duration of response; PFS at 6 months after random assignment; safety.
+NCT02362594,29658430,EORTC 1325-MG/KEYNOTE-054,Distant metastasis-free survival; OS; safety measures; measures of health-related quality of life.
+NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.
+NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.
+NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.
+NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.
+NCT00636168,27717298,,OS; distant metastasis–free survival; safety; health-related quality of life.
+NCT01721746,25795410,CheckMate 037,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.
+NCT01721746,28671856,CheckMate 037,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.
+NCT02130466,31171878,KEYNOTE-022,ORR; duration of response; time to response; OS.
+NCT01721772,25399552,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.
+NCT01721772,30422243,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.
+NCT01843374,28729154,DETERMINE,18-month OS; disease control and durable disease control; PFS; proportion of patients achieving an objective response; duration of response;  patient-reported outcomes; pharmacokinetics; immunogenicity of tremelimumab; and safety and tolerability.
+NCT02576977,31327687,KEYNOTE-183,Overall response; duration of response; disease control; safety and tolerability of both treatments; secondary PFS.
+NCT02579863,31327689,KEYNOTE-185,Safety; OS; overall response; duration of response; disease control; secondary PFS.
+NCT00861614,24831977,CA184-043,PFS; pain response; safety profile.
+NCT01057810,28034081,CA184-095,"PFS; time to subsequent systemic, cytotoxic therapy and to pain progression in all patients; safety profile in treated patients."
+NCT02267343,31863227,ATTRACTION-2,"PFS, ORR, disease control rate, DoR, time to response, best overall response, the maximum percentage change from baseline in the sum of diameters of target lesions."
+NCT02702401,31790344,KEYNOTE-240,ORR; DCR; DoR; time to progression; safety and tolerability.
+NCT02569242,31582355,ATTRACTION-3,"investigator-assessed objective response, best overall response; progression-free survival;the proportion of patients with disease control; maximum percentage change from baseline in the sum of the diameters of target lesions; time to response; and duration of response"
+NCT01042379,32053137,I-SPY2,residual cancer burden (RCB) and 3-year event-free and distant recurrence-free survival.
+NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.
+NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.
+NCT02425891,31786121,IMpassion130,"investigator-assessed RECIST v1.1 ORR,  DoR"
+NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing."
+NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing."
+NCT02763579,31959349,IMpower133,Patient-reported outcomes
+NCT02362048,32114502,KEYNOTE144,ORR; disease control rate; PFS; OS; change in cancer antigen (CA) 19–9.
+NCT02352948,32201234,ARCTIC,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.
+NCT02352948,32201234,ARCTIC,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.
+NCT02352948,32201234,ARCTIC,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.
+NCT03036488,32101663,KEYNOTE-522,"pathological complete response, a pathological complete response according to all definitions in patients with PD-L1–positive tumors, eventfree survival among patients with PD-L1–positive tumors, and OS among all patients and patients with PD-L1–positive tumors."
+NCT01274338,31880964,E1609,"Safety, tolerability and quality-of-life with adjuvant ipilimumab"
+NCT01274338,31880964,E1609,"Safety, tolerability and quality-of-life with adjuvant ipilimumab"
+NCT02523313,32416781,IMMUNED,OS; time to recurrence; safety; PFS or RFS 2.
+NCT02523313,32416781,IMMUNED,OS; time to recurrence; safety; PFS or RFS 2.
+NCT01896869,32591464,,Safety; toxicities; clinical and immunological responses.
+NCT03066778,32468956,KEYNOTE-604,ORR; DOR
+NCT02453282,32271377,MYSTIC,PFS for durvalumab vs. chemotherapy; ORR and DOR in patients with PD-L1 TC ≥25%; safety and tolerability.
+NCT02453282,32271377,MYSTIC,PFS for durvalumab vs. chemotherapy; ORR and DOR in patients with PD-L1 TC ≥25%; safety and tolerability.
+NCT02231749,32661118,CheckMate 214,"ORR, PFS and OS in ITT population; incidence rate of AEs."
+NCT02367794,32302702,IMpower131,"ORR, DOR, PFS and OS in PD-L1 subgroups and T-effector population; safety."
+NCT02367794,32302702,IMpower131,"ORR, DOR, PFS and OS in PD-L1 subgroups and T-effector population; safety."
+NCT02908672,32534646,IMspire150,PFS assessed by independent review committee; ORR; DOR; OS; time to deterioration in global health status and physical function.
+NCT02017717,32437507,CheckMate 143,OS rate at 12 months; investigator-assessed PFS and ORR.
+NCT02500121,32271672,,"OS, treatment outcomes CPS"
+NCT02807636,32416780,IMvigor130,"RR, DOR, PFS"
+NCT02807636,32416780,IMvigor130,"RR, DOR, PFS"
+NCT03434379,32402160,IMbrave150,"ORR, DOR, safety, tolerability"
+NCT02369874,32294530,EAGLE,"PFS, ORR, DOR"
+NCT02369874,32294530,EAGLE,"PFS, ORR, DOR"
+NCT02870920,32379280,,"PFS, ORR"
+NCT02574598,32271354,PROLUNG,"PFS, OS, safety"
+NCT01668784,32673417,CheckMate 025,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events."
+NCT02684006,32339648,JAVELIN Renal 101,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.
+NCT02142738,27718847,Keynote-024,"OS, ORR, safety"
+NCT00094653,23942774,MDX010-20,"DOS, responses, and safety among patients with ≥2 years’ survival."
+NCT00094653,23942774,MDX010-20,"DOS, responses, and safety among patients with ≥2 years’ survival."
+NCT03051659,32880602,,"PFS per irRECIST, ORR, OS, DoR, clinical benefit rate, safety, tolerability"
+NCT02494583,32880601,Keynote-062,"ORR, DoR, safety, tolerability, HRQOL"
+NCT02494583,32880601,Keynote-062,"ORR, DoR, safety, tolerability, HRQOL"
+NCT02819518,33278935,MK-3475/Keynote-355,"ORR, DoR, DCR"
+NCT02516241,32971005,DANUBE,"OS, PFS, ORR, DoR, DCR"
+NCT02516241,32971005,DANUBE,"OS, PFS, ORR, DoR, DCR"
+NCT03197935,32966830,IMpassion031,"OS, Event free survival , disease free survival"
+NCT02603432,32945632,,"PFS, ORR, time to response, DoR, DCR, safety"
+NCT02625610,33197226,Javelin Gastric 100,"PFS, best overall response, DOR, safety"
+NCT02899299,33485464,CheckMate 743,"PFS, ORR, time to response, DoR, DCR"
+NCT02409342,32997907,IMpower110,"investigator-assessed PFS, DOR"
+NCT02924883,33002436,KATE2,"OS, ORR, DOR"
+NCT02853331,33284113,Keynote-426,"ORR, DoR, safety, tolerability"
+NCT02564263,33026938,KEYNOTE-181,"PFS, ORR, safety, tolerability"
+NCT00861614,32811715,CA184-043,PFS; pain response; safety profile.
+NCT01721772,32997575,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.
+NCT02130466,33361337,KEYNOTE-022,ORR; duration of response; time to response; OS
+NCT03043872,33285097,CASPIAN,"PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+NCT03043872,33285097,CASPIAN,"PFS, ORR, OS at 18 months, PFS, safety, pharmacokinetics, immunogenicity, HRQOL"
+NCT02991482,32976938,PROMISE-meso,"investigator-assessed PFS, OS, ORR, time to treatment failure, safety"
+NCT02563002,33264544,MK-3475/Keynote-177,"ORR, safety"
+NCT00636168,25840693,,OS; distant metastasis–free survival; safety; health-related quality of life.
+NCT02811861,33616314,CLEAR,OS; ORR; safety; investigator-assessed PFS
+NCT03215706,33476593,CheckMate 9LA,PFS; ORR
+NCT02481830,33539946,CheckMate 331,PFS; ORR; DoR
+NCT03141177,33657295,CheckMate 9ER,OS; ORR; safety
+NCT02538666,33683919,CheckMate 451,OS in Arm 2 vs Arm 3; PFS
+NCT02538666,33683919,CheckMate 451,OS in Arm 2 vs Arm 3; PFS
+NCT02299999,33462450,SAFIR02-BREAST IMMUNO,OS
+NCT02684292,33721562,Keynote-204,"PFS; ORR; CR; investigator-assessed PFS, ORR, CR; safety"
+NCT02450331,33721560,Imvigor010,OS; disease-specific survival; distant metastasis-free survival; non-urinary tract recurrence-free survival; pharmacokinetics; PROs
+NCT02555657,33676601,Keynote-119,PFS; ORR; DCR; DoR; safety
+NCT03088540,33581821,EMPOWER-Lung 1,ORR; DoR; HRQOL; safety
+NCT02852083,33796020,ModuLung,OS; DoR; safety; HRQOL
+NCT02952586,33794205,JAVELIN Head and Neck 101,OS; ORR; DoR; path CR
+NCT02743494,33789008,CheckMate 577,"OS; survival at 1, 2 and 3 y"
+NCT02999087,33125944,REACH,Safety

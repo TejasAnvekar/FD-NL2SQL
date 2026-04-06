@@ -1,0 +1,61 @@
+{
+  "item_id": "row_80",
+  "csv_row_number": 80,
+  "question": "In Head and Neck combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_80_In_Head_and_Neck_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_80_In_Head_and_Neck_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_80_In_Head_and_Neck_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_80_In_Head_and_Neck_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 12, \"answer\": \"ICI+Chemo/Anti-EGFR\"},{\"table_row_id\": 13, \"answer\": \"ICI+Chemo/Anti-EGFR\"},{\"table_row_id\": 85, \"answer\": \"ICI+Chemo+Anti-EGFR\"},{\"table_row_id\": 86, \"answer\": \"ICI+Chemo+Anti-EGFR\"},{\"table_row_id\": 105, \"answer\": \"ICI+Anti-VEGF\"},{\"table_row_id\": 110, \"answer\": \"ICI+Chemo+Anti-EGFR\"},{\"table_row_id\": 111, \"answer\": \"ICI+ICI+Chemo+Anti-EGFR\"},{\"table_row_id\": 157, \"answer\": \"ICI+Chemoradiotherapy\"},{\"table_row_id\": 159, \"answer\": \"ICI+Chemoradiotherapy\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "ICI+Chemo/Anti-EGFR"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "ICI+Chemo/Anti-EGFR"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "ICI+Chemo+Anti-EGFR"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "ICI+Chemo+Anti-EGFR"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "ICI+Anti-VEGF"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "ICI+Chemo+Anti-EGFR"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "ICI+ICI+Chemo+Anti-EGFR"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "ICI+Chemoradiotherapy"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "ICI+Chemoradiotherapy"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-ba489ad60484af49",
+    "finish_reason": "stop",
+    "prompt_tokens": 28021,
+    "completion_tokens": 203,
+    "total_tokens": 28224
+  }
+}

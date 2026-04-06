@@ -1,0 +1,16 @@
+{
+  "item_id": "row_205",
+  "csv_row_number": 205,
+  "question": "In Urothelial trials, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "predicted_answer": "combination",
+  "chunk_score": -0.43697795271873474,
+  "chunk_start": 128,
+  "chunk_row_count": 31,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_205_In_Urothelial_trials_convert_Type_of_therapy_into_is_combination_true_false/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_205_In_Urothelial_trials_convert_Type_of_therapy_into_is_combination_true_false/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_205_In_Urothelial_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv"
+}

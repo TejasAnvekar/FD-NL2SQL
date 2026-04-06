@@ -1,0 +1,201 @@
+{
+  "item_id": "row_262",
+  "csv_row_number": 262,
+  "question": "For Tremelimumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_262_For_Tremelimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_262_For_Tremelimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_262_For_Tremelimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_262_For_Tremelimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 61, \"answer\": \"small\"}, {\"table_row_id\": 117, \"answer\": \"medium\"}, {\"table_row_id\": 118, \"answer\": \"medium\"}, {\"table_row_id\": 119, \"answer\": \"medium\"}, {\"table_row_id\": 120, \"answer\": \"medium\"}, {\"table_row_id\": 121, \"answer\": \"medium\"}, {\"table_row_id\": 122, \"answer\": \"medium\"}, {\"table_row_id\": 123, \"answer\": \"large\"}, {\"table_row_id\": 124, \"answer\": \"large\"}, {\"table_row_id\": 125, \"answer\": \"medium\"}, {\"table_row_id\": 126, \"answer\": \"medium\"}, {\"table_row_id\": 127, \"answer\": \"medium\"}, {\"table_row_id\": 128, \"answer\": \"medium\"}, {\"table_row_id\": 129, \"answer\": \"medium\"}, {\"table_row_id\": 130, \"answer\": \"medium\"}, {\"table_row_id\": 131, \"answer\": \"medium\"}, {\"table_row_id\": 132, \"answer\": \"medium\"}, {\"table_row_id\": 133, \"answer\": \"medium\"}, {\"table_row_id\": 134, \"answer\": \"medium\"}, {\"table_row_id\": 135, \"answer\": \"medium\"}, {\"table_row_id\": 136, \"answer\": \"medium\"}, {\"table_row_id\": 137, \"answer\": \"medium\"}, {\"table_row_id\": 138, \"answer\": \"medium\"}, {\"table_row_id\": 139, \"answer\": \"medium\"}, {\"table_row_id\": 140, \"answer\": \"medium\"}, {\"table_row_id\": 141, \"answer\": \"medium\"}, {\"table_row_id\": 142, \"answer\": \"medium\"}, {\"table_row_id\": 143, \"answer\": \"medium\"}, {\"table_row_id\": 144, \"answer\": \"medium\"}, {\"table_row_id\": 145, \"answer\": \"medium\"}, {\"table_row_id\": 146, \"answer\": \"medium\"}, {\"table_row_id\": 147, \"answer\": \"medium\"}, {\"table_row_id\": 148, \"answer\": \"medium\"}, {\"table_row_id\": 149, \"answer\": \"medium\"}, {\"table_row_id\": 150, \"answer\": \"medium\"}, {\"table_row_id\": 151, \"answer\": \"medium\"}, {\"table_row_id\": 152, \"answer\": \"medium\"}, {\"table_row_id\": 153, \"answer\": \"medium\"}, {\"table_row_id\": 154, \"answer\": \"medium\"}, {\"table_row_id\": 155, \"answer\": \"medium\"}, {\"table_row_id\": 156, \"answer\": \"medium\"}, {\"table_row_id\": 157, \"answer\": \"medium\"}, {\"table_row_id\": 158, \"answer\": \"medium\"}, {\"table_row_id\": 159, \"answer\": \"medium\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 61,
+      "answer": "small"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "medium"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-ba0596aca6761010",
+    "finish_reason": "stop",
+    "prompt_tokens": 29590,
+    "completion_tokens": 707,
+    "total_tokens": 30297
+  }
+}

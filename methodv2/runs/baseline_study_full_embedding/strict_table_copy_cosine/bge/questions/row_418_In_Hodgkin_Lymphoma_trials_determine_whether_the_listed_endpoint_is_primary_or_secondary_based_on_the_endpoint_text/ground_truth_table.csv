@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02684292,33721562,Keynote-204,"PFS; ORR; CR; investigator-assessed PFS, ORR, CR; safety",secondary,"{""endpoint_role"": ""secondary""}"

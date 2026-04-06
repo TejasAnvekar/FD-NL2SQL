@@ -1,0 +1,81 @@
+{
+  "item_id": "row_98",
+  "csv_row_number": 98,
+  "question": "In Mesothelioma trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_drugs"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_98_In_Mesothelioma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_98_In_Mesothelioma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_98_In_Mesothelioma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_98_In_Mesothelioma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 73, \"answer\": \"Placebo\"}, {\"table_row_id\": 107, \"answer\": \"Placebo+Gemcitabine+Carboplatin or Cisplatin\"}, {\"table_row_id\": 116, \"answer\": \"Placebo+Cisplatin+5-FU+Capecitabine\"}, {\"table_row_id\": 117, \"answer\": \"Gp100 vaccine\"}, {\"table_row_id\": 118, \"answer\": \"Placebo+Cisplatin+5-FU+Capecitabine\"}, {\"table_row_id\": 126, \"answer\": \"Best supportive care\"}, {\"table_row_id\": 131, \"answer\": \"Placebo+Cisplatin+5-FU+Capecitabine\"}, {\"table_row_id\": 139, \"answer\": \"Gemcitabine/Vinorelbine\"}, {\"table_row_id\": 141, \"answer\": \"Placebo\"}, {\"table_row_id\": 147, \"answer\": \"Placebo\"}, {\"table_row_id\": 149, \"answer\": \"Placebo\"}, {\"table_row_id\": 150, \"answer\": \"Placebo\"}, {\"table_row_id\": 151, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 155, \"answer\": \"Placebo\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 73,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Placebo+Gemcitabine+Carboplatin or Cisplatin"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Placebo+Cisplatin+5-FU+Capecitabine"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Gp100 vaccine"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Placebo+Cisplatin+5-FU+Capecitabine"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Placebo+Cisplatin+5-FU+Capecitabine"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Gemcitabine/Vinorelbine"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Placebo"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-b11b59e2273d9626",
+    "finish_reason": "stop",
+    "prompt_tokens": 29575,
+    "completion_tokens": 310,
+    "total_tokens": 29885
+  }
+}

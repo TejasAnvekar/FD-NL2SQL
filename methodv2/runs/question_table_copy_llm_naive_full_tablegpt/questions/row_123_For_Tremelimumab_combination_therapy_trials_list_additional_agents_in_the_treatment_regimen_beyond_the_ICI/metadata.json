@@ -1,0 +1,65 @@
+{
+  "item_id": "row_123",
+  "csv_row_number": 123,
+  "question": "For Tremelimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_123_For_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_123_For_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_123_For_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_123_For_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 73, \"answer\": \"Placebo\"}, {\"table_row_id\": 110, \"answer\": \"Cetuximab+Taxane+Methotrexate+Fluoropyrimidine\"}, {\"table_row_id\": 111, \"answer\": \"Cetuximab+Taxane+Methotrexate+Fluoropyrimidine\"}, {\"table_row_id\": 126, \"answer\": \"Best supportive care\"}, {\"table_row_id\": 131, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 133, \"answer\": \"Paclitaxel/Docetaxel/Irinotecan\"}, {\"table_row_id\": 141, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 149, \"answer\": \"Placebo\"}, {\"table_row_id\": 150, \"answer\": \"Placebo\"}, {\"table_row_id\": 157, \"answer\": \"Chemoradiotherapy\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 73,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Cetuximab+Taxane+Methotrexate+Fluoropyrimidine"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Cetuximab+Taxane+Methotrexate+Fluoropyrimidine"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Paclitaxel/Docetaxel/Irinotecan"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Chemoradiotherapy"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a2f3a1c960783f58",
+    "finish_reason": "stop",
+    "prompt_tokens": 29575,
+    "completion_tokens": 230,
+    "total_tokens": 29805
+  }
+}

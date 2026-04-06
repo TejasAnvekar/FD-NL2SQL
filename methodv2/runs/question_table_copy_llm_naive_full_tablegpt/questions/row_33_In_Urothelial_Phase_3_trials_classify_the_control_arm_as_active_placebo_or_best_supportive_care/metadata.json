@@ -1,0 +1,33 @@
+{
+  "item_id": "row_33",
+  "csv_row_number": 33,
+  "question": "In Urothelial Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_33_In_Urothelial_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_33_In_Urothelial_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_33_In_Urothelial_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_33_In_Urothelial_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 106, \"answer\": \"Best supportive care\"},{\"table_row_id\": 126, \"answer\": \"Best supportive care\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 106,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Best supportive care"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-881655d2790f800a",
+    "finish_reason": "stop",
+    "prompt_tokens": 29578,
+    "completion_tokens": 39,
+    "total_tokens": 29617
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "item_id": "row_161",
+  "csv_row_number": 161,
+  "question": "In Renal cell trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_161_In_Renal_cell_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_161_In_Renal_cell_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_161_In_Renal_cell_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_161_In_Renal_cell_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 15, \"answer\": \"1-arm\"},{\"table_row_id\": 14, \"answer\": \"1-arm\"},{\"table_row_id\": 13, \"answer\": \"1-arm\"},{\"table_row_id\": 12, \"answer\": \"1-arm\"},{\"table_row_id\": 11, \"answer\": \"1-arm\"},{\"table_row_id\": 10, \"answer\": \"1-arm\"},{\"table_row_id\": 9, \"answer\": \"1-arm\"},{\"table_row_id\": 8, \"answer\": \"1-arm\"},{\"table_row_id\": 7, \"answer\": \"1-arm\"},{\"table_row_id\": 6, \"answer\": \"1-arm\"},{\"table_row_id\": 5, \"answer\": \"1-arm\"},{\"table_row_id\": 4, \"answer\": \"2-arm\"},{\"table_row_id\": 3, \"answer\": \"2-arm\"},{\"table_row_id\": 2, \"answer\": \"2-arm\"},{\"table_row_id\": 1, \"answer\": \"2-arm\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 8,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "1-arm"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 1,
+      "answer": "2-arm"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-ae00768433ea9726",
+    "finish_reason": "stop",
+    "prompt_tokens": 29579,
+    "completion_tokens": 221,
+    "total_tokens": 29800
+  }
+}

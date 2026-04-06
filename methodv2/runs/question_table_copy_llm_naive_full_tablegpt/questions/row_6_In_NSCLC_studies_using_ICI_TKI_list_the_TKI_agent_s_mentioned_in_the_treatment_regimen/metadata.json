@@ -1,0 +1,69 @@
+{
+  "item_id": "row_6",
+  "csv_row_number": 6,
+  "question": "In NSCLC studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_6_In_NSCLC_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_6_In_NSCLC_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_6_In_NSCLC_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_6_In_NSCLC_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 87, \"answer\": \"Erlotinib/gemcitabine/vinorelbine\"}, {\"table_row_id\": 115, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 121, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 127, \"answer\": \"Oxalipltin+5-FU+Leucovorin+Capecitabine+Best supportive care\"}, {\"table_row_id\": 132, \"answer\": \"Carboplatin/Cisplatin+Pemetrexed\"}, {\"table_row_id\": 133, \"answer\": \"Paclitaxel/Docetaxel/Irinotecan\"}, {\"table_row_id\": 137, \"answer\": \"Docetaxel\"}, {\"table_row_id\": 144, \"answer\": \"Docetaxel\"}, {\"table_row_id\": 148, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 149, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 150, \"answer\": \"Placebo\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 87,
+      "answer": "Erlotinib/gemcitabine/vinorelbine"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Oxalipltin+5-FU+Leucovorin+Capecitabine+Best supportive care"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Carboplatin/Cisplatin+Pemetrexed"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Paclitaxel/Docetaxel/Irinotecan"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Docetaxel"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Docetaxel"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Placebo"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-89eeb716881a4a7d",
+    "finish_reason": "stop",
+    "prompt_tokens": 29579,
+    "completion_tokens": 261,
+    "total_tokens": 29840
+  }
+}

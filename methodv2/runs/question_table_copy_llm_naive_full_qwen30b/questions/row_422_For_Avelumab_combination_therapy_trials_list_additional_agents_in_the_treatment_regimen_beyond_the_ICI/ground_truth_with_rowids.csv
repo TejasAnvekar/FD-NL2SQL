@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response,table_row_id
+1,NCT02684006,30779531,JAVELIN Renal 101,Avelumab+Axitinib,"[""axitinib""]","{""added_agents"": [""axitinib""]}",20
+2,NCT02684006,32339648,JAVELIN Renal 101,Avelumab+Axitinib,"[""axitinib""]","{""added_agents"": [""axitinib""]}",115
+3, NCT02625610,33197226,Javelin Gastric 100,Avelumab,,"{""added_agents"": null}",127
+4,NCT02952586,33794205,JAVELIN Head and Neck 101,Avelumab+Chemoradiotherapy,,"{""added_agents"": null}",157
+5,NCT02999087,33125944,REACH,Avelumab+cetuximab+radiotherapy,"[""cetuximab""]","{""added_agents"": [""cetuximab""]}",159

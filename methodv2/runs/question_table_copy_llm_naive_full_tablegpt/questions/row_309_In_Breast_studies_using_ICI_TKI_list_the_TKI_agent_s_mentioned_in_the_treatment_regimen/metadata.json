@@ -1,0 +1,181 @@
+{
+  "item_id": "row_309",
+  "csv_row_number": 309,
+  "question": "In Breast studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 121, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 122, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 123, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 124, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 125, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 126, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 127, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 128, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 129, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 130, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 131, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 132, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 133, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 134, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 135, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 136, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 137, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 138, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 139, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 140, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 141, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 142, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 143, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 144, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 145, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 146, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 147, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 148, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 149, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 150, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 151, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 152, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 153, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 154, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 155, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 156, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 157, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 158, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 159, \"answer\": \"Sunitinib\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 121,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Sunitinib"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9edf3f70214de1be",
+    "finish_reason": "stop",
+    "prompt_tokens": 29577,
+    "completion_tokens": 745,
+    "total_tokens": 30322
+  }
+}

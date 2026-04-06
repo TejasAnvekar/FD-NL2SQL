@@ -1,0 +1,12 @@
+{
+  "item_id": "row_102",
+  "csv_row_number": 102,
+  "question": "In renal cell carcinoma studies using ICI+Anti-VEGF, list the specific anti-VEGF agent(s) from the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "anti_vegf_agents"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/anti_vegf_agents__row_102__In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_fr",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin"
+}

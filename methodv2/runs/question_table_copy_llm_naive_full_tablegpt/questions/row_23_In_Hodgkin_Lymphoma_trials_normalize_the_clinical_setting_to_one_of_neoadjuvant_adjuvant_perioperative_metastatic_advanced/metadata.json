@@ -1,0 +1,29 @@
+{
+  "item_id": "row_23",
+  "csv_row_number": 23,
+  "question": "In Hodgkin Lymphoma trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_23_In_Hodgkin_Lymphoma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_23_In_Hodgkin_Lymphoma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_23_In_Hodgkin_Lymphoma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_23_In_Hodgkin_Lymphoma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 152, \"answer\": \"Metastatic/advanced\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 152,
+      "answer": "Metastatic/advanced"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8947e4ebeac4dd98",
+    "finish_reason": "stop",
+    "prompt_tokens": 29587,
+    "completion_tokens": 24,
+    "total_tokens": 29611
+  }
+}

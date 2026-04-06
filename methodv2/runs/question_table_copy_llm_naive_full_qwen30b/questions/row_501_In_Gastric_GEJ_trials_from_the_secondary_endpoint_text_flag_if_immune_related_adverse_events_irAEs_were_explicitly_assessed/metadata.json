@@ -1,0 +1,45 @@
+{
+  "item_id": "row_501",
+  "csv_row_number": 501,
+  "question": "In Gastric/GEJ trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_501_In_Gastric_GEJ_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_501_In_Gastric_GEJ_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_501_In_Gastric_GEJ_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_501_In_Gastric_GEJ_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 8, \"answer\": true}, {\"table_row_id\": 9, \"answer\": true}, {\"table_row_id\": 10, \"answer\": true}, {\"table_row_id\": 11, \"answer\": true}, {\"table_row_id\": 78, \"answer\": true}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 8,
+      "answer": true
+    },
+    {
+      "table_row_id": 9,
+      "answer": true
+    },
+    {
+      "table_row_id": 10,
+      "answer": true
+    },
+    {
+      "table_row_id": 11,
+      "answer": true
+    },
+    {
+      "table_row_id": 78,
+      "answer": true
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9d2b497c6f52f3e8",
+    "finish_reason": "stop",
+    "prompt_tokens": 28014,
+    "completion_tokens": 72,
+    "total_tokens": 28086
+  }
+}

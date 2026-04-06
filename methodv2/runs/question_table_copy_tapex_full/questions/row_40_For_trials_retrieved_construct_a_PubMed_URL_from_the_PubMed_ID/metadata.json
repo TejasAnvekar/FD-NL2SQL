@@ -1,0 +1,16 @@
+{
+  "item_id": "row_40",
+  "csv_row_number": 40,
+  "question": "For trials retrieved, construct a PubMed URL from the PubMed ID.",
+  "column_used": "PubMed ID",
+  "expected_keys": [
+    "pubmed_url"
+  ],
+  "predicted_answer": "reach",
+  "chunk_score": -0.11755742132663727,
+  "chunk_start": 128,
+  "chunk_row_count": 31,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_40_For_trials_retrieved_construct_a_PubMed_URL_from_the_PubMed_ID/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_40_For_trials_retrieved_construct_a_PubMed_URL_from_the_PubMed_ID/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_40_For_trials_retrieved_construct_a_PubMed_URL_from_the_PubMed_ID/ground_truth_table.csv"
+}

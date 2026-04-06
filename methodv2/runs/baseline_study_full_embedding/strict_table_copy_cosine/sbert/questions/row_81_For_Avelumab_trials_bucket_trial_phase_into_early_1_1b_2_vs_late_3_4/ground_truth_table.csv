@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT02625623,30052729,JAVELIN Gastric 300,Phase 3,late,"{""phase_bucket"": ""late""}"
+2,NCT02684006,30779531,JAVELIN Renal 101,Phase 3,late,"{""phase_bucket"": ""late""}"
+3,NCT02684006,32339648,JAVELIN Renal 101,Phase 3,late,"{""phase_bucket"": ""late""}"
+4,NCT02603432,32945632,,Phase 3,late,"{""phase_bucket"": ""late""}"
+5, NCT02625610,33197226,Javelin Gastric 100,Phase 3,late,"{""phase_bucket"": ""late""}"
+6,NCT02952586,33794205,JAVELIN Head and Neck 101,Phase 3,late,"{""phase_bucket"": ""late""}"
+7,NCT02999087,33125944,REACH,Phase 3,late,"{""phase_bucket"": ""late""}"

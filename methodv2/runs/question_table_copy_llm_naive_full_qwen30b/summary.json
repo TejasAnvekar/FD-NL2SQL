@@ -1,0 +1,18 @@
+{
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv",
+  "annotated_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "model_name": "Qwen3-30B-A3B-Instruct-2507",
+  "sample_question_count": 367,
+  "question_result_count": 367,
+  "row_result_count": 5391,
+  "skips": {},
+  "outputs": {
+    "sample_manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/sample_manifest.csv",
+    "question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/row_level_predictions.csv",
+    "requests_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/requests.csv",
+    "responses_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/responses.csv",
+    "baseline_summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/baseline_summary.csv"
+  }
+}

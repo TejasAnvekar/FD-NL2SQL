@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02425891,30345906,IMpassion130,IMpassion130,IMpassion130,"{""trial_acronym"": ""IMpassion130""}"
+2,NCT02425891,31786121,IMpassion130,IMpassion130,IMpassion130,"{""trial_acronym"": ""IMpassion130""}"
+3,NCT03197935,32966830,IMpassion031,IMpassion031,IMpassion031,"{""trial_acronym"": ""IMpassion031""}"

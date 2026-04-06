@@ -1,0 +1,39 @@
+{
+  "item_id": "row_200",
+  "csv_row_number": 200,
+  "question": "In Multiple Myeloma trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_drugs"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_200_In_Multiple_Myeloma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_200_In_Multiple_Myeloma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_200_In_Multiple_Myeloma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_200_In_Multiple_Myeloma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 74, \"answer\": [\"Pomalidomide\", \"Dexamethasone\"]}, {\"table_row_id\": 75, \"answer\": [\"Lenalidomide\", \"Dexamethasone\"]}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 74,
+      "answer": [
+        "Pomalidomide",
+        "Dexamethasone"
+      ]
+    },
+    {
+      "table_row_id": 75,
+      "answer": [
+        "Lenalidomide",
+        "Dexamethasone"
+      ]
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a273ae6eedf20491",
+    "finish_reason": "stop",
+    "prompt_tokens": 28006,
+    "completion_tokens": 57,
+    "total_tokens": 28063
+  }
+}

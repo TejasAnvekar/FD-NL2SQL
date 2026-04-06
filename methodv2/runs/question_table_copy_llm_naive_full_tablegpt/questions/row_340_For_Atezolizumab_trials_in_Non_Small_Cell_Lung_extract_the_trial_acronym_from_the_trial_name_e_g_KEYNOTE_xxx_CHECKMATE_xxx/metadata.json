@@ -1,0 +1,117 @@
+{
+  "item_id": "row_340",
+  "csv_row_number": 340,
+  "question": "For Atezolizumab trials in Non-Small Cell Lung, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_340_For_Atezolizumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_340_For_Atezolizumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_340_For_Atezolizumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_340_For_Atezolizumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 12, \"answer\": \"CheckMate 040\"}, {\"table_row_id\": 27, \"answer\": \"Checkmate 057\"}, {\"table_row_id\": 31, \"answer\": \"POPLAR\"}, {\"table_row_id\": 44, \"answer\": \"CheckMate 214\"}, {\"table_row_id\": 49, \"answer\": \"Checkmate 227\"}, {\"table_row_id\": 51, \"answer\": \"Checkmate 227\"}, {\"table_row_id\": 52, \"answer\": \"Keynote-042\"}, {\"table_row_id\": 84, \"answer\": \"IMpassion130\"}, {\"table_row_id\": 111, \"answer\": \"Keynote-024\"}, {\"table_row_id\": 116, \"answer\": \"Keynote-024\"}, {\"table_row_id\": 129, \"answer\": \"IMpower110\"}, {\"table_row_id\": 131, \"answer\": \"Keynote-426\"}, {\"table_row_id\": 132, \"answer\": \"Impower 132\"}, {\"table_row_id\": 133, \"answer\": \"CheckMate 066\"}, {\"table_row_id\": 136, \"answer\": \"Keynote-181\"}, {\"table_row_id\": 140, \"answer\": \"MK-3475/Keynote-177\"}, {\"table_row_id\": 141, \"answer\": \"EORTC 1325-MG/KEYNOTE-054\"}, {\"table_row_id\": 144, \"answer\": \"CheckMate 331\"}, {\"table_row_id\": 148, \"answer\": \"CheckMate 9ER\"}, {\"table_row_id\": 150, \"answer\": \"SAFIR02-BREAST IMMUNO\"}, {\"table_row_id\": 153, \"answer\": \"Imvigor010\"}, {\"table_row_id\": 155, \"answer\": \"EMPOWER-Lung 1\"}, {\"table_row_id\": 157, \"answer\": \"JAVELIN Head and Neck 101\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "CheckMate 040"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "Checkmate 057"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "POPLAR"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "CheckMate 214"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Checkmate 227"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Checkmate 227"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Keynote-042"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "IMpassion130"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Keynote-024"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Keynote-024"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "IMpower110"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Keynote-426"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Impower 132"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "CheckMate 066"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Keynote-181"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "MK-3475/Keynote-177"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "EORTC 1325-MG/KEYNOTE-054"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "CheckMate 331"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "CheckMate 9ER"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "SAFIR02-BREAST IMMUNO"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Imvigor010"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "EMPOWER-Lung 1"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "JAVELIN Head and Neck 101"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-bf0162d8b387f6b0",
+    "finish_reason": "stop",
+    "prompt_tokens": 29593,
+    "completion_tokens": 502,
+    "total_tokens": 30095
+  }
+}

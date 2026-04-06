@@ -1,0 +1,14 @@
+{
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin",
+  "sample_question_count": 1,
+  "question_result_count": 2,
+  "topk_row_count": 10,
+  "outputs": {
+    "sample_manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/sample_manifest.csv",
+    "question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/all_question_results.csv",
+    "row_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/row_level_predictions.csv",
+    "baseline_summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/baseline_summary.csv"
+  }
+}

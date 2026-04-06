@@ -1,0 +1,15 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response,table_row_id
+1,NCT00527735,22858559,,No,false,"{""pd_l1_required"": false}",25
+2,NCT00527735,22858559,,No,false,"{""pd_l1_required"": false}",26
+3,NCT01450761,27458307,CA184-156,No,false,"{""pd_l1_required"": false}",32
+4,NCT02763579,30280641,IMPower 133,No,false,"{""pd_l1_required"": false}",43
+5,NCT03059667,30664989,IFCT-1603,No,false,"{""pd_l1_required"": false}",53
+6,NCT03043872,31590988,CASPIAN,No,false,"{""pd_l1_required"": false}",82
+7,NCT03043872,31590988,CASPIAN,No,false,"{""pd_l1_required"": false}",83
+8,NCT02763579,31959349,IMpower133,No,false,"{""pd_l1_required"": false}",87
+9,NCT03066778,32468956,KEYNOTE-604,No,false,"{""pd_l1_required"": false}",98
+10,NCT03043872,33285097,CASPIAN,No,false,"{""pd_l1_required"": false}",137
+11,NCT03043872,33285097,CASPIAN,No,false,"{""pd_l1_required"": false}",138
+12,NCT02481830,33539946,CheckMate 331,No,false,"{""pd_l1_required"": false}",147
+13,NCT02538666,33683919,CheckMate 451,No,false,"{""pd_l1_required"": false}",149
+14,NCT02538666,33683919,CheckMate 451,No,false,"{""pd_l1_required"": false}",150

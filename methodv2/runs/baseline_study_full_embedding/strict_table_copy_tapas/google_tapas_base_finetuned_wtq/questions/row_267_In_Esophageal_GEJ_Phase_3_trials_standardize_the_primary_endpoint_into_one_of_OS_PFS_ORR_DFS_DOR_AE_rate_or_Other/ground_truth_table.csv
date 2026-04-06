@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02569242,31582355,ATTRACTION-3,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02564263,33026938,KEYNOTE-181,OS,OS,"{""primary_endpoint_category"": ""OS""}"

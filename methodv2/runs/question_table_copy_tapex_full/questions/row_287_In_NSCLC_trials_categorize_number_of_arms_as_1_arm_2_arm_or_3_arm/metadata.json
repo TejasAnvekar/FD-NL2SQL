@@ -1,0 +1,16 @@
+{
+  "item_id": "row_287",
+  "csv_row_number": 287,
+  "question": "In NSCLC trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "predicted_answer": "2",
+  "chunk_score": -0.15469901263713837,
+  "chunk_start": 128,
+  "chunk_row_count": 31,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_287_In_NSCLC_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_287_In_NSCLC_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_287_In_NSCLC_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv"
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_309",
+  "csv_row_number": 309,
+  "question": "In Breast studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "predicted_answer": "nct02302807, 29268948",
+  "chunk_score": -0.35595157742500305,
+  "chunk_start": 0,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_309_In_Breast_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_table.csv"
+}

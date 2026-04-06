@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,"investigator-assessed RECIST v1.1 ORR, PFS, DoR",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02788279,31003911,IMblaze130,"investigator-assessed RECIST v1.1 ORR, PFS, DoR",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02870920,32379280,,"PFS, ORR",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02563002,33264544,MK-3475/Keynote-177,"ORR, safety",secondary,"{""endpoint_role"": ""secondary""}"

@@ -1,0 +1,21 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response,table_row_id
+1,NCT00527735,22547592,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",23
+2,NCT00527735,22547592,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",24
+3,NCT01285609,28854067,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",34
+4,NCT02039674,27745820,Keynote-021,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",38
+5,NCT02039674,30138764,Keynote-021,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",39
+6,NCT02578680,29658856,Keynote-189,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",42
+7,NCT02775435,30280635,Keynote-407,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",44
+8,NCT02366143,29863955,IMPower150,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",45
+9,NCT02366143,29863955,IMPower150,ICI+Chemo+Anti-VEGF,ICI+Chemo+Anti-VEGF,"{""combo_type_norm"": ""ICI+Chemo+Anti-VEGF""}",46
+10,NCT02477826,29658845,Checkmate 227,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}",47
+11,NCT02477826,31562796,Checkmate 227,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}",49
+12,NCT02477826,31562796,Checkmate 227,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",51
+13,NCT02367781,31122901,IMpower130,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",55
+14,NCT02454933,30763730,CAURAL,ICI+TKI,ICI+TKI,"{""combo_type_norm"": ""ICI+TKI""}",57
+15,NCT02352948,32201234,ARCTIC,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}",91
+16,NCT02453282,32271377,MYSTIC,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}",100
+17,NCT02367794,32302702,IMpower131,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",102
+18,NCT02367794,32302702,IMpower131,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",103
+19,NCT02574598,32271354,PROLUNG,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}",113
+20,NCT03215706,33476593,CheckMate 9LA,ICI+ICI+Chemo,ICI+ICI+Chemo,"{""combo_type_norm"": ""ICI+ICI+Chemo""}",146

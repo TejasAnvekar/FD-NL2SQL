@@ -1,0 +1,117 @@
+{
+  "item_id": "row_148",
+  "csv_row_number": 148,
+  "question": "In Head and Neck Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_148_In_Head_and_Neck_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_148_In_Head_and_Neck_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_148_In_Head_and_Neck_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_148_In_Head_and_Neck_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 117, \"answer\": \"Chemo\"}, {\"table_row_id\": 118, \"answer\": \"Chemo\"}, {\"table_row_id\": 121, \"answer\": \"Chemo\"}, {\"table_row_id\": 127, \"answer\": \"Chemo\"}, {\"table_row_id\": 131, \"answer\": \"Chemo\"}, {\"table_row_id\": 133, \"answer\": \"Chemo\"}, {\"table_row_id\": 135, \"answer\": \"Chemo\"}, {\"table_row_id\": 136, \"answer\": \"Chemo\"}, {\"table_row_id\": 137, \"answer\": \"Chemo\"}, {\"table_row_id\": 138, \"answer\": \"Chemo\"}, {\"table_row_id\": 147, \"answer\": \"Chemo\"}, {\"table_row_id\": 148, \"answer\": \"TKI\"}, {\"table_row_id\": 149, \"answer\": \"Placebo\"}, {\"table_row_id\": 150, \"answer\": \"Placebo\"}, {\"table_row_id\": 151, \"answer\": \"Chemo\"}, {\"table_row_id\": 152, \"answer\": \"Antibody-drug conjugate\"}, {\"table_row_id\": 153, \"answer\": \"Observation\"}, {\"table_row_id\": 154, \"answer\": \"Chemo\"}, {\"table_row_id\": 155, \"answer\": \"Chemo\"}, {\"table_row_id\": 156, \"answer\": \"Bimodulatory\"}, {\"table_row_id\": 157, \"answer\": \"Chemoradio\"}, {\"table_row_id\": 158, \"answer\": \"Placebo\"}, {\"table_row_id\": 159, \"answer\": \"Chemo/Anti-EGFR+Radiotherapy\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 117,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "TKI"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Antibody-drug conjugate"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Observation"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Chemo"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Bimodulatory"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Chemoradio"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Chemo/Anti-EGFR+Radiotherapy"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-b8d20dd113239b8d",
+    "finish_reason": "stop",
+    "prompt_tokens": 29577,
+    "completion_tokens": 412,
+    "total_tokens": 29989
+  }
+}

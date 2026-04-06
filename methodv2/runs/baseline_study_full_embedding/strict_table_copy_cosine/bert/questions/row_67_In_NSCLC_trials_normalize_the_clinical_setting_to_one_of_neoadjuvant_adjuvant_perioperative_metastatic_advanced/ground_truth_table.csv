@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response
+1,NCT02657434,33333328,Impower 132,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"

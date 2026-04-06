@@ -1,0 +1,12 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02763579,30280641,IMPower 133,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+3,NCT03043872,31590988,CASPIAN,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+4,NCT03043872,31590988,CASPIAN,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+5,NCT02763579,31959349,IMpower133,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+6,NCT03066778,32468956,KEYNOTE-604,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+7,NCT03043872,33285097,CASPIAN,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+8,NCT03043872,33285097,CASPIAN,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+9,NCT02481830,33539946,CheckMate 331,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+10,NCT02538666,33683919,CheckMate 451,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+11,NCT02538666,33683919,CheckMate 451,,,"{""primary_endpoint_category"": null}"

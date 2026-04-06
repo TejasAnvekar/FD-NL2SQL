@@ -1,0 +1,12 @@
+{
+  "item_id": "row_258",
+  "csv_row_number": 258,
+  "question": "In Hepatocellular Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/questions/row_258_In_Hepatocellular_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/control_category__row_258__In_Hepatocellular_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_suppor",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin"
+}

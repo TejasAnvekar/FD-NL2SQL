@@ -1,0 +1,49 @@
+{
+  "item_id": "row_157",
+  "csv_row_number": 157,
+  "question": "In Pancreatic Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_157_In_Pancreatic_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_157_In_Pancreatic_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_157_In_Pancreatic_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_157_In_Pancreatic_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 88, \"answer\": \"Active\"}, {\"table_row_id\": 118, \"answer\": \"Active\"}, {\"table_row_id\": 121, \"answer\": \"Active\"}, {\"table_row_id\": 122, \"answer\": \"Active\"}, {\"table_row_id\": 126, \"answer\": \"Best supportive care\"}, {\"table_row_id\": 134, \"answer\": \"Active\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 88,
+      "answer": "Active"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Active"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Active"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Active"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Best supportive care"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Active"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-978eed4105951026",
+    "finish_reason": "stop",
+    "prompt_tokens": 29577,
+    "completion_tokens": 101,
+    "total_tokens": 29678
+  }
+}

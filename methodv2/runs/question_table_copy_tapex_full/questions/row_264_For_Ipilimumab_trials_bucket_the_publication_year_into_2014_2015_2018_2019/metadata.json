@@ -1,0 +1,16 @@
+{
+  "item_id": "row_264",
+  "csv_row_number": 264,
+  "question": "For Ipilimumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "predicted_answer": "2021",
+  "chunk_score": -0.20980998873710632,
+  "chunk_start": 128,
+  "chunk_row_count": 31,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv"
+}

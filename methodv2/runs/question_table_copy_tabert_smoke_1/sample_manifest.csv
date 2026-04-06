@@ -1,0 +1,2 @@
+item_id,csv_row_number,question,column_used,expected_keys_json,question_dir,ground_truth_row_count
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,"[""class""]",/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/class__row_2__In_Small_Cell_Lung_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_P,14

@@ -1,0 +1,549 @@
+{
+  "item_id": "row_302",
+  "csv_row_number": 302,
+  "question": "In Non-Small Cell Lung trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_302_In_Non_Small_Cell_Lung_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_302_In_Non_Small_Cell_Lung_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_302_In_Non_Small_Cell_Lung_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_302_In_Non_Small_Cell_Lung_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 23, \"answer\": \"Secondary\"},{\"table_row_id\": 24, \"answer\": \"Secondary\"},{\"table_row_id\": 27, \"answer\": \"Primary\"},{\"table_row_id\": 28, \"answer\": \"Primary\"},{\"table_row_id\": 29, \"answer\": \"Primary\"},{\"table_row_id\": 30, \"answer\": \"Primary\"},{\"table_row_id\": 31, \"answer\": \"Primary\"},{\"table_row_id\": 33, \"answer\": \"Primary\"},{\"table_row_id\": 34, \"answer\": \"Primary\"},{\"table_row_id\": 35, \"answer\": \"Primary\"},{\"table_row_id\": 36, \"answer\": \"Primary\"},{\"table_row_id\": 37, \"answer\": \"Primary\"},{\"table_row_id\": 38, \"answer\": \"Primary\"},{\"table_row_id\": 39, \"answer\": \"Primary\"},{\"table_row_id\": 40, \"answer\": \"Primary\"},{\"table_row_id\": 41, \"answer\": \"Primary\"},{\"table_row_id\": 42, \"answer\": \"Primary\"},{\"table_row_id\": 44, \"answer\": \"Primary\"},{\"table_row_id\": 45, \"answer\": \"Primary\"},{\"table_row_id\": 46, \"answer\": \"Primary\"},{\"table_row_id\": 47, \"answer\": \"Primary\"},{\"table_row_id\": 48, \"answer\": \"Primary\"},{\"table_row_id\": 49, \"answer\": \"Primary\"},{\"table_row_id\": 50, \"answer\": \"Primary\"},{\"table_row_id\": 51, \"answer\": \"Primary\"},{\"table_row_id\": 52, \"answer\": \"Primary\"},{\"table_row_id\": 54, \"answer\": \"Primary\"},{\"table_row_id\": 55, \"answer\": \"Primary\"},{\"table_row_id\": 56, \"answer\": \"Primary\"},{\"table_row_id\": 58, \"answer\": \"Primary\"},{\"table_row_id\": 59, \"answer\": \"Primary\"},{\"table_row_id\": 60, \"answer\": \"Primary\"},{\"table_row_id\": 61, \"answer\": \"Primary\"},{\"table_row_id\": 62, \"answer\": \"Primary\"},{\"table_row_id\": 63, \"answer\": \"Primary\"},{\"table_row_id\": 64, \"answer\": \"Primary\"},{\"table_row_id\": 65, \"answer\": \"Primary\"},{\"table_row_id\": 66, \"answer\": \"Primary\"},{\"table_row_id\": 67, \"answer\": \"Primary\"},{\"table_row_id\": 68, \"answer\": \"Primary\"},{\"table_row_id\": 69, \"answer\": \"Primary\"},{\"table_row_id\": 70, \"answer\": \"Primary\"},{\"table_row_id\": 71, \"answer\": \"Primary\"},{\"table_row_id\": 72, \"answer\": \"Primary\"},{\"table_row_id\": 73, \"answer\": \"Primary\"},{\"table_row_id\": 74, \"answer\": \"Primary\"},{\"table_row_id\": 75, \"answer\": \"Primary\"},{\"table_row_id\": 76, \"answer\": \"Primary\"},{\"table_row_id\": 77, \"answer\": \"Primary\"},{\"table_row_id\": 78, \"answer\": \"Primary\"},{\"table_row_id\": 79, \"answer\": \"Primary\"},{\"table_row_id\": 80, \"answer\": \"Primary\"},{\"table_row_id\": 81, \"answer\": \"Primary\"},{\"table_row_id\": 82, \"answer\": \"Primary\"},{\"table_row_id\": 83, \"answer\": \"Primary\"},{\"table_row_id\": 84, \"answer\": \"Primary\"},{\"table_row_id\": 85, \"answer\": \"Primary\"},{\"table_row_id\": 86, \"answer\": \"Primary\"},{\"table_row_id\": 87, \"answer\": \"Primary\"},{\"table_row_id\": 88, \"answer\": \"Primary\"},{\"table_row_id\": 89, \"answer\": \"Primary\"},{\"table_row_id\": 90, \"answer\": \"Primary\"},{\"table_row_id\": 91, \"answer\": \"Primary\"},{\"table_row_id\": 92, \"answer\": \"Primary\"},{\"table_row_id\": 93, \"answer\": \"Primary\"},{\"table_row_id\": 94, \"answer\": \"Primary\"},{\"table_row_id\": 95, \"answer\": \"Primary\"},{\"table_row_id\": 96, \"answer\": \"Primary\"},{\"table_row_id\": 97, \"answer\": \"Primary\"},{\"table_row_id\": 98, \"answer\": \"Primary\"},{\"table_row_id\": 99, \"answer\": \"Primary\"},{\"table_row_id\": 100, \"answer\": \"Primary\"},{\"table_row_id\": 101, \"answer\": \"Primary\"},{\"table_row_id\": 102, \"answer\": \"Primary\"},{\"table_row_id\": 103, \"answer\": \"Primary\"},{\"table_row_id\": 104, \"answer\": \"Primary\"},{\"table_row_id\": 105, \"answer\": \"Primary\"},{\"table_row_id\": 106, \"answer\": \"Primary\"},{\"table_row_id\": 107, \"answer\": \"Primary\"},{\"table_row_id\": 108, \"answer\": \"Primary\"},{\"table_row_id\": 109, \"answer\": \"Primary\"},{\"table_row_id\": 110, \"answer\": \"Primary\"},{\"table_row_id\": 111, \"answer\": \"Primary\"},{\"table_row_id\": 112, \"answer\": \"Primary\"},{\"table_row_id\": 113, \"answer\": \"Primary\"},{\"table_row_id\": 114, \"answer\": \"Primary\"},{\"table_row_id\": 115, \"answer\": \"Primary\"},{\"table_row_id\": 116, \"answer\": \"Primary\"},{\"table_row_id\": 117, \"answer\": \"Primary\"},{\"table_row_id\": 118, \"answer\": \"Primary\"},{\"table_row_id\": 119, \"answer\": \"Primary\"},{\"table_row_id\": 120, \"answer\": \"Primary\"},{\"table_row_id\": 121, \"answer\": \"Primary\"},{\"table_row_id\": 122, \"answer\": \"Primary\"},{\"table_row_id\": 123, \"answer\": \"Primary\"},{\"table_row_id\": 124, \"answer\": \"Primary\"},{\"table_row_id\": 125, \"answer\": \"Primary\"},{\"table_row_id\": 126, \"answer\": \"Primary\"},{\"table_row_id\": 127, \"answer\": \"Primary\"},{\"table_row_id\": 128, \"answer\": \"Primary\"},{\"table_row_id\": 129, \"answer\": \"Primary\"},{\"table_row_id\": 130, \"answer\": \"Primary\"},{\"table_row_id\": 131, \"answer\": \"Primary\"},{\"table_row_id\": 132, \"answer\": \"Primary\"},{\"table_row_id\": 133, \"answer\": \"Primary\"},{\"table_row_id\": 134, \"answer\": \"Primary\"},{\"table_row_id\": 135, \"answer\": \"Primary\"},{\"table_row_id\": 136, \"answer\": \"Primary\"},{\"table_row_id\": 137, \"answer\": \"Primary\"},{\"table_row_id\": 138, \"answer\": \"Primary\"},{\"table_row_id\": 139, \"answer\": \"Primary\"},{\"table_row_id\": 140, \"answer\": \"Primary\"},{\"table_row_id\": 141, \"answer\": \"Primary\"},{\"table_row_id\": 142, \"answer\": \"Primary\"},{\"table_row_id\": 143, \"answer\": \"Primary\"},{\"table_row_id\": 144, \"answer\": \"Primary\"},{\"table_row_id\": 145, \"answer\": \"Primary\"},{\"table_row_id\": 146, \"answer\": \"Primary\"},{\"table_row_id\": 147, \"answer\": \"Primary\"},{\"table_row_id\": 148, \"answer\": \"Primary\"},{\"table_row_id\": 149, \"answer\": \"Primary\"},{\"table_row_id\": 150, \"answer\": \"Primary\"},{\"table_row_id\": 151, \"answer\": \"Primary\"},{\"table_row_id\": 152, \"answer\": \"Primary\"},{\"table_row_id\": 153, \"answer\": \"Primary\"},{\"table_row_id\": 154, \"answer\": \"Primary\"},{\"table_row_id\": 155, \"answer\": \"Primary\"},{\"table_row_id\": 156, \"answer\": \"Primary\"},{\"table_row_id\": 157, \"answer\": \"Primary\"},{\"table_row_id\": 158, \"answer\": \"Primary\"},{\"table_row_id\": 159, \"answer\": \"Primary\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Secondary"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Secondary"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Primary"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-bd4f6261ae30fde4",
+    "finish_reason": "stop",
+    "prompt_tokens": 28008,
+    "completion_tokens": 1899,
+    "total_tokens": 29907
+  }
+}

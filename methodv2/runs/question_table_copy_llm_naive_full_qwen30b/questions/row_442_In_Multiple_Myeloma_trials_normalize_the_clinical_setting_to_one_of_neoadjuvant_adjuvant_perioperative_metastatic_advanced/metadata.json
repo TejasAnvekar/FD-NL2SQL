@@ -1,0 +1,33 @@
+{
+  "item_id": "row_442",
+  "csv_row_number": 442,
+  "question": "In Multiple Myeloma trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_442_In_Multiple_Myeloma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_442_In_Multiple_Myeloma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_442_In_Multiple_Myeloma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_442_In_Multiple_Myeloma_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 74, \"answer\": \"metastatic/advanced\"}, {\"table_row_id\": 75, \"answer\": \"metastatic/advanced\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 74,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "metastatic/advanced"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a9fbe16f8c640a4b",
+    "finish_reason": "stop",
+    "prompt_tokens": 28017,
+    "completion_tokens": 42,
+    "total_tokens": 28059
+  }
+}

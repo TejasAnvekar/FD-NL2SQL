@@ -1,0 +1,27 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response,table_row_id
+1,NCT00324155,21639810,,"PFS, best ORR, DCR, time to response, DOR, safety",secondary,"{""endpoint_role"": ""secondary""}",58
+2,NCT00094653,20525992,MDX010-20,Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS.,secondary,"{""endpoint_role"": ""secondary""}",59
+3,NCT00094653,20525992,MDX010-20,Comparison of OS between ipilimumab-alone and gp100-alone groups and between the two ipilimumab groups; best ORR; duration of response; PFS.,secondary,"{""endpoint_role"": ""secondary""}",60
+4,NCT00257205,23295794,,PFS; best overall response; duration of response; PFS at 6 months after random assignment; safety.,secondary,"{""endpoint_role"": ""secondary""}",61
+5,NCT02362594,29658430,EORTC 1325-MG/KEYNOTE-054,Distant metastasis-free survival; OS; safety measures; measures of health-related quality of life.,secondary,"{""endpoint_role"": ""secondary""}",62
+6,NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.,secondary,"{""endpoint_role"": ""secondary""}",63
+7,NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.,secondary,"{""endpoint_role"": ""secondary""}",64
+8,NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.,secondary,"{""endpoint_role"": ""secondary""}",65
+9,NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.,secondary,"{""endpoint_role"": ""secondary""}",66
+10,NCT00636168,27717298,,OS; distant metastasis–free survival; safety; health-related quality of life.,secondary,"{""endpoint_role"": ""secondary""}",67
+11,NCT01721746,25795410,CheckMate 037,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.,secondary,"{""endpoint_role"": ""secondary""}",68
+12,NCT01721746,28671856,CheckMate 037,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.,secondary,"{""endpoint_role"": ""secondary""}",69
+13,NCT02130466,31171878,KEYNOTE-022,ORR; duration of response; time to response; OS.,secondary,"{""endpoint_role"": ""secondary""}",70
+14,NCT01721772,25399552,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.,secondary,"{""endpoint_role"": ""secondary""}",71
+15,NCT01721772,30422243,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.,secondary,"{""endpoint_role"": ""secondary""}",72
+16,NCT01274338,31880964,E1609,"Safety, tolerability and quality-of-life with adjuvant ipilimumab",secondary,"{""endpoint_role"": ""secondary""}",93
+17,NCT01274338,31880964,E1609,"Safety, tolerability and quality-of-life with adjuvant ipilimumab",secondary,"{""endpoint_role"": ""secondary""}",94
+18,NCT02523313,32416781,IMMUNED,OS; time to recurrence; safety; PFS or RFS 2.,secondary,"{""endpoint_role"": ""secondary""}",95
+19,NCT02523313,32416781,IMMUNED,OS; time to recurrence; safety; PFS or RFS 2.,secondary,"{""endpoint_role"": ""secondary""}",96
+20,NCT02908672,32534646,IMspire150,PFS assessed by independent review committee; ORR; DOR; OS; time to deterioration in global health status and physical function.,secondary,"{""endpoint_role"": ""secondary""}",104
+21,NCT00094653,23942774,MDX010-20,"DOS, responses, and safety among patients with ≥2 years’ survival.",secondary,"{""endpoint_role"": ""secondary""}",117
+22,NCT00094653,23942774,MDX010-20,"DOS, responses, and safety among patients with ≥2 years’ survival.",secondary,"{""endpoint_role"": ""secondary""}",118
+23,NCT01721772,32997575,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.,secondary,"{""endpoint_role"": ""secondary""}",135
+24,NCT02130466,33361337,KEYNOTE-022,ORR; duration of response; time to response; OS,secondary,"{""endpoint_role"": ""secondary""}",136
+25,NCT02362594,32946353,EORTC 1325-MG/KEYNOTE-054,,secondary,"{""endpoint_role"": ""secondary""}",141
+26, NCT00636168,25840693,,OS; distant metastasis–free survival; safety; health-related quality of life.,secondary,"{""endpoint_role"": ""secondary""}",142

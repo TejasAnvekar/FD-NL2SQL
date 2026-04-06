@@ -1,0 +1,12 @@
+{
+  "item_id": "row_227",
+  "csv_row_number": 227,
+  "question": "In Hepatocellular Phase 2 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "primary_endpoint_category"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/questions/row_227_In_Hepatocellular_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/primary_endpoint_category__row_227__In_Hepatocellular_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_D",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin"
+}

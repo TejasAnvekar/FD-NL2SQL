@@ -1,0 +1,29 @@
+{
+  "item_id": "row_232",
+  "csv_row_number": 232,
+  "question": "In Esophageal/GEJ trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_keys": [
+    "pd_l1_required"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_232_In_Esophageal_GEJ_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_232_In_Esophageal_GEJ_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_232_In_Esophageal_GEJ_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_232_In_Esophageal_GEJ_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 80, \"answer\": true}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 80,
+      "answer": true
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9d5a449b400ed2ed",
+    "finish_reason": "stop",
+    "prompt_tokens": 28006,
+    "completion_tokens": 18,
+    "total_tokens": 28024
+  }
+}

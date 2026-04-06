@@ -1,0 +1,33 @@
+{
+  "item_id": "row_31",
+  "csv_row_number": 31,
+  "question": "In Head and Neck studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_31_In_Head_and_Neck_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_31_In_Head_and_Neck_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_31_In_Head_and_Neck_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_31_In_Head_and_Neck_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 12, \"answer\": \"Pembrolizumab\"}, {\"table_row_id\": 13, \"answer\": \"Nivolumab\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "Pembrolizumab"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "Nivolumab"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8597dfd1be89f05f",
+    "finish_reason": "stop",
+    "prompt_tokens": 28010,
+    "completion_tokens": 42,
+    "total_tokens": 28052
+  }
+}

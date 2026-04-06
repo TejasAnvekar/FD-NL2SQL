@@ -1,0 +1,3 @@
+item_id,csv_row_number,question,column_used,expected_keys_json,model_name,view_name,relevant_row_count,candidate_row_count,hit_at_1,hit_at_5,hit_at_10,mrr,best_relevant_rank,top1_cosine_score,top1_rowid,top1_source_value,naive_source_as_answer_exact
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,"[""class""]",tabert,source_column,13,159,0.0,1.0,1.0,0.5,2,0.8176747560501099,47,"Nivolumab, Ipilimumab",0.0
+row_2,2,"In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",Name of ICI,"[""class""]",tabert,row_table,13,159,0.0,0.0,1.0,0.14285714285714285,7,0.8471344113349915,145,Pembrolizumab,0.0

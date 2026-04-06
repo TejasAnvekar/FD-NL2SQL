@@ -1,0 +1,12 @@
+{
+  "item_id": "row_228",
+  "csv_row_number": 228,
+  "question": "In Breast trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "class"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/questions/row_228_In_Breast_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/class__row_228__In_Breast_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_C",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin"
+}

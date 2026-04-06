@@ -1,0 +1,49 @@
+{
+  "item_id": "row_436",
+  "csv_row_number": 436,
+  "question": "In Urothelial trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_436_In_Urothelial_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_436_In_Urothelial_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_436_In_Urothelial_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_436_In_Urothelial_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 106, \"answer\": \"Secondary\"},{\"table_row_id\": 107, \"answer\": \"Co-primary\"},{\"table_row_id\": 108, \"answer\": \"Co-primary\"},{\"table_row_id\": 123, \"answer\": \"Co-primary\"},{\"table_row_id\": 124, \"answer\": \"Co-primary\"},{\"table_row_id\": 126, \"answer\": \"Secondary\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 106,
+      "answer": "Secondary"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Co-primary"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Co-primary"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Co-primary"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Co-primary"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Secondary"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-97d09a35e362d0e4",
+    "finish_reason": "stop",
+    "prompt_tokens": 28007,
+    "completion_tokens": 99,
+    "total_tokens": 28106
+  }
+}

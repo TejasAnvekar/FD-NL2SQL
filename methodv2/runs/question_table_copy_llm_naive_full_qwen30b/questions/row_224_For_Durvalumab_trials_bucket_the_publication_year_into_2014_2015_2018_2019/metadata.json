@@ -1,0 +1,97 @@
+{
+  "item_id": "row_224",
+  "csv_row_number": 224,
+  "question": "For Durvalumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_224_For_Durvalumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_224_For_Durvalumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_224_For_Durvalumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_224_For_Durvalumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 5, \"answer\": \"2015–2018\"}, {\"table_row_id\": 35, \"answer\": \"2015–2018\"}, {\"table_row_id\": 36, \"answer\": \"2015–2018\"}, {\"table_row_id\": 57, \"answer\": \"2015–2018\"}, {\"table_row_id\": 82, \"answer\": \"2015–2018\"}, {\"table_row_id\": 83, \"answer\": \"2015–2018\"}, {\"table_row_id\": 99, \"answer\": \"2015–2018\"}, {\"table_row_id\": 100, \"answer\": \"2015–2018\"}, {\"table_row_id\": 110, \"answer\": \"2015–2018\"}, {\"table_row_id\": 111, \"answer\": \"2015–2018\"}, {\"table_row_id\": 112, \"answer\": \"2015–2018\"}, {\"table_row_id\": 123, \"answer\": \"2015–2018\"}, {\"table_row_id\": 124, \"answer\": \"2015–2018\"}, {\"table_row_id\": 126, \"answer\": \"2015–2018\"}, {\"table_row_id\": 127, \"answer\": \"2015–2018\"}, {\"table_row_id\": 137, \"answer\": \"2015–2018\"}, {\"table_row_id\": 138, \"answer\": \"2015–2018\"}, {\"table_row_id\": 151, \"answer\": \"2015–2018\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "2015–2018"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-91ebb5d26454b4b3",
+    "finish_reason": "stop",
+    "prompt_tokens": 28021,
+    "completion_tokens": 428,
+    "total_tokens": 28449
+  }
+}

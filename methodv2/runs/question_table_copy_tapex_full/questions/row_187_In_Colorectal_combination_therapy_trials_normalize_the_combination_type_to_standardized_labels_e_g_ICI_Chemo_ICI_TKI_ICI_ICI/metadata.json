@@ -1,0 +1,16 @@
+{
+  "item_id": "row_187",
+  "csv_row_number": 187,
+  "question": "In Colorectal combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "predicted_answer": "ici+chemo",
+  "chunk_score": -0.25543612241744995,
+  "chunk_start": 64,
+  "chunk_row_count": 13,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_187_In_Colorectal_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_187_In_Colorectal_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_187_In_Colorectal_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_table.csv"
+}

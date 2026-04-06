@@ -1,0 +1,89 @@
+{
+  "item_id": "row_250",
+  "csv_row_number": 250,
+  "question": "In Hepatocellular trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 89, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 114, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 146, \"answer\": \"Combination\"}, {\"table_row_id\": 147, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 148, \"answer\": \"Combination\"}, {\"table_row_id\": 149, \"answer\": \"Combination\"}, {\"table_row_id\": 150, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 151, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 152, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 153, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 154, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 155, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 156, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 157, \"answer\": \"Combination\"}, {\"table_row_id\": 158, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 159, \"answer\": \"Combination\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 89,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Combination"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Combination"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Combination"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Combination"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Combination"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a59191c9982b8c47",
+    "finish_reason": "stop",
+    "prompt_tokens": 29580,
+    "completion_tokens": 275,
+    "total_tokens": 29855
+  }
+}

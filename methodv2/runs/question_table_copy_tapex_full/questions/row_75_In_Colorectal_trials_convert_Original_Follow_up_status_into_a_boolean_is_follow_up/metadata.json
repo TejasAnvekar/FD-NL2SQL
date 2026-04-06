@@ -1,0 +1,16 @@
+{
+  "item_id": "row_75",
+  "csv_row_number": 75,
+  "question": "In Colorectal trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "column_used": "Originial publication or Follow-up",
+  "expected_keys": [
+    "is_follow_up"
+  ],
+  "predicted_answer": "follow-up",
+  "chunk_score": -0.22626519203186035,
+  "chunk_start": 64,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_75_In_Colorectal_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_75_In_Colorectal_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_75_In_Colorectal_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_table.csv"
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_402",
+  "csv_row_number": 402,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo trials in Mesothelioma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "predicted_answer": "speaker-204",
+  "chunk_score": -0.6622794270515442,
+  "chunk_start": 128,
+  "chunk_row_count": 16,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_402_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_402_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_402_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv"
+}

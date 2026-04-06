@@ -1,0 +1,97 @@
+{
+  "item_id": "row_145",
+  "csv_row_number": 145,
+  "question": "In Renal cell combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_145_In_Renal_cell_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_145_In_Renal_cell_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_145_In_Renal_cell_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_145_In_Renal_cell_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 11, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 14, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 20, \"answer\": \"ICI+TKI\"}, {\"table_row_id\": 21, \"answer\": \"ICI+TKI\"}, {\"table_row_id\": 22, \"answer\": \"ICI+Anti-VEGF\"}, {\"table_row_id\": 31, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 41, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 51, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 61, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 71, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 81, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 91, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 101, \"answer\": \"ICI+ICI\"}, {\"table_row_id\": 111, \"answer\": \"ICI+ICI\"}, {\"table_row_id\": 121, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 131, \"answer\": \"ICI+TKI\"}, {\"table_row_id\": 141, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 151, \"answer\": \"ICI+Chemo\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 11,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "ICI+TKI"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "ICI+TKI"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "ICI+Anti-VEGF"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "ICI+TKI"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "ICI+Chemo"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-b29cf6dca19b172c",
+    "finish_reason": "stop",
+    "prompt_tokens": 29590,
+    "completion_tokens": 334,
+    "total_tokens": 29924
+  }
+}

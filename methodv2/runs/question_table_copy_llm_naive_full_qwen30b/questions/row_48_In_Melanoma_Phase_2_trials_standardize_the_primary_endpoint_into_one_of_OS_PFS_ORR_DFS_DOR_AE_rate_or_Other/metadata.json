@@ -1,0 +1,417 @@
+{
+  "item_id": "row_48",
+  "csv_row_number": 48,
+  "question": "In Melanoma Phase 2 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "primary_endpoint_category"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_48_In_Melanoma_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_48_In_Melanoma_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_48_In_Melanoma_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_48_In_Melanoma_Phase_2_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 62, \"answer\": \"PFS\"}, {\"table_row_id\": 63, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 64, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 65, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 66, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 67, \"answer\": \"PFS\"}, {\"table_row_id\": 68, \"answer\": \"OS+ORR\"}, {\"table_row_id\": 69, \"answer\": \"OS+ORR\"}, {\"table_row_id\": 70, \"answer\": \"PFS\"}, {\"table_row_id\": 71, \"answer\": \"OS\"}, {\"table_row_id\": 72, \"answer\": \"OS\"}, {\"table_row_id\": 73, \"answer\": \"OS\"}, {\"table_row_id\": 74, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 75, \"answer\": \"PFS\"}, {\"table_row_id\": 76, \"answer\": \"OS\"}, {\"table_row_id\": 77, \"answer\": \"OS\"}, {\"table_row_id\": 78, \"answer\": \"OS\"}, {\"table_row_id\": 79, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 80, \"answer\": \"OS\"}, {\"table_row_id\": 81, \"answer\": \"Path CR\"}, {\"table_row_id\": 82, \"answer\": \"OS\"}, {\"table_row_id\": 83, \"answer\": \"OS\"}, {\"table_row_id\": 84, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 85, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 86, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 87, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 88, \"answer\": \"Safety\"}, {\"table_row_id\": 89, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 90, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 91, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 92, \"answer\": \"Path CR+EFS\"}, {\"table_row_id\": 93, \"answer\": \"OS+RFS\"}, {\"table_row_id\": 94, \"answer\": \"OS+RFS\"}, {\"table_row_id\": 95, \"answer\": \"RFS\"}, {\"table_row_id\": 96, \"answer\": \"RFS\"}, {\"table_row_id\": 97, \"answer\": \"OS\"}, {\"table_row_id\": 98, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 99, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 100, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 101, \"answer\": \"OS+PFS+ORR\"}, {\"table_row_id\": 102, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 103, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 104, \"answer\": \"PFS\"}, {\"table_row_id\": 105, \"answer\": \"OS\"}, {\"table_row_id\": 106, \"answer\": \"PFS\"}, {\"table_row_id\": 107, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 108, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 109, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 110, \"answer\": \"OS\"}, {\"table_row_id\": 111, \"answer\": \"OS\"}, {\"table_row_id\": 112, \"answer\": \"OS\"}, {\"table_row_id\": 113, \"answer\": \"ORR\"}, {\"table_row_id\": 114, \"answer\": \"OS\"}, {\"table_row_id\": 115, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 116, \"answer\": \"PFS\"}, {\"table_row_id\": 117, \"answer\": \"OS\"}, {\"table_row_id\": 118, \"answer\": \"OS\"}, {\"table_row_id\": 119, \"answer\": \"PFS\"}, {\"table_row_id\": 120, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 121, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 122, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 123, \"answer\": \"OS\"}, {\"table_row_id\": 124, \"answer\": \"OS\"}, {\"table_row_id\": 125, \"answer\": \"Path CR in ITT+Path CR in PD-L1+\"}, {\"table_row_id\": 126, \"answer\": \"OS\"}, {\"table_row_id\": 127, \"answer\": \"OS\"}, {\"table_row_id\": 128, \"answer\": \"OS\"}, {\"table_row_id\": 129, \"answer\": \"OS\"}, {\"table_row_id\": 130, \"answer\": \"PFS\"}, {\"table_row_id\": 131, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 132, \"answer\": \"PFS+OS\"}, {\"table_row_id\": 133, \"answer\": \"OS\"}, {\"table_row_id\": 134, \"answer\": \"OS\"}, {\"table_row_id\": 135, \"answer\": \"OS\"}, {\"table_row_id\": 136, \"answer\": \"PFS\"}, {\"table_row_id\": 137, \"answer\": \"OS\"}, {\"table_row_id\": 138, \"answer\": \"OS\"}, {\"table_row_id\": 139, \"answer\": \"PFS\"}, {\"table_row_id\": 140, \"answer\": \"PFS+OS\"}, {\"table_row_id\": 141, \"answer\": \"RFS\"}, {\"table_row_id\": 142, \"answer\": \"PFS\"}, {\"table_row_id\": 143, \"answer\": \"OS\"}, {\"table_row_id\": 144, \"answer\": \"OS\"}, {\"table_row_id\": 145, \"answer\": \"PFS\"}, {\"table_row_id\": 146, \"answer\": \"OS\"}, {\"table_row_id\": 147, \"answer\": \"OS\"}, {\"table_row_id\": 148, \"answer\": \"PFS\"}, {\"table_row_id\": 149, \"answer\": \"OS\"}, {\"table_row_id\": 150, \"answer\": \"\"}, {\"table_row_id\": 151, \"answer\": \"PFS\"}, {\"table_row_id\": 152, \"answer\": \"PFS+OS\"}, {\"table_row_id\": 153, \"answer\": \"DFS\"}, {\"table_row_id\": 154, \"answer\": \"OS\"}, {\"table_row_id\": 155, \"answer\": \"OS+PFS\"}, {\"table_row_id\": 156, \"answer\": \"PFS\"}, {\"table_row_id\": 157, \"answer\": \"PFS\"}, {\"table_row_id\": 158, \"answer\": \"DFS\"}, {\"table_row_id\": 159, \"answer\": \"PFS\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "OS+ORR"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "OS+ORR"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Path CR"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Safety"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Path CR+EFS"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "OS+RFS"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "OS+RFS"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "RFS"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "RFS"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "OS+PFS+ORR"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "ORR"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Path CR in ITT+Path CR in PD-L1+"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "PFS+OS"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "PFS+OS"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "RFS"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 150,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "PFS+OS"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "DFS"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "OS+PFS"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "DFS"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "PFS"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9afd3287a817ff8d",
+    "finish_reason": "stop",
+    "prompt_tokens": 28021,
+    "completion_tokens": 1679,
+    "total_tokens": 29700
+  }
+}

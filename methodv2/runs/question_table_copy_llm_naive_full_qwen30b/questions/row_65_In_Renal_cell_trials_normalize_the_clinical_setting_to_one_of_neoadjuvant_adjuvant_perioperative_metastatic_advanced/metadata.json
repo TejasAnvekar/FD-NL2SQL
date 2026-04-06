@@ -1,0 +1,85 @@
+{
+  "item_id": "row_65",
+  "csv_row_number": 65,
+  "question": "In Renal cell trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_65_In_Renal_cell_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 15, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 16, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 17, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 18, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 19, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 20, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 21, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 22, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 101, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 105, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 114, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 115, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 131, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 145, \"answer\": \"Metastatic+recurrent (unresectable)\"},{\"table_row_id\": 148, \"answer\": \"Metastatic+recurrent (unresectable)\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Metastatic+recurrent (unresectable)"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Metastatic+recurrent (unresectable)"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a7ee2bdf49fc4752",
+    "finish_reason": "stop",
+    "prompt_tokens": 28016,
+    "completion_tokens": 387,
+    "total_tokens": 28403
+  }
+}

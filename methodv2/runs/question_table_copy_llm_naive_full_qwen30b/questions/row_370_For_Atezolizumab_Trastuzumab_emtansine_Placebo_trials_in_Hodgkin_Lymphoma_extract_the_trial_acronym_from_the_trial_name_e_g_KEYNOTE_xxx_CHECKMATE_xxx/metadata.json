@@ -1,0 +1,29 @@
+{
+  "item_id": "row_370",
+  "csv_row_number": 370,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo trials in Hodgkin Lymphoma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_370_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Hodgkin_Lymphoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_370_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Hodgkin_Lymphoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_370_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Hodgkin_Lymphoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_370_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Hodgkin_Lymphoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 130, \"answer\": \"KATE2\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 130,
+      "answer": "KATE2"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a59acf72c42f064e",
+    "finish_reason": "stop",
+    "prompt_tokens": 28037,
+    "completion_tokens": 22,
+    "total_tokens": 28059
+  }
+}

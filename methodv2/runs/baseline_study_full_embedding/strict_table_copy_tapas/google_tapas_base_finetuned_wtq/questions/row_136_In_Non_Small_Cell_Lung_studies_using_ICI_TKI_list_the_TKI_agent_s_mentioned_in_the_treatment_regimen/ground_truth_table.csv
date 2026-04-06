@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,tki_agents,derived_expected_llm_response
+1,NCT02454933,30763730,CAURAL,Durvalumab+Osimertinib,"[""osimertinib""]","{""tki_agents"": [""osimertinib""]}"

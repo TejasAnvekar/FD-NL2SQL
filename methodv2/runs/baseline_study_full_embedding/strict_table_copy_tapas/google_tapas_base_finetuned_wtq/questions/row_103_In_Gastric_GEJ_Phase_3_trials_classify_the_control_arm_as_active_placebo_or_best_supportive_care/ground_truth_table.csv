@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,Placebo,placebo,"{""control_category"": ""placebo""}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,Best supportive care,best supportive care,"{""control_category"": ""best supportive care""}"
+3,NCT02370498,29880231,Keynote-061,Chemo,active,"{""control_category"": ""active""}"
+4,NCT02267343,31863227,ATTRACTION-2,Placebo,placebo,"{""control_category"": ""placebo""}"
+5,NCT02494583,32880601,Keynote-062,Chemo,active,"{""control_category"": ""active""}"
+6,NCT02494583,32880601,Keynote-062,Chemo,active,"{""control_category"": ""active""}"
+7, NCT02625610,33197226,Javelin Gastric 100,Chemo,active,"{""control_category"": ""active""}"

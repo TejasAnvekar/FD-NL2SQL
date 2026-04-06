@@ -1,0 +1,169 @@
+{
+  "item_id": "row_64",
+  "csv_row_number": 64,
+  "question": "In Colorectal trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "maturity"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_64_In_Colorectal_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_64_In_Colorectal_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_64_In_Colorectal_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_64_In_Colorectal_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 7, \"answer\": \"immature\"}, {\"table_row_id\": 11, \"answer\": \"immature\"}, {\"table_row_id\": 15, \"answer\": \"immature\"}, {\"table_row_id\": 27, \"answer\": \"immature\"}, {\"table_row_id\": 31, \"answer\": \"immature\"}, {\"table_row_id\": 36, \"answer\": \"immature\"}, {\"table_row_id\": 46, \"answer\": \"immature\"}, {\"table_row_id\": 51, \"answer\": \"immature\"}, {\"table_row_id\": 56, \"answer\": \"immature\"}, {\"table_row_id\": 67, \"answer\": \"immature\"}, {\"table_row_id\": 73, \"answer\": \"immature\"}, {\"table_row_id\": 78, \"answer\": \"immature\"}, {\"table_row_id\": 80, \"answer\": \"immature\"}, {\"table_row_id\": 88, \"answer\": \"immature\"}, {\"table_row_id\": 92, \"answer\": \"immature\"}, {\"table_row_id\": 97, \"answer\": \"immature\"}, {\"table_row_id\": 106, \"answer\": \"immature\"}, {\"table_row_id\": 112, \"answer\": \"immature\"}, {\"table_row_id\": 118, \"answer\": \"immature\"}, {\"table_row_id\": 122, \"answer\": \"immature\"}, {\"table_row_id\": 126, \"answer\": \"immature\"}, {\"table_row_id\": 130, \"answer\": \"immature\"}, {\"table_row_id\": 134, \"answer\": \"immature\"}, {\"table_row_id\": 138, \"answer\": \"immature\"}, {\"table_row_id\": 140, \"answer\": \"immature\"}, {\"table_row_id\": 144, \"answer\": \"immature\"}, {\"table_row_id\": 146, \"answer\": \"immature\"}, {\"table_row_id\": 147, \"answer\": \"immature\"}, {\"table_row_id\": 148, \"answer\": \"immature\"}, {\"table_row_id\": 150, \"answer\": \"immature\"}, {\"table_row_id\": 152, \"answer\": \"immature\"}, {\"table_row_id\": 153, \"answer\": \"immature\"}, {\"table_row_id\": 155, \"answer\": \"immature\"}, {\"table_row_id\": 156, \"answer\": \"immature\"}, {\"table_row_id\": 157, \"answer\": \"immature\"}, {\"table_row_id\": 159, \"answer\": \"immature\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 7,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "immature"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-97e0ef3aff7bcd2e",
+    "finish_reason": "stop",
+    "prompt_tokens": 29589,
+    "completion_tokens": 599,
+    "total_tokens": 30188
+  }
+}

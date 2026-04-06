@@ -1,0 +1,16 @@
+{
+  "item_id": "row_367",
+  "csv_row_number": 367,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "predicted_answer": "nct02302807",
+  "chunk_score": -0.32935261726379395,
+  "chunk_start": 0,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_367_For_Atezolizumab_Trastuzumab_emtansine_Placebo_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_367_For_Atezolizumab_Trastuzumab_emtansine_Placebo_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_367_For_Atezolizumab_Trastuzumab_emtansine_Placebo_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_table.csv"
+}

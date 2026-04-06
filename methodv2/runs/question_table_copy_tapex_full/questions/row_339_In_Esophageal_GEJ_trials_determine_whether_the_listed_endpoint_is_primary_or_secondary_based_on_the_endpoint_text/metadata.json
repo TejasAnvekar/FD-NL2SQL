@@ -1,0 +1,16 @@
+{
+  "item_id": "row_339",
+  "csv_row_number": 339,
+  "question": "In Esophageal/GEJ trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "predicted_answer": "speaker-181",
+  "chunk_score": -0.7090434432029724,
+  "chunk_start": 128,
+  "chunk_row_count": 24,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_339_In_Esophageal_GEJ_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_339_In_Esophageal_GEJ_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_339_In_Esophageal_GEJ_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_table.csv"
+}

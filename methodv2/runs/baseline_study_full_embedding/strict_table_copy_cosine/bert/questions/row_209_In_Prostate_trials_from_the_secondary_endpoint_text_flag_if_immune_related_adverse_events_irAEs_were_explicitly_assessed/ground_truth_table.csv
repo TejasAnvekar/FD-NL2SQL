@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT00861614,24831977,CA184-043,PFS; pain response; safety profile.,false,"{""irAE_assessed"": false}"
+2,NCT01057810,28034081,CA184-095,"PFS; time to subsequent systemic, cytotoxic therapy and to pain progression in all patients; safety profile in treated patients.",false,"{""irAE_assessed"": false}"
+3,NCT00861614,32811715,CA184-043,PFS; pain response; safety profile.,false,"{""irAE_assessed"": false}"

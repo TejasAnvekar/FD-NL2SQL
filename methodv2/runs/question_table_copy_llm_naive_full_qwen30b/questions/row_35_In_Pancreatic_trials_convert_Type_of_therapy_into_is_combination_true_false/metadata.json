@@ -1,0 +1,29 @@
+{
+  "item_id": "row_35",
+  "csv_row_number": 35,
+  "question": "In Pancreatic trials, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_35_In_Pancreatic_trials_convert_Type_of_therapy_into_is_combination_true_false/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_35_In_Pancreatic_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_35_In_Pancreatic_trials_convert_Type_of_therapy_into_is_combination_true_false/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_35_In_Pancreatic_trials_convert_Type_of_therapy_into_is_combination_true_false/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 88, \"answer\": true}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 88,
+      "answer": true
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-b93432dbe145f8df",
+    "finish_reason": "stop",
+    "prompt_tokens": 28005,
+    "completion_tokens": 18,
+    "total_tokens": 28023
+  }
+}

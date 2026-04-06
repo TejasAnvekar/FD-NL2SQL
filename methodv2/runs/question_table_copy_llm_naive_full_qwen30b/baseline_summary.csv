@@ -1,0 +1,2 @@
+question_count,avg_row_selection_recall,avg_row_selection_precision,avg_row_selection_f1,avg_exact_match_rate,avg_all_rows_exact_match
+367,0.5260931015699408,0.5014899962327658,0.47096222159574147,0.0,0.027247956403269755

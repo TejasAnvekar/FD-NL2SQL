@@ -1,0 +1,40 @@
+{
+  "item_id": "row_45",
+  "csv_row_number": 45,
+  "question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "braf_inhibitor",
+    "mek_inhibitor"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_45_In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_45_In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_45_In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_45_In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 70, \"answer\": {\"BRAF inhibitor\": \"Dabrafenib\", \"MEK inhibitor\": \"Trametinib\"}}, {\"table_row_id\": 136, \"answer\": {\"BRAF inhibitor\": \"Dabrafenib\", \"MEK inhibitor\": \"Trametinib\"}}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 70,
+      "answer": {
+        "BRAF inhibitor": "Dabrafenib",
+        "MEK inhibitor": "Trametinib"
+      }
+    },
+    {
+      "table_row_id": 136,
+      "answer": {
+        "BRAF inhibitor": "Dabrafenib",
+        "MEK inhibitor": "Trametinib"
+      }
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9884eed49ac59ee5",
+    "finish_reason": "stop",
+    "prompt_tokens": 28012,
+    "completion_tokens": 80,
+    "total_tokens": 28092
+  }
+}

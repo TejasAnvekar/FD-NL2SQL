@@ -1,0 +1,81 @@
+{
+  "item_id": "row_22",
+  "csv_row_number": 22,
+  "question": "In Esophageal/GEJ combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_22_In_Esophageal_GEJ_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_22_In_Esophageal_GEJ_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_22_In_Esophageal_GEJ_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_22_In_Esophageal_GEJ_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 107, \"answer\": \"ICI+Chemo\"}, {\"table_row_id\": 133, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 139, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 141, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 147, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 149, \"answer\": \"Combination\"}, {\"table_row_id\": 150, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 151, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 153, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 155, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 156, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 157, \"answer\": \"Combination\"}, {\"table_row_id\": 158, \"answer\": \"Monotherapy\"}, {\"table_row_id\": 159, \"answer\": \"Combination\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 107,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Combination"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Combination"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Monotherapy"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Combination"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-8a33415b397f4d6b",
+    "finish_reason": "stop",
+    "prompt_tokens": 29593,
+    "completion_tokens": 244,
+    "total_tokens": 29837
+  }
+}

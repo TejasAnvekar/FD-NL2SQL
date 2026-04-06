@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT02302807,29268948,IMvigor211,Vinflunine+Paclitaxel+Docetaxel,"[""vinflunine"", ""paclitaxel"", ""docetaxel""]","{""control_drugs"": [""vinflunine"", ""paclitaxel"", ""docetaxel""]}"
+2,NCT02256436,28212060,Keynote-045,Vinflunine+Paclitaxel+Docetaxel,"[""vinflunine"", ""paclitaxel"", ""docetaxel""]","{""control_drugs"": [""vinflunine"", ""paclitaxel"", ""docetaxel""]}"
+3,NCT02256436,31050707,Keynote-045,Vinflunine+Paclitaxel+Docetaxel,"[""vinflunine"", ""paclitaxel"", ""docetaxel""]","{""control_drugs"": [""vinflunine"", ""paclitaxel"", ""docetaxel""]}"

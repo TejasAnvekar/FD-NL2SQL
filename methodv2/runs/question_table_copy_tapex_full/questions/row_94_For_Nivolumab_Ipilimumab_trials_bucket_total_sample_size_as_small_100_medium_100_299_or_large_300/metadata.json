@@ -1,0 +1,16 @@
+{
+  "item_id": "row_94",
+  "csv_row_number": 94,
+  "question": "For Nivolumab, Ipilimumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "predicted_answer": "large",
+  "chunk_score": -0.157104954123497,
+  "chunk_start": 128,
+  "chunk_row_count": 30,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_94_For_Nivolumab_Ipilimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_94_For_Nivolumab_Ipilimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_94_For_Nivolumab_Ipilimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300/ground_truth_table.csv"
+}

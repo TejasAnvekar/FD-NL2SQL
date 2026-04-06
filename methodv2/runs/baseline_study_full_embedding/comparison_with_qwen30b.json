@@ -1,0 +1,14 @@
+{
+  "output_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/baseline_study_full_embedding/comparison_with_qwen30b.csv",
+  "methods_compared": 13,
+  "qwen_finish_reasons_full": {
+    "stop": 309,
+    "length": 58
+  },
+  "qwen_finish_reasons_scorable": {
+    "stop": 236,
+    "length": 48
+  },
+  "qwen_ground_truth_positive_question_count": 296,
+  "qwen_assigned_ground_truth_positive_question_count": 284
+}

@@ -1,0 +1,12 @@
+{
+  "item_id": "row_286",
+  "csv_row_number": 286,
+  "question": "For Nivolumab trials in Mesothelioma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/questions/row_286_For_Nivolumab_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/trial_acronym__row_286__For_Nivolumab_trials_in_Mesothelioma_extract_the_trial_acronym_from_the_trial_name_e_g_KEY",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin"
+}

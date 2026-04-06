@@ -1,0 +1,29 @@
+{
+  "item_id": "row_455",
+  "csv_row_number": 455,
+  "question": "For Avelumab trials in Pancreatic, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_455_For_Avelumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_455_For_Avelumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_455_For_Avelumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_455_For_Avelumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 10, \"answer\": \"JAVELIN Gastric 300\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 10,
+      "answer": "JAVELIN Gastric 300"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a87e9365ce591a93",
+    "finish_reason": "stop",
+    "prompt_tokens": 28019,
+    "completion_tokens": 29,
+    "total_tokens": 28048
+  }
+}

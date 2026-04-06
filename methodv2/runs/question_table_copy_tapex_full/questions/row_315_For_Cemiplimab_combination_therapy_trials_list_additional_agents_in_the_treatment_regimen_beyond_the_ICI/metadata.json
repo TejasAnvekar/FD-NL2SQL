@@ -1,0 +1,16 @@
+{
+  "item_id": "row_315",
+  "csv_row_number": 315,
+  "question": "For Cemiplimab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "predicted_answer": "nct03088540, modulung",
+  "chunk_score": -0.07738292217254639,
+  "chunk_start": 128,
+  "chunk_row_count": 31,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_315_For_Cemiplimab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_315_For_Cemiplimab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_315_For_Cemiplimab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_table.csv"
+}

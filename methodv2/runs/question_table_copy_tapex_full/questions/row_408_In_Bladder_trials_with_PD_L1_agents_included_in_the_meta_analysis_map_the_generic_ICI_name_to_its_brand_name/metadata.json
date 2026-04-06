@@ -1,0 +1,16 @@
+{
+  "item_id": "row_408",
+  "csv_row_number": 408,
+  "question": "In Bladder trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "brand_name"
+  ],
+  "predicted_answer": "speaker-045",
+  "chunk_score": -0.8231881260871887,
+  "chunk_start": 0,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_408_In_Bladder_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_408_In_Bladder_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_408_In_Bladder_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name/ground_truth_table.csv"
+}

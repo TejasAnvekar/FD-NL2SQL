@@ -1,0 +1,16 @@
+{
+  "item_id": "row_97",
+  "csv_row_number": 97,
+  "question": "For Nivolumab, Ipilimumab trials in Colorectal, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "predicted_answer": "checkmate 025",
+  "chunk_score": -0.42596983909606934,
+  "chunk_start": 64,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_97_For_Nivolumab_Ipilimumab_trials_in_Colorectal_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_97_For_Nivolumab_Ipilimumab_trials_in_Colorectal_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_97_For_Nivolumab_Ipilimumab_trials_in_Colorectal_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv"
+}

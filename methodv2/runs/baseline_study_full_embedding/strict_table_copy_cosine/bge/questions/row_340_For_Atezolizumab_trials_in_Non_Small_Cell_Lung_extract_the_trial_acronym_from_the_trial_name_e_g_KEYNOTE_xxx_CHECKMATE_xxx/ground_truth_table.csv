@@ -1,0 +1,13 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,POPLAR,POPLAR,"{""trial_acronym"": ""POPLAR""}"
+2,NCT02395172,30262187,JAVELIN Lung 200,JAVELIN Lung 200,JAVELIN Lung 200,"{""trial_acronym"": ""JAVELIN Lung 200""}"
+3,NCT02008227,27979383,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"
+4,NCT02008227,29777823,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"
+5,NCT02366143,29863955,IMPower150,IMPower150,IMPower150,"{""trial_acronym"": ""IMPower150""}"
+6,NCT02366143,29863955,IMPower150,IMPower150,IMPower150,"{""trial_acronym"": ""IMPower150""}"
+7,NCT02367781,31122901,IMpower130,IMpower130,IMpower130,"{""trial_acronym"": ""IMpower130""}"
+8,NCT02367794,32302702,IMpower131,IMpower131,IMpower131,"{""trial_acronym"": ""IMpower131""}"
+9,NCT02367794,32302702,IMpower131,IMpower131,IMpower131,"{""trial_acronym"": ""IMpower131""}"
+10,NCT02409342,32997907,IMpower110,IMpower110,IMpower110,"{""trial_acronym"": ""IMpower110""}"
+11,NCT01903993,33166718,POPLAR,POPLAR,POPLAR,"{""trial_acronym"": ""POPLAR""}"
+12,NCT02008227,33166718,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"

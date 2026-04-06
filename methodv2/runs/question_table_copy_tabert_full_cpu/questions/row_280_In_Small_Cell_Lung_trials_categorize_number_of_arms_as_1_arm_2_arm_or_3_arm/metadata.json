@@ -1,0 +1,12 @@
+{
+  "item_id": "row_280",
+  "csv_row_number": 280,
+  "question": "In Small Cell Lung trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "source_table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_full_cpu/questions/row_280_In_Small_Cell_Lung_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/table_copy.csv",
+  "original_question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/questions/arm_category__row_280__In_Small_Cell_Lung_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "tabert_checkpoint": "/mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin"
+}

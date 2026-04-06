@@ -1,0 +1,16 @@
+{
+  "item_id": "row_203",
+  "csv_row_number": 203,
+  "question": "In Prostate trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "predicted_answer": "adjuvant",
+  "chunk_score": -0.3382849395275116,
+  "chunk_start": 64,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_203_In_Prostate_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_203_In_Prostate_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_203_In_Prostate_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced/ground_truth_table.csv"
+}

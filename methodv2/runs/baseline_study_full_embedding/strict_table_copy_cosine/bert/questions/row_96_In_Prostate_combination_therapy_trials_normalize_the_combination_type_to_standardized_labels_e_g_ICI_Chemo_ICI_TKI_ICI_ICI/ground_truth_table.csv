@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT00861614,24831977,CA184-043,ICI+RadiatICIn,ICI+Radiation,"{""combo_type_norm"": ""ICI+Radiation""}"
+2,NCT00861614,32811715,CA184-043,ICI+RadiatICIn,ICI+Radiation,"{""combo_type_norm"": ""ICI+Radiation""}"

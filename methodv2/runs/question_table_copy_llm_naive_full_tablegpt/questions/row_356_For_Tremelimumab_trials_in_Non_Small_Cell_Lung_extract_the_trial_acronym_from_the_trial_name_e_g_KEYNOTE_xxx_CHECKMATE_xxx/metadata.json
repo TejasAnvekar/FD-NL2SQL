@@ -1,0 +1,45 @@
+{
+  "item_id": "row_356",
+  "csv_row_number": 356,
+  "question": "For Tremelimumab trials in Non-Small Cell Lung, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_356_For_Tremelimumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_356_For_Tremelimumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_356_For_Tremelimumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_356_For_Tremelimumab_trials_in_Non_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 73, \"answer\": \"DETERMINE\"},{\"table_row_id\": 113, \"answer\": \"ARCTIC\"},{\"table_row_id\": 114, \"answer\": \"MDX010-20\"},{\"table_row_id\": 117, \"answer\": \"E1609\"},{\"table_row_id\": 118, \"answer\": \"E1609\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 73,
+      "answer": "DETERMINE"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "ARCTIC"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "MDX010-20"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "E1609"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "E1609"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a9fb05b13b1f46f8",
+    "finish_reason": "stop",
+    "prompt_tokens": 29590,
+    "completion_tokens": 99,
+    "total_tokens": 29689
+  }
+}

@@ -1,0 +1,10 @@
+2026-04-06 15:41:26,186 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/logs/run_meta_20260406_154126.log
+2026-04-06 15:41:26,186 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv
+2026-04-06 15:41:26,186 | INFO | Annotated CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv
+2026-04-06 15:41:26,186 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-06 15:41:26,186 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt
+2026-04-06 15:41:26,186 | INFO | Model: TableGPT2-7B
+2026-04-06 16:11:45,548 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/sample_manifest.csv
+2026-04-06 16:11:45,548 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/all_question_results.csv
+2026-04-06 16:11:45,548 | INFO | Wrote row-level predictions: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/row_level_predictions.csv
+2026-04-06 16:11:45,548 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/summary.json

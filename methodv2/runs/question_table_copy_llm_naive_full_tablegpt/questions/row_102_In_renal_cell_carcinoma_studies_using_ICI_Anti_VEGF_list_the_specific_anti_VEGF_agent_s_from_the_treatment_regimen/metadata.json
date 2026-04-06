@@ -1,0 +1,41 @@
+{
+  "item_id": "row_102",
+  "csv_row_number": 102,
+  "question": "In renal cell carcinoma studies using ICI+Anti-VEGF, list the specific anti-VEGF agent(s) from the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "anti_vegf_agents"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_102_In_renal_cell_carcinoma_studies_using_ICI_Anti_VEGF_list_the_specific_anti_VEGF_agent_s_from_the_treatment_regimen/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 101, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 115, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 121, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 132, \"answer\": \"Sunitinib\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 101,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Sunitinib"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-971648012e51acf4",
+    "finish_reason": "stop",
+    "prompt_tokens": 29583,
+    "completion_tokens": 80,
+    "total_tokens": 29663
+  }
+}

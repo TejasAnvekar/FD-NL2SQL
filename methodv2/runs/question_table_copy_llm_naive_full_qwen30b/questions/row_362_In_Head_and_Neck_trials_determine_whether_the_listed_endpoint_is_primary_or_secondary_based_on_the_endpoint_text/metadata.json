@@ -1,0 +1,61 @@
+{
+  "item_id": "row_362",
+  "csv_row_number": 362,
+  "question": "In Head and Neck trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_362_In_Head_and_Neck_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_362_In_Head_and_Neck_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_362_In_Head_and_Neck_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_362_In_Head_and_Neck_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 12, \"answer\": \"Primary\"},{\"table_row_id\": 13, \"answer\": \"Primary\"},{\"table_row_id\": 85, \"answer\": \"Primary\"},{\"table_row_id\": 86, \"answer\": \"Primary\"},{\"table_row_id\": 105, \"answer\": \"Primary\"},{\"table_row_id\": 110, \"answer\": \"Primary\"},{\"table_row_id\": 111, \"answer\": \"Primary\"},{\"table_row_id\": 157, \"answer\": \"Primary\"},{\"table_row_id\": 159, \"answer\": \"Primary\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Primary"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Primary"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a8aacf98f1b868ea",
+    "finish_reason": "stop",
+    "prompt_tokens": 28006,
+    "completion_tokens": 136,
+    "total_tokens": 28142
+  }
+}

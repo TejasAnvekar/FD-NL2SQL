@@ -1,0 +1,137 @@
+{
+  "item_id": "row_498",
+  "csv_row_number": 498,
+  "question": "For Atezolizumab trials in Head and Neck, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_498_For_Atezolizumab_trials_in_Head_and_Neck_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_498_For_Atezolizumab_trials_in_Head_and_Neck_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_498_For_Atezolizumab_trials_in_Head_and_Neck_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_498_For_Atezolizumab_trials_in_Head_and_Neck_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 12, \"answer\": \"KEYNOTE-040\"},{\"table_row_id\": 13, \"answer\": \"CheckMate 141\"},{\"table_row_id\": 14, \"answer\": \"CheckMate 141\"},{\"table_row_id\": 22, \"answer\": \"IMmotion151\"},{\"table_row_id\": 33, \"answer\": \"Checkmate 026\"},{\"table_row_id\": 41, \"answer\": \"CheckMate 022\"},{\"table_row_id\": 51, \"answer\": \"Checkmate 227\"},{\"table_row_id\": 64, \"answer\": \"KEYNOTE-021\"},{\"table_row_id\": 65, \"answer\": \"KEYNOTE-021\"},{\"table_row_id\": 66, \"answer\": \"KEYNOTE-021\"},{\"table_row_id\": 73, \"answer\": \"DETERMINE\"},{\"table_row_id\": 88, \"answer\": \"KEYNOTE144\"},{\"table_row_id\": 116, \"answer\": \"KEYNOTE-024\"},{\"table_row_id\": 127, \"answer\": \"Javelin Gastric 100\"},{\"table_row_id\": 131, \"answer\": \"CheckMate 066\"},{\"table_row_id\": 133, \"answer\": \"CheckMate 143\"},{\"table_row_id\": 136, \"answer\": \"KEYNOTE-181\"},{\"table_row_id\": 137, \"answer\": \"CASPIAN\"},{\"table_row_id\": 138, \"answer\": \"CASPIAN\"},{\"table_row_id\": 141, \"answer\": \"CheckMate 9LA\"},{\"table_row_id\": 147, \"answer\": \"CheckMate 9ER\"},{\"table_row_id\": 149, \"answer\": \"CheckMate 451\"},{\"table_row_id\": 150, \"answer\": \"CheckMate 451\"},{\"table_row_id\": 151, \"answer\": \"SAFIR02-BREAST IMMUNO\"},{\"table_row_id\": 154, \"answer\": \"Keynote-119\"},{\"table_row_id\": 155, \"answer\": \"EMPOWER-Lung 1\"},{\"table_row_id\": 156, \"answer\": \"ModuLung\"},{\"table_row_id\": 157, \"answer\": \"JAVELIN Head and Neck 101\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "KEYNOTE-040"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "CheckMate 141"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "CheckMate 141"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "IMmotion151"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Checkmate 026"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "CheckMate 022"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Checkmate 227"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "KEYNOTE-021"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "KEYNOTE-021"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "KEYNOTE-021"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "DETERMINE"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "KEYNOTE144"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "KEYNOTE-024"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Javelin Gastric 100"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "CheckMate 066"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "CheckMate 143"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "KEYNOTE-181"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "CASPIAN"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "CASPIAN"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "CheckMate 9LA"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "CheckMate 9ER"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "CheckMate 451"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "CheckMate 451"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "SAFIR02-BREAST IMMUNO"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Keynote-119"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "EMPOWER-Lung 1"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "ModuLung"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "JAVELIN Head and Neck 101"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-a6d60ff2884f7f23",
+    "finish_reason": "stop",
+    "prompt_tokens": 29591,
+    "completion_tokens": 553,
+    "total_tokens": 30144
+  }
+}

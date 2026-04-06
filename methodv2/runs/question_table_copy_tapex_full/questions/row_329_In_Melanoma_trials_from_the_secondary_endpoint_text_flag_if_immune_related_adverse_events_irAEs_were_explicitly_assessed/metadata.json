@@ -1,0 +1,16 @@
+{
+  "item_id": "row_329",
+  "csv_row_number": 329,
+  "question": "In Melanoma trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "predicted_answer": "nct02579863",
+  "chunk_score": -0.4129713773727417,
+  "chunk_start": 64,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_329_In_Melanoma_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_329_In_Melanoma_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_329_In_Melanoma_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed/ground_truth_table.csv"
+}

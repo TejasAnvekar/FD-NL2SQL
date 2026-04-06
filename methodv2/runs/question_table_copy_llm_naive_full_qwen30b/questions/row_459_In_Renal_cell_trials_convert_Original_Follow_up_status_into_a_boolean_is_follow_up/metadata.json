@@ -1,0 +1,49 @@
+{
+  "item_id": "row_459",
+  "csv_row_number": 459,
+  "question": "In Renal cell trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "column_used": "Originial publication or Follow-up",
+  "expected_keys": [
+    "is_follow_up"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_459_In_Renal_cell_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_459_In_Renal_cell_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_459_In_Renal_cell_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_459_In_Renal_cell_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 15, \"answer\": false},{\"table_row_id\": 19, \"answer\": true},{\"table_row_id\": 114, \"answer\": false},{\"table_row_id\": 115, \"answer\": true},{\"table_row_id\": 131, \"answer\": true},{\"table_row_id\": 141, \"answer\": true}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 15,
+      "answer": false
+    },
+    {
+      "table_row_id": 19,
+      "answer": true
+    },
+    {
+      "table_row_id": 114,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": true
+    },
+    {
+      "table_row_id": 131,
+      "answer": true
+    },
+    {
+      "table_row_id": 141,
+      "answer": true
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9b91e6b4fe7a763e",
+    "finish_reason": "stop",
+    "prompt_tokens": 28006,
+    "completion_tokens": 87,
+    "total_tokens": 28093
+  }
+}

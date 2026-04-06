@@ -1,0 +1,10 @@
+2026-04-06 12:32:40,742 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/logs/run_meta_20260406_123240.log
+2026-04-06 12:32:40,743 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv
+2026-04-06 12:32:40,743 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-06 12:32:40,743 | INFO | TaBERT checkpoint: /mnt/data2/srchowd3/TaBERT/checkpoints/tabert_base_k1/model.bin
+2026-04-06 12:32:40,743 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1
+2026-04-06 12:32:40,751 | INFO | Loading TaBERT model
+2026-04-06 12:33:04,388 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/sample_manifest.csv
+2026-04-06 12:33:04,388 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/all_question_results.csv
+2026-04-06 12:33:04,388 | INFO | Wrote row predictions: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/row_level_predictions.csv
+2026-04-06 12:33:04,388 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tabert_smoke_1/summary.json

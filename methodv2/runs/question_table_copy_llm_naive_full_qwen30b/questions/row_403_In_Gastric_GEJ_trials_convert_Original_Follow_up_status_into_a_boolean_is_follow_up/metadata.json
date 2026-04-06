@@ -1,0 +1,61 @@
+{
+  "item_id": "row_403",
+  "csv_row_number": 403,
+  "question": "In Gastric/GEJ trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "column_used": "Originial publication or Follow-up",
+  "expected_keys": [
+    "is_follow_up"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_403_In_Gastric_GEJ_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_403_In_Gastric_GEJ_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_403_In_Gastric_GEJ_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_403_In_Gastric_GEJ_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 8, \"answer\": false},{\"table_row_id\": 9, \"answer\": false},{\"table_row_id\": 10, \"answer\": false},{\"table_row_id\": 11, \"answer\": false},{\"table_row_id\": 78, \"answer\": true},{\"table_row_id\": 80, \"answer\": false},{\"table_row_id\": 120, \"answer\": false},{\"table_row_id\": 121, \"answer\": false},{\"table_row_id\": 127, \"answer\": false}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    },
+    {
+      "table_row_id": 9,
+      "answer": false
+    },
+    {
+      "table_row_id": 10,
+      "answer": false
+    },
+    {
+      "table_row_id": 11,
+      "answer": false
+    },
+    {
+      "table_row_id": 78,
+      "answer": true
+    },
+    {
+      "table_row_id": 80,
+      "answer": false
+    },
+    {
+      "table_row_id": 120,
+      "answer": false
+    },
+    {
+      "table_row_id": 121,
+      "answer": false
+    },
+    {
+      "table_row_id": 127,
+      "answer": false
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-b0d6a9b9fc011b24",
+    "finish_reason": "stop",
+    "prompt_tokens": 28009,
+    "completion_tokens": 123,
+    "total_tokens": 28132
+  }
+}

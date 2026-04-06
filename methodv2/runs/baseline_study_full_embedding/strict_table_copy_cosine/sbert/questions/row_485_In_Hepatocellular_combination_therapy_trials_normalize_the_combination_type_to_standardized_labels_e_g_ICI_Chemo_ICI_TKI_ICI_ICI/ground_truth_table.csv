@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT03434379,32402160,IMbrave150,ICI+Anti-VEGF,ICI+Anti-VEGF,"{""combo_type_norm"": ""ICI+Anti-VEGF""}"

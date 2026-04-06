@@ -1,0 +1,49 @@
+{
+  "item_id": "row_415",
+  "csv_row_number": 415,
+  "question": "For Durvalumab, Tremelimumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "column_used": "Trial phase",
+  "expected_keys": [
+    "phase_bucket"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_415_For_Durvalumab_Tremelimumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_415_For_Durvalumab_Tremelimumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_415_For_Durvalumab_Tremelimumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_415_For_Durvalumab_Tremelimumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 5, \"answer\": \"early\"},{\"table_row_id\": 83, \"answer\": \"early\"},{\"table_row_id\": 91, \"answer\": \"early\"},{\"table_row_id\": 100, \"answer\": \"early\"},{\"table_row_id\": 112, \"answer\": \"early\"},{\"table_row_id\": 124, \"answer\": \"early\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "early"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-b0ea47789a40fc58",
+    "finish_reason": "stop",
+    "prompt_tokens": 28017,
+    "completion_tokens": 91,
+    "total_tokens": 28108
+  }
+}

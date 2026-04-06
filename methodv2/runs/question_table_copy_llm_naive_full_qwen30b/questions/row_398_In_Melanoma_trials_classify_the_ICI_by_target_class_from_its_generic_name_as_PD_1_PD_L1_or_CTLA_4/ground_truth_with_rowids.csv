@@ -1,0 +1,27 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response,table_row_id
+1,NCT00324155,21639810,,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",58
+2,NCT00094653,20525992,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",59
+3,NCT00094653,20525992,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",60
+4,NCT00257205,23295794,,Tremelimumab,CTLA-4,"{""class"": ""CTLA-4""}",61
+5,NCT02362594,29658430,EORTC 1325-MG/KEYNOTE-054,Pembrolizumab,PD1,"{""class"": ""PD1""}",62
+6,NCT01704287,26115796,KEYNOTE-002,Pembrolizumab,PD1,"{""class"": ""PD1""}",63
+7,NCT01704287,26115796,KEYNOTE-002,Pembrolizumab,PD1,"{""class"": ""PD1""}",64
+8,NCT01704287,28961465,KEYNOTE-002,Pembrolizumab,PD1,"{""class"": ""PD1""}",65
+9,NCT01704287,28961465,KEYNOTE-002,Pembrolizumab,PD1,"{""class"": ""PD1""}",66
+10,NCT00636168,27717298,,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",67
+11,NCT01721746,25795410,CheckMate 037,Nivolumab,PD1,"{""class"": ""PD1""}",68
+12,NCT01721746,28671856,CheckMate 037,Nivolumab,PD1,"{""class"": ""PD1""}",69
+13,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab,PD1,"{""class"": ""PD1""}",70
+14,NCT01721772,25399552,CheckMate 066,Nivolumab,PD1,"{""class"": ""PD1""}",71
+15,NCT01721772,30422243,CheckMate 066,Nivolumab,PD1,"{""class"": ""PD1""}",72
+16,NCT01274338,31880964,E1609,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",93
+17,NCT01274338,31880964,E1609,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",94
+18,NCT02523313,32416781,IMMUNED,Nivolumab,PD1,"{""class"": ""PD1""}",95
+19,NCT02523313,32416781,IMMUNED,"Nivolumab, Ipilimumab","PD1, CTLA-4","{""class"": ""PD1, CTLA-4""}",96
+20,NCT02908672,32534646,IMspire150,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}",104
+21,NCT00094653,23942774,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",117
+22,NCT00094653,23942774,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",118
+23,NCT01721772,32997575,CheckMate 066,Nivolumab,PD1,"{""class"": ""PD1""}",135
+24,NCT02130466,33361337,KEYNOTE-022,Pembrolizumab,PD1,"{""class"": ""PD1""}",136
+25,NCT02362594,32946353,EORTC 1325-MG/KEYNOTE-054,Pembrolizumab,PD1,"{""class"": ""PD1""}",141
+26, NCT00636168,25840693,,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}",142

@@ -1,0 +1,53 @@
+{
+  "item_id": "row_217",
+  "csv_row_number": 217,
+  "question": "In Breast trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_keys": [
+    "pd_l1_required"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_217_In_Breast_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_217_In_Breast_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_217_In_Breast_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_217_In_Breast_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 4, \"answer\": false}, {\"table_row_id\": 5, \"answer\": false}, {\"table_row_id\": 81, \"answer\": false}, {\"table_row_id\": 84, \"answer\": false}, {\"table_row_id\": 92, \"answer\": false}, {\"table_row_id\": 125, \"answer\": false}, {\"table_row_id\": 151, \"answer\": false}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 4,
+      "answer": false
+    },
+    {
+      "table_row_id": 5,
+      "answer": false
+    },
+    {
+      "table_row_id": 81,
+      "answer": false
+    },
+    {
+      "table_row_id": 84,
+      "answer": false
+    },
+    {
+      "table_row_id": 92,
+      "answer": false
+    },
+    {
+      "table_row_id": 125,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-831ee8b02f607c10",
+    "finish_reason": "stop",
+    "prompt_tokens": 28001,
+    "completion_tokens": 102,
+    "total_tokens": 28103
+  }
+}

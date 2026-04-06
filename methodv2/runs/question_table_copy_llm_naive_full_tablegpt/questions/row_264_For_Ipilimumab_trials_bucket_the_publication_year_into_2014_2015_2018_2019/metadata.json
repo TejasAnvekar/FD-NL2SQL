@@ -1,0 +1,24 @@
+{
+  "item_id": "row_264",
+  "csv_row_number": 264,
+  "question": "For Ipilimumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_tablegpt/questions/row_264_For_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 1,\"answer\": \"\\u041c\\u0435\\u043d\\u0435 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u0432 \\u043f\\u043e\\u043b\\u0435\\u0432\\u043e\\u0434 \\u043f\\u043e\\u043b\\u0",
+  "parsed_predictions": [],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9fc71ee24b5c3d3d",
+    "finish_reason": "length",
+    "prompt_tokens": 29590,
+    "completion_tokens": 2048,
+    "total_tokens": 31638
+  }
+}

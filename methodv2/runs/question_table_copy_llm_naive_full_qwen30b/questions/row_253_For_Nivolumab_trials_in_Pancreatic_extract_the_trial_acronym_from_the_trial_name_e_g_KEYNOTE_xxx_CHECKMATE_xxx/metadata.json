@@ -1,0 +1,37 @@
+{
+  "item_id": "row_253",
+  "csv_row_number": 253,
+  "question": "For Nivolumab trials in Pancreatic, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_253_For_Nivolumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_253_For_Nivolumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_253_For_Nivolumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_253_For_Nivolumab_trials_in_Pancreatic_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 9, \"answer\": \"ATTRACTION-2\"}, {\"table_row_id\": 78, \"answer\": \"ATTRACTION-2\"}, {\"table_row_id\": 80, \"answer\": \"ATTRACTION-3\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "ATTRACTION-2"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "ATTRACTION-2"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "ATTRACTION-3"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-879fead8ebcfc019",
+    "finish_reason": "stop",
+    "prompt_tokens": 28019,
+    "completion_tokens": 60,
+    "total_tokens": 28079
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_41",
+  "csv_row_number": 41,
+  "question": "In Hodgkin Lymphoma trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "maturity"
+  ],
+  "predicted_answer": "immotion151",
+  "chunk_score": -0.19183392822742462,
+  "chunk_start": 0,
+  "chunk_row_count": 64,
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_41_In_Hodgkin_Lymphoma_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/table_copy.csv",
+  "tapex_table_view_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_41_In_Hodgkin_Lymphoma_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/tapex_table_view.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/questions/row_41_In_Hodgkin_Lymphoma_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing/ground_truth_table.csv"
+}

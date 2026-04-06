@@ -1,0 +1,77 @@
+{
+  "item_id": "row_288",
+  "csv_row_number": 288,
+  "question": "For Nivolumab, Ipilimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "hidden_columns": [],
+  "table_copy_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_288_For_Nivolumab_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/table_copy.csv",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_288_For_Nivolumab_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_table.csv",
+  "ground_truth_with_rowids_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_288_For_Nivolumab_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/ground_truth_with_rowids.csv",
+  "prompt_txt": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_full_qwen30b/questions/row_288_For_Nivolumab_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI/prompt.txt",
+  "llm_raw_output": "{\"predictions\":[{\"table_row_id\": 18, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 19, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 47, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 48, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 49, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 50, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 51, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 96, \"answer\": \"Placebo\"}, {\"table_row_id\": 101, \"answer\": \"Sunitinib\"}, {\"table_row_id\": 128, \"answer\": \"Pemetrexed+Cisplatin/Carboplatin\"}, {\"table_row_id\": 146, \"answer\": \"Chemotherapy\"}, {\"table_row_id\": 149, \"answer\": \"Placebo\"}, {\"table_row_id\": 150, \"answer\": \"Placebo\"}]}",
+  "parsed_predictions": [
+    {
+      "table_row_id": 18,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Sunitinib"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Pemetrexed+Cisplatin/Carboplatin"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Chemotherapy"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Placebo"
+    }
+  ],
+  "error": "",
+  "model_meta": {
+    "response_id": "chatcmpl-9d145cc5b1966aeb",
+    "finish_reason": "stop",
+    "prompt_tokens": 28011,
+    "completion_tokens": 234,
+    "total_tokens": 28245
+  }
+}

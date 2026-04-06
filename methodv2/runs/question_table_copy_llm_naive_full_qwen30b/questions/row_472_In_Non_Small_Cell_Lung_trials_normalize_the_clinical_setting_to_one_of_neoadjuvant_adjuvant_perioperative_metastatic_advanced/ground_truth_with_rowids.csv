@@ -1,0 +1,46 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response,table_row_id
+1,NCT00527735,22547592,,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",23
+2,NCT00527735,22547592,,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",24
+3,NCT01673867,26412456,Checkmate 057,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",27
+4,NCT01642004,26028407,Checkmate 017,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",28
+5,NCT01905657,26712084,Keynote-010,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",29
+6,NCT01905657,26712084,Keynote-010,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",30
+7,NCT01903993,26970723,POPLAR,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",31
+8,NCT02041533,28636851,Checkmate 026,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",33
+9,NCT01285609,28854067,,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",34
+10,NCT02125461,28885881,PACIFIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",35
+11,NCT02125461,30280658,PACIFIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",36
+12,NCT02395172,30262187,JAVELIN Lung 200,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",37
+13,NCT02039674,27745820,Keynote-021,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",38
+14,NCT02039674,30138764,Keynote-021,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",39
+15,NCT02008227,27979383,OAK,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",40
+16,NCT02008227,29777823,OAK,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",41
+17,NCT02578680,29658856,Keynote-189,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",42
+18,NCT02775435,30280635,Keynote-407,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",44
+19,NCT02366143,29863955,IMPower150,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",45
+20,NCT02366143,29863955,IMPower150,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",46
+21,NCT02477826,29658845,Checkmate 227,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",47
+22,NCT02477826,29658845,Checkmate 227,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",48
+23,NCT02477826,31562796,Checkmate 227,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",49
+24,NCT02477826,31562796,Checkmate 227,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",50
+25,NCT02477826,31562796,Checkmate 227,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",51
+26,NCT02220894,30955977,Keynote-042,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",52
+27,NCT02142738,30620668,Keynote-024,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",54
+28,NCT02367781,31122901,IMpower130,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",55
+29,NCT02613507,30659987,Checkmate 078,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",56
+30,NCT02454933,30763730,CAURAL,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",57
+31,NCT02352948,32201234,ARCTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",89
+32,NCT02352948,32201234,ARCTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",90
+33,NCT02352948,32201234,ARCTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",91
+34,NCT02453282,32271377,MYSTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",99
+35,NCT02453282,32271377,MYSTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",100
+36,NCT02367794,32302702,IMpower131,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",102
+37,NCT02367794,32302702,IMpower131,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",103
+38,NCT02574598,32271354,PROLUNG,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",113
+39,NCT02142738,27718847,Keynote-024,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",116
+40,NCT02409342,32997907,IMpower110,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",129
+41,NCT01903993,33166718,POPLAR,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",143
+42,NCT02008227,33166718,OAK,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",144
+43,NCT03215706,33476593,CheckMate 9LA,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",146
+44,NCT03088540,33581821,EMPOWER-Lung 1,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",155
+45,NCT02852083, 33796020,ModuLung,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}",156

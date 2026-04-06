@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT02231749,29562145,CheckMate 214,1096.0,large,"{""size_bucket"": ""large""}"
+2,NCT02231749,31427204,CheckMate 214,1096.0,large,"{""size_bucket"": ""large""}"
+3,NCT02477826,29658845,Checkmate 227,1739.0,large,"{""size_bucket"": ""large""}"
+4,NCT02477826,31562796,Checkmate 227,1739.0,large,"{""size_bucket"": ""large""}"
+5,NCT02523313,32416781,IMMUNED,167.0,medium,"{""size_bucket"": ""medium""}"
+6,NCT02231749,32661118,CheckMate 214,1096.0,large,"{""size_bucket"": ""large""}"
+7,NCT02899299,33485464,CheckMate 743,605.0,large,"{""size_bucket"": ""large""}"
+8,NCT03215706,33476593,CheckMate 9LA,719.0,large,"{""size_bucket"": ""large""}"
+9,NCT02538666,33683919,CheckMate 451,834.0,large,"{""size_bucket"": ""large""}"

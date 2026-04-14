@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response,table_row_id
-1,NCT02899299,33485464,CheckMate 743,Pemetrexed+Cisplatin/Carboplatin,"[""pemetrexed"", ""cisplatin"", ""carboplatin""]","{""control_drugs"": [""pemetrexed"", ""cisplatin"", ""carboplatin""]}",128
-2,NCT02991482,32976938,PROMISE-meso,Gemcitabine/Vinorelbine,"[""gemcitabine"", ""vinorelbine""]","{""control_drugs"": [""gemcitabine"", ""vinorelbine""]}",139

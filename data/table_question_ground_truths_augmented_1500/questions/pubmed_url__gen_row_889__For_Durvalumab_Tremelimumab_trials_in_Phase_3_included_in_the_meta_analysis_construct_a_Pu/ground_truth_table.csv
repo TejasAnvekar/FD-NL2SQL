@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pubmed_url,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,31590988,https://pubmed.ncbi.nlm.nih.gov/31590988/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/31590988/""}"
+2,NCT02352948,32201234,ARCTIC,32201234,https://pubmed.ncbi.nlm.nih.gov/32201234/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/32201234/""}"
+3,NCT02453282,32271377,MYSTIC,32271377,https://pubmed.ncbi.nlm.nih.gov/32271377/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/32271377/""}"
+4,NCT02369874,32294530,EAGLE,32294530,https://pubmed.ncbi.nlm.nih.gov/32294530/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/32294530/""}"

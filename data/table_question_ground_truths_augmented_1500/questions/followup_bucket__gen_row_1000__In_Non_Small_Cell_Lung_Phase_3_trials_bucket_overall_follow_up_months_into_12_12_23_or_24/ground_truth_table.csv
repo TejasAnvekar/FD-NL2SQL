@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,followup_bucket,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,25.2,≥24,"{""followup_bucket"": ""≥24""}"
+2,NCT02008227,27979383,OAK,21,12–23,"{""followup_bucket"": ""12–23""}"
+3,NCT02008227,29777823,OAK,26,≥24,"{""followup_bucket"": ""≥24""}"
+4,NCT02775435,30280635,Keynote-407,7.8,<12,"{""followup_bucket"": ""<12""}"

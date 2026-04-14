@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,era,derived_expected_llm_response
+1,NCT02775435,30280635,Keynote-407,2018,2015–2018,"{""era"": ""2015–2018""}"
+2,NCT02576977,31327687,KEYNOTE-183,2019,≥2019,"{""era"": ""≥2019""}"
+3,NCT02579863,31327689,KEYNOTE-185,2019,≥2019,"{""era"": ""≥2019""}"
+4,NCT03036488,32101663,KEYNOTE-522,2020,≥2019,"{""era"": ""≥2019""}"

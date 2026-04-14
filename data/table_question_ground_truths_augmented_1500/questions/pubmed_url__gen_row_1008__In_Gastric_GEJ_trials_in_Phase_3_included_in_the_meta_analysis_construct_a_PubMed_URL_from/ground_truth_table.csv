@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pubmed_url,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,28993052,https://pubmed.ncbi.nlm.nih.gov/28993052/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/28993052/""}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,30052729,https://pubmed.ncbi.nlm.nih.gov/30052729/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30052729/""}"
+3,NCT02370498,29880231,Keynote-061,29880231,https://pubmed.ncbi.nlm.nih.gov/29880231/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/29880231/""}"
+4,NCT02267343,31863227,ATTRACTION-2,31863227,https://pubmed.ncbi.nlm.nih.gov/31863227/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/31863227/""}"

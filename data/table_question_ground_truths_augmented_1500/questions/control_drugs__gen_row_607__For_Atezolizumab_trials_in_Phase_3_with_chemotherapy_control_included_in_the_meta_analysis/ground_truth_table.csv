@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT02302807,29268948,IMvigor211,Vinflunine+Paclitaxel+Docetaxel,"[""vinflunine"", ""paclitaxel"", ""docetaxel""]","{""control_drugs"": [""vinflunine"", ""paclitaxel"", ""docetaxel""]}"
+2,NCT02425891,30345906,IMpassion130,Nab-paclitaxel,"[""nab-paclitaxel""]","{""control_drugs"": [""nab-paclitaxel""]}"
+3,NCT02395172,30262187,JAVELIN Lung 200,Docetaxel,"[""docetaxel""]","{""control_drugs"": [""docetaxel""]}"
+4,NCT02367781,31122901,IMpower130,Carboplatin+Nab-paclitaxel,"[""carboplatin"", ""nab-paclitaxel""]","{""control_drugs"": [""carboplatin"", ""nab-paclitaxel""]}"
+5,NCT02367794,32302702,IMpower131,Carboplatin+Nab-paclitaxel,"[""carboplatin"", ""nab-paclitaxel""]","{""control_drugs"": [""carboplatin"", ""nab-paclitaxel""]}"
+6,NCT02367794,32302702,IMpower131,Carboplatin+Nab-paclitaxel,"[""carboplatin"", ""nab-paclitaxel""]","{""control_drugs"": [""carboplatin"", ""nab-paclitaxel""]}"
+7,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"[""gemcitabine"", ""carboplatin"", ""cisplatin""]","{""control_drugs"": [""gemcitabine"", ""carboplatin"", ""cisplatin""]}"
+8,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"[""gemcitabine"", ""carboplatin"", ""cisplatin""]","{""control_drugs"": [""gemcitabine"", ""carboplatin"", ""cisplatin""]}"

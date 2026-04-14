@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1442",
+  "csv_row_number": 1442,
+  "question": "In Colorectal Phase 3 trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "class"
+  ],
+  "expected_llm_response": {
+    "class": "PD-L1"
+  },
+  "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Colorectal' AND \"Included in MA\" = 'No' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Colorectal' AND \"Included in MA\" = 'No' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_class(source_value) AS \"class\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/class__gen_row_1442__In_Colorectal_Phase_3_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD/ground_truth_table.csv",
+  "row_count": 2,
+  "non_null_count": 2,
+  "filters": {
+    "Cancer type": "Colorectal",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "class"
+}

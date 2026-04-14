@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_674",
+  "csv_row_number": 674,
+  "question": "In Melanoma trials for Pembrolizumab using ICI plus BRAFi+MEKi, identify the BRAF inhibitor used in the regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "braf_inhibitor"
+  ],
+  "expected_llm_response": {
+    "braf_inhibitor": "dabrafenib"
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+BRAFi+MEKi';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+BRAFi+MEKi'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_braf_inhibitor(source_value) AS \"braf_inhibitor\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/braf_inhibitor__gen_row_674__In_Melanoma_trials_for_Pembrolizumab_using_ICI_plus_BRAFi_MEKi_identify_the_BRAF_inhibitor/ground_truth_table.csv",
+  "row_count": 2,
+  "non_null_count": 2,
+  "filters": {
+    "Type of combination": "ICI+BRAFi+MEKi",
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Pembrolizumab"
+  },
+  "family_id": "braf_inhibitor"
+}

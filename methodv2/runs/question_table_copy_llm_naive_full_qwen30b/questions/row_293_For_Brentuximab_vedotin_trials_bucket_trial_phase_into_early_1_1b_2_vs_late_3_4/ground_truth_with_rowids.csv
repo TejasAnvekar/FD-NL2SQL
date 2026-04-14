@@ -1,2 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response,table_row_id
-1,NCT02684292,33721562,Keynote-204,Phase 3,late,"{""phase_bucket"": ""late""}",152

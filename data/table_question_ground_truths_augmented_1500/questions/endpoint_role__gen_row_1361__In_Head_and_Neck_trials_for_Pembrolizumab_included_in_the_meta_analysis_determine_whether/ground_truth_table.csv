@@ -1,0 +1,11 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02252042,30509740,KEYNOTE-040,"OS in the population with 
+a PD-L1 combined positive 
+score of 1 or higher; safety, 
+PFS,ORR, duration of 
+confirmed response in all 
+participants and those with a PD-L1 combined positive score of 1 or higher.",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing.",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response; proportion of participants who were progression-free at 6 and 12 months; change from baseline in global health status or quality of life; time to deterioration in global health status or quality of life, pain, and
+swallowing.",secondary,"{""endpoint_role"": ""secondary""}"

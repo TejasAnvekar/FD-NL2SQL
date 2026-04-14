@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Placebo+Etoposide+Platinum agent ,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+2,NCT03043872,31590988,CASPIAN,Platinum+Etoposide,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+3,NCT03043872,31590988,CASPIAN,Platinum+Etoposide,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+4,NCT03066778,32468956,KEYNOTE-604,Placebo+Etoposide+Platinum agent,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"

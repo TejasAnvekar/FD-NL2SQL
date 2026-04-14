@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02231749,29562145,CheckMate 214,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"
+2,NCT02231749,31427204,CheckMate 214,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"
+3,NCT02231749,32661118,CheckMate 214,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"

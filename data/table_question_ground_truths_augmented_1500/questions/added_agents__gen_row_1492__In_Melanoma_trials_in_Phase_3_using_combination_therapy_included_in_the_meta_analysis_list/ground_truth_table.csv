@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT00324155,21639810,,Ipilimumab+Dacarbazine,"[""dacarbazine""]","{""added_agents"": [""dacarbazine""]}"
+2,NCT00094653,20525992,MDX010-20,Ipilimumab+Gp100 Vaccine,"[""gp100 vaccine""]","{""added_agents"": [""gp100 vaccine""]}"
+3,NCT02908672,32534646,IMspire150,Atezolizumab+Vemurafenib+Cobimetinib,"[""vemurafenib"", ""cobimetinib""]","{""added_agents"": [""vemurafenib"", ""cobimetinib""]}"

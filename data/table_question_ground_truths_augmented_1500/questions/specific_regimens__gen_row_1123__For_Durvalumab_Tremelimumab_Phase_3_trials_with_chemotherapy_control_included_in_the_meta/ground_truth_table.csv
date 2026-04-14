@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,Platinum+Etoposide,,"{""specific_regimens"": null}"
+2,NCT02453282,32271377,MYSTIC,Investigator's choice chemotherapy,"[""Chemotherapy""]","{""specific_regimens"": [""Chemotherapy""]}"

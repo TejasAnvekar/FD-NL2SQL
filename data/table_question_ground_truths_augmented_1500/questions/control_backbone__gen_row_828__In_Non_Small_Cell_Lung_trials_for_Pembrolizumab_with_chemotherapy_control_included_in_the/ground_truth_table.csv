@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_backbone,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Docetaxel,,"{""control_backbone"": null}"
+2,NCT01905657,26712084,Keynote-010,Docetaxel,,"{""control_backbone"": null}"
+3,NCT02039674,27745820,Keynote-021,Pemetrexed+Carboplatin,,"{""control_backbone"": null}"
+4,NCT02039674,30138764,Keynote-021,Pemetrexed+Carboplatin,,"{""control_backbone"": null}"
+5,NCT02578680,29658856,Keynote-189,Placebo+Pemetrexed+Platinum agent,,"{""control_backbone"": null}"
+6,NCT02220894,30955977,Keynote-042,Carboplatin+Pemetrexed+Paclitaxel,Carboplatin+Paclitaxel,"{""control_backbone"": ""Carboplatin+Paclitaxel""}"
+7,NCT02142738,30620668,Keynote-024,Platinum-based chemotherapy,,"{""control_backbone"": null}"
+8,NCT02574598,32271354,PROLUNG,Docetaxel,,"{""control_backbone"": null}"
+9,NCT02142738,27718847,Keynote-024,Platinum-based chemotherapy,,"{""control_backbone"": null}"

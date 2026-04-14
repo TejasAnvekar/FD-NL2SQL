@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pubmed_url,derived_expected_llm_response
+1,NCT01668784,26406148,CheckMate 025,26406148,https://pubmed.ncbi.nlm.nih.gov/26406148/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/26406148/""}"
+2,NCT02231749,29562145,CheckMate 214,29562145,https://pubmed.ncbi.nlm.nih.gov/29562145/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/29562145/""}"
+3,NCT02231749,31427204,CheckMate 214,31427204,https://pubmed.ncbi.nlm.nih.gov/31427204/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/31427204/""}"
+4,NCT02684006,30779531,JAVELIN Renal 101,30779531,https://pubmed.ncbi.nlm.nih.gov/30779531/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30779531/""}"
+5,NCT02853331,30779529,KEYNOTE-426,30779529,https://pubmed.ncbi.nlm.nih.gov/30779529/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30779529/""}"
+6,NCT02420821,31079938,IMmotion151,31079938,https://pubmed.ncbi.nlm.nih.gov/31079938/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/31079938/""}"
+7,NCT02231749,32661118,CheckMate 214,32661118,https://pubmed.ncbi.nlm.nih.gov/32661118/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/32661118/""}"
+8,NCT01668784,32673417,CheckMate 025,32673417,https://pubmed.ncbi.nlm.nih.gov/32673417/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/32673417/""}"

@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+2,NCT02523313,32416781,IMMUNED,"Nivolumab, Ipilimumab","Opdivo, Yervoy","{""brand_name"": ""Opdivo, Yervoy""}"
+3,NCT02130466,33361337,KEYNOTE-022,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1288",
+  "csv_row_number": 1288,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, interpret the PD-L1 requirement flag as boolean true/false.",
+  "column_used": "Is PD-L1 positivity inclusion criteria",
+  "expected_keys": [
+    "pd_l1_required"
+  ],
+  "expected_llm_response": {
+    "pd_l1_required": false
+  },
+  "sql_query": "SELECT \"Is PD-L1 positivity inclusion criteria\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Is PD-L1 positivity inclusion criteria\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Gastric/GEJ' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Is PD-L1 positivity inclusion criteria\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Is PD-L1 positivity inclusion criteria\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Gastric/GEJ' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_pd_l1_required(source_value) AS \"pd_l1_required\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/pd_l1_required__gen_row_1288__In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_interpret_the_PD_L1_requirement_flag_as/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Gastric/GEJ",
+    "Name of ICI": "Pembrolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "pd_l1_required"
+}

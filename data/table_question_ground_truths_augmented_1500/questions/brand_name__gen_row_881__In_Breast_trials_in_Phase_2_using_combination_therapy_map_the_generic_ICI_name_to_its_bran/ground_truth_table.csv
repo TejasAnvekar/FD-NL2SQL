@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02685059,31095287,GeparNuevo,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+2,NCT01042379,32053137,I-SPY2,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+3,NCT03051659,32880602,,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+4,NCT02924883,33002436,KATE2,Atezolizumab+Trastuzumab emtansine+Placebo,Tecentriq,"{""brand_name"": ""Tecentriq""}"

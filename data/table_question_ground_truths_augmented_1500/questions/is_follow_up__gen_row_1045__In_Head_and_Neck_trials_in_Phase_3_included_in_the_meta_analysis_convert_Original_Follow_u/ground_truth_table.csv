@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT02252042,30509740,KEYNOTE-040,Original publication,false,"{""is_follow_up"": false}"
+2,NCT02105636,27718784,CheckMate 141,Original publication,false,"{""is_follow_up"": false}"
+3,NCT02105636,29884413,CheckMate 141,Follow-up,true,"{""is_follow_up"": true}"
+4,NCT02358031,31679945,KEYNOTE-048,Original publication,false,"{""is_follow_up"": false}"
+5,NCT02358031,31679945,KEYNOTE-048,Original publication,false,"{""is_follow_up"": false}"
+6,NCT02017717,32437507,CheckMate 143,Original publication,false,"{""is_follow_up"": false}"
+7,NCT02369874,32294530,EAGLE,Original publication,false,"{""is_follow_up"": false}"
+8,NCT02369874,32294530,EAGLE,Original publication,false,"{""is_follow_up"": false}"

@@ -1,0 +1,20 @@
+{
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/manifest.csv",
+  "annotated_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/annotated_questions.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "model_name": "gpt-oss-20b",
+  "prompt_template_file": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/prompts/naive_llm_fewshot_csv.txt",
+  "max_in_flight": 20,
+  "sample_question_count": 1500,
+  "question_result_count": 1500,
+  "row_result_count": 7625,
+  "skips": {},
+  "outputs": {
+    "sample_manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot/sample_manifest.csv",
+    "question_results_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot/all_question_results.csv",
+    "row_level_predictions_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot/row_level_predictions.csv",
+    "requests_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot/requests.csv",
+    "responses_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot/responses.csv",
+    "baseline_summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot/baseline_summary.csv"
+  }
+}

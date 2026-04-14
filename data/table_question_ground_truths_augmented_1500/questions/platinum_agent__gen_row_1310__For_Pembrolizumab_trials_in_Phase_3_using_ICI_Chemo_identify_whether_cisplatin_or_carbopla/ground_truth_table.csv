@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT02578680,29658856,Keynote-189,Pembrolizumab+Platinum agent,platinum agent,"{""platinum_agent"": ""platinum agent""}"
+2,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+3,NCT02576977,31327687,KEYNOTE-183,Pembrolizumab+Pomalidomide+Dexamethasone,,"{""platinum_agent"": null}"
+4,NCT02579863,31327689,KEYNOTE-185,Pembrolizumab+Lenalidomide+Dexamethasone,,"{""platinum_agent"": null}"
+5,NCT02358031,31679945,KEYNOTE-048,Pembrolizumab+Platinum agent+5-Fluorouracil,platinum agent,"{""platinum_agent"": ""platinum agent""}"
+6,NCT03036488,32101663,KEYNOTE-522,Pembrolizumab+Paclitaxel+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+7,NCT03066778,32468956,KEYNOTE-604,Pembrolizumab+Etoposide+Platinum agent,platinum agent,"{""platinum_agent"": ""platinum agent""}"
+8,NCT02494583,32880601,Keynote-062,Pembrolizumab+Cisplatin+5-FU+Capecitabine,cisplatin,"{""platinum_agent"": ""cisplatin""}"
+9,NCT02819518,33278935,MK-3475/Keynote-355,Pembrolizumab+nab-paclitaxel/paclitaxel/gemcitabine+ carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"

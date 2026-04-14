@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,Monotherapy,false,"{""is_combination"": false}"
+2,NCT02008227,27979383,OAK,Monotherapy,false,"{""is_combination"": false}"
+3,NCT02008227,29777823,OAK,Monotherapy,false,"{""is_combination"": false}"
+4,NCT02775435,30280635,Keynote-407,Combination,true,"{""is_combination"": true}"
+5,NCT02454933,30763730,CAURAL,Combination,true,"{""is_combination"": true}"

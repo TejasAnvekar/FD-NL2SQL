@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,followup_bucket,derived_expected_llm_response
+1,NCT02625623,30052729,JAVELIN Gastric 300,10.6,<12,"{""followup_bucket"": ""<12""}"
+2,NCT02370498,29880231,Keynote-061,7.9,<12,"{""followup_bucket"": ""<12""}"
+3,NCT02267343,31863227,ATTRACTION-2,27.3,≥24,"{""followup_bucket"": ""≥24""}"

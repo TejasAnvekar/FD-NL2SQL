@@ -1,2 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response,table_row_id
-1,NCT02369874,32294530,EAGLE,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}",110

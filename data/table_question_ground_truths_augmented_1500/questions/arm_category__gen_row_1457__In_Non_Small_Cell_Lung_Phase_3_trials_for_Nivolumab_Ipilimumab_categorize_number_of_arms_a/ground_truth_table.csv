@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT02477826,29658845,Checkmate 227,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+2,NCT02477826,31562796,Checkmate 227,4,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+3,NCT03215706,33476593,CheckMate 9LA,2,2-arm,"{""arm_category"": ""2-arm""}"

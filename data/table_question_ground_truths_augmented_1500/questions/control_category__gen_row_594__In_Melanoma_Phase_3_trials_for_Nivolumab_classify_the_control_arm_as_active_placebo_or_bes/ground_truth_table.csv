@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT01721746,25795410,CheckMate 037,Chemo,active,"{""control_category"": ""active""}"
+2,NCT01721746,28671856,CheckMate 037,Chemo,active,"{""control_category"": ""active""}"
+3,NCT01721772,25399552,CheckMate 066,Chemo,active,"{""control_category"": ""active""}"
+4,NCT01721772,30422243,CheckMate 066,Chemo,active,"{""control_category"": ""active""}"
+5,NCT01721772,32997575,CheckMate 066,Chemo,active,"{""control_category"": ""active""}"

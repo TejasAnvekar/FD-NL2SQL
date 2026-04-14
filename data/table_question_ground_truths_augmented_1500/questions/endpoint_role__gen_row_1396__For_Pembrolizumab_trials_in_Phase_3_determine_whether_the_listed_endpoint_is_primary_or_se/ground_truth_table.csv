@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT02775435,30280635,Keynote-407,"ORR, DOR, safety",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02576977,31327687,KEYNOTE-183,Overall response; duration of response; disease control; safety and tolerability of both treatments; secondary PFS.,secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02579863,31327689,KEYNOTE-185,Safety; OS; overall response; duration of response; disease control; secondary PFS.,secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT03036488,32101663,KEYNOTE-522,"pathological complete response, a pathological complete response according to all definitions in patients with PD-L1–positive tumors, eventfree survival among patients with PD-L1–positive tumors, and OS among all patients and patients with PD-L1–positive tumors.",secondary,"{""endpoint_role"": ""secondary""}"

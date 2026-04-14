@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_497",
+  "csv_row_number": 497,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "expected_llm_response": {
+    "era": "2015–2018"
+  },
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Year\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Year\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/era__gen_row_497__For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_bucket_the_publication_year/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "era"
+}

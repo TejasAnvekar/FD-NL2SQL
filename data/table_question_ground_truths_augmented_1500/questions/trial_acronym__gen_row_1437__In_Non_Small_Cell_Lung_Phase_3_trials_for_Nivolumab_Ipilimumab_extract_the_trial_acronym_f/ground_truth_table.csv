@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02477826,29658845,Checkmate 227,Checkmate 227,CHECKMATE-227,"{""trial_acronym"": ""CHECKMATE-227""}"
+2,NCT02477826,31562796,Checkmate 227,Checkmate 227,CHECKMATE-227,"{""trial_acronym"": ""CHECKMATE-227""}"
+3,NCT03215706,33476593,CheckMate 9LA,CheckMate 9LA,CHECKMATE-9,"{""trial_acronym"": ""CHECKMATE-9""}"

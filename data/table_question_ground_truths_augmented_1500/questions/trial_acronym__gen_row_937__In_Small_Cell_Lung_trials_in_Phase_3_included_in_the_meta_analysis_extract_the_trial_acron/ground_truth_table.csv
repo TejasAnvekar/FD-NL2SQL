@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,CA184-156,CA184-156,"{""trial_acronym"": ""CA184-156""}"
+2,NCT02763579,30280641,IMPower 133,IMPower 133,IMPOWER133,"{""trial_acronym"": ""IMPOWER133""}"
+3,NCT03043872,31590988,CASPIAN,CASPIAN,CASPIAN,"{""trial_acronym"": ""CASPIAN""}"
+4,NCT03043872,31590988,CASPIAN,CASPIAN,CASPIAN,"{""trial_acronym"": ""CASPIAN""}"
+5,NCT03066778,32468956,KEYNOTE-604,KEYNOTE-604,KEYNOTE-604,"{""trial_acronym"": ""KEYNOTE-604""}"

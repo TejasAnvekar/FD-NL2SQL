@@ -1,0 +1,12 @@
+2026-04-09 15:17:46,523 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot/logs/run_meta_20260409_151746.log
+2026-04-09 15:17:46,524 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/manifest.csv
+2026-04-09 15:17:46,525 | INFO | Annotated CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/annotated_questions.csv
+2026-04-09 15:17:46,525 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-09 15:17:46,525 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot
+2026-04-09 15:17:46,525 | INFO | Model: Qwen3-30B-A3B-Instruct-2507
+2026-04-09 15:17:46,525 | INFO | Prompt template file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/prompts/naive_llm_fewshot_csv.txt
+2026-04-09 15:17:46,525 | INFO | Max in flight: 4
+2026-04-09 16:04:04,715 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot/sample_manifest.csv
+2026-04-09 16:04:04,715 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot/all_question_results.csv
+2026-04-09 16:04:04,715 | INFO | Wrote row-level predictions: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot/row_level_predictions.csv
+2026-04-09 16:04:04,715 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot/summary.json

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT02039674,27745820,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,"[""pemetrexed"", ""carboplatin""]","{""added_agents"": [""pemetrexed"", ""carboplatin""]}"
+2,NCT02039674,30138764,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,"[""pemetrexed"", ""carboplatin""]","{""added_agents"": [""pemetrexed"", ""carboplatin""]}"
+3,NCT02578680,29658856,Keynote-189,Pembrolizumab+Platinum agent,"[""platinum agent""]","{""added_agents"": [""platinum agent""]}"
+4,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,"[""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]","{""added_agents"": [""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]}"
+5,NCT02574598,32271354,PROLUNG,Pembrolizumab+ Docetaxel,"[""docetaxel""]","{""added_agents"": [""docetaxel""]}"

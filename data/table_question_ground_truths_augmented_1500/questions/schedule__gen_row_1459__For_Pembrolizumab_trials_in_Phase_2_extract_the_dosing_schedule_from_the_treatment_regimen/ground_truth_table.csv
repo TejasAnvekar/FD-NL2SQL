@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT01042379,32053137,I-SPY2,Pembrolizumab+Paclitaxel,q3w,"{""schedule"": ""q3w""}"
+2,NCT02362048,32114502,KEYNOTE144,Pembrolizumab+Acalabrutinib,q3w,"{""schedule"": ""q3w""}"

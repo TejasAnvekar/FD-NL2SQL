@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT01721746,25795410,CheckMate 037,OS+ORR,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT01721746,28671856,CheckMate 037,OS+ORR,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT01721772,25399552,CheckMate 066,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+4,NCT01721772,30422243,CheckMate 066,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+5,NCT02523313,32416781,IMMUNED,RFS,Other,"{""primary_endpoint_category"": ""Other""}"

@@ -1,8 +1,0 @@
-2026-04-06 14:58:19,496 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/logs/run_meta_20260406_145819.log
-2026-04-06 14:58:19,496 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_full/manifest.csv
-2026-04-06 14:58:19,496 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
-2026-04-06 14:58:19,496 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full
-2026-04-06 14:58:19,496 | INFO | Model: microsoft/tapex-base-finetuned-wtq
-2026-04-06 15:00:50,244 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/sample_manifest.csv
-2026-04-06 15:00:50,245 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/all_question_results.csv
-2026-04-06 15:00:50,245 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_tapex_full/summary.json

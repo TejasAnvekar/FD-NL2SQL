@@ -1,0 +1,31 @@
+2026-04-10 12:31:40,017 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot/logs/run_meta_20260410_123140.log
+2026-04-10 12:31:40,017 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/manifest.csv
+2026-04-10 12:31:40,018 | INFO | Annotated CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/annotated_questions.csv
+2026-04-10 12:31:40,018 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-10 12:31:40,018 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot
+2026-04-10 12:31:40,018 | INFO | Model: llama-3.3-70b-instruct
+2026-04-10 12:31:40,018 | INFO | Prompt template file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/prompts/naive_llm_cot_csv.txt
+2026-04-10 12:31:40,018 | INFO | Max in flight: 12
+2026-04-10 12:38:15,686 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 12:43:16,789 | WARNING | Retrying naive_llm call attempt=2/3 after 2.0s (err=timed out)
+2026-04-10 12:48:18,891 | WARNING | naive_llm call failed (attempt 3/3): timed out
+2026-04-10 12:49:05,966 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 12:50:42,698 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 12:52:37,180 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:02:25,927 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:07:27,456 | WARNING | Retrying naive_llm call attempt=2/3 after 2.0s (err=timed out)
+2026-04-10 13:12:29,558 | WARNING | naive_llm call failed (attempt 3/3): timed out
+2026-04-10 13:19:14,111 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:26:48,630 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:30:11,661 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:31:49,732 | WARNING | Retrying naive_llm call attempt=2/3 after 2.0s (err=timed out)
+2026-04-10 13:36:51,835 | WARNING | naive_llm call failed (attempt 3/3): timed out
+2026-04-10 13:43:00,238 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:48:01,341 | WARNING | Retrying naive_llm call attempt=2/3 after 2.0s (err=timed out)
+2026-04-10 13:53:38,775 | WARNING | Retrying naive_llm call attempt=1/3 after 1.0s (err=timed out)
+2026-04-10 13:58:39,877 | WARNING | Retrying naive_llm call attempt=2/3 after 2.0s (err=timed out)
+2026-04-10 14:03:41,980 | WARNING | naive_llm call failed (attempt 3/3): timed out
+2026-04-10 14:08:11,869 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot/sample_manifest.csv
+2026-04-10 14:08:11,869 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot/all_question_results.csv
+2026-04-10 14:08:11,869 | INFO | Wrote row-level predictions: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot/row_level_predictions.csv
+2026-04-10 14:08:11,869 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot/summary.json

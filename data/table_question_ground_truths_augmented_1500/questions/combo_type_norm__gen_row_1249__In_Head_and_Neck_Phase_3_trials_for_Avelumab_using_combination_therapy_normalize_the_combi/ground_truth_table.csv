@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02952586,33794205,JAVELIN Head and Neck 101,ICI+Chemoradiotherapy,ICI+Chemoradiotherapy,"{""combo_type_norm"": ""ICI+Chemoradiotherapy""}"
+2,NCT02999087,33125944,REACH,ICI+Chemoradiotherapy,ICI+Chemoradiotherapy,"{""combo_type_norm"": ""ICI+Chemoradiotherapy""}"

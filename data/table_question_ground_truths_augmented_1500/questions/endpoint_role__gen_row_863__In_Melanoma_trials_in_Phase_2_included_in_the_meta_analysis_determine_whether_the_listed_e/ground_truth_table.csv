@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.,secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.,secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.,secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.,secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02130466,31171878,KEYNOTE-022,ORR; duration of response; time to response; OS.,secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02523313,32416781,IMMUNED,OS; time to recurrence; safety; PFS or RFS 2.,secondary,"{""endpoint_role"": ""secondary""}"
+7,NCT02523313,32416781,IMMUNED,OS; time to recurrence; safety; PFS or RFS 2.,secondary,"{""endpoint_role"": ""secondary""}"

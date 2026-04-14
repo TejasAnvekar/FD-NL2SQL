@@ -1,0 +1,26 @@
+{
+  "item_id": "gen_row_1451",
+  "csv_row_number": 1451,
+  "question": "In Breast trials using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "expected_llm_response": {
+    "added_agents": [
+      "paclitaxel"
+    ]
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Breast' AND \"Included in MA\" = 'No' AND \"Monotherapy/combination\" = 'Combination' AND \"Type of combination\" = 'ICI+Chemo';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Breast' AND \"Included in MA\" = 'No' AND \"Monotherapy/combination\" = 'Combination' AND \"Type of combination\" = 'ICI+Chemo'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_added_agents(source_value) AS \"added_agents\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/added_agents__gen_row_1451__In_Breast_trials_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_th/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Monotherapy/combination": "Combination",
+    "Cancer type": "Breast",
+    "Type of combination": "ICI+Chemo",
+    "Included in MA": "No"
+  },
+  "family_id": "added_agents"
+}

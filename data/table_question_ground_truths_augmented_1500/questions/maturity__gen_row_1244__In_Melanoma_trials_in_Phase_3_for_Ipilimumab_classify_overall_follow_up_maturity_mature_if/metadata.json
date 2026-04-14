@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1244",
+  "csv_row_number": 1244,
+  "question": "In Melanoma trials in Phase 3 for Ipilimumab, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "maturity"
+  ],
+  "expected_llm_response": {
+    "maturity": "immature"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Follow-up duration for primary endpoint(s) in months | Overall\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Follow-up duration for primary endpoint(s) in months | Overall\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_maturity(source_value) AS \"maturity\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/maturity__gen_row_1244__In_Melanoma_trials_in_Phase_3_for_Ipilimumab_classify_overall_follow_up_maturity_mature_if/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "maturity"
+}

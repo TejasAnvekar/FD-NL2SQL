@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT02125461,28885881,PACIFIC,No,false,"{""pd_l1_required"": false}"
+2,NCT02125461,30280658,PACIFIC,No,false,"{""pd_l1_required"": false}"
+3,NCT02454933,30763730,CAURAL,No,false,"{""pd_l1_required"": false}"
+4,NCT02352948,32201234,ARCTIC,No,false,"{""pd_l1_required"": false}"
+5,NCT02453282,32271377,MYSTIC,No,false,"{""pd_l1_required"": false}"

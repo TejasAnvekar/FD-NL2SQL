@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_842",
+  "csv_row_number": 842,
+  "question": "For Durvalumab, Tremelimumab trials in Phase 3 included in the meta-analysis, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "expected_llm_response": {
+    "irAE_assessed": false
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Durvalumab, Tremelimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Durvalumab, Tremelimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_irae_assessed(source_value) AS \"irAE_assessed\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/irAE_assessed__gen_row_842__For_Durvalumab_Tremelimumab_trials_in_Phase_3_included_in_the_meta_analysis_from_the_secon/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Name of ICI": "Durvalumab, Tremelimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "irAE_assessed"
+}

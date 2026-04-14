@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_backbone,derived_expected_llm_response
+1,NCT02302807,29268948,IMvigor211,Vinflunine+Paclitaxel+Docetaxel,,"{""control_backbone"": null}"
+2,NCT02425891,30345906,IMpassion130,Nab-paclitaxel,,"{""control_backbone"": null}"
+3,NCT02395172,30262187,JAVELIN Lung 200,Docetaxel,,"{""control_backbone"": null}"
+4,NCT02367781,31122901,IMpower130,Carboplatin+Nab-paclitaxel,Carboplatin+Paclitaxel,"{""control_backbone"": ""Carboplatin+Paclitaxel""}"
+5,NCT02367794,32302702,IMpower131,Carboplatin+Nab-paclitaxel,Carboplatin+Paclitaxel,"{""control_backbone"": ""Carboplatin+Paclitaxel""}"
+6,NCT02367794,32302702,IMpower131,Carboplatin+Nab-paclitaxel,Carboplatin+Paclitaxel,"{""control_backbone"": ""Carboplatin+Paclitaxel""}"
+7,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,Gemcitabine+Platinum,"{""control_backbone"": ""Gemcitabine+Platinum""}"
+8,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,Gemcitabine+Platinum,"{""control_backbone"": ""Gemcitabine+Platinum""}"

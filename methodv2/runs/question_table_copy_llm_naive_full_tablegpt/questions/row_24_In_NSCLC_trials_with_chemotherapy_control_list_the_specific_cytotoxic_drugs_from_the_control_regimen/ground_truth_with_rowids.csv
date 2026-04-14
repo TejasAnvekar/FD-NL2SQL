@@ -1,2 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response,table_row_id
-1,NCT02657434,33333328,Impower 132,Carboplatin/Cisplatin+Pemetrexed,"[""carboplatin"", ""cisplatin"", ""pemetrexed""]","{""control_drugs"": [""carboplatin"", ""cisplatin"", ""pemetrexed""]}",132

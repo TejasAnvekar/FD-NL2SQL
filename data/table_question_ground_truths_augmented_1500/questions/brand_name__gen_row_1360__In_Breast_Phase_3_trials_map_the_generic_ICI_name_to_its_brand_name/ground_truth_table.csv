@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02425891,31786121,IMpassion130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+2,NCT03036488,32101663,KEYNOTE-522,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"

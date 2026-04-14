@@ -1,0 +1,26 @@
+{
+  "item_id": "gen_row_887",
+  "csv_row_number": 887,
+  "question": "For Ipilimumab trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "specific_regimens"
+  ],
+  "expected_llm_response": {
+    "specific_regimens": [
+      "Carboplatin+Paclitaxel"
+    ]
+  },
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Control arm\" = 'Chemo' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials WHERE \"Control arm\" = 'Chemo' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_specific_regimens(source_value) AS \"specific_regimens\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/specific_regimens__gen_row_887__For_Ipilimumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_i/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 1,
+  "filters": {
+    "Control arm": "Chemo",
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "specific_regimens"
+}

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,components,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,OS+PFS,"[""OS"", ""PFS""]","{""components"": [""OS"", ""PFS""]}"
+2,NCT01905657,26712084,Keynote-010,OS+PFS,"[""OS"", ""PFS""]","{""components"": [""OS"", ""PFS""]}"
+3,NCT02039674,27745820,Keynote-021,ORR,"[""ORR""]","{""components"": [""ORR""]}"
+4,NCT02039674,30138764,Keynote-021,ORR,"[""ORR""]","{""components"": [""ORR""]}"
+5,NCT02574598,32271354,PROLUNG,ORR,"[""ORR""]","{""components"": [""ORR""]}"

@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.,secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02352948,32201234,ARCTIC,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.,secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02453282,32271377,MYSTIC,PFS for durvalumab vs. chemotherapy; ORR and DOR in patients with PD-L1 TC ≥25%; safety and tolerability.,secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02369874,32294530,EAGLE,"PFS, ORR, DOR",secondary,"{""endpoint_role"": ""secondary""}"

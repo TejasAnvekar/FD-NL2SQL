@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1128",
+  "csv_row_number": 1128,
+  "question": "In Melanoma trials for Ipilimumab, construct a PubMed URL from the PubMed ID.",
+  "column_used": "PubMed ID",
+  "expected_keys": [
+    "pubmed_url"
+  ],
+  "expected_llm_response": {
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31880964/"
+  },
+  "sql_query": "SELECT \"PubMed ID\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"PubMed ID\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_pubmed_url(source_value) AS \"pubmed_url\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/pubmed_url__gen_row_1128__In_Melanoma_trials_for_Ipilimumab_construct_a_PubMed_URL_from_the_PubMed_ID/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Ipilimumab",
+    "Included in MA": "No"
+  },
+  "family_id": "pubmed_url"
+}

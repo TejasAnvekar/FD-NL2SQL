@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,era,derived_expected_llm_response
+1,NCT02105636,27718784,CheckMate 141,2016,2015–2018,"{""era"": ""2015–2018""}"
+2,NCT02105636,29884413,CheckMate 141,2018,2015–2018,"{""era"": ""2015–2018""}"
+3,NCT02017717,32437507,CheckMate 143,2020,≥2019,"{""era"": ""≥2019""}"

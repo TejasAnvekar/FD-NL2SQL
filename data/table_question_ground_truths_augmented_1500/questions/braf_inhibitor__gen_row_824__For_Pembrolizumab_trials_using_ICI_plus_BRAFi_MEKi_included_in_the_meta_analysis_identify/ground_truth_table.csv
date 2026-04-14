@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,braf_inhibitor,derived_expected_llm_response
+1,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,dabrafenib,"{""braf_inhibitor"": ""dabrafenib""}"

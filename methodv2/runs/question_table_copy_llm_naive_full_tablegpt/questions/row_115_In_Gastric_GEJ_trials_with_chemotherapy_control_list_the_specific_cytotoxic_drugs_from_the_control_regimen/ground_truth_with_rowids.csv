@@ -1,5 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response,table_row_id
-1,NCT02370498,29880231,Keynote-061,Paclitaxel,"[""paclitaxel""]","{""control_drugs"": [""paclitaxel""]}",11
-2,NCT02494583,32880601,Keynote-062,Placebo+Cisplatin+5-FU+Capecitabine,"[""cisplatin"", ""5-fu"", ""capecitabine""]","{""control_drugs"": [""cisplatin"", ""5-fu"", ""capecitabine""]}",120
-3,NCT02494583,32880601,Keynote-062,Placebo+Cisplatin+5-FU+Capecitabine,"[""cisplatin"", ""5-fu"", ""capecitabine""]","{""control_drugs"": [""cisplatin"", ""5-fu"", ""capecitabine""]}",121
-4, NCT02625610,33197226,Javelin Gastric 100,Oxaliplstin+5-FU+Leucovorin+Capecitabine+Best supportive care,"[""oxaliplstin"", ""5-fu"", ""leucovorin"", ""capecitabine""]","{""control_drugs"": [""oxaliplstin"", ""5-fu"", ""leucovorin"", ""capecitabine""]}",127

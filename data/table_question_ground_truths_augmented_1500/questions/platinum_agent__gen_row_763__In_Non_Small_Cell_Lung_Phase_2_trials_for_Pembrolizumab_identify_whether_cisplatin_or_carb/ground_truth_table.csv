@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Pembrolizumab,,"{""platinum_agent"": null}"
+2,NCT01905657,26712084,Keynote-010,Pembrolizumab,,"{""platinum_agent"": null}"
+3,NCT02039674,27745820,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+4,NCT02039674,30138764,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+5,NCT02574598,32271354,PROLUNG,Pembrolizumab+ Docetaxel,,"{""platinum_agent"": null}"

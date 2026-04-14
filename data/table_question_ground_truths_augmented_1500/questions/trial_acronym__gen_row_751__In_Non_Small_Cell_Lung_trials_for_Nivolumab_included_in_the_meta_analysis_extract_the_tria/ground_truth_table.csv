@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT01673867,26412456,Checkmate 057,Checkmate 057,CHECKMATE-057,"{""trial_acronym"": ""CHECKMATE-057""}"
+2,NCT01642004,26028407,Checkmate 017,Checkmate 017,CHECKMATE-017,"{""trial_acronym"": ""CHECKMATE-017""}"
+3,NCT02041533,28636851,Checkmate 026,Checkmate 026,CHECKMATE-026,"{""trial_acronym"": ""CHECKMATE-026""}"
+4,NCT02477826,29658845,Checkmate 227,Checkmate 227,CHECKMATE-227,"{""trial_acronym"": ""CHECKMATE-227""}"
+5,NCT02477826,31562796,Checkmate 227,Checkmate 227,CHECKMATE-227,"{""trial_acronym"": ""CHECKMATE-227""}"
+6,NCT02477826,31562796,Checkmate 227,Checkmate 227,CHECKMATE-227,"{""trial_acronym"": ""CHECKMATE-227""}"
+7,NCT02613507,30659987,Checkmate 078,Checkmate 078,CHECKMATE-078,"{""trial_acronym"": ""CHECKMATE-078""}"

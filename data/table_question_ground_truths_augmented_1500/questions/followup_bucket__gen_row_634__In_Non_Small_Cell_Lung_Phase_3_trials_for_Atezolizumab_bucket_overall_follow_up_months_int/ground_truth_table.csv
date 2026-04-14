@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,followup_bucket,derived_expected_llm_response
+1,NCT02395172,30262187,JAVELIN Lung 200,18.3,12–23,"{""followup_bucket"": ""12–23""}"
+2,NCT02008227,27979383,OAK,21,12–23,"{""followup_bucket"": ""12–23""}"
+3,NCT02008227,29777823,OAK,26,≥24,"{""followup_bucket"": ""≥24""}"
+4,NCT02366143,29863955,IMPower150,"MIN for PFS 9.5, OS 14; MEDIAN for OS 20",,"{""followup_bucket"": null}"
+5,NCT02366143,29863955,IMPower150,"MIN for PFS 9.5, OS 14; MEDIAN for OS 20",,"{""followup_bucket"": null}"
+6,NCT02409342,32997907,IMpower110,13.4,12–23,"{""followup_bucket"": ""12–23""}"
+7,NCT02008227,33166718,OAK,47.7,≥24,"{""followup_bucket"": ""≥24""}"

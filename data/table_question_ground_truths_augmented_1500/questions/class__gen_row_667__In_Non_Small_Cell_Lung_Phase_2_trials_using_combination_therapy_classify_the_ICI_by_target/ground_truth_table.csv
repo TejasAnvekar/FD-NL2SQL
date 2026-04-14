@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT00527735,22547592,,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"
+2,NCT00527735,22547592,,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"
+3,NCT02039674,27745820,Keynote-021,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+4,NCT02039674,30138764,Keynote-021,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+5,NCT02574598,32271354,PROLUNG,Pembrolizumab,PD1,"{""class"": ""PD1""}"

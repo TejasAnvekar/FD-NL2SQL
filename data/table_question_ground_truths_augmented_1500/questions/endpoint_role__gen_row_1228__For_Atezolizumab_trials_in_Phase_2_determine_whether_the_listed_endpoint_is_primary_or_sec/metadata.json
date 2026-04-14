@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1228",
+  "csv_row_number": 1228,
+  "question": "For Atezolizumab trials in Phase 2, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "expected_llm_response": {
+    "endpoint_role": "secondary"
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_role(source_value, 'Secondary endpoint') AS \"endpoint_role\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/endpoint_role__gen_row_1228__For_Atezolizumab_trials_in_Phase_2_determine_whether_the_listed_endpoint_is_primary_or_sec/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 2",
+    "Included in MA": "No"
+  },
+  "family_id": "endpoint_role_secondary"
+}

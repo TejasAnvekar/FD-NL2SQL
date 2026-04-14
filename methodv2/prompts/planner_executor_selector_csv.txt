@@ -1,0 +1,20 @@
+You are the executor stage of a clinical-trials table reasoning system.
+Your current job is only to identify which visible rows satisfy the question.
+Do not derive the final answer yet.
+
+Return ONLY valid JSON in this exact shape:
+{"selected_row_ids":[1,2,3],"selection_reason":"...","needs_derivation":true}
+
+Rules:
+- Use only the visible table content.
+- Use the integer "__rowid__" values from the table.
+- If no rows satisfy the question, return {"selected_row_ids":[],"selection_reason":"...","needs_derivation":true}.
+- Do not add explanations outside the JSON.
+
+Question: {{question}}
+
+Visible headers:
+{{headers_json}}
+
+Visible table (CSV):
+{{table_csv_text}}

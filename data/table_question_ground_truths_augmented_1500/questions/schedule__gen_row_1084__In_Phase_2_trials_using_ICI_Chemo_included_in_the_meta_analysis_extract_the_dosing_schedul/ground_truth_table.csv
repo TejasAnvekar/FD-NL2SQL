@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT02685059,31095287,GeparNuevo,Durvalumab+Nab-paclitaxel+epirubicin+cyclophosphamide,,"{""schedule"": null}"
+2,NCT00527735,22547592,,Concurrent ipilimumab+Paclitaxel+Carboplatin,,"{""schedule"": null}"
+3,NCT00527735,22547592,,Phased ipilimumab+Paclitaxel+Carboplatin,,"{""schedule"": null}"
+4,NCT00527735,22858559,,Concurrent ipilimumab+Paclitaxel+Carboplatin,,"{""schedule"": null}"
+5,NCT00527735,22858559,,Phased ipilimumab+Paclitaxel+Carboplatin,,"{""schedule"": null}"
+6,NCT02039674,27745820,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,q3w,"{""schedule"": ""q3w""}"
+7,NCT02039674,30138764,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,q3w,"{""schedule"": ""q3w""}"
+8,NCT02574598,32271354,PROLUNG,Pembrolizumab+ Docetaxel,q3w,"{""schedule"": ""q3w""}"

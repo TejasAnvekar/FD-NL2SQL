@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT01984242,29867230,IMmotion150,Atezolizumab+Bevacizumab,,"{""platinum_agent"": null}"
+2,NCT02425891,31786121,IMpassion130,Atezolizumab+Nab-paclitaxel,,"{""platinum_agent"": null}"
+3,NCT02763579,31959349,IMpower133,Atezolizumab+Carboplatin+Etoposide,carboplatin,"{""platinum_agent"": ""carboplatin""}"

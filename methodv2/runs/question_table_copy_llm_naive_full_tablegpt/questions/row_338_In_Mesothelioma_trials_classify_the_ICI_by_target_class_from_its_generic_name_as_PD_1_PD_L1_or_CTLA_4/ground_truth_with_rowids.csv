@@ -1,4 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response,table_row_id
-1,NCT01843374,28729154,DETERMINE,Tremelimumab,CTLA-4,"{""class"": ""CTLA-4""}",73
-2,NCT02899299,33485464,CheckMate 743,"Nivolumab, Ipilimumab","PD1, CTLA-4","{""class"": ""PD1, CTLA-4""}",128
-3,NCT02991482,32976938,PROMISE-meso,Pembrolizumab,PD1,"{""class"": ""PD1""}",139

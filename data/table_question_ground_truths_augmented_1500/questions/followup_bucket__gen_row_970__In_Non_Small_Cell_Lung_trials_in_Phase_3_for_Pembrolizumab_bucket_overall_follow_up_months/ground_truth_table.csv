@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,followup_bucket,derived_expected_llm_response
+1,NCT02578680,29658856,Keynote-189,10.5,<12,"{""followup_bucket"": ""<12""}"
+2,NCT02775435,30280635,Keynote-407,7.8,<12,"{""followup_bucket"": ""<12""}"
+3,NCT02220894,30955977,Keynote-042,12.8,12–23,"{""followup_bucket"": ""12–23""}"
+4,NCT02142738,30620668,Keynote-024,25.2,≥24,"{""followup_bucket"": ""≥24""}"

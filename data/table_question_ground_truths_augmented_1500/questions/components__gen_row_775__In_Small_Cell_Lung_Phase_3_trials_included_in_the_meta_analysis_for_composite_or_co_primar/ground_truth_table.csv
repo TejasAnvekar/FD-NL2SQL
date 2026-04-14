@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,components,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,OS,"[""OS""]","{""components"": [""OS""]}"
+2,NCT02763579,30280641,IMPower 133,OS+PFS,"[""OS"", ""PFS""]","{""components"": [""OS"", ""PFS""]}"
+3,NCT03043872,31590988,CASPIAN,OS,"[""OS""]","{""components"": [""OS""]}"
+4,NCT03043872,31590988,CASPIAN,OS,"[""OS""]","{""components"": [""OS""]}"
+5,NCT03066778,32468956,KEYNOTE-604,OS+PFS,"[""OS"", ""PFS""]","{""components"": [""OS"", ""PFS""]}"

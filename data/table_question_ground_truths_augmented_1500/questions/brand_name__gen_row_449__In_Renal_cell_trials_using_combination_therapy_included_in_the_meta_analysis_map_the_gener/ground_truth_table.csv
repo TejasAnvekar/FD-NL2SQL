@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02231749,29562145,CheckMate 214,"Nivolumab, Ipilimumab","Opdivo, Yervoy","{""brand_name"": ""Opdivo, Yervoy""}"
+2,NCT02231749,31427204,CheckMate 214,"Nivolumab, Ipilimumab","Opdivo, Yervoy","{""brand_name"": ""Opdivo, Yervoy""}"
+3,NCT02684006,30779531,JAVELIN Renal 101,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"
+4,NCT02853331,30779529,KEYNOTE-426,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+5,NCT02420821,31079938,IMmotion151,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+6,NCT02231749,32661118,CheckMate 214,"Nivolumab, Ipilimumab","Opdivo, Yervoy","{""brand_name"": ""Opdivo, Yervoy""}"

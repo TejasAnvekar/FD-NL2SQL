@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,Docetaxel,"[""docetaxel""]","{""control_drugs"": [""docetaxel""]}"
+2,NCT01903993,33166718,POPLAR,Docetaxel,"[""docetaxel""]","{""control_drugs"": [""docetaxel""]}"

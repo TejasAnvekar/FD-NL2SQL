@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,No,false,"{""pd_l1_required"": false}"
+2,NCT02352948,32201234,ARCTIC,No,false,"{""pd_l1_required"": false}"
+3,NCT02453282,32271377,MYSTIC,No,false,"{""pd_l1_required"": false}"
+4,NCT02369874,32294530,EAGLE,Yes,true,"{""pd_l1_required"": true}"

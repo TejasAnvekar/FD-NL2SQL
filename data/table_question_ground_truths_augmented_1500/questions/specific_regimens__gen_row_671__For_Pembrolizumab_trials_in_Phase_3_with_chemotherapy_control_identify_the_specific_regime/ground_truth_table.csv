@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02775435,30280635,Keynote-407,Placebo+Carboplatin+paclitaxel/nab-paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+2,NCT02576977,31327687,KEYNOTE-183,Pomalidomide+Dexamethasone,,"{""specific_regimens"": null}"
+3,NCT02579863,31327689,KEYNOTE-185,Lenalidomide+Dexamethasone,,"{""specific_regimens"": null}"
+4,NCT03036488,32101663,KEYNOTE-522,Placebo+Paclitaxel+Carboplatin,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"

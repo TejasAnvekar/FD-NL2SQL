@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT02395172,30262187,JAVELIN Lung 200,2,2-arm,"{""arm_category"": ""2-arm""}"
+3,NCT02366143,29863955,IMPower150,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+4,NCT02366143,29863955,IMPower150,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+5,NCT02367781,31122901,IMpower130,2,2-arm,"{""arm_category"": ""2-arm""}"
+6,NCT02367794,32302702,IMpower131,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+7,NCT02367794,32302702,IMpower131,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"

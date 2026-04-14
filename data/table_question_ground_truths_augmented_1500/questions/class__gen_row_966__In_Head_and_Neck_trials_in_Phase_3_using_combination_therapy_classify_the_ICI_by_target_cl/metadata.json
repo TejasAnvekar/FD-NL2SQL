@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_966",
+  "csv_row_number": 966,
+  "question": "In Head and Neck trials in Phase 3 using combination therapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "class"
+  ],
+  "expected_llm_response": {
+    "class": "PD1"
+  },
+  "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Name of ICI\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Name of ICI\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_class(source_value) AS \"class\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/class__gen_row_966__In_Head_and_Neck_trials_in_Phase_3_using_combination_therapy_classify_the_ICI_by_target_cl/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Cancer type": "Head and Neck",
+    "Trial phase": "Phase 3",
+    "Monotherapy/combination": "Combination"
+  },
+  "family_id": "class"
+}

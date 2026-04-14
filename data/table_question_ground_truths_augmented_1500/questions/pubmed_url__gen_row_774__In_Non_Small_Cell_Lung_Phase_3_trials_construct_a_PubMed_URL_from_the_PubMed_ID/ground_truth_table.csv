@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pubmed_url,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,30280658,https://pubmed.ncbi.nlm.nih.gov/30280658/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30280658/""}"
+2,NCT02008227,27979383,OAK,27979383,https://pubmed.ncbi.nlm.nih.gov/27979383/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/27979383/""}"
+3,NCT02008227,29777823,OAK,29777823,https://pubmed.ncbi.nlm.nih.gov/29777823/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/29777823/""}"
+4,NCT02775435,30280635,Keynote-407,30280635,https://pubmed.ncbi.nlm.nih.gov/30280635/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30280635/""}"
+5,NCT02454933,30763730,CAURAL,30763730,https://pubmed.ncbi.nlm.nih.gov/30763730/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30763730/""}"

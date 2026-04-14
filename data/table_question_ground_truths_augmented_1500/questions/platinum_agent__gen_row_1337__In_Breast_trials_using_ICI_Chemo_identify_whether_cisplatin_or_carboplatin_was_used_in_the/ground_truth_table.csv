@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT01042379,32053137,I-SPY2,Pembrolizumab+Paclitaxel,,"{""platinum_agent"": null}"
+2,NCT02425891,31786121,IMpassion130,Atezolizumab+Nab-paclitaxel,,"{""platinum_agent"": null}"
+3,NCT03036488,32101663,KEYNOTE-522,Pembrolizumab+Paclitaxel+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"

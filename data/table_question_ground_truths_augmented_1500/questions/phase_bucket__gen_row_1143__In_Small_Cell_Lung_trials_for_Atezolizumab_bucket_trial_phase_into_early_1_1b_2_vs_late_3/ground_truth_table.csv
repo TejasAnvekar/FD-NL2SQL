@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT03059667,30664989,IFCT-1603,Phase 2,early,"{""phase_bucket"": ""early""}"
+2,NCT02763579,31959349,IMpower133,Phase 3,late,"{""phase_bucket"": ""late""}"

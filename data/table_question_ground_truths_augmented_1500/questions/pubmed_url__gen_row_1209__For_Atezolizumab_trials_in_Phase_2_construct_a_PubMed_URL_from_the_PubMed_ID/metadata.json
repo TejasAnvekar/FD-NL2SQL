@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1209",
+  "csv_row_number": 1209,
+  "question": "For Atezolizumab trials in Phase 2, construct a PubMed URL from the PubMed ID.",
+  "column_used": "PubMed ID",
+  "expected_keys": [
+    "pubmed_url"
+  ],
+  "expected_llm_response": {
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29867230/"
+  },
+  "sql_query": "SELECT \"PubMed ID\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"PubMed ID\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_pubmed_url(source_value) AS \"pubmed_url\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/pubmed_url__gen_row_1209__For_Atezolizumab_trials_in_Phase_2_construct_a_PubMed_URL_from_the_PubMed_ID/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 2",
+    "Included in MA": "No"
+  },
+  "family_id": "pubmed_url"
+}

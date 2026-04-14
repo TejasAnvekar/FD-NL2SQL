@@ -1,0 +1,26 @@
+{
+  "item_id": "gen_row_968",
+  "csv_row_number": 968,
+  "question": "In Breast trials in Phase 3 for Atezolizumab with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_drugs"
+  ],
+  "expected_llm_response": {
+    "control_drugs": [
+      "nab-paclitaxel"
+    ]
+  },
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Control regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Breast' AND TRIM(COALESCE(\"Control arm\", '')) = 'Chemo' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Control regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Breast' AND TRIM(COALESCE(\"Control arm\", '')) = 'Chemo' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_drugs(source_value) AS \"control_drugs\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/control_drugs__gen_row_968__In_Breast_trials_in_Phase_3_for_Atezolizumab_with_chemotherapy_control_list_the_specific_c/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Control arm": "Chemo",
+    "Cancer type": "Breast",
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "control_drugs"
+}

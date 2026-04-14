@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1315",
+  "csv_row_number": 1315,
+  "question": "For Ipilimumab trials in Phase 3 included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "expected_llm_response": {
+    "endpoint_role": "primary"
+  },
+  "sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Primary endpoint\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_role(source_value, 'Primary endpoint') AS \"endpoint_role\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/endpoint_role__gen_row_1315__For_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_determine_whether_the_liste/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 8,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "endpoint_role_primary"
+}

@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,followup_bucket,derived_expected_llm_response
+1,NCT01721746,25795410,CheckMate 037,6,<12,"{""followup_bucket"": ""<12""}"
+2,NCT01721746,28671856,CheckMate 037,24,≥24,"{""followup_bucket"": ""≥24""}"
+3,NCT01721772,25399552,CheckMate 066,16.7,12–23,"{""followup_bucket"": ""12–23""}"
+4,NCT01721772,30422243,CheckMate 066,38.4,≥24,"{""followup_bucket"": ""≥24""}"

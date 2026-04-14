@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,followup_bucket,derived_expected_llm_response
+1,NCT02763579,30280641,IMPower 133,13.9,12–23,"{""followup_bucket"": ""12–23""}"
+2,NCT03043872,31590988,CASPIAN,14.2,12–23,"{""followup_bucket"": ""12–23""}"
+3,NCT03043872,31590988,CASPIAN,14.2,12–23,"{""followup_bucket"": ""12–23""}"

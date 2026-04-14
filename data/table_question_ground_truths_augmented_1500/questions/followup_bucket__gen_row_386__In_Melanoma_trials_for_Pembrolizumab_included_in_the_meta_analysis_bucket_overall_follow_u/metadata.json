@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_386",
+  "csv_row_number": 386,
+  "question": "In Melanoma trials for Pembrolizumab included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "followup_bucket"
+  ],
+  "expected_llm_response": {
+    "followup_bucket": "12–23"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Follow-up duration for primary endpoint(s) in months | Overall\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Follow-up duration for primary endpoint(s) in months | Overall\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_bucket(source_value) AS \"followup_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/followup_bucket__gen_row_386__In_Melanoma_trials_for_Pembrolizumab_included_in_the_meta_analysis_bucket_overall_follow_u/ground_truth_table.csv",
+  "row_count": 6,
+  "non_null_count": 6,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Pembrolizumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "followup_bucket"
+}

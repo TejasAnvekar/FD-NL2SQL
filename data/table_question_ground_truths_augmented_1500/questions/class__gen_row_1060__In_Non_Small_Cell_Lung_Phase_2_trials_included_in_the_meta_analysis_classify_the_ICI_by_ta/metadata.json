@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1060",
+  "csv_row_number": 1060,
+  "question": "In Non-Small Cell Lung Phase 2 trials included in the meta-analysis, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "class"
+  ],
+  "expected_llm_response": {
+    "class": "CTLA-4"
+  },
+  "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_class(source_value) AS \"class\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/class__gen_row_1060__In_Non_Small_Cell_Lung_Phase_2_trials_included_in_the_meta_analysis_classify_the_ICI_by_ta/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 8,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "class"
+}

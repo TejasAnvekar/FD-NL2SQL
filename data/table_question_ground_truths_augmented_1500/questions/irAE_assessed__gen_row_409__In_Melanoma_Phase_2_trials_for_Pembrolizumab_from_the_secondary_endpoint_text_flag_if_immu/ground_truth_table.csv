@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.,false,"{""irAE_assessed"": false}"
+2,NCT01704287,26115796,KEYNOTE-002,ORR; response duration; time from best overall response of complete or partial response until disease progression; safety.,false,"{""irAE_assessed"": false}"
+3,NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.,false,"{""irAE_assessed"": false}"
+4,NCT01704287,28961465,KEYNOTE-002,ORR; response duration; safety.,false,"{""irAE_assessed"": false}"
+5,NCT02130466,31171878,KEYNOTE-022,ORR; duration of response; time to response; OS.,false,"{""irAE_assessed"": false}"
+6,NCT02130466,33361337,KEYNOTE-022,ORR; duration of response; time to response; OS,false,"{""irAE_assessed"": false}"

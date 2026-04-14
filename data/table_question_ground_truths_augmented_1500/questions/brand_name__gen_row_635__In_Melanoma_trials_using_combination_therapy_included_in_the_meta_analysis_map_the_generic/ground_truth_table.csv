@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT00324155,21639810,,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+2,NCT00094653,20525992,MDX010-20,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+3,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+4,NCT02523313,32416781,IMMUNED,"Nivolumab, Ipilimumab","Opdivo, Yervoy","{""brand_name"": ""Opdivo, Yervoy""}"
+5,NCT02908672,32534646,IMspire150,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"

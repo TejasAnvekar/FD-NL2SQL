@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01274338,31880964,E1609,"Safety, tolerability and quality-of-life with adjuvant ipilimumab",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT01274338,31880964,E1609,"Safety, tolerability and quality-of-life with adjuvant ipilimumab",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT00094653,23942774,MDX010-20,"DOS, responses, and safety among patients with ≥2 years’ survival.",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT00094653,23942774,MDX010-20,"DOS, responses, and safety among patients with ≥2 years’ survival.",secondary,"{""endpoint_role"": ""secondary""}"

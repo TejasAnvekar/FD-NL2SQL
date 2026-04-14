@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,components,derived_expected_llm_response
+1,NCT01585987,28655793,,PFS,"[""PFS""]","{""components"": [""PFS""]}"
+2,NCT00527735,22547592,,PFS,"[""PFS""]","{""components"": [""PFS""]}"
+3,NCT00527735,22547592,,PFS,"[""PFS""]","{""components"": [""PFS""]}"

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,"PFS, ORR, DOR",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02763579,30280641,IMPower 133,"ORR, DOR",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.,secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.,secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT03066778,32468956,KEYNOTE-604,ORR; DOR,secondary,"{""endpoint_role"": ""secondary""}"

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1142",
+  "csv_row_number": 1142,
+  "question": "In Gastric/GEJ Phase 3 trials included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "maturity"
+  ],
+  "expected_llm_response": {
+    "maturity": "immature"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Gastric/GEJ' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Gastric/GEJ' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_maturity(source_value) AS \"maturity\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/maturity__gen_row_1142__In_Gastric_GEJ_Phase_3_trials_included_in_the_meta_analysis_classify_overall_follow_up_mat/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Gastric/GEJ",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "maturity"
+}

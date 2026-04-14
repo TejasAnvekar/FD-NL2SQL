@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT02763579,30280641,IMPower 133,13.9,immature,"{""maturity"": ""immature""}"
+2,NCT03043872,31590988,CASPIAN,14.2,immature,"{""maturity"": ""immature""}"
+3,NCT03043872,31590988,CASPIAN,14.2,immature,"{""maturity"": ""immature""}"

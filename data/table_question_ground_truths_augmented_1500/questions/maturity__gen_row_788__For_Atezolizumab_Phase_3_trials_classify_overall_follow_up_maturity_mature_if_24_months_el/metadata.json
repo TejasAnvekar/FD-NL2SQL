@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_788",
+  "csv_row_number": 788,
+  "question": "For Atezolizumab Phase 3 trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "maturity"
+  ],
+  "expected_llm_response": {
+    "maturity": "immature"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_maturity(source_value) AS \"maturity\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/maturity__gen_row_788__For_Atezolizumab_Phase_3_trials_classify_overall_follow_up_maturity_mature_if_24_months_el/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "maturity"
+}

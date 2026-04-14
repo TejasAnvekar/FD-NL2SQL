@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT00324155,21639810,,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"
+2,NCT00094653,20525992,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"
+3,NCT02908672,32534646,IMspire150,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+4,NCT00094653,23942774,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"

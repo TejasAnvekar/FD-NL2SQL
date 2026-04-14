@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT02362594,29658430,EORTC 1325-MG/KEYNOTE-054,Phase 3,late,"{""phase_bucket"": ""late""}"
+2,NCT01704287,26115796,KEYNOTE-002,Phase 2,early,"{""phase_bucket"": ""early""}"
+3,NCT01704287,26115796,KEYNOTE-002,Phase 2,early,"{""phase_bucket"": ""early""}"
+4,NCT01704287,28961465,KEYNOTE-002,Phase 2,early,"{""phase_bucket"": ""early""}"
+5,NCT01704287,28961465,KEYNOTE-002,Phase 2,early,"{""phase_bucket"": ""early""}"
+6,NCT02130466,31171878,KEYNOTE-022,Phase 2,early,"{""phase_bucket"": ""early""}"

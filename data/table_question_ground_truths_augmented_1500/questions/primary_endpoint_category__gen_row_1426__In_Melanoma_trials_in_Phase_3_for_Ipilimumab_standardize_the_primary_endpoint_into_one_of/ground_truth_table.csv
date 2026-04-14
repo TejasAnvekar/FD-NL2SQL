@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT00324155,21639810,,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT00094653,20525992,MDX010-20,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT00094653,20525992,MDX010-20,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+4,NCT00636168,27717298,,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+5,NCT01274338,31880964,E1609,OS+RFS,OS,"{""primary_endpoint_category"": ""OS""}"
+6,NCT01274338,31880964,E1609,OS+RFS,OS,"{""primary_endpoint_category"": ""OS""}"
+7,NCT00094653,23942774,MDX010-20,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+8,NCT00094653,23942774,MDX010-20,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+9, NCT00636168,25840693,,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"

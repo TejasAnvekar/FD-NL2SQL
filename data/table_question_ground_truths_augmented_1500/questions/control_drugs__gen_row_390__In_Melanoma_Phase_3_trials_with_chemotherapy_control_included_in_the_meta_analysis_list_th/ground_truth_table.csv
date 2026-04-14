@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT00324155,21639810,,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}"
+2,NCT00257205,23295794,,Temozolomide/dacarbazine,"[""temozolomide"", ""dacarbazine""]","{""control_drugs"": [""temozolomide"", ""dacarbazine""]}"
+3,NCT01721746,25795410,CheckMate 037,Dacarbazine/carboplatin+paclitaxel,"[""dacarbazine"", ""carboplatin"", ""paclitaxel""]","{""control_drugs"": [""dacarbazine"", ""carboplatin"", ""paclitaxel""]}"
+4,NCT01721746,28671856,CheckMate 037,Dacarbazine/carboplatin+paclitaxel,"[""dacarbazine"", ""carboplatin"", ""paclitaxel""]","{""control_drugs"": [""dacarbazine"", ""carboplatin"", ""paclitaxel""]}"
+5,NCT01721772,25399552,CheckMate 066,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}"
+6,NCT01721772,30422243,CheckMate 066,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}"

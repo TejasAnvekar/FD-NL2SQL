@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02425891,31786121,IMpassion130,Nab-paclitaxel,,"{""specific_regimens"": null}"
+2,NCT03036488,32101663,KEYNOTE-522,Placebo+Paclitaxel+Carboplatin,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"

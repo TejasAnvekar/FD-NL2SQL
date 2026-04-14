@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT02231749,29562145,CheckMate 214,25.2,mature,"{""maturity"": ""mature""}"
+2,NCT02231749,31427204,CheckMate 214,32.4,mature,"{""maturity"": ""mature""}"
+3,NCT02477826,29658845,Checkmate 227,11.2,immature,"{""maturity"": ""immature""}"
+4,NCT02477826,31562796,Checkmate 227,29.3,mature,"{""maturity"": ""mature""}"
+5,NCT02231749,32661118,CheckMate 214,42,mature,"{""maturity"": ""mature""}"

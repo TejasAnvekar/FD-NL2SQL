@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,IMblaze130,IMblaze130,"{""trial_acronym"": ""IMblaze130""}"
+2,NCT02788279,31003911,IMblaze130,IMblaze130,IMblaze130,"{""trial_acronym"": ""IMblaze130""}"
+3,NCT02008227,27979383,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"
+4,NCT02008227,29777823,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"
+5,NCT02425891,31786121,IMpassion130,IMpassion130,IMpassion130,"{""trial_acronym"": ""IMpassion130""}"
+6,NCT02763579,31959349,IMpower133,IMpower133,IMpower133,"{""trial_acronym"": ""IMpower133""}"

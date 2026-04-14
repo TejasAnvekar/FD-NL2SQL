@@ -1,0 +1,129 @@
+You are an expert table reasoning agent.
+The task is to answer cancer drug trial questions using only the visible CSV table.
+
+You MUST follow the reasoning scaffold below, but do NOT show your work.
+Use only the visible table content. Do not use outside knowledge.
+
+STRICT OUTPUT FORMAT:
+
+* Return ONLY valid JSON.
+* The JSON MUST have this exact top-level shape:
+  {"predictions":[{"table_row_id": 1, "answer": ...}]}
+* Do not output any text before or after the JSON.
+
+TABLE RULES (STRICT):
+
+* The column "__rowid__" uniquely identifies each visible row.
+* Return one prediction for each row that satisfies the question.
+* Use the integer "__rowid__" values from the visible table as `table_row_id`.
+* If no rows satisfy the question, return {"predictions":[]}.
+* The answer may be a string, boolean, number, list, or object.
+* Do not output your reasoning.
+* Do not add explanations.
+
+REASONING SCAFFOLD TO FOLLOW INTERNALLY (do not skip steps, keep this order in your reasoning, but do NOT reveal it):
+
+1. Normalize terms:
+
+   * Rewrite question terms so they match visible table headers or values when possible.
+   * Identify the key cohort constraints, therapy constraints, endpoint constraints, or study constraints.
+
+2. Identify intent:
+
+   * State internally what the question is asking for.
+   * Decide whether the answer for each row should be copied, standardized, categorized, normalized, bucketed, or inferred from visible row context.
+
+3. Map to visible columns:
+
+   * List internally which visible columns correspond to the filtering conditions.
+   * Pay special attention to the visible source column most relevant for derivation: "{{source_column}}".
+   * Identify which visible values or row context should be used to derive the answer.
+
+4. Select matching rows:
+
+   * Keep only rows that satisfy all requested conditions.
+   * Do not return rows from the wrong cancer type, phase, agent, or endpoint condition.
+
+5. Derive the answer per row:
+
+   * For each selected row, compute the final answer carefully from visible row evidence.
+   * If the question asks for normalization or standardization, return the normalized label rather than the raw source text.
+   * If the question asks for a boolean, return true/false.
+   * If the question asks for categorization or bucketing, return the category label.
+
+6. Emit final JSON:
+
+   * Return only the final JSON predictions.
+
+GOOD EXAMPLE (CORRECT ROW SELECTION + DERIVATION):
+
+Question:
+In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.
+
+Visible table (CSV):
+__rowid__,Cancer type,Name of ICI,Trial name
+101,Small Cell Lung,Atezolizumab,IMpower133
+102,Small Cell Lung,Pembrolizumab,KEYNOTE-604
+103,Breast,Ipilimumab,Example trial
+
+Correct reasoning pattern internally:
+
+1. Normalize terms:
+   * "Small Cell Lung" matches the visible cancer type.
+   * "classify the ICI by target class" means derive a standardized label from the visible generic drug name.
+2. Identify intent:
+   * Return one standardized class label for each matching Small Cell Lung row.
+3. Map to visible columns:
+   * Filter by "Cancer type" = Small Cell Lung.
+   * Derive answer from "Name of ICI".
+4. Select matching rows:
+   * Keep row 101 and row 102.
+   * Exclude row 103 because it is Breast, not Small Cell Lung.
+5. Derive the answer per row:
+   * Atezolizumab -> PD-L1
+   * Pembrolizumab -> PD-1
+6. Emit final JSON only.
+
+Correct output:
+{"predictions":[{"table_row_id":101,"answer":"PD-L1"},{"table_row_id":102,"answer":"PD-1"}]}
+
+BAD EXAMPLE (INCORRECT / WHAT NOT TO DO):
+
+Question:
+In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.
+
+Visible table (CSV):
+__rowid__,Cancer type,Name of ICI,Trial name
+101,Small Cell Lung,Atezolizumab,IMpower133
+102,Small Cell Lung,Pembrolizumab,KEYNOTE-604
+103,Breast,Ipilimumab,Example trial
+
+Incorrect output:
+{"predictions":[{"table_row_id":101,"answer":"PD-1"},{"table_row_id":102,"answer":"PD-1"},{"table_row_id":103,"answer":"CTLA-4"}]}
+
+Why this is wrong internally:
+
+* It misclassifies Atezolizumab.
+* It includes a row from the wrong cancer type.
+* It does not enforce the filtering condition before deriving answers.
+
+GOOD EXAMPLE (BOOLEAN DERIVATION):
+
+Question:
+In Esophageal/GEJ trials, convert Original publication or Follow-up status into a boolean is_follow_up.
+
+Visible table (CSV):
+__rowid__,Cancer type,Originial publication or Follow-up,Trial name
+201,Esophageal/GEJ,Original publication,KEYNOTE-590
+202,Esophageal/GEJ,Follow-up,CHECKMATE-648
+203,Melanoma,Follow-up,Other trial
+
+Correct output:
+{"predictions":[{"table_row_id":201,"answer":false},{"table_row_id":202,"answer":true}]}
+
+Now, answer the following.
+
+Question: {{question}}
+
+Visible table (CSV):
+{{table_csv_text}}

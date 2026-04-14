@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1265",
+  "csv_row_number": 1265,
+  "question": "In Breast Phase 3 trials for Atezolizumab, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "expected_llm_response": {
+    "era": "2015–2018"
+  },
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Breast' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Breast' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/era__gen_row_1265__In_Breast_Phase_3_trials_for_Atezolizumab_bucket_the_publication_year_into_2014_2015_2018/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Breast",
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "era"
+}

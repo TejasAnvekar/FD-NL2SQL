@@ -1,8 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response,table_row_id
-1,NCT02500121,32271672,,,unknown,"{""maturity"": ""unknown""}",106
-2,NCT02807636,32416780,IMvigor130,,unknown,"{""maturity"": ""unknown""}",107
-3,NCT02807636,32416780,IMvigor130,,unknown,"{""maturity"": ""unknown""}",108
-4,NCT02516241,32971005,DANUBE,41.2,mature,"{""maturity"": ""mature""}",123
-5,NCT02516241,32971005,DANUBE,41.2,mature,"{""maturity"": ""mature""}",124
-6,NCT02603432,32945632,,19,immature,"{""maturity"": ""immature""}",126
-7,NCT02450331, 33721560,Imvigor010,21.9,immature,"{""maturity"": ""immature""}",153

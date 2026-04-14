@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1230",
+  "csv_row_number": 1230,
+  "question": "In Bladder trials in Phase 3 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "column_used": "PubMed ID",
+  "expected_keys": [
+    "pubmed_url"
+  ],
+  "expected_llm_response": {
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29268948/"
+  },
+  "sql_query": "SELECT \"PubMed ID\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"PubMed ID\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Bladder' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"PubMed ID\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"PubMed ID\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Bladder' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_pubmed_url(source_value) AS \"pubmed_url\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/pubmed_url__gen_row_1230__In_Bladder_trials_in_Phase_3_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Bladder",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "pubmed_url"
+}

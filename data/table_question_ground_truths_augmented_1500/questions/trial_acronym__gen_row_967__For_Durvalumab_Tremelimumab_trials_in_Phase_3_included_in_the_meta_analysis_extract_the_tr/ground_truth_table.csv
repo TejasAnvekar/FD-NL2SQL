@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT03043872,31590988,CASPIAN,CASPIAN,CASPIAN,"{""trial_acronym"": ""CASPIAN""}"
+2,NCT02352948,32201234,ARCTIC,ARCTIC,ARCTIC,"{""trial_acronym"": ""ARCTIC""}"
+3,NCT02453282,32271377,MYSTIC,MYSTIC,MYSTIC,"{""trial_acronym"": ""MYSTIC""}"
+4,NCT02369874,32294530,EAGLE,EAGLE,EAGLE,"{""trial_acronym"": ""EAGLE""}"

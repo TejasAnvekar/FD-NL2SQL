@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"[""Gemcitabine+Platinum""]","{""specific_regimens"": [""Gemcitabine+Platinum""]}"
+2,NCT02807636,32416780,IMvigor130,Placebo+Gemcitabine+Carboplatin or Cisplatin,"[""Gemcitabine+Platinum""]","{""specific_regimens"": [""Gemcitabine+Platinum""]}"

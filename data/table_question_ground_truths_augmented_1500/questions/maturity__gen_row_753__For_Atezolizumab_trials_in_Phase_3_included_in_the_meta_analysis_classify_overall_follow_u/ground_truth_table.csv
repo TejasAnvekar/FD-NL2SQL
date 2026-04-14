@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT02302807,29268948,IMvigor211,17.3,immature,"{""maturity"": ""immature""}"
+2,NCT02425891,30345906,IMpassion130,12.9,immature,"{""maturity"": ""immature""}"
+3,NCT02420821,31079938,IMmotion151,"24, 15",unknown,"{""maturity"": ""unknown""}"
+4,NCT02395172,30262187,JAVELIN Lung 200,18.3,immature,"{""maturity"": ""immature""}"
+5,NCT02763579,30280641,IMPower 133,13.9,immature,"{""maturity"": ""immature""}"
+6,NCT02366143,29863955,IMPower150,"MIN for PFS 9.5, OS 14; MEDIAN for OS 20",unknown,"{""maturity"": ""unknown""}"
+7,NCT02366143,29863955,IMPower150,"MIN for PFS 9.5, OS 14; MEDIAN for OS 20",unknown,"{""maturity"": ""unknown""}"
+8,NCT02908672,32534646,IMspire150,18.9,immature,"{""maturity"": ""immature""}"

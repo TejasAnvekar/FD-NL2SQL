@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1241",
+  "csv_row_number": 1241,
+  "question": "In Bladder Phase 3 trials included in the meta-analysis, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "expected_llm_response": {
+    "arm_category": "2-arm"
+  },
+  "sql_query": "SELECT \"Number of arms\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Bladder' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Number of arms\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Bladder' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_arm_category(source_value) AS \"arm_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/arm_category__gen_row_1241__In_Bladder_Phase_3_trials_included_in_the_meta_analysis_categorize_number_of_arms_as_1_arm/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Bladder",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "arm_category"
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_471",
+  "csv_row_number": 471,
+  "question": "In Non-Small Cell Lung Phase 3 trials for Nivolumab, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "expected_llm_response": {
+    "irAE_assessed": false
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_irae_assessed(source_value) AS \"irAE_assessed\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/irAE_assessed__gen_row_471__In_Non_Small_Cell_Lung_Phase_3_trials_for_Nivolumab_from_the_secondary_endpoint_text_flag/ground_truth_table.csv",
+  "row_count": 6,
+  "non_null_count": 6,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Nivolumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "irAE_assessed"
+}

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT02763579,30280641,IMPower 133,2,2-arm,"{""arm_category"": ""2-arm""}"
+3,NCT03043872,31590988,CASPIAN,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+4,NCT03043872,31590988,CASPIAN,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+5,NCT03066778,32468956,KEYNOTE-604,2,2-arm,"{""arm_category"": ""2-arm""}"

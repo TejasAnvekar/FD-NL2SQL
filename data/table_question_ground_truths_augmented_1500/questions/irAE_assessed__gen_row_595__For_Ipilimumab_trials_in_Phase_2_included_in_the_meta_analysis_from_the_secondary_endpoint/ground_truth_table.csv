@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT01585987,28655793,,"PFS by mWHO criteria, OS, immune-related best overall response rate (irBORR)",false,"{""irAE_assessed"": false}"
+2,NCT00527735,22547592,,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate",false,"{""irAE_assessed"": false}"
+3,NCT00527735,22547592,,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate",false,"{""irAE_assessed"": false}"
+4,NCT00527735,22858559,,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)",false,"{""irAE_assessed"": false}"
+5,NCT00527735,22858559,,"Immune-related PFS; modified WHO criteria PFS; OS; modified WHO criteria best overall response rate; irBORR (proportion of patients with irCR or irPR);  modified WHO criteria disease control rate; irDCR (proportion of patients with irCR, irPR or irSD)",false,"{""irAE_assessed"": false}"

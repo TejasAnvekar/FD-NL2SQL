@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+2,NCT02763579,30280641,IMPower 133,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+3,NCT03043872,31590988,CASPIAN,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+4,NCT03043872,31590988,CASPIAN,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+5,NCT03066778,32468956,KEYNOTE-604,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"

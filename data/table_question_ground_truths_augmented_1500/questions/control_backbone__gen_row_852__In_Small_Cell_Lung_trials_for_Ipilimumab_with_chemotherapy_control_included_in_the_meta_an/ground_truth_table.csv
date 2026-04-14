@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_backbone,derived_expected_llm_response
+1,NCT00527735,22858559,,Placebo+Paclitaxel+Carboplatin,Carboplatin+Paclitaxel,"{""control_backbone"": ""Carboplatin+Paclitaxel""}"
+2,NCT00527735,22858559,,Placebo+Paclitaxel+Carboplatin,Carboplatin+Paclitaxel,"{""control_backbone"": ""Carboplatin+Paclitaxel""}"
+3,NCT01450761,27458307,CA184-156,Placebo+Etoposide+Platinum agent ,,"{""control_backbone"": null}"

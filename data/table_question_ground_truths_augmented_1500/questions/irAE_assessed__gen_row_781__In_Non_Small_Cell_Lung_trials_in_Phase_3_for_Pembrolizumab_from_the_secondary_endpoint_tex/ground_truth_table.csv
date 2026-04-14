@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT02578680,29658856,Keynote-189,"ORR, DOR, safety",false,"{""irAE_assessed"": false}"
+2,NCT02775435,30280635,Keynote-407,"ORR, DOR, safety",false,"{""irAE_assessed"": false}"
+3,NCT02220894,30955977,Keynote-042,"PFS, ORR in pts with PD-L1 TPS of >=50%; >=20%; >=1%",false,"{""irAE_assessed"": false}"
+4,NCT02142738,30620668,Keynote-024,"OS, ORR, safety",false,"{""irAE_assessed"": false}"
+5,NCT02142738,27718847,Keynote-024,"OS, ORR, safety",false,"{""irAE_assessed"": false}"

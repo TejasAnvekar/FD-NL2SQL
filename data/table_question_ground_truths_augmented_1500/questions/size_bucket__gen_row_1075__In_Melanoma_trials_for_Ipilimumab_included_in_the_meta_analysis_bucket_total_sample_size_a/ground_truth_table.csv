@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT00324155,21639810,,502.0,large,"{""size_bucket"": ""large""}"
+2,NCT00094653,20525992,MDX010-20,676.0,large,"{""size_bucket"": ""large""}"
+3,NCT00094653,20525992,MDX010-20,676.0,large,"{""size_bucket"": ""large""}"
+4,NCT00636168,27717298,,951.0,large,"{""size_bucket"": ""large""}"

@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,mek_inhibitor,derived_expected_llm_response
+1,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,trametinib,"{""mek_inhibitor"": ""trametinib""}"

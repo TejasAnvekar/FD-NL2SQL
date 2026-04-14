@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_621",
+  "csv_row_number": 621,
+  "question": "In Melanoma trials for Nivolumab included in the meta-analysis, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "expected_llm_response": {
+    "era": "2015–2018"
+  },
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Nivolumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Nivolumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/era__gen_row_621__In_Melanoma_trials_for_Nivolumab_included_in_the_meta_analysis_bucket_the_publication_year/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Nivolumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "era"
+}

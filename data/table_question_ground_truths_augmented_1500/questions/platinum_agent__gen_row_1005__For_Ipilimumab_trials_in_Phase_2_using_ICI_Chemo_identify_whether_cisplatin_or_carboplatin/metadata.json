@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1005",
+  "csv_row_number": 1005,
+  "question": "For Ipilimumab trials in Phase 2 using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "platinum_agent"
+  ],
+  "expected_llm_response": {
+    "platinum_agent": "carboplatin"
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 2' AND \"Type of combination\" = 'ICI+Chemo';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 2' AND \"Type of combination\" = 'ICI+Chemo'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_platinum_agent(source_value) AS \"platinum_agent\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/platinum_agent__gen_row_1005__For_Ipilimumab_trials_in_Phase_2_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 2",
+    "Type of combination": "ICI+Chemo"
+  },
+  "family_id": "platinum_agent"
+}

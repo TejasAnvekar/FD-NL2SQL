@@ -1,9 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response,table_row_id
-1,NCT01585987,28655793,,No,false,"{""pd_l1_required"": false}",8
-2,NCT02267343,28993052,ATTRACTION-2,No,false,"{""pd_l1_required"": false}",9
-3,NCT02625623,30052729,JAVELIN Gastric 300,No,false,"{""pd_l1_required"": false}",10
-4,NCT02370498,29880231,Keynote-061,No,false,"{""pd_l1_required"": false}",11
-5,NCT02267343,31863227,ATTRACTION-2,No,false,"{""pd_l1_required"": false}",78
-6,NCT02494583,32880601,Keynote-062,Yes,true,"{""pd_l1_required"": true}",120
-7,NCT02494583,32880601,Keynote-062,Yes,true,"{""pd_l1_required"": true}",121
-8, NCT02625610,33197226,Javelin Gastric 100,No,false,"{""pd_l1_required"": false}",127

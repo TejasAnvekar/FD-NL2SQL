@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+2,NCT02870920,32379280,,"Durvalumab, Tremelimumab","Imfinzi, Imjudo","{""brand_name"": ""Imfinzi, Imjudo""}"

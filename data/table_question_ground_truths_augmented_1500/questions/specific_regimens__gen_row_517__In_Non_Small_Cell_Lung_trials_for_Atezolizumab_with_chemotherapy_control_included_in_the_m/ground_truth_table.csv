@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,Docetaxel,,"{""specific_regimens"": null}"
+2,NCT02395172,30262187,JAVELIN Lung 200,Docetaxel,,"{""specific_regimens"": null}"
+3,NCT02367781,31122901,IMpower130,Carboplatin+Nab-paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+4,NCT02367794,32302702,IMpower131,Carboplatin+Nab-paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+5,NCT02367794,32302702,IMpower131,Carboplatin+Nab-paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_808",
+  "csv_row_number": 808,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Pembrolizumab, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "expected_llm_response": {
+    "size_bucket": "large"
+  },
+  "sql_query": "SELECT \"Total sample size\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Pembrolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Total sample size\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Pembrolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_size_bucket(source_value) AS \"size_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/size_bucket__gen_row_808__In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Pembrolizumab_bucket_total_sample_size_as_sma/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Pembrolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "size_bucket"
+}

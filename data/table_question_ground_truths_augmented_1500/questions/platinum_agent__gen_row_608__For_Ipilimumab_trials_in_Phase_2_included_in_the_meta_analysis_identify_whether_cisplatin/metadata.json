@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_608",
+  "csv_row_number": 608,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "platinum_agent"
+  ],
+  "expected_llm_response": {
+    "platinum_agent": "carboplatin"
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_platinum_agent(source_value) AS \"platinum_agent\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/platinum_agent__gen_row_608__For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_identify_whether_cisplatin/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 4,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "platinum_agent"
+}

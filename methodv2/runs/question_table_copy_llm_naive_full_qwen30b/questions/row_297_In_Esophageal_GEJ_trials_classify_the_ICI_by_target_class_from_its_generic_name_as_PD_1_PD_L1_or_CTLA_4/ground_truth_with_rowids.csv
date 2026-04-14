@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response,table_row_id
-1,NCT02569242,31582355,ATTRACTION-3,Nivolumab,PD1,"{""class"": ""PD1""}",80
-2,NCT02564263,33026938,KEYNOTE-181,Pembrolizumab,PD1,"{""class"": ""PD1""}",133

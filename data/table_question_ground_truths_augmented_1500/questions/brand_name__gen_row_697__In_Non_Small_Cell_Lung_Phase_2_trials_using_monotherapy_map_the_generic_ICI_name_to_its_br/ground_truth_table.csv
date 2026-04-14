@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+2,NCT01905657,26712084,Keynote-010,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+3,NCT01903993,26970723,POPLAR,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+4,NCT01903993,33166718,POPLAR,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+5,NCT02852083, 33796020,ModuLung,Nivolumab,Opdivo,"{""brand_name"": ""Opdivo""}"

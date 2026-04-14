@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+2,NCT02125461,30280658,PACIFIC,Durvalumab,PD-L1,"{""class"": ""PD-L1""}"
+3,NCT02008227,27979383,OAK,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+4,NCT02008227,29777823,OAK,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+5,NCT01274338,31880964,E1609,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"
+6,NCT01274338,31880964,E1609,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"
+7,NCT00094653,23942774,MDX010-20,Ipilimumab,CTLA-4,"{""class"": ""CTLA-4""}"

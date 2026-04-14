@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Combination,true,"{""is_combination"": true}"
+2,NCT02788279,31003911,IMblaze130,Monotherapy,false,"{""is_combination"": false}"
+3,NCT02008227,27979383,OAK,Monotherapy,false,"{""is_combination"": false}"
+4,NCT02008227,29777823,OAK,Monotherapy,false,"{""is_combination"": false}"
+5,NCT02425891,31786121,IMpassion130,Combination,true,"{""is_combination"": true}"
+6,NCT02763579,31959349,IMpower133,Combination,true,"{""is_combination"": true}"

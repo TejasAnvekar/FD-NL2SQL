@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT02008227,27979383,OAK,Docetaxel,"[""docetaxel""]","{""control_drugs"": [""docetaxel""]}"
+2,NCT02008227,29777823,OAK,Docetaxel,"[""docetaxel""]","{""control_drugs"": [""docetaxel""]}"
+3,NCT02775435,30280635,Keynote-407,Placebo+Carboplatin+paclitaxel/nab-paclitaxel,"[""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]","{""control_drugs"": [""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]}"

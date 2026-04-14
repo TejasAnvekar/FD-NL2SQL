@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT02366143,29863955,IMPower150,Atezolizumab+Carboplatin+Paclitaxel,"[""carboplatin"", ""paclitaxel""]","{""added_agents"": [""carboplatin"", ""paclitaxel""]}"
+2,NCT02366143,29863955,IMPower150,Atezolizumab+Carboplatin+Paclitaxel+Bevacizumab,"[""carboplatin"", ""paclitaxel"", ""bevacizumab""]","{""added_agents"": [""carboplatin"", ""paclitaxel"", ""bevacizumab""]}"
+3,NCT02367781,31122901,IMpower130,Atezolizumab+Carboplatin+Nab-paclitaxel,"[""carboplatin"", ""nab-paclitaxel""]","{""added_agents"": [""carboplatin"", ""nab-paclitaxel""]}"
+4,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Paclitaxel,"[""carboplatin"", ""paclitaxel""]","{""added_agents"": [""carboplatin"", ""paclitaxel""]}"
+5,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Nab-paclitaxel,"[""carboplatin"", ""nab-paclitaxel""]","{""added_agents"": [""carboplatin"", ""nab-paclitaxel""]}"

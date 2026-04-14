@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_476",
+  "csv_row_number": 476,
+  "question": "In Melanoma trials for Pembrolizumab included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "column_used": "Trial name",
+  "expected_keys": [
+    "trial_acronym"
+  ],
+  "expected_llm_response": {
+    "trial_acronym": "KEYNOTE-054"
+  },
+  "sql_query": "SELECT \"Trial name\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Pembrolizumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Trial name\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Pembrolizumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_trial_acronym(source_value) AS \"trial_acronym\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/trial_acronym__gen_row_476__In_Melanoma_trials_for_Pembrolizumab_included_in_the_meta_analysis_extract_the_trial_acron/ground_truth_table.csv",
+  "row_count": 6,
+  "non_null_count": 6,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Pembrolizumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "trial_acronym"
+}

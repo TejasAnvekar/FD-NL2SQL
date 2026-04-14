@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02366143,29863955,IMPower150,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+2,NCT02366143,29863955,IMPower150,ICI+Chemo+Anti-VEGF,ICI+Chemo+Anti-VEGF,"{""combo_type_norm"": ""ICI+Chemo+Anti-VEGF""}"
+3,NCT02367781,31122901,IMpower130,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+4,NCT02367794,32302702,IMpower131,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+5,NCT02367794,32302702,IMpower131,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"

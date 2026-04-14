@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_1297",
+  "csv_row_number": 1297,
+  "question": "In Melanoma trials for Ipilimumab using combination therapy included in the meta-analysis, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "expected_llm_response": {
+    "combo_type_norm": "ICI+Chemo"
+  },
+  "sql_query": "SELECT \"Type of combination\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Type of combination\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of combination\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Type of combination\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_combo_type_norm(source_value) AS \"combo_type_norm\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/combo_type_norm__gen_row_1297__In_Melanoma_trials_for_Ipilimumab_using_combination_therapy_included_in_the_meta_analysis/ground_truth_table.csv",
+  "row_count": 2,
+  "non_null_count": 2,
+  "filters": {
+    "Monotherapy/combination": "Combination",
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Ipilimumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "combo_type_norm"
+}

@@ -1,0 +1,15 @@
+2026-04-12 21:27:43,253 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan/logs/run_meta_20260412_212743.log
+2026-04-12 21:27:43,253 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/manifest.csv
+2026-04-12 21:27:43,253 | INFO | Annotated CSV: /mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/annotated_questions.csv
+2026-04-12 21:27:43,253 | INFO | DB path: /mnt/data1/srchowd3/FD-NL2SQL/data/database.db
+2026-04-12 21:27:43,253 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan
+2026-04-12 21:27:43,253 | INFO | Executor model: Qwen3-30B-A3B-Instruct-2507
+2026-04-12 21:27:43,253 | INFO | Executor API base: http://127.0.0.1:8000/v1
+2026-04-12 21:27:43,253 | INFO | Planner model: gpt-oss-20b
+2026-04-12 21:27:43,253 | INFO | Planner API base: http://127.0.0.1:8001/v1
+2026-04-12 21:27:43,253 | INFO | Max in flight: 8
+2026-04-12 22:16:06,259 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan/sample_manifest.csv
+2026-04-12 22:16:06,259 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan/all_question_results.csv
+2026-04-12 22:16:06,259 | INFO | Wrote row-level predictions: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan/row_level_predictions.csv
+2026-04-12 22:16:06,260 | INFO | Wrote token/cost summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan/token_cost_summary.csv
+2026-04-12 22:16:06,260 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan/summary.json

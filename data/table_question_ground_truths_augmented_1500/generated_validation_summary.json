@@ -1,0 +1,9 @@
+{
+  "validated_question_count": 1133,
+  "valid_question_count": 1133,
+  "invalid_question_count": 0,
+  "issues": [],
+  "manifest_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/generated_manifest.csv",
+  "db_path": "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db",
+  "out_json": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/generated_validation_summary.json"
+}

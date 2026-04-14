@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT01984242,29867230,IMmotion150,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+2,NCT01984242,29867230,IMmotion150,PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+3,NCT03059667,30664989,IFCT-1603,ORR,ORR,"{""primary_endpoint_category"": ""ORR""}"

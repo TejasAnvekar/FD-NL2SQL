@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02788279,31003911,IMblaze130,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT02008227,27979383,OAK,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+4,NCT02008227,29777823,OAK,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+5,NCT02425891,31786121,IMpassion130,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"
+6,NCT02763579,31959349,IMpower133,OS+PFS,PFS,"{""primary_endpoint_category"": ""PFS""}"

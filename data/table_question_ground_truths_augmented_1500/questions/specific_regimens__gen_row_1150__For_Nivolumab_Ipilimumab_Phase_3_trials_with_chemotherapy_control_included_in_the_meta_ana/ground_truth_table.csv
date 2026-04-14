@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02477826,29658845,Checkmate 227,Chemotherapy,"[""Chemotherapy""]","{""specific_regimens"": [""Chemotherapy""]}"
+2,NCT02477826,31562796,Checkmate 227,Chemotherapy,"[""Chemotherapy""]","{""specific_regimens"": [""Chemotherapy""]}"

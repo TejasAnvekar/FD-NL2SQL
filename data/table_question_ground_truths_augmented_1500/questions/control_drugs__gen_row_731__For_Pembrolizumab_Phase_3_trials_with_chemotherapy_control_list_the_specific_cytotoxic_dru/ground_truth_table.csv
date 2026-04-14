@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT02775435,30280635,Keynote-407,Placebo+Carboplatin+paclitaxel/nab-paclitaxel,"[""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]","{""control_drugs"": [""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]}"
+2,NCT02576977,31327687,KEYNOTE-183,Pomalidomide+Dexamethasone,"[""pomalidomide"", ""dexamethasone""]","{""control_drugs"": [""pomalidomide"", ""dexamethasone""]}"
+3,NCT02579863,31327689,KEYNOTE-185,Lenalidomide+Dexamethasone,"[""lenalidomide"", ""dexamethasone""]","{""control_drugs"": [""lenalidomide"", ""dexamethasone""]}"
+4,NCT03036488,32101663,KEYNOTE-522,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"

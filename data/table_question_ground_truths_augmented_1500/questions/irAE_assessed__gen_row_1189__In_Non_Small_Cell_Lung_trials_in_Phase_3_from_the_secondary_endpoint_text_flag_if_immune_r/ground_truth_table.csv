@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,"Time to death, secondary progression, safety",false,"{""irAE_assessed"": false}"
+2,NCT02008227,27979383,OAK,"PFS, ORR, DoR",false,"{""irAE_assessed"": false}"
+3,NCT02008227,29777823,OAK,"PFS, ORR, DoR",false,"{""irAE_assessed"": false}"
+4,NCT02775435,30280635,Keynote-407,"ORR, DOR, safety",false,"{""irAE_assessed"": false}"

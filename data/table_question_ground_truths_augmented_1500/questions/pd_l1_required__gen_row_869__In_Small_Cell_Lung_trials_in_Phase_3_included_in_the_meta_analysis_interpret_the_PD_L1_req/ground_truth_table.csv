@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,No,false,"{""pd_l1_required"": false}"
+2,NCT02763579,30280641,IMPower 133,No,false,"{""pd_l1_required"": false}"
+3,NCT03043872,31590988,CASPIAN,No,false,"{""pd_l1_required"": false}"
+4,NCT03043872,31590988,CASPIAN,No,false,"{""pd_l1_required"": false}"
+5,NCT03066778,32468956,KEYNOTE-604,No,false,"{""pd_l1_required"": false}"

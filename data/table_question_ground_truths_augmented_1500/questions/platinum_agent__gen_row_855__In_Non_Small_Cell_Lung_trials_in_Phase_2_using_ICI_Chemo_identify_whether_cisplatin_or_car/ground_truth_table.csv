@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT00527735,22547592,,Concurrent ipilimumab+Paclitaxel+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+2,NCT00527735,22547592,,Phased ipilimumab+Paclitaxel+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+3,NCT02039674,27745820,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+4,NCT02039674,30138764,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+5,NCT02574598,32271354,PROLUNG,Pembrolizumab+ Docetaxel,,"{""platinum_agent"": null}"

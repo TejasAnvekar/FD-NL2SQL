@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_928",
+  "csv_row_number": 928,
+  "question": "For Ipilimumab Phase 3 trials included in the meta-analysis, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "expected_llm_response": {
+    "size_bucket": "large"
+  },
+  "sql_query": "SELECT \"Total sample size\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Total sample size\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_size_bucket(source_value) AS \"size_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/size_bucket__gen_row_928__For_Ipilimumab_Phase_3_trials_included_in_the_meta_analysis_bucket_total_sample_size_as_sm/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 8,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "size_bucket"
+}

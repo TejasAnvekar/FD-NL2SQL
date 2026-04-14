@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_1108",
+  "csv_row_number": 1108,
+  "question": "For Pembrolizumab trials in Phase 2 using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "expected_llm_response": {
+    "combo_type_norm": "ICI+Chemo"
+  },
+  "sql_query": "SELECT \"Type of combination\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Type of combination\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of combination\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Type of combination\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_combo_type_norm(source_value) AS \"combo_type_norm\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/combo_type_norm__gen_row_1108__For_Pembrolizumab_trials_in_Phase_2_using_combination_therapy_normalize_the_combination_ty/ground_truth_table.csv",
+  "row_count": 2,
+  "non_null_count": 2,
+  "filters": {
+    "Monotherapy/combination": "Combination",
+    "Name of ICI": "Pembrolizumab",
+    "Trial phase": "Phase 2",
+    "Included in MA": "No"
+  },
+  "family_id": "combo_type_norm"
+}

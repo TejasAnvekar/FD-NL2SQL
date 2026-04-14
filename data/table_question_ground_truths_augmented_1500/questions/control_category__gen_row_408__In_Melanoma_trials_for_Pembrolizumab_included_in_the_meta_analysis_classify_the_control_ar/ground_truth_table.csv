@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02362594,29658430,EORTC 1325-MG/KEYNOTE-054,Placebo,placebo,"{""control_category"": ""placebo""}"
+2,NCT01704287,26115796,KEYNOTE-002,Chemo,active,"{""control_category"": ""active""}"
+3,NCT01704287,26115796,KEYNOTE-002,Chemo,active,"{""control_category"": ""active""}"
+4,NCT01704287,28961465,KEYNOTE-002,Chemo,active,"{""control_category"": ""active""}"
+5,NCT01704287,28961465,KEYNOTE-002,Chemo,active,"{""control_category"": ""active""}"
+6,NCT02130466,31171878,KEYNOTE-022,BRAFi+MEKi,active,"{""control_category"": ""active""}"

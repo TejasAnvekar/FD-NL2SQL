@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT02685059,31095287,GeparNuevo,Durvalumab+Nab-paclitaxel+epirubicin+cyclophosphamide,"[""nab-paclitaxel"", ""epirubicin"", ""cyclophosphamide""]","{""added_agents"": [""nab-paclitaxel"", ""epirubicin"", ""cyclophosphamide""]}"
+2,NCT01042379,32053137,I-SPY2,Pembrolizumab+Paclitaxel,"[""paclitaxel""]","{""added_agents"": [""paclitaxel""]}"
+3,NCT03051659,32880602,,Pembrolizumab+Eribulin,"[""eribulin""]","{""added_agents"": [""eribulin""]}"

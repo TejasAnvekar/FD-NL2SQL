@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Chemo,active,"{""control_category"": ""active""}"
+2,NCT01285609,28854067,,Chemo,active,"{""control_category"": ""active""}"
+3,NCT00324155,21639810,,Chemo,active,"{""control_category"": ""active""}"
+4,NCT00094653,20525992,MDX010-20,Vaccine,active,"{""control_category"": ""active""}"
+5,NCT00094653,20525992,MDX010-20,Vaccine,active,"{""control_category"": ""active""}"
+6,NCT00636168,27717298,,Placebo,placebo,"{""control_category"": ""placebo""}"
+7,NCT00861614,24831977,CA184-043,Radiation,active,"{""control_category"": ""active""}"
+8,NCT01057810,28034081,CA184-095,Placebo,placebo,"{""control_category"": ""placebo""}"

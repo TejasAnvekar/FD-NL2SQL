@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT02625623,30052729,JAVELIN Gastric 300,10.6,immature,"{""maturity"": ""immature""}"
+2,NCT02370498,29880231,Keynote-061,7.9,immature,"{""maturity"": ""immature""}"
+3,NCT02267343,31863227,ATTRACTION-2,27.3,mature,"{""maturity"": ""mature""}"

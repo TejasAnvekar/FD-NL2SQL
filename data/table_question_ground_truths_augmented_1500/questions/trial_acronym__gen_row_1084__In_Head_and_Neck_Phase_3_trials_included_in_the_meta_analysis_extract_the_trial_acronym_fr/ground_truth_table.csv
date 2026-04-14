@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02252042,30509740,KEYNOTE-040,KEYNOTE-040,KEYNOTE-040,"{""trial_acronym"": ""KEYNOTE-040""}"
+2,NCT02105636,27718784,CheckMate 141,CheckMate 141,CHECKMATE-141,"{""trial_acronym"": ""CHECKMATE-141""}"
+3,NCT02105636,29884413,CheckMate 141,CheckMate 141,CHECKMATE-141,"{""trial_acronym"": ""CHECKMATE-141""}"
+4,NCT02358031,31679945,KEYNOTE-048,KEYNOTE-048,KEYNOTE-048,"{""trial_acronym"": ""KEYNOTE-048""}"
+5,NCT02358031,31679945,KEYNOTE-048,KEYNOTE-048,KEYNOTE-048,"{""trial_acronym"": ""KEYNOTE-048""}"
+6,NCT02017717,32437507,CheckMate 143,CheckMate 143,CHECKMATE-143,"{""trial_acronym"": ""CHECKMATE-143""}"
+7,NCT02369874,32294530,EAGLE,EAGLE,EAGLE,"{""trial_acronym"": ""EAGLE""}"
+8,NCT02369874,32294530,EAGLE,EAGLE,EAGLE,"{""trial_acronym"": ""EAGLE""}"

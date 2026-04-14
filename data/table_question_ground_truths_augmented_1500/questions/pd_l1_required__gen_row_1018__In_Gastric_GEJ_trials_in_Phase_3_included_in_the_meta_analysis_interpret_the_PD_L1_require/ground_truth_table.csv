@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,No,false,"{""pd_l1_required"": false}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,No,false,"{""pd_l1_required"": false}"
+3,NCT02370498,29880231,Keynote-061,No,false,"{""pd_l1_required"": false}"
+4,NCT02267343,31863227,ATTRACTION-2,No,false,"{""pd_l1_required"": false}"

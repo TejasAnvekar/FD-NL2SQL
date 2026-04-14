@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,Durvalumab,PD-L1,"{""class"": ""PD-L1""}"
+2,NCT02008227,27979383,OAK,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+3,NCT02008227,29777823,OAK,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+4,NCT02775435,30280635,Keynote-407,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+5,NCT02454933,30763730,CAURAL,Durvalumab,PD-L1,"{""class"": ""PD-L1""}"

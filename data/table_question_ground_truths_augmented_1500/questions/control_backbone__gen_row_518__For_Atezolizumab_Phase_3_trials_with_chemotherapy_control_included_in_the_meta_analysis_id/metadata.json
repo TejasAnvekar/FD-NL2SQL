@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_518",
+  "csv_row_number": 518,
+  "question": "For Atezolizumab Phase 3 trials with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_backbone"
+  ],
+  "expected_llm_response": {
+    "control_backbone": "Carboplatin+Paclitaxel"
+  },
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Control arm\" = 'Chemo' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials WHERE \"Control arm\" = 'Chemo' AND \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_backbone(source_value) AS \"control_backbone\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/control_backbone__gen_row_518__For_Atezolizumab_Phase_3_trials_with_chemotherapy_control_included_in_the_meta_analysis_id/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 5,
+  "filters": {
+    "Control arm": "Chemo",
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "control_backbone"
+}

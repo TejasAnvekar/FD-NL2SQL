@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT00527735,22547592,,Placebo+Paclitaxel+Carboplatin,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+2,NCT00527735,22547592,,Placebo+Paclitaxel+Carboplatin,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+3,NCT01905657,26712084,Keynote-010,Docetaxel,,"{""specific_regimens"": null}"
+4,NCT01905657,26712084,Keynote-010,Docetaxel,,"{""specific_regimens"": null}"
+5,NCT01903993,26970723,POPLAR,Docetaxel,,"{""specific_regimens"": null}"
+6,NCT02039674,27745820,Keynote-021,Pemetrexed+Carboplatin,,"{""specific_regimens"": null}"
+7,NCT02039674,30138764,Keynote-021,Pemetrexed+Carboplatin,,"{""specific_regimens"": null}"
+8,NCT02574598,32271354,PROLUNG,Docetaxel,,"{""specific_regimens"": null}"

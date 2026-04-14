@@ -1,0 +1,18 @@
+{
+  "run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot",
+  "question_dir_count": 1500,
+  "evaluated_count": 1500,
+  "missing_pred_count": 0,
+  "missing_gt_count": 0,
+  "avg_pred_row_count": 5.083333333333333,
+  "avg_gt_row_count": 4.946,
+  "avg_column_alignment_score": 0.8932774180583397,
+  "avg_precision": 0.7324666715059934,
+  "avg_recall": 0.7547025046389099,
+  "avg_f1": 0.739928796145862,
+  "avg_row_jaccard": 0.6154791071895707,
+  "avg_chrf": 0.0,
+  "avg_rouge_l_f1": 0.0,
+  "avg_bertscore_f1": 0.0,
+  "exact_table_match_rate": 0.06508047585724283
+}

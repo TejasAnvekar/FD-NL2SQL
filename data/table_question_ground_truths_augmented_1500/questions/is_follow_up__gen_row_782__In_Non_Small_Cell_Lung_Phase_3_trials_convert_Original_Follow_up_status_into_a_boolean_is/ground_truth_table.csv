@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,Follow-up,true,"{""is_follow_up"": true}"
+2,NCT02008227,27979383,OAK,Original publication,false,"{""is_follow_up"": false}"
+3,NCT02008227,29777823,OAK,Follow-up,true,"{""is_follow_up"": true}"
+4,NCT02775435,30280635,Keynote-407,Original publication,false,"{""is_follow_up"": false}"
+5,NCT02454933,30763730,CAURAL,Original publication,false,"{""is_follow_up"": false}"

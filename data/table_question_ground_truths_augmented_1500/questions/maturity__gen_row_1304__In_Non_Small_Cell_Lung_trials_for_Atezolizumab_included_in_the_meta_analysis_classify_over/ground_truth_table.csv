@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT02395172,30262187,JAVELIN Lung 200,18.3,immature,"{""maturity"": ""immature""}"
+2,NCT02366143,29863955,IMPower150,"MIN for PFS 9.5, OS 14; MEDIAN for OS 20",unknown,"{""maturity"": ""unknown""}"
+3,NCT02366143,29863955,IMPower150,"MIN for PFS 9.5, OS 14; MEDIAN for OS 20",unknown,"{""maturity"": ""unknown""}"

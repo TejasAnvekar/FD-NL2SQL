@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Placebo+Etoposide+Platinum agent ,"[""etoposide""]","{""control_drugs"": [""etoposide""]}"
+2,NCT01285609,28854067,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"
+3,NCT00324155,21639810,,Dacarbazine,"[""dacarbazine""]","{""control_drugs"": [""dacarbazine""]}"

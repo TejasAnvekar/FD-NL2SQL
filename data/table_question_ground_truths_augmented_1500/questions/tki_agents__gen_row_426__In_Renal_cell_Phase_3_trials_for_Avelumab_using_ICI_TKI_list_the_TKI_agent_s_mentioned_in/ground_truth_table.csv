@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,tki_agents,derived_expected_llm_response
+1,NCT02684006,30779531,JAVELIN Renal 101,Avelumab+Axitinib,"[""axitinib""]","{""tki_agents"": [""axitinib""]}"
+2,NCT02684006,32339648,JAVELIN Renal 101,Avelumab+Axitinib,"[""axitinib""]","{""tki_agents"": [""axitinib""]}"

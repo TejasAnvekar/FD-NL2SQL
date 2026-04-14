@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response
+1,NCT00324155,21639810,,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+2,NCT00094653,20525992,MDX010-20,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+3,NCT00094653,20525992,MDX010-20,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+4,NCT00636168,27717298,,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+5,NCT01274338,31880964,E1609,Adjuvant,adjuvant,"{""setting_normalized"": ""adjuvant""}"
+6,NCT01274338,31880964,E1609,Adjuvant,adjuvant,"{""setting_normalized"": ""adjuvant""}"
+7,NCT00094653,23942774,MDX010-20,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+8,NCT00094653,23942774,MDX010-20,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+9, NCT00636168,25840693,,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"

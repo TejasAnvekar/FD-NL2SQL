@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,meki_agents,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Atezolizumab+Cobimetinib,"[""cobimetinib""]","{""meki_agents"": [""cobimetinib""]}"

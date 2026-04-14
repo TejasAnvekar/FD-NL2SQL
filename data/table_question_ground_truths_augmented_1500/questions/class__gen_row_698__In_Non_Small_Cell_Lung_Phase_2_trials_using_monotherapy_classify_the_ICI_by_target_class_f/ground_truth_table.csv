@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+2,NCT01905657,26712084,Keynote-010,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+3,NCT01903993,26970723,POPLAR,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+4,NCT01903993,33166718,POPLAR,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+5,NCT02852083, 33796020,ModuLung,Nivolumab,PD1,"{""class"": ""PD1""}"

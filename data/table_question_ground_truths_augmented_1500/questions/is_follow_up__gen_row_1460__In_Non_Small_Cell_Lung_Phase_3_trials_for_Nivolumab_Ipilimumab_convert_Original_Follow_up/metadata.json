@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1460",
+  "csv_row_number": 1460,
+  "question": "In Non-Small Cell Lung Phase 3 trials for Nivolumab, Ipilimumab, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "column_used": "Originial publication or Follow-up",
+  "expected_keys": [
+    "is_follow_up"
+  ],
+  "expected_llm_response": {
+    "is_follow_up": false
+  },
+  "sql_query": "SELECT \"Originial publication or Follow-up\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Originial publication or Follow-up\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_is_follow_up(source_value) AS \"is_follow_up\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/is_follow_up__gen_row_1460__In_Non_Small_Cell_Lung_Phase_3_trials_for_Nivolumab_Ipilimumab_convert_Original_Follow_up/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Nivolumab, Ipilimumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "is_follow_up"
+}

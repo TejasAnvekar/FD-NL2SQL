@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01673867,26412456,Checkmate 057,"OR, PFS, PRO",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT01642004,26028407,Checkmate 017,"OR, PFS, PRO",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02041533,28636851,Checkmate 026,"OS,PFS(PD-L1),RR, ",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02477826,29658845,Checkmate 227,PFS with nivolumab VS chemotherapy among patients with a TMB of at least 13 mutations per megabase and a PD-L1 expression level of >= 1%; OS with nivolumab + ipilimumab VS platinum doublet chemotherapy among patients with a TMB of >=10 mutations per megabase ,secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02477826,31562796,Checkmate 227,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%,secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02477826,31562796,Checkmate 227,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%,secondary,"{""endpoint_role"": ""secondary""}"

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT01585987,28655793,,Monotherapy,false,"{""is_combination"": false}"
+2,NCT00527735,22547592,,Combination,true,"{""is_combination"": true}"
+3,NCT00527735,22547592,,Combination,true,"{""is_combination"": true}"
+4,NCT00527735,22858559,,Combination,true,"{""is_combination"": true}"
+5,NCT00527735,22858559,,Combination,true,"{""is_combination"": true}"

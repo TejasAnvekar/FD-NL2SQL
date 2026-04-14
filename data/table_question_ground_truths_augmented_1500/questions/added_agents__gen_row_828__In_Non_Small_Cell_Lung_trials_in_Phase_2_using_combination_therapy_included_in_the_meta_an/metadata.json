@@ -1,0 +1,27 @@
+{
+  "item_id": "gen_row_828",
+  "csv_row_number": 828,
+  "question": "In Non-Small Cell Lung trials in Phase 2 using combination therapy included in the meta-analysis, list additional agents in the treatment regimen beyond the ICI.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "added_agents"
+  ],
+  "expected_llm_response": {
+    "added_agents": [
+      "paclitaxel",
+      "carboplatin"
+    ]
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_added_agents(source_value) AS \"added_agents\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/added_agents__gen_row_828__In_Non_Small_Cell_Lung_trials_in_Phase_2_using_combination_therapy_included_in_the_meta_an/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Monotherapy/combination": "Combination",
+    "Cancer type": "Non-Small Cell Lung",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "added_agents"
+}

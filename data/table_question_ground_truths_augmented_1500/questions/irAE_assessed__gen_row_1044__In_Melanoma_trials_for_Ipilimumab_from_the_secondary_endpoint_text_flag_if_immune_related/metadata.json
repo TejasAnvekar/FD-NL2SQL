@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1044",
+  "csv_row_number": 1044,
+  "question": "In Melanoma trials for Ipilimumab, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "irAE_assessed"
+  ],
+  "expected_llm_response": {
+    "irAE_assessed": false
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_irae_assessed(source_value) AS \"irAE_assessed\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/irAE_assessed__gen_row_1044__In_Melanoma_trials_for_Ipilimumab_from_the_secondary_endpoint_text_flag_if_immune_related/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Ipilimumab",
+    "Included in MA": "No"
+  },
+  "family_id": "irAE_assessed"
+}

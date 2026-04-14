@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response,table_row_id
-1,NCT03043872,31590988,CASPIAN,CASPIAN,CASPIAN,"{""trial_acronym"": ""CASPIAN""}",82
-2,NCT03043872,33285097,CASPIAN,CASPIAN,CASPIAN,"{""trial_acronym"": ""CASPIAN""}",137

@@ -1,0 +1,44 @@
+You are answering a table question using only the visible CSV table below.
+The column "__rowid__" uniquely identifies each visible row.
+Use only the visible table content. Do not use outside knowledge.
+Return ONLY valid JSON in this exact shape:
+{"predictions":[{"table_row_id": 1, "answer": ...}]}
+Return one prediction for each row that satisfies the question.
+Use the integer __rowid__ values from the table as table_row_id.
+If no rows satisfy the question, return {"predictions":[]}.
+The answer may be a string, boolean, number, list, or object.
+Do not add explanations.
+
+Here are examples.
+
+Example 1
+Question: In Small Cell Lung trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.
+
+Visible table (CSV):
+__rowid__,NCT,PubMed ID,Trial name,Name of ICI,Cancer type
+101,NCT02763579,30280641,IMPower 133,Atezolizumab,Small Cell Lung
+102,NCT03043872,31590988,CASPIAN,Durvalumab,Small Cell Lung
+103,NCT03066778,32468956,KEYNOTE-604,Pembrolizumab,Small Cell Lung
+104,NCT01450761,27458307,CA184-156,Ipilimumab,Small Cell Lung
+
+Correct JSON:
+{"predictions":[{"table_row_id":101,"answer":"PD-L1"},{"table_row_id":102,"answer":"PD-L1"},{"table_row_id":103,"answer":"PD1"},{"table_row_id":104,"answer":"CTLA-4"}]}
+
+Example 2
+Question: In Head and Neck trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.
+
+Visible table (CSV):
+__rowid__,NCT,PubMed ID,Trial name,Secondary endpoint,Cancer type
+201,NCT02105636,27718784,CheckMate 141,"PFS, ORR",Head and Neck
+202,NCT02358031,31679945,KEYNOTE-048,"Safety and tolerability; proportion of participants with objective response",Head and Neck
+203,NCT02369874,32294530,EAGLE,"PFS, ORR, DOR",Head and Neck
+
+Correct JSON:
+{"predictions":[{"table_row_id":201,"answer":false},{"table_row_id":202,"answer":false},{"table_row_id":203,"answer":false}]}
+
+Now answer the real question.
+
+Question: {{question}}
+
+Visible table (CSV):
+{{table_csv_text}}

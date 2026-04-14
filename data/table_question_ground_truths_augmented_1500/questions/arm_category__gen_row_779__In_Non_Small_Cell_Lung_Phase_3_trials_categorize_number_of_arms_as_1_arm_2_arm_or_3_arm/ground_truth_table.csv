@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT02008227,27979383,OAK,2,2-arm,"{""arm_category"": ""2-arm""}"
+3,NCT02008227,29777823,OAK,2,2-arm,"{""arm_category"": ""2-arm""}"
+4,NCT02775435,30280635,Keynote-407,2,2-arm,"{""arm_category"": ""2-arm""}"
+5,NCT02454933,30763730,CAURAL,2,2-arm,"{""arm_category"": ""2-arm""}"

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT01585987,28655793,,Best supportive care,best supportive care,"{""control_category"": ""best supportive care""}"
+2,NCT00527735,22547592,,Chemo,active,"{""control_category"": ""active""}"
+3,NCT00527735,22547592,,Chemo,active,"{""control_category"": ""active""}"
+4,NCT00527735,22858559,,Chemo,active,"{""control_category"": ""active""}"
+5,NCT00527735,22858559,,Chemo,active,"{""control_category"": ""active""}"

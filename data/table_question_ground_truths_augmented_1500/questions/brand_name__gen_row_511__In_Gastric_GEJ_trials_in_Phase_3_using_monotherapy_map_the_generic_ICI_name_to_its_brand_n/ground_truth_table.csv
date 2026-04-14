@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,Nivolumab,Opdivo,"{""brand_name"": ""Opdivo""}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"
+3,NCT02370498,29880231,Keynote-061,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+4,NCT02267343,31863227,ATTRACTION-2,Nivolumab,Opdivo,"{""brand_name"": ""Opdivo""}"
+5,NCT02494583,32880601,Keynote-062,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"

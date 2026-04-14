@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT02008227,27979383,OAK,Phase 3,late,"{""phase_bucket"": ""late""}"
+2,NCT02008227,29777823,OAK,Phase 3,late,"{""phase_bucket"": ""late""}"

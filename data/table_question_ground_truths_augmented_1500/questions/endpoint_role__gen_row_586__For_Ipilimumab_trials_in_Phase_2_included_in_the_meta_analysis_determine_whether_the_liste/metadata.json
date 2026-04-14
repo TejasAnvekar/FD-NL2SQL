@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_586",
+  "csv_row_number": 586,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "expected_llm_response": {
+    "endpoint_role": "secondary"
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Ipilimumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_role(source_value, 'Secondary endpoint') AS \"endpoint_role\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/endpoint_role__gen_row_586__For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_determine_whether_the_liste/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "endpoint_role_secondary"
+}

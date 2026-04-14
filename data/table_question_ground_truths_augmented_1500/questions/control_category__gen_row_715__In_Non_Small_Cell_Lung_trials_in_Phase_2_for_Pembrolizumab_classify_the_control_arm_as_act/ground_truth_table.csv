@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Chemo,active,"{""control_category"": ""active""}"
+2,NCT01905657,26712084,Keynote-010,Chemo,active,"{""control_category"": ""active""}"
+3,NCT02039674,27745820,Keynote-021,Chemo,active,"{""control_category"": ""active""}"
+4,NCT02039674,30138764,Keynote-021,Chemo,active,"{""control_category"": ""active""}"
+5,NCT02574598,32271354,PROLUNG,Chemo,active,"{""control_category"": ""active""}"

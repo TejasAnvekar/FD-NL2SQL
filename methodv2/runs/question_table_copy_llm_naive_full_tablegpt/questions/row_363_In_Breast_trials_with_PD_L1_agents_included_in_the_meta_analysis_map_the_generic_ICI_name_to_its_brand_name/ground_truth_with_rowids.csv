@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response,table_row_id
-1,NCT02425891,30345906,IMpassion130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}",4
-2,NCT02685059,31095287,GeparNuevo,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}",5

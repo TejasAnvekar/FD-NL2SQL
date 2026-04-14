@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1314",
+  "csv_row_number": 1314,
+  "question": "In Head and Neck trials for Nivolumab included in the meta-analysis, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "column_used": "Total sample size",
+  "expected_keys": [
+    "size_bucket"
+  ],
+  "expected_llm_response": {
+    "size_bucket": "large"
+  },
+  "sql_query": "SELECT \"Total sample size\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Total sample size\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Nivolumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Total sample size\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Total sample size\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Nivolumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_size_bucket(source_value) AS \"size_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/size_bucket__gen_row_1314__In_Head_and_Neck_trials_for_Nivolumab_included_in_the_meta_analysis_bucket_total_sample_si/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Head and Neck",
+    "Name of ICI": "Nivolumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "size_bucket"
+}

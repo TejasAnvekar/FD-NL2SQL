@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response,table_row_id
-1,NCT02362048,32114502,KEYNOTE144,,unknown,"{""maturity"": ""unknown""}",88
-2,NCT01896869,32591464,,,unknown,"{""maturity"": ""unknown""}",97

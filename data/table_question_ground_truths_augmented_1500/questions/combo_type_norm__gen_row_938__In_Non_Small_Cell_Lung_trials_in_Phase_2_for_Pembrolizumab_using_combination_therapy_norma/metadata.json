@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_938",
+  "csv_row_number": 938,
+  "question": "In Non-Small Cell Lung trials in Phase 2 for Pembrolizumab using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "column_used": "Type of combination",
+  "expected_keys": [
+    "combo_type_norm"
+  ],
+  "expected_llm_response": {
+    "combo_type_norm": "ICI+Chemo"
+  },
+  "sql_query": "SELECT \"Type of combination\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Monotherapy/combination\" = 'Combination' AND \"Name of ICI\" = 'Pembrolizumab' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of combination\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Monotherapy/combination\" = 'Combination' AND \"Name of ICI\" = 'Pembrolizumab' AND \"Trial phase\" = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_combo_type_norm(source_value) AS \"combo_type_norm\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/combo_type_norm__gen_row_938__In_Non_Small_Cell_Lung_trials_in_Phase_2_for_Pembrolizumab_using_combination_therapy_norma/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Monotherapy/combination": "Combination",
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Pembrolizumab",
+    "Trial phase": "Phase 2"
+  },
+  "family_id": "combo_type_norm"
+}

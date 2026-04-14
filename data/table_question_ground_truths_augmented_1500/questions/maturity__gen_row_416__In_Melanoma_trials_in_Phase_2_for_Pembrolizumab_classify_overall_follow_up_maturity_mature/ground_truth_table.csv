@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response
+1,NCT01704287,26115796,KEYNOTE-002,10,immature,"{""maturity"": ""immature""}"
+2,NCT01704287,26115796,KEYNOTE-002,10,immature,"{""maturity"": ""immature""}"
+3,NCT01704287,28961465,KEYNOTE-002,28,mature,"{""maturity"": ""mature""}"
+4,NCT01704287,28961465,KEYNOTE-002,28,mature,"{""maturity"": ""mature""}"
+5,NCT02130466,31171878,KEYNOTE-022,9.6,immature,"{""maturity"": ""immature""}"
+6,NCT02130466,33361337,KEYNOTE-022,36.6,mature,"{""maturity"": ""mature""}"

@@ -1,0 +1,8 @@
+
+# Large generated run artifacts
+methodv2/runs/**/questions/**
+methodv2/runs/**/requests.csv
+methodv2/runs/**/responses.csv
+methodv2/runs/**/all_question_results.csv
+methodv2/runs/**/row_level_predictions.csv
+methodv2/runs/**/sample_manifest.csv

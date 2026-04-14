@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT02008227,27979383,OAK,Docetaxel,,"{""specific_regimens"": null}"
+2,NCT02008227,29777823,OAK,Docetaxel,,"{""specific_regimens"": null}"
+3,NCT02775435,30280635,Keynote-407,Placebo+Carboplatin+paclitaxel/nab-paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"

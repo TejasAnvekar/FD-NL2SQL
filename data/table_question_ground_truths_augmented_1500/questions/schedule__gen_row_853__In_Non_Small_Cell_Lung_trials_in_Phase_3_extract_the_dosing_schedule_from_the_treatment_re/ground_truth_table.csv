@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,Durvalumab,,"{""schedule"": null}"
+2,NCT02008227,27979383,OAK,Atezolizumab,,"{""schedule"": null}"
+3,NCT02008227,29777823,OAK,Atezolizumab,,"{""schedule"": null}"
+4,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,q3w,"{""schedule"": ""q3w""}"
+5,NCT02454933,30763730,CAURAL,Durvalumab+Osimertinib,,"{""schedule"": null}"

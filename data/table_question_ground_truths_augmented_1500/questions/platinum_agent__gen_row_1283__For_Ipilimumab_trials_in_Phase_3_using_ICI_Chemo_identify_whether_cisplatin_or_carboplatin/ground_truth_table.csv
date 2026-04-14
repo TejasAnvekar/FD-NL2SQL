@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Ipilimumab+Etoposide+Platinum agent,platinum agent,"{""platinum_agent"": ""platinum agent""}"
+2,NCT01285609,28854067,,Ipilimumab+Paclitaxel+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+3,NCT00324155,21639810,,Ipilimumab+Dacarbazine,,"{""platinum_agent"": null}"

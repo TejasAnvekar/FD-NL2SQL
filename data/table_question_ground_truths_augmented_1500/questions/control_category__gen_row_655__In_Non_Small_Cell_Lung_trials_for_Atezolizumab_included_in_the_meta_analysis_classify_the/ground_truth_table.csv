@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,Chemo,active,"{""control_category"": ""active""}"
+2,NCT02395172,30262187,JAVELIN Lung 200,Chemo,active,"{""control_category"": ""active""}"
+3,NCT02366143,29863955,IMPower150,Chemo+Anti-VEGF,active,"{""control_category"": ""active""}"
+4,NCT02366143,29863955,IMPower150,Chemo+Anti-VEGF,active,"{""control_category"": ""active""}"
+5,NCT02367781,31122901,IMpower130,Chemo,active,"{""control_category"": ""active""}"
+6,NCT02367794,32302702,IMpower131,Chemo,active,"{""control_category"": ""active""}"
+7,NCT02367794,32302702,IMpower131,Chemo,active,"{""control_category"": ""active""}"

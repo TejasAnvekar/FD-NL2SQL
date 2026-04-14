@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01704287,26115796,KEYNOTE-002,OS+PFS,primary,"{""endpoint_role"": ""primary""}"
+2,NCT01704287,26115796,KEYNOTE-002,OS+PFS,primary,"{""endpoint_role"": ""primary""}"
+3,NCT01704287,28961465,KEYNOTE-002,OS+PFS,primary,"{""endpoint_role"": ""primary""}"
+4,NCT01704287,28961465,KEYNOTE-002,OS+PFS,primary,"{""endpoint_role"": ""primary""}"
+5,NCT02130466,31171878,KEYNOTE-022,PFS,primary,"{""endpoint_role"": ""primary""}"
+6,NCT02130466,33361337,KEYNOTE-022,PFS,primary,"{""endpoint_role"": ""primary""}"

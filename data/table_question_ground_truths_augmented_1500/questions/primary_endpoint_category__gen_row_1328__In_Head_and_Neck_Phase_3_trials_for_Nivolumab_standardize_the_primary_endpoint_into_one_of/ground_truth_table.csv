@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response
+1,NCT02105636,27718784,CheckMate 141,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+2,NCT02105636,29884413,CheckMate 141,OS,OS,"{""primary_endpoint_category"": ""OS""}"
+3,NCT02017717,32437507,CheckMate 143,OS,OS,"{""primary_endpoint_category"": ""OS""}"

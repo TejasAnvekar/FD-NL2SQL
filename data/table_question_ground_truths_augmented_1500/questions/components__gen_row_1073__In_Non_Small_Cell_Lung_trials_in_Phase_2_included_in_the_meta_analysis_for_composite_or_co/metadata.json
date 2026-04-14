@@ -1,0 +1,25 @@
+{
+  "item_id": "gen_row_1073",
+  "csv_row_number": 1073,
+  "question": "In Non-Small Cell Lung trials in Phase 2 included in the meta-analysis, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "components"
+  ],
+  "expected_llm_response": {
+    "components": [
+      "PFS"
+    ]
+  },
+  "sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Primary endpoint\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_components(source_value) AS \"components\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/components__gen_row_1073__In_Non_Small_Cell_Lung_trials_in_Phase_2_included_in_the_meta_analysis_for_composite_or_co/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 8,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "components"
+}

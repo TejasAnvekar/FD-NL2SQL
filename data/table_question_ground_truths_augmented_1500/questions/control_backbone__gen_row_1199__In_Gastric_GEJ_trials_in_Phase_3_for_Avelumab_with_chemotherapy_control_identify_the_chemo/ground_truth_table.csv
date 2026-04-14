@@ -1,0 +1,2 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_backbone,derived_expected_llm_response
+1, NCT02625610,33197226,Javelin Gastric 100,Oxaliplstin+5-FU+Leucovorin+Capecitabine+Best supportive care,CAPOX,"{""control_backbone"": ""CAPOX""}"

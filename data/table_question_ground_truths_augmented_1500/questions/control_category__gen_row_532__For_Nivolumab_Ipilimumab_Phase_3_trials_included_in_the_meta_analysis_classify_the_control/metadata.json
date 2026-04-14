@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_532",
+  "csv_row_number": 532,
+  "question": "For Nivolumab, Ipilimumab Phase 3 trials included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "expected_llm_response": {
+    "control_category": "active"
+  },
+  "sql_query": "SELECT \"Control arm\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control arm\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Nivolumab, Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_category(source_value) AS \"control_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/control_category__gen_row_532__For_Nivolumab_Ipilimumab_Phase_3_trials_included_in_the_meta_analysis_classify_the_control/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Name of ICI": "Nivolumab, Ipilimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "control_category"
+}

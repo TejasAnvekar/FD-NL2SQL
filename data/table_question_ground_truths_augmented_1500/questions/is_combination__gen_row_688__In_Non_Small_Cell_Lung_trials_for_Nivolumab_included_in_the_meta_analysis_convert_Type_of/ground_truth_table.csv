@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response
+1,NCT01673867,26412456,Checkmate 057,Monotherapy,false,"{""is_combination"": false}"
+2,NCT01642004,26028407,Checkmate 017,Monotherapy,false,"{""is_combination"": false}"
+3,NCT02041533,28636851,Checkmate 026,Monotherapy,false,"{""is_combination"": false}"
+4,NCT02477826,29658845,Checkmate 227,Monotherapy,false,"{""is_combination"": false}"
+5,NCT02477826,31562796,Checkmate 227,Monotherapy,false,"{""is_combination"": false}"
+6,NCT02477826,31562796,Checkmate 227,Combination,true,"{""is_combination"": true}"
+7,NCT02613507,30659987,Checkmate 078,Monotherapy,false,"{""is_combination"": false}"

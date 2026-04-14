@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT02125461,28885881,PACIFIC,"12-18 month PSA, DOR, ORR, Time to death, secondary progression, safety",false,"{""irAE_assessed"": false}"
+2,NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.,false,"{""irAE_assessed"": false}"
+3,NCT02352948,32201234,ARCTIC,OS rate at 12 months; proportion of patients alive and progression-free at 6 and 12 months; ORR; DoR.,false,"{""irAE_assessed"": false}"
+4,NCT02453282,32271377,MYSTIC,PFS for durvalumab vs. chemotherapy; ORR and DOR in patients with PD-L1 TC ≥25%; safety and tolerability.,false,"{""irAE_assessed"": false}"
+5,NCT02369874,32294530,EAGLE,"PFS, ORR, DOR",false,"{""irAE_assessed"": false}"

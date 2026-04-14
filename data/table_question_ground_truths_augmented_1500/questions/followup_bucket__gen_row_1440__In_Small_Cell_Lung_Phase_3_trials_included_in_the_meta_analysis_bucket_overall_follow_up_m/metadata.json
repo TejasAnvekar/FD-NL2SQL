@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1440",
+  "csv_row_number": 1440,
+  "question": "In Small Cell Lung Phase 3 trials included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "followup_bucket"
+  ],
+  "expected_llm_response": {
+    "followup_bucket": "12–23"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_bucket(source_value) AS \"followup_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/followup_bucket__gen_row_1440__In_Small_Cell_Lung_Phase_3_trials_included_in_the_meta_analysis_bucket_overall_follow_up_m/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Small Cell Lung",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "followup_bucket"
+}

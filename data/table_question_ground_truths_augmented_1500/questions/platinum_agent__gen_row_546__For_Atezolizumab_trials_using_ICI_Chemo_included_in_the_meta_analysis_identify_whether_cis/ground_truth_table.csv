@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT02425891,30345906,IMpassion130,Atezolizumab+Nab-paclitaxel,,"{""platinum_agent"": null}"
+2,NCT02763579,30280641,IMPower 133,Atezolizumab+Etoposide+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+3,NCT02366143,29863955,IMPower150,Atezolizumab+Carboplatin+Paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+4,NCT02367781,31122901,IMpower130,Atezolizumab+Carboplatin+Nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+5,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+6,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+7,NCT02807636,32416780,IMvigor130,Atezolizumab+Gemcitabine+Carboplatin or Cisplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"

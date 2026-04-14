@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,CA184-156,CA184-156,"{""trial_acronym"": ""CA184-156""}"
+2,NCT00094653,20525992,MDX010-20,MDX010-20,MDX010-20,"{""trial_acronym"": ""MDX010-20""}"
+3,NCT00094653,20525992,MDX010-20,MDX010-20,MDX010-20,"{""trial_acronym"": ""MDX010-20""}"
+4,NCT00861614,24831977,CA184-043,CA184-043,CA184-043,"{""trial_acronym"": ""CA184-043""}"
+5,NCT01057810,28034081,CA184-095,CA184-095,CA184-095,"{""trial_acronym"": ""CA184-095""}"

@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Yes,true,"{""pd_l1_required"": true}"
+2,NCT01905657,26712084,Keynote-010,Yes,true,"{""pd_l1_required"": true}"
+3,NCT02039674,27745820,Keynote-021,Yes,true,"{""pd_l1_required"": true}"
+4,NCT02039674,30138764,Keynote-021,Yes,true,"{""pd_l1_required"": true}"
+5,NCT02578680,29658856,Keynote-189,No,false,"{""pd_l1_required"": false}"
+6,NCT02220894,30955977,Keynote-042,Yes,true,"{""pd_l1_required"": true}"
+7,NCT02142738,30620668,Keynote-024,Yes,true,"{""pd_l1_required"": true}"
+8,NCT02574598,32271354,PROLUNG,No,false,"{""pd_l1_required"": false}"
+9,NCT02142738,27718847,Keynote-024,Yes,true,"{""pd_l1_required"": true}"

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1164",
+  "csv_row_number": 1164,
+  "question": "In Non-Small Cell Lung trials in Phase 2 included in the meta-analysis, convert 'Type of therapy' into is_combination = true/false.",
+  "column_used": "Type of therapy",
+  "expected_keys": [
+    "is_combination"
+  ],
+  "expected_llm_response": {
+    "is_combination": true
+  },
+  "sql_query": "SELECT \"Type of therapy\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 2';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Type of therapy\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Included in MA\" = 'Yes' AND \"Trial phase\" = 'Phase 2'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_is_combination(source_value) AS \"is_combination\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/is_combination__gen_row_1164__In_Non_Small_Cell_Lung_trials_in_Phase_2_included_in_the_meta_analysis_convert_Type_of_the/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 8,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Trial phase": "Phase 2",
+    "Included in MA": "Yes"
+  },
+  "family_id": "is_combination"
+}

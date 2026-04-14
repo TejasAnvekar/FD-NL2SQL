@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02807636,32416780,IMvigor130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+2,NCT02516241,32971005,DANUBE,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+3,NCT02603432,32945632,,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"
+4,NCT02450331, 33721560,Imvigor010,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"

@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+2,NCT02125461,30280658,PACIFIC,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+3,NCT02008227,27979383,OAK,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+4,NCT02008227,29777823,OAK,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+5,NCT01274338,31880964,E1609,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+6,NCT01274338,31880964,E1609,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+7,NCT00094653,23942774,MDX010-20,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1133",
+  "csv_row_number": 1133,
+  "question": "In Melanoma trials for Ipilimumab, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "expected_llm_response": {
+    "arm_category": "≥3-arm"
+  },
+  "sql_query": "SELECT \"Number of arms\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Number of arms\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Melanoma' AND \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_arm_category(source_value) AS \"arm_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/arm_category__gen_row_1133__In_Melanoma_trials_for_Ipilimumab_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Name of ICI": "Ipilimumab",
+    "Included in MA": "No"
+  },
+  "family_id": "arm_category"
+}

@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01903993,26970723,POPLAR,"ORR, PFS, DOR,OR",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02395172,30262187,JAVELIN Lung 200,"PFS, ORR, , BOR, PRO, Safety",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02366143,29863955,IMPower150,"PFS, OS in ITT population",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02366143,29863955,IMPower150,"PFS, OS in ITT population",secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02367794,32302702,IMpower131,"ORR, DOR, PFS and OS in PD-L1 subgroups and T-effector population; safety.",secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02367794,32302702,IMpower131,"ORR, DOR, PFS and OS in PD-L1 subgroups and T-effector population; safety.",secondary,"{""endpoint_role"": ""secondary""}"

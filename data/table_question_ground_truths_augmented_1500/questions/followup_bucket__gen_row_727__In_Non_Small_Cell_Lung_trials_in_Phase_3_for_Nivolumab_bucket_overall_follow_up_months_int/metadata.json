@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_727",
+  "csv_row_number": 727,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "followup_bucket"
+  ],
+  "expected_llm_response": {
+    "followup_bucket": "12–23"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Nivolumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_bucket(source_value) AS \"followup_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/followup_bucket__gen_row_727__In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_bucket_overall_follow_up_months_int/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Nivolumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "followup_bucket"
+}

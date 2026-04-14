@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT01721746,25795410,CheckMate 037,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.,false,"{""irAE_assessed"": false}"
+2,NCT01721746,28671856,CheckMate 037,PFS; PD-L1 expression as a predictive biomarker for ORR and OS; health-related quality of life.,false,"{""irAE_assessed"": false}"
+3,NCT01721772,25399552,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.,false,"{""irAE_assessed"": false}"
+4,NCT01721772,30422243,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.,false,"{""irAE_assessed"": false}"
+5,NCT01721772,32997575,CheckMate 066,Investigator-assessed PFS and objective response; tumor PD-L1 expression as a predictive biomarker of OS.,false,"{""irAE_assessed"": false}"

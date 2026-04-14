@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1269",
+  "csv_row_number": 1269,
+  "question": "In Breast trials in Phase 3 for Atezolizumab, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "expected_llm_response": {
+    "control_category": "active"
+  },
+  "sql_query": "SELECT \"Control arm\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Breast' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control arm\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Breast' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_category(source_value) AS \"control_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/control_category__gen_row_1269__In_Breast_trials_in_Phase_3_for_Atezolizumab_classify_the_control_arm_as_active_placebo_or/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Breast",
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "control_category"
+}

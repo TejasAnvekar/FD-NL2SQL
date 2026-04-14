@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT01905657,26712084,Keynote-010,Pembrolizumab,q3w,"{""schedule"": ""q3w""}"
+2,NCT01905657,26712084,Keynote-010,Pembrolizumab,q3w,"{""schedule"": ""q3w""}"
+3,NCT02039674,27745820,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,q3w,"{""schedule"": ""q3w""}"
+4,NCT02039674,30138764,Keynote-021,Pembrolizumab+Pemetrexed+Carboplatin,q3w,"{""schedule"": ""q3w""}"
+5,NCT02574598,32271354,PROLUNG,Pembrolizumab+ Docetaxel,q3w,"{""schedule"": ""q3w""}"

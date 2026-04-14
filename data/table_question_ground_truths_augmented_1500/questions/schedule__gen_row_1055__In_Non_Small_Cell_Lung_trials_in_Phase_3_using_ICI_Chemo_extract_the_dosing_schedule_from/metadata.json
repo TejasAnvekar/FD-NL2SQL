@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1055",
+  "csv_row_number": 1055,
+  "question": "In Non-Small Cell Lung trials in Phase 3 using ICI+Chemo, extract the dosing schedule from the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "schedule"
+  ],
+  "expected_llm_response": {
+    "schedule": "q3w"
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+Chemo';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+Chemo'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_schedule(source_value) AS \"schedule\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/schedule__gen_row_1055__In_Non_Small_Cell_Lung_trials_in_Phase_3_using_ICI_Chemo_extract_the_dosing_schedule_from/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 2,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Trial phase": "Phase 3",
+    "Type of combination": "ICI+Chemo"
+  },
+  "family_id": "schedule"
+}

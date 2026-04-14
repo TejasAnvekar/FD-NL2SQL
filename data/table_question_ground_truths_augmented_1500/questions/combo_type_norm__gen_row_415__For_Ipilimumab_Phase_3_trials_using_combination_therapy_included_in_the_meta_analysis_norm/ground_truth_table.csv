@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+2,NCT01285609,28854067,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+3,NCT00324155,21639810,,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+4,NCT00094653,20525992,MDX010-20,ICI+Vaccine,ICI+Vaccine,"{""combo_type_norm"": ""ICI+Vaccine""}"
+5,NCT00861614,24831977,CA184-043,ICI+RadiatICIn,ICI+Radiation,"{""combo_type_norm"": ""ICI+Radiation""}"

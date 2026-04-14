@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_961",
+  "csv_row_number": 961,
+  "question": "For Ipilimumab trials in Phase 3, classify the control arm as active, placebo, or best supportive care.",
+  "column_used": "Control arm",
+  "expected_keys": [
+    "control_category"
+  ],
+  "expected_llm_response": {
+    "control_category": "active"
+  },
+  "sql_query": "SELECT \"Control arm\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control arm\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_category(source_value) AS \"control_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/control_category__gen_row_961__For_Ipilimumab_trials_in_Phase_3_classify_the_control_arm_as_active_placebo_or_best_suppor/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "control_category"
+}

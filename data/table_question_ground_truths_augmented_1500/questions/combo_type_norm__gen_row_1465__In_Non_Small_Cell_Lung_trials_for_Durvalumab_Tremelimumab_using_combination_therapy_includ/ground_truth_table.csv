@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02352948,32201234,ARCTIC,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"
+2,NCT02453282,32271377,MYSTIC,ICI+ICI,ICI+ICI,"{""combo_type_norm"": ""ICI+ICI""}"

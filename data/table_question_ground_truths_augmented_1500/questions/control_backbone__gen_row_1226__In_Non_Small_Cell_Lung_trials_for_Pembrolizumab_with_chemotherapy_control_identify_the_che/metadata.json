@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_1226",
+  "csv_row_number": 1226,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab with chemotherapy control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "control_backbone"
+  ],
+  "expected_llm_response": {
+    "control_backbone": "Carboplatin+Paclitaxel"
+  },
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Control regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Control arm\", '')) = 'Chemo' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Control regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Control arm\", '')) = 'Chemo' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_control_backbone(source_value) AS \"control_backbone\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/control_backbone__gen_row_1226__In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_with_chemotherapy_control_identify_the_che/ground_truth_table.csv",
+  "row_count": 1,
+  "non_null_count": 1,
+  "filters": {
+    "Control arm": "Chemo",
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Pembrolizumab",
+    "Included in MA": "No"
+  },
+  "family_id": "control_backbone"
+}

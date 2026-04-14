@@ -1,2 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response,table_row_id
-1,NCT03434379,32402160,IMbrave150,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}",109

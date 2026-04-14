@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,primary_endpoint_category,derived_expected_llm_response,table_row_id
-1,NCT02362048,32114502,KEYNOTE144,Safety,AE-rate,"{""primary_endpoint_category"": ""AE-rate""}",88
-2,NCT01896869,32591464,,OS,OS,"{""primary_endpoint_category"": ""OS""}",97

@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT03036488,32101663,KEYNOTE-522,Placebo+Paclitaxel+Carboplatin,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+2,NCT02819518,33278935,MK-3475/Keynote-355,Placebo+Nab-paclitaxel/Gemcitabine+carboplatin,"[""Gemcitabine+Platinum""]","{""specific_regimens"": [""Gemcitabine+Platinum""]}"

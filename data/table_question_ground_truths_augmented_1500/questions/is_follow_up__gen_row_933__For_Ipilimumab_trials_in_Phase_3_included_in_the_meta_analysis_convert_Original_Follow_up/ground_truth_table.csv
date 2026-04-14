@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Original publication,false,"{""is_follow_up"": false}"
+2,NCT01285609,28854067,,Original publication,false,"{""is_follow_up"": false}"
+3,NCT00324155,21639810,,Original publication,false,"{""is_follow_up"": false}"
+4,NCT00094653,20525992,MDX010-20,Original publication,false,"{""is_follow_up"": false}"
+5,NCT00094653,20525992,MDX010-20,Original publication,false,"{""is_follow_up"": false}"
+6,NCT00636168,27717298,,Original publication,false,"{""is_follow_up"": false}"
+7,NCT00861614,24831977,CA184-043,Original publication,false,"{""is_follow_up"": false}"
+8,NCT01057810,28034081,CA184-095,Original publication,false,"{""is_follow_up"": false}"

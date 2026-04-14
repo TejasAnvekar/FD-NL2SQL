@@ -1,0 +1,25 @@
+{
+  "item_id": "gen_row_372",
+  "csv_row_number": 372,
+  "question": "For Atezolizumab Phase 3 trials, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "components"
+  ],
+  "expected_llm_response": {
+    "components": [
+      "OS"
+    ]
+  },
+  "sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Primary endpoint\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Atezolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_components(source_value) AS \"components\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/components__gen_row_372__For_Atezolizumab_Phase_3_trials_for_composite_or_co_primary_endpoints_list_the_individual/ground_truth_table.csv",
+  "row_count": 6,
+  "non_null_count": 6,
+  "filters": {
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "components"
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_745",
+  "csv_row_number": 745,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Durvalumab, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "expected_llm_response": {
+    "era": "2015–2018"
+  },
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Durvalumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials WHERE \"Cancer type\" = 'Non-Small Cell Lung' AND \"Name of ICI\" = 'Durvalumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/era__gen_row_745__In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Durvalumab_bucket_the_publication_year_into_2/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Name of ICI": "Durvalumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "era"
+}

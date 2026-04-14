@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,arm_category,derived_expected_llm_response
+1,NCT00324155,21639810,,2,2-arm,"{""arm_category"": ""2-arm""}"
+2,NCT00094653,20525992,MDX010-20,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+3,NCT00094653,20525992,MDX010-20,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+4,NCT00636168,27717298,,2,2-arm,"{""arm_category"": ""2-arm""}"
+5,NCT01274338,31880964,E1609,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+6,NCT01274338,31880964,E1609,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+7,NCT00094653,23942774,MDX010-20,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+8,NCT00094653,23942774,MDX010-20,3,≥3-arm,"{""arm_category"": ""≥3-arm""}"
+9, NCT00636168,25840693,,2,2-arm,"{""arm_category"": ""2-arm""}"

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,Durvalumab,,"{""platinum_agent"": null}"
+2,NCT02008227,27979383,OAK,Atezolizumab,,"{""platinum_agent"": null}"
+3,NCT02008227,29777823,OAK,Atezolizumab,,"{""platinum_agent"": null}"
+4,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+5,NCT02454933,30763730,CAURAL,Durvalumab+Osimertinib,,"{""platinum_agent"": null}"

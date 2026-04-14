@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02578680,29658856,Keynote-189,Keynote-189,KEYNOTE-189,"{""trial_acronym"": ""KEYNOTE-189""}"
+2,NCT02775435,30280635,Keynote-407,Keynote-407,KEYNOTE-407,"{""trial_acronym"": ""KEYNOTE-407""}"
+3,NCT02220894,30955977,Keynote-042,Keynote-042,KEYNOTE-042,"{""trial_acronym"": ""KEYNOTE-042""}"
+4,NCT02142738,30620668,Keynote-024,Keynote-024,KEYNOTE-024,"{""trial_acronym"": ""KEYNOTE-024""}"
+5,NCT02142738,27718847,Keynote-024,Keynote-024,KEYNOTE-024,"{""trial_acronym"": ""KEYNOTE-024""}"

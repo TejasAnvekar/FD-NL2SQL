@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,PACIFIC,PACIFIC,"{""trial_acronym"": ""PACIFIC""}"
+2,NCT02008227,27979383,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"
+3,NCT02008227,29777823,OAK,OAK,OAK,"{""trial_acronym"": ""OAK""}"
+4,NCT02775435,30280635,Keynote-407,Keynote-407,KEYNOTE-407,"{""trial_acronym"": ""KEYNOTE-407""}"
+5,NCT02454933,30763730,CAURAL,CAURAL,CAURAL,"{""trial_acronym"": ""CAURAL""}"

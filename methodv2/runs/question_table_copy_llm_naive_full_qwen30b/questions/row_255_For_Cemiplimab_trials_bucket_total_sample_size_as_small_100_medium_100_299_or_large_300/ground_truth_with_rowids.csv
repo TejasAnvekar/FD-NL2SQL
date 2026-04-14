@@ -1,2 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response,table_row_id
-1,NCT03088540,33581821,EMPOWER-Lung 1,710.0,large,"{""size_bucket"": ""large""}",

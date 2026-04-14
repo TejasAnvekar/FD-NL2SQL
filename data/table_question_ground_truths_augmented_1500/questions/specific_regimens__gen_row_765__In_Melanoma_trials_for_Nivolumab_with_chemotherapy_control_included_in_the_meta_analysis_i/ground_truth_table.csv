@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,specific_regimens,derived_expected_llm_response
+1,NCT01721746,25795410,CheckMate 037,Dacarbazine/carboplatin+paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+2,NCT01721746,28671856,CheckMate 037,Dacarbazine/carboplatin+paclitaxel,"[""Carboplatin+Paclitaxel""]","{""specific_regimens"": [""Carboplatin+Paclitaxel""]}"
+3,NCT01721772,25399552,CheckMate 066,Dacarbazine,,"{""specific_regimens"": null}"
+4,NCT01721772,30422243,CheckMate 066,Dacarbazine,,"{""specific_regimens"": null}"

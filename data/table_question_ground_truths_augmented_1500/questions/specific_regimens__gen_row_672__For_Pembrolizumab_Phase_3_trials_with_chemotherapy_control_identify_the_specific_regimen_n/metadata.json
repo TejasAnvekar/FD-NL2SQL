@@ -1,0 +1,26 @@
+{
+  "item_id": "gen_row_672",
+  "csv_row_number": 672,
+  "question": "For Pembrolizumab Phase 3 trials with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "column_used": "Control regimen",
+  "expected_keys": [
+    "specific_regimens"
+  ],
+  "expected_llm_response": {
+    "specific_regimens": [
+      "Carboplatin+Paclitaxel"
+    ]
+  },
+  "sql_query": "SELECT \"Control regimen\"\nFROM clinical_trials\nWHERE \"Control arm\" = 'Chemo' AND \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Pembrolizumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Control regimen\" AS source_value FROM clinical_trials WHERE \"Control arm\" = 'Chemo' AND \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Pembrolizumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_specific_regimens(source_value) AS \"specific_regimens\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/specific_regimens__gen_row_672__For_Pembrolizumab_Phase_3_trials_with_chemotherapy_control_identify_the_specific_regimen_n/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 2,
+  "filters": {
+    "Control arm": "Chemo",
+    "Name of ICI": "Pembrolizumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "specific_regimens"
+}

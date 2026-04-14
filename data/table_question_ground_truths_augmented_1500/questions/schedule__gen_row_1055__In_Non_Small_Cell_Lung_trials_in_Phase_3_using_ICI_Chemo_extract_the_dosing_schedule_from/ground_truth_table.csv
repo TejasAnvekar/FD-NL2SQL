@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT01285609,28854067,,Ipilimumab+Paclitaxel+Carboplatin,,"{""schedule"": null}"
+2,NCT02578680,29658856,Keynote-189,Pembrolizumab+Platinum agent,q3w,"{""schedule"": ""q3w""}"
+3,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,q3w,"{""schedule"": ""q3w""}"
+4,NCT02366143,29863955,IMPower150,Atezolizumab+Carboplatin+Paclitaxel,,"{""schedule"": null}"
+5,NCT02477826,31562796,Checkmate 227,Nivolumab+Chemotherapy,,"{""schedule"": null}"
+6,NCT02367781,31122901,IMpower130,Atezolizumab+Carboplatin+Nab-paclitaxel,,"{""schedule"": null}"
+7,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Paclitaxel,,"{""schedule"": null}"
+8,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Nab-paclitaxel,,"{""schedule"": null}"

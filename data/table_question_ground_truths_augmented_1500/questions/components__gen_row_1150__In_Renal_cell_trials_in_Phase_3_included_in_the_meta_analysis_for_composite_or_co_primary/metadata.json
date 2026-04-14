@@ -1,0 +1,25 @@
+{
+  "item_id": "gen_row_1150",
+  "csv_row_number": 1150,
+  "question": "In Renal cell trials in Phase 3 included in the meta-analysis, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "column_used": "Primary endpoint",
+  "expected_keys": [
+    "components"
+  ],
+  "expected_llm_response": {
+    "components": [
+      "OS"
+    ]
+  },
+  "sql_query": "SELECT \"Primary endpoint\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Primary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Renal cell' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Primary endpoint\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Primary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Renal cell' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_components(source_value) AS \"components\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/components__gen_row_1150__In_Renal_cell_trials_in_Phase_3_included_in_the_meta_analysis_for_composite_or_co_primary/ground_truth_table.csv",
+  "row_count": 8,
+  "non_null_count": 8,
+  "filters": {
+    "Cancer type": "Renal cell",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "components"
+}

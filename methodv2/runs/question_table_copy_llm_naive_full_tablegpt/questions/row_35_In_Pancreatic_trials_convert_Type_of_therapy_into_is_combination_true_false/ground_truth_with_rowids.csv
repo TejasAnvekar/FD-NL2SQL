@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,is_combination,derived_expected_llm_response,table_row_id
-1,NCT02362048,32114502,KEYNOTE144,Combination,true,"{""is_combination"": true}",88
-2,NCT01896869,32591464,,Combination,true,"{""is_combination"": true}",97

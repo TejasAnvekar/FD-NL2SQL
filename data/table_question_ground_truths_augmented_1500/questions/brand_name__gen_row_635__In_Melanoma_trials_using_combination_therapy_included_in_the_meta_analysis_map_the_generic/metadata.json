@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_635",
+  "csv_row_number": 635,
+  "question": "In Melanoma trials using combination therapy included in the meta-analysis, map the generic ICI name to its brand name.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "brand_name"
+  ],
+  "expected_llm_response": {
+    "brand_name": "Yervoy"
+  },
+  "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Name of ICI\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Name of ICI\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Melanoma' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_brand_name(source_value) AS \"brand_name\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/brand_name__gen_row_635__In_Melanoma_trials_using_combination_therapy_included_in_the_meta_analysis_map_the_generic/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Cancer type": "Melanoma",
+    "Included in MA": "Yes",
+    "Monotherapy/combination": "Combination"
+  },
+  "family_id": "brand_name"
+}

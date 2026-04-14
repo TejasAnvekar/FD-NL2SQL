@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1220",
+  "csv_row_number": 1220,
+  "question": "In Breast trials using combination therapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "column_used": "Name of ICI",
+  "expected_keys": [
+    "class"
+  ],
+  "expected_llm_response": {
+    "class": "PD1"
+  },
+  "sql_query": "SELECT \"Name of ICI\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Name of ICI\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Breast' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Name of ICI\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Name of ICI\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Breast' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Monotherapy/combination\", '')) = 'Combination'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_ici_class(source_value) AS \"class\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/class__gen_row_1220__In_Breast_trials_using_combination_therapy_classify_the_ICI_by_target_class_from_its_gener/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Breast",
+    "Included in MA": "No",
+    "Monotherapy/combination": "Combination"
+  },
+  "family_id": "class"
+}

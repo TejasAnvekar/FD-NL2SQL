@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_765",
+  "csv_row_number": 765,
+  "question": "For Atezolizumab trials in Phase 3 using ICI plus BRAFi+MEKi, identify the MEK inhibitor used in the regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "mek_inhibitor"
+  ],
+  "expected_llm_response": {
+    "mek_inhibitor": "cobimetinib"
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+BRAFi+MEKi';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+BRAFi+MEKi'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_mek_inhibitor(source_value) AS \"mek_inhibitor\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/mek_inhibitor__gen_row_765__For_Atezolizumab_trials_in_Phase_3_using_ICI_plus_BRAFi_MEKi_identify_the_MEK_inhibitor_us/ground_truth_table.csv",
+  "row_count": 1,
+  "non_null_count": 1,
+  "filters": {
+    "Type of combination": "ICI+BRAFi+MEKi",
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "mek_inhibitor"
+}

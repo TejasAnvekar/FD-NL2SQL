@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pubmed_url,derived_expected_llm_response
+1,NCT02302807,29268948,IMvigor211,29268948,https://pubmed.ncbi.nlm.nih.gov/29268948/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/29268948/""}"
+2,NCT02256436,28212060,Keynote-045,28212060,https://pubmed.ncbi.nlm.nih.gov/28212060/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/28212060/""}"
+3,NCT02256436,31050707,Keynote-045,31050707,https://pubmed.ncbi.nlm.nih.gov/31050707/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/31050707/""}"

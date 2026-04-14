@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,"[""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]","{""added_agents"": [""carboplatin"", ""paclitaxel"", ""nab-paclitaxel""]}"
+2,NCT02576977,31327687,KEYNOTE-183,Pembrolizumab+Pomalidomide+Dexamethasone,"[""pomalidomide"", ""dexamethasone""]","{""added_agents"": [""pomalidomide"", ""dexamethasone""]}"
+3,NCT02579863,31327689,KEYNOTE-185,Pembrolizumab+Lenalidomide+Dexamethasone,"[""lenalidomide"", ""dexamethasone""]","{""added_agents"": [""lenalidomide"", ""dexamethasone""]}"
+4,NCT03036488,32101663,KEYNOTE-522,Pembrolizumab+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""added_agents"": [""paclitaxel"", ""carboplatin""]}"

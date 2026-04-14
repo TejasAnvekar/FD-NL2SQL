@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,components,derived_expected_llm_response
+1,NCT02477826,29658845,Checkmate 227,OS+PFS,"[""OS"", ""PFS""]","{""components"": [""OS"", ""PFS""]}"
+2,NCT02477826,31562796,Checkmate 227,OS,"[""OS""]","{""components"": [""OS""]}"
+3,NCT03215706,33476593,CheckMate 9LA,OS,"[""OS""]","{""components"": [""OS""]}"

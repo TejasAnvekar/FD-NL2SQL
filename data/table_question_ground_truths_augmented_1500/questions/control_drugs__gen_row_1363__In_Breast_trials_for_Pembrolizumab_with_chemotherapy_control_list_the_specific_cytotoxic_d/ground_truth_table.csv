@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT01042379,32053137,I-SPY2,Paclitaxel+Doxorubicin+Cyclophosphamide,"[""paclitaxel"", ""doxorubicin"", ""cyclophosphamide""]","{""control_drugs"": [""paclitaxel"", ""doxorubicin"", ""cyclophosphamide""]}"
+2,NCT03036488,32101663,KEYNOTE-522,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"

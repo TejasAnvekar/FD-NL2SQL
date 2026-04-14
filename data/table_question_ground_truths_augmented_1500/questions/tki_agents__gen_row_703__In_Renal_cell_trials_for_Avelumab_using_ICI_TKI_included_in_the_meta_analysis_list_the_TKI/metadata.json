@@ -1,0 +1,26 @@
+{
+  "item_id": "gen_row_703",
+  "csv_row_number": 703,
+  "question": "In Renal cell trials for Avelumab using ICI+TKI included in the meta-analysis, list the TKI agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "tki_agents"
+  ],
+  "expected_llm_response": {
+    "tki_agents": [
+      "axitinib"
+    ]
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Renal cell' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Avelumab' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+TKI';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Renal cell' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Avelumab' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+TKI'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_tki_agents(source_value) AS \"tki_agents\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/tki_agents__gen_row_703__In_Renal_cell_trials_for_Avelumab_using_ICI_TKI_included_in_the_meta_analysis_list_the_TKI/ground_truth_table.csv",
+  "row_count": 1,
+  "non_null_count": 1,
+  "filters": {
+    "Type of combination": "ICI+TKI",
+    "Cancer type": "Renal cell",
+    "Name of ICI": "Avelumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "tki_agents"
+}

@@ -1,0 +1,8 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT01704287,26115796,KEYNOTE-002,Pembrolizumab 2 mg/kg,q3w,"{""schedule"": ""q3w""}"
+2,NCT01704287,26115796,KEYNOTE-002,Pembrolizumab 10 mg/kg,q3w,"{""schedule"": ""q3w""}"
+3,NCT01704287,28961465,KEYNOTE-002,Pembrolizumab 2 mg/kg,q3w,"{""schedule"": ""q3w""}"
+4,NCT01704287,28961465,KEYNOTE-002,Pembrolizumab 10 mg/kg,q3w,"{""schedule"": ""q3w""}"
+5,NCT02130466,31171878,KEYNOTE-022,Pembrolizumab+Dabrafenib+Trametinib,q3w,"{""schedule"": ""q3w""}"
+6,NCT02523313,32416781,IMMUNED,Nivolumab,,"{""schedule"": null}"
+7,NCT02523313,32416781,IMMUNED,Nivolumab+Ipilimumab,,"{""schedule"": null}"

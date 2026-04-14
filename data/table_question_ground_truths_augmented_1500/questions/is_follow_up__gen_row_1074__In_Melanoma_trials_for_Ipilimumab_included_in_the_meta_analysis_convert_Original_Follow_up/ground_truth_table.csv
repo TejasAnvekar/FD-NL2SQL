@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT00324155,21639810,,Original publication,false,"{""is_follow_up"": false}"
+2,NCT00094653,20525992,MDX010-20,Original publication,false,"{""is_follow_up"": false}"
+3,NCT00094653,20525992,MDX010-20,Original publication,false,"{""is_follow_up"": false}"
+4,NCT00636168,27717298,,Original publication,false,"{""is_follow_up"": false}"

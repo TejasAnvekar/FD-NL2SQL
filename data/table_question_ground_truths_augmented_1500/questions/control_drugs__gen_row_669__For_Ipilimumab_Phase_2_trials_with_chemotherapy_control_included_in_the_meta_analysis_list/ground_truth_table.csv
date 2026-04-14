@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_drugs,derived_expected_llm_response
+1,NCT00527735,22547592,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"
+2,NCT00527735,22547592,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"
+3,NCT00527735,22858559,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"
+4,NCT00527735,22858559,,Placebo+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""control_drugs"": [""paclitaxel"", ""carboplatin""]}"

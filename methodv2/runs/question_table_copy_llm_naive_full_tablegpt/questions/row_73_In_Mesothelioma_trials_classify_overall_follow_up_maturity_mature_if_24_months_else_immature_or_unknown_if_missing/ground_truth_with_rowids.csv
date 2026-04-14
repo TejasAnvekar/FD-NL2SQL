@@ -1,4 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,maturity,derived_expected_llm_response,table_row_id
-1,NCT01843374,28729154,DETERMINE,,unknown,"{""maturity"": ""unknown""}",73
-2,NCT02899299,33485464,CheckMate 743,29.7,mature,"{""maturity"": ""mature""}",128
-3,NCT02991482,32976938,PROMISE-meso,11.8,immature,"{""maturity"": ""immature""}",139

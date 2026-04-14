@@ -1,0 +1,3 @@
+row_index,NCT,PubMed ID,Trial name,source_value,phase_bucket,derived_expected_llm_response
+1,NCT02788279,31003911,IMblaze130,Phase 3,late,"{""phase_bucket"": ""late""}"
+2,NCT02788279,31003911,IMblaze130,Phase 3,late,"{""phase_bucket"": ""late""}"

@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_376",
+  "csv_row_number": 376,
+  "question": "For Atezolizumab trials in Phase 3, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "column_used": "Number of arms",
+  "expected_keys": [
+    "arm_category"
+  ],
+  "expected_llm_response": {
+    "arm_category": "≥3-arm"
+  },
+  "sql_query": "SELECT \"Number of arms\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Number of arms\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Number of arms\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Number of arms\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_arm_category(source_value) AS \"arm_category\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/arm_category__gen_row_376__For_Atezolizumab_trials_in_Phase_3_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm/ground_truth_table.csv",
+  "row_count": 6,
+  "non_null_count": 6,
+  "filters": {
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "arm_category"
+}

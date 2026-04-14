@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02358031,31679945,KEYNOTE-048,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+2,NCT02369874,32294530,EAGLE,"Durvalumab, Tremelimumab","PD-L1, CTLA-4","{""class"": ""PD-L1, CTLA-4""}"
+3,NCT02952586,33794205,JAVELIN Head and Neck 101,Avelumab,PD-L1,"{""class"": ""PD-L1""}"
+4,NCT02999087,33125944,REACH,Avelumab,PD-L1,"{""class"": ""PD-L1""}"

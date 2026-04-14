@@ -28,6 +28,7 @@ import sqlite3
 import sys
 import time
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, DefaultDict, Dict, Iterable, List, Optional, Sequence, Tuple
 from urllib import request as urllib_request
@@ -73,6 +74,20 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--timeout", type=float, default=300.0)
     ap.add_argument("--num_retries", type=int, default=2)
     ap.add_argument(
+        "--prompt_template_file",
+        default="",
+        help=(
+            "Optional external prompt template. Supported placeholders include "
+            "{{question}}, {{table_csv_text}}, {{table_text}}, and {{source_column}}."
+        ),
+    )
+    ap.add_argument(
+        "--max_in_flight",
+        type=int,
+        default=1,
+        help="Maximum number of request calls to keep in flight concurrently.",
+    )
+    ap.add_argument(
         "--prompt_style",
         default="csv",
         choices=["csv", "tablegpt"],
@@ -99,6 +114,43 @@ def read_csv_rows(path: Path) -> List[Dict[str, str]]:
 def read_json(path: Path) -> Dict[str, Any]:
     with path.open(encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def format_seconds(seconds: float) -> str:
+    total = max(0, int(seconds))
+    minutes, secs = divmod(total, 60)
+    hours, minutes = divmod(minutes, 60)
+    if hours:
+        return f"{hours:d}:{minutes:02d}:{secs:02d}"
+    return f"{minutes:02d}:{secs:02d}"
+
+
+def print_progress(
+    *,
+    label: str,
+    completed: int,
+    total: int,
+    success: int = 0,
+    error: int = 0,
+    start_time: Optional[float] = None,
+) -> None:
+    total = max(1, int(total))
+    completed = max(0, min(int(completed), total))
+    fraction = completed / total
+    bar_width = 24
+    filled = int(bar_width * fraction)
+    bar = "#" * filled + "-" * (bar_width - filled)
+    elapsed = max(0.0, time.time() - start_time) if start_time is not None else 0.0
+    rate = (completed / elapsed) if elapsed > 0 else 0.0
+    remaining = ((total - completed) / rate) if rate > 0 else 0.0
+    line = (
+        f"\r{label:>9} [{bar}] {completed:>3}/{total:<3} "
+        f"ok={success:<3} err={error:<3} "
+        f"elapsed={format_seconds(elapsed)} eta={format_seconds(remaining)}"
+    )
+    end = "\n" if completed >= total else ""
+    sys.stderr.write(line + end)
+    sys.stderr.flush()
 
 
 def canonical_value(value: Any) -> Any:
@@ -279,16 +331,23 @@ def csv_quote(value: Any) -> str:
 def build_prompt(*, question: str, table_csv_text: str) -> str:
     return "\n".join(
         [
-            "You are answering a table question using only the visible CSV table below.",
-            'The column "__rowid__" uniquely identifies each visible row.',
-            "Use only the visible table content. Do not use outside knowledge.",
-            "Return ONLY valid JSON in this exact shape:",
-            '{"predictions":[{"table_row_id": 1, "answer": ...}]}',
-            "Return one prediction for each row that satisfies the question.",
-            "Use the integer __rowid__ values from the table as table_row_id.",
-            "If no rows satisfy the question, return {\"predictions\":[]}.",
-            "The answer may be a string, boolean, number, list, or object.",
-            "Do not add explanations.",
+            "You are an expert clinical-trial table reasoning system.",
+            "The task is to answer a question over the visible clinical-trials table.",
+            "",
+            "Rules:",
+            "",
+            '1. Use only the visible CSV table below. The column "__rowid__" uniquely identifies each visible row.',
+            "2. Do not use outside knowledge, hidden columns, or unstated assumptions.",
+            "3. Determine which visible rows satisfy the question.",
+            "4. For each matching row, derive the answer from the visible row content when the question requires",
+            "   classification, normalization, extraction, or transformation.",
+            "5. Return ONLY valid JSON in this exact shape:",
+            '   {"predictions":[{"table_row_id": 1, "answer": ...}]}',
+            "6. Use the integer __rowid__ values from the table as table_row_id.",
+            "7. Return one prediction for each row that satisfies the question.",
+            '8. If no rows satisfy the question, return {"predictions":[]}.',
+            "9. The answer may be a string, boolean, number, list, or object.",
+            "10. Do not add explanations, markdown, or any text outside the JSON object.",
             "",
             f"Question: {question}",
             "",
@@ -301,16 +360,23 @@ def build_prompt(*, question: str, table_csv_text: str) -> str:
 def build_tablegpt_prompt(*, question: str, table_text: str) -> str:
     return "\n".join(
         [
-            "Given access to a pandas-like dataframe, answer the user's question using only the visible table below.",
-            'The column "__rowid__" uniquely identifies each visible row.',
-            "Do not use outside knowledge.",
-            "Return ONLY valid JSON in this exact shape:",
-            '{"predictions":[{"table_row_id": 1, "answer": ...}]}',
-            "Return one prediction for each row that satisfies the question.",
-            "Use the integer __rowid__ values from the table as table_row_id.",
-            "If no rows satisfy the question, return {\"predictions\":[]}.",
-            "The answer may be a string, boolean, number, list, or object.",
-            "Do not add explanations.",
+            "You are an expert clinical-trial table reasoning system.",
+            "The task is to answer a question over the visible clinical-trials table.",
+            "",
+            "Rules:",
+            "",
+            '1. Use only the visible pandas-like table below. The column "__rowid__" uniquely identifies each visible row.',
+            "2. Do not use outside knowledge, hidden columns, or unstated assumptions.",
+            "3. Determine which visible rows satisfy the question.",
+            "4. For each matching row, derive the answer from the visible row content when the question requires",
+            "   classification, normalization, extraction, or transformation.",
+            "5. Return ONLY valid JSON in this exact shape:",
+            '   {"predictions":[{"table_row_id": 1, "answer": ...}]}',
+            "6. Use the integer __rowid__ values from the table as table_row_id.",
+            "7. Return one prediction for each row that satisfies the question.",
+            '8. If no rows satisfy the question, return {"predictions":[]}.',
+            "9. The answer may be a string, boolean, number, list, or object.",
+            "10. Do not add explanations, markdown, or any text outside the JSON object.",
             "",
             "df.to_string(index=False) as follows:",
             table_text,
@@ -318,6 +384,24 @@ def build_tablegpt_prompt(*, question: str, table_text: str) -> str:
             f"Question: {question}",
         ]
     ).strip()
+
+
+def render_prompt_template(
+    *,
+    template_text: str,
+    question: str,
+    table_csv_text: str,
+    table_text: str,
+    source_column: str,
+) -> str:
+    return (
+        (template_text or "")
+        .replace("{{question}}", question)
+        .replace("{{table_csv_text}}", table_csv_text)
+        .replace("{{table_text}}", table_text)
+        .replace("{{source_column}}", source_column)
+        .strip()
+    )
 
 
 def _chat_completions_url(api_base: str) -> str:
@@ -589,14 +673,22 @@ def main() -> None:
     annotated_csv = Path(args.annotated_csv).expanduser().resolve()
     db_path = Path(args.db_path).expanduser().resolve()
     run_root = Path(args.run_root).expanduser().resolve()
+    prompt_template_file = (
+        Path(args.prompt_template_file).expanduser().resolve()
+        if args.prompt_template_file
+        else None
+    )
     run_dir = make_run_dir(run_root, args.run_name.strip() or "question_table_copy_llm_naive_100")
     logger = setup_logger(str(run_dir / "logs"), str(run_dir / "run_meta.json"), logger_name=f"qtable_llm_{run_dir.name}")
+    prompt_template_text = prompt_template_file.read_text(encoding="utf-8") if prompt_template_file else ""
 
     logger.info("Manifest CSV: %s", manifest_csv)
     logger.info("Annotated CSV: %s", annotated_csv)
     logger.info("DB path: %s", db_path)
     logger.info("Run dir: %s", run_dir)
     logger.info("Model: %s", args.model_name)
+    logger.info("Prompt template file: %s", str(prompt_template_file) if prompt_template_file else "")
+    logger.info("Max in flight: %s", args.max_in_flight)
 
     sample_questions = load_sample_questions(
         manifest_csv=manifest_csv,
@@ -629,6 +721,7 @@ def main() -> None:
     requests_rows: List[Dict[str, Any]] = []
     responses_rows: List[Dict[str, Any]] = []
     run_counter = Counter()
+    prepared_items: List[Dict[str, Any]] = []
 
     for item in sample_questions:
         question = item["question"]
@@ -644,12 +737,20 @@ def main() -> None:
             extra_hidden_columns=args.answer_leak_columns,
         )
         visible_cols, visible_rows = drop_columns(full_table_rows, hidden_columns)
-        if args.prompt_style == "tablegpt":
-            table_text = table_to_pandas_like_text(visible_cols, visible_rows)
+        table_csv_text = table_to_csv_text(visible_cols, visible_rows)
+        table_text = table_to_pandas_like_text(visible_cols, visible_rows)
+        if prompt_template_text:
+            prompt = render_prompt_template(
+                template_text=prompt_template_text,
+                question=question,
+                table_csv_text=table_csv_text,
+                table_text=table_text,
+                source_column=source_column,
+            )
+        elif args.prompt_style == "tablegpt":
             prompt = build_tablegpt_prompt(question=question, table_text=table_text)
         else:
-            table_text = table_to_csv_text(visible_cols, visible_rows)
-            prompt = build_prompt(question=question, table_csv_text=table_text)
+            prompt = build_prompt(question=question, table_csv_text=table_csv_text)
 
         question_slug = sanitize_name(f"{item['item_id']}__{question}")[:180]
         question_dir = run_dir / "questions" / question_slug
@@ -678,12 +779,29 @@ def main() -> None:
                 "expected_keys_json": json.dumps(item["expected_keys"], ensure_ascii=False),
                 "prompt_char_count": len(prompt),
                 "prompt_style": args.prompt_style,
+                "prompt_template_file": str(prompt_template_file) if prompt_template_file else "",
                 "table_row_count": len(visible_rows),
                 "table_column_count": len(visible_cols),
                 "prompt": prompt,
             }
         )
+        prepared_items.append(
+            {
+                "item": item,
+                "question": question,
+                "source_column": source_column,
+                "hidden_columns": hidden_columns,
+                "visible_cols": visible_cols,
+                "visible_rows": visible_rows,
+                "prompt": prompt,
+                "question_dir": question_dir,
+                "table_copy_path": table_copy_path,
+                "assigned_gt_rows": assigned_gt_rows,
+                "gt_with_rowids_csv": gt_with_rowids_csv,
+            }
+        )
 
+    def run_prepared_request(prepared_item: Dict[str, Any]) -> Dict[str, Any]:
         raw_text = ""
         parsed_predictions: List[Dict[str, Any]] = []
         error = ""
@@ -693,7 +811,7 @@ def main() -> None:
                 api_base=args.api_base,
                 api_key=args.api_key,
                 model_name=args.model_name,
-                prompt=prompt,
+                prompt=prepared_item["prompt"],
                 temperature=args.temperature,
                 top_p=args.top_p,
                 max_tokens=args.max_tokens,
@@ -706,6 +824,82 @@ def main() -> None:
             model_meta = completion_meta(resp_obj)
         except Exception as exc:
             error = str(exc)
+        return {
+            "raw_text": raw_text,
+            "parsed_predictions": parsed_predictions,
+            "error": error,
+            "model_meta": model_meta,
+        }
+
+    request_results: List[Optional[Dict[str, Any]]] = [None] * len(prepared_items)
+    max_workers = max(1, int(args.max_in_flight))
+    request_start_time = time.time()
+    request_completed = 0
+    request_success = 0
+    request_error = 0
+    if prepared_items:
+        print_progress(
+            label="Requests",
+            completed=0,
+            total=len(prepared_items),
+            success=0,
+            error=0,
+            start_time=request_start_time,
+        )
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_idx = {
+            executor.submit(run_prepared_request, prepared): idx
+            for idx, prepared in enumerate(prepared_items)
+        }
+        for future in as_completed(future_to_idx):
+            idx = future_to_idx[future]
+            request_results[idx] = future.result()
+            request_completed += 1
+            if request_results[idx] and not request_results[idx].get("error"):
+                request_success += 1
+            else:
+                request_error += 1
+            print_progress(
+                label="Requests",
+                completed=request_completed,
+                total=len(prepared_items),
+                success=request_success,
+                error=request_error,
+                start_time=request_start_time,
+            )
+
+    scoring_start_time = time.time()
+    scored_completed = 0
+    scored_success = 0
+    scored_error = 0
+    if prepared_items:
+        print_progress(
+            label="Scoring",
+            completed=0,
+            total=len(prepared_items),
+            success=0,
+            error=0,
+            start_time=scoring_start_time,
+        )
+    for prepared, request_result in zip(prepared_items, request_results):
+        item = prepared["item"]
+        question = prepared["question"]
+        source_column = prepared["source_column"]
+        hidden_columns = prepared["hidden_columns"]
+        question_dir = prepared["question_dir"]
+        table_copy_path = prepared["table_copy_path"]
+        assigned_gt_rows = prepared["assigned_gt_rows"]
+        gt_with_rowids_csv = prepared["gt_with_rowids_csv"]
+        result_obj = request_result or {
+            "raw_text": "",
+            "parsed_predictions": [],
+            "error": "missing_request_result",
+            "model_meta": {},
+        }
+        raw_text = str(result_obj.get("raw_text", "") or "")
+        parsed_predictions = list(result_obj.get("parsed_predictions") or [])
+        error = str(result_obj.get("error", "") or "")
+        model_meta = dict(result_obj.get("model_meta") or {})
 
         responses_rows.append(
             {
@@ -827,6 +1021,7 @@ def main() -> None:
                 "ground_truth_table_csv": str(question_dir / "ground_truth_table.csv"),
                 "ground_truth_with_rowids_csv": str(gt_with_rowids_csv),
                 "prompt_txt": str(question_dir / "prompt.txt"),
+                "prompt_template_file": str(prompt_template_file) if prompt_template_file else "",
             }
         )
 
@@ -840,6 +1035,7 @@ def main() -> None:
                 "column_used": source_column,
                 "expected_keys": item["expected_keys"],
                 "hidden_columns": hidden_columns,
+                "prompt_template_file": str(prompt_template_file) if prompt_template_file else "",
                 "table_copy_csv": str(table_copy_path),
                 "ground_truth_table_csv": str(question_dir / "ground_truth_table.csv"),
                 "ground_truth_with_rowids_csv": str(gt_with_rowids_csv),
@@ -849,6 +1045,20 @@ def main() -> None:
                 "error": error,
                 "model_meta": model_meta,
             },
+        )
+
+        scored_completed += 1
+        if error:
+            scored_error += 1
+        else:
+            scored_success += 1
+        print_progress(
+            label="Scoring",
+            completed=scored_completed,
+            total=len(prepared_items),
+            success=scored_success,
+            error=scored_error,
+            start_time=scoring_start_time,
         )
 
     question_results_csv = run_dir / "all_question_results.csv"
@@ -878,6 +1088,8 @@ def main() -> None:
         "annotated_csv": str(annotated_csv),
         "db_path": str(db_path),
         "model_name": args.model_name,
+        "prompt_template_file": str(prompt_template_file) if prompt_template_file else "",
+        "max_in_flight": int(args.max_in_flight),
         "sample_question_count": len(sample_questions),
         "question_result_count": len(question_rows),
         "row_result_count": len(row_rows),

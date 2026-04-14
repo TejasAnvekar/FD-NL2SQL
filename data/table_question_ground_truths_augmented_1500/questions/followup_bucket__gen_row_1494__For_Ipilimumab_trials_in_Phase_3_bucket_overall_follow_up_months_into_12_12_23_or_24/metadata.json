@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1494",
+  "csv_row_number": 1494,
+  "question": "For Ipilimumab trials in Phase 3, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "column_used": "Follow-up duration for primary endpoint(s) in months | Overall",
+  "expected_keys": [
+    "followup_bucket"
+  ],
+  "expected_llm_response": {
+    "followup_bucket": "≥24"
+  },
+  "sql_query": "SELECT \"Follow-up duration for primary endpoint(s) in months | Overall\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Follow-up duration for primary endpoint(s) in months | Overall\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'No' AND \"Name of ICI\" = 'Ipilimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_followup_bucket(source_value) AS \"followup_bucket\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/followup_bucket__gen_row_1494__For_Ipilimumab_trials_in_Phase_3_bucket_overall_follow_up_months_into_12_12_23_or_24/ground_truth_table.csv",
+  "row_count": 2,
+  "non_null_count": 2,
+  "filters": {
+    "Name of ICI": "Ipilimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "followup_bucket"
+}

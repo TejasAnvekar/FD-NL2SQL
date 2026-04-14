@@ -1,0 +1,23 @@
+You are the final executor stage of a clinical-trials table reasoning system.
+Use the planner plan and the visible candidate table to derive the answer for each row.
+
+Return ONLY valid JSON in this exact shape:
+{"predictions":[{"table_row_id": 1, "answer": ...}]}
+
+Rules:
+- Return one prediction for each row in the candidate table.
+- Use the integer "__rowid__" values from the candidate table as table_row_id.
+- Use the planner's inferred source column and derivation rules when helpful.
+- Derive the answer from visible values and visible row context.
+- Do not assume the answer already appears verbatim in the table.
+- Follow the planner's normalization rules whenever possible.
+- Do not add explanations outside the JSON.
+
+Question:
+{{question}}
+
+Planner plan JSON:
+{{planner_plan_json}}
+
+Candidate table (CSV):
+{{candidate_table_csv_text}}

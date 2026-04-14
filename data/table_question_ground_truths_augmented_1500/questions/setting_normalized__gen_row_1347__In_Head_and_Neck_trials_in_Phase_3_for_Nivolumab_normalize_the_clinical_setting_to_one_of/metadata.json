@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1347",
+  "csv_row_number": 1347,
+  "question": "In Head and Neck trials in Phase 3 for Nivolumab, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "expected_llm_response": {
+    "setting_normalized": "metastatic/advanced"
+  },
+  "sql_query": "SELECT \"Clinical setting\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Clinical setting\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Nivolumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Clinical setting\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Clinical setting\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Nivolumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_setting_normalized(source_value) AS \"setting_normalized\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/setting_normalized__gen_row_1347__In_Head_and_Neck_trials_in_Phase_3_for_Nivolumab_normalize_the_clinical_setting_to_one_of/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Head and Neck",
+    "Name of ICI": "Nivolumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "setting_normalized"
+}

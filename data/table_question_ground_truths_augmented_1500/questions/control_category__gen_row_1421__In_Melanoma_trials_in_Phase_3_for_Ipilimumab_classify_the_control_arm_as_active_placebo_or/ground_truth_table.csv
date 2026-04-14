@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT00324155,21639810,,Chemo,active,"{""control_category"": ""active""}"
+2,NCT00094653,20525992,MDX010-20,Vaccine,active,"{""control_category"": ""active""}"
+3,NCT00094653,20525992,MDX010-20,Vaccine,active,"{""control_category"": ""active""}"
+4,NCT00636168,27717298,,Placebo,placebo,"{""control_category"": ""placebo""}"
+5,NCT01274338,31880964,E1609,Interferon,active,"{""control_category"": ""active""}"
+6,NCT01274338,31880964,E1609,Interferon,active,"{""control_category"": ""active""}"
+7,NCT00094653,23942774,MDX010-20,Vaccine,active,"{""control_category"": ""active""}"
+8,NCT00094653,23942774,MDX010-20,Vaccine,active,"{""control_category"": ""active""}"
+9, NCT00636168,25840693,,Placebo,placebo,"{""control_category"": ""placebo""}"

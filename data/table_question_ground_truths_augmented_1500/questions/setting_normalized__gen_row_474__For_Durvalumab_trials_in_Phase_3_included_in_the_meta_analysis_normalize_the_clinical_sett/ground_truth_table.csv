@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response
+1,NCT02125461,28885881,PACIFIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+2,NCT03043872,31590988,CASPIAN,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+3,NCT02352948,32201234,ARCTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+4,NCT02453282,32271377,MYSTIC,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+5,NCT02369874,32294530,EAGLE,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"

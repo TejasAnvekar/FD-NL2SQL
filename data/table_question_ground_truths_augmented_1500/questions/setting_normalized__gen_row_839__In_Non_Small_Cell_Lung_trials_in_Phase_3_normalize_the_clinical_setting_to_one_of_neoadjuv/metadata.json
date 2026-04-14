@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_839",
+  "csv_row_number": 839,
+  "question": "In Non-Small Cell Lung trials in Phase 3, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "column_used": "Clinical setting",
+  "expected_keys": [
+    "setting_normalized"
+  ],
+  "expected_llm_response": {
+    "setting_normalized": "metastatic/advanced"
+  },
+  "sql_query": "SELECT \"Clinical setting\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Clinical setting\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Clinical setting\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Clinical setting\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Non-Small Cell Lung' AND TRIM(COALESCE(\"Included in MA\", '')) = 'No' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_setting_normalized(source_value) AS \"setting_normalized\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/setting_normalized__gen_row_839__In_Non_Small_Cell_Lung_trials_in_Phase_3_normalize_the_clinical_setting_to_one_of_neoadjuv/ground_truth_table.csv",
+  "row_count": 5,
+  "non_null_count": 5,
+  "filters": {
+    "Cancer type": "Non-Small Cell Lung",
+    "Trial phase": "Phase 3",
+    "Included in MA": "No"
+  },
+  "family_id": "setting_normalized"
+}

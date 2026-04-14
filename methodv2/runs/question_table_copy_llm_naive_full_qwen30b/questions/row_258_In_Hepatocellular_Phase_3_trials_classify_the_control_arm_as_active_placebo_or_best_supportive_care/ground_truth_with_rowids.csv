@@ -1,3 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response,table_row_id
-1,NCT02702401,31790344,KEYNOTE-240,Placebo,placebo,"{""control_category"": ""placebo""}",79
-2,NCT03434379,32402160,IMbrave150,TKI,active,"{""control_category"": ""active""}",109

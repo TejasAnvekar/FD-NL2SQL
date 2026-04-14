@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT00324155,21639810,,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+2,NCT00094653,20525992,MDX010-20,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+3,NCT02908672,32534646,IMspire150,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+4,NCT00094653,23942774,MDX010-20,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"

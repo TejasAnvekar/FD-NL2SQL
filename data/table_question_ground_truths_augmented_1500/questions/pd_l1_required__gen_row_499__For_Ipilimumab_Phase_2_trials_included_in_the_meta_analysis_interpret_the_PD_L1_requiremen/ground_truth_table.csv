@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pd_l1_required,derived_expected_llm_response
+1,NCT01585987,28655793,,No,false,"{""pd_l1_required"": false}"
+2,NCT00527735,22547592,,No,false,"{""pd_l1_required"": false}"
+3,NCT00527735,22547592,,No,false,"{""pd_l1_required"": false}"
+4,NCT00527735,22858559,,No,false,"{""pd_l1_required"": false}"
+5,NCT00527735,22858559,,No,false,"{""pd_l1_required"": false}"

@@ -1,0 +1,26 @@
+{
+  "item_id": "gen_row_553",
+  "csv_row_number": 553,
+  "question": "In Renal cell trials in Phase 3 for Atezolizumab using ICI+Anti-VEGF, list the anti-VEGF agent(s) mentioned in the treatment regimen.",
+  "column_used": "Treatment regimen",
+  "expected_keys": [
+    "anti_vegf_agents"
+  ],
+  "expected_llm_response": {
+    "anti_vegf_agents": [
+      "bevacizumab"
+    ]
+  },
+  "sql_query": "SELECT \"Treatment regimen\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Renal cell' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+Anti-VEGF';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Treatment regimen\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Treatment regimen\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Renal cell' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Atezolizumab' AND TRIM(COALESCE(\"Trial phase\", '')) = 'Phase 3' AND TRIM(COALESCE(\"Type of combination\", '')) = 'ICI+Anti-VEGF'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_anti_vegf_agents(source_value) AS \"anti_vegf_agents\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/anti_vegf_agents__gen_row_553__In_Renal_cell_trials_in_Phase_3_for_Atezolizumab_using_ICI_Anti_VEGF_list_the_anti_VEGF_ag/ground_truth_table.csv",
+  "row_count": 1,
+  "non_null_count": 1,
+  "filters": {
+    "Type of combination": "ICI+Anti-VEGF",
+    "Cancer type": "Renal cell",
+    "Name of ICI": "Atezolizumab",
+    "Trial phase": "Phase 3"
+  },
+  "family_id": "anti_vegf_agents"
+}

@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT01042379,32053137,I-SPY2,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+2,NCT02425891,31786121,IMpassion130,Atezolizumab,PD-L1,"{""class"": ""PD-L1""}"
+3,NCT03036488,32101663,KEYNOTE-522,Pembrolizumab,PD1,"{""class"": ""PD1""}"

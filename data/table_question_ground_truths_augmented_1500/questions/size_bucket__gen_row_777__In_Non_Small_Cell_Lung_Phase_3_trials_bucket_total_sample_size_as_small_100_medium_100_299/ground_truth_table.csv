@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT02125461,30280658,PACIFIC,713.0,large,"{""size_bucket"": ""large""}"
+2,NCT02008227,27979383,OAK,1225.0,large,"{""size_bucket"": ""large""}"
+3,NCT02008227,29777823,OAK,1225.0,large,"{""size_bucket"": ""large""}"
+4,NCT02775435,30280635,Keynote-407,559.0,large,"{""size_bucket"": ""large""}"
+5,NCT02454933,30763730,CAURAL,29.0,small,"{""size_bucket"": ""small""}"

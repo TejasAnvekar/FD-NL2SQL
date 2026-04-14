@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Ipilimumab,Yervoy,"{""brand_name"": ""Yervoy""}"
+2,NCT02763579,30280641,IMPower 133,Atezolizumab,Tecentriq,"{""brand_name"": ""Tecentriq""}"
+3,NCT03043872,31590988,CASPIAN,Durvalumab,Imfinzi,"{""brand_name"": ""Imfinzi""}"
+4,NCT03043872,31590988,CASPIAN,"Durvalumab, Tremelimumab","Imfinzi, Imjudo","{""brand_name"": ""Imfinzi, Imjudo""}"
+5,NCT03066778,32468956,KEYNOTE-604,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"

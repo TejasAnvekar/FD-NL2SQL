@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT01285609,28854067,,Ipilimumab+Paclitaxel+Carboplatin,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+2,NCT02578680,29658856,Keynote-189,Pembrolizumab+Platinum agent,platinum agent,"{""platinum_agent"": ""platinum agent""}"
+3,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+4,NCT02366143,29863955,IMPower150,Atezolizumab+Carboplatin+Paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+5,NCT02477826,31562796,Checkmate 227,Nivolumab+Chemotherapy,,"{""platinum_agent"": null}"
+6,NCT02367781,31122901,IMpower130,Atezolizumab+Carboplatin+Nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+7,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+8,NCT02367794,32302702,IMpower131,Atezolizumab+Carboplatin+Nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"

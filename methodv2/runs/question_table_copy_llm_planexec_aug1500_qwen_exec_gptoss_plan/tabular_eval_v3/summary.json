@@ -1,0 +1,18 @@
+{
+  "run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+  "question_dir_count": 1500,
+  "evaluated_count": 1500,
+  "missing_pred_count": 0,
+  "missing_gt_count": 0,
+  "avg_pred_row_count": 14.47,
+  "avg_gt_row_count": 4.946,
+  "avg_column_alignment_score": 0.9210372708004232,
+  "avg_precision": 0.519960855764499,
+  "avg_recall": 0.847235347112522,
+  "avg_f1": 0.5959070324670109,
+  "avg_row_jaccard": 0.48256422561292006,
+  "avg_chrf": 0.0,
+  "avg_rouge_l_f1": 0.0,
+  "avg_bertscore_f1": 0.0,
+  "exact_table_match_rate": 0.06648005598320504
+}

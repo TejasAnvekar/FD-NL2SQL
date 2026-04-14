@@ -1,7 +1,0 @@
-{
-  "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_cosine_full",
-  "model_name": "sbert",
-  "question_result_rows": 888,
-  "row_prediction_rows": 17760,
-  "question_folder_count": 296
-}

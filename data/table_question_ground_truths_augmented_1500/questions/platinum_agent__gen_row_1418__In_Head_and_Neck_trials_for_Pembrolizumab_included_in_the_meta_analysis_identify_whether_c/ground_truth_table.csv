@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT02252042,30509740,KEYNOTE-040,Pembrolizumab,,"{""platinum_agent"": null}"
+2,NCT02358031,31679945,KEYNOTE-048,Pembrolizumab,,"{""platinum_agent"": null}"
+3,NCT02358031,31679945,KEYNOTE-048,Pembrolizumab+Platinum agent+5-Fluorouracil,platinum agent,"{""platinum_agent"": ""platinum agent""}"

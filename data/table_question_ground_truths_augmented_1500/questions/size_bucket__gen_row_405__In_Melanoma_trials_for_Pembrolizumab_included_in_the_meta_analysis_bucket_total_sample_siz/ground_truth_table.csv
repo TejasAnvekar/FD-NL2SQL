@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,size_bucket,derived_expected_llm_response
+1,NCT02362594,29658430,EORTC 1325-MG/KEYNOTE-054,1019.0,large,"{""size_bucket"": ""large""}"
+2,NCT01704287,26115796,KEYNOTE-002,540.0,large,"{""size_bucket"": ""large""}"
+3,NCT01704287,26115796,KEYNOTE-002,540.0,large,"{""size_bucket"": ""large""}"
+4,NCT01704287,28961465,KEYNOTE-002,540.0,large,"{""size_bucket"": ""large""}"
+5,NCT01704287,28961465,KEYNOTE-002,540.0,large,"{""size_bucket"": ""large""}"
+6,NCT02130466,31171878,KEYNOTE-022,120.0,medium,"{""size_bucket"": ""medium""}"

@@ -1,0 +1,11 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT00527735,22547592,,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate",false,"{""irAE_assessed"": false}"
+2,NCT00527735,22547592,,"Modified WHO criteria PFS; OS; immune-related best overall response rate; modified WHO criteria best overall response rate;  immune-related disease control rate; modified WHO criteria disease control
+rate",false,"{""irAE_assessed"": false}"
+3,NCT01905657,26712084,Keynote-010,"RR, DOR",false,"{""irAE_assessed"": false}"
+4,NCT01905657,26712084,Keynote-010,"RR, DOR",false,"{""irAE_assessed"": false}"
+5,NCT01903993,26970723,POPLAR,"ORR, PFS, DOR,OR",false,"{""irAE_assessed"": false}"
+6,NCT02039674,27745820,Keynote-021,"PFS, DOR, OS",false,"{""irAE_assessed"": false}"
+7,NCT02039674,30138764,Keynote-021,"PFS, DOR, OS",false,"{""irAE_assessed"": false}"
+8,NCT02574598,32271354,PROLUNG,"PFS, OS, safety",false,"{""irAE_assessed"": false}"

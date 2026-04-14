@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,brand_name,derived_expected_llm_response
+1,NCT02358031,31679945,KEYNOTE-048,Pembrolizumab,Keytruda,"{""brand_name"": ""Keytruda""}"
+2,NCT02369874,32294530,EAGLE,"Durvalumab, Tremelimumab","Imfinzi, Imjudo","{""brand_name"": ""Imfinzi, Imjudo""}"
+3,NCT02952586,33794205,JAVELIN Head and Neck 101,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"
+4,NCT02999087,33125944,REACH,Avelumab,Bavencio,"{""brand_name"": ""Bavencio""}"

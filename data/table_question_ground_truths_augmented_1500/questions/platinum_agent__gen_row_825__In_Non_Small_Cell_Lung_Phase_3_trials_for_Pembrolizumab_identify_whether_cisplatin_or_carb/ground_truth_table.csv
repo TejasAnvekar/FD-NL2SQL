@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT02578680,29658856,Keynote-189,Pembrolizumab+Platinum agent,platinum agent,"{""platinum_agent"": ""platinum agent""}"
+2,NCT02775435,30280635,Keynote-407,Pembrolizumab+Carboplatin+Paclitaxel/nab-paclitaxel,carboplatin,"{""platinum_agent"": ""carboplatin""}"
+3,NCT02220894,30955977,Keynote-042,Pembrolizumab,,"{""platinum_agent"": null}"
+4,NCT02142738,30620668,Keynote-024,Pembrolizumab,,"{""platinum_agent"": null}"
+5,NCT02142738,27718847,Keynote-024,Pembrolizumab,,"{""platinum_agent"": null}"

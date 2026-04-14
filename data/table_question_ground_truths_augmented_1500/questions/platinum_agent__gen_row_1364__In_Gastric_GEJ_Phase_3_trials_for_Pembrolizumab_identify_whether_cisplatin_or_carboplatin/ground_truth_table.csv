@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,platinum_agent,derived_expected_llm_response
+1,NCT02370498,29880231,Keynote-061,Pembrolizumab,,"{""platinum_agent"": null}"
+2,NCT02494583,32880601,Keynote-062,Pembrolizumab,,"{""platinum_agent"": null}"
+3,NCT02494583,32880601,Keynote-062,Pembrolizumab+Cisplatin+5-FU+Capecitabine,cisplatin,"{""platinum_agent"": ""cisplatin""}"

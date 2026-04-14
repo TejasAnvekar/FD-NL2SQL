@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,combo_type_norm,derived_expected_llm_response
+1,NCT02853331,30779529,KEYNOTE-426,ICI+TKI,ICI+TKI,"{""combo_type_norm"": ""ICI+TKI""}"
+2,NCT02578680,29658856,Keynote-189,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+3,NCT02358031,31679945,KEYNOTE-048,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"
+4,NCT03066778,32468956,KEYNOTE-604,ICI+Chemo,ICI+Chemo,"{""combo_type_norm"": ""ICI+Chemo""}"

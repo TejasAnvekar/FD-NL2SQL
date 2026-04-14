@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,trial_acronym,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,ATTRACTION-2,ATTRACTION-2,"{""trial_acronym"": ""ATTRACTION-2""}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,JAVELIN Gastric 300,JAVELIN Gastric 300,"{""trial_acronym"": ""JAVELIN Gastric 300""}"
+3,NCT02370498,29880231,Keynote-061,Keynote-061,KEYNOTE-061,"{""trial_acronym"": ""KEYNOTE-061""}"
+4,NCT02267343,31863227,ATTRACTION-2,ATTRACTION-2,ATTRACTION-2,"{""trial_acronym"": ""ATTRACTION-2""}"

@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,class,derived_expected_llm_response
+1,NCT02267343,28993052,ATTRACTION-2,Nivolumab,PD1,"{""class"": ""PD1""}"
+2,NCT02625623,30052729,JAVELIN Gastric 300,Avelumab,PD-L1,"{""class"": ""PD-L1""}"
+3,NCT02370498,29880231,Keynote-061,Pembrolizumab,PD1,"{""class"": ""PD1""}"
+4,NCT02267343,31863227,ATTRACTION-2,Nivolumab,PD1,"{""class"": ""PD1""}"
+5,NCT02494583,32880601,Keynote-062,Pembrolizumab,PD1,"{""class"": ""PD1""}"

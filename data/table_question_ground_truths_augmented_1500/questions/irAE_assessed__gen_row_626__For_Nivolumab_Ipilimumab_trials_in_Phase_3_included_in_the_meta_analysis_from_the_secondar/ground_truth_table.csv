@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT02231749,29562145,CheckMate 214,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients.",false,"{""irAE_assessed"": false}"
+2,NCT02231749,31427204,CheckMate 214,"ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients.",false,"{""irAE_assessed"": false}"
+3,NCT02477826,29658845,Checkmate 227,PFS with nivolumab VS chemotherapy among patients with a TMB of at least 13 mutations per megabase and a PD-L1 expression level of >= 1%; OS with nivolumab + ipilimumab VS platinum doublet chemotherapy among patients with a TMB of >=10 mutations per megabase ,false,"{""irAE_assessed"": false}"
+4,NCT02477826,31562796,Checkmate 227,PFS; OS with nivolumab+chemotherapy VS chemotherapy alone in patients with PD-L1 <1%; and OS with nivolumab monotherapy VS chemotherapy in patients with a PD-L1 >=50%,false,"{""irAE_assessed"": false}"
+5,NCT02231749,32661118,CheckMate 214,"ORR, PFS and OS in ITT population; incidence rate of AEs.",false,"{""irAE_assessed"": false}"

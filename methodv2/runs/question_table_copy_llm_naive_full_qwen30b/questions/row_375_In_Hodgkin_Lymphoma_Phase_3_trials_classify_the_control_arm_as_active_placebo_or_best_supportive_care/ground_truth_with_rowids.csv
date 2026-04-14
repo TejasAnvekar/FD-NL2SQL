@@ -1,2 +1,0 @@
-row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response,table_row_id
-1,NCT02684292,33721562,Keynote-204,Antibody-drug conjugate,active,"{""control_category"": ""active""}",152

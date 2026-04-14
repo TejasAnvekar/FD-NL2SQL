@@ -1,0 +1,10 @@
+row_index,NCT,PubMed ID,Trial name,source_value,endpoint_role,derived_expected_llm_response
+1,NCT01668784,26406148,CheckMate 025,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events.",secondary,"{""endpoint_role"": ""secondary""}"
+2,NCT02231749,29562145,CheckMate 214,"ORR, PFS and OS in 
+intention-to-treat population; incidence rate of adverse events among all treated patients.",secondary,"{""endpoint_role"": ""secondary""}"
+3,NCT02231749,31427204,CheckMate 214,"ORR, PFS and OS in intention-to-treat population; incidence rate of adverse events among all treated patients.",secondary,"{""endpoint_role"": ""secondary""}"
+4,NCT02684006,30779531,JAVELIN Renal 101,PFS and OS irrespective of PD-L1 expression; PFS as determined by investigator assessment; ORR; adverse events; pharmacokinetic measures; tumor tissue biomarkers; patient-reported outcomes.,secondary,"{""endpoint_role"": ""secondary""}"
+5,NCT02853331,30779529,KEYNOTE-426,ORR; duration of response; safety,secondary,"{""endpoint_role"": ""secondary""}"
+6,NCT02420821,31079938,IMmotion151,OS in PD-L1 positive population; PFS in the ITT population; proportion of patients who achieved an objective response; duration of response; patient-reported outcomes; safety,secondary,"{""endpoint_role"": ""secondary""}"
+7,NCT02231749,32661118,CheckMate 214,"ORR, PFS and OS in ITT population; incidence rate of AEs.",secondary,"{""endpoint_role"": ""secondary""}"
+8,NCT01668784,32673417,CheckMate 025,"ORR; PFS, association between overall survival and tumor expression of PD-L1; incidence of adverse events.",secondary,"{""endpoint_role"": ""secondary""}"

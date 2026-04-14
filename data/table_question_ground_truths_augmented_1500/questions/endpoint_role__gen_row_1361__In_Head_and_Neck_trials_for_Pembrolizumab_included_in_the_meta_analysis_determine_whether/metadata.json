@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_1361",
+  "csv_row_number": 1361,
+  "question": "In Head and Neck trials for Pembrolizumab included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "column_used": "Secondary endpoint",
+  "expected_keys": [
+    "endpoint_role"
+  ],
+  "expected_llm_response": {
+    "endpoint_role": "secondary"
+  },
+  "sql_query": "SELECT \"Secondary endpoint\"\nFROM clinical_trials\nWHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Secondary endpoint\" AS source_value FROM clinical_trials WHERE LOWER(TRIM(COALESCE(\"Secondary endpoint\", ''))) NOT IN ('', 'none', 'null', 'nan') AND TRIM(COALESCE(\"Cancer type\", '')) = 'Head and Neck' AND TRIM(COALESCE(\"Included in MA\", '')) = 'Yes' AND TRIM(COALESCE(\"Name of ICI\", '')) = 'Pembrolizumab'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_endpoint_role(source_value, 'Secondary endpoint') AS \"endpoint_role\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/endpoint_role__gen_row_1361__In_Head_and_Neck_trials_for_Pembrolizumab_included_in_the_meta_analysis_determine_whether/ground_truth_table.csv",
+  "row_count": 3,
+  "non_null_count": 3,
+  "filters": {
+    "Cancer type": "Head and Neck",
+    "Name of ICI": "Pembrolizumab",
+    "Included in MA": "Yes"
+  },
+  "family_id": "endpoint_role_secondary"
+}

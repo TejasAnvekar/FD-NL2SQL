@@ -1,0 +1,5 @@
+row_index,NCT,PubMed ID,Trial name,source_value,added_agents,derived_expected_llm_response
+1,NCT00527735,22547592,,Concurrent ipilimumab+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""added_agents"": [""paclitaxel"", ""carboplatin""]}"
+2,NCT00527735,22547592,,Phased ipilimumab+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""added_agents"": [""paclitaxel"", ""carboplatin""]}"
+3,NCT00527735,22858559,,Concurrent ipilimumab+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""added_agents"": [""paclitaxel"", ""carboplatin""]}"
+4,NCT00527735,22858559,,Phased ipilimumab+Paclitaxel+Carboplatin,"[""paclitaxel"", ""carboplatin""]","{""added_agents"": [""paclitaxel"", ""carboplatin""]}"

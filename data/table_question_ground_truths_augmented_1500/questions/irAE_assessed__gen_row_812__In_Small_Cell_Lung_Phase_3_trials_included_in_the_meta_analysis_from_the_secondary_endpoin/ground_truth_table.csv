@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,irAE_assessed,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,"PFS, ORR, DOR",false,"{""irAE_assessed"": false}"
+2,NCT02763579,30280641,IMPower 133,"ORR, DOR",false,"{""irAE_assessed"": false}"
+3,NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.,false,"{""irAE_assessed"": false}"
+4,NCT03043872,31590988,CASPIAN,PFS; objective response; OS at 18 months; PFS at 6 and 12 months; safety; pharmacokinetics; immunogenicity; symptoms and health-related quality of life assessments.,false,"{""irAE_assessed"": false}"
+5,NCT03066778,32468956,KEYNOTE-604,ORR; DOR,false,"{""irAE_assessed"": false}"

@@ -1,0 +1,9 @@
+row_index,NCT,PubMed ID,Trial name,source_value,pubmed_url,derived_expected_llm_response
+1,NCT00527735,22547592,,22547592,https://pubmed.ncbi.nlm.nih.gov/22547592/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/22547592/""}"
+2,NCT00527735,22547592,,22547592,https://pubmed.ncbi.nlm.nih.gov/22547592/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/22547592/""}"
+3,NCT01905657,26712084,Keynote-010,26712084,https://pubmed.ncbi.nlm.nih.gov/26712084/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/26712084/""}"
+4,NCT01905657,26712084,Keynote-010,26712084,https://pubmed.ncbi.nlm.nih.gov/26712084/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/26712084/""}"
+5,NCT01903993,26970723,POPLAR,26970723,https://pubmed.ncbi.nlm.nih.gov/26970723/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/26970723/""}"
+6,NCT02039674,27745820,Keynote-021,27745820,https://pubmed.ncbi.nlm.nih.gov/27745820/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/27745820/""}"
+7,NCT02039674,30138764,Keynote-021,30138764,https://pubmed.ncbi.nlm.nih.gov/30138764/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/30138764/""}"
+8,NCT02574598,32271354,PROLUNG,32271354,https://pubmed.ncbi.nlm.nih.gov/32271354/,"{""pubmed_url"": ""https://pubmed.ncbi.nlm.nih.gov/32271354/""}"

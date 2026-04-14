@@ -1,0 +1,7 @@
+row_index,NCT,PubMed ID,Trial name,source_value,schedule,derived_expected_llm_response
+1,NCT01450761,27458307,CA184-156,Ipilimumab+Etoposide+Platinum agent,,"{""schedule"": null}"
+2,NCT02763579,30280641,IMPower 133,Atezolizumab+Etoposide+Carboplatin,,"{""schedule"": null}"
+3,NCT03043872,31590988,CASPIAN,Durvalumab+Etoposide+Platinum agent,,"{""schedule"": null}"
+4,NCT02763579,31959349,IMpower133,Atezolizumab+Carboplatin+Etoposide,,"{""schedule"": null}"
+5,NCT03066778,32468956,KEYNOTE-604,Pembrolizumab+Etoposide+Platinum agent,q3w,"{""schedule"": ""q3w""}"
+6,NCT03043872,33285097,CASPIAN,Durvalumab+Etoposide+Platinum agent,,"{""schedule"": null}"

@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,is_follow_up,derived_expected_llm_response
+1,NCT02477826,29658845,Checkmate 227,Original publication,false,"{""is_follow_up"": false}"
+2,NCT02477826,31562796,Checkmate 227,Follow-up,true,"{""is_follow_up"": true}"
+3,NCT03215706,33476593,CheckMate 9LA,Original publication,false,"{""is_follow_up"": false}"

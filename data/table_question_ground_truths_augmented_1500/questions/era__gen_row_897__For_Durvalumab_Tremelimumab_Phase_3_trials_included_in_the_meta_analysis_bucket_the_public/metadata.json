@@ -1,0 +1,23 @@
+{
+  "item_id": "gen_row_897",
+  "csv_row_number": 897,
+  "question": "For Durvalumab, Tremelimumab Phase 3 trials included in the meta-analysis, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "column_used": "Year",
+  "expected_keys": [
+    "era"
+  ],
+  "expected_llm_response": {
+    "era": "≥2019"
+  },
+  "sql_query": "SELECT \"Year\"\nFROM clinical_trials\nWHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Durvalumab, Tremelimumab' AND \"Trial phase\" = 'Phase 3';",
+  "ground_truth_sql": "WITH base AS (\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", \"Year\" AS source_value FROM clinical_trials WHERE \"Included in MA\" = 'Yes' AND \"Name of ICI\" = 'Durvalumab, Tremelimumab' AND \"Trial phase\" = 'Phase 3'\n)\nSELECT \"NCT\", \"PubMed ID\", \"Trial name\", source_value, derive_era_bucket(source_value) AS \"era\"\nFROM base;",
+  "ground_truth_table_csv": "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_truths_augmented_1500/questions/era__gen_row_897__For_Durvalumab_Tremelimumab_Phase_3_trials_included_in_the_meta_analysis_bucket_the_public/ground_truth_table.csv",
+  "row_count": 4,
+  "non_null_count": 4,
+  "filters": {
+    "Name of ICI": "Durvalumab, Tremelimumab",
+    "Trial phase": "Phase 3",
+    "Included in MA": "Yes"
+  },
+  "family_id": "era"
+}

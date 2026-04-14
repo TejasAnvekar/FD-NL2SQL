@@ -1,0 +1,6 @@
+row_index,NCT,PubMed ID,Trial name,source_value,setting_normalized,derived_expected_llm_response
+1,NCT01721746,25795410,CheckMate 037,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+2,NCT01721746,28671856,CheckMate 037,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+3,NCT01721772,25399552,CheckMate 066,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+4,NCT01721772,30422243,CheckMate 066,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"
+5,NCT02523313,32416781,IMMUNED,Metastatic+recurrent (unresectable),metastatic/advanced,"{""setting_normalized"": ""metastatic/advanced""}"

@@ -1,0 +1,4 @@
+row_index,NCT,PubMed ID,Trial name,source_value,control_category,derived_expected_llm_response
+1,NCT02370498,29880231,Keynote-061,Chemo,active,"{""control_category"": ""active""}"
+2,NCT02494583,32880601,Keynote-062,Chemo,active,"{""control_category"": ""active""}"
+3,NCT02494583,32880601,Keynote-062,Chemo,active,"{""control_category"": ""active""}"

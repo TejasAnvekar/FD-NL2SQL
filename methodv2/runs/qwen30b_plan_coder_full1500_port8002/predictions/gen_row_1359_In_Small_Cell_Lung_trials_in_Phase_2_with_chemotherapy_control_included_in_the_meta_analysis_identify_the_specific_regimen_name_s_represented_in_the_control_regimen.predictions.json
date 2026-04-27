@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_1359",
+  "csv_row_number": 1359,
+  "question": "In Small Cell Lung trials in Phase 2 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1359_In_Small_Cell_Lung_trials_in_Phase_2_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": []
+    },
+    {
+      "table_row_id": 26,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 137,
+      "answer": []
+    },
+    {
+      "table_row_id": 138,
+      "answer": []
+    }
+  ]
+}

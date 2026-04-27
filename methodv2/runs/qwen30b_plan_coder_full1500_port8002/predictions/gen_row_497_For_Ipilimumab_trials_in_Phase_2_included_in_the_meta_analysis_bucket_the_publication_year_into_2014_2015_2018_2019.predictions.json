@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_497",
+  "csv_row_number": 497,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_497_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 73,
+      "answer": ""
+    },
+    {
+      "table_row_id": 76,
+      "answer": ""
+    },
+    {
+      "table_row_id": 77,
+      "answer": ""
+    },
+    {
+      "table_row_id": 93,
+      "answer": ""
+    },
+    {
+      "table_row_id": 94,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    }
+  ]
+}

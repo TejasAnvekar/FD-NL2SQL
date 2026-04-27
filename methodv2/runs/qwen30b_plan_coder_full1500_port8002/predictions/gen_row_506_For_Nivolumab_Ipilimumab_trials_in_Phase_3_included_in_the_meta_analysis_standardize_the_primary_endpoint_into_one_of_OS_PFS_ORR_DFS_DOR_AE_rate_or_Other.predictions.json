@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_506",
+  "csv_row_number": 506,
+  "question": "For Nivolumab, Ipilimumab trials in Phase 3 included in the meta-analysis, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_506_For_Nivolumab_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 18,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 128,
+      "answer": ""
+    }
+  ]
+}

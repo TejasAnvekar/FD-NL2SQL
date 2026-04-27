@@ -1,0 +1,80 @@
+{
+  "item_id": "gen_row_772",
+  "csv_row_number": 772,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_772_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": ""
+    },
+    {
+      "table_row_id": 13,
+      "answer": ""
+    },
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 28,
+      "answer": ""
+    },
+    {
+      "table_row_id": 33,
+      "answer": ""
+    },
+    {
+      "table_row_id": 78,
+      "answer": ""
+    },
+    {
+      "table_row_id": 80,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": ""
+    },
+    {
+      "table_row_id": 90,
+      "answer": ""
+    },
+    {
+      "table_row_id": 91,
+      "answer": ""
+    },
+    {
+      "table_row_id": 104,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 147,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

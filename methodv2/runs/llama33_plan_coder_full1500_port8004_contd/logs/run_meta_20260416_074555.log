@@ -1,0 +1,14 @@
+2026-04-16 07:45:55,018 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/logs/run_meta_20260416_074555.log
+2026-04-16 07:45:55,019 | INFO | Manifest CSV: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_remaining_manifest.csv
+2026-04-16 07:45:55,019 | INFO | Annotated CSV: /mnt/shared/manan/FD-NL2SQL-category3/data/table_question_ground_truths_augmented_1500/annotated_questions.csv
+2026-04-16 07:45:55,019 | INFO | DB path: /mnt/shared/manan/FD-NL2SQL-category3/data/database.db
+2026-04-16 07:45:55,019 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd
+2026-04-16 07:45:55,019 | INFO | Selector model: llama-3.3-70b-instruct
+2026-04-16 07:45:55,019 | INFO | Planner model: llama-3.3-70b-instruct
+2026-04-16 07:45:55,019 | INFO | Coder model: llama-3.3-70b-instruct
+2026-04-16 07:45:55,019 | INFO | Question-level batch concurrency (max_in_flight): 20
+2026-04-16 07:57:02,340 | INFO | Wrote sample manifest: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/sample_manifest.csv
+2026-04-16 07:57:02,340 | INFO | Wrote question results: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/all_question_results.csv
+2026-04-16 07:57:02,340 | INFO | Wrote row-level predictions: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/row_level_predictions.csv
+2026-04-16 07:57:02,340 | INFO | Wrote token/cost summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/token_cost_summary.csv
+2026-04-16 07:57:02,340 | INFO | Wrote summary: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/summary.json

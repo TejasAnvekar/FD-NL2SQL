@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_511",
+  "csv_row_number": 511,
+  "question": "In Gastric/GEJ trials in Phase 3 using monotherapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_511_In_Gastric_GEJ_trials_in_Phase_3_using_monotherapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "Bavencio"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Opdivo"
+    }
+  ]
+}

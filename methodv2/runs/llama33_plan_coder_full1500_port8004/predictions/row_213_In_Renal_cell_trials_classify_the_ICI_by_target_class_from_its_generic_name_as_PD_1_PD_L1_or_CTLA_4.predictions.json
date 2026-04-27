@@ -1,0 +1,56 @@
+{
+  "item_id": "row_213",
+  "csv_row_number": 163,
+  "question": "In Renal cell trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_213_In_Renal_cell_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "PD-1"
+    }
+  ]
+}

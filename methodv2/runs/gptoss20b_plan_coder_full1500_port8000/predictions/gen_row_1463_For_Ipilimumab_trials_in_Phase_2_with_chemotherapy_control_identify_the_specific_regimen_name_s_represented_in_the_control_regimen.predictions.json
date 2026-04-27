@@ -1,0 +1,1121 @@
+{
+  "item_id": "gen_row_1463",
+  "csv_row_number": 1463,
+  "question": "For Ipilimumab trials in Phase 2 with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_1463_For_Ipilimumab_trials_in_Phase_2_with_chemotherapy_control_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 2,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 3,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 4,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 5,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 6,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 7,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 8,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 9,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 10,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 11,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 12,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 13,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 14,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 15,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 16,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 17,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 18,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 19,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 20,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 22,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 26,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 27,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 28,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 29,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 30,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 31,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 32,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 33,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 34,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 35,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 37,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 39,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 40,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 41,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 43,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 47,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 48,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 49,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 50,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 51,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 52,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 53,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 54,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 55,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 56,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 58,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 59,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 60,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 61,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 62,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 63,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 64,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 65,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 66,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 67,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 68,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 69,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 72,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 73,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 74,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 75,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 76,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 77,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 78,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 79,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 80,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 81,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 83,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 84,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 85,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 87,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 88,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 89,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 90,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 91,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 93,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 94,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 95,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 96,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 97,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 99,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 100,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 103,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 104,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 106,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 107,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 108,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 109,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 110,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 111,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 112,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 114,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 116,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 117,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 118,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 119,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 120,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 123,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 125,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 126,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 127,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 128,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 129,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 130,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 133,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 134,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 135,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 138,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 139,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 140,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 141,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 142,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 143,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 144,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 146,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 147,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 149,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 150,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 151,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 152,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 153,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 154,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 155,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 156,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 157,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 158,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 159,
+      "answer": [
+        "FOLFIRINOX",
+        "Placebo+Paclitaxel+Carboplatin"
+      ]
+    }
+  ]
+}

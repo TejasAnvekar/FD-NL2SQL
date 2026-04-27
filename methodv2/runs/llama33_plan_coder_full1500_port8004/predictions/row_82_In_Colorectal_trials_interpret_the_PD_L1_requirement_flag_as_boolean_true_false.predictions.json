@@ -1,0 +1,20 @@
+{
+  "item_id": "row_82",
+  "csv_row_number": 62,
+  "question": "In Colorectal trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_82_In_Colorectal_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": false
+    },
+    {
+      "table_row_id": 7,
+      "answer": false
+    },
+    {
+      "table_row_id": 112,
+      "answer": false
+    }
+  ]
+}

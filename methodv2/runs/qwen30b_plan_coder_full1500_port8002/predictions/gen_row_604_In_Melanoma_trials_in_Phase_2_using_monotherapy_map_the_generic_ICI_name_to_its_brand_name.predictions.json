@@ -1,0 +1,34 @@
+{
+  "item_id": "gen_row_604",
+  "csv_row_number": 604,
+  "question": "In Melanoma trials in Phase 2 using monotherapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_604_In_Melanoma_trials_in_Phase_2_using_monotherapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": {}
+    },
+    {
+      "table_row_id": 67,
+      "answer": {}
+    },
+    {
+      "table_row_id": 71,
+      "answer": {}
+    },
+    {
+      "table_row_id": 72,
+      "answer": {}
+    },
+    {
+      "table_row_id": 95,
+      "answer": {
+        "nivolumab": "Opdivo"
+      }
+    },
+    {
+      "table_row_id": 135,
+      "answer": {}
+    }
+  ]
+}

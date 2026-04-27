@@ -1,0 +1,216 @@
+{
+  "item_id": "gen_row_1500",
+  "csv_row_number": 1500,
+  "question": "In Non-Small Cell Lung trials for Ipilimumab included in the meta-analysis, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1500_In_Non_Small_Cell_Lung_trials_for_Ipilimumab_included_in_the_meta_analysis_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 24,
+      "answer": false
+    },
+    {
+      "table_row_id": 32,
+      "answer": false
+    },
+    {
+      "table_row_id": 34,
+      "answer": false
+    },
+    {
+      "table_row_id": 47,
+      "answer": false
+    },
+    {
+      "table_row_id": 48,
+      "answer": false
+    },
+    {
+      "table_row_id": 49,
+      "answer": false
+    },
+    {
+      "table_row_id": 50,
+      "answer": false
+    },
+    {
+      "table_row_id": 91,
+      "answer": false
+    },
+    {
+      "table_row_id": 113,
+      "answer": false
+    },
+    {
+      "table_row_id": 116,
+      "answer": false
+    },
+    {
+      "table_row_id": 119,
+      "answer": false
+    },
+    {
+      "table_row_id": 120,
+      "answer": false
+    },
+    {
+      "table_row_id": 121,
+      "answer": false
+    },
+    {
+      "table_row_id": 122,
+      "answer": false
+    },
+    {
+      "table_row_id": 123,
+      "answer": false
+    },
+    {
+      "table_row_id": 124,
+      "answer": false
+    },
+    {
+      "table_row_id": 125,
+      "answer": false
+    },
+    {
+      "table_row_id": 126,
+      "answer": false
+    },
+    {
+      "table_row_id": 127,
+      "answer": false
+    },
+    {
+      "table_row_id": 128,
+      "answer": false
+    },
+    {
+      "table_row_id": 129,
+      "answer": false
+    },
+    {
+      "table_row_id": 130,
+      "answer": false
+    },
+    {
+      "table_row_id": 131,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 133,
+      "answer": false
+    },
+    {
+      "table_row_id": 134,
+      "answer": false
+    },
+    {
+      "table_row_id": 135,
+      "answer": false
+    },
+    {
+      "table_row_id": 136,
+      "answer": false
+    },
+    {
+      "table_row_id": 137,
+      "answer": false
+    },
+    {
+      "table_row_id": 138,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    },
+    {
+      "table_row_id": 140,
+      "answer": false
+    },
+    {
+      "table_row_id": 141,
+      "answer": false
+    },
+    {
+      "table_row_id": 142,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    },
+    {
+      "table_row_id": 145,
+      "answer": false
+    },
+    {
+      "table_row_id": 146,
+      "answer": false
+    },
+    {
+      "table_row_id": 147,
+      "answer": false
+    },
+    {
+      "table_row_id": 148,
+      "answer": false
+    },
+    {
+      "table_row_id": 149,
+      "answer": false
+    },
+    {
+      "table_row_id": 150,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    },
+    {
+      "table_row_id": 152,
+      "answer": false
+    },
+    {
+      "table_row_id": 153,
+      "answer": false
+    },
+    {
+      "table_row_id": 154,
+      "answer": false
+    },
+    {
+      "table_row_id": 155,
+      "answer": false
+    },
+    {
+      "table_row_id": 156,
+      "answer": false
+    },
+    {
+      "table_row_id": 157,
+      "answer": false
+    },
+    {
+      "table_row_id": 158,
+      "answer": false
+    },
+    {
+      "table_row_id": 159,
+      "answer": false
+    }
+  ]
+}

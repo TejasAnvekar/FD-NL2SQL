@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_1181",
+  "csv_row_number": 1181,
+  "question": "In Renal cell trials in Phase 3 included in the meta-analysis, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1181_In_Renal_cell_trials_in_Phase_3_included_in_the_meta_analysis_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "2-arm"
+    }
+  ]
+}

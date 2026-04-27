@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_1429",
+  "csv_row_number": 1429,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1429_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 43,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 53,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 87,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    },
+    {
+      "table_row_id": 128,
+      "answer": ""
+    }
+  ]
+}

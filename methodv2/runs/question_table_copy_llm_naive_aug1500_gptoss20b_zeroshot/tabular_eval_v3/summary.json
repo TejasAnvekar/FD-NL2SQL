@@ -11,8 +11,8 @@
   "avg_recall": 0.7596129763311409,
   "avg_f1": 0.7350447254134236,
   "avg_row_jaccard": 0.6104583397610235,
-  "avg_chrf": 0.0,
-  "avg_rouge_l_f1": 0.0,
-  "avg_bertscore_f1": 0.0,
+  "avg_chrf": 79.99136154828422,
+  "avg_rouge_l_f1": 0.8355903553598412,
+  "avg_bertscore_f1": 0.9681079507791721,
   "exact_table_match_rate": 0.05668299510146956
 }

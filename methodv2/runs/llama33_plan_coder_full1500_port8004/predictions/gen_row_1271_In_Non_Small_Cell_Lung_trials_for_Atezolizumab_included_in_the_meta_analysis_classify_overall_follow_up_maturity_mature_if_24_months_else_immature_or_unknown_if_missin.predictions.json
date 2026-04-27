@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1271",
+  "csv_row_number": 1271,
+  "question": "In Non-Small Cell Lung trials for Atezolizumab included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1271_In_Non_Small_Cell_Lung_trials_for_Atezolizumab_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missin",
+  "predictions": [
+    {
+      "table_row_id": 31,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "immature"
+    }
+  ]
+}

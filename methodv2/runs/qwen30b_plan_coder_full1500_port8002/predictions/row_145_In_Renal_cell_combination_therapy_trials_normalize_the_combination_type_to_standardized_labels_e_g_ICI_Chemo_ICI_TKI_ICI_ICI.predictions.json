@@ -1,0 +1,52 @@
+{
+  "item_id": "row_145",
+  "csv_row_number": 115,
+  "question": "In Renal cell combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_145_In_Renal_cell_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 17,
+      "answer": false
+    },
+    {
+      "table_row_id": 18,
+      "answer": false
+    },
+    {
+      "table_row_id": 19,
+      "answer": false
+    },
+    {
+      "table_row_id": 20,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": false
+    },
+    {
+      "table_row_id": 22,
+      "answer": false
+    },
+    {
+      "table_row_id": 101,
+      "answer": false
+    },
+    {
+      "table_row_id": 105,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    },
+    {
+      "table_row_id": 148,
+      "answer": false
+    }
+  ]
+}

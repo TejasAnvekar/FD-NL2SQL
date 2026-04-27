@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_495",
+  "csv_row_number": 495,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_495_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28655793"
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 73,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28729154"
+    },
+    {
+      "table_row_id": 76,
+      "answer": ""
+    },
+    {
+      "table_row_id": 77,
+      "answer": ""
+    },
+    {
+      "table_row_id": 93,
+      "answer": ""
+    },
+    {
+      "table_row_id": 94,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    }
+  ]
+}

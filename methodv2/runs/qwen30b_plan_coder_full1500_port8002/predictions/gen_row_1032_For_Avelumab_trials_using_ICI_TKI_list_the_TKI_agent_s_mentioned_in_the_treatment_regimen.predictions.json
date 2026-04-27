@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_1032",
+  "csv_row_number": 1032,
+  "question": "For Avelumab trials using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1032_For_Avelumab_trials_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 57,
+      "answer": []
+    },
+    {
+      "table_row_id": 88,
+      "answer": []
+    },
+    {
+      "table_row_id": 101,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    }
+  ]
+}

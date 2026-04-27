@@ -1,0 +1,16 @@
+{
+  "item_id": "row_116",
+  "csv_row_number": 92,
+  "question": "In Hepatocellular trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_116_In_Hepatocellular_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 79,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "primary"
+    }
+  ]
+}

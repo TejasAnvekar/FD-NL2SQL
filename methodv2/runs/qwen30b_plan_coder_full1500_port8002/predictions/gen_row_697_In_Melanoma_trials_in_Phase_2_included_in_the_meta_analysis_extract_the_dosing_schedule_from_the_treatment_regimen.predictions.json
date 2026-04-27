@@ -1,0 +1,400 @@
+{
+  "item_id": "gen_row_697",
+  "csv_row_number": 697,
+  "question": "In Melanoma trials in Phase 2 included in the meta-analysis, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_697_In_Melanoma_trials_in_Phase_2_included_in_the_meta_analysis_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "daily"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Not specified"
+    }
+  ]
+}

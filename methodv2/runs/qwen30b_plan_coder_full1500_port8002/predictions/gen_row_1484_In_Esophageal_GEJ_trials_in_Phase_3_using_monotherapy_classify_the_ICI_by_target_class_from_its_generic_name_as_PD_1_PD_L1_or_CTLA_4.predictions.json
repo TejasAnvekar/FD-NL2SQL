@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1484",
+  "csv_row_number": 1484,
+  "question": "In Esophageal/GEJ trials in Phase 3 using monotherapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1484_In_Esophageal_GEJ_trials_in_Phase_3_using_monotherapy_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 80,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "PD-1"
+    }
+  ]
+}

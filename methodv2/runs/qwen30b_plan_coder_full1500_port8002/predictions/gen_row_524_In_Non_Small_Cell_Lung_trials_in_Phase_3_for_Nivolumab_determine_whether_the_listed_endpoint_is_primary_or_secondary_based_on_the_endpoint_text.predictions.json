@@ -1,0 +1,144 @@
+{
+  "item_id": "gen_row_524",
+  "csv_row_number": 524,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_524_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "unknown"
+    }
+  ]
+}

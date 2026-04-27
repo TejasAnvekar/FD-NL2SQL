@@ -1,0 +1,38 @@
+{
+  "item_id": "gen_row_738",
+  "csv_row_number": 738,
+  "question": "In Non-Small Cell Lung trials for Atezolizumab using combination therapy included in the meta-analysis, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_738_In_Non_Small_Cell_Lung_trials_for_Atezolizumab_using_combination_therapy_included_in_the_meta_analysis_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": [
+        "pembrolizumab+pemetrexed+carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "pembrolizumab+platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": [
+        "atezolizumab+carboplatin+paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": [
+        "atezolizumab+carboplatin+paclitaxel+bevacizumab"
+      ]
+    },
+    {
+      "table_row_id": 55,
+      "answer": [
+        "atezolizumab+carboplatin+nab-paclitaxel"
+      ]
+    }
+  ]
+}

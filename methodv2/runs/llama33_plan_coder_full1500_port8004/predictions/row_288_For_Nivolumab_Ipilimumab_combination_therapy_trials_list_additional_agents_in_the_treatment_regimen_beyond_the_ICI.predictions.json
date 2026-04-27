@@ -1,0 +1,32 @@
+{
+  "item_id": "row_288",
+  "csv_row_number": 221,
+  "question": "For Nivolumab, Ipilimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_288_For_Nivolumab_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 18,
+      "answer": [
+        "nivolumab+ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 19,
+      "answer": [
+        "nivolumab+ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 96,
+      "answer": [
+        "nivolumab+ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "nivolumab+ipilimumab"
+      ]
+    }
+  ]
+}

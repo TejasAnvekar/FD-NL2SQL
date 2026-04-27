@@ -1,0 +1,48 @@
+{
+  "item_id": "row_217",
+  "csv_row_number": 166,
+  "question": "In Breast trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_217_In_Breast_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": false
+    },
+    {
+      "table_row_id": 5,
+      "answer": false
+    },
+    {
+      "table_row_id": 81,
+      "answer": false
+    },
+    {
+      "table_row_id": 84,
+      "answer": false
+    },
+    {
+      "table_row_id": 119,
+      "answer": false
+    },
+    {
+      "table_row_id": 122,
+      "answer": true
+    },
+    {
+      "table_row_id": 125,
+      "answer": false
+    },
+    {
+      "table_row_id": 128,
+      "answer": false
+    },
+    {
+      "table_row_id": 131,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    }
+  ]
+}

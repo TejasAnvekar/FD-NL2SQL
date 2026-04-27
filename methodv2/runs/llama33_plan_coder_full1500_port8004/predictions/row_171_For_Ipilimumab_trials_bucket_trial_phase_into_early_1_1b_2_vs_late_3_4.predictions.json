@@ -1,0 +1,48 @@
+{
+  "item_id": "row_171",
+  "csv_row_number": 135,
+  "question": "For Ipilimumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_171_For_Ipilimumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "late"
+    }
+  ]
+}

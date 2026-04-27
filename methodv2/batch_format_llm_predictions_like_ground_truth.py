@@ -23,10 +23,11 @@ def parse_args() -> argparse.Namespace:
     )
     ap.add_argument("--run_dirs", nargs="+", required=True)
     ap.add_argument("--output_name", default="formatted_predictions_like_ground_truth.csv")
+    ap.add_argument("--require_predicted_answer_json", type=int, default=0)
     return ap.parse_args()
 
 
-def process_run_dir(run_dir: Path, output_name: str) -> dict:
+def process_run_dir(run_dir: Path, output_name: str, require_predicted_answer_json: bool) -> dict:
     questions_dir = run_dir / "questions"
     formatted_count = 0
     skipped_count = 0
@@ -55,7 +56,12 @@ def process_run_dir(run_dir: Path, output_name: str) -> dict:
         gt_fieldnames = list(gt_rows[0].keys()) if gt_rows else []
         target_columns = infer_target_columns(gt_fieldnames, metadata)
         fieldnames = build_fieldnames(gt_fieldnames, target_columns)
-        formatted_rows = convert_rows(llm_rows, fieldnames, target_columns=target_columns)
+        formatted_rows = convert_rows(
+            llm_rows,
+            fieldnames,
+            target_columns=target_columns,
+            require_predicted_answer_json=require_predicted_answer_json,
+        )
         output_csv = question_dir / output_name
         write_csv(output_csv, formatted_rows, fieldnames)
         formatted_count += 1
@@ -75,7 +81,11 @@ def main() -> None:
     total_formatted = 0
     total_skipped = 0
     for run_dir_str in args.run_dirs:
-        summary = process_run_dir(Path(run_dir_str).expanduser().resolve(), args.output_name)
+        summary = process_run_dir(
+            Path(run_dir_str).expanduser().resolve(),
+            args.output_name,
+            bool(args.require_predicted_answer_json),
+        )
         summaries.append(summary)
         total_formatted += int(summary.get("formatted_count", 0))
         total_skipped += int(summary.get("skipped_count", 0))

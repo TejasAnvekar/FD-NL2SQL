@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1465",
+  "csv_row_number": 1465,
+  "question": "In Non-Small Cell Lung trials for Durvalumab included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1465_In_Non_Small_Cell_Lung_trials_for_Durvalumab_included_in_the_meta_analysis_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "primary"
+    }
+  ]
+}

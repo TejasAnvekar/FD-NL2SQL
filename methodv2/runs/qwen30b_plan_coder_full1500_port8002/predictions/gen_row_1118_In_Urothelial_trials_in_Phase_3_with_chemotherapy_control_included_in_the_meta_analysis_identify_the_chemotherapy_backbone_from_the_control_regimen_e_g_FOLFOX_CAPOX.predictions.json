@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1118",
+  "csv_row_number": 1118,
+  "question": "In Urothelial trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1118_In_Urothelial_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 107,
+      "answer": ""
+    },
+    {
+      "table_row_id": 108,
+      "answer": ""
+    }
+  ]
+}

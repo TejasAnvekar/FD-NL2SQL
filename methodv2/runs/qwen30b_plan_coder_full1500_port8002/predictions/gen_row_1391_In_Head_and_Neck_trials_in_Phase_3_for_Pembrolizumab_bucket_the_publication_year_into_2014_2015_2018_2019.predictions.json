@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_1391",
+  "csv_row_number": 1391,
+  "question": "In Head and Neck trials in Phase 3 for Pembrolizumab, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1391_In_Head_and_Neck_trials_in_Phase_3_for_Pembrolizumab_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": ""
+    },
+    {
+      "table_row_id": 13,
+      "answer": ""
+    },
+    {
+      "table_row_id": 14,
+      "answer": ""
+    },
+    {
+      "table_row_id": 85,
+      "answer": ""
+    },
+    {
+      "table_row_id": 86,
+      "answer": ""
+    },
+    {
+      "table_row_id": 105,
+      "answer": ""
+    },
+    {
+      "table_row_id": 110,
+      "answer": ""
+    },
+    {
+      "table_row_id": 111,
+      "answer": ""
+    }
+  ]
+}

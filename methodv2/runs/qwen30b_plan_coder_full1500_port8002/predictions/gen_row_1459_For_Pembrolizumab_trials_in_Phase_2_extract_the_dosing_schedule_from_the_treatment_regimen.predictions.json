@@ -1,0 +1,84 @@
+{
+  "item_id": "gen_row_1459",
+  "csv_row_number": 1459,
+  "question": "For Pembrolizumab trials in Phase 2, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1459_For_Pembrolizumab_trials_in_Phase_2_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": ""
+    },
+    {
+      "table_row_id": 11,
+      "answer": ""
+    },
+    {
+      "table_row_id": 12,
+      "answer": ""
+    },
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 40,
+      "answer": ""
+    },
+    {
+      "table_row_id": 41,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 63,
+      "answer": ""
+    },
+    {
+      "table_row_id": 64,
+      "answer": ""
+    },
+    {
+      "table_row_id": 79,
+      "answer": ""
+    },
+    {
+      "table_row_id": 80,
+      "answer": ""
+    },
+    {
+      "table_row_id": 106,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    }
+  ]
+}

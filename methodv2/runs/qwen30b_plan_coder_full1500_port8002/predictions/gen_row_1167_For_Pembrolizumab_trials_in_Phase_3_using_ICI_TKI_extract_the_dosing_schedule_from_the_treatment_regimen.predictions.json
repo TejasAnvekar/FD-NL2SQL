@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1167",
+  "csv_row_number": 1167,
+  "question": "For Pembrolizumab trials in Phase 3 using ICI+TKI, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1167_For_Pembrolizumab_trials_in_Phase_3_using_ICI_TKI_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": ""
+    }
+  ]
+}

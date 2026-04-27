@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_1447",
+  "csv_row_number": 1447,
+  "question": "In Non-Small Cell Lung trials for Durvalumab included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1447_In_Non_Small_Cell_Lung_trials_for_Durvalumab_included_in_the_meta_analysis_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "active"
+    }
+  ]
+}

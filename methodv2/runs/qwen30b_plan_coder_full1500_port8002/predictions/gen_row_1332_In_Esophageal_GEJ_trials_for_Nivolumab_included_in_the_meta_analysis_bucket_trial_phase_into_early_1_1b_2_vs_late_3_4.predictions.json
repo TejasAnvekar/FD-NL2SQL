@@ -1,0 +1,328 @@
+{
+  "item_id": "gen_row_1332",
+  "csv_row_number": 1332,
+  "question": "In Esophageal/GEJ trials for Nivolumab included in the meta-analysis, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1332_In_Esophageal_GEJ_trials_for_Nivolumab_included_in_the_meta_analysis_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 80,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "late"
+    }
+  ]
+}

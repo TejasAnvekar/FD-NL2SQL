@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_1173",
+  "csv_row_number": 1173,
+  "question": "In Renal cell trials for Nivolumab using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1173_In_Renal_cell_trials_for_Nivolumab_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 101,
+      "answer": []
+    },
+    {
+      "table_row_id": 105,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    }
+  ]
+}

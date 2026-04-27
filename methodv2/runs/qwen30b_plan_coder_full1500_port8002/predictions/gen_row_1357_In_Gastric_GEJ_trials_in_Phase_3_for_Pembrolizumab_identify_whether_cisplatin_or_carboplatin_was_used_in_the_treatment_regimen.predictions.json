@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1357",
+  "csv_row_number": 1357,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1357_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": "Not used"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Not used"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "cisplatin"
+    }
+  ]
+}

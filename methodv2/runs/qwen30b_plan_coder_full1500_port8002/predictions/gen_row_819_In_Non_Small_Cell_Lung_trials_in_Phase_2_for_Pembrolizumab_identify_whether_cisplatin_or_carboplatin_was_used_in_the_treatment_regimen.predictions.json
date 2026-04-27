@@ -1,0 +1,72 @@
+{
+  "item_id": "gen_row_819",
+  "csv_row_number": 819,
+  "question": "In Non-Small Cell Lung trials in Phase 2 for Pembrolizumab, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_819_In_Non_Small_Cell_Lung_trials_in_Phase_2_for_Pembrolizumab_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 38,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Neither"
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 120,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 139,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

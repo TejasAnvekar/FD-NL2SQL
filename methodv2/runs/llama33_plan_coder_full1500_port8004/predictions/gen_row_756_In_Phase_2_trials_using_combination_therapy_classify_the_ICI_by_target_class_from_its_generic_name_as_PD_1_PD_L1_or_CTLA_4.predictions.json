@@ -1,0 +1,92 @@
+{
+  "item_id": "gen_row_756",
+  "csv_row_number": 756,
+  "question": "In Phase 2 trials using combination therapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_756_In_Phase_2_trials_using_combination_therapy_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "item_id": "row_256",
+  "csv_row_number": 198,
+  "question": "In Renal cell trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_256_In_Renal_cell_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": ""
+    },
+    {
+      "table_row_id": 16,
+      "answer": ""
+    },
+    {
+      "table_row_id": 17,
+      "answer": ""
+    },
+    {
+      "table_row_id": 18,
+      "answer": ""
+    },
+    {
+      "table_row_id": 19,
+      "answer": ""
+    },
+    {
+      "table_row_id": 20,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 101,
+      "answer": ""
+    },
+    {
+      "table_row_id": 104,
+      "answer": ""
+    },
+    {
+      "table_row_id": 114,
+      "answer": ""
+    },
+    {
+      "table_row_id": 115,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    }
+  ]
+}

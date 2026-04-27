@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_1200",
+  "csv_row_number": 1200,
+  "question": "In Renal cell trials using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1200_In_Renal_cell_trials_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    }
+  ]
+}

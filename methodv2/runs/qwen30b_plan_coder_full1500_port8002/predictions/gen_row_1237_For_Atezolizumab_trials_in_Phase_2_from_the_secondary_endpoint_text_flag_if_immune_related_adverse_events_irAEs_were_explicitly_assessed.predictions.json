@@ -1,0 +1,112 @@
+{
+  "item_id": "gen_row_1237",
+  "csv_row_number": 1237,
+  "question": "For Atezolizumab trials in Phase 2, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1237_For_Atezolizumab_trials_in_Phase_2_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": false
+    },
+    {
+      "table_row_id": 16,
+      "answer": false
+    },
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 24,
+      "answer": false
+    },
+    {
+      "table_row_id": 25,
+      "answer": false
+    },
+    {
+      "table_row_id": 26,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": false
+    },
+    {
+      "table_row_id": 33,
+      "answer": false
+    },
+    {
+      "table_row_id": 43,
+      "answer": false
+    },
+    {
+      "table_row_id": 53,
+      "answer": false
+    },
+    {
+      "table_row_id": 88,
+      "answer": false
+    },
+    {
+      "table_row_id": 97,
+      "answer": false
+    },
+    {
+      "table_row_id": 106,
+      "answer": false
+    },
+    {
+      "table_row_id": 113,
+      "answer": false
+    },
+    {
+      "table_row_id": 119,
+      "answer": false
+    },
+    {
+      "table_row_id": 127,
+      "answer": false
+    },
+    {
+      "table_row_id": 133,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    },
+    {
+      "table_row_id": 140,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    },
+    {
+      "table_row_id": 154,
+      "answer": false
+    },
+    {
+      "table_row_id": 156,
+      "answer": false
+    },
+    {
+      "table_row_id": 157,
+      "answer": false
+    },
+    {
+      "table_row_id": 159,
+      "answer": false
+    }
+  ]
+}

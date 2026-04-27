@@ -1,0 +1,644 @@
+{
+  "item_id": "row_405",
+  "csv_row_number": 300,
+  "question": "For Chemotherapy trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_405_For_Chemotherapy_trials_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 8,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "≥2019"
+    }
+  ]
+}

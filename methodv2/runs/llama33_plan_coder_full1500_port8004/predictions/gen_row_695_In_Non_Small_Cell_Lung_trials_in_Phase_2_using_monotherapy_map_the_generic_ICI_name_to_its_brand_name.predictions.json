@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_695",
+  "csv_row_number": 695,
+  "question": "In Non-Small Cell Lung trials in Phase 2 using monotherapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_695_In_Non_Small_Cell_Lung_trials_in_Phase_2_using_monotherapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 28,
+      "answer": ""
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 33,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 40,
+      "answer": ""
+    },
+    {
+      "table_row_id": 41,
+      "answer": ""
+    },
+    {
+      "table_row_id": 48,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    }
+  ]
+}

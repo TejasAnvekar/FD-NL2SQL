@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_475",
+  "csv_row_number": 475,
+  "question": "For Durvalumab trials in Phase 3 included in the meta-analysis, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_475_For_Durvalumab_trials_in_Phase_3_included_in_the_meta_analysis_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    },
+    {
+      "table_row_id": 57,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    }
+  ]
+}

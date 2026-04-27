@@ -1,0 +1,40 @@
+{
+  "item_id": "row_185",
+  "csv_row_number": 143,
+  "question": "In Breast trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_185_In_Breast_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "2-arm"
+    }
+  ]
+}

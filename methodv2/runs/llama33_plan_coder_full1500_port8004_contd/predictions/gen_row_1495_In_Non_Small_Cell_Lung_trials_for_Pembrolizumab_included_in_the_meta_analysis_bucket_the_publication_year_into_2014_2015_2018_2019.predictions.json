@@ -1,0 +1,72 @@
+{
+  "item_id": "gen_row_1495",
+  "csv_row_number": 1495,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1495_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

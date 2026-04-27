@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_630",
+  "csv_row_number": 630,
+  "question": "In Non-Small Cell Lung trials for Atezolizumab included in the meta-analysis, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_630_In_Non_Small_Cell_Lung_trials_for_Atezolizumab_included_in_the_meta_analysis_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 31,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Other"
+    }
+  ]
+}

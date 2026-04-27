@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_1037",
+  "csv_row_number": 1037,
+  "question": "In Head and Neck trials in Phase 3 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1037_In_Head_and_Neck_trials_in_Phase_3_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30509740"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27718784"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29884413"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31679945"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31679945"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32437507"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32294530"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32294530"
+    }
+  ]
+}

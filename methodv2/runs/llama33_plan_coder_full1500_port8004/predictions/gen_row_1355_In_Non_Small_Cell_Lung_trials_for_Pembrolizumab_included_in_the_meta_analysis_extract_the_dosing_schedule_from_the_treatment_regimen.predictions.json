@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1355",
+  "csv_row_number": 1355,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1355_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Not specified"
+    }
+  ]
+}

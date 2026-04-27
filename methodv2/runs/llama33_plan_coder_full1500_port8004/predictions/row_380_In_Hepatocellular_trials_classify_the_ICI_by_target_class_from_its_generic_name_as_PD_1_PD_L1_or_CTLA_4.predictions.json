@@ -1,0 +1,16 @@
+{
+  "item_id": "row_380",
+  "csv_row_number": 279,
+  "question": "In Hepatocellular trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_380_In_Hepatocellular_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 79,
+      "answer": "Pd-1"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Pd-L1"
+    }
+  ]
+}

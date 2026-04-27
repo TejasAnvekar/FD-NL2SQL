@@ -1,0 +1,20 @@
+{
+  "item_id": "row_500",
+  "csv_row_number": 367,
+  "question": "In Bladder trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_500_In_Bladder_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": false
+    },
+    {
+      "table_row_id": 2,
+      "answer": false
+    },
+    {
+      "table_row_id": 3,
+      "answer": false
+    }
+  ]
+}

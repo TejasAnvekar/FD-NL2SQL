@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_589",
+  "csv_row_number": 589,
+  "question": "In Melanoma trials in Phase 3 for Nivolumab, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_589_In_Melanoma_trials_in_Phase_3_for_Nivolumab_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 67,
+      "answer": []
+    },
+    {
+      "table_row_id": 68,
+      "answer": [
+        "os+orr"
+      ]
+    },
+    {
+      "table_row_id": 69,
+      "answer": [
+        "os+orr"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": []
+    },
+    {
+      "table_row_id": 72,
+      "answer": []
+    },
+    {
+      "table_row_id": 95,
+      "answer": []
+    },
+    {
+      "table_row_id": 96,
+      "answer": []
+    }
+  ]
+}

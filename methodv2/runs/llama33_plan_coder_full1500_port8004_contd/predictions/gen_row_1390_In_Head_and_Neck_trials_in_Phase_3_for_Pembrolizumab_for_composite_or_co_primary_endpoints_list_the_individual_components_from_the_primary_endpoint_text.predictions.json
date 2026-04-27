@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_1390",
+  "csv_row_number": 1390,
+  "question": "In Head and Neck trials in Phase 3 for Pembrolizumab, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1390_In_Head_and_Neck_trials_in_Phase_3_for_Pembrolizumab_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 85,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    }
+  ]
+}

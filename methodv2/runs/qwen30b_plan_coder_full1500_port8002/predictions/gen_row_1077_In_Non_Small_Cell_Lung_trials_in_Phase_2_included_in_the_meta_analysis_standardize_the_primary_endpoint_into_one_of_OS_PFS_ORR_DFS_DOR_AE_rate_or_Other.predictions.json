@@ -1,0 +1,472 @@
+{
+  "item_id": "gen_row_1077",
+  "csv_row_number": 1077,
+  "question": "In Non-Small Cell Lung trials in Phase 2 included in the meta-analysis, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1077_In_Non_Small_Cell_Lung_trials_in_Phase_2_included_in_the_meta_analysis_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "ORR"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "ORR"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "DFS"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "DFS"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "PFS"
+    }
+  ]
+}

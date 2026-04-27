@@ -1,0 +1,20 @@
+{
+  "item_id": "row_389",
+  "csv_row_number": 285,
+  "question": "In Bladder trials, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_389_In_Bladder_trials_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": false
+    },
+    {
+      "table_row_id": 2,
+      "answer": false
+    },
+    {
+      "table_row_id": 3,
+      "answer": false
+    }
+  ]
+}

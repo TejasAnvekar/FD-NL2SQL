@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_446",
+  "csv_row_number": 446,
+  "question": "For Nivolumab, Ipilimumab trials in Phase 3 using combination therapy included in the meta-analysis, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_446_For_Nivolumab_Ipilimumab_trials_in_Phase_3_using_combination_therapy_included_in_the_meta_analysis_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_I",
+  "predictions": [
+    {
+      "table_row_id": 18,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "ICI+ICI"
+    }
+  ]
+}

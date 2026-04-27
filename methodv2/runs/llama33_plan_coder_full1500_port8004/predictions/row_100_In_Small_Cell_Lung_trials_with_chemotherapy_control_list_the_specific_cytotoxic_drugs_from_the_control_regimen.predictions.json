@@ -1,0 +1,36 @@
+{
+  "item_id": "row_100",
+  "csv_row_number": 79,
+  "question": "In Small Cell Lung trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_100_In_Small_Cell_Lung_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": []
+    },
+    {
+      "table_row_id": 26,
+      "answer": []
+    },
+    {
+      "table_row_id": 32,
+      "answer": []
+    },
+    {
+      "table_row_id": 43,
+      "answer": []
+    },
+    {
+      "table_row_id": 53,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    }
+  ]
+}

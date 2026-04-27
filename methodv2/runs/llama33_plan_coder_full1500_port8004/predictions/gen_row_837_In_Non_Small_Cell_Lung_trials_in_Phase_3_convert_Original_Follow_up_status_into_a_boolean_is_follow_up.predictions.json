@@ -1,0 +1,128 @@
+{
+  "item_id": "gen_row_837",
+  "csv_row_number": 837,
+  "question": "In Non-Small Cell Lung trials in Phase 3, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_837_In_Non_Small_Cell_Lung_trials_in_Phase_3_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 27,
+      "answer": false
+    },
+    {
+      "table_row_id": 28,
+      "answer": false
+    },
+    {
+      "table_row_id": 29,
+      "answer": false
+    },
+    {
+      "table_row_id": 30,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": false
+    },
+    {
+      "table_row_id": 33,
+      "answer": false
+    },
+    {
+      "table_row_id": 34,
+      "answer": false
+    },
+    {
+      "table_row_id": 35,
+      "answer": false
+    },
+    {
+      "table_row_id": 36,
+      "answer": true
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 42,
+      "answer": false
+    },
+    {
+      "table_row_id": 44,
+      "answer": false
+    },
+    {
+      "table_row_id": 45,
+      "answer": false
+    },
+    {
+      "table_row_id": 46,
+      "answer": false
+    },
+    {
+      "table_row_id": 47,
+      "answer": false
+    },
+    {
+      "table_row_id": 48,
+      "answer": false
+    },
+    {
+      "table_row_id": 52,
+      "answer": false
+    },
+    {
+      "table_row_id": 54,
+      "answer": true
+    },
+    {
+      "table_row_id": 55,
+      "answer": false
+    },
+    {
+      "table_row_id": 56,
+      "answer": false
+    },
+    {
+      "table_row_id": 89,
+      "answer": false
+    },
+    {
+      "table_row_id": 99,
+      "answer": false
+    },
+    {
+      "table_row_id": 102,
+      "answer": false
+    },
+    {
+      "table_row_id": 113,
+      "answer": false
+    },
+    {
+      "table_row_id": 116,
+      "answer": false
+    },
+    {
+      "table_row_id": 129,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": true
+    }
+  ]
+}

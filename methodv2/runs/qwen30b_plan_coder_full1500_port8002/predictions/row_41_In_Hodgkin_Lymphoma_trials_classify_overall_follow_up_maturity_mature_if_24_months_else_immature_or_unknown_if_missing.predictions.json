@@ -1,0 +1,12 @@
+{
+  "item_id": "row_41",
+  "csv_row_number": 30,
+  "question": "In Hodgkin Lymphoma trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_41_In_Hodgkin_Lymphoma_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": "mature"
+    }
+  ]
+}

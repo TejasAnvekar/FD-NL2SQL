@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_954",
+  "csv_row_number": 954,
+  "question": "For Ipilimumab trials in Phase 3, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_954_For_Ipilimumab_trials_in_Phase_3_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "2-arm"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "gen_row_488",
+  "csv_row_number": 488,
+  "question": "For Avelumab trials in Phase 3 using ICI+TKI included in the meta-analysis, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_488_For_Avelumab_trials_in_Phase_3_using_ICI_TKI_included_in_the_meta_analysis_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": [
+        "axitinib"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    }
+  ]
+}

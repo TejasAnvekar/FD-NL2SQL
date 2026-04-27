@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_1176",
+  "csv_row_number": 1176,
+  "question": "In Renal cell trials in Phase 3 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1176_In_Renal_cell_trials_in_Phase_3_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "https://pubmed.gov/26406148"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "https://pubmed.gov/29562145"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "https://pubmed.gov/31427204"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "https://pubmed.gov/30779531"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "https://pubmed.gov/30779529"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "https://pubmed.gov/31079938"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "https://pubmed.gov/32661118"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "https://pubmed.gov/32673417"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "https://pubmed.gov/32339648"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "https://pubmed.gov/33284113"
+    }
+  ]
+}

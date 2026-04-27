@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_1477",
+  "csv_row_number": 1477,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1477_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_ad",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

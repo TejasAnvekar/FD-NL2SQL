@@ -1,0 +1,62 @@
+{
+  "item_id": "gen_row_1065",
+  "csv_row_number": 1065,
+  "question": "For Pembrolizumab trials in Phase 3 using combination therapy, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1065_For_Pembrolizumab_trials_in_Phase_3_using_combination_therapy_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 21,
+      "answer": [
+        "pembrolizumab+axitinib"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "pembrolizumab+platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "pembrolizumab+carboplatin+paclitaxel/nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "pembrolizumab+paclitaxel+carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "pembrolizumab+etoposide+platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "pembrolizumab+cisplatin+5-fu+capecitabine"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "pembrolizumab+axitinib"
+      ]
+    }
+  ]
+}

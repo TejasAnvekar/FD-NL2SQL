@@ -1,0 +1,84 @@
+{
+  "item_id": "row_172",
+  "csv_row_number": 136,
+  "question": "In Non-Small Cell Lung trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_172_In_Non_Small_Cell_Lung_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": []
+    },
+    {
+      "table_row_id": 24,
+      "answer": []
+    },
+    {
+      "table_row_id": 27,
+      "answer": []
+    },
+    {
+      "table_row_id": 28,
+      "answer": []
+    },
+    {
+      "table_row_id": 31,
+      "answer": []
+    },
+    {
+      "table_row_id": 37,
+      "answer": []
+    },
+    {
+      "table_row_id": 40,
+      "answer": []
+    },
+    {
+      "table_row_id": 41,
+      "answer": []
+    },
+    {
+      "table_row_id": 49,
+      "answer": []
+    },
+    {
+      "table_row_id": 56,
+      "answer": []
+    },
+    {
+      "table_row_id": 89,
+      "answer": []
+    },
+    {
+      "table_row_id": 90,
+      "answer": []
+    },
+    {
+      "table_row_id": 91,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    }
+  ]
+}

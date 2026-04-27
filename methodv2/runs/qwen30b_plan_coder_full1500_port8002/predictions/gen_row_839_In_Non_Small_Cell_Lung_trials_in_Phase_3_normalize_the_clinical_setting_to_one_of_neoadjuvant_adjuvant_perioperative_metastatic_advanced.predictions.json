@@ -1,0 +1,124 @@
+{
+  "item_id": "gen_row_839",
+  "csv_row_number": 839,
+  "question": "In Non-Small Cell Lung trials in Phase 3, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_839_In_Non_Small_Cell_Lung_trials_in_Phase_3_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "neoadjuvant"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "adjuvant"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_690",
+  "csv_row_number": 690,
+  "question": "In Non-Small Cell Lung trials in Phase 2 for Pembrolizumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_690_In_Non_Small_Cell_Lung_trials_in_Phase_2_for_Pembrolizumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "ORR"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "ORR"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "PFS"
+    }
+  ]
+}

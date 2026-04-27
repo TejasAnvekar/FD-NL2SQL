@@ -1,0 +1,19 @@
+{
+  "item_id": "row_432",
+  "csv_row_number": 323,
+  "question": "In Colorectal trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_432_In_Colorectal_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 140,
+      "answer": [
+        "Oxaliplatin",
+        "leucovorin",
+        "5-fluoropyrimidine",
+        "mFOLFOX6",
+        "bevacizumab",
+        "cetuximab"
+      ]
+    }
+  ]
+}

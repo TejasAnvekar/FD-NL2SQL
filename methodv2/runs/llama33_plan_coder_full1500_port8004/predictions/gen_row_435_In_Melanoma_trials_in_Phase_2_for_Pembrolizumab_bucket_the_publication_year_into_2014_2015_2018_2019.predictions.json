@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_435",
+  "csv_row_number": 435,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_435_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": ""
+    },
+    {
+      "table_row_id": 63,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 72,
+      "answer": ""
+    }
+  ]
+}

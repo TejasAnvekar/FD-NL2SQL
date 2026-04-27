@@ -1,0 +1,76 @@
+{
+  "item_id": "gen_row_740",
+  "csv_row_number": 740,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Pembrolizumab, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_740_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Pembrolizumab_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": []
+    },
+    {
+      "table_row_id": 30,
+      "answer": []
+    },
+    {
+      "table_row_id": 37,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": []
+    },
+    {
+      "table_row_id": 44,
+      "answer": []
+    },
+    {
+      "table_row_id": 52,
+      "answer": []
+    },
+    {
+      "table_row_id": 56,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 116,
+      "answer": []
+    },
+    {
+      "table_row_id": 120,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    },
+    {
+      "table_row_id": 129,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    }
+  ]
+}

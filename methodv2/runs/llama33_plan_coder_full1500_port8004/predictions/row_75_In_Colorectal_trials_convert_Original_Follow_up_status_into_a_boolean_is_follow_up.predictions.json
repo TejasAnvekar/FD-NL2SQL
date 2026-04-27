@@ -1,0 +1,20 @@
+{
+  "item_id": "row_75",
+  "csv_row_number": 56,
+  "question": "In Colorectal trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_75_In_Colorectal_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": false
+    },
+    {
+      "table_row_id": 7,
+      "answer": false
+    },
+    {
+      "table_row_id": 112,
+      "answer": false
+    }
+  ]
+}

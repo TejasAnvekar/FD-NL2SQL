@@ -1,0 +1,8 @@
+{
+  "root": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/results_hub_aug1500_20260415",
+  "planner_executor_and_prompting_run_count": 12,
+  "blendsql_run_count": 3,
+  "ehragent_summary_row_count": 3,
+  "summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/results_hub_aug1500_20260415/all_methods_summary.csv",
+  "summary_json": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/results_hub_aug1500_20260415/all_methods_summary.json"
+}

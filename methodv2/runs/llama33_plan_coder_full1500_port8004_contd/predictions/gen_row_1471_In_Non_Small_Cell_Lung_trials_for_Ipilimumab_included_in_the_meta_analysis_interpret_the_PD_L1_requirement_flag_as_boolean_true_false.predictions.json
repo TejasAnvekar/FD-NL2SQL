@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1471",
+  "csv_row_number": 1471,
+  "question": "In Non-Small Cell Lung trials for Ipilimumab included in the meta-analysis, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1471_In_Non_Small_Cell_Lung_trials_for_Ipilimumab_included_in_the_meta_analysis_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 24,
+      "answer": false
+    },
+    {
+      "table_row_id": 34,
+      "answer": false
+    },
+    {
+      "table_row_id": 47,
+      "answer": false
+    },
+    {
+      "table_row_id": 99,
+      "answer": false
+    },
+    {
+      "table_row_id": 102,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    }
+  ]
+}

@@ -27,9 +27,15 @@ except Exception:
     sacrebleu = None
 
 try:
-    from bert_score import score as bert_score_fn
+    from bert_score import BERTScorer, score as bert_score_fn
 except Exception:
+    BERTScorer = None
     bert_score_fn = None
+
+
+_BERTSCORER = None
+
+
 
 
 def load_data(path: str, fmt: str = "auto") -> List[Dict[str, Any]]:
@@ -420,12 +426,31 @@ def chrf_corpus(pred_texts: List[str], ref_texts: List[str]) -> Optional[float]:
     return float(score)
 
 
+def get_bertscorer() -> Optional[Any]:
+    global _BERTSCORER
+    if BERTScorer is None:
+        return None
+    if _BERTSCORER is None:
+        batch_size = int(os.getenv("FDNL2SQL_BERTSCORE_BATCH_SIZE", "64"))
+        nthreads = int(os.getenv("FDNL2SQL_BERTSCORE_NTHREADS", "4"))
+        device = os.getenv("FDNL2SQL_BERTSCORE_DEVICE") or None
+        _BERTSCORER = BERTScorer(
+            lang="en",
+            batch_size=batch_size,
+            nthreads=nthreads,
+            device=device,
+        )
+    return _BERTSCORER
+
+
 def bertscore_f1_avg(pred_texts: List[str], ref_texts: List[str], enabled: bool) -> Optional[float]:
     if not enabled or not pred_texts:
         return None
-    if bert_score_fn is None:
+    scorer = get_bertscorer()
+    if scorer is None:
         return None
-    _, _, f1 = bert_score_fn(pred_texts, ref_texts, lang="en", verbose=False)
+    batch_size = int(os.getenv("FDNL2SQL_BERTSCORE_BATCH_SIZE", "64"))
+    _, _, f1 = scorer.score(pred_texts, ref_texts, verbose=False, batch_size=batch_size)
     return float(f1.mean().item())
 
 

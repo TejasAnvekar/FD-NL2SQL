@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_934",
+  "csv_row_number": 934,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Durvalumab, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_934_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Durvalumab_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 57,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 99,
+      "answer": ""
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

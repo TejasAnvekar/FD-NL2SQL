@@ -1,0 +1,120 @@
+{
+  "item_id": "gen_row_725",
+  "csv_row_number": 725,
+  "question": "In Non-Small Cell Lung trials in Phase 3, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_725_In_Non_Small_Cell_Lung_trials_in_Phase_3_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Opdivo, Yervoy"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Unknown"
+    }
+  ]
+}

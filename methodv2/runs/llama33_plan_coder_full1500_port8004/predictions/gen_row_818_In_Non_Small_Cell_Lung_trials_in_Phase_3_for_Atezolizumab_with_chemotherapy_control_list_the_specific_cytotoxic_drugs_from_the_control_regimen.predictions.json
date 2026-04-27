@@ -1,0 +1,84 @@
+{
+  "item_id": "gen_row_818",
+  "csv_row_number": 818,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Atezolizumab with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_818_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Atezolizumab_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": []
+    },
+    {
+      "table_row_id": 28,
+      "answer": []
+    },
+    {
+      "table_row_id": 29,
+      "answer": []
+    },
+    {
+      "table_row_id": 30,
+      "answer": []
+    },
+    {
+      "table_row_id": 31,
+      "answer": []
+    },
+    {
+      "table_row_id": 37,
+      "answer": []
+    },
+    {
+      "table_row_id": 40,
+      "answer": []
+    },
+    {
+      "table_row_id": 41,
+      "answer": []
+    },
+    {
+      "table_row_id": 52,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 56,
+      "answer": []
+    },
+    {
+      "table_row_id": 89,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 116,
+      "answer": []
+    },
+    {
+      "table_row_id": 129,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    }
+  ]
+}

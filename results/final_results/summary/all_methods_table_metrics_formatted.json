@@ -1,0 +1,222 @@
+[
+  {
+    "method_family": "blendsql",
+    "subfamily": "blendsql",
+    "run_name": "gptoss_full1500_batch12",
+    "source_run_dir": "/mnt/data2/srchowd3/blendsql/fdnl2sql_runs/gptoss_full1500_batch12",
+    "question_dir_count": "1500",
+    "table_f1": "7.30",
+    "rouge_l_f1": "**84.75**",
+    "chrf": "**87.52**"
+  },
+  {
+    "method_family": "blendsql",
+    "subfamily": "blendsql",
+    "run_name": "llama33_full1500_batch8",
+    "source_run_dir": "/mnt/data2/srchowd3/blendsql/fdnl2sql_runs/llama33_full1500_batch8",
+    "question_dir_count": "1500",
+    "table_f1": "5.60",
+    "rouge_l_f1": "66.86",
+    "chrf": "70.65"
+  },
+  {
+    "method_family": "blendsql",
+    "subfamily": "blendsql",
+    "run_name": "qwen_full1500_batch12",
+    "source_run_dir": "/mnt/data2/srchowd3/blendsql/fdnl2sql_runs/qwen_full1500_batch12",
+    "question_dir_count": "1500",
+    "table_f1": "**11.56**",
+    "rouge_l_f1": "78.20",
+    "chrf": "82.09"
+  },
+  {
+    "method_family": "ehragent",
+    "subfamily": "ehragent",
+    "run_name": "gptoss20b_full1500_merged_hardened_v2",
+    "source_run_dir": "/mnt/data2/srchowd3/EhrAgent/fdnl2sql_runs/gptoss20b_full1500_merged_hardened_v2",
+    "question_dir_count": "1500",
+    "table_f1": "**34.85**",
+    "rouge_l_f1": "**87.31**",
+    "chrf": "90.31"
+  },
+  {
+    "method_family": "ehragent",
+    "subfamily": "ehragent",
+    "run_name": "llama33_full1500_merged_hardened_v2",
+    "source_run_dir": "/mnt/data2/srchowd3/EhrAgent/fdnl2sql_runs/llama33_full1500_merged_hardened_v2",
+    "question_dir_count": "1500",
+    "table_f1": "30.99",
+    "rouge_l_f1": "86.84",
+    "chrf": "**90.63**"
+  },
+  {
+    "method_family": "ehragent",
+    "subfamily": "ehragent",
+    "run_name": "qwen30b_full1500_cost_merged",
+    "source_run_dir": "/mnt/data2/srchowd3/EhrAgent/fdnl2sql_runs/qwen30b_full1500_cost_merged",
+    "question_dir_count": "1500",
+    "table_f1": "32.75",
+    "rouge_l_f1": "86.61",
+    "chrf": "90.49"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planexec",
+    "run_name": "question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "question_dir_count": "1500",
+    "table_f1": "75.07",
+    "rouge_l_f1": "85.76",
+    "chrf": "82.80"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planexec",
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "question_dir_count": "1500",
+    "table_f1": "59.59",
+    "rouge_l_f1": "90.76",
+    "chrf": "88.64"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planexec",
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "question_dir_count": "1500",
+    "table_f1": "62.47",
+    "rouge_l_f1": "**90.91**",
+    "chrf": "**89.10**"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planner_executor",
+    "run_name": "question_table_copy_llm_planexec_aug1500_gptoss_exec_llama_plan",
+    "source_run_dir": "/mnt/data2/srchowd3/fdnl2sql_runs/question_table_copy_llm_planexec_aug1500_gptoss_exec_llama_plan",
+    "question_dir_count": "1500",
+    "table_f1": "**75.12**",
+    "rouge_l_f1": "85.66",
+    "chrf": "82.67"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planner_executor",
+    "run_name": "question_table_copy_llm_planexec_aug1500_llama_exec_gptoss_plan",
+    "source_run_dir": "/mnt/data2/srchowd3/fdnl2sql_runs/question_table_copy_llm_planexec_aug1500_llama_exec_gptoss_plan",
+    "question_dir_count": "1500",
+    "table_f1": "68.01",
+    "rouge_l_f1": "90.01",
+    "chrf": "87.74"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planner_executor",
+    "run_name": "question_table_copy_llm_planexec_aug1500_llama_exec_qwen_plan",
+    "source_run_dir": "/mnt/data2/srchowd3/fdnl2sql_runs/question_table_copy_llm_planexec_aug1500_llama_exec_qwen_plan",
+    "question_dir_count": "1500",
+    "table_f1": "71.43",
+    "rouge_l_f1": "89.85",
+    "chrf": "87.70"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_gptoss20b_cot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_cot",
+    "question_dir_count": "1500",
+    "table_f1": "**74.17**",
+    "rouge_l_f1": "83.37",
+    "chrf": "79.74"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_gptoss20b_fewshot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_fewshot",
+    "question_dir_count": "1500",
+    "table_f1": "73.99",
+    "rouge_l_f1": "83.07",
+    "chrf": "79.48"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_gptoss20b_zeroshot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_gptoss20b_zeroshot",
+    "question_dir_count": "1500",
+    "table_f1": "73.50",
+    "rouge_l_f1": "83.56",
+    "chrf": "79.99"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_llama33_cot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_cot",
+    "question_dir_count": "1500",
+    "table_f1": "70.87",
+    "rouge_l_f1": "84.29",
+    "chrf": "80.61"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_llama33_fewshot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_fewshot",
+    "question_dir_count": "1500",
+    "table_f1": "69.38",
+    "rouge_l_f1": "85.81",
+    "chrf": "82.31"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_llama33_zeroshot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_llama33_zeroshot",
+    "question_dir_count": "1500",
+    "table_f1": "66.96",
+    "rouge_l_f1": "86.01",
+    "chrf": "83.17"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_qwen30b_cot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_cot",
+    "question_dir_count": "1500",
+    "table_f1": "55.37",
+    "rouge_l_f1": "88.01",
+    "chrf": "85.77"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_qwen30b_fewshot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_fewshot",
+    "question_dir_count": "1500",
+    "table_f1": "54.74",
+    "rouge_l_f1": "**88.09**",
+    "chrf": "**85.79**"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_qwen30b_zeroshot",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_qwen30b_zeroshot",
+    "question_dir_count": "1500",
+    "table_f1": "56.32",
+    "rouge_l_f1": "87.24",
+    "chrf": "84.76"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "question_dir_count": "1500",
+    "table_f1": "44.03",
+    "rouge_l_f1": "82.01",
+    "chrf": "78.80"
+  }
+]

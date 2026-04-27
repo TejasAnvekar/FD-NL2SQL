@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_737",
+  "csv_row_number": 737,
+  "question": "In Non-Small Cell Lung trials in Phase 2 for Pembrolizumab, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_737_In_Non_Small_Cell_Lung_trials_in_Phase_2_for_Pembrolizumab_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "unknown"
+    }
+  ]
+}

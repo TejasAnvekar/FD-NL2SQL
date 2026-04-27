@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1431",
+  "csv_row_number": 1431,
+  "question": "In Colorectal trials in Phase 3, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1431_In_Colorectal_trials_in_Phase_3_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Imfinzi"
+    }
+  ]
+}

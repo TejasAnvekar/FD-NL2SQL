@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1095",
+  "csv_row_number": 1095,
+  "question": "In Melanoma trials for Ipilimumab, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1095_In_Melanoma_trials_for_Ipilimumab_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/21639810"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/20525992"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/20525992"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27717298"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/23942774"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/23942774"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/25840693"
+    }
+  ]
+}

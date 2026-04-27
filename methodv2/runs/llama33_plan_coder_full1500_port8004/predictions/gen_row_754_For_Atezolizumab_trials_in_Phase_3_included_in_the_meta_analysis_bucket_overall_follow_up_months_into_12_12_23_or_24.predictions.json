@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_754",
+  "csv_row_number": 754,
+  "question": "For Atezolizumab trials in Phase 3 included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_754_For_Atezolizumab_trials_in_Phase_3_included_in_the_meta_analysis_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 7,
+      "answer": ""
+    },
+    {
+      "table_row_id": 16,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 40,
+      "answer": ""
+    },
+    {
+      "table_row_id": 43,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 109,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    }
+  ]
+}

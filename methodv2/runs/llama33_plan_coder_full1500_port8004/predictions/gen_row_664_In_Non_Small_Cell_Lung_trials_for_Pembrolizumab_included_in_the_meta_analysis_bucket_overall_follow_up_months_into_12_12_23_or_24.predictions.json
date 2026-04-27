@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_664",
+  "csv_row_number": 664,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_664_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 38,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

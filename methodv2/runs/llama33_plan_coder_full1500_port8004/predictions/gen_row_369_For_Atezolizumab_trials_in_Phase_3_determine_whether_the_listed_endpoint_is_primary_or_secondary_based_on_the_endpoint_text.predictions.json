@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_369",
+  "csv_row_number": 369,
+  "question": "For Atezolizumab trials in Phase 3, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_369_For_Atezolizumab_trials_in_Phase_3_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": ""
+    },
+    {
+      "table_row_id": 4,
+      "answer": ""
+    },
+    {
+      "table_row_id": 6,
+      "answer": ""
+    },
+    {
+      "table_row_id": 7,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 43,
+      "answer": ""
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

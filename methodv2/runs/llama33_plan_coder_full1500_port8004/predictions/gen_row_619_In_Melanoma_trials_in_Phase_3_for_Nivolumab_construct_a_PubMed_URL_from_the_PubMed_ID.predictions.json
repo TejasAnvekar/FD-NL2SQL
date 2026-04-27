@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_619",
+  "csv_row_number": 619,
+  "question": "In Melanoma trials in Phase 3 for Nivolumab, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_619_In_Melanoma_trials_in_Phase_3_for_Nivolumab_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 68,
+      "answer": "https://pubmed.gov/25795410"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "https://pubmed.gov/28671856"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "https://pubmed.gov/25399552"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "https://pubmed.gov/30422243"
+    }
+  ]
+}

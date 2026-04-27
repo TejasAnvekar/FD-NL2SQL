@@ -1,0 +1,76 @@
+{
+  "item_id": "gen_row_1155",
+  "csv_row_number": 1155,
+  "question": "In Non-Small Cell Lung trials in Phase 2 included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1155_In_Non_Small_Cell_Lung_trials_in_Phase_2_included_in_the_meta_analysis_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "unknown"
+    }
+  ]
+}

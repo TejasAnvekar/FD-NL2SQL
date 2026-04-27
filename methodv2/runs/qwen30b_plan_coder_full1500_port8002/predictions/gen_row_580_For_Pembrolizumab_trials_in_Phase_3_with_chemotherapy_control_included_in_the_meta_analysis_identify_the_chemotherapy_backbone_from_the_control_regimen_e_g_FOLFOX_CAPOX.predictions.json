@@ -1,0 +1,132 @@
+{
+  "item_id": "gen_row_580",
+  "csv_row_number": 580,
+  "question": "For Pembrolizumab trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_580_For_Pembrolizumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Not specified"
+    }
+  ]
+}

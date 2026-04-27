@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1269",
+  "csv_row_number": 1269,
+  "question": "In Breast trials in Phase 3 for Atezolizumab, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1269_In_Breast_trials_in_Phase_3_for_Atezolizumab_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    }
+  ]
+}

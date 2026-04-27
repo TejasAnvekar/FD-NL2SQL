@@ -1,0 +1,144 @@
+{
+  "item_id": "gen_row_1020",
+  "csv_row_number": 1020,
+  "question": "For Pembrolizumab trials in Phase 3, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1020_For_Pembrolizumab_trials_in_Phase_3_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": ""
+    },
+    {
+      "table_row_id": 3,
+      "answer": ""
+    },
+    {
+      "table_row_id": 11,
+      "answer": ""
+    },
+    {
+      "table_row_id": 12,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": ""
+    },
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 62,
+      "answer": ""
+    },
+    {
+      "table_row_id": 63,
+      "answer": ""
+    },
+    {
+      "table_row_id": 64,
+      "answer": ""
+    },
+    {
+      "table_row_id": 65,
+      "answer": ""
+    },
+    {
+      "table_row_id": 66,
+      "answer": ""
+    },
+    {
+      "table_row_id": 79,
+      "answer": ""
+    },
+    {
+      "table_row_id": 80,
+      "answer": ""
+    },
+    {
+      "table_row_id": 85,
+      "answer": ""
+    },
+    {
+      "table_row_id": 86,
+      "answer": ""
+    },
+    {
+      "table_row_id": 92,
+      "answer": ""
+    },
+    {
+      "table_row_id": 101,
+      "answer": ""
+    },
+    {
+      "table_row_id": 106,
+      "answer": ""
+    },
+    {
+      "table_row_id": 108,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 120,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 140,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

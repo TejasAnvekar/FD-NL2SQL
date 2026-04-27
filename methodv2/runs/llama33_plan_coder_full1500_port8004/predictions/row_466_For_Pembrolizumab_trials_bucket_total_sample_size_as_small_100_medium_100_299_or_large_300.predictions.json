@@ -1,0 +1,84 @@
+{
+  "item_id": "row_466",
+  "csv_row_number": 344,
+  "question": "For Pembrolizumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_466_For_Pembrolizumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 152,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

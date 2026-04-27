@@ -1,0 +1,5 @@
+| run_name | executor_model | planner_model | question_dir_count | table_f1 | rouge_l_f1 | chrf |
+| --- | --- | --- | --- | --- | --- | --- |
+| question_table_copy_llm_planexec_aug1500_gptoss_exec_gptoss_plan | gptoss | gptoss | 1500 | **74.21** | 84.65 | 81.28 |
+| question_table_copy_llm_planexec_aug1500_llama_exec_llama_plan | llama | llama | 1500 | 70.87 | 89.48 | 87.46 |
+| question_table_copy_llm_planexec_aug1500_qwen_exec_qwen_plan | qwen | qwen | 1500 | 63.19 | **90.56** | **89.13** |

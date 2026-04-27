@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_1412",
+  "csv_row_number": 1412,
+  "question": "For Nivolumab trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1412_For_Nivolumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "Not found"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "Not found"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Not found"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Not found"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Not found"
+    }
+  ]
+}

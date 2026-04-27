@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_907",
+  "csv_row_number": 907,
+  "question": "For Pembrolizumab trials in Phase 3, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_907_For_Pembrolizumab_trials_in_Phase_3_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": ""
+    },
+    {
+      "table_row_id": 11,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": ""
+    },
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    }
+  ]
+}

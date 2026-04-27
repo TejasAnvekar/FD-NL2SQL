@@ -1,0 +1,136 @@
+{
+  "item_id": "gen_row_1084",
+  "csv_row_number": 1084,
+  "question": "In Phase 2 trials using ICI+Chemo included in the meta-analysis, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1084_In_Phase_2_trials_using_ICI_Chemo_included_in_the_meta_analysis_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "concurrent"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "phased"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Not specified"
+    }
+  ]
+}

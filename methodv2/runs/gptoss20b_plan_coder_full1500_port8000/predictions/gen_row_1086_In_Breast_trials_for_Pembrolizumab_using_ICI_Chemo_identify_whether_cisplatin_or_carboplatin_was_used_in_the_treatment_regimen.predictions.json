@@ -1,0 +1,644 @@
+{
+  "item_id": "gen_row_1086",
+  "csv_row_number": 1086,
+  "question": "In Breast trials for Pembrolizumab using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_1086_In_Breast_trials_for_Pembrolizumab_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 8,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "both"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "cisplatin"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "both"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "none"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "none"
+    }
+  ]
+}

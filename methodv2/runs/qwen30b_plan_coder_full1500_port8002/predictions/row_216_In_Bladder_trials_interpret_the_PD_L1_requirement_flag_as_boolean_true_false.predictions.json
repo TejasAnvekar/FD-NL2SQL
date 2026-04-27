@@ -1,0 +1,28 @@
+{
+  "item_id": "row_216",
+  "csv_row_number": 165,
+  "question": "In Bladder trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_216_In_Bladder_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": false
+    },
+    {
+      "table_row_id": 2,
+      "answer": false
+    },
+    {
+      "table_row_id": 3,
+      "answer": false
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 108,
+      "answer": false
+    }
+  ]
+}

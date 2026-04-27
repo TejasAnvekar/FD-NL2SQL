@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_1141",
+  "csv_row_number": 1141,
+  "question": "For Durvalumab trials in Phase 3 with chemotherapy control included in the meta-analysis, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1141_For_Durvalumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": [
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 99,
+      "answer": [
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 100,
+      "answer": []
+    },
+    {
+      "table_row_id": 110,
+      "answer": [
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 111,
+      "answer": []
+    },
+    {
+      "table_row_id": 123,
+      "answer": []
+    },
+    {
+      "table_row_id": 124,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    }
+  ]
+}

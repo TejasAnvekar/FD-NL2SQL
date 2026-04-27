@@ -1,0 +1,12 @@
+{
+  "item_id": "row_51",
+  "csv_row_number": 38,
+  "question": "In Hodgkin Lymphoma trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_51_In_Hodgkin_Lymphoma_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": false
+    }
+  ]
+}

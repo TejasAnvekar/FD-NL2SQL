@@ -1,0 +1,52 @@
+{
+  "item_id": "gen_row_494",
+  "csv_row_number": 494,
+  "question": "In Small Cell Lung trials in Phase 3 using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_494_In_Small_Cell_Lung_trials_in_Phase_3_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": []
+    },
+    {
+      "table_row_id": 24,
+      "answer": []
+    },
+    {
+      "table_row_id": 25,
+      "answer": []
+    },
+    {
+      "table_row_id": 26,
+      "answer": []
+    },
+    {
+      "table_row_id": 32,
+      "answer": []
+    },
+    {
+      "table_row_id": 43,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    },
+    {
+      "table_row_id": 137,
+      "answer": []
+    },
+    {
+      "table_row_id": 138,
+      "answer": []
+    }
+  ]
+}

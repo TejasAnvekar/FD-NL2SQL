@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1006",
+  "csv_row_number": 1006,
+  "question": "In Melanoma trials for Ipilimumab included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1006_In_Melanoma_trials_for_Ipilimumab_included_in_the_meta_analysis_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "row_6",
+  "csv_row_number": 6,
+  "question": "In NSCLC studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_6_In_NSCLC_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 57,
+      "answer": []
+    },
+    {
+      "table_row_id": 88,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    }
+  ]
+}

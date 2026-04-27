@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_1449",
+  "csv_row_number": 1449,
+  "question": "In Non-Small Cell Lung trials for Durvalumab included in the meta-analysis, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1449_In_Non_Small_Cell_Lung_trials_for_Durvalumab_included_in_the_meta_analysis_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": false
+    },
+    {
+      "table_row_id": 36,
+      "answer": true
+    },
+    {
+      "table_row_id": 89,
+      "answer": false
+    },
+    {
+      "table_row_id": 90,
+      "answer": false
+    },
+    {
+      "table_row_id": 91,
+      "answer": false
+    },
+    {
+      "table_row_id": 99,
+      "answer": false
+    },
+    {
+      "table_row_id": 100,
+      "answer": false
+    },
+    {
+      "table_row_id": 110,
+      "answer": false
+    },
+    {
+      "table_row_id": 111,
+      "answer": false
+    },
+    {
+      "table_row_id": 112,
+      "answer": false
+    },
+    {
+      "table_row_id": 123,
+      "answer": false
+    },
+    {
+      "table_row_id": 124,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    }
+  ]
+}

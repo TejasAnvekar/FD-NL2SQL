@@ -1,0 +1,108 @@
+{
+  "item_id": "row_485",
+  "csv_row_number": 357,
+  "question": "In Hepatocellular combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_485_In_Hepatocellular_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 109,
+      "answer": "ici+anti-vegf"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "ici+chemo"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "ici+chemo"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "ici+chemo"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "ici+tki"
+    },
+    {
+      "table_row_id": 139,
+      "answer": ""
+    },
+    {
+      "table_row_id": 140,
+      "answer": ""
+    },
+    {
+      "table_row_id": 141,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": "ici+tki"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "ici+ici+chemo"
+    },
+    {
+      "table_row_id": 147,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": "ici+tki"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "ici+ici"
+    },
+    {
+      "table_row_id": 150,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": ""
+    },
+    {
+      "table_row_id": 152,
+      "answer": ""
+    },
+    {
+      "table_row_id": 153,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    },
+    {
+      "table_row_id": 156,
+      "answer": ""
+    },
+    {
+      "table_row_id": 157,
+      "answer": "ici+chemoradiotherapy"
+    },
+    {
+      "table_row_id": 158,
+      "answer": ""
+    },
+    {
+      "table_row_id": 159,
+      "answer": "ici+chemoradiotherapy"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "item_id": "row_274",
+  "csv_row_number": 211,
+  "question": "For Brentuximab-vedotin combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_274_For_Brentuximab_vedotin_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": []
+    }
+  ]
+}

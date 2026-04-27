@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_1281",
+  "csv_row_number": 1281,
+  "question": "In trials using ICI+TKI included in the meta-analysis, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1281_In_trials_using_ICI_TKI_included_in_the_meta_analysis_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 57,
+      "answer": []
+    },
+    {
+      "table_row_id": 101,
+      "answer": []
+    },
+    {
+      "table_row_id": 105,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    }
+  ]
+}

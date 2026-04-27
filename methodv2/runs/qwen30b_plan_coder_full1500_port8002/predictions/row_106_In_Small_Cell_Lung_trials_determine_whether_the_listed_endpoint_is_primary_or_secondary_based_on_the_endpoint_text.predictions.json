@@ -1,0 +1,40 @@
+{
+  "item_id": "row_106",
+  "csv_row_number": 85,
+  "question": "In Small Cell Lung trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_106_In_Small_Cell_Lung_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": false
+    },
+    {
+      "table_row_id": 26,
+      "answer": false
+    },
+    {
+      "table_row_id": 32,
+      "answer": false
+    },
+    {
+      "table_row_id": 82,
+      "answer": false
+    },
+    {
+      "table_row_id": 83,
+      "answer": false
+    },
+    {
+      "table_row_id": 87,
+      "answer": false
+    },
+    {
+      "table_row_id": 137,
+      "answer": false
+    },
+    {
+      "table_row_id": 138,
+      "answer": false
+    }
+  ]
+}

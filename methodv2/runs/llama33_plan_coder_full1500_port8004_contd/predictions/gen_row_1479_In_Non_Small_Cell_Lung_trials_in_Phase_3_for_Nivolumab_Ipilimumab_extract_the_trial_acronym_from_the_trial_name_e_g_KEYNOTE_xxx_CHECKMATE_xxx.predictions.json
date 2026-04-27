@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_1479",
+  "csv_row_number": 1479,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, Ipilimumab, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1479_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_Ipilimumab_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "Checkmate 057"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Checkmate 017"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Checkmate 026"
+    },
+    {
+      "table_row_id": 34,
+      "answer": ""
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Checkmate 227"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Checkmate 078"
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    }
+  ]
+}

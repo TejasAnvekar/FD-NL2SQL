@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_928",
+  "csv_row_number": 928,
+  "question": "For Ipilimumab trials in Phase 3 included in the meta-analysis, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_928_For_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    },
+    {
+      "table_row_id": 32,
+      "answer": true
+    },
+    {
+      "table_row_id": 58,
+      "answer": true
+    },
+    {
+      "table_row_id": 67,
+      "answer": false
+    },
+    {
+      "table_row_id": 76,
+      "answer": true
+    },
+    {
+      "table_row_id": 77,
+      "answer": false
+    },
+    {
+      "table_row_id": 93,
+      "answer": false
+    },
+    {
+      "table_row_id": 94,
+      "answer": false
+    },
+    {
+      "table_row_id": 117,
+      "answer": false
+    },
+    {
+      "table_row_id": 118,
+      "answer": false
+    },
+    {
+      "table_row_id": 134,
+      "answer": false
+    },
+    {
+      "table_row_id": 142,
+      "answer": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "item_id": "gen_row_1442",
+  "csv_row_number": 1442,
+  "question": "In Non-Small Cell Lung trials for Durvalumab included in the meta-analysis, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1442_In_Non_Small_Cell_Lung_trials_for_Durvalumab_included_in_the_meta_analysis_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoi",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": []
+    },
+    {
+      "table_row_id": 89,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 90,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 91,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 109,
+      "answer": [
+        "os",
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 110,
+      "answer": []
+    },
+    {
+      "table_row_id": 111,
+      "answer": []
+    },
+    {
+      "table_row_id": 112,
+      "answer": []
+    },
+    {
+      "table_row_id": 123,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 139,
+      "answer": []
+    },
+    {
+      "table_row_id": 141,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    }
+  ]
+}

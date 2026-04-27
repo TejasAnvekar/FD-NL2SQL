@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_774",
+  "csv_row_number": 774,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_774_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 45,
+      "answer": ""
+    },
+    {
+      "table_row_id": 47,
+      "answer": ""
+    },
+    {
+      "table_row_id": 48,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 99,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_868",
+  "csv_row_number": 868,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_868_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": false
+    },
+    {
+      "table_row_id": 26,
+      "answer": false
+    },
+    {
+      "table_row_id": 32,
+      "answer": false
+    },
+    {
+      "table_row_id": 43,
+      "answer": false
+    },
+    {
+      "table_row_id": 82,
+      "answer": false
+    },
+    {
+      "table_row_id": 83,
+      "answer": false
+    },
+    {
+      "table_row_id": 87,
+      "answer": false
+    },
+    {
+      "table_row_id": 137,
+      "answer": false
+    },
+    {
+      "table_row_id": 138,
+      "answer": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "item_id": "gen_row_878",
+  "csv_row_number": 878,
+  "question": "For Ipilimumab trials in Phase 3 with chemotherapy control included in the meta-analysis, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_878_For_Ipilimumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": []
+    },
+    {
+      "table_row_id": 23,
+      "answer": []
+    },
+    {
+      "table_row_id": 24,
+      "answer": []
+    },
+    {
+      "table_row_id": 32,
+      "answer": []
+    },
+    {
+      "table_row_id": 34,
+      "answer": []
+    },
+    {
+      "table_row_id": 58,
+      "answer": []
+    },
+    {
+      "table_row_id": 67,
+      "answer": []
+    },
+    {
+      "table_row_id": 73,
+      "answer": []
+    },
+    {
+      "table_row_id": 76,
+      "answer": []
+    },
+    {
+      "table_row_id": 77,
+      "answer": []
+    },
+    {
+      "table_row_id": 93,
+      "answer": []
+    },
+    {
+      "table_row_id": 94,
+      "answer": []
+    },
+    {
+      "table_row_id": 97,
+      "answer": []
+    },
+    {
+      "table_row_id": 112,
+      "answer": []
+    },
+    {
+      "table_row_id": 128,
+      "answer": []
+    },
+    {
+      "table_row_id": 134,
+      "answer": []
+    },
+    {
+      "table_row_id": 142,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 149,
+      "answer": []
+    },
+    {
+      "table_row_id": 150,
+      "answer": []
+    }
+  ]
+}

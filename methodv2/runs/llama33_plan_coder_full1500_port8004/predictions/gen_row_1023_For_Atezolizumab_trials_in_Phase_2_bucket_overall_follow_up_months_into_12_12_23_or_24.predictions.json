@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1023",
+  "csv_row_number": 1023,
+  "question": "For Atezolizumab trials in Phase 2, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1023_For_Atezolizumab_trials_in_Phase_2_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 16,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "12–23"
+    }
+  ]
+}

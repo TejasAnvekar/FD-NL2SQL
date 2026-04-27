@@ -1,0 +1,203 @@
+{
+  "item_id": "gen_row_1310",
+  "csv_row_number": 1310,
+  "question": "For Pembrolizumab trials in Phase 3 using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1310_For_Pembrolizumab_trials_in_Phase_3_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 11,
+      "answer": []
+    },
+    {
+      "table_row_id": 23,
+      "answer": []
+    },
+    {
+      "table_row_id": 24,
+      "answer": []
+    },
+    {
+      "table_row_id": 38,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "platinum"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "carboplatin",
+        "paclitaxel/nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 52,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 85,
+      "answer": []
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "5-flu",
+        "ouracil",
+        "platinum"
+      ]
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 116,
+      "answer": []
+    },
+    {
+      "table_row_id": 120,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "5-fu",
+        "capecitabine",
+        "cisplatin"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "carboplatin",
+        "nab-paclitaxel/paclitaxel/gemcitabine"
+      ]
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    },
+    {
+      "table_row_id": 127,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 139,
+      "answer": []
+    },
+    {
+      "table_row_id": 140,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 146,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    },
+    {
+      "table_row_id": 150,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    },
+    {
+      "table_row_id": 154,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 157,
+      "answer": []
+    },
+    {
+      "table_row_id": 159,
+      "answer": []
+    }
+  ]
+}

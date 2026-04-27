@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_729",
+  "csv_row_number": 729,
+  "question": "In Breast trials in Phase 3 using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_729_In_Breast_trials_in_Phase_3_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 81,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 119,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 126,
+      "answer": ""
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    }
+  ]
+}

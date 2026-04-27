@@ -1,0 +1,220 @@
+{
+  "item_id": "gen_row_1453",
+  "csv_row_number": 1453,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1453_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 40,
+      "answer": ""
+    },
+    {
+      "table_row_id": 41,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 49,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 119,
+      "answer": ""
+    },
+    {
+      "table_row_id": 120,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 123,
+      "answer": ""
+    },
+    {
+      "table_row_id": 124,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 126,
+      "answer": ""
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    },
+    {
+      "table_row_id": 128,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 130,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    },
+    {
+      "table_row_id": 135,
+      "answer": ""
+    },
+    {
+      "table_row_id": 136,
+      "answer": ""
+    },
+    {
+      "table_row_id": 137,
+      "answer": ""
+    },
+    {
+      "table_row_id": 138,
+      "answer": ""
+    },
+    {
+      "table_row_id": 139,
+      "answer": ""
+    },
+    {
+      "table_row_id": 140,
+      "answer": ""
+    },
+    {
+      "table_row_id": 141,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    },
+    {
+      "table_row_id": 146,
+      "answer": ""
+    },
+    {
+      "table_row_id": 147,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    },
+    {
+      "table_row_id": 149,
+      "answer": ""
+    },
+    {
+      "table_row_id": 150,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": ""
+    },
+    {
+      "table_row_id": 152,
+      "answer": ""
+    },
+    {
+      "table_row_id": 153,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    },
+    {
+      "table_row_id": 156,
+      "answer": ""
+    },
+    {
+      "table_row_id": 157,
+      "answer": ""
+    },
+    {
+      "table_row_id": 158,
+      "answer": ""
+    },
+    {
+      "table_row_id": 159,
+      "answer": ""
+    }
+  ]
+}

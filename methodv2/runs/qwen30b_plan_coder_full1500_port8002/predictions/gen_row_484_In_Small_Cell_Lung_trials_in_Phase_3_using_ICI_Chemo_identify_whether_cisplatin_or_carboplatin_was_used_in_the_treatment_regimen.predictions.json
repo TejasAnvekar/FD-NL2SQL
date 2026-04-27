@@ -1,0 +1,52 @@
+{
+  "item_id": "gen_row_484",
+  "csv_row_number": 484,
+  "question": "In Small Cell Lung trials in Phase 3 using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_484_In_Small_Cell_Lung_trials_in_Phase_3_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "neither"
+    }
+  ]
+}

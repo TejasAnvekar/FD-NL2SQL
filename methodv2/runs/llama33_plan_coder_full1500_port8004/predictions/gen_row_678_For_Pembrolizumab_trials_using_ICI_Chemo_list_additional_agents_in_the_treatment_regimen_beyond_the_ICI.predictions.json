@@ -1,0 +1,50 @@
+{
+  "item_id": "gen_row_678",
+  "csv_row_number": 678,
+  "question": "For Pembrolizumab trials using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_678_For_Pembrolizumab_trials_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": [
+        "pembrolizumabpemetrexedcarboplatin"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "pembrolizumabplatinum agent"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "pembrolizumabcarboplatinpaclitaxelnabpaclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 81,
+      "answer": [
+        "pembrolizumabpaclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "pembrolizumab docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "pembrolizumabcisplatin5fucapecitabine"
+      ]
+    },
+    {
+      "table_row_id": 128,
+      "answer": [
+        "nivolumabipilimumab"
+      ]
+    }
+  ]
+}

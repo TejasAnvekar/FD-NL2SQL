@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_502",
+  "csv_row_number": 502,
+  "question": "In Non-Small Cell Lung trials for Nivolumab included in the meta-analysis, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_502_In_Non_Small_Cell_Lung_trials_for_Nivolumab_included_in_the_meta_analysis_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_a",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": false
+    },
+    {
+      "table_row_id": 28,
+      "answer": false
+    },
+    {
+      "table_row_id": 56,
+      "answer": false
+    },
+    {
+      "table_row_id": 89,
+      "answer": false
+    },
+    {
+      "table_row_id": 102,
+      "answer": false
+    },
+    {
+      "table_row_id": 129,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    }
+  ]
+}

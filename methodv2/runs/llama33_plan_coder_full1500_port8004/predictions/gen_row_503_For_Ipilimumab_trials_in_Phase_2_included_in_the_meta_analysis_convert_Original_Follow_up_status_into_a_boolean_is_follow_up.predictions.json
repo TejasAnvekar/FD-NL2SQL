@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_503",
+  "csv_row_number": 503,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_503_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    }
+  ]
+}

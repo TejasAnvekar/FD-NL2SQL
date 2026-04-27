@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_988",
+  "csv_row_number": 988,
+  "question": "For Pembrolizumab trials in Phase 3, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_988_For_Pembrolizumab_trials_in_Phase_3_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": false
+    },
+    {
+      "table_row_id": 11,
+      "answer": false
+    },
+    {
+      "table_row_id": 12,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": true
+    },
+    {
+      "table_row_id": 29,
+      "answer": false
+    },
+    {
+      "table_row_id": 30,
+      "answer": false
+    },
+    {
+      "table_row_id": 42,
+      "answer": true
+    },
+    {
+      "table_row_id": 52,
+      "answer": false
+    },
+    {
+      "table_row_id": 54,
+      "answer": false
+    },
+    {
+      "table_row_id": 79,
+      "answer": false
+    },
+    {
+      "table_row_id": 98,
+      "answer": true
+    },
+    {
+      "table_row_id": 121,
+      "answer": true
+    },
+    {
+      "table_row_id": 131,
+      "answer": true
+    },
+    {
+      "table_row_id": 133,
+      "answer": false
+    }
+  ]
+}

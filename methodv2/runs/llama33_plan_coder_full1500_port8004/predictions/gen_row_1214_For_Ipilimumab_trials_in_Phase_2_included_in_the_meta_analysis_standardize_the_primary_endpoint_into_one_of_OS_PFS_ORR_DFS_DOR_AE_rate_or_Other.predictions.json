@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1214",
+  "csv_row_number": 1214,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1214_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "PFS"
+    }
+  ]
+}

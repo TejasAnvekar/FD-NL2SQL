@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1424",
+  "csv_row_number": 1424,
+  "question": "In Melanoma trials in Phase 3 for Ipilimumab, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1424_In_Melanoma_trials_in_Phase_3_for_Ipilimumab_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": true
+    },
+    {
+      "table_row_id": 59,
+      "answer": false
+    },
+    {
+      "table_row_id": 60,
+      "answer": true
+    },
+    {
+      "table_row_id": 67,
+      "answer": false
+    },
+    {
+      "table_row_id": 93,
+      "answer": false
+    },
+    {
+      "table_row_id": 117,
+      "answer": false
+    },
+    {
+      "table_row_id": 142,
+      "answer": false
+    }
+  ]
+}

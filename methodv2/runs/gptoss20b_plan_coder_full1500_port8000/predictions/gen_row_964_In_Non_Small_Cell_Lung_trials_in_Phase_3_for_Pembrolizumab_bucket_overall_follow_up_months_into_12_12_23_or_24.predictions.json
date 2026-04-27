@@ -1,0 +1,644 @@
+{
+  "item_id": "gen_row_964",
+  "csv_row_number": 964,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Pembrolizumab, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_964_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Pembrolizumab_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 5,
+      "answer": ""
+    },
+    {
+      "table_row_id": 6,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 9,
+      "answer": ""
+    },
+    {
+      "table_row_id": 10,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 12,
+      "answer": ""
+    },
+    {
+      "table_row_id": 13,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 20,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 25,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 28,
+      "answer": ""
+    },
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 33,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 34,
+      "answer": ""
+    },
+    {
+      "table_row_id": 35,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 45,
+      "answer": ""
+    },
+    {
+      "table_row_id": 46,
+      "answer": ""
+    },
+    {
+      "table_row_id": 47,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 57,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": ""
+    },
+    {
+      "table_row_id": 59,
+      "answer": ""
+    },
+    {
+      "table_row_id": 60,
+      "answer": ""
+    },
+    {
+      "table_row_id": 61,
+      "answer": ""
+    },
+    {
+      "table_row_id": 62,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 73,
+      "answer": ""
+    },
+    {
+      "table_row_id": 74,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 76,
+      "answer": ""
+    },
+    {
+      "table_row_id": 77,
+      "answer": ""
+    },
+    {
+      "table_row_id": 78,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 79,
+      "answer": ""
+    },
+    {
+      "table_row_id": 80,
+      "answer": ""
+    },
+    {
+      "table_row_id": 81,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    },
+    {
+      "table_row_id": 85,
+      "answer": ""
+    },
+    {
+      "table_row_id": 86,
+      "answer": ""
+    },
+    {
+      "table_row_id": 87,
+      "answer": ""
+    },
+    {
+      "table_row_id": 88,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": ""
+    },
+    {
+      "table_row_id": 99,
+      "answer": ""
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 101,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 104,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 106,
+      "answer": ""
+    },
+    {
+      "table_row_id": 107,
+      "answer": ""
+    },
+    {
+      "table_row_id": 108,
+      "answer": ""
+    },
+    {
+      "table_row_id": 109,
+      "answer": ""
+    },
+    {
+      "table_row_id": 110,
+      "answer": ""
+    },
+    {
+      "table_row_id": 111,
+      "answer": ""
+    },
+    {
+      "table_row_id": 112,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 114,
+      "answer": ""
+    },
+    {
+      "table_row_id": 115,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 117,
+      "answer": ""
+    },
+    {
+      "table_row_id": 118,
+      "answer": ""
+    },
+    {
+      "table_row_id": 119,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 123,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 126,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    },
+    {
+      "table_row_id": 128,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 130,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 135,
+      "answer": ""
+    },
+    {
+      "table_row_id": 136,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 149,
+      "answer": ""
+    },
+    {
+      "table_row_id": 150,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "12-23"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    },
+    {
+      "table_row_id": 156,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 157,
+      "answer": ""
+    },
+    {
+      "table_row_id": 158,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 159,
+      "answer": ""
+    }
+  ]
+}

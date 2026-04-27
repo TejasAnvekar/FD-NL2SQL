@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1050",
+  "csv_row_number": 1050,
+  "question": "In Renal cell trials in Phase 3 for Pembrolizumab using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1050_In_Renal_cell_trials_in_Phase_3_for_Pembrolizumab_using_combination_therapy_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 21,
+      "answer": "ICI+TKI"
+    }
+  ]
+}

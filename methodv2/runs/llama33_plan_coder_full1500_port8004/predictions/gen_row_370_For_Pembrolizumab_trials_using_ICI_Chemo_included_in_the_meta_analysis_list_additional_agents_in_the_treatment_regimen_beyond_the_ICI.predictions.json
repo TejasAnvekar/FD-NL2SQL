@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_370",
+  "csv_row_number": 370,
+  "question": "For Pembrolizumab trials using ICI+Chemo included in the meta-analysis, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_370_For_Pembrolizumab_trials_using_ICI_Chemo_included_in_the_meta_analysis_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": [
+        "pemetrexed",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "platinum",
+        "agent"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "carboplatin",
+        "paclitaxelnabpaclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 51,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "etoposide",
+        "platinum",
+        "agent"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "cisplatin",
+        "5fu",
+        "capecitabine"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "axitinib"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": [
+        "carboplatincisplatin",
+        "pemetrexed"
+      ]
+    }
+  ]
+}

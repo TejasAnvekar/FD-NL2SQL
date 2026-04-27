@@ -1,0 +1,12 @@
+{
+  "item_id": "row_251",
+  "csv_row_number": 193,
+  "question": "In Mesothelioma combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_251_In_Mesothelioma_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 73,
+      "answer": "Other"
+    }
+  ]
+}

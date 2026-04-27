@@ -1,0 +1,40 @@
+{
+  "item_id": "row_28",
+  "csv_row_number": 20,
+  "question": "In Breast trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_28_In_Breast_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "primary"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_1130",
+  "csv_row_number": 1130,
+  "question": "In Melanoma trials in Phase 3, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1130_In_Melanoma_trials_in_Phase_3_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": false
+    },
+    {
+      "table_row_id": 67,
+      "answer": false
+    },
+    {
+      "table_row_id": 71,
+      "answer": false
+    },
+    {
+      "table_row_id": 72,
+      "answer": true
+    }
+  ]
+}

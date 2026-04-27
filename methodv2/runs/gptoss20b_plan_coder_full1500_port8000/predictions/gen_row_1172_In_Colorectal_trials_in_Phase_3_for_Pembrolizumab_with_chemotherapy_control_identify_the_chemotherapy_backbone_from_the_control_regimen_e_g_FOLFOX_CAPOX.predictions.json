@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1172",
+  "csv_row_number": 1172,
+  "question": "In Colorectal trials in Phase 3 for Pembrolizumab with chemotherapy control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_1172_In_Colorectal_trials_in_Phase_3_for_Pembrolizumab_with_chemotherapy_control_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 140,
+      "answer": false
+    }
+  ]
+}

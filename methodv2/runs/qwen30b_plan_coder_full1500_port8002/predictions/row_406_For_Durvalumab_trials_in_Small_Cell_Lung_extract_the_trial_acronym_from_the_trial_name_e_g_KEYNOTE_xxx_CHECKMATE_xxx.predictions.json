@@ -1,0 +1,32 @@
+{
+  "item_id": "row_406",
+  "csv_row_number": 301,
+  "question": "For Durvalumab trials in Small Cell Lung, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_406_For_Durvalumab_trials_in_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 82,
+      "answer": ""
+    },
+    {
+      "table_row_id": 83,
+      "answer": ""
+    },
+    {
+      "table_row_id": 110,
+      "answer": ""
+    },
+    {
+      "table_row_id": 111,
+      "answer": ""
+    },
+    {
+      "table_row_id": 137,
+      "answer": ""
+    },
+    {
+      "table_row_id": 138,
+      "answer": ""
+    }
+  ]
+}

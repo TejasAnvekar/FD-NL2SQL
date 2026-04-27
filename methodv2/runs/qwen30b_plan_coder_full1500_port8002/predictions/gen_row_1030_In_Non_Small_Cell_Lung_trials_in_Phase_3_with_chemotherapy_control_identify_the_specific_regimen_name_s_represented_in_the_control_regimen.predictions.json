@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_1030",
+  "csv_row_number": 1030,
+  "question": "In Non-Small Cell Lung trials in Phase 3 with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1030_In_Non_Small_Cell_Lung_trials_in_Phase_3_with_chemotherapy_control_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": []
+    },
+    {
+      "table_row_id": 28,
+      "answer": []
+    },
+    {
+      "table_row_id": 37,
+      "answer": []
+    },
+    {
+      "table_row_id": 40,
+      "answer": []
+    },
+    {
+      "table_row_id": 41,
+      "answer": []
+    },
+    {
+      "table_row_id": 56,
+      "answer": []
+    },
+    {
+      "table_row_id": 89,
+      "answer": []
+    },
+    {
+      "table_row_id": 90,
+      "answer": []
+    },
+    {
+      "table_row_id": 91,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    }
+  ]
+}

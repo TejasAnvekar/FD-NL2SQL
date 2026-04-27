@@ -1,0 +1,84 @@
+{
+  "item_id": "gen_row_1301",
+  "csv_row_number": 1301,
+  "question": "In Non-Small Cell Lung trials using monotherapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1301_In_Non_Small_Cell_Lung_trials_using_monotherapy_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Unknown"
+    }
+  ]
+}

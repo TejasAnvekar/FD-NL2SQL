@@ -1,0 +1,28 @@
+{
+  "item_id": "row_206",
+  "csv_row_number": 158,
+  "question": "For Durvalumab, Tremelimumab trials in Hepatocellular, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_206_For_Durvalumab_Tremelimumab_trials_in_Hepatocellular_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 82,
+      "answer": ""
+    },
+    {
+      "table_row_id": 83,
+      "answer": ""
+    },
+    {
+      "table_row_id": 91,
+      "answer": ""
+    },
+    {
+      "table_row_id": 111,
+      "answer": ""
+    },
+    {
+      "table_row_id": 112,
+      "answer": ""
+    }
+  ]
+}

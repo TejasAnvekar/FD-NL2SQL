@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_797",
+  "csv_row_number": 797,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_797_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 43,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": ""
+    },
+    {
+      "table_row_id": 83,
+      "answer": ""
+    },
+    {
+      "table_row_id": 87,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": ""
+    },
+    {
+      "table_row_id": 137,
+      "answer": ""
+    },
+    {
+      "table_row_id": 138,
+      "answer": ""
+    },
+    {
+      "table_row_id": 147,
+      "answer": ""
+    },
+    {
+      "table_row_id": 149,
+      "answer": ""
+    },
+    {
+      "table_row_id": 150,
+      "answer": ""
+    }
+  ]
+}

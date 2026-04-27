@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1288",
+  "csv_row_number": 1288,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1288_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": false
+    }
+  ]
+}

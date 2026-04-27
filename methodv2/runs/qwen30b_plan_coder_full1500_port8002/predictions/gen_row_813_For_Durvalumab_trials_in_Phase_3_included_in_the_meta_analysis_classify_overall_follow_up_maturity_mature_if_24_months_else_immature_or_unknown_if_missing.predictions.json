@@ -1,0 +1,52 @@
+{
+  "item_id": "gen_row_813",
+  "csv_row_number": 813,
+  "question": "For Durvalumab trials in Phase 3 included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_813_For_Durvalumab_trials_in_Phase_3_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "unknown"
+    }
+  ]
+}

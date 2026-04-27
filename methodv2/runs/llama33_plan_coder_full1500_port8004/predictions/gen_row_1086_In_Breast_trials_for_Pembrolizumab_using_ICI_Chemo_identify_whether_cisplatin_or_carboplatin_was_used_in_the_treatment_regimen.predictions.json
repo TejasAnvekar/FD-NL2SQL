@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1086",
+  "csv_row_number": 1086,
+  "question": "In Breast trials for Pembrolizumab using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1086_In_Breast_trials_for_Pembrolizumab_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 81,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Carboplatin"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1362",
+  "csv_row_number": 1362,
+  "question": "In Breast trials for Atezolizumab using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1362_In_Breast_trials_for_Atezolizumab_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    }
+  ]
+}

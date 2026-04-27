@@ -1,0 +1,44 @@
+{
+  "item_id": "row_435",
+  "csv_row_number": 325,
+  "question": "In Bladder studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_435_In_Bladder_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": false
+    },
+    {
+      "table_row_id": 57,
+      "answer": false
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 108,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": false
+    },
+    {
+      "table_row_id": 131,
+      "answer": false
+    },
+    {
+      "table_row_id": 145,
+      "answer": false
+    },
+    {
+      "table_row_id": 148,
+      "answer": false
+    }
+  ]
+}

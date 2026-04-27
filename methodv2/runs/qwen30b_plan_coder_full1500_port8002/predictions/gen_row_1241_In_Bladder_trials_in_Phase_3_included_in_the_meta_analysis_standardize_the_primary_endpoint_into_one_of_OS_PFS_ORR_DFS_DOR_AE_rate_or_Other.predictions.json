@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_1241",
+  "csv_row_number": 1241,
+  "question": "In Bladder trials in Phase 3 included in the meta-analysis, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1241_In_Bladder_trials_in_Phase_3_included_in_the_meta_analysis_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Other"
+    }
+  ]
+}

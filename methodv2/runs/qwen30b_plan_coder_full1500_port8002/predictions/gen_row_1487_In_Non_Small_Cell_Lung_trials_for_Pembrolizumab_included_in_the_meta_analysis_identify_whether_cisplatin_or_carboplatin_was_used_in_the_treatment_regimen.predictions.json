@@ -1,0 +1,500 @@
+{
+  "item_id": "gen_row_1487",
+  "csv_row_number": 1487,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1487_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "neither"
+    }
+  ]
+}

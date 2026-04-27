@@ -1,0 +1,45 @@
+{
+  "item_id": "row_197",
+  "csv_row_number": 151,
+  "question": "For Durvalumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_197_For_Durvalumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 57,
+      "answer": [
+        "Osimertinib"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "Etoposide",
+        "Platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 99,
+      "answer": []
+    },
+    {
+      "table_row_id": 100,
+      "answer": [
+        "Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "Pembrolizumab",
+        "Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 138,
+      "answer": [
+        "Etoposide",
+        "Platinum agent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_438",
+  "csv_row_number": 438,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_438_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": ""
+    },
+    {
+      "table_row_id": 63,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "≥3-arm"
+    }
+  ]
+}

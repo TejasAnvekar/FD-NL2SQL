@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_412",
+  "csv_row_number": 412,
+  "question": "In Melanoma trials for Pembrolizumab included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_412_In_Melanoma_trials_for_Pembrolizumab_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "adjuvant"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

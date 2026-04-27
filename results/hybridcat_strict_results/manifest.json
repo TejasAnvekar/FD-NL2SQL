@@ -1,0 +1,7 @@
+{
+  "run_count": 7,
+  "summary_csv": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/hybridcat_strict_metrics.csv",
+  "formatted_csv": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/hybridcat_strict_metrics_formatted.csv",
+  "run_root": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs",
+  "strict_formatter_output_name": "formatted_predictions_predonly_like_ground_truth.csv"
+}

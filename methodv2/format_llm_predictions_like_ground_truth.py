@@ -18,6 +18,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--ground_truth_csv", required=True)
     ap.add_argument("--metadata_json", default="")
     ap.add_argument("--output_csv", default="")
+    ap.add_argument("--require_predicted_answer_json", type=int, default=0)
     return ap.parse_args()
 
 
@@ -113,13 +114,20 @@ def convert_rows(
     gt_fieldnames: List[str],
     *,
     target_columns: List[str],
+    require_predicted_answer_json: bool = False,
 ) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for row in llm_rows:
-        if not (row.get("predicted_answer_json") or "").strip() and not (row.get("actual_payload_json") or "").strip():
-            continue
+        predicted_text = (row.get("predicted_answer_json") or "").strip()
+        actual_text = (row.get("actual_payload_json") or "").strip()
+        if require_predicted_answer_json:
+            if not predicted_text:
+                continue
+        else:
+            if not predicted_text and not actual_text:
+                continue
 
-        predicted = parse_jsonish(row.get("predicted_answer_json", ""))
+        predicted = parse_jsonish(predicted_text)
         out_row: Dict[str, Any] = {
             "row_index": len(out) + 1,
             "NCT": row.get("NCT", ""),
@@ -163,7 +171,12 @@ def main() -> None:
     gt_fieldnames = list(gt_rows[0].keys()) if gt_rows else []
     target_columns = infer_target_columns(gt_fieldnames, metadata)
     fieldnames = build_fieldnames(gt_fieldnames, target_columns)
-    formatted_rows = convert_rows(llm_rows, fieldnames, target_columns=target_columns)
+    formatted_rows = convert_rows(
+        llm_rows,
+        fieldnames,
+        target_columns=target_columns,
+        require_predicted_answer_json=bool(args.require_predicted_answer_json),
+    )
     write_csv(output_csv, formatted_rows, fieldnames)
     print(str(output_csv))
 

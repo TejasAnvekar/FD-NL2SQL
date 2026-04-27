@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_792",
+  "csv_row_number": 792,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_792_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": "pemetrexed"
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "platinum"
+    }
+  ]
+}

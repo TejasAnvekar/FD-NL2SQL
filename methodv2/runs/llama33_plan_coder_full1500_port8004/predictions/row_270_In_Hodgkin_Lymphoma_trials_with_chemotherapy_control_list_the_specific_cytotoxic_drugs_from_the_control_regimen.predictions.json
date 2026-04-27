@@ -1,0 +1,14 @@
+{
+  "item_id": "row_270",
+  "csv_row_number": 208,
+  "question": "In Hodgkin Lymphoma trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_270_In_Hodgkin_Lymphoma_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": [
+        "brentuximab vedotin"
+      ]
+    }
+  ]
+}

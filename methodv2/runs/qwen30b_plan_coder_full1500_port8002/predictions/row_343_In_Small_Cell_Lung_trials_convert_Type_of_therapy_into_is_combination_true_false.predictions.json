@@ -1,0 +1,56 @@
+{
+  "item_id": "row_343",
+  "csv_row_number": 255,
+  "question": "In Small Cell Lung trials, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_343_In_Small_Cell_Lung_trials_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": true
+    },
+    {
+      "table_row_id": 26,
+      "answer": true
+    },
+    {
+      "table_row_id": 32,
+      "answer": true
+    },
+    {
+      "table_row_id": 43,
+      "answer": true
+    },
+    {
+      "table_row_id": 82,
+      "answer": true
+    },
+    {
+      "table_row_id": 83,
+      "answer": true
+    },
+    {
+      "table_row_id": 87,
+      "answer": true
+    },
+    {
+      "table_row_id": 137,
+      "answer": true
+    },
+    {
+      "table_row_id": 138,
+      "answer": true
+    },
+    {
+      "table_row_id": 147,
+      "answer": false
+    },
+    {
+      "table_row_id": 149,
+      "answer": true
+    },
+    {
+      "table_row_id": 150,
+      "answer": false
+    }
+  ]
+}

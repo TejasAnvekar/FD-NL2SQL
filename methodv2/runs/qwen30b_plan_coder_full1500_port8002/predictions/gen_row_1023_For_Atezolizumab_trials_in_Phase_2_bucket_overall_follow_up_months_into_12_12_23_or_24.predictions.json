@@ -1,0 +1,248 @@
+{
+  "item_id": "gen_row_1023",
+  "csv_row_number": 1023,
+  "question": "For Atezolizumab trials in Phase 2, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1023_For_Atezolizumab_trials_in_Phase_2_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 16,
+      "answer": "12 to 23"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "12 to 23"
+    },
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": ""
+    },
+    {
+      "table_row_id": 33,
+      "answer": ""
+    },
+    {
+      "table_row_id": 35,
+      "answer": ""
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    },
+    {
+      "table_row_id": 51,
+      "answer": ""
+    },
+    {
+      "table_row_id": 53,
+      "answer": "12 to 23"
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 73,
+      "answer": ""
+    },
+    {
+      "table_row_id": 83,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 104,
+      "answer": ""
+    },
+    {
+      "table_row_id": 107,
+      "answer": ""
+    },
+    {
+      "table_row_id": 108,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 119,
+      "answer": ""
+    },
+    {
+      "table_row_id": 120,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 123,
+      "answer": ""
+    },
+    {
+      "table_row_id": 124,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 126,
+      "answer": ""
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    },
+    {
+      "table_row_id": 130,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    },
+    {
+      "table_row_id": 135,
+      "answer": ""
+    },
+    {
+      "table_row_id": 136,
+      "answer": ""
+    },
+    {
+      "table_row_id": 137,
+      "answer": ""
+    },
+    {
+      "table_row_id": 138,
+      "answer": ""
+    },
+    {
+      "table_row_id": 139,
+      "answer": ""
+    },
+    {
+      "table_row_id": 140,
+      "answer": ""
+    },
+    {
+      "table_row_id": 141,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": "24 or more"
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    },
+    {
+      "table_row_id": 146,
+      "answer": ""
+    },
+    {
+      "table_row_id": 147,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    },
+    {
+      "table_row_id": 149,
+      "answer": ""
+    },
+    {
+      "table_row_id": 150,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": ""
+    },
+    {
+      "table_row_id": 152,
+      "answer": ""
+    },
+    {
+      "table_row_id": 153,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    },
+    {
+      "table_row_id": 156,
+      "answer": ""
+    },
+    {
+      "table_row_id": 157,
+      "answer": ""
+    },
+    {
+      "table_row_id": 158,
+      "answer": ""
+    },
+    {
+      "table_row_id": 159,
+      "answer": ""
+    }
+  ]
+}

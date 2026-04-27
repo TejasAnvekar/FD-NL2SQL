@@ -1,0 +1,72 @@
+{
+  "item_id": "gen_row_637",
+  "csv_row_number": 637,
+  "question": "For Pembrolizumab trials using ICI+Chemo, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_637_For_Pembrolizumab_trials_using_ICI_Chemo_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": ""
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 81,
+      "answer": ""
+    },
+    {
+      "table_row_id": 92,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 140,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    },
+    {
+      "table_row_id": 146,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_911",
+  "csv_row_number": 911,
+  "question": "For Pembrolizumab trials in Phase 2 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_911_For_Pembrolizumab_trials_in_Phase_2_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": ""
+    },
+    {
+      "table_row_id": 38,
+      "answer": ""
+    },
+    {
+      "table_row_id": 39,
+      "answer": ""
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 81,
+      "answer": ""
+    },
+    {
+      "table_row_id": 92,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 126,
+      "answer": ""
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_1468",
+  "csv_row_number": 1468,
+  "question": "In Non-Small Cell Lung trials for Ipilimumab included in the meta-analysis, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1468_In_Non_Small_Cell_Lung_trials_for_Ipilimumab_included_in_the_meta_analysis_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoi",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": [
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 34,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 47,
+      "answer": [
+        "ospfs"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": [
+        "ospfs"
+      ]
+    },
+    {
+      "table_row_id": 103,
+      "answer": [
+        "ospfs"
+      ]
+    }
+  ]
+}

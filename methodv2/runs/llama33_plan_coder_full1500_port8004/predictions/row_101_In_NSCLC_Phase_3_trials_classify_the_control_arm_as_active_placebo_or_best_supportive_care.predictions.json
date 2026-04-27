@@ -1,0 +1,120 @@
+{
+  "item_id": "row_101",
+  "csv_row_number": 80,
+  "question": "In NSCLC Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_101_In_NSCLC_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "active"
+    }
+  ]
+}

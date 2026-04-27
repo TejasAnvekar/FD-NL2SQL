@@ -1,0 +1,144 @@
+{
+  "item_id": "row_158",
+  "csv_row_number": 126,
+  "question": "In Non-Small Cell Lung combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_158_In_Non_Small_Cell_Lung_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Ici+Ici"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Ici+Chemo"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1426",
+  "csv_row_number": 1426,
+  "question": "In Melanoma trials in Phase 3 for Ipilimumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1426_In_Melanoma_trials_in_Phase_3_for_Ipilimumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "PFS"
+    }
+  ]
+}

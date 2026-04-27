@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_1310",
+  "csv_row_number": 1310,
+  "question": "For Pembrolizumab trials in Phase 3 using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1310_For_Pembrolizumab_trials_in_Phase_3_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": []
+    },
+    {
+      "table_row_id": 44,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    }
+  ]
+}

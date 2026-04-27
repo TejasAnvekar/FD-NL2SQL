@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_495",
+  "csv_row_number": 495,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_495_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "https://pubmed.gov/28655793"
+    }
+  ]
+}

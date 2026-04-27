@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_442",
+  "csv_row_number": 442,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_442_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": false
+    },
+    {
+      "table_row_id": 63,
+      "answer": false
+    },
+    {
+      "table_row_id": 64,
+      "answer": false
+    },
+    {
+      "table_row_id": 65,
+      "answer": false
+    },
+    {
+      "table_row_id": 66,
+      "answer": false
+    },
+    {
+      "table_row_id": 70,
+      "answer": true
+    },
+    {
+      "table_row_id": 71,
+      "answer": false
+    },
+    {
+      "table_row_id": 72,
+      "answer": false
+    }
+  ]
+}

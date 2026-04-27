@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_1185",
+  "csv_row_number": 1185,
+  "question": "In Renal cell trials in Phase 3 included in the meta-analysis, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1185_In_Renal_cell_trials_in_Phase_3_included_in_the_meta_analysis_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": false
+    },
+    {
+      "table_row_id": 18,
+      "answer": true
+    },
+    {
+      "table_row_id": 19,
+      "answer": true
+    },
+    {
+      "table_row_id": 20,
+      "answer": true
+    },
+    {
+      "table_row_id": 21,
+      "answer": true
+    },
+    {
+      "table_row_id": 22,
+      "answer": true
+    },
+    {
+      "table_row_id": 101,
+      "answer": true
+    },
+    {
+      "table_row_id": 104,
+      "answer": true
+    },
+    {
+      "table_row_id": 109,
+      "answer": true
+    },
+    {
+      "table_row_id": 114,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": true
+    },
+    {
+      "table_row_id": 131,
+      "answer": true
+    },
+    {
+      "table_row_id": 145,
+      "answer": true
+    },
+    {
+      "table_row_id": 148,
+      "answer": true
+    }
+  ]
+}

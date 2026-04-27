@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_782",
+  "csv_row_number": 782,
+  "question": "For Atezolizumab trials in Phase 3 using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_782_For_Atezolizumab_trials_in_Phase_3_using_combination_therapy_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 6,
+      "answer": ""
+    },
+    {
+      "table_row_id": 17,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 43,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "ICI+Chemo"
+    }
+  ]
+}

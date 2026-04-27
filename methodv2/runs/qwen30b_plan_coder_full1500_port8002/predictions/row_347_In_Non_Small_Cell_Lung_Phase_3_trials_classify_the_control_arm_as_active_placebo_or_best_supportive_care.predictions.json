@@ -1,0 +1,228 @@
+{
+  "item_id": "row_347",
+  "csv_row_number": 257,
+  "question": "In Non-Small Cell Lung Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_347_In_Non_Small_Cell_Lung_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "active"
+    }
+  ]
+}

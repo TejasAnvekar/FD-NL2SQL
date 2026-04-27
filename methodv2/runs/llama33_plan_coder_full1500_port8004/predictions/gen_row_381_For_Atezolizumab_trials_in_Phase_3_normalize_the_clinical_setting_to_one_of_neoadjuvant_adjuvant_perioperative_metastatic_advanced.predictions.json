@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_381",
+  "csv_row_number": 381,
+  "question": "For Atezolizumab trials in Phase 3, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_381_For_Atezolizumab_trials_in_Phase_3_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 16,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

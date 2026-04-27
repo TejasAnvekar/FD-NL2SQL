@@ -1,0 +1,12 @@
+{
+  "item_id": "row_137",
+  "csv_row_number": 109,
+  "question": "In Hodgkin Lymphoma trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_137_In_Hodgkin_Lymphoma_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": false
+    }
+  ]
+}

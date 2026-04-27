@@ -1,0 +1,100 @@
+{
+  "item_id": "gen_row_383",
+  "csv_row_number": 383,
+  "question": "For Atezolizumab trials in Phase 3, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_383_For_Atezolizumab_trials_in_Phase_3_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": ""
+    },
+    {
+      "table_row_id": 4,
+      "answer": ""
+    },
+    {
+      "table_row_id": 6,
+      "answer": ""
+    },
+    {
+      "table_row_id": 7,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 40,
+      "answer": ""
+    },
+    {
+      "table_row_id": 41,
+      "answer": ""
+    },
+    {
+      "table_row_id": 53,
+      "answer": ""
+    },
+    {
+      "table_row_id": 79,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    },
+    {
+      "table_row_id": 107,
+      "answer": ""
+    },
+    {
+      "table_row_id": 108,
+      "answer": ""
+    },
+    {
+      "table_row_id": 109,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 153,
+      "answer": ""
+    }
+  ]
+}

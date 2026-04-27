@@ -1,0 +1,18 @@
+{
+  "run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/llama33_plan_coder_full1500_port8004_merged",
+  "question_dir_count": 1500,
+  "evaluated_count": 1500,
+  "missing_pred_count": 0,
+  "missing_gt_count": 0,
+  "avg_pred_row_count": 9.266,
+  "avg_gt_row_count": 4.946,
+  "avg_column_alignment_score": 0.9112643923137199,
+  "avg_precision": 0.564605733105139,
+  "avg_recall": 0.8146590854901775,
+  "avg_f1": 0.6339804048304848,
+  "avg_row_jaccard": 0.5154827242586073,
+  "avg_chrf": 85.57166512289974,
+  "avg_rouge_l_f1": 0.8838782195428537,
+  "avg_bertscore_f1": 0.0,
+  "exact_table_match_rate": 0.06508047585724283
+}

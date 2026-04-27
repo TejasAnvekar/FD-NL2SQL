@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1295",
+  "csv_row_number": 1295,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1295_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": "OS"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_1294",
+  "csv_row_number": 1294,
+  "question": "In Head and Neck trials for Nivolumab included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1294_In_Head_and_Neck_trials_for_Nivolumab_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 13,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

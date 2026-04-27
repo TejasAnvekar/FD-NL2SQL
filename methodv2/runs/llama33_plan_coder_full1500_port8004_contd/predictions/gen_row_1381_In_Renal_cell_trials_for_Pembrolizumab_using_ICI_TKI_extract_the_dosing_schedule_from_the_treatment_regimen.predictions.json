@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1381",
+  "csv_row_number": 1381,
+  "question": "In Renal cell trials for Pembrolizumab using ICI+TKI, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1381_In_Renal_cell_trials_for_Pembrolizumab_using_ICI_TKI_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 21,
+      "answer": ""
+    }
+  ]
+}

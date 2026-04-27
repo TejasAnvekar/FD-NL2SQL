@@ -1,0 +1,36 @@
+{
+  "item_id": "row_99",
+  "csv_row_number": 78,
+  "question": "In Breast trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_99_In_Breast_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "immature"
+    }
+  ]
+}

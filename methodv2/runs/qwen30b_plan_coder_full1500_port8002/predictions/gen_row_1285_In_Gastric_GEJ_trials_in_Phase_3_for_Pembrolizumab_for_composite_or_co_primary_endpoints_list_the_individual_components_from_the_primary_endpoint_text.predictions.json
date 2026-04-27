@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1285",
+  "csv_row_number": 1285,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1285_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": []
+    },
+    {
+      "table_row_id": 78,
+      "answer": []
+    }
+  ]
+}

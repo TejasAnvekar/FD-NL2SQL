@@ -1,0 +1,56 @@
+{
+  "item_id": "row_248",
+  "csv_row_number": 190,
+  "question": "In Renal cell trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_248_In_Renal_cell_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "primary"
+    }
+  ]
+}

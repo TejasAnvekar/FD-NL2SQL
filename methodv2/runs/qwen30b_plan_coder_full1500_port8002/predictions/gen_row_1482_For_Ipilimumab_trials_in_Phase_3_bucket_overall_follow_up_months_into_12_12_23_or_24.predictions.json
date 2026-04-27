@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_1482",
+  "csv_row_number": 1482,
+  "question": "For Ipilimumab trials in Phase 3, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1482_For_Ipilimumab_trials_in_Phase_3_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "less than 12"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "24 or more"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "24 or more"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "24 or more"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "unknown"
+    }
+  ]
+}

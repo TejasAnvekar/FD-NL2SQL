@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_814",
+  "csv_row_number": 814,
+  "question": "For Durvalumab trials in Phase 3 included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_814_For_Durvalumab_trials_in_Phase_3_included_in_the_meta_analysis_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "12 to 23"
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": "less than 12"
+    },
+    {
+      "table_row_id": 90,
+      "answer": ""
+    },
+    {
+      "table_row_id": 91,
+      "answer": "less than 12"
+    },
+    {
+      "table_row_id": 109,
+      "answer": ""
+    },
+    {
+      "table_row_id": 110,
+      "answer": ""
+    },
+    {
+      "table_row_id": 111,
+      "answer": ""
+    },
+    {
+      "table_row_id": 112,
+      "answer": ""
+    },
+    {
+      "table_row_id": 123,
+      "answer": ""
+    },
+    {
+      "table_row_id": 124,
+      "answer": ""
+    },
+    {
+      "table_row_id": 137,
+      "answer": ""
+    },
+    {
+      "table_row_id": 138,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": ""
+    }
+  ]
+}

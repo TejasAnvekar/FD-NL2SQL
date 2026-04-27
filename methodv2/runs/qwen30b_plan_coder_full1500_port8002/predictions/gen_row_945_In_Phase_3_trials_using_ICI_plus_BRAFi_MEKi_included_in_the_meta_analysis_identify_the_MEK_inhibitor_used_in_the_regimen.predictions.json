@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_945",
+  "csv_row_number": 945,
+  "question": "In Phase 3 trials using ICI plus BRAFi+MEKi included in the meta-analysis, identify the MEK inhibitor used in the regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_945_In_Phase_3_trials_using_ICI_plus_BRAFi_MEKi_included_in_the_meta_analysis_identify_the_MEK_inhibitor_used_in_the_regimen",
+  "predictions": [
+    {
+      "table_row_id": 70,
+      "answer": ""
+    },
+    {
+      "table_row_id": 136,
+      "answer": ""
+    }
+  ]
+}

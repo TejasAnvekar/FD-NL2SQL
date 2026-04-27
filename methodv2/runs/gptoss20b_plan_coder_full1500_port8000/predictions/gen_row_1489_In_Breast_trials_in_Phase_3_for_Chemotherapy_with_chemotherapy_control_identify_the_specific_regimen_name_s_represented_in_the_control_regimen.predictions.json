@@ -1,0 +1,962 @@
+{
+  "item_id": "gen_row_1489",
+  "csv_row_number": 1489,
+  "question": "In Breast trials in Phase 3 for Chemotherapy with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_1489_In_Breast_trials_in_Phase_3_for_Chemotherapy_with_chemotherapy_control_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 2,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 3,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 4,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 5,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 6,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 7,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 8,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 9,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 10,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 11,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 12,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 13,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 14,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 15,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 16,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 17,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 18,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 19,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 20,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 22,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 26,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 27,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 28,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 29,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 30,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 31,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 32,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 33,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 34,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 35,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 37,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 39,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 40,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 41,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 43,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 47,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 48,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 49,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 50,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 51,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 52,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 53,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 54,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 55,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 56,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 58,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 59,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 60,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 61,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 62,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 63,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 64,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 65,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 66,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 67,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 68,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 69,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 72,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 73,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 74,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 75,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 76,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 77,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 78,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 79,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 80,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 81,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 83,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 84,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 85,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 87,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 88,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 89,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 90,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 91,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 93,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 94,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 95,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 96,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 97,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 99,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 100,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 103,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 104,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 106,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 107,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 108,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 109,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 110,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 111,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 112,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 114,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 116,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 117,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 118,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 119,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 120,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 123,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 125,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 126,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 127,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 128,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 129,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 130,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 133,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 134,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 135,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 138,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 139,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 140,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 141,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 142,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 143,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 144,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 146,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 147,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 149,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 150,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 151,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 152,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 153,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 154,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 155,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 156,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 157,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 158,
+      "answer": [
+        "Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 159,
+      "answer": [
+        "Chemotherapy"
+      ]
+    }
+  ]
+}

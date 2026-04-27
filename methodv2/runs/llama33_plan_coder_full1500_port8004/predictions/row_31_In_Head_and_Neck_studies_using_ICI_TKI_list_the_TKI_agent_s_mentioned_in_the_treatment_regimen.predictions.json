@@ -1,0 +1,16 @@
+{
+  "item_id": "row_31",
+  "csv_row_number": 22,
+  "question": "In Head and Neck studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_31_In_Head_and_Neck_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 85,
+      "answer": []
+    },
+    {
+      "table_row_id": 105,
+      "answer": []
+    }
+  ]
+}

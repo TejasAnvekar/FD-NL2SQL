@@ -1,0 +1,100 @@
+{
+  "item_id": "gen_row_659",
+  "csv_row_number": 659,
+  "question": "In Non-Small Cell Lung trials for Atezolizumab included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_659_In_Non_Small_Cell_Lung_trials_for_Atezolizumab_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_adva",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 28,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 49,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": ""
+    },
+    {
+      "table_row_id": 91,
+      "answer": ""
+    },
+    {
+      "table_row_id": 99,
+      "answer": ""
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 146,
+      "answer": ""
+    },
+    {
+      "table_row_id": 147,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "row_69",
+  "csv_row_number": 50,
+  "question": "In Prostate studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_69_In_Prostate_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": [
+        "axitinib"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "axitinib"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": [
+        "osimertinib"
+      ]
+    },
+    {
+      "table_row_id": 88,
+      "answer": [
+        "acalabrutinib"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "axitinib"
+      ]
+    }
+  ]
+}

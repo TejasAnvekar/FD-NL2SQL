@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_691",
+  "csv_row_number": 691,
+  "question": "In Melanoma trials in Phase 3 for Nivolumab, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_691_In_Melanoma_trials_in_Phase_3_for_Nivolumab_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 68,
+      "answer": ""
+    },
+    {
+      "table_row_id": 69,
+      "answer": ""
+    },
+    {
+      "table_row_id": 71,
+      "answer": ""
+    },
+    {
+      "table_row_id": 72,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1498",
+  "csv_row_number": 1498,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1498_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "2-arm"
+    }
+  ]
+}

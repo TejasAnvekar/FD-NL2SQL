@@ -1,0 +1,80 @@
+{
+  "item_id": "row_74",
+  "csv_row_number": 55,
+  "question": "In Renal cell studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_74_In_Renal_cell_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "axitinib",
+        "cabozantinib",
+        "lenvatinib"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "item_id": "row_198",
+  "csv_row_number": 152,
+  "question": "In NSCLC trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_198_In_NSCLC_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": false
+    },
+    {
+      "table_row_id": 28,
+      "answer": false
+    },
+    {
+      "table_row_id": 29,
+      "answer": true
+    },
+    {
+      "table_row_id": 30,
+      "answer": true
+    },
+    {
+      "table_row_id": 31,
+      "answer": true
+    },
+    {
+      "table_row_id": 33,
+      "answer": true
+    },
+    {
+      "table_row_id": 34,
+      "answer": false
+    },
+    {
+      "table_row_id": 35,
+      "answer": false
+    },
+    {
+      "table_row_id": 36,
+      "answer": false
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 40,
+      "answer": false
+    },
+    {
+      "table_row_id": 41,
+      "answer": false
+    },
+    {
+      "table_row_id": 42,
+      "answer": false
+    },
+    {
+      "table_row_id": 43,
+      "answer": false
+    },
+    {
+      "table_row_id": 44,
+      "answer": false
+    },
+    {
+      "table_row_id": 45,
+      "answer": false
+    },
+    {
+      "table_row_id": 46,
+      "answer": false
+    },
+    {
+      "table_row_id": 47,
+      "answer": false
+    },
+    {
+      "table_row_id": 48,
+      "answer": false
+    },
+    {
+      "table_row_id": 52,
+      "answer": true
+    },
+    {
+      "table_row_id": 55,
+      "answer": false
+    },
+    {
+      "table_row_id": 56,
+      "answer": false
+    },
+    {
+      "table_row_id": 89,
+      "answer": false
+    },
+    {
+      "table_row_id": 99,
+      "answer": false
+    },
+    {
+      "table_row_id": 102,
+      "answer": false
+    },
+    {
+      "table_row_id": 103,
+      "answer": false
+    },
+    {
+      "table_row_id": 116,
+      "answer": true
+    },
+    {
+      "table_row_id": 129,
+      "answer": true
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 155,
+      "answer": true
+    }
+  ]
+}

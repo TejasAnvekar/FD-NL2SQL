@@ -1,0 +1,36 @@
+{
+  "item_id": "row_165",
+  "csv_row_number": 132,
+  "question": "In Small Cell Lung trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_165_In_Small_Cell_Lung_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

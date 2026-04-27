@@ -1,0 +1,82 @@
+[
+  {
+    "method_label": "Zero-Shot",
+    "stage": "prompting",
+    "prompt_tokens_total": 42123359.0,
+    "completion_tokens_total": 773904.0,
+    "total_tokens_total": 42897263.0,
+    "question_count": 1500
+  },
+  {
+    "method_label": "Few-Shot",
+    "stage": "prompting",
+    "prompt_tokens_total": 42772859.0,
+    "completion_tokens_total": 629960.0,
+    "total_tokens_total": 43402819.0,
+    "question_count": 1500
+  },
+  {
+    "method_label": "CoT",
+    "stage": "prompting",
+    "prompt_tokens_total": 43617725.0,
+    "completion_tokens_total": 566304.0,
+    "total_tokens_total": 44184029.0,
+    "question_count": 1500
+  },
+  {
+    "method_label": "TableGPT2",
+    "stage": "prompting",
+    "prompt_tokens_total": 44483258.0,
+    "completion_tokens_total": 1766792.0,
+    "total_tokens_total": 46250050.0,
+    "question_count": 1500
+  },
+  {
+    "method_label": "SCoPE",
+    "stage": "selector",
+    "prompt_tokens_total": 27559.0,
+    "completion_tokens_total": 141.0,
+    "total_tokens_total": 27700.0,
+    "question_count": 1
+  },
+  {
+    "method_label": "SCoPE",
+    "stage": "planner",
+    "prompt_tokens_total": 1316.0,
+    "completion_tokens_total": 561.0,
+    "total_tokens_total": 1877.0,
+    "question_count": 1
+  },
+  {
+    "method_label": "SCoPE",
+    "stage": "executor",
+    "prompt_tokens_total": 1175.0,
+    "completion_tokens_total": 172.0,
+    "total_tokens_total": 1347.0,
+    "question_count": 1
+  },
+  {
+    "method_label": "BlendSQL",
+    "stage": "relevance",
+    "prompt_tokens_total": 126263229.0,
+    "completion_tokens_total": 954016.0,
+    "total_tokens_total": 127217245.0,
+    "question_count": 1500
+  },
+  {
+    "method_label": "BlendSQL",
+    "stage": "answer",
+    "prompt_tokens_total": 6364593.0,
+    "completion_tokens_total": 285825.0,
+    "total_tokens_total": 6650418.0,
+    "question_count": 1500
+  },
+  {
+    "method_label": "EhrAgent",
+    "stage": "ehragent",
+    "prompt_tokens_total": 25303846.0,
+    "completion_tokens_total": 2275292.0,
+    "total_tokens_total": 27579138.0,
+    "question_count": 1500
+  }
+]

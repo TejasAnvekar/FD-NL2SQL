@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_811",
+  "csv_row_number": 811,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Durvalumab, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_811_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Durvalumab_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": ""
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    }
+  ]
+}

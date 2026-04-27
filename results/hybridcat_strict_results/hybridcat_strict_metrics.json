@@ -1,0 +1,93 @@
+[
+  {
+    "method_family": "planner_coder",
+    "subfamily": "planner_coder",
+    "run_name": "gptoss20b_plan_coder_full1500_port8000",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/gptoss20b_plan_coder_full1500_port8000",
+    "question_dir_count": "1500",
+    "table_f1": "0.14557068397864276",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.8675325206798187",
+    "chrf": "84.11556214650142",
+    "derived_norm_target_f1": "0.09513582674476201",
+    "derived_exact_target_f1": "0.06753141453739848"
+  },
+  {
+    "method_family": "planner_coder",
+    "subfamily": "planner_coder",
+    "run_name": "llama33_plan_coder_full1500_port8004_merged",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/llama33_plan_coder_full1500_port8004_merged",
+    "question_dir_count": "1500",
+    "table_f1": "0.6339804048304848",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.8838782195428537",
+    "chrf": "85.57166512289974",
+    "derived_norm_target_f1": "0.30917007229686544",
+    "derived_exact_target_f1": "0.2597970585872881"
+  },
+  {
+    "method_family": "planner_coder",
+    "subfamily": "planner_coder",
+    "run_name": "qwen30b_plan_coder_full1500_port8002",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/qwen30b_plan_coder_full1500_port8002",
+    "question_dir_count": "1500",
+    "table_f1": "0.4892477683551278",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.8713622239053397",
+    "chrf": "84.10249052189506",
+    "derived_norm_target_f1": "0.2149844057296126",
+    "derived_exact_target_f1": "0.18092990565747066"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planexec",
+    "run_name": "question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "question_dir_count": "1500",
+    "table_f1": "0.7506811182258739",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.8576011425640025",
+    "chrf": "82.7967524579437",
+    "derived_norm_target_f1": "0.27602643377338937",
+    "derived_exact_target_f1": "0.221870844482506"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planexec",
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "question_dir_count": "1500",
+    "table_f1": "0.5959070324670109",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.907612166655146",
+    "chrf": "88.64468206992342",
+    "derived_norm_target_f1": "0.3780676820377895",
+    "derived_exact_target_f1": "0.2942474440428592"
+  },
+  {
+    "method_family": "planner_executor",
+    "subfamily": "planexec",
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "question_dir_count": "1500",
+    "table_f1": "0.6247132889491661",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.9091079829154681",
+    "chrf": "89.09937461228773",
+    "derived_norm_target_f1": "0.3983290978855634",
+    "derived_exact_target_f1": "0.30997831231413747"
+  },
+  {
+    "method_family": "prompting_baseline",
+    "subfamily": "prompting",
+    "run_name": "question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "strict_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "question_dir_count": "1500",
+    "table_f1": "0.4402526166589245",
+    "table_exact": "0.0",
+    "rouge_l_f1": "0.8200894379333028",
+    "chrf": "78.80100541980751",
+    "derived_norm_target_f1": "0.06222251024920818",
+    "derived_exact_target_f1": "0.049609776684196145"
+  }
+]

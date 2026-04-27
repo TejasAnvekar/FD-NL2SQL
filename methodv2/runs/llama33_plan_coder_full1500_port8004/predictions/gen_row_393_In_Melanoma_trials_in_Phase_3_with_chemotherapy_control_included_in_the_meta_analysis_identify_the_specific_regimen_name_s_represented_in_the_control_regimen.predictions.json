@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_393",
+  "csv_row_number": 393,
+  "question": "In Melanoma trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_393_In_Melanoma_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "dacarbazine"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "temozolomide/dacarbazine"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "dacarbazine/carboplatin+paclitaxel"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "dabrafenib+trametinib+placebo"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "dacarbazine"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "dacarbazine"
+    }
+  ]
+}

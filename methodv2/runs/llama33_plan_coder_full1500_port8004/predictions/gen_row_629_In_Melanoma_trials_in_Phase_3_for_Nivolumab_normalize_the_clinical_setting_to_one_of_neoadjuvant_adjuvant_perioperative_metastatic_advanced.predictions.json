@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_629",
+  "csv_row_number": 629,
+  "question": "In Melanoma trials in Phase 3 for Nivolumab, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_629_In_Melanoma_trials_in_Phase_3_for_Nivolumab_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 68,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_892",
+  "csv_row_number": 892,
+  "question": "For Durvalumab, Tremelimumab trials in Phase 3 included in the meta-analysis, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_892_For_Durvalumab_Tremelimumab_trials_in_Phase_3_included_in_the_meta_analysis_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "small"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "large"
+    }
+  ]
+}

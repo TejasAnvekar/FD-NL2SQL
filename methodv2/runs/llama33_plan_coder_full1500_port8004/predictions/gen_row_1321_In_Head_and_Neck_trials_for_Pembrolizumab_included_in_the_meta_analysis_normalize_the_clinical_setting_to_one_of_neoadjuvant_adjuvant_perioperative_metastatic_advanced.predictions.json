@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1321",
+  "csv_row_number": 1321,
+  "question": "In Head and Neck trials for Pembrolizumab included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1321_In_Head_and_Neck_trials_for_Pembrolizumab_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

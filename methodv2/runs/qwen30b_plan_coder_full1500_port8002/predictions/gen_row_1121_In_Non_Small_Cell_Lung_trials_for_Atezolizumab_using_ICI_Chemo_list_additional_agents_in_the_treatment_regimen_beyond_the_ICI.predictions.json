@@ -1,0 +1,38 @@
+{
+  "item_id": "gen_row_1121",
+  "csv_row_number": 1121,
+  "question": "In Non-Small Cell Lung trials for Atezolizumab using ICI+Chemo, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1121_In_Non_Small_Cell_Lung_trials_for_Atezolizumab_using_ICI_Chemo_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 45,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+method_label,stage,prompt_tokens_total,completion_tokens_total,total_tokens_total,question_count
+Zero-Shot,prompting,42123359.0,773904.0,42897263.0,1500
+Few-Shot,prompting,42772859.0,629960.0,43402819.0,1500
+CoT,prompting,43617725.0,566304.0,44184029.0,1500
+TableGPT2,prompting,44483258.0,1766792.0,46250050.0,1500
+SCoPE,selector,27559.0,141.0,27700.0,1
+SCoPE,planner,1316.0,561.0,1877.0,1
+SCoPE,executor,1175.0,172.0,1347.0,1
+BlendSQL,relevance,126263229.0,954016.0,127217245.0,1500
+BlendSQL,answer,6364593.0,285825.0,6650418.0,1500
+EhrAgent,ehragent,25303846.0,2275292.0,27579138.0,1500

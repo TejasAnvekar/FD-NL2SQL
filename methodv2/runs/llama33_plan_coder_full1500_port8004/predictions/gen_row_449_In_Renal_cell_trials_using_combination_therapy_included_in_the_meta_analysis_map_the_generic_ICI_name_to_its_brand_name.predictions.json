@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_449",
+  "csv_row_number": 449,
+  "question": "In Renal cell trials using combination therapy included in the meta-analysis, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_449_In_Renal_cell_trials_using_combination_therapy_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "opdivo"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "tecentriq"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "tecentriq"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "opdivo"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "opdivo"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "bavencio"
+    },
+    {
+      "table_row_id": 21,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": "tecentriq"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "opdivo"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "opdivo"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "bavencio"
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    }
+  ]
+}

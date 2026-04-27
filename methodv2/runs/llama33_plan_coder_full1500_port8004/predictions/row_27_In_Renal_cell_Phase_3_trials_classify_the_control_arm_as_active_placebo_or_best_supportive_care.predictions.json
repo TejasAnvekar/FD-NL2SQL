@@ -1,0 +1,48 @@
+{
+  "item_id": "row_27",
+  "csv_row_number": 19,
+  "question": "In Renal cell Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_27_In_Renal_cell_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "active"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "item_id": "row_93",
+  "csv_row_number": 72,
+  "question": "In NSCLC trials, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_93_In_NSCLC_trials_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": true
+    },
+    {
+      "table_row_id": 24,
+      "answer": true
+    },
+    {
+      "table_row_id": 27,
+      "answer": false
+    },
+    {
+      "table_row_id": 28,
+      "answer": false
+    },
+    {
+      "table_row_id": 29,
+      "answer": false
+    },
+    {
+      "table_row_id": 30,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": false
+    },
+    {
+      "table_row_id": 33,
+      "answer": false
+    },
+    {
+      "table_row_id": 34,
+      "answer": true
+    },
+    {
+      "table_row_id": 35,
+      "answer": false
+    },
+    {
+      "table_row_id": 36,
+      "answer": false
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 38,
+      "answer": true
+    },
+    {
+      "table_row_id": 39,
+      "answer": true
+    },
+    {
+      "table_row_id": 40,
+      "answer": false
+    },
+    {
+      "table_row_id": 41,
+      "answer": false
+    },
+    {
+      "table_row_id": 42,
+      "answer": true
+    },
+    {
+      "table_row_id": 43,
+      "answer": true
+    },
+    {
+      "table_row_id": 44,
+      "answer": true
+    },
+    {
+      "table_row_id": 45,
+      "answer": true
+    },
+    {
+      "table_row_id": 46,
+      "answer": true
+    },
+    {
+      "table_row_id": 47,
+      "answer": true
+    },
+    {
+      "table_row_id": 48,
+      "answer": false
+    },
+    {
+      "table_row_id": 49,
+      "answer": true
+    },
+    {
+      "table_row_id": 50,
+      "answer": false
+    },
+    {
+      "table_row_id": 51,
+      "answer": true
+    },
+    {
+      "table_row_id": 52,
+      "answer": false
+    },
+    {
+      "table_row_id": 53,
+      "answer": false
+    },
+    {
+      "table_row_id": 54,
+      "answer": false
+    },
+    {
+      "table_row_id": 55,
+      "answer": true
+    },
+    {
+      "table_row_id": 56,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": true
+    },
+    {
+      "table_row_id": 138,
+      "answer": true
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    }
+  ]
+}

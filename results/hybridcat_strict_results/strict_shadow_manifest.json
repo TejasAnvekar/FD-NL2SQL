@@ -1,0 +1,44 @@
+[
+  {
+    "run_name": "question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan",
+    "question_dir_count": 1500
+  },
+  {
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan",
+    "question_dir_count": 1500
+  },
+  {
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan",
+    "question_dir_count": 1500
+  },
+  {
+    "run_name": "gptoss20b_plan_coder_full1500_port8000",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/gptoss20b_plan_coder_full1500_port8000",
+    "question_dir_count": 1500
+  },
+  {
+    "run_name": "qwen30b_plan_coder_full1500_port8002",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/qwen30b_plan_coder_full1500_port8002",
+    "question_dir_count": 1500
+  },
+  {
+    "run_name": "llama33_plan_coder_full1500_port8004_merged",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_merged",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/llama33_plan_coder_full1500_port8004_merged",
+    "question_dir_count": 1500
+  },
+  {
+    "run_name": "question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "strict_shadow_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+    "question_dir_count": 1500
+  }
+]

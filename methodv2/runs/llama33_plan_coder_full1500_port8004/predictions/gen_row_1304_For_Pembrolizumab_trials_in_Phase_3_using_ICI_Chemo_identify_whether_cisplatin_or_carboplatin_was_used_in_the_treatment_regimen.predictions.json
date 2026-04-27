@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_1304",
+  "csv_row_number": 1304,
+  "question": "For Pembrolizumab trials in Phase 3 using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1304_For_Pembrolizumab_trials_in_Phase_3_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Cisplatin"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Unknown"
+    }
+  ]
+}

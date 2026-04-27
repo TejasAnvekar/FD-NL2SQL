@@ -1,0 +1,21 @@
+{
+  "item_id": "gen_row_998",
+  "csv_row_number": 998,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_998_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": [
+        "Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 80,
+      "answer": [
+        "Docetaxel",
+        "Paclitaxel"
+      ]
+    }
+  ]
+}

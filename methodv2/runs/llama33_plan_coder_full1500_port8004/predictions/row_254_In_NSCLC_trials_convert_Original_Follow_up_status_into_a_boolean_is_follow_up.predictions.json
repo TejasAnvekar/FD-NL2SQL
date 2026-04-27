@@ -1,0 +1,148 @@
+{
+  "item_id": "row_254",
+  "csv_row_number": 196,
+  "question": "In NSCLC trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_254_In_NSCLC_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 24,
+      "answer": false
+    },
+    {
+      "table_row_id": 25,
+      "answer": false
+    },
+    {
+      "table_row_id": 26,
+      "answer": false
+    },
+    {
+      "table_row_id": 27,
+      "answer": false
+    },
+    {
+      "table_row_id": 28,
+      "answer": false
+    },
+    {
+      "table_row_id": 29,
+      "answer": false
+    },
+    {
+      "table_row_id": 30,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": false
+    },
+    {
+      "table_row_id": 32,
+      "answer": false
+    },
+    {
+      "table_row_id": 33,
+      "answer": false
+    },
+    {
+      "table_row_id": 34,
+      "answer": false
+    },
+    {
+      "table_row_id": 35,
+      "answer": false
+    },
+    {
+      "table_row_id": 36,
+      "answer": true
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 38,
+      "answer": false
+    },
+    {
+      "table_row_id": 39,
+      "answer": true
+    },
+    {
+      "table_row_id": 40,
+      "answer": false
+    },
+    {
+      "table_row_id": 41,
+      "answer": true
+    },
+    {
+      "table_row_id": 42,
+      "answer": false
+    },
+    {
+      "table_row_id": 43,
+      "answer": false
+    },
+    {
+      "table_row_id": 44,
+      "answer": false
+    },
+    {
+      "table_row_id": 45,
+      "answer": false
+    },
+    {
+      "table_row_id": 46,
+      "answer": false
+    },
+    {
+      "table_row_id": 47,
+      "answer": false
+    },
+    {
+      "table_row_id": 48,
+      "answer": false
+    },
+    {
+      "table_row_id": 49,
+      "answer": true
+    },
+    {
+      "table_row_id": 50,
+      "answer": true
+    },
+    {
+      "table_row_id": 51,
+      "answer": true
+    },
+    {
+      "table_row_id": 52,
+      "answer": false
+    },
+    {
+      "table_row_id": 53,
+      "answer": false
+    },
+    {
+      "table_row_id": 54,
+      "answer": true
+    },
+    {
+      "table_row_id": 55,
+      "answer": false
+    },
+    {
+      "table_row_id": 56,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    }
+  ]
+}

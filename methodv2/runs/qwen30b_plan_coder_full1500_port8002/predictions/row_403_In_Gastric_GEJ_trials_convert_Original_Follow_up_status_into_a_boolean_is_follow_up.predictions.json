@@ -1,0 +1,40 @@
+{
+  "item_id": "row_403",
+  "csv_row_number": 298,
+  "question": "In Gastric/GEJ trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_403_In_Gastric_GEJ_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    },
+    {
+      "table_row_id": 9,
+      "answer": false
+    },
+    {
+      "table_row_id": 10,
+      "answer": false
+    },
+    {
+      "table_row_id": 78,
+      "answer": true
+    },
+    {
+      "table_row_id": 80,
+      "answer": false
+    },
+    {
+      "table_row_id": 120,
+      "answer": false
+    },
+    {
+      "table_row_id": 121,
+      "answer": false
+    },
+    {
+      "table_row_id": 127,
+      "answer": false
+    }
+  ]
+}

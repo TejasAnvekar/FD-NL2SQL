@@ -1,0 +1,64 @@
+{
+  "item_id": "row_101",
+  "csv_row_number": 80,
+  "question": "In NSCLC Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_101_In_NSCLC_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "active"
+    }
+  ]
+}

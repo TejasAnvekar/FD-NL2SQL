@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_500",
+  "csv_row_number": 500,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_500_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 34,
+      "answer": ""
+    },
+    {
+      "table_row_id": 93,
+      "answer": ""
+    },
+    {
+      "table_row_id": 94,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 117,
+      "answer": ""
+    },
+    {
+      "table_row_id": 118,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    }
+  ]
+}

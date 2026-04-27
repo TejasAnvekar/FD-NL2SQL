@@ -1,0 +1,16 @@
+{
+  "item_id": "row_480",
+  "csv_row_number": 353,
+  "question": "In Multiple Myeloma trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_480_In_Multiple_Myeloma_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 74,
+      "answer": false
+    },
+    {
+      "table_row_id": 75,
+      "answer": false
+    }
+  ]
+}

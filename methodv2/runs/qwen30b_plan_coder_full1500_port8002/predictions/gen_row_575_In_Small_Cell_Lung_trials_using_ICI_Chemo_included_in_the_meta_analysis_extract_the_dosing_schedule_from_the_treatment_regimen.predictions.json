@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_575",
+  "csv_row_number": 575,
+  "question": "In Small Cell Lung trials using ICI+Chemo included in the meta-analysis, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_575_In_Small_Cell_Lung_trials_using_ICI_Chemo_included_in_the_meta_analysis_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Not specified"
+    }
+  ]
+}

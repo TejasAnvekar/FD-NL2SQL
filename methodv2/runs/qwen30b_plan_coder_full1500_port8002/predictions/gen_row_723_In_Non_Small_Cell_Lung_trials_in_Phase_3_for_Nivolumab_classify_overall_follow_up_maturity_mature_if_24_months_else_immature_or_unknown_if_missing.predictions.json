@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_723",
+  "csv_row_number": 723,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_723_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "unknown"
+    }
+  ]
+}

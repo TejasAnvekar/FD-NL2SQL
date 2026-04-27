@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_649",
+  "csv_row_number": 649,
+  "question": "In Non-Small Cell Lung trials for Atezolizumab included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_649_In_Non_Small_Cell_Lung_trials_for_Atezolizumab_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 31,
+      "answer": "https://pubmed.gov/26970723"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "https://pubmed.gov/30262187"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "https://pubmed.gov/27979383"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "https://pubmed.gov/29777823"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "https://pubmed.gov/31122901"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "https://pubmed.gov/32302702"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "https://pubmed.gov/32997907"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "https://pubmed.gov/33333328"
+    }
+  ]
+}

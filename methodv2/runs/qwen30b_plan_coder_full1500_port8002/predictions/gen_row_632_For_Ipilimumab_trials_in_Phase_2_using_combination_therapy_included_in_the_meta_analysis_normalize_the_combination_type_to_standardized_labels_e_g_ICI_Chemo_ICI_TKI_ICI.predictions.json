@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_632",
+  "csv_row_number": 632,
+  "question": "For Ipilimumab trials in Phase 2 using combination therapy included in the meta-analysis, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_632_For_Ipilimumab_trials_in_Phase_2_using_combination_therapy_included_in_the_meta_analysis_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 23,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 34,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": ""
+    },
+    {
+      "table_row_id": 67,
+      "answer": ""
+    },
+    {
+      "table_row_id": 76,
+      "answer": ""
+    },
+    {
+      "table_row_id": 77,
+      "answer": ""
+    },
+    {
+      "table_row_id": 93,
+      "answer": ""
+    },
+    {
+      "table_row_id": 94,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 112,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    }
+  ]
+}

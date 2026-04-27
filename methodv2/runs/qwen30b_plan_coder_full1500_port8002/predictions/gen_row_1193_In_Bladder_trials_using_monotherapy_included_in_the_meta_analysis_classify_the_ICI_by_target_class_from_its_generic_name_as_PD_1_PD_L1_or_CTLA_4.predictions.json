@@ -1,0 +1,624 @@
+{
+  "item_id": "gen_row_1193",
+  "csv_row_number": 1193,
+  "question": "In Bladder trials using monotherapy included in the meta-analysis, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1193_In_Bladder_trials_using_monotherapy_included_in_the_meta_analysis_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Unknown"
+    }
+  ]
+}

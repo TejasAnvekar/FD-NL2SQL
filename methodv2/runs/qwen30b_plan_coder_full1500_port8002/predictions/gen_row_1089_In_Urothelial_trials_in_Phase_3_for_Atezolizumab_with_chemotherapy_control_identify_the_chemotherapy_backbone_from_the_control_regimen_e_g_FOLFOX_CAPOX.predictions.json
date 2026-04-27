@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1089",
+  "csv_row_number": 1089,
+  "question": "In Urothelial trials in Phase 3 for Atezolizumab with chemotherapy control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1089_In_Urothelial_trials_in_Phase_3_for_Atezolizumab_with_chemotherapy_control_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 107,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1088",
+  "csv_row_number": 1088,
+  "question": "For Durvalumab trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1088_For_Durvalumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": ""
+    },
+    {
+      "table_row_id": 57,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": ""
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Investigator's choice chemotherapy"
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

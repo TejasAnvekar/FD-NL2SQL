@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_931",
+  "csv_row_number": 931,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_931_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 43,
+      "answer": "IMPOWER"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "CASPIAN"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "IMPOWER133"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "KEYNOTE"
+    }
+  ]
+}

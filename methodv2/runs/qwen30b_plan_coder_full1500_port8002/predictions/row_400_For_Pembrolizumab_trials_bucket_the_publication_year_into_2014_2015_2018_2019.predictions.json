@@ -1,0 +1,140 @@
+{
+  "item_id": "row_400",
+  "csv_row_number": 295,
+  "question": "For Pembrolizumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_400_For_Pembrolizumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 96,
+      "answer": ""
+    },
+    {
+      "table_row_id": 106,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 108,
+      "answer": ""
+    },
+    {
+      "table_row_id": 113,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 126,
+      "answer": ""
+    },
+    {
+      "table_row_id": 130,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

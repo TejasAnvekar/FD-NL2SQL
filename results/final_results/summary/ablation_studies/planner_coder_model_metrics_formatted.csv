@@ -1,0 +1,4 @@
+method_family,subfamily,run_name,source_run_dir,question_dir_count,table_f1,rouge_l_f1,chrf
+planner_coder,planner_coder,gptoss20b_plan_coder_full1500_port8000,/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000,1500,14.56,**0.00**,**0.00**
+planner_coder,planner_coder,llama33_plan_coder_full1500_port8004_merged,/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_merged,1500,**63.40**,**0.00**,**0.00**
+planner_coder,planner_coder,qwen30b_plan_coder_full1500_port8002,/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002,1500,48.92,**0.00**,**0.00**

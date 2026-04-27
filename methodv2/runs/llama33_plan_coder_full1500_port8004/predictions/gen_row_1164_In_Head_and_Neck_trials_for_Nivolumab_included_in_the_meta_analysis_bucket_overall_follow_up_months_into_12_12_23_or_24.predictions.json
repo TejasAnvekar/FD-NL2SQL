@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1164",
+  "csv_row_number": 1164,
+  "question": "In Head and Neck trials for Nivolumab included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1164_In_Head_and_Neck_trials_for_Nivolumab_included_in_the_meta_analysis_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 13,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "≥24"
+    }
+  ]
+}

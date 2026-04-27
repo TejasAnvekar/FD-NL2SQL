@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_752",
+  "csv_row_number": 752,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab using combination therapy included in the meta-analysis, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_752_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_using_combination_therapy_included_in_the_meta_analysis_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Ch",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Unknown"
+    }
+  ]
+}

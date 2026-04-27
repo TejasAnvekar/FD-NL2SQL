@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_803",
+  "csv_row_number": 803,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Pembrolizumab, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_803_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Pembrolizumab_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": false
+    },
+    {
+      "table_row_id": 30,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": false
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 40,
+      "answer": false
+    },
+    {
+      "table_row_id": 41,
+      "answer": false
+    },
+    {
+      "table_row_id": 56,
+      "answer": false
+    },
+    {
+      "table_row_id": 89,
+      "answer": false
+    },
+    {
+      "table_row_id": 90,
+      "answer": false
+    },
+    {
+      "table_row_id": 91,
+      "answer": false
+    },
+    {
+      "table_row_id": 113,
+      "answer": false
+    },
+    {
+      "table_row_id": 133,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    }
+  ]
+}

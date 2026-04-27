@@ -1,0 +1,960 @@
+{
+  "item_id": "row_315",
+  "csv_row_number": 238,
+  "question": "For Cemiplimab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_315_For_Cemiplimab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 2,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 3,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 4,
+      "answer": [
+        "Atezolizumab+Nab-Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 5,
+      "answer": [
+        "Durvalumab+Nab-Paclitaxel+Epirubicin+Cyclophosphamide"
+      ]
+    },
+    {
+      "table_row_id": 6,
+      "answer": [
+        "Atezolizumab+Cobimetinib"
+      ]
+    },
+    {
+      "table_row_id": 7,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 8,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 9,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 10,
+      "answer": [
+        "Avelumab"
+      ]
+    },
+    {
+      "table_row_id": 11,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 12,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 13,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 14,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 15,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 16,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 17,
+      "answer": [
+        "Atezolizumab+Bevacizumab"
+      ]
+    },
+    {
+      "table_row_id": 18,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 19,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 20,
+      "answer": [
+        "Avelumab+Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "Pembrolizumab+Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 22,
+      "answer": [
+        "Atezolizumab+Bevacizumab"
+      ]
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "Concurrent Ipilimumab+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "Phased Ipilimumab+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "Concurrent Ipilimumab+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 26,
+      "answer": [
+        "Phased Ipilimumab+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 27,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 28,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 29,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 30,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 31,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 32,
+      "answer": [
+        "Ipilimumab+Etoposide+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 33,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 34,
+      "answer": [
+        "Ipilimumab+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 35,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 37,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": [
+        "Pembrolizumab+Pemetrexed+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 39,
+      "answer": [
+        "Pembrolizumab+Pemetrexed+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 40,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 41,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "Pembrolizumab+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 43,
+      "answer": [
+        "Atezolizumab+Etoposide+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "Pembrolizumab+Carboplatin+Paclitaxel/Nab-Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": [
+        "Atezolizumab+Carboplatin+Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": [
+        "Atezolizumab+Carboplatin+Paclitaxel+Bevacizumab"
+      ]
+    },
+    {
+      "table_row_id": 47,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 48,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 49,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 50,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 51,
+      "answer": [
+        "Nivolumab+Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 52,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 53,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 54,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 55,
+      "answer": [
+        "Atezolizumab+Carboplatin+Nab-Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 56,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": [
+        "Durvalumab+Osimertinib"
+      ]
+    },
+    {
+      "table_row_id": 58,
+      "answer": [
+        "Ipilimumab+Dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 59,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 60,
+      "answer": [
+        "Ipilimumab+Gp100 Vaccine"
+      ]
+    },
+    {
+      "table_row_id": 61,
+      "answer": [
+        "Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 62,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 63,
+      "answer": [
+        "Pembrolizumab 2 Mg/Kg"
+      ]
+    },
+    {
+      "table_row_id": 64,
+      "answer": [
+        "Pembrolizumab 10 Mg/Kg"
+      ]
+    },
+    {
+      "table_row_id": 65,
+      "answer": [
+        "Pembrolizumab 2 Mg/Kg"
+      ]
+    },
+    {
+      "table_row_id": 66,
+      "answer": [
+        "Pembrolizumab 10 Mg/Kg"
+      ]
+    },
+    {
+      "table_row_id": 67,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 68,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 69,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "Pembrolizumab+Dabrafenib+Trametinib"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 72,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 73,
+      "answer": [
+        "Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 74,
+      "answer": [
+        "Pembrolizumab+Pomalidomide+Dexamethasone"
+      ]
+    },
+    {
+      "table_row_id": 75,
+      "answer": [
+        "Pembrolizumab+Lenalidomide+Dexamethasone"
+      ]
+    },
+    {
+      "table_row_id": 76,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 77,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 78,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 79,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 80,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 81,
+      "answer": [
+        "Pembrolizumab+Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "Durvalumab+Etoposide+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 83,
+      "answer": [
+        "Durvalumab+Tremelimumab+Etoposide+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 84,
+      "answer": [
+        "Atezolizumab+Nab-Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 85,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "Pembrolizumab+Platinum Agent+5-Fluorouracil"
+      ]
+    },
+    {
+      "table_row_id": 87,
+      "answer": [
+        "Atezolizumab+Carboplatin+Etoposide"
+      ]
+    },
+    {
+      "table_row_id": 88,
+      "answer": [
+        "Pembrolizumab+Acalabrutinib"
+      ]
+    },
+    {
+      "table_row_id": 89,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 90,
+      "answer": [
+        "Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 91,
+      "answer": [
+        "Durvalumab+Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "Pembrolizumab+Paclitaxel+Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 93,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 94,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 95,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 96,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 97,
+      "answer": [
+        "Ipilimumab+Gvax"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "Pembrolizumab+Etoposide+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 99,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 100,
+      "answer": [
+        "Durvalumab+Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": [
+        "Atezolizumab+Carboplatin+Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 103,
+      "answer": [
+        "Atezolizumab+Carboplatin+Nab-Paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 104,
+      "answer": [
+        "Atezolizumab+Vemurafenib+Cobimetinib"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 106,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 107,
+      "answer": [
+        "Atezolizumab+Gemcitabine+Carboplatin Or Cisplatin"
+      ]
+    },
+    {
+      "table_row_id": 108,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 109,
+      "answer": [
+        "Atezolizumab+Bevacizumab"
+      ]
+    },
+    {
+      "table_row_id": 110,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 111,
+      "answer": [
+        "Durvalumab+Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 112,
+      "answer": [
+        "Durvalumab+Tremelimumab+Best Supportive Care"
+      ]
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "Pembrolizumab+ Docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 114,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": [
+        "Avelumab+Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 116,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 117,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 118,
+      "answer": [
+        "Ipilimumab+Gp100 Vaccine"
+      ]
+    },
+    {
+      "table_row_id": 119,
+      "answer": [
+        "Pembrolizumab+Eribulin"
+      ]
+    },
+    {
+      "table_row_id": 120,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "Pembrolizumab+Cisplatin+5-Fu+Capecitabine"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "Pembrolizumab+Nab-Paclitaxel/Paclitaxel/Gemcitabine+ Carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 123,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": [
+        "Durvalumab+Tremelimumab"
+      ]
+    },
+    {
+      "table_row_id": 125,
+      "answer": [
+        "Atezolizumab+Nab-Paclitaxel+Doxorubicin+Cyclophosphamide+Filgrastim/Pegfilgrastim"
+      ]
+    },
+    {
+      "table_row_id": 126,
+      "answer": [
+        "Avelumab+Best Supportive Care"
+      ]
+    },
+    {
+      "table_row_id": 127,
+      "answer": [
+        "Avelumab"
+      ]
+    },
+    {
+      "table_row_id": 128,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 129,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 130,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "Pembrolizumab+Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": [
+        "Atezolizumab+Carboplatin/Cisplatin+Pemetrexed"
+      ]
+    },
+    {
+      "table_row_id": 133,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 134,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 135,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "Pembrolizumab+Dabrafenib+Trametinib"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": [
+        "Durvalumab+Tremelimumab+Etoposide+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 138,
+      "answer": [
+        "Durvalumab+Etoposide+Platinum Agent"
+      ]
+    },
+    {
+      "table_row_id": 139,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 140,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 141,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 142,
+      "answer": [
+        "Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 143,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 144,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "Pembrolizumab+Lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 146,
+      "answer": [
+        "Nivolumab+Ipilimumab+Chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 147,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "Nivolumab+Cabozantinib"
+      ]
+    },
+    {
+      "table_row_id": 149,
+      "answer": [
+        "Nivolumab+Ipilimumab"
+      ]
+    },
+    {
+      "table_row_id": 150,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 151,
+      "answer": [
+        "Durvalumab"
+      ]
+    },
+    {
+      "table_row_id": 152,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 153,
+      "answer": [
+        "Atezolizumab"
+      ]
+    },
+    {
+      "table_row_id": 154,
+      "answer": [
+        "Pembrolizumab"
+      ]
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 156,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 157,
+      "answer": [
+        "Avelumab+Chemoradiotherapy"
+      ]
+    },
+    {
+      "table_row_id": 158,
+      "answer": [
+        "Nivolumab"
+      ]
+    },
+    {
+      "table_row_id": 159,
+      "answer": [
+        "Avelumab+Cetuximab+Radiotherapy"
+      ]
+    }
+  ]
+}

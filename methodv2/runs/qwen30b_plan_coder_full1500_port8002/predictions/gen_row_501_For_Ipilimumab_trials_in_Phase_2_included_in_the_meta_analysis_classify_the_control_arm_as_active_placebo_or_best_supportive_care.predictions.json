@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_501",
+  "csv_row_number": 501,
+  "question": "For Ipilimumab trials in Phase 2 included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_501_For_Ipilimumab_trials_in_Phase_2_included_in_the_meta_analysis_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "best supportive care"
+    }
+  ]
+}

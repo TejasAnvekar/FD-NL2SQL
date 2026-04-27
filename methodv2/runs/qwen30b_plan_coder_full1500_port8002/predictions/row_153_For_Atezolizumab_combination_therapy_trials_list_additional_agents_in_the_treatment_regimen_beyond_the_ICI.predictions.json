@@ -1,0 +1,72 @@
+{
+  "item_id": "row_153",
+  "csv_row_number": 121,
+  "question": "For Atezolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_153_For_Atezolizumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 5,
+      "answer": []
+    },
+    {
+      "table_row_id": 6,
+      "answer": []
+    },
+    {
+      "table_row_id": 17,
+      "answer": []
+    },
+    {
+      "table_row_id": 22,
+      "answer": []
+    },
+    {
+      "table_row_id": 45,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 109,
+      "answer": []
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    }
+  ]
+}

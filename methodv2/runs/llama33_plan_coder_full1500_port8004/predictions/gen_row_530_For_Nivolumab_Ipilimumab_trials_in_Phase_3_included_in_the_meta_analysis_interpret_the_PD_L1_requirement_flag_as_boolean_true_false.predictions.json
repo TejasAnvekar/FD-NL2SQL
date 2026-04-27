@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_530",
+  "csv_row_number": 530,
+  "question": "For Nivolumab, Ipilimumab trials in Phase 3 included in the meta-analysis, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_530_For_Nivolumab_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": false
+    },
+    {
+      "table_row_id": 18,
+      "answer": false
+    },
+    {
+      "table_row_id": 19,
+      "answer": false
+    },
+    {
+      "table_row_id": 96,
+      "answer": false
+    },
+    {
+      "table_row_id": 101,
+      "answer": false
+    },
+    {
+      "table_row_id": 128,
+      "answer": false
+    }
+  ]
+}

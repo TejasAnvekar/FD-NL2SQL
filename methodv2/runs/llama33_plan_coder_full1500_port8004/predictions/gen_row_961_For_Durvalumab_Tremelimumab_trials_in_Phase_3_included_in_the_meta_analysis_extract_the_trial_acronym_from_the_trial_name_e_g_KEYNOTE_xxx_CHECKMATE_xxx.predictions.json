@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_961",
+  "csv_row_number": 961,
+  "question": "For Durvalumab, Tremelimumab trials in Phase 3 included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_961_For_Durvalumab_Tremelimumab_trials_in_Phase_3_included_in_the_meta_analysis_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "G"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "CASPIAN"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "ARCTIC"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "MYSTIC"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "DANUBE"
+    }
+  ]
+}

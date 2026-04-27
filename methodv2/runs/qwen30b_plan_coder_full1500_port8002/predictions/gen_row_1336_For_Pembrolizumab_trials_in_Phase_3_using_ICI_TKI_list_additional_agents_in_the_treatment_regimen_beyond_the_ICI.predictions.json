@@ -1,0 +1,50 @@
+{
+  "item_id": "gen_row_1336",
+  "csv_row_number": 1336,
+  "question": "For Pembrolizumab trials in Phase 3 using ICI+TKI, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1336_For_Pembrolizumab_trials_in_Phase_3_using_ICI_TKI_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 20,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "Pembrolizumab+Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": []
+    },
+    {
+      "table_row_id": 85,
+      "answer": []
+    },
+    {
+      "table_row_id": 86,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "Pembrolizumab+Axitinib"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "Pembrolizumab+Lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    }
+  ]
+}

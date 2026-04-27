@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_379",
+  "csv_row_number": 379,
+  "question": "For Atezolizumab trials in Phase 3, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_379_For_Atezolizumab_trials_in_Phase_3_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": false
+    },
+    {
+      "table_row_id": 4,
+      "answer": false
+    },
+    {
+      "table_row_id": 6,
+      "answer": false
+    },
+    {
+      "table_row_id": 7,
+      "answer": false
+    },
+    {
+      "table_row_id": 84,
+      "answer": true
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 108,
+      "answer": false
+    },
+    {
+      "table_row_id": 109,
+      "answer": false
+    },
+    {
+      "table_row_id": 125,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": true
+    }
+  ]
+}

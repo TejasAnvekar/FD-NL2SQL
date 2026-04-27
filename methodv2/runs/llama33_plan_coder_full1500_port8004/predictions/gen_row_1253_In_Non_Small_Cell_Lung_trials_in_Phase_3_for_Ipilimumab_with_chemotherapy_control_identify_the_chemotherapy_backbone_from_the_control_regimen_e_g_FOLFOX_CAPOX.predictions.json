@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1253",
+  "csv_row_number": 1253,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Ipilimumab with chemotherapy control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1253_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Ipilimumab_with_chemotherapy_control_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 47,
+      "answer": ""
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    }
+  ]
+}

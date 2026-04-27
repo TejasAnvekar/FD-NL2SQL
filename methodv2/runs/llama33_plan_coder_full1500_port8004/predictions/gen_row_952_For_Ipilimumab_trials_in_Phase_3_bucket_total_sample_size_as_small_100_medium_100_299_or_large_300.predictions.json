@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_952",
+  "csv_row_number": 952,
+  "question": "For Ipilimumab trials in Phase 3, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_952_For_Ipilimumab_trials_in_Phase_3_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "large"
+    }
+  ]
+}

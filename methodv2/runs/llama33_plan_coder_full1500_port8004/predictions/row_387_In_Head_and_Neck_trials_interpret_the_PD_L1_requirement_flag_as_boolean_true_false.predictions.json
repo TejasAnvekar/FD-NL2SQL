@@ -1,0 +1,36 @@
+{
+  "item_id": "row_387",
+  "csv_row_number": 284,
+  "question": "In Head and Neck trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_387_In_Head_and_Neck_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": false
+    },
+    {
+      "table_row_id": 13,
+      "answer": false
+    },
+    {
+      "table_row_id": 14,
+      "answer": false
+    },
+    {
+      "table_row_id": 85,
+      "answer": false
+    },
+    {
+      "table_row_id": 105,
+      "answer": false
+    },
+    {
+      "table_row_id": 110,
+      "answer": true
+    },
+    {
+      "table_row_id": 157,
+      "answer": false
+    }
+  ]
+}

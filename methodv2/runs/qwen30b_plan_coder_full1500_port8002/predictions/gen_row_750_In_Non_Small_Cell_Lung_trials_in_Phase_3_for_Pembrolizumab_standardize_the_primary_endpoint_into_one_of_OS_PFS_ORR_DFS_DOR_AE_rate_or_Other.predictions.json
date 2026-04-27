@@ -1,0 +1,172 @@
+{
+  "item_id": "gen_row_750",
+  "csv_row_number": 750,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Pembrolizumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_750_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Pembrolizumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Other"
+    }
+  ]
+}

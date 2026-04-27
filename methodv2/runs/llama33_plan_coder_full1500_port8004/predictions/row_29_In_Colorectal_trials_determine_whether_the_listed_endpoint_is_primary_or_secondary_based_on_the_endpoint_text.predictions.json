@@ -1,0 +1,20 @@
+{
+  "item_id": "row_29",
+  "csv_row_number": 21,
+  "question": "In Colorectal trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_29_In_Colorectal_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "primary"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_267",
+  "csv_row_number": 205,
+  "question": "In Esophageal/GEJ Phase 3 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_267_In_Esophageal_GEJ_Phase_3_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 80,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "OS"
+    }
+  ]
+}

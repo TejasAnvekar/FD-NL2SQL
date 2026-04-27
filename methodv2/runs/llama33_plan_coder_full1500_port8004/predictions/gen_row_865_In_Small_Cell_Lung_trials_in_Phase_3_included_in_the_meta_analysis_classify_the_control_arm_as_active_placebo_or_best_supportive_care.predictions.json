@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_865",
+  "csv_row_number": 865,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_865_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 87,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    }
+  ]
+}

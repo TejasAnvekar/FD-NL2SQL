@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_761",
+  "csv_row_number": 761,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_761_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_with_chemotherapy_control_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 63,
+      "answer": "Investigator'S Choice Chemotherapy"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Investigator'S Choice Chemotherapy"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Investigator'S Choice Chemotherapy"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Investigator'S Choice Chemotherapy"
+    }
+  ]
+}

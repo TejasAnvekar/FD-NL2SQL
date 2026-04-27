@@ -1,0 +1,92 @@
+{
+  "item_id": "row_130",
+  "csv_row_number": 104,
+  "question": "For Ipilimumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_130_For_Ipilimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "small"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "large"
+    }
+  ]
+}

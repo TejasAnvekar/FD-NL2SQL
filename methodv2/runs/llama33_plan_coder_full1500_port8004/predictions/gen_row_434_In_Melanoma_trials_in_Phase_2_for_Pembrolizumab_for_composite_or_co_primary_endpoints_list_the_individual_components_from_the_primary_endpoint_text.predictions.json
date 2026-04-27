@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_434",
+  "csv_row_number": 434,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_434_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": []
+    },
+    {
+      "table_row_id": 63,
+      "answer": []
+    },
+    {
+      "table_row_id": 64,
+      "answer": []
+    },
+    {
+      "table_row_id": 65,
+      "answer": []
+    },
+    {
+      "table_row_id": 66,
+      "answer": []
+    },
+    {
+      "table_row_id": 70,
+      "answer": []
+    },
+    {
+      "table_row_id": 71,
+      "answer": []
+    },
+    {
+      "table_row_id": 72,
+      "answer": []
+    }
+  ]
+}

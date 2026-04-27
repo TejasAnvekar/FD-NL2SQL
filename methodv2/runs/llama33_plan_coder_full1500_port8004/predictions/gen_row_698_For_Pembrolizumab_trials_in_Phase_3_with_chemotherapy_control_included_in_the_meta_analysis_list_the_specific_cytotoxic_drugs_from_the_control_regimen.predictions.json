@@ -1,0 +1,22 @@
+{
+  "item_id": "gen_row_698",
+  "csv_row_number": 698,
+  "question": "For Pembrolizumab trials in Phase 3 with chemotherapy control included in the meta-analysis, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_698_For_Pembrolizumab_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": [
+        "docetaxel",
+        "paclitaxel",
+        "vinflunine"
+      ]
+    },
+    {
+      "table_row_id": 11,
+      "answer": [
+        "paclitaxel"
+      ]
+    }
+  ]
+}

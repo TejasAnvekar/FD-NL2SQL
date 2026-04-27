@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1375",
+  "csv_row_number": 1375,
+  "question": "In Head and Neck trials in Phase 3 for Nivolumab, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1375_In_Head_and_Neck_trials_in_Phase_3_for_Nivolumab_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 13,
+      "answer": ""
+    },
+    {
+      "table_row_id": 14,
+      "answer": ""
+    },
+    {
+      "table_row_id": 78,
+      "answer": "ATTRACTION-2"
+    }
+  ]
+}

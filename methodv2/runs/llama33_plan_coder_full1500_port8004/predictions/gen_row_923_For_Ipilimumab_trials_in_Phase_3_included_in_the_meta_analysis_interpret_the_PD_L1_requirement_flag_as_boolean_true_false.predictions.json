@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_923",
+  "csv_row_number": 923,
+  "question": "For Ipilimumab trials in Phase 3 included in the meta-analysis, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_923_For_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    },
+    {
+      "table_row_id": 58,
+      "answer": false
+    },
+    {
+      "table_row_id": 59,
+      "answer": false
+    },
+    {
+      "table_row_id": 60,
+      "answer": false
+    },
+    {
+      "table_row_id": 76,
+      "answer": false
+    },
+    {
+      "table_row_id": 77,
+      "answer": false
+    },
+    {
+      "table_row_id": 93,
+      "answer": false
+    },
+    {
+      "table_row_id": 117,
+      "answer": false
+    },
+    {
+      "table_row_id": 118,
+      "answer": false
+    },
+    {
+      "table_row_id": 134,
+      "answer": false
+    }
+  ]
+}

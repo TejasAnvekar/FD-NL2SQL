@@ -1,0 +1,108 @@
+{
+  "item_id": "gen_row_907",
+  "csv_row_number": 907,
+  "question": "For Pembrolizumab trials in Phase 3, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_907_For_Pembrolizumab_trials_in_Phase_3_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Not specified"
+    }
+  ]
+}

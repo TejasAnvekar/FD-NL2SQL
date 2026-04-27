@@ -1,0 +1,72 @@
+{
+  "item_id": "row_58",
+  "csv_row_number": 42,
+  "question": "In Melanoma combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_58_In_Melanoma_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Other"
+    }
+  ]
+}

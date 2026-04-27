@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1062",
+  "csv_row_number": 1062,
+  "question": "For Atezolizumab trials using ICI plus BRAFi+MEKi, identify the BRAF inhibitor used in the regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1062_For_Atezolizumab_trials_using_ICI_plus_BRAFi_MEKi_identify_the_BRAF_inhibitor_used_in_the_regimen",
+  "predictions": [
+    {
+      "table_row_id": 70,
+      "answer": "Dabrafenib"
+    }
+  ]
+}

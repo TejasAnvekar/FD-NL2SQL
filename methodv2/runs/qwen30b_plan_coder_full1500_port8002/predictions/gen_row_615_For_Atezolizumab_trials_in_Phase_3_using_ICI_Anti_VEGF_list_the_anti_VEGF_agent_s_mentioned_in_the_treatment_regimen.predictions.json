@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_615",
+  "csv_row_number": 615,
+  "question": "For Atezolizumab trials in Phase 3 using ICI+Anti-VEGF, list the anti-VEGF agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_615_For_Atezolizumab_trials_in_Phase_3_using_ICI_Anti_VEGF_list_the_anti_VEGF_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 22,
+      "answer": []
+    },
+    {
+      "table_row_id": 109,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1500",
+  "csv_row_number": 1500,
+  "question": "In Non-Small Cell Lung trials for Ipilimumab included in the meta-analysis, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1500_In_Non_Small_Cell_Lung_trials_for_Ipilimumab_included_in_the_meta_analysis_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 24,
+      "answer": false
+    },
+    {
+      "table_row_id": 34,
+      "answer": false
+    }
+  ]
+}

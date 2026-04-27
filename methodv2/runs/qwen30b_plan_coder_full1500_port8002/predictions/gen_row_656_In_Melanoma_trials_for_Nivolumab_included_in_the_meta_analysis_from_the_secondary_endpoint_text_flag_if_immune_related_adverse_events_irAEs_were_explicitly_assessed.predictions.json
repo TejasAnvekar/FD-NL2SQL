@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_656",
+  "csv_row_number": 656,
+  "question": "In Melanoma trials for Nivolumab included in the meta-analysis, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_656_In_Melanoma_trials_for_Nivolumab_included_in_the_meta_analysis_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 61,
+      "answer": false
+    },
+    {
+      "table_row_id": 62,
+      "answer": false
+    },
+    {
+      "table_row_id": 63,
+      "answer": false
+    },
+    {
+      "table_row_id": 64,
+      "answer": false
+    },
+    {
+      "table_row_id": 65,
+      "answer": false
+    },
+    {
+      "table_row_id": 66,
+      "answer": false
+    },
+    {
+      "table_row_id": 67,
+      "answer": false
+    },
+    {
+      "table_row_id": 68,
+      "answer": false
+    },
+    {
+      "table_row_id": 69,
+      "answer": false
+    },
+    {
+      "table_row_id": 71,
+      "answer": false
+    },
+    {
+      "table_row_id": 72,
+      "answer": false
+    },
+    {
+      "table_row_id": 95,
+      "answer": false
+    },
+    {
+      "table_row_id": 96,
+      "answer": false
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "item_id": "gen_row_539",
+  "csv_row_number": 539,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Atezolizumab using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_539_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Atezolizumab_using_combination_therapy_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Other"
+    }
+  ]
+}

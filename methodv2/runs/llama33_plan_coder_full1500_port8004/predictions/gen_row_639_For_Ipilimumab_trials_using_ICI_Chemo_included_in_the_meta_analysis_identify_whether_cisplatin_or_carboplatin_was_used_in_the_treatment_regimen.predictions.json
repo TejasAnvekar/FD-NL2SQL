@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_639",
+  "csv_row_number": 639,
+  "question": "For Ipilimumab trials using ICI+Chemo included in the meta-analysis, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_639_For_Ipilimumab_trials_using_ICI_Chemo_included_in_the_meta_analysis_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "Neither"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 107,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    }
+  ]
+}

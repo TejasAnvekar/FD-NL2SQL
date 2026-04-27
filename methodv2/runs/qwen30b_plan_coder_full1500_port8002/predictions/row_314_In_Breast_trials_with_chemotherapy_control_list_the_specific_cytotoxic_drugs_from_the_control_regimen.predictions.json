@@ -1,0 +1,24 @@
+{
+  "item_id": "row_314",
+  "csv_row_number": 237,
+  "question": "In Breast trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_314_In_Breast_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 122,
+      "answer": []
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    }
+  ]
+}

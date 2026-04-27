@@ -1,0 +1,12 @@
+{
+  "item_id": "row_125",
+  "csv_row_number": 100,
+  "question": "In Hodgkin Lymphoma trials, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_125_In_Hodgkin_Lymphoma_trials_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": false
+    }
+  ]
+}

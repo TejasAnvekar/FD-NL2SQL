@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1203",
+  "csv_row_number": 1203,
+  "question": "For Atezolizumab trials in Phase 2, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1203_For_Atezolizumab_trials_in_Phase_2_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 16,
+      "answer": "https://pubmed.gov/29867230"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "https://pubmed.gov/29867230"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "row_280",
+  "csv_row_number": 216,
+  "question": "In Small Cell Lung trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_280_In_Small_Cell_Lung_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "≥3-arm"
+    }
+  ]
+}

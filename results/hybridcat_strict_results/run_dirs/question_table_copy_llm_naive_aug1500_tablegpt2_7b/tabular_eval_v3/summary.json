@@ -1,0 +1,18 @@
+{
+  "run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/results/hybridcat_strict_results/run_dirs/question_table_copy_llm_naive_aug1500_tablegpt2_7b",
+  "question_dir_count": 1500,
+  "evaluated_count": 1500,
+  "missing_pred_count": 0,
+  "missing_gt_count": 0,
+  "avg_pred_row_count": 33.69533333333333,
+  "avg_gt_row_count": 4.946,
+  "avg_column_alignment_score": 0.8905036707759529,
+  "avg_precision": 0.4026125731003565,
+  "avg_recall": 0.7454566803642877,
+  "avg_f1": 0.4402526166589245,
+  "avg_row_jaccard": 0.33782552503350244,
+  "avg_chrf": 78.80100541980751,
+  "avg_rouge_l_f1": 0.8200894379333028,
+  "avg_bertscore_f1": 0.0,
+  "exact_table_match_rate": 0.006298110566829951
+}

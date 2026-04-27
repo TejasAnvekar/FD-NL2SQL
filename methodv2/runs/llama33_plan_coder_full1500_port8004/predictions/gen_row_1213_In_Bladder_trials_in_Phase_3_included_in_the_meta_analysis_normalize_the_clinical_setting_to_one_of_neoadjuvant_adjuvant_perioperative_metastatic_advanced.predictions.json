@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1213",
+  "csv_row_number": 1213,
+  "question": "In Bladder trials in Phase 3 included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1213_In_Bladder_trials_in_Phase_3_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

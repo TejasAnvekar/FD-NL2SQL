@@ -1,0 +1,108 @@
+{
+  "item_id": "gen_row_1054",
+  "csv_row_number": 1054,
+  "question": "In Non-Small Cell Lung trials in Phase 2 included in the meta-analysis, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1054_In_Non_Small_Cell_Lung_trials_in_Phase_2_included_in_the_meta_analysis_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "CTLA-4"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "CTLA-4"
+    },
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 28,
+      "answer": ""
+    },
+    {
+      "table_row_id": 29,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 33,
+      "answer": ""
+    },
+    {
+      "table_row_id": 34,
+      "answer": ""
+    },
+    {
+      "table_row_id": 35,
+      "answer": ""
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 45,
+      "answer": ""
+    },
+    {
+      "table_row_id": 47,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 89,
+      "answer": ""
+    },
+    {
+      "table_row_id": 99,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

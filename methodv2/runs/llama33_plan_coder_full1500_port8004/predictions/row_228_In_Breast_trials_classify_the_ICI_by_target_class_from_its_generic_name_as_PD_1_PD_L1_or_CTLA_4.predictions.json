@@ -1,0 +1,48 @@
+{
+  "item_id": "row_228",
+  "csv_row_number": 175,
+  "question": "In Breast trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_228_In_Breast_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "PD-L1"
+    }
+  ]
+}

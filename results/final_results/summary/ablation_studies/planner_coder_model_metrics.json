@@ -1,0 +1,32 @@
+[
+  {
+    "method_family": "planner_coder",
+    "subfamily": "planner_coder",
+    "run_name": "gptoss20b_plan_coder_full1500_port8000",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000",
+    "question_dir_count": "1500",
+    "table_f1": "0.14557068397864276",
+    "rouge_l_f1": "0.0",
+    "chrf": "0.0"
+  },
+  {
+    "method_family": "planner_coder",
+    "subfamily": "planner_coder",
+    "run_name": "llama33_plan_coder_full1500_port8004_merged",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_merged",
+    "question_dir_count": "1500",
+    "table_f1": "0.6339804048304848",
+    "rouge_l_f1": "0.0",
+    "chrf": "0.0"
+  },
+  {
+    "method_family": "planner_coder",
+    "subfamily": "planner_coder",
+    "run_name": "qwen30b_plan_coder_full1500_port8002",
+    "source_run_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002",
+    "question_dir_count": "1500",
+    "table_f1": "0.4892477683551278",
+    "rouge_l_f1": "0.0",
+    "chrf": "0.0"
+  }
+]

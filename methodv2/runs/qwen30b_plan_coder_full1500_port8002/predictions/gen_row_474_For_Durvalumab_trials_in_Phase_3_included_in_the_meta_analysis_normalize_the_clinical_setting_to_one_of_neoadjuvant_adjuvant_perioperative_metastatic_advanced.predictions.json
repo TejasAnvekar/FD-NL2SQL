@@ -1,0 +1,80 @@
+{
+  "item_id": "gen_row_474",
+  "csv_row_number": 474,
+  "question": "For Durvalumab trials in Phase 3 included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_474_For_Durvalumab_trials_in_Phase_3_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "unknown"
+    }
+  ]
+}

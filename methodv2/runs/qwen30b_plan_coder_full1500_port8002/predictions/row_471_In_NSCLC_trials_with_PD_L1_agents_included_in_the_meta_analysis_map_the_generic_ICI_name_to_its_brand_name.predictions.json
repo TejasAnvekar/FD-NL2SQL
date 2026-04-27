@@ -1,0 +1,141 @@
+{
+  "item_id": "row_471",
+  "csv_row_number": 346,
+  "question": "In NSCLC trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_471_In_NSCLC_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 28,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 29,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 30,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 31,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 37,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 40,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 41,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 46,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 48,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 49,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 56,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 89,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 90,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 91,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 116,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 132,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 143,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    },
+    {
+      "table_row_id": 144,
+      "answer": {
+        "brand_name": null,
+        "generic_ici": ""
+      }
+    }
+  ]
+}

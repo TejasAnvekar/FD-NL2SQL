@@ -1,0 +1,1757 @@
+{
+  "item_id": "gen_row_393",
+  "csv_row_number": 393,
+  "question": "In Melanoma trials in Phase 3 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_393_In_Melanoma_trials_in_Phase_3_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 2,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 3,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 4,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 5,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 6,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 7,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 8,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 9,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 10,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 11,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 12,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 13,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 14,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 15,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 16,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 17,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 18,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 19,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 20,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 22,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 26,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 27,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 28,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 29,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 30,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 31,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 32,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 33,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 34,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 35,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 37,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 39,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 40,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 41,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 43,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 47,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 48,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 49,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 50,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 51,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 52,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 53,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 54,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 55,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 56,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 58,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 59,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 60,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 61,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 62,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 63,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 64,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 65,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 66,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 67,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 68,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 69,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 72,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 73,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 74,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 75,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 76,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 77,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 78,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 79,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 80,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 81,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 83,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 84,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 85,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 87,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 88,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 89,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 90,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 91,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 93,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 94,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 95,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 96,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 97,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 99,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 100,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 103,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 104,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 106,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 107,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 108,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 109,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 110,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 111,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 112,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 114,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 116,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 117,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 118,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 119,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 120,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 123,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 125,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 126,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 127,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 128,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 129,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 130,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 133,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 134,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 135,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 138,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 139,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 140,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 141,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 142,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 143,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 144,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 146,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 147,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 149,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 150,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 151,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 152,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 153,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 154,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 155,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 156,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 157,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 158,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    },
+    {
+      "table_row_id": 159,
+      "answer": [
+        "carboplatin+paclitaxel",
+        "Dacarbazine",
+        "Gp100 vaccine",
+        "Placebo",
+        "Placebo+Vemurafenib+Cobimetinib",
+        "Temozolomide"
+      ]
+    }
+  ]
+}

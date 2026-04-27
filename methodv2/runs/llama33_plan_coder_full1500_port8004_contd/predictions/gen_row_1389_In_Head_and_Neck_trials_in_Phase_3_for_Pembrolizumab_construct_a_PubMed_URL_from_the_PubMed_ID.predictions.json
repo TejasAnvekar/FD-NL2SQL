@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1389",
+  "csv_row_number": 1389,
+  "question": "In Head and Neck trials in Phase 3 for Pembrolizumab, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1389_In_Head_and_Neck_trials_in_Phase_3_for_Pembrolizumab_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "https://pubmed.gov/30509740"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "https://pubmed.gov/31679945"
+    }
+  ]
+}

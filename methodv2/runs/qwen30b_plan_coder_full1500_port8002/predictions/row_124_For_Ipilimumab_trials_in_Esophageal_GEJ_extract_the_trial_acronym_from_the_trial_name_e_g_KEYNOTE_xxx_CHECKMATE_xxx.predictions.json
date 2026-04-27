@@ -1,0 +1,16 @@
+{
+  "item_id": "row_124",
+  "csv_row_number": 99,
+  "question": "For Ipilimumab trials in Esophageal/GEJ, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_124_For_Ipilimumab_trials_in_Esophageal_GEJ_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 80,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "gen_row_894",
+  "csv_row_number": 894,
+  "question": "For Durvalumab, Tremelimumab trials in Phase 3 included in the meta-analysis, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_894_For_Durvalumab_Tremelimumab_trials_in_Phase_3_included_in_the_meta_analysis_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": ""
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": ""
+    },
+    {
+      "table_row_id": 83,
+      "answer": ""
+    },
+    {
+      "table_row_id": 91,
+      "answer": ""
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 110,
+      "answer": ""
+    },
+    {
+      "table_row_id": 111,
+      "answer": ""
+    },
+    {
+      "table_row_id": 112,
+      "answer": ""
+    },
+    {
+      "table_row_id": 123,
+      "answer": ""
+    },
+    {
+      "table_row_id": 124,
+      "answer": ""
+    }
+  ]
+}

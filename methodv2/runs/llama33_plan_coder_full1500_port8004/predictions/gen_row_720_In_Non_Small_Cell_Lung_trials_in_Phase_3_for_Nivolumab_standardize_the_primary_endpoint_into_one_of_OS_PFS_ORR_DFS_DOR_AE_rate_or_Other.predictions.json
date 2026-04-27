@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_720",
+  "csv_row_number": 720,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_720_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "OS"
+    }
+  ]
+}

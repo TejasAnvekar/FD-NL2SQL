@@ -1,0 +1,20 @@
+{
+  "item_id": "row_408",
+  "csv_row_number": 303,
+  "question": "In Bladder trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_408_In_Bladder_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "Keytruda"
+    }
+  ]
+}

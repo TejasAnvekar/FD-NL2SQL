@@ -1,0 +1,416 @@
+{
+  "item_id": "row_398",
+  "csv_row_number": 293,
+  "question": "In Melanoma trials, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_398_In_Melanoma_trials_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "CTLA-4"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "PD-L1"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "unknown"
+    }
+  ]
+}

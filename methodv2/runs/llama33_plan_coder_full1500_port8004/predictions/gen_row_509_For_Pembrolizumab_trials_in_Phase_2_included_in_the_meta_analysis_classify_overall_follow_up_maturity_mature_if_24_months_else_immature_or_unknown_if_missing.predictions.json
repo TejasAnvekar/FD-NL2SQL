@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_509",
+  "csv_row_number": 509,
+  "question": "For Pembrolizumab trials in Phase 2 included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_509_For_Pembrolizumab_trials_in_Phase_2_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "immature"
+    }
+  ]
+}

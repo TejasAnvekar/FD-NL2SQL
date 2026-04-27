@@ -1,0 +1,188 @@
+{
+  "item_id": "gen_row_1202",
+  "csv_row_number": 1202,
+  "question": "In Phase 2 trials using ICI+Chemo included in the meta-analysis, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1202_In_Phase_2_trials_using_ICI_Chemo_included_in_the_meta_analysis_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": [
+        "cyclophosphamide",
+        "epirubicin",
+        "nab"
+      ]
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "concurrent"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "phased"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": []
+    },
+    {
+      "table_row_id": 39,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": []
+    },
+    {
+      "table_row_id": 43,
+      "answer": []
+    },
+    {
+      "table_row_id": 44,
+      "answer": []
+    },
+    {
+      "table_row_id": 45,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 79,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    },
+    {
+      "table_row_id": 98,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 119,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    },
+    {
+      "table_row_id": 122,
+      "answer": []
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    },
+    {
+      "table_row_id": 127,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 139,
+      "answer": []
+    },
+    {
+      "table_row_id": 140,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 146,
+      "answer": []
+    },
+    {
+      "table_row_id": 147,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    },
+    {
+      "table_row_id": 154,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 156,
+      "answer": []
+    },
+    {
+      "table_row_id": 157,
+      "answer": []
+    },
+    {
+      "table_row_id": 159,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_554",
+  "csv_row_number": 554,
+  "question": "In Colorectal trials using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_554_In_Colorectal_trials_using_ICI_MEKi_list_the_MEK_inhibitor_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": []
+    }
+  ]
+}

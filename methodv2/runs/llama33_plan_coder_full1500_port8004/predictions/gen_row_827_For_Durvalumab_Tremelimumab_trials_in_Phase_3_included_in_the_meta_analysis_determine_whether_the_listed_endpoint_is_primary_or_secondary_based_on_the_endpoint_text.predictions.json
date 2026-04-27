@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_827",
+  "csv_row_number": 827,
+  "question": "For Durvalumab, Tremelimumab trials in Phase 3 included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_827_For_Durvalumab_Tremelimumab_trials_in_Phase_3_included_in_the_meta_analysis_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "unknown"
+    }
+  ]
+}

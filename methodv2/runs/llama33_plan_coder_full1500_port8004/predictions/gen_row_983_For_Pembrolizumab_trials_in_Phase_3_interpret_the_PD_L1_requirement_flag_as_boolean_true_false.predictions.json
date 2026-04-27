@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_983",
+  "csv_row_number": 983,
+  "question": "For Pembrolizumab trials in Phase 3, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_983_For_Pembrolizumab_trials_in_Phase_3_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": false
+    },
+    {
+      "table_row_id": 11,
+      "answer": false
+    },
+    {
+      "table_row_id": 12,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": false
+    },
+    {
+      "table_row_id": 29,
+      "answer": false
+    },
+    {
+      "table_row_id": 30,
+      "answer": false
+    },
+    {
+      "table_row_id": 52,
+      "answer": true
+    },
+    {
+      "table_row_id": 54,
+      "answer": true
+    },
+    {
+      "table_row_id": 79,
+      "answer": false
+    },
+    {
+      "table_row_id": 98,
+      "answer": false
+    },
+    {
+      "table_row_id": 116,
+      "answer": true
+    },
+    {
+      "table_row_id": 121,
+      "answer": true
+    },
+    {
+      "table_row_id": 131,
+      "answer": false
+    }
+  ]
+}

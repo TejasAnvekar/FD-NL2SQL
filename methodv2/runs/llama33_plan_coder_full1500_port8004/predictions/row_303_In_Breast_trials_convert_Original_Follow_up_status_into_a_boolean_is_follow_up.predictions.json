@@ -1,0 +1,48 @@
+{
+  "item_id": "row_303",
+  "csv_row_number": 231,
+  "question": "In Breast trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_303_In_Breast_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": false
+    },
+    {
+      "table_row_id": 5,
+      "answer": false
+    },
+    {
+      "table_row_id": 81,
+      "answer": false
+    },
+    {
+      "table_row_id": 84,
+      "answer": true
+    },
+    {
+      "table_row_id": 92,
+      "answer": false
+    },
+    {
+      "table_row_id": 119,
+      "answer": false
+    },
+    {
+      "table_row_id": 121,
+      "answer": false
+    },
+    {
+      "table_row_id": 122,
+      "answer": false
+    },
+    {
+      "table_row_id": 125,
+      "answer": false
+    },
+    {
+      "table_row_id": 127,
+      "answer": false
+    }
+  ]
+}

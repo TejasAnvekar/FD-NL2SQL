@@ -1,0 +1,12 @@
+{
+  "item_id": "row_247",
+  "csv_row_number": 189,
+  "question": "For Cemiplimab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_247_For_Cemiplimab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 155,
+      "answer": "late"
+    }
+  ]
+}

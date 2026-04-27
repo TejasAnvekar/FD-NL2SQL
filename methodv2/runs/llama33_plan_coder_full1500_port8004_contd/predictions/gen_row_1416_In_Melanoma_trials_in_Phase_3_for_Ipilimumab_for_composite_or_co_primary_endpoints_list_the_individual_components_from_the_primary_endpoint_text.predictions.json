@@ -1,0 +1,50 @@
+{
+  "item_id": "gen_row_1416",
+  "csv_row_number": 1416,
+  "question": "In Melanoma trials in Phase 3 for Ipilimumab, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1416_In_Melanoma_trials_in_Phase_3_for_Ipilimumab_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 59,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 60,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 67,
+      "answer": [
+        "pfs"
+      ]
+    },
+    {
+      "table_row_id": 93,
+      "answer": [
+        "osrfs"
+      ]
+    },
+    {
+      "table_row_id": 117,
+      "answer": [
+        "os"
+      ]
+    },
+    {
+      "table_row_id": 142,
+      "answer": [
+        "pfs"
+      ]
+    }
+  ]
+}

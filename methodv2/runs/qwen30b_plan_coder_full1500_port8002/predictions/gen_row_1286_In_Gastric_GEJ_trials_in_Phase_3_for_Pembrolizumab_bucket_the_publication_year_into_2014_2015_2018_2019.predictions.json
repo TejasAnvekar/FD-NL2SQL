@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_1286",
+  "csv_row_number": 1286,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1286_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": ""
+    },
+    {
+      "table_row_id": 78,
+      "answer": ""
+    },
+    {
+      "table_row_id": 120,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_991",
+  "csv_row_number": 991,
+  "question": "For Ipilimumab trials in Phase 3, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_991_For_Ipilimumab_trials_in_Phase_3_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": "CA184-156"
+    },
+    {
+      "table_row_id": 58,
+      "answer": ""
+    },
+    {
+      "table_row_id": 67,
+      "answer": ""
+    },
+    {
+      "table_row_id": 76,
+      "answer": "CA184-043"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "CA184-095"
+    },
+    {
+      "table_row_id": 93,
+      "answer": ""
+    },
+    {
+      "table_row_id": 94,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 117,
+      "answer": "MDX010-20"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "MDX010-20"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "CA184-043"
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_719",
+  "csv_row_number": 719,
+  "question": "In Non-Small Cell Lung trials in Phase 2 for Pembrolizumab, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_719_In_Non_Small_Cell_Lung_trials_in_Phase_2_for_Pembrolizumab_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 42,
+      "answer": ""
+    },
+    {
+      "table_row_id": 44,
+      "answer": ""
+    },
+    {
+      "table_row_id": 52,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": ""
+    }
+  ]
+}

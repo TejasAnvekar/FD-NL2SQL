@@ -302,6 +302,12 @@ def evaluate_run_dir(
             }
         )
 
+    exact_match_values = [
+        1.0 if bool(row.get("exact_table_match")) else 0.0
+        for row in question_rows
+        if row.get("error") in (None, "", "EMPTY_PRED_COLUMNS")
+    ]
+
     summary = {
         "run_dir": str(run_dir),
         **counters,
@@ -315,11 +321,7 @@ def evaluate_run_dir(
         "avg_chrf": avg_numeric(question_rows, "chrf"),
         "avg_rouge_l_f1": avg_numeric(question_rows, "rouge_l_f1"),
         "avg_bertscore_f1": avg_numeric(question_rows, "bertscore_f1"),
-        "exact_table_match_rate": mean(
-            1.0 if bool(row.get("exact_table_match")) else 0.0
-            for row in question_rows
-            if row.get("error") in (None, "", "EMPTY_PRED_COLUMNS")
-        ) if question_rows else 0.0,
+        "exact_table_match_rate": mean(exact_match_values) if exact_match_values else 0.0,
     }
     return {"summary": summary, "question_rows": question_rows}
 

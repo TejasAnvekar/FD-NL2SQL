@@ -1,0 +1,9 @@
+{
+  "source_summary": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/results_hub_aug1500_20260415/all_methods_summary_predonly_strict_with_merged_ehragent_and_data2_planexec.csv",
+  "all_methods_count": 25,
+  "same_planner_reasoner_count": 3,
+  "planner_coder_ablation_count": 3,
+  "all_methods_csv": "/mnt/data1/srchowd3/FD-NL2SQL/results/final_results/all_methods_table_metrics.csv",
+  "same_planner_reasoner_csv": "/mnt/data1/srchowd3/FD-NL2SQL/results/final_results/ablation_studies/same_planner_reasoner_metrics.csv",
+  "planner_coder_ablation_csv": "/mnt/data1/srchowd3/FD-NL2SQL/results/final_results/ablation_studies/planner_coder_model_metrics.csv"
+}

@@ -1,0 +1,76 @@
+{
+  "item_id": "gen_row_517",
+  "csv_row_number": 517,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Nivolumab with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_517_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Nivolumab_with_chemotherapy_control_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "docetaxel"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "docetaxel"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "docetaxel"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "carboplatin, pemetrexed"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "carboplatin, paclitaxel, nab-paclitaxel"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "chemotherapy"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "chemotherapy"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "chemotherapy"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "carboplatin, paclitaxel, pemetrexed"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "docetaxel"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "gemcitabine, vinorelbine, erlotinib"
+    },
+    {
+      "table_row_id": 99,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": "carboplatin, paclitaxel, nab-paclitaxel"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "gemcitabine, carboplatin, cisplatin"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "carboplatin, pemetrexed, cisplatin"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "chemotherapy"
+    }
+  ]
+}

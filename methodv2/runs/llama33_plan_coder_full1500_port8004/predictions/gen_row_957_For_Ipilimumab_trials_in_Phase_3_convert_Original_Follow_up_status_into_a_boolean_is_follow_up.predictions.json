@@ -1,0 +1,52 @@
+{
+  "item_id": "gen_row_957",
+  "csv_row_number": 957,
+  "question": "For Ipilimumab trials in Phase 3, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_957_For_Ipilimumab_trials_in_Phase_3_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    },
+    {
+      "table_row_id": 15,
+      "answer": false
+    },
+    {
+      "table_row_id": 58,
+      "answer": false
+    },
+    {
+      "table_row_id": 59,
+      "answer": false
+    },
+    {
+      "table_row_id": 60,
+      "answer": false
+    },
+    {
+      "table_row_id": 61,
+      "answer": false
+    },
+    {
+      "table_row_id": 76,
+      "answer": false
+    },
+    {
+      "table_row_id": 77,
+      "answer": false
+    },
+    {
+      "table_row_id": 97,
+      "answer": false
+    },
+    {
+      "table_row_id": 101,
+      "answer": false
+    },
+    {
+      "table_row_id": 134,
+      "answer": true
+    }
+  ]
+}

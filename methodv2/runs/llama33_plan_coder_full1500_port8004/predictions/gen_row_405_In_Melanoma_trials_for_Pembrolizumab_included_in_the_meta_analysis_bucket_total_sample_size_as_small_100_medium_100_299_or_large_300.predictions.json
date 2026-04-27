@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_405",
+  "csv_row_number": 405,
+  "question": "In Melanoma trials for Pembrolizumab included in the meta-analysis, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_405_In_Melanoma_trials_for_Pembrolizumab_included_in_the_meta_analysis_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "large"
+    }
+  ]
+}

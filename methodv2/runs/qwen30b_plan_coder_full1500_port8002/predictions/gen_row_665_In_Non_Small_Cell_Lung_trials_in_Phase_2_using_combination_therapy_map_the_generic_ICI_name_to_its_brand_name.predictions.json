@@ -1,0 +1,7 @@
+{
+  "item_id": "gen_row_665",
+  "csv_row_number": 665,
+  "question": "In Non-Small Cell Lung trials in Phase 2 using combination therapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_665_In_Non_Small_Cell_Lung_trials_in_Phase_2_using_combination_therapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": []
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_1425",
+  "csv_row_number": 1425,
+  "question": "In Non-Small Cell Lung trials for Durvalumab included in the meta-analysis, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1425_In_Non_Small_Cell_Lung_trials_for_Durvalumab_included_in_the_meta_analysis_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advan",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "neoadjuvant"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "neoadjuvant"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

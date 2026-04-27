@@ -1,0 +1,203 @@
+{
+  "item_id": "row_170",
+  "csv_row_number": 134,
+  "question": "For Pembrolizumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_170_For_Pembrolizumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 38,
+      "answer": [
+        "carboplatin",
+        "pemetrexed"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "carboplatin",
+        "paclitaxel/nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 52,
+      "answer": []
+    },
+    {
+      "table_row_id": 67,
+      "answer": []
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "dabrafenib",
+        "trametinib"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "5-fluorouracil",
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 104,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 116,
+      "answer": []
+    },
+    {
+      "table_row_id": 119,
+      "answer": [
+        "eribulin"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "5-fu",
+        "capecitabine",
+        "cisplatin"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "carboplatin",
+        "nab-paclitaxel/paclitaxel/gemcitabine"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": []
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    },
+    {
+      "table_row_id": 127,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "axitinib"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "dabrafenib",
+        "trametinib"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": []
+    },
+    {
+      "table_row_id": 138,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "lenvatinib"
+      ]
+    },
+    {
+      "table_row_id": 146,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    },
+    {
+      "table_row_id": 154,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 157,
+      "answer": []
+    },
+    {
+      "table_row_id": 159,
+      "answer": []
+    }
+  ]
+}

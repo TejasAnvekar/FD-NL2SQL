@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_709",
+  "csv_row_number": 709,
+  "question": "In Non-Small Cell Lung trials in Phase 2 for Pembrolizumab, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_709_In_Non_Small_Cell_Lung_trials_in_Phase_2_for_Pembrolizumab_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "https://pubmed.gov/26712084"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "https://pubmed.gov/26712084"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "https://pubmed.gov/27745820"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "https://pubmed.gov/29658856"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "https://pubmed.gov/30280635"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "https://pubmed.gov/30955977"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "https://pubmed.gov/27718847"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "item_id": "gen_row_1208",
+  "csv_row_number": 1208,
+  "question": "For Atezolizumab trials in Phase 2, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1208_For_Atezolizumab_trials_in_Phase_2_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 16,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 23,
+      "answer": ""
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 33,
+      "answer": ""
+    },
+    {
+      "table_row_id": 53,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    },
+    {
+      "table_row_id": 119,
+      "answer": ""
+    },
+    {
+      "table_row_id": 120,
+      "answer": ""
+    },
+    {
+      "table_row_id": 121,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": ""
+    },
+    {
+      "table_row_id": 139,
+      "answer": ""
+    },
+    {
+      "table_row_id": 140,
+      "answer": ""
+    },
+    {
+      "table_row_id": 143,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 144,
+      "answer": ""
+    },
+    {
+      "table_row_id": 151,
+      "answer": ""
+    },
+    {
+      "table_row_id": 154,
+      "answer": ""
+    },
+    {
+      "table_row_id": 155,
+      "answer": ""
+    },
+    {
+      "table_row_id": 156,
+      "answer": ""
+    },
+    {
+      "table_row_id": 157,
+      "answer": ""
+    },
+    {
+      "table_row_id": 158,
+      "answer": ""
+    },
+    {
+      "table_row_id": 159,
+      "answer": ""
+    }
+  ]
+}

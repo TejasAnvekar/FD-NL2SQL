@@ -1,0 +1,328 @@
+{
+  "item_id": "row_219",
+  "csv_row_number": 168,
+  "question": "In Esophageal/GEJ studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_219_In_Esophageal_GEJ_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 80,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 85,
+      "answer": []
+    },
+    {
+      "table_row_id": 86,
+      "answer": []
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    },
+    {
+      "table_row_id": 88,
+      "answer": []
+    },
+    {
+      "table_row_id": 89,
+      "answer": []
+    },
+    {
+      "table_row_id": 90,
+      "answer": []
+    },
+    {
+      "table_row_id": 91,
+      "answer": []
+    },
+    {
+      "table_row_id": 92,
+      "answer": []
+    },
+    {
+      "table_row_id": 93,
+      "answer": []
+    },
+    {
+      "table_row_id": 94,
+      "answer": []
+    },
+    {
+      "table_row_id": 95,
+      "answer": []
+    },
+    {
+      "table_row_id": 96,
+      "answer": []
+    },
+    {
+      "table_row_id": 97,
+      "answer": []
+    },
+    {
+      "table_row_id": 98,
+      "answer": []
+    },
+    {
+      "table_row_id": 99,
+      "answer": []
+    },
+    {
+      "table_row_id": 100,
+      "answer": []
+    },
+    {
+      "table_row_id": 101,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 104,
+      "answer": []
+    },
+    {
+      "table_row_id": 105,
+      "answer": []
+    },
+    {
+      "table_row_id": 106,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 109,
+      "answer": []
+    },
+    {
+      "table_row_id": 110,
+      "answer": []
+    },
+    {
+      "table_row_id": 111,
+      "answer": []
+    },
+    {
+      "table_row_id": 112,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 114,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 116,
+      "answer": []
+    },
+    {
+      "table_row_id": 117,
+      "answer": []
+    },
+    {
+      "table_row_id": 118,
+      "answer": []
+    },
+    {
+      "table_row_id": 119,
+      "answer": []
+    },
+    {
+      "table_row_id": 120,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    },
+    {
+      "table_row_id": 122,
+      "answer": []
+    },
+    {
+      "table_row_id": 123,
+      "answer": []
+    },
+    {
+      "table_row_id": 124,
+      "answer": []
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    },
+    {
+      "table_row_id": 126,
+      "answer": []
+    },
+    {
+      "table_row_id": 127,
+      "answer": []
+    },
+    {
+      "table_row_id": 128,
+      "answer": []
+    },
+    {
+      "table_row_id": 129,
+      "answer": []
+    },
+    {
+      "table_row_id": 130,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 134,
+      "answer": []
+    },
+    {
+      "table_row_id": 135,
+      "answer": []
+    },
+    {
+      "table_row_id": 136,
+      "answer": []
+    },
+    {
+      "table_row_id": 137,
+      "answer": []
+    },
+    {
+      "table_row_id": 138,
+      "answer": []
+    },
+    {
+      "table_row_id": 139,
+      "answer": []
+    },
+    {
+      "table_row_id": 140,
+      "answer": []
+    },
+    {
+      "table_row_id": 141,
+      "answer": []
+    },
+    {
+      "table_row_id": 142,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 146,
+      "answer": []
+    },
+    {
+      "table_row_id": 147,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    },
+    {
+      "table_row_id": 149,
+      "answer": []
+    },
+    {
+      "table_row_id": 150,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    },
+    {
+      "table_row_id": 152,
+      "answer": []
+    },
+    {
+      "table_row_id": 153,
+      "answer": []
+    },
+    {
+      "table_row_id": 154,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 156,
+      "answer": []
+    },
+    {
+      "table_row_id": 157,
+      "answer": []
+    },
+    {
+      "table_row_id": 158,
+      "answer": []
+    },
+    {
+      "table_row_id": 159,
+      "answer": []
+    }
+  ]
+}

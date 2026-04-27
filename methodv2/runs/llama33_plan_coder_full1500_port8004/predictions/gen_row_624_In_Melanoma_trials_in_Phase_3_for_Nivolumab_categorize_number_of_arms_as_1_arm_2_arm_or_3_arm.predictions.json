@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_624",
+  "csv_row_number": 624,
+  "question": "In Melanoma trials in Phase 3 for Nivolumab, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_624_In_Melanoma_trials_in_Phase_3_for_Nivolumab_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 68,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "≥3-arm"
+    }
+  ]
+}

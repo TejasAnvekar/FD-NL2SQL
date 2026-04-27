@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_1464",
+  "csv_row_number": 1464,
+  "question": "In Small Cell Lung trials with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1464_In_Small_Cell_Lung_trials_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Unknown"
+    }
+  ]
+}

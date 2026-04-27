@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_847",
+  "csv_row_number": 847,
+  "question": "In Non-Small Cell Lung trials in Phase 3, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_847_In_Non_Small_Cell_Lung_trials_in_Phase_3_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Not specified"
+    }
+  ]
+}

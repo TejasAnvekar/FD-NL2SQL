@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_783",
+  "csv_row_number": 783,
+  "question": "For Atezolizumab trials in Phase 3, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_783_For_Atezolizumab_trials_in_Phase_3_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": ""
+    },
+    {
+      "table_row_id": 4,
+      "answer": ""
+    },
+    {
+      "table_row_id": 6,
+      "answer": ""
+    },
+    {
+      "table_row_id": 7,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": ""
+    },
+    {
+      "table_row_id": 40,
+      "answer": ""
+    },
+    {
+      "table_row_id": 41,
+      "answer": ""
+    },
+    {
+      "table_row_id": 43,
+      "answer": ""
+    },
+    {
+      "table_row_id": 45,
+      "answer": ""
+    },
+    {
+      "table_row_id": 46,
+      "answer": ""
+    },
+    {
+      "table_row_id": 55,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    },
+    {
+      "table_row_id": 102,
+      "answer": ""
+    },
+    {
+      "table_row_id": 103,
+      "answer": ""
+    }
+  ]
+}

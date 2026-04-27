@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_391",
+  "csv_row_number": 391,
+  "question": "For Atezolizumab trials in Phase 3, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_391_For_Atezolizumab_trials_in_Phase_3_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Carboplatin"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Both cisplatin and carboplatin"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Both cisplatin and carboplatin"
+    }
+  ]
+}

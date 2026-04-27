@@ -1,0 +1,88 @@
+{
+  "item_id": "gen_row_1187",
+  "csv_row_number": 1187,
+  "question": "For Atezolizumab trials in Phase 2, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1187_For_Atezolizumab_trials_in_Phase_2_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Other"
+    }
+  ]
+}

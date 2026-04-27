@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_1248",
+  "csv_row_number": 1248,
+  "question": "In Breast trials using ICI+Chemo, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1248_In_Breast_trials_using_ICI_Chemo_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Not specified"
+    }
+  ]
+}

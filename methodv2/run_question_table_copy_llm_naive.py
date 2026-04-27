@@ -40,7 +40,6 @@ if str(THIS_DIR) not in sys.path:
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from run_embedding_cosine_baselines import avg_numeric, write_csv  # noqa: E402
 from run_hidden_column_sql_eval import make_run_dir, sanitize_name  # noqa: E402
 from utils import is_retryable_provider_error, setup_logger, write_json  # noqa: E402
 
@@ -48,6 +47,32 @@ DEFAULT_MANIFEST = "/mnt/data1/srchowd3/FD-NL2SQL/data/table_question_ground_tru
 DEFAULT_ANNOTATED_CSV = "/mnt/data1/srchowd3/FD-NL2SQL/data/cat3_query_sql_llm(2)_with_key_matches.csv"
 DEFAULT_DB_PATH = "/mnt/data1/srchowd3/FD-NL2SQL/data/database.db"
 DEFAULT_RUN_ROOT = "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs"
+
+
+def avg_numeric(rows: Sequence[Dict[str, Any]], key: str) -> float:
+    values: List[float] = []
+    for row in rows:
+        value = row.get(key)
+        if isinstance(value, (int, float)):
+            values.append(float(value))
+    return (sum(values) / len(values)) if values else 0.0
+
+
+def write_csv(path: Path, rows_out: List[Dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not rows_out:
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            handle.write("")
+        return
+    fieldnames: List[str] = []
+    for row in rows_out:
+        for key in row.keys():
+            if key not in fieldnames:
+                fieldnames.append(key)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows_out)
 
 
 def parse_args() -> argparse.Namespace:

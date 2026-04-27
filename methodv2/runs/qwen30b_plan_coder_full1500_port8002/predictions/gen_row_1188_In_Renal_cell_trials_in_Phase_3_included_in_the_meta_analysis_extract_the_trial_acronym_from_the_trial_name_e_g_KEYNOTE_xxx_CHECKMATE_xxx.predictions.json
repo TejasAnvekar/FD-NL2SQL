@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_1188",
+  "csv_row_number": 1188,
+  "question": "In Renal cell trials in Phase 3 included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1188_In_Renal_cell_trials_in_Phase_3_included_in_the_meta_analysis_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": "CHECKMATE 025"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "CHECKMATE 214"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "CHECKMATE 214"
+    },
+    {
+      "table_row_id": 20,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": "KEYNOTE-426"
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 101,
+      "answer": "CHECKMATE 214"
+    },
+    {
+      "table_row_id": 104,
+      "answer": ""
+    },
+    {
+      "table_row_id": 109,
+      "answer": ""
+    },
+    {
+      "table_row_id": 114,
+      "answer": "CHECKMATE 025"
+    },
+    {
+      "table_row_id": 115,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    }
+  ]
+}

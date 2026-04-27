@@ -1,0 +1,12 @@
+{
+  "item_id": "row_283",
+  "csv_row_number": 218,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_283_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 130,
+      "answer": "unknown"
+    }
+  ]
+}

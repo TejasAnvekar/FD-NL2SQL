@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_549",
+  "csv_row_number": 549,
+  "question": "For Ipilimumab trials in Phase 2 with chemotherapy control included in the meta-analysis, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_549_For_Ipilimumab_trials_in_Phase_2_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 23,
+      "answer": "Paclitaxel+Carboplatin"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Paclitaxel+Carboplatin"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "Paclitaxel+Carboplatin"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Paclitaxel+Carboplatin"
+    },
+    {
+      "table_row_id": 32,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": ""
+    },
+    {
+      "table_row_id": 97,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    }
+  ]
+}

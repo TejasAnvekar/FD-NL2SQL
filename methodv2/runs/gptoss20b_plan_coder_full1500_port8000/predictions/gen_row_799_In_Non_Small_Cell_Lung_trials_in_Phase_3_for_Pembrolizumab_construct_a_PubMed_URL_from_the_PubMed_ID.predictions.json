@@ -1,0 +1,644 @@
+{
+  "item_id": "gen_row_799",
+  "csv_row_number": 799,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Pembrolizumab, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_799_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Pembrolizumab_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29268948/"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28212060/"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31050707/"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30345906/"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31095287/"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31003911/"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31003911/"
+    },
+    {
+      "table_row_id": 8,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28655793/"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28993052/"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30052729/"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29880231/"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30509740/"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27718784/"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29884413/"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26406148/"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29867230/"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29867230/"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29562145/"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31427204/"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30779531/"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30779529/"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31079938/"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/22547592/"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/22547592/"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/22858559/"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/22858559/"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26412456/"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26028407/"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26712084/"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26712084/"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26970723/"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27458307/"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28636851/"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28854067/"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28885881/"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30280658/"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30262187/"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27745820/"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30138764/"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27979383/"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29777823/"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29658856/"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30280641/"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30280635/"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29863955/"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29863955/"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29658845/"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29658845/"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31562796/"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31562796/"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31562796/"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30955977/"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30664989/"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30620668/"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31122901/"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30659987/"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30763730/"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/21639810/"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/20525992/"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/20525992/"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/23295794/"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29658430/"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26115796/"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/26115796/"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28961465/"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28961465/"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27717298/"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/25795410/"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28671856/"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31171878/"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/25399552/"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30422243/"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28729154/"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31327687/"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31327689/"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/24831977/"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/28034081/"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31863227/"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31790344/"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31582355/"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32053137/"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31590988/"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31590988/"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31786121/"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31679945/"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31679945/"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31959349/"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32114502/"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32201234/"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32201234/"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32201234/"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31880964/"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31880964/"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32416781/"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32416781/"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32591464/"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32468956/"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32271377/"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32271377/"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32661118/"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32302702/"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32302702/"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32534646/"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32437507/"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32271672/"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32416780/"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32416780/"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32402160/"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32294530/"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32294530/"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32379280/"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32271354/"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32673417/"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32339648/"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27718847/"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/23942774/"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/23942774/"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32880602/"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32880601/"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32880601/"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33278935/"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32971005/"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32971005/"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32966830/"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32945632/"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33197226/"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33485464/"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32997907/"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33002436/"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33284113/"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33333328/"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33026938/"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32811715/"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32997575/"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33361337/"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33285097/"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33285097/"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32976938/"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33264544/"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32946353/"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/25840693/"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33166718/"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33166718/"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33616314/"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33476593/"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33539946/"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33657295/"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33683919/"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33683919/"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33462450/"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33721562/"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33721560/"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33676601/"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33581821/"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33796020/"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33794205/"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33789008/"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33125944/"
+    }
+  ]
+}

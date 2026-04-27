@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_1036",
+  "csv_row_number": 1036,
+  "question": "For Pembrolizumab trials in Phase 3 using combination therapy included in the meta-analysis, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1036_For_Pembrolizumab_trials_in_Phase_3_using_combination_therapy_included_in_the_meta_analysis_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 38,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": []
+    },
+    {
+      "table_row_id": 44,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 92,
+      "answer": []
+    },
+    {
+      "table_row_id": 98,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "row_262",
+  "csv_row_number": 201,
+  "question": "For Tremelimumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_262_For_Tremelimumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 61,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "unknown"
+    }
+  ]
+}

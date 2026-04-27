@@ -1,0 +1,40 @@
+{
+  "item_id": "row_342",
+  "csv_row_number": 254,
+  "question": "For Pembrolizumab trials in NSCLC, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_342_For_Pembrolizumab_trials_in_NSCLC_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "KEYNOTE-010"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "KEYNOTE-010"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "KEYNOTE-189"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "KEYNOTE-407"
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": "KEYNOTE-024"
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    },
+    {
+      "table_row_id": 133,
+      "answer": "KEYNOTE-181"
+    }
+  ]
+}

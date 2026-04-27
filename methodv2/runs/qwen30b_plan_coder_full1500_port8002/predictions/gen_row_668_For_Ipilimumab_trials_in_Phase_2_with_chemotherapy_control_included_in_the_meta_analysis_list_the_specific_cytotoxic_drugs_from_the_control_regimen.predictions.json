@@ -1,0 +1,46 @@
+{
+  "item_id": "gen_row_668",
+  "csv_row_number": 668,
+  "question": "For Ipilimumab trials in Phase 2 with chemotherapy control included in the meta-analysis, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_668_For_Ipilimumab_trials_in_Phase_2_with_chemotherapy_control_included_in_the_meta_analysis_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": []
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 32,
+      "answer": []
+    },
+    {
+      "table_row_id": 34,
+      "answer": []
+    },
+    {
+      "table_row_id": 93,
+      "answer": []
+    },
+    {
+      "table_row_id": 94,
+      "answer": []
+    },
+    {
+      "table_row_id": 97,
+      "answer": []
+    }
+  ]
+}

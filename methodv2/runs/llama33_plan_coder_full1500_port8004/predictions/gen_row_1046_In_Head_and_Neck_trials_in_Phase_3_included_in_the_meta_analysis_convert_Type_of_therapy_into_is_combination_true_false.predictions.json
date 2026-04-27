@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_1046",
+  "csv_row_number": 1046,
+  "question": "In Head and Neck trials in Phase 3 included in the meta-analysis, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1046_In_Head_and_Neck_trials_in_Phase_3_included_in_the_meta_analysis_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": false
+    },
+    {
+      "table_row_id": 13,
+      "answer": false
+    },
+    {
+      "table_row_id": 14,
+      "answer": false
+    },
+    {
+      "table_row_id": 85,
+      "answer": false
+    },
+    {
+      "table_row_id": 105,
+      "answer": false
+    },
+    {
+      "table_row_id": 110,
+      "answer": false
+    }
+  ]
+}

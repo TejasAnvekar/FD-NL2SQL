@@ -1,0 +1,152 @@
+{
+  "item_id": "gen_row_911",
+  "csv_row_number": 911,
+  "question": "For Pembrolizumab trials in Phase 2 with chemotherapy control included in the meta-analysis, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_911_For_Pembrolizumab_trials_in_Phase_2_with_chemotherapy_control_included_in_the_meta_analysis_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 11,
+      "answer": []
+    },
+    {
+      "table_row_id": 12,
+      "answer": []
+    },
+    {
+      "table_row_id": 13,
+      "answer": []
+    },
+    {
+      "table_row_id": 14,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 22,
+      "answer": []
+    },
+    {
+      "table_row_id": 37,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": []
+    },
+    {
+      "table_row_id": 44,
+      "answer": []
+    },
+    {
+      "table_row_id": 56,
+      "answer": []
+    },
+    {
+      "table_row_id": 63,
+      "answer": [
+        "Investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 64,
+      "answer": [
+        "Investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 65,
+      "answer": [
+        "Investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 66,
+      "answer": [
+        "Investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 79,
+      "answer": []
+    },
+    {
+      "table_row_id": 80,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    },
+    {
+      "table_row_id": 98,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 106,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 120,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 139,
+      "answer": []
+    },
+    {
+      "table_row_id": 140,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 154,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 157,
+      "answer": []
+    },
+    {
+      "table_row_id": 159,
+      "answer": []
+    }
+  ]
+}

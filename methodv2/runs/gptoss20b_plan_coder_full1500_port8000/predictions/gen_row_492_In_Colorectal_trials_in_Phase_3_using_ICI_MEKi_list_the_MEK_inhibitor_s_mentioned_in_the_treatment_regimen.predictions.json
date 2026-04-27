@@ -1,0 +1,652 @@
+{
+  "item_id": "gen_row_492",
+  "csv_row_number": 492,
+  "question": "In Colorectal trials in Phase 3 using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_492_In_Colorectal_trials_in_Phase_3_using_ICI_MEKi_list_the_MEK_inhibitor_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": []
+    },
+    {
+      "table_row_id": 2,
+      "answer": []
+    },
+    {
+      "table_row_id": 3,
+      "answer": []
+    },
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 5,
+      "answer": []
+    },
+    {
+      "table_row_id": 6,
+      "answer": [
+        "Cobimetinib"
+      ]
+    },
+    {
+      "table_row_id": 7,
+      "answer": []
+    },
+    {
+      "table_row_id": 8,
+      "answer": []
+    },
+    {
+      "table_row_id": 9,
+      "answer": []
+    },
+    {
+      "table_row_id": 10,
+      "answer": []
+    },
+    {
+      "table_row_id": 11,
+      "answer": []
+    },
+    {
+      "table_row_id": 12,
+      "answer": []
+    },
+    {
+      "table_row_id": 13,
+      "answer": []
+    },
+    {
+      "table_row_id": 14,
+      "answer": []
+    },
+    {
+      "table_row_id": 15,
+      "answer": []
+    },
+    {
+      "table_row_id": 16,
+      "answer": []
+    },
+    {
+      "table_row_id": 17,
+      "answer": []
+    },
+    {
+      "table_row_id": 18,
+      "answer": []
+    },
+    {
+      "table_row_id": 19,
+      "answer": []
+    },
+    {
+      "table_row_id": 20,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 22,
+      "answer": []
+    },
+    {
+      "table_row_id": 23,
+      "answer": []
+    },
+    {
+      "table_row_id": 24,
+      "answer": []
+    },
+    {
+      "table_row_id": 25,
+      "answer": []
+    },
+    {
+      "table_row_id": 26,
+      "answer": []
+    },
+    {
+      "table_row_id": 27,
+      "answer": []
+    },
+    {
+      "table_row_id": 28,
+      "answer": []
+    },
+    {
+      "table_row_id": 29,
+      "answer": []
+    },
+    {
+      "table_row_id": 30,
+      "answer": []
+    },
+    {
+      "table_row_id": 31,
+      "answer": []
+    },
+    {
+      "table_row_id": 32,
+      "answer": []
+    },
+    {
+      "table_row_id": 33,
+      "answer": []
+    },
+    {
+      "table_row_id": 34,
+      "answer": []
+    },
+    {
+      "table_row_id": 35,
+      "answer": []
+    },
+    {
+      "table_row_id": 36,
+      "answer": []
+    },
+    {
+      "table_row_id": 37,
+      "answer": []
+    },
+    {
+      "table_row_id": 38,
+      "answer": []
+    },
+    {
+      "table_row_id": 39,
+      "answer": []
+    },
+    {
+      "table_row_id": 40,
+      "answer": []
+    },
+    {
+      "table_row_id": 41,
+      "answer": []
+    },
+    {
+      "table_row_id": 42,
+      "answer": []
+    },
+    {
+      "table_row_id": 43,
+      "answer": []
+    },
+    {
+      "table_row_id": 44,
+      "answer": []
+    },
+    {
+      "table_row_id": 45,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 47,
+      "answer": []
+    },
+    {
+      "table_row_id": 48,
+      "answer": []
+    },
+    {
+      "table_row_id": 49,
+      "answer": []
+    },
+    {
+      "table_row_id": 50,
+      "answer": []
+    },
+    {
+      "table_row_id": 51,
+      "answer": []
+    },
+    {
+      "table_row_id": 52,
+      "answer": []
+    },
+    {
+      "table_row_id": 53,
+      "answer": []
+    },
+    {
+      "table_row_id": 54,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 56,
+      "answer": []
+    },
+    {
+      "table_row_id": 57,
+      "answer": []
+    },
+    {
+      "table_row_id": 58,
+      "answer": []
+    },
+    {
+      "table_row_id": 59,
+      "answer": []
+    },
+    {
+      "table_row_id": 60,
+      "answer": []
+    },
+    {
+      "table_row_id": 61,
+      "answer": []
+    },
+    {
+      "table_row_id": 62,
+      "answer": []
+    },
+    {
+      "table_row_id": 63,
+      "answer": []
+    },
+    {
+      "table_row_id": 64,
+      "answer": []
+    },
+    {
+      "table_row_id": 65,
+      "answer": []
+    },
+    {
+      "table_row_id": 66,
+      "answer": []
+    },
+    {
+      "table_row_id": 67,
+      "answer": []
+    },
+    {
+      "table_row_id": 68,
+      "answer": []
+    },
+    {
+      "table_row_id": 69,
+      "answer": []
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "Trametinib"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": []
+    },
+    {
+      "table_row_id": 72,
+      "answer": []
+    },
+    {
+      "table_row_id": 73,
+      "answer": []
+    },
+    {
+      "table_row_id": 74,
+      "answer": []
+    },
+    {
+      "table_row_id": 75,
+      "answer": []
+    },
+    {
+      "table_row_id": 76,
+      "answer": []
+    },
+    {
+      "table_row_id": 77,
+      "answer": []
+    },
+    {
+      "table_row_id": 78,
+      "answer": []
+    },
+    {
+      "table_row_id": 79,
+      "answer": []
+    },
+    {
+      "table_row_id": 80,
+      "answer": []
+    },
+    {
+      "table_row_id": 81,
+      "answer": []
+    },
+    {
+      "table_row_id": 82,
+      "answer": []
+    },
+    {
+      "table_row_id": 83,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 85,
+      "answer": []
+    },
+    {
+      "table_row_id": 86,
+      "answer": []
+    },
+    {
+      "table_row_id": 87,
+      "answer": []
+    },
+    {
+      "table_row_id": 88,
+      "answer": []
+    },
+    {
+      "table_row_id": 89,
+      "answer": []
+    },
+    {
+      "table_row_id": 90,
+      "answer": []
+    },
+    {
+      "table_row_id": 91,
+      "answer": []
+    },
+    {
+      "table_row_id": 92,
+      "answer": []
+    },
+    {
+      "table_row_id": 93,
+      "answer": []
+    },
+    {
+      "table_row_id": 94,
+      "answer": []
+    },
+    {
+      "table_row_id": 95,
+      "answer": []
+    },
+    {
+      "table_row_id": 96,
+      "answer": []
+    },
+    {
+      "table_row_id": 97,
+      "answer": []
+    },
+    {
+      "table_row_id": 98,
+      "answer": []
+    },
+    {
+      "table_row_id": 99,
+      "answer": []
+    },
+    {
+      "table_row_id": 100,
+      "answer": []
+    },
+    {
+      "table_row_id": 101,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 104,
+      "answer": [
+        "Cobimetinib"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": []
+    },
+    {
+      "table_row_id": 106,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 109,
+      "answer": []
+    },
+    {
+      "table_row_id": 110,
+      "answer": []
+    },
+    {
+      "table_row_id": 111,
+      "answer": []
+    },
+    {
+      "table_row_id": 112,
+      "answer": []
+    },
+    {
+      "table_row_id": 113,
+      "answer": []
+    },
+    {
+      "table_row_id": 114,
+      "answer": []
+    },
+    {
+      "table_row_id": 115,
+      "answer": []
+    },
+    {
+      "table_row_id": 116,
+      "answer": []
+    },
+    {
+      "table_row_id": 117,
+      "answer": []
+    },
+    {
+      "table_row_id": 118,
+      "answer": []
+    },
+    {
+      "table_row_id": 119,
+      "answer": []
+    },
+    {
+      "table_row_id": 120,
+      "answer": []
+    },
+    {
+      "table_row_id": 121,
+      "answer": []
+    },
+    {
+      "table_row_id": 122,
+      "answer": []
+    },
+    {
+      "table_row_id": 123,
+      "answer": []
+    },
+    {
+      "table_row_id": 124,
+      "answer": []
+    },
+    {
+      "table_row_id": 125,
+      "answer": []
+    },
+    {
+      "table_row_id": 126,
+      "answer": []
+    },
+    {
+      "table_row_id": 127,
+      "answer": []
+    },
+    {
+      "table_row_id": 128,
+      "answer": []
+    },
+    {
+      "table_row_id": 129,
+      "answer": []
+    },
+    {
+      "table_row_id": 130,
+      "answer": []
+    },
+    {
+      "table_row_id": 131,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    },
+    {
+      "table_row_id": 133,
+      "answer": []
+    },
+    {
+      "table_row_id": 134,
+      "answer": []
+    },
+    {
+      "table_row_id": 135,
+      "answer": []
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "Trametinib"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": []
+    },
+    {
+      "table_row_id": 138,
+      "answer": []
+    },
+    {
+      "table_row_id": 139,
+      "answer": []
+    },
+    {
+      "table_row_id": 140,
+      "answer": []
+    },
+    {
+      "table_row_id": 141,
+      "answer": []
+    },
+    {
+      "table_row_id": 142,
+      "answer": []
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    },
+    {
+      "table_row_id": 145,
+      "answer": []
+    },
+    {
+      "table_row_id": 146,
+      "answer": []
+    },
+    {
+      "table_row_id": 147,
+      "answer": []
+    },
+    {
+      "table_row_id": 148,
+      "answer": []
+    },
+    {
+      "table_row_id": 149,
+      "answer": []
+    },
+    {
+      "table_row_id": 150,
+      "answer": []
+    },
+    {
+      "table_row_id": 151,
+      "answer": []
+    },
+    {
+      "table_row_id": 152,
+      "answer": []
+    },
+    {
+      "table_row_id": 153,
+      "answer": []
+    },
+    {
+      "table_row_id": 154,
+      "answer": []
+    },
+    {
+      "table_row_id": 155,
+      "answer": []
+    },
+    {
+      "table_row_id": 156,
+      "answer": []
+    },
+    {
+      "table_row_id": 157,
+      "answer": []
+    },
+    {
+      "table_row_id": 158,
+      "answer": []
+    },
+    {
+      "table_row_id": 159,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_386",
+  "csv_row_number": 386,
+  "question": "In Melanoma trials for Pembrolizumab included in the meta-analysis, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_386_In_Melanoma_trials_for_Pembrolizumab_included_in_the_meta_analysis_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "<12"
+    },
+    {
+      "table_row_id": 71,
+      "answer": ""
+    },
+    {
+      "table_row_id": 72,
+      "answer": ""
+    }
+  ]
+}

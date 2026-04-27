@@ -1,0 +1,124 @@
+{
+  "item_id": "gen_row_1026",
+  "csv_row_number": 1026,
+  "question": "In Non-Small Cell Lung trials in Phase 2 included in the meta-analysis, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1026_In_Non_Small_Cell_Lung_trials_in_Phase_2_included_in_the_meta_analysis_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Not specified"
+    }
+  ]
+}

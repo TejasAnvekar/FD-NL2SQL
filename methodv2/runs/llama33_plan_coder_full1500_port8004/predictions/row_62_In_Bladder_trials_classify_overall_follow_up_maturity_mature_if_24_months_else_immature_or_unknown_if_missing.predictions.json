@@ -1,0 +1,20 @@
+{
+  "item_id": "row_62",
+  "csv_row_number": 44,
+  "question": "In Bladder trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_62_In_Bladder_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "mature"
+    }
+  ]
+}

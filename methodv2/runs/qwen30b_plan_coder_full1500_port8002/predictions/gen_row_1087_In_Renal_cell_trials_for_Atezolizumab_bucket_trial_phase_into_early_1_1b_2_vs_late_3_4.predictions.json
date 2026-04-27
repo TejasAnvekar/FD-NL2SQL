@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_1087",
+  "csv_row_number": 1087,
+  "question": "In Renal cell trials for Atezolizumab, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1087_In_Renal_cell_trials_for_Atezolizumab_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 16,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "unknown"
+    }
+  ]
+}

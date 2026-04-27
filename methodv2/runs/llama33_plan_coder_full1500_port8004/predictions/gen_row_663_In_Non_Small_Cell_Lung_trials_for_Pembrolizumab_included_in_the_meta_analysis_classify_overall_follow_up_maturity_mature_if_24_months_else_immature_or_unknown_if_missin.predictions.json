@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_663",
+  "csv_row_number": 663,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_663_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missin",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "row_160",
+  "csv_row_number": 127,
+  "question": "In Colorectal trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_160_In_Colorectal_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "metastatic/advanced"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1368",
+  "csv_row_number": 1368,
+  "question": "In Head and Neck trials in Phase 3 for Nivolumab, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1368_In_Head_and_Neck_trials_in_Phase_3_for_Nivolumab_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 13,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "≥3-arm"
+    }
+  ]
+}

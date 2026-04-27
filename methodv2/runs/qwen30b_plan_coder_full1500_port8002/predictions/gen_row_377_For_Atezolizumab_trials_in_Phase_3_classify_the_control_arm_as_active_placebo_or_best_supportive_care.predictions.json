@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_377",
+  "csv_row_number": 377,
+  "question": "For Atezolizumab trials in Phase 3, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_377_For_Atezolizumab_trials_in_Phase_3_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "active"
+    }
+  ]
+}

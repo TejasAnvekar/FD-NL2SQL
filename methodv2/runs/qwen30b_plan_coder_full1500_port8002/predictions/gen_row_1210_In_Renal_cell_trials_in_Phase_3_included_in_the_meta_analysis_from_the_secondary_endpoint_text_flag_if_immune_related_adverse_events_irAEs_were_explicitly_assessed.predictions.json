@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_1210",
+  "csv_row_number": 1210,
+  "question": "In Renal cell trials in Phase 3 included in the meta-analysis, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1210_In_Renal_cell_trials_in_Phase_3_included_in_the_meta_analysis_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": false
+    },
+    {
+      "table_row_id": 18,
+      "answer": false
+    },
+    {
+      "table_row_id": 19,
+      "answer": false
+    },
+    {
+      "table_row_id": 20,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": false
+    },
+    {
+      "table_row_id": 22,
+      "answer": false
+    },
+    {
+      "table_row_id": 101,
+      "answer": false
+    },
+    {
+      "table_row_id": 104,
+      "answer": false
+    },
+    {
+      "table_row_id": 109,
+      "answer": false
+    },
+    {
+      "table_row_id": 114,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": false
+    },
+    {
+      "table_row_id": 131,
+      "answer": false
+    },
+    {
+      "table_row_id": 145,
+      "answer": false
+    },
+    {
+      "table_row_id": 148,
+      "answer": false
+    }
+  ]
+}

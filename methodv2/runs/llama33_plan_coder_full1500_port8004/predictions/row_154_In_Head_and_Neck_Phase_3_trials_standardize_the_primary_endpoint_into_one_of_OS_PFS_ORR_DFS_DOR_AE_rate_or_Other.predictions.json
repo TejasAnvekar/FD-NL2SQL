@@ -1,0 +1,36 @@
+{
+  "item_id": "row_154",
+  "csv_row_number": 122,
+  "question": "In Head and Neck Phase 3 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_154_In_Head_and_Neck_Phase_3_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "PFS"
+    }
+  ]
+}

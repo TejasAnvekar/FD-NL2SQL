@@ -1,0 +1,12 @@
+{
+  "item_id": "row_225",
+  "csv_row_number": 173,
+  "question": "For Atezolizumab+Trastuzumab emtansine+Placebo trials in Small Cell Lung, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_225_For_Atezolizumab_Trastuzumab_emtansine_Placebo_trials_in_Small_Cell_Lung_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 130,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_1207",
+  "csv_row_number": 1207,
+  "question": "For Atezolizumab trials in Phase 2, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1207_For_Atezolizumab_trials_in_Phase_2_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 16,
+      "answer": false
+    },
+    {
+      "table_row_id": 22,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": true
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 53,
+      "answer": false
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 108,
+      "answer": false
+    },
+    {
+      "table_row_id": 116,
+      "answer": false
+    },
+    {
+      "table_row_id": 125,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 133,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    },
+    {
+      "table_row_id": 155,
+      "answer": false
+    }
+  ]
+}

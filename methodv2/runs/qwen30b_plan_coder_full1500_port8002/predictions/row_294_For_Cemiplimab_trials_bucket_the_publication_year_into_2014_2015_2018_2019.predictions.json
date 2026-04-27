@@ -1,0 +1,12 @@
+{
+  "item_id": "row_294",
+  "csv_row_number": 225,
+  "question": "For Cemiplimab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_294_For_Cemiplimab_trials_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 155,
+      "answer": ""
+    }
+  ]
+}

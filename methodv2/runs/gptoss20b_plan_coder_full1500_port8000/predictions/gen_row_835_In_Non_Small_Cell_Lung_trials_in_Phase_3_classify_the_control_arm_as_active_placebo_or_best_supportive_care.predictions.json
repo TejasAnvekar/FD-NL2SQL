@@ -1,0 +1,644 @@
+{
+  "item_id": "gen_row_835",
+  "csv_row_number": 835,
+  "question": "In Non-Small Cell Lung trials in Phase 3, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_835_In_Non_Small_Cell_Lung_trials_in_Phase_3_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 5,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 8,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 9,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 53,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "best supportive care"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "active"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1499",
+  "csv_row_number": 1499,
+  "question": "In Non-Small Cell Lung trials for Pembrolizumab included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1499_In_Non_Small_Cell_Lung_trials_for_Pembrolizumab_included_in_the_meta_analysis_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 29,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "active"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "row_443",
+  "csv_row_number": 330,
+  "question": "In Colorectal Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_443_In_Colorectal_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "best supportive care"
+    }
+  ]
+}

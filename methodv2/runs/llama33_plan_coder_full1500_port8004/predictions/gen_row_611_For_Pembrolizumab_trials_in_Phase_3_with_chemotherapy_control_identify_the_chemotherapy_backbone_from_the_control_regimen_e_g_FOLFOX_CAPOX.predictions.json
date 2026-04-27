@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_611",
+  "csv_row_number": 611,
+  "question": "For Pembrolizumab trials in Phase 3 with chemotherapy control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_611_For_Pembrolizumab_trials_in_Phase_3_with_chemotherapy_control_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Not specified"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "5-FU"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Not specified"
+    }
+  ]
+}

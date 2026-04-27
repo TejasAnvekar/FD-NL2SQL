@@ -1,0 +1,16 @@
+{
+  "item_id": "row_250",
+  "csv_row_number": 192,
+  "question": "In Hepatocellular trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_250_In_Hepatocellular_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 79,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "≥3-arm"
+    }
+  ]
+}

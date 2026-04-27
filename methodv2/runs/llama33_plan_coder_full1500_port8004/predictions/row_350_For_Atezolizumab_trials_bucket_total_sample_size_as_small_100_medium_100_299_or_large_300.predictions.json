@@ -1,0 +1,100 @@
+{
+  "item_id": "row_350",
+  "csv_row_number": 259,
+  "question": "For Atezolizumab trials, bucket total sample size as small(<100), medium(100–299), or large(≥300).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_350_For_Atezolizumab_trials_bucket_total_sample_size_as_small_100_medium_100_299_or_large_300",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "medium"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "large"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "large"
+    }
+  ]
+}

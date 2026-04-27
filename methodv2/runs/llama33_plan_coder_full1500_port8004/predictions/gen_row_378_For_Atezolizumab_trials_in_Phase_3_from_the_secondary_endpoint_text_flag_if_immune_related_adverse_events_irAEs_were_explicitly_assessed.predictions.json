@@ -1,0 +1,52 @@
+{
+  "item_id": "gen_row_378",
+  "csv_row_number": 378,
+  "question": "For Atezolizumab trials in Phase 3, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_378_For_Atezolizumab_trials_in_Phase_3_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": false
+    },
+    {
+      "table_row_id": 4,
+      "answer": false
+    },
+    {
+      "table_row_id": 6,
+      "answer": false
+    },
+    {
+      "table_row_id": 7,
+      "answer": false
+    },
+    {
+      "table_row_id": 43,
+      "answer": false
+    },
+    {
+      "table_row_id": 55,
+      "answer": false
+    },
+    {
+      "table_row_id": 84,
+      "answer": false
+    },
+    {
+      "table_row_id": 102,
+      "answer": false
+    },
+    {
+      "table_row_id": 103,
+      "answer": false
+    },
+    {
+      "table_row_id": 129,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    }
+  ]
+}

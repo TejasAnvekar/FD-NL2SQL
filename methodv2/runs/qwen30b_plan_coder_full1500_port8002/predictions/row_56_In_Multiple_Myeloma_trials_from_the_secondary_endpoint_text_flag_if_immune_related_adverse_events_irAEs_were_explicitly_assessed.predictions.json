@@ -1,0 +1,16 @@
+{
+  "item_id": "row_56",
+  "csv_row_number": 40,
+  "question": "In Multiple Myeloma trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_56_In_Multiple_Myeloma_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 74,
+      "answer": false
+    },
+    {
+      "table_row_id": 75,
+      "answer": false
+    }
+  ]
+}

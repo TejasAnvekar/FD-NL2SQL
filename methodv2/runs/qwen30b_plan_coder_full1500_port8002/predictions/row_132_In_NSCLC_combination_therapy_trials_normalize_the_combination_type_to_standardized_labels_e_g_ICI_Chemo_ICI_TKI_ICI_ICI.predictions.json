@@ -1,0 +1,452 @@
+{
+  "item_id": "row_132",
+  "csv_row_number": 106,
+  "question": "In NSCLC combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_132_In_NSCLC_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 58,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 74,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 80,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 88,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 92,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 106,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 115,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 119,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 126,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 130,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 139,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "Other"
+    }
+  ]
+}

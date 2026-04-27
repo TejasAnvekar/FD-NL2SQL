@@ -1,0 +1,88 @@
+{
+  "item_id": "gen_row_1350",
+  "csv_row_number": 1350,
+  "question": "In Melanoma trials in Phase 2 using combination therapy included in the meta-analysis, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1350_In_Melanoma_trials_in_Phase_2_using_combination_therapy_included_in_the_meta_analysis_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_I",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "ICI+Other"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "ICI+TKI"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 73,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "ICI+Other"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Other"
+    }
+  ]
+}

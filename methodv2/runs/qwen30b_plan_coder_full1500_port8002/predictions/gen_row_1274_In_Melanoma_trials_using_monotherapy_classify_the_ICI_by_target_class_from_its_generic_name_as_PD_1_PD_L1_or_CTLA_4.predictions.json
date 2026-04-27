@@ -1,0 +1,68 @@
+{
+  "item_id": "gen_row_1274",
+  "csv_row_number": 1274,
+  "question": "In Melanoma trials using monotherapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1274_In_Melanoma_trials_using_monotherapy_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "CTLA-4"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "unknown"
+    }
+  ]
+}

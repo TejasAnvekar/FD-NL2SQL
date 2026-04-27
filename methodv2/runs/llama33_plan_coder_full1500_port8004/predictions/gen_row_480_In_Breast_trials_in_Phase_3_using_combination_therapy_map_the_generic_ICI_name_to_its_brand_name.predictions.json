@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_480",
+  "csv_row_number": 480,
+  "question": "In Breast trials in Phase 3 using combination therapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_480_In_Breast_trials_in_Phase_3_using_combination_therapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": ""
+    },
+    {
+      "table_row_id": 81,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": ""
+    },
+    {
+      "table_row_id": 119,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": ""
+    },
+    {
+      "table_row_id": 128,
+      "answer": ""
+    }
+  ]
+}

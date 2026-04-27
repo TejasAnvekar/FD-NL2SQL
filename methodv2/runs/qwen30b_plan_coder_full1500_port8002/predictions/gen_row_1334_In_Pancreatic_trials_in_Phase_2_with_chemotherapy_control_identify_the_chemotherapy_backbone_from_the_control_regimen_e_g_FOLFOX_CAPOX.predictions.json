@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1334",
+  "csv_row_number": 1334,
+  "question": "In Pancreatic trials in Phase 2 with chemotherapy control, identify the chemotherapy backbone from the control regimen (e.g., FOLFOX/CAPOX).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1334_In_Pancreatic_trials_in_Phase_2_with_chemotherapy_control_identify_the_chemotherapy_backbone_from_the_control_regimen_e_g_FOLFOX_CAPOX",
+  "predictions": [
+    {
+      "table_row_id": 88,
+      "answer": "Not identified"
+    },
+    {
+      "table_row_id": 97,
+      "answer": "Not identified"
+    }
+  ]
+}

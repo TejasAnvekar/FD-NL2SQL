@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_741",
+  "csv_row_number": 741,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Durvalumab, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_741_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Durvalumab_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "≥2019"
+    }
+  ]
+}

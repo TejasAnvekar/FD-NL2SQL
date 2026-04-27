@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_577",
+  "csv_row_number": 577,
+  "question": "For Durvalumab trials in Phase 3 included in the meta-analysis, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_577_For_Durvalumab_trials_in_Phase_3_included_in_the_meta_analysis_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": ""
+    },
+    {
+      "table_row_id": 57,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "Neither"
+    },
+    {
+      "table_row_id": 92,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    }
+  ]
+}

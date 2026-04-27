@@ -1,0 +1,40 @@
+{
+  "item_id": "row_126",
+  "csv_row_number": 101,
+  "question": "In Breast trials, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_126_In_Breast_trials_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": true
+    },
+    {
+      "table_row_id": 5,
+      "answer": true
+    },
+    {
+      "table_row_id": 81,
+      "answer": true
+    },
+    {
+      "table_row_id": 84,
+      "answer": true
+    },
+    {
+      "table_row_id": 92,
+      "answer": true
+    },
+    {
+      "table_row_id": 122,
+      "answer": true
+    },
+    {
+      "table_row_id": 125,
+      "answer": true
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    }
+  ]
+}

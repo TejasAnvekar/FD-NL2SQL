@@ -1,0 +1,144 @@
+{
+  "item_id": "gen_row_782",
+  "csv_row_number": 782,
+  "question": "For Atezolizumab trials in Phase 3 using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_782_For_Atezolizumab_trials_in_Phase_3_using_combination_therapy_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": false
+    },
+    {
+      "table_row_id": 6,
+      "answer": false
+    },
+    {
+      "table_row_id": 17,
+      "answer": false
+    },
+    {
+      "table_row_id": 18,
+      "answer": false
+    },
+    {
+      "table_row_id": 19,
+      "answer": false
+    },
+    {
+      "table_row_id": 20,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": false
+    },
+    {
+      "table_row_id": 22,
+      "answer": false
+    },
+    {
+      "table_row_id": 42,
+      "answer": false
+    },
+    {
+      "table_row_id": 44,
+      "answer": false
+    },
+    {
+      "table_row_id": 45,
+      "answer": false
+    },
+    {
+      "table_row_id": 46,
+      "answer": false
+    },
+    {
+      "table_row_id": 55,
+      "answer": false
+    },
+    {
+      "table_row_id": 84,
+      "answer": false
+    },
+    {
+      "table_row_id": 101,
+      "answer": false
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 108,
+      "answer": false
+    },
+    {
+      "table_row_id": 109,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": false
+    },
+    {
+      "table_row_id": 121,
+      "answer": false
+    },
+    {
+      "table_row_id": 122,
+      "answer": false
+    },
+    {
+      "table_row_id": 131,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 134,
+      "answer": false
+    },
+    {
+      "table_row_id": 135,
+      "answer": false
+    },
+    {
+      "table_row_id": 136,
+      "answer": false
+    },
+    {
+      "table_row_id": 137,
+      "answer": false
+    },
+    {
+      "table_row_id": 138,
+      "answer": false
+    },
+    {
+      "table_row_id": 145,
+      "answer": false
+    },
+    {
+      "table_row_id": 146,
+      "answer": false
+    },
+    {
+      "table_row_id": 148,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    },
+    {
+      "table_row_id": 157,
+      "answer": false
+    },
+    {
+      "table_row_id": 159,
+      "answer": false
+    }
+  ]
+}

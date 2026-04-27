@@ -1,0 +1,56 @@
+{
+  "item_id": "gen_row_1020",
+  "csv_row_number": 1020,
+  "question": "For Pembrolizumab trials in Phase 3, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1020_For_Pembrolizumab_trials_in_Phase_3_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "KEYNOTE-045"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "KEYNOTE-045"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "KEYNOTE-061"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "KEYNOTE-040"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "KEYNOTE-426"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "KEYNOTE-042"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "KEYNOTE-054"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "KEYNOTE-240"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "KEYNOTE-604"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "KEYNOTE-062"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "KEYNOTE-426"
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    }
+  ]
+}

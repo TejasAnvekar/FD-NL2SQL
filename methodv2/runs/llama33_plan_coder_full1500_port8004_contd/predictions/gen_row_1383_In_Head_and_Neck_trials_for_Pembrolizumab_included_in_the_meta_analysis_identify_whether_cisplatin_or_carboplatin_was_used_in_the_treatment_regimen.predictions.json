@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1383",
+  "csv_row_number": 1383,
+  "question": "In Head and Neck trials for Pembrolizumab included in the meta-analysis, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1383_In_Head_and_Neck_trials_for_Pembrolizumab_included_in_the_meta_analysis_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 85,
+      "answer": "Neither cisplatin nor carboplatin"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "Neither cisplatin nor carboplatin"
+    }
+  ]
+}

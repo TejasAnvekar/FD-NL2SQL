@@ -1,0 +1,92 @@
+{
+  "item_id": "row_107",
+  "csv_row_number": 86,
+  "question": "For Atezolizumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_107_For_Atezolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "late"
+    }
+  ]
+}

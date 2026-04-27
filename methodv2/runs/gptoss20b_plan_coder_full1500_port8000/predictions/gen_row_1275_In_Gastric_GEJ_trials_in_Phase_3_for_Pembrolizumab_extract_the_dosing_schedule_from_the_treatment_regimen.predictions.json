@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1275",
+  "csv_row_number": 1275,
+  "question": "In Gastric/GEJ trials in Phase 3 for Pembrolizumab, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_1275_In_Gastric_GEJ_trials_in_Phase_3_for_Pembrolizumab_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 120,
+      "answer": false
+    },
+    {
+      "table_row_id": 121,
+      "answer": false
+    }
+  ]
+}

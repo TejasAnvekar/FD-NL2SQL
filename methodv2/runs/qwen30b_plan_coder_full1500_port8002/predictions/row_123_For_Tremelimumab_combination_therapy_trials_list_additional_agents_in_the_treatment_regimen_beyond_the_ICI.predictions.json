@@ -1,0 +1,53 @@
+{
+  "item_id": "row_123",
+  "csv_row_number": 98,
+  "question": "For Tremelimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_123_For_Tremelimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 61,
+      "answer": []
+    },
+    {
+      "table_row_id": 73,
+      "answer": []
+    },
+    {
+      "table_row_id": 90,
+      "answer": []
+    },
+    {
+      "table_row_id": 100,
+      "answer": []
+    },
+    {
+      "table_row_id": 111,
+      "answer": []
+    },
+    {
+      "table_row_id": 112,
+      "answer": [
+        "best supportive care"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": []
+    },
+    {
+      "table_row_id": 137,
+      "answer": [
+        "etoposide",
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 143,
+      "answer": []
+    },
+    {
+      "table_row_id": 144,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1061",
+  "csv_row_number": 1061,
+  "question": "For Durvalumab trials using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1061_For_Durvalumab_trials_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 57,
+      "answer": []
+    }
+  ]
+}

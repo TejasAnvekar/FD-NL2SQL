@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_748",
+  "csv_row_number": 748,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Durvalumab, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_748_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Durvalumab_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": false
+    },
+    {
+      "table_row_id": 36,
+      "answer": false
+    },
+    {
+      "table_row_id": 57,
+      "answer": true
+    },
+    {
+      "table_row_id": 99,
+      "answer": false
+    },
+    {
+      "table_row_id": 100,
+      "answer": true
+    },
+    {
+      "table_row_id": 110,
+      "answer": false
+    },
+    {
+      "table_row_id": 111,
+      "answer": false
+    },
+    {
+      "table_row_id": 123,
+      "answer": false
+    },
+    {
+      "table_row_id": 124,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    }
+  ]
+}

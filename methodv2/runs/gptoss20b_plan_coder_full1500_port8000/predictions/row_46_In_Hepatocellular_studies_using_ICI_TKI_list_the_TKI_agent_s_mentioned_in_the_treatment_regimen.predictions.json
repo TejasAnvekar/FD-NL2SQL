@@ -1,0 +1,12 @@
+{
+  "item_id": "row_46",
+  "csv_row_number": 34,
+  "question": "In Hepatocellular studies using ICI+TKI, list the TKI agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_46_In_Hepatocellular_studies_using_ICI_TKI_list_the_TKI_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 109,
+      "answer": false
+    }
+  ]
+}

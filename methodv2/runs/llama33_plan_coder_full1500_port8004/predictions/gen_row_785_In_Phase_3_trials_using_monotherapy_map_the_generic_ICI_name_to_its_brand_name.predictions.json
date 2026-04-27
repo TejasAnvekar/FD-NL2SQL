@@ -1,0 +1,156 @@
+{
+  "item_id": "gen_row_785",
+  "csv_row_number": 785,
+  "question": "In Phase 3 trials using monotherapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_785_In_Phase_3_trials_using_monotherapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 9,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 10,
+      "answer": "Bavencio"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 12,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 15,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 50,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 67,
+      "answer": ""
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 114,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "Keytruda"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "row_92",
+  "csv_row_number": 71,
+  "question": "In Mesothelioma trials, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_92_In_Mesothelioma_trials_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 73,
+      "answer": false
+    },
+    {
+      "table_row_id": 128,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    }
+  ]
+}

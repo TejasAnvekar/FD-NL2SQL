@@ -1,0 +1,16 @@
+{
+  "item_id": "gen_row_1489",
+  "csv_row_number": 1489,
+  "question": "In Breast trials in Phase 3 for Chemotherapy with chemotherapy control, identify the specific regimen name(s) represented in the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1489_In_Breast_trials_in_Phase_3_for_Chemotherapy_with_chemotherapy_control_identify_the_specific_regimen_name_s_represented_in_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    }
+  ]
+}

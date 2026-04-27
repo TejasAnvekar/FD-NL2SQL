@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_443",
+  "csv_row_number": 443,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_443_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "unknown"
+    }
+  ]
+}

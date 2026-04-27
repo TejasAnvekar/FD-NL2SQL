@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_526",
+  "csv_row_number": 526,
+  "question": "For Nivolumab, Ipilimumab trials in Phase 3 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_526_For_Nivolumab_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "https://pubmed.gov/28993052"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "https://pubmed.gov/29562145"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "https://pubmed.gov/31427204"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "https://pubmed.gov/32416781"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "https://pubmed.gov/32661118"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "https://pubmed.gov/33485464"
+    }
+  ]
+}

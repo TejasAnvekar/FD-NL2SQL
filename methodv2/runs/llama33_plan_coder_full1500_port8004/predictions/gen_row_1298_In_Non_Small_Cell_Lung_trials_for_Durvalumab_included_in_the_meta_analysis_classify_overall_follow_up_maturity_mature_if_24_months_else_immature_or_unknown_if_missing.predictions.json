@@ -1,0 +1,24 @@
+{
+  "item_id": "gen_row_1298",
+  "csv_row_number": 1298,
+  "question": "In Non-Small Cell Lung trials for Durvalumab included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1298_In_Non_Small_Cell_Lung_trials_for_Durvalumab_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "unknown"
+    }
+  ]
+}

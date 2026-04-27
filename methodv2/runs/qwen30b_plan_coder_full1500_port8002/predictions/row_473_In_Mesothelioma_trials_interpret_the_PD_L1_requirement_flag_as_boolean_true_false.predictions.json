@@ -1,0 +1,20 @@
+{
+  "item_id": "row_473",
+  "csv_row_number": 348,
+  "question": "In Mesothelioma trials, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_473_In_Mesothelioma_trials_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 73,
+      "answer": false
+    },
+    {
+      "table_row_id": 128,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    }
+  ]
+}

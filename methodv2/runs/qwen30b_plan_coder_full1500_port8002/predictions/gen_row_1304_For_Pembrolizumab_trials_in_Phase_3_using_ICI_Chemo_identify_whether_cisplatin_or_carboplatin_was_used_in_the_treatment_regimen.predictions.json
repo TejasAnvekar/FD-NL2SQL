@@ -1,0 +1,168 @@
+{
+  "item_id": "gen_row_1304",
+  "csv_row_number": 1304,
+  "question": "For Pembrolizumab trials in Phase 3 using ICI+Chemo, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1304_For_Pembrolizumab_trials_in_Phase_3_using_ICI_Chemo_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 42,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 120,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "cisplatin"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 125,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 133,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 135,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 140,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 142,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 143,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 144,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 151,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 154,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 158,
+      "answer": "neither"
+    },
+    {
+      "table_row_id": 159,
+      "answer": "neither"
+    }
+  ]
+}

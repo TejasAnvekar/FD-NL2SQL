@@ -1,0 +1,14 @@
+{
+  "item_id": "row_114",
+  "csv_row_number": 90,
+  "question": "In Pancreatic trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_114_In_Pancreatic_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 97,
+      "answer": [
+        "Folfirinox"
+      ]
+    }
+  ]
+}

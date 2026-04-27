@@ -1,0 +1,12 @@
+{
+  "item_id": "row_266",
+  "csv_row_number": 204,
+  "question": "In Pancreatic trials, normalize the clinical setting to one of: neoadjuvant, adjuvant, perioperative, metastatic/advanced.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_266_In_Pancreatic_trials_normalize_the_clinical_setting_to_one_of_neoadjuvant_adjuvant_perioperative_metastatic_advanced",
+  "predictions": [
+    {
+      "table_row_id": 88,
+      "answer": "metastatic/advanced"
+    }
+  ]
+}

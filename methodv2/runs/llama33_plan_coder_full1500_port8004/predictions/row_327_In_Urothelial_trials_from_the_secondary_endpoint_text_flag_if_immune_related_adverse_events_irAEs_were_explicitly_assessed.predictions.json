@@ -1,0 +1,40 @@
+{
+  "item_id": "row_327",
+  "csv_row_number": 246,
+  "question": "In Urothelial trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_327_In_Urothelial_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": false
+    },
+    {
+      "table_row_id": 25,
+      "answer": false
+    },
+    {
+      "table_row_id": 26,
+      "answer": false
+    },
+    {
+      "table_row_id": 73,
+      "answer": false
+    },
+    {
+      "table_row_id": 78,
+      "answer": false
+    },
+    {
+      "table_row_id": 106,
+      "answer": false
+    },
+    {
+      "table_row_id": 112,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_569",
+  "csv_row_number": 569,
+  "question": "For Ipilimumab trials in Phase 3 included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_569_For_Ipilimumab_trials_in_Phase_3_included_in_the_meta_analysis_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": ""
+    },
+    {
+      "table_row_id": 59,
+      "answer": "MDX010-20"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "MDX010-20"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "CA184-043"
+    },
+    {
+      "table_row_id": 117,
+      "answer": ""
+    },
+    {
+      "table_row_id": 118,
+      "answer": ""
+    },
+    {
+      "table_row_id": 134,
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_859",
+  "csv_row_number": 859,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_859_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": "https://pubmed.gov/27458307"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "https://pubmed.gov/30280641"
+    },
+    {
+      "table_row_id": 53,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "https://pubmed.gov/31590988"
+    },
+    {
+      "table_row_id": 87,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": "https://pubmed.gov/32468956"
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    }
+  ]
+}

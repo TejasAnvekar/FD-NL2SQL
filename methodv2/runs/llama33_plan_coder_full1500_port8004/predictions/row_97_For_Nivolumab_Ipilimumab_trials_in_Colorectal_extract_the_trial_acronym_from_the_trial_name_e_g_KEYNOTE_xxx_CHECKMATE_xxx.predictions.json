@@ -1,0 +1,20 @@
+{
+  "item_id": "row_97",
+  "csv_row_number": 76,
+  "question": "For Nivolumab, Ipilimumab trials in Colorectal, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_97_For_Nivolumab_Ipilimumab_trials_in_Colorectal_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": ""
+    },
+    {
+      "table_row_id": 7,
+      "answer": ""
+    },
+    {
+      "table_row_id": 112,
+      "answer": ""
+    }
+  ]
+}

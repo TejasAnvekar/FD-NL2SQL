@@ -1,0 +1,76 @@
+{
+  "item_id": "row_161",
+  "csv_row_number": 128,
+  "question": "In Renal cell trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_161_In_Renal_cell_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": ""
+    },
+    {
+      "table_row_id": 16,
+      "answer": ""
+    },
+    {
+      "table_row_id": 17,
+      "answer": ""
+    },
+    {
+      "table_row_id": 18,
+      "answer": ""
+    },
+    {
+      "table_row_id": 19,
+      "answer": ""
+    },
+    {
+      "table_row_id": 20,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": ""
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 101,
+      "answer": ""
+    },
+    {
+      "table_row_id": 104,
+      "answer": ""
+    },
+    {
+      "table_row_id": 105,
+      "answer": ""
+    },
+    {
+      "table_row_id": 109,
+      "answer": ""
+    },
+    {
+      "table_row_id": 114,
+      "answer": ""
+    },
+    {
+      "table_row_id": 115,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": ""
+    },
+    {
+      "table_row_id": 145,
+      "answer": ""
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    }
+  ]
+}

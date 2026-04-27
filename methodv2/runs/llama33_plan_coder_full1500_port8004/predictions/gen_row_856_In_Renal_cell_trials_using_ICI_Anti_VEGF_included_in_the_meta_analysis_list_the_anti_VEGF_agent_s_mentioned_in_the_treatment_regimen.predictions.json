@@ -1,0 +1,14 @@
+{
+  "item_id": "gen_row_856",
+  "csv_row_number": 856,
+  "question": "In Renal cell trials using ICI+Anti-VEGF included in the meta-analysis, list the anti-VEGF agent(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_856_In_Renal_cell_trials_using_ICI_Anti_VEGF_included_in_the_meta_analysis_list_the_anti_VEGF_agent_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 22,
+      "answer": [
+        "bevacizumab"
+      ]
+    }
+  ]
+}

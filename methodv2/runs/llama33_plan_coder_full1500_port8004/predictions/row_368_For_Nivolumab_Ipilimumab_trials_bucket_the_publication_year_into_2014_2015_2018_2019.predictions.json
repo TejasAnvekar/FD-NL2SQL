@@ -1,0 +1,60 @@
+{
+  "item_id": "row_368",
+  "csv_row_number": 270,
+  "question": "For Nivolumab, Ipilimumab trials, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_368_For_Nivolumab_Ipilimumab_trials_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 19,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 78,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 101,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 128,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "≥2019"
+    }
+  ]
+}

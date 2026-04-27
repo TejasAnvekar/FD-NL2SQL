@@ -1,0 +1,52 @@
+{
+  "item_id": "row_104",
+  "csv_row_number": 83,
+  "question": "In Renal cell trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_104_In_Renal_cell_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 15,
+      "answer": false
+    },
+    {
+      "table_row_id": 16,
+      "answer": false
+    },
+    {
+      "table_row_id": 17,
+      "answer": false
+    },
+    {
+      "table_row_id": 18,
+      "answer": false
+    },
+    {
+      "table_row_id": 19,
+      "answer": false
+    },
+    {
+      "table_row_id": 20,
+      "answer": false
+    },
+    {
+      "table_row_id": 21,
+      "answer": false
+    },
+    {
+      "table_row_id": 22,
+      "answer": false
+    },
+    {
+      "table_row_id": 101,
+      "answer": false
+    },
+    {
+      "table_row_id": 114,
+      "answer": false
+    },
+    {
+      "table_row_id": 115,
+      "answer": false
+    }
+  ]
+}

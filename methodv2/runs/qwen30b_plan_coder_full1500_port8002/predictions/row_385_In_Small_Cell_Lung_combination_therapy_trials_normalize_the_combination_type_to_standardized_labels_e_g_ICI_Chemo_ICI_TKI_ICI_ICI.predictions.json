@@ -1,0 +1,56 @@
+{
+  "item_id": "row_385",
+  "csv_row_number": 283,
+  "question": "In Small Cell Lung combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_385_In_Small_Cell_Lung_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 32,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 87,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "ICI+Chemo"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "ICI+Other"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "ICI+Other"
+    },
+    {
+      "table_row_id": 150,
+      "answer": "ICI+Other"
+    }
+  ]
+}

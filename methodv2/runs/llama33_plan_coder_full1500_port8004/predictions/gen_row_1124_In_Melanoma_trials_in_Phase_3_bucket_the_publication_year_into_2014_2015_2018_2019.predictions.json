@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_1124",
+  "csv_row_number": 1124,
+  "question": "In Melanoma trials in Phase 3, bucket the publication year into: ≤2014, 2015–2018, ≥2019.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1124_In_Melanoma_trials_in_Phase_3_bucket_the_publication_year_into_2014_2015_2018_2019",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "≤2014"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "≥2019"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "2015–2018"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "≥2019"
+    }
+  ]
+}

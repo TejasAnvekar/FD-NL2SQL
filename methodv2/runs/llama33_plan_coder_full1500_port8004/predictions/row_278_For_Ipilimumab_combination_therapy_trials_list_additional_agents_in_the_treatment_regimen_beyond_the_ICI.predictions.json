@@ -1,0 +1,35 @@
+{
+  "item_id": "row_278",
+  "csv_row_number": 214,
+  "question": "For Ipilimumab combination therapy trials, list additional agents in the treatment regimen beyond the ICI.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_278_For_Ipilimumab_combination_therapy_trials_list_additional_agents_in_the_treatment_regimen_beyond_the_ICI",
+  "predictions": [
+    {
+      "table_row_id": 32,
+      "answer": [
+        "etoposide",
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 58,
+      "answer": [
+        "dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 76,
+      "answer": []
+    },
+    {
+      "table_row_id": 97,
+      "answer": [
+        "gvax"
+      ]
+    },
+    {
+      "table_row_id": 134,
+      "answer": []
+    }
+  ]
+}

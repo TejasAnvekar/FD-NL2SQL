@@ -1,0 +1,16 @@
+{
+  "item_id": "row_416",
+  "csv_row_number": 310,
+  "question": "In Hepatocellular trials with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_416_In_Hepatocellular_trials_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 79,
+      "answer": []
+    },
+    {
+      "table_row_id": 109,
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "row_362",
+  "csv_row_number": 264,
+  "question": "In Head and Neck trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_362_In_Head_and_Neck_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "secondary"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "secondary"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "secondary"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "secondary"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "secondary"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "secondary"
+    },
+    {
+      "table_row_id": 157,
+      "answer": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "row_415",
+  "csv_row_number": 309,
+  "question": "For Durvalumab, Tremelimumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_415_For_Durvalumab_Tremelimumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 82,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 123,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 124,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "unknown"
+    }
+  ]
+}

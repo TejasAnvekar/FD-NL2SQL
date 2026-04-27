@@ -1,0 +1,32 @@
+{
+  "item_id": "gen_row_387",
+  "csv_row_number": 387,
+  "question": "In Head and Neck trials in Phase 3 using monotherapy, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_387_In_Head_and_Neck_trials_in_Phase_3_using_monotherapy_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "pembrolizumab"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "nivolumab"
+    },
+    {
+      "table_row_id": 14,
+      "answer": "nivolumab"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "pembrolizumab"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "nivolumab"
+    },
+    {
+      "table_row_id": 110,
+      "answer": ""
+    }
+  ]
+}

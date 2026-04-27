@@ -1,0 +1,84 @@
+{
+  "item_id": "gen_row_546",
+  "csv_row_number": 546,
+  "question": "For Atezolizumab trials using ICI+Chemo included in the meta-analysis, identify whether cisplatin or carboplatin was used in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_546_For_Atezolizumab_trials_using_ICI_Chemo_included_in_the_meta_analysis_identify_whether_cisplatin_or_carboplatin_was_used_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 23,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 25,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 26,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "carboplatin"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "cisplatin"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 127,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1106",
+  "csv_row_number": 1106,
+  "question": "In Non-Small Cell Lung trials in Phase 3 for Durvalumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1106_In_Non_Small_Cell_Lung_trials_in_Phase_3_for_Durvalumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 110,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 111,
+      "answer": "OS"
+    },
+    {
+      "table_row_id": 112,
+      "answer": "Other"
+    }
+  ]
+}

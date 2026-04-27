@@ -1,0 +1,120 @@
+{
+  "item_id": "gen_row_829",
+  "csv_row_number": 829,
+  "question": "In Non-Small Cell Lung trials in Phase 3, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_829_In_Non_Small_Cell_Lung_trials_in_Phase_3_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 27,
+      "answer": "https://pubmed.gov/26412456"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "https://pubmed.gov/26028407"
+    },
+    {
+      "table_row_id": 29,
+      "answer": ""
+    },
+    {
+      "table_row_id": 30,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": ""
+    },
+    {
+      "table_row_id": 33,
+      "answer": "https://pubmed.gov/28636851"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "https://pubmed.gov/28854067"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "https://pubmed.gov/28885881"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "https://pubmed.gov/30280658"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "https://pubmed.gov/30262187"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "https://pubmed.gov/27979383"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "https://pubmed.gov/29777823"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "https://pubmed.gov/29658856"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "https://pubmed.gov/30280635"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "https://pubmed.gov/29863955"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "https://pubmed.gov/29863955"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "https://pubmed.gov/29658845"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "https://pubmed.gov/29658845"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "https://pubmed.gov/30955977"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "https://pubmed.gov/31122901"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "https://pubmed.gov/30659987"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "https://pubmed.gov/32201234"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "https://pubmed.gov/32302702"
+    },
+    {
+      "table_row_id": 113,
+      "answer": ""
+    },
+    {
+      "table_row_id": 116,
+      "answer": "https://pubmed.gov/27718847"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "https://pubmed.gov/32997907"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "https://pubmed.gov/33333328"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "https://pubmed.gov/33581821"
+    }
+  ]
+}

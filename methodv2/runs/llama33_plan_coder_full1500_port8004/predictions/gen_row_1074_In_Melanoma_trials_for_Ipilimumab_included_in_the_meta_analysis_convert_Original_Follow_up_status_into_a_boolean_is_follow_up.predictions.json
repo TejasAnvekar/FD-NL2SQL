@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_1074",
+  "csv_row_number": 1074,
+  "question": "In Melanoma trials for Ipilimumab included in the meta-analysis, convert 'Original/Follow up' status into a boolean is_follow_up.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1074_In_Melanoma_trials_for_Ipilimumab_included_in_the_meta_analysis_convert_Original_Follow_up_status_into_a_boolean_is_follow_up",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": false
+    },
+    {
+      "table_row_id": 59,
+      "answer": false
+    },
+    {
+      "table_row_id": 60,
+      "answer": false
+    },
+    {
+      "table_row_id": 67,
+      "answer": false
+    },
+    {
+      "table_row_id": 93,
+      "answer": false
+    },
+    {
+      "table_row_id": 117,
+      "answer": true
+    },
+    {
+      "table_row_id": 142,
+      "answer": false
+    }
+  ]
+}

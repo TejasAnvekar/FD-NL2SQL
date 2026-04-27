@@ -1,0 +1,108 @@
+{
+  "item_id": "gen_row_371",
+  "csv_row_number": 371,
+  "question": "For Atezolizumab trials in Phase 3, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_371_For_Atezolizumab_trials_in_Phase_3_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29268948"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30345906"
+    },
+    {
+      "table_row_id": 6,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31003911"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31003911"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31079938"
+    },
+    {
+      "table_row_id": 24,
+      "answer": ""
+    },
+    {
+      "table_row_id": 27,
+      "answer": ""
+    },
+    {
+      "table_row_id": 31,
+      "answer": ""
+    },
+    {
+      "table_row_id": 37,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/30262187"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/27979383"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/29777823"
+    },
+    {
+      "table_row_id": 53,
+      "answer": ""
+    },
+    {
+      "table_row_id": 56,
+      "answer": ""
+    },
+    {
+      "table_row_id": 84,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/31786121"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32416780"
+    },
+    {
+      "table_row_id": 108,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32416780"
+    },
+    {
+      "table_row_id": 109,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32402160"
+    },
+    {
+      "table_row_id": 114,
+      "answer": ""
+    },
+    {
+      "table_row_id": 119,
+      "answer": ""
+    },
+    {
+      "table_row_id": 122,
+      "answer": ""
+    },
+    {
+      "table_row_id": 125,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/32966830"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33333328"
+    },
+    {
+      "table_row_id": 143,
+      "answer": ""
+    },
+    {
+      "table_row_id": 144,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33166718"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "https://pubmed.ncbi.nlm.nih.gov/33721560"
+    }
+  ]
+}

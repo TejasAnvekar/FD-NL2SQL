@@ -1,0 +1,12 @@
+{
+  "item_id": "gen_row_1433",
+  "csv_row_number": 1433,
+  "question": "For Pembrolizumab trials in Phase 2 using ICI plus BRAFi+MEKi, extract the dosing schedule from the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1433_For_Pembrolizumab_trials_in_Phase_2_using_ICI_plus_BRAFi_MEKi_extract_the_dosing_schedule_from_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 70,
+      "answer": "Not specified"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+| method_family | subfamily | run_name | question_dir_count | table_f1 | rouge_l_f1 | chrf | derived_norm_target_f1 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| planner_coder | planner_coder | gptoss20b_plan_coder_full1500_port8000 | 1500 | 14.56 | 86.75 | 84.12 | 9.51 |
+| planner_coder | planner_coder | llama33_plan_coder_full1500_port8004_merged | 1500 | **63.40** | **88.39** | **85.57** | **30.92** |
+| planner_coder | planner_coder | qwen30b_plan_coder_full1500_port8002 | 1500 | 48.92 | 87.14 | 84.10 | 21.50 |
+| planner_executor | planexec | question_table_copy_llm_planexec_aug1500_gptoss_exec_qwen_plan | 1500 | **75.07** | 85.76 | 82.80 | 27.60 |
+| planner_executor | planexec | question_table_copy_llm_planexec_aug1500_qwen_exec_gptoss_plan | 1500 | 59.59 | 90.76 | 88.64 | 37.81 |
+| planner_executor | planexec | question_table_copy_llm_planexec_aug1500_qwen_exec_llama_plan | 1500 | 62.47 | **90.91** | **89.10** | **39.83** |
+| prompting_baseline | prompting | question_table_copy_llm_naive_aug1500_tablegpt2_7b | 1500 | **44.03** | **82.01** | **78.80** | **6.22** |

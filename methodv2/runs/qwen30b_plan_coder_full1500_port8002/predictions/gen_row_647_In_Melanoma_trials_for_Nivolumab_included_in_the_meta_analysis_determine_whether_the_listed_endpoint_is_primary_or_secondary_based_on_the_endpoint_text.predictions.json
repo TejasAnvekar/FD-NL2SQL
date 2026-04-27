@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_647",
+  "csv_row_number": 647,
+  "question": "In Melanoma trials for Nivolumab included in the meta-analysis, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_647_In_Melanoma_trials_for_Nivolumab_included_in_the_meta_analysis_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 67,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "primary"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 96,
+      "answer": "unknown"
+    }
+  ]
+}

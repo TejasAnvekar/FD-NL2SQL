@@ -1,0 +1,96 @@
+{
+  "item_id": "row_392",
+  "csv_row_number": 288,
+  "question": "For Pembrolizumab trials, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_392_For_Pembrolizumab_trials_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 2,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 11,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 79,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 81,
+      "answer": "early"
+    },
+    {
+      "table_row_id": 98,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 131,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 148,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 149,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 152,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 153,
+      "answer": "late"
+    }
+  ]
+}

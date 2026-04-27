@@ -1,0 +1,40 @@
+{
+  "item_id": "row_311",
+  "csv_row_number": 235,
+  "question": "For Pembrolizumab trials in Melanoma, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_311_For_Pembrolizumab_trials_in_Melanoma_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "KEYNOTE-054"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "KEYNOTE-002"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "KEYNOTE-002"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "KEYNOTE-002"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "KEYNOTE-002"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "KEYNOTE-022"
+    },
+    {
+      "table_row_id": 71,
+      "answer": ""
+    },
+    {
+      "table_row_id": 72,
+      "answer": ""
+    }
+  ]
+}

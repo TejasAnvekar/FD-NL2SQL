@@ -1,0 +1,36 @@
+{
+  "item_id": "gen_row_623",
+  "csv_row_number": 623,
+  "question": "In Melanoma trials in Phase 3 for Nivolumab, interpret the PD-L1 requirement flag as boolean true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_623_In_Melanoma_trials_in_Phase_3_for_Nivolumab_interpret_the_PD_L1_requirement_flag_as_boolean_true_false",
+  "predictions": [
+    {
+      "table_row_id": 67,
+      "answer": false
+    },
+    {
+      "table_row_id": 68,
+      "answer": false
+    },
+    {
+      "table_row_id": 69,
+      "answer": false
+    },
+    {
+      "table_row_id": 71,
+      "answer": false
+    },
+    {
+      "table_row_id": 72,
+      "answer": false
+    },
+    {
+      "table_row_id": 95,
+      "answer": false
+    },
+    {
+      "table_row_id": 96,
+      "answer": false
+    }
+  ]
+}

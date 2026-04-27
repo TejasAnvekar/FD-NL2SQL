@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_464",
+  "csv_row_number": 464,
+  "question": "For Durvalumab trials in Phase 3 included in the meta-analysis, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_464_For_Durvalumab_trials_in_Phase_3_included_in_the_meta_analysis_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": ""
+    },
+    {
+      "table_row_id": 35,
+      "answer": "https://pubmed.gov/28885881"
+    },
+    {
+      "table_row_id": 36,
+      "answer": ""
+    },
+    {
+      "table_row_id": 57,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "https://pubmed.gov/31590988"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "https://pubmed.gov/32201234"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "https://pubmed.gov/32271377"
+    },
+    {
+      "table_row_id": 100,
+      "answer": ""
+    },
+    {
+      "table_row_id": 129,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": ""
+    }
+  ]
+}

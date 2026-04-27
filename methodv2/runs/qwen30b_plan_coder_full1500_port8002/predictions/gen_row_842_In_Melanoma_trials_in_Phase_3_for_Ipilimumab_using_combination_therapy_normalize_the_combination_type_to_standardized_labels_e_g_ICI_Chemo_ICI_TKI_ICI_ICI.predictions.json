@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_842",
+  "csv_row_number": 842,
+  "question": "In Melanoma trials in Phase 3 for Ipilimumab using combination therapy, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_842_In_Melanoma_trials_in_Phase_3_for_Ipilimumab_using_combination_therapy_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": ""
+    },
+    {
+      "table_row_id": 67,
+      "answer": ""
+    },
+    {
+      "table_row_id": 68,
+      "answer": ""
+    },
+    {
+      "table_row_id": 69,
+      "answer": ""
+    },
+    {
+      "table_row_id": 70,
+      "answer": ""
+    },
+    {
+      "table_row_id": 71,
+      "answer": ""
+    },
+    {
+      "table_row_id": 72,
+      "answer": ""
+    },
+    {
+      "table_row_id": 93,
+      "answer": ""
+    },
+    {
+      "table_row_id": 94,
+      "answer": ""
+    },
+    {
+      "table_row_id": 95,
+      "answer": ""
+    },
+    {
+      "table_row_id": 96,
+      "answer": ""
+    },
+    {
+      "table_row_id": 104,
+      "answer": ""
+    },
+    {
+      "table_row_id": 128,
+      "answer": ""
+    },
+    {
+      "table_row_id": 142,
+      "answer": ""
+    }
+  ]
+}

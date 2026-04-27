@@ -1,0 +1,92 @@
+{
+  "item_id": "row_299",
+  "csv_row_number": 228,
+  "question": "In Urothelial combination therapy trials, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_299_In_Urothelial_combination_therapy_trials_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo_ICI_TKI_ICI_ICI",
+  "predictions": [
+    {
+      "table_row_id": 4,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 17,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 18,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 20,
+      "answer": "ICI+TKI"
+    },
+    {
+      "table_row_id": 21,
+      "answer": "ICI+TKI"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 107,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 121,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 122,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 123,
+      "answer": ""
+    },
+    {
+      "table_row_id": 132,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 137,
+      "answer": "ICI+ICI"
+    },
+    {
+      "table_row_id": 138,
+      "answer": "ICI+ICI"
+    }
+  ]
+}

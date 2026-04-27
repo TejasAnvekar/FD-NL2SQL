@@ -1,0 +1,32 @@
+{
+  "item_id": "row_33",
+  "csv_row_number": 23,
+  "question": "In Urothelial Phase 3 trials, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_33_In_Urothelial_Phase_3_trials_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 106,
+      "answer": false
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 123,
+      "answer": false
+    },
+    {
+      "table_row_id": 124,
+      "answer": false
+    },
+    {
+      "table_row_id": 126,
+      "answer": false
+    },
+    {
+      "table_row_id": 153,
+      "answer": false
+    }
+  ]
+}

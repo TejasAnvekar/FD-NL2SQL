@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_864",
+  "csv_row_number": 864,
+  "question": "In Small Cell Lung trials in Phase 3 included in the meta-analysis, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_864_In_Small_Cell_Lung_trials_in_Phase_3_included_in_the_meta_analysis_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 25,
+      "answer": ""
+    },
+    {
+      "table_row_id": 26,
+      "answer": ""
+    },
+    {
+      "table_row_id": 32,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 53,
+      "answer": ""
+    },
+    {
+      "table_row_id": 82,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 87,
+      "answer": ""
+    },
+    {
+      "table_row_id": 98,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 127,
+      "answer": ""
+    },
+    {
+      "table_row_id": 128,
+      "answer": ""
+    }
+  ]
+}

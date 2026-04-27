@@ -1,0 +1,40 @@
+{
+  "item_id": "gen_row_542",
+  "csv_row_number": 542,
+  "question": "In Gastric/GEJ trials using monotherapy included in the meta-analysis, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_542_In_Gastric_GEJ_trials_using_monotherapy_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": {}
+    },
+    {
+      "table_row_id": 9,
+      "answer": {
+        "nivolumab": "Opdivo"
+      }
+    },
+    {
+      "table_row_id": 10,
+      "answer": {
+        "avelumab": "Bavencio"
+      }
+    },
+    {
+      "table_row_id": 78,
+      "answer": {
+        "nivolumab": "Opdivo"
+      }
+    },
+    {
+      "table_row_id": 80,
+      "answer": {
+        "nivolumab": "Opdivo"
+      }
+    },
+    {
+      "table_row_id": 127,
+      "answer": {}
+    }
+  ]
+}

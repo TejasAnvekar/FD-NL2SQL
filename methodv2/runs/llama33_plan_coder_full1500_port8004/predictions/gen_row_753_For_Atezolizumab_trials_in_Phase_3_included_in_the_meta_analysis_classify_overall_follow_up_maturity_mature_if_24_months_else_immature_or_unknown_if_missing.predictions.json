@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_753",
+  "csv_row_number": 753,
+  "question": "For Atezolizumab trials in Phase 3 included in the meta-analysis, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_753_For_Atezolizumab_trials_in_Phase_3_included_in_the_meta_analysis_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 4,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 7,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 16,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 22,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 84,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 103,
+      "answer": "unknown"
+    }
+  ]
+}

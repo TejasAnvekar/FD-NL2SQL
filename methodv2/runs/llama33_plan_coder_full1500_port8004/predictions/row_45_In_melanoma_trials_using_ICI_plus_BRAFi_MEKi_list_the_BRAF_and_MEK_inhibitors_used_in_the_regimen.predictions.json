@@ -1,0 +1,15 @@
+{
+  "item_id": "row_45",
+  "csv_row_number": 33,
+  "question": "In melanoma trials using ICI plus BRAFi+MEKi, list the BRAF and MEK inhibitors used in the regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_45_In_melanoma_trials_using_ICI_plus_BRAFi_MEKi_list_the_BRAF_and_MEK_inhibitors_used_in_the_regimen",
+  "predictions": [
+    {
+      "table_row_id": 70,
+      "answer": [
+        "dabrafenib",
+        "trametinib"
+      ]
+    }
+  ]
+}

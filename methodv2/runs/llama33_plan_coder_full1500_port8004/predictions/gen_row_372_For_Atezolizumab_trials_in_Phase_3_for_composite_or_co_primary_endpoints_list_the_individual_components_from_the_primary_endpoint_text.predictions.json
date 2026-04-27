@@ -1,0 +1,84 @@
+{
+  "item_id": "gen_row_372",
+  "csv_row_number": 372,
+  "question": "For Atezolizumab trials in Phase 3, for composite or co-primary endpoints, list the individual components from the primary endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_372_For_Atezolizumab_trials_in_Phase_3_for_composite_or_co_primary_endpoints_list_the_individual_components_from_the_primary_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": []
+    },
+    {
+      "table_row_id": 4,
+      "answer": []
+    },
+    {
+      "table_row_id": 6,
+      "answer": []
+    },
+    {
+      "table_row_id": 7,
+      "answer": []
+    },
+    {
+      "table_row_id": 18,
+      "answer": []
+    },
+    {
+      "table_row_id": 20,
+      "answer": []
+    },
+    {
+      "table_row_id": 21,
+      "answer": []
+    },
+    {
+      "table_row_id": 22,
+      "answer": []
+    },
+    {
+      "table_row_id": 43,
+      "answer": []
+    },
+    {
+      "table_row_id": 45,
+      "answer": []
+    },
+    {
+      "table_row_id": 46,
+      "answer": []
+    },
+    {
+      "table_row_id": 55,
+      "answer": []
+    },
+    {
+      "table_row_id": 84,
+      "answer": []
+    },
+    {
+      "table_row_id": 102,
+      "answer": []
+    },
+    {
+      "table_row_id": 103,
+      "answer": []
+    },
+    {
+      "table_row_id": 107,
+      "answer": []
+    },
+    {
+      "table_row_id": 108,
+      "answer": []
+    },
+    {
+      "table_row_id": 109,
+      "answer": []
+    },
+    {
+      "table_row_id": 132,
+      "answer": []
+    }
+  ]
+}

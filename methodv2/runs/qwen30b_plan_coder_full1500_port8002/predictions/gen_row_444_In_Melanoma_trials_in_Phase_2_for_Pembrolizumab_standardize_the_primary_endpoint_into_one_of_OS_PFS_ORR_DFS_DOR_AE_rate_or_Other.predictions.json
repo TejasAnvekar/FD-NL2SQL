@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_444",
+  "csv_row_number": 444,
+  "question": "In Melanoma trials in Phase 2 for Pembrolizumab, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_444_In_Melanoma_trials_in_Phase_2_for_Pembrolizumab_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 62,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Other"
+    }
+  ]
+}

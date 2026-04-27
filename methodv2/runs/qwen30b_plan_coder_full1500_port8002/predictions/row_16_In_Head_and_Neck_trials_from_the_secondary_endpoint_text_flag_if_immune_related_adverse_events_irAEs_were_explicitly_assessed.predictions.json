@@ -1,0 +1,36 @@
+{
+  "item_id": "row_16",
+  "csv_row_number": 10,
+  "question": "In Head and Neck trials, from the secondary endpoint text flag if immune-related adverse events (irAEs) were explicitly assessed.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_16_In_Head_and_Neck_trials_from_the_secondary_endpoint_text_flag_if_immune_related_adverse_events_irAEs_were_explicitly_assessed",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": false
+    },
+    {
+      "table_row_id": 13,
+      "answer": false
+    },
+    {
+      "table_row_id": 85,
+      "answer": false
+    },
+    {
+      "table_row_id": 86,
+      "answer": false
+    },
+    {
+      "table_row_id": 105,
+      "answer": false
+    },
+    {
+      "table_row_id": 110,
+      "answer": false
+    },
+    {
+      "table_row_id": 111,
+      "answer": false
+    }
+  ]
+}

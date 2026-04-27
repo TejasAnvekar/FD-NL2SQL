@@ -1,0 +1,9 @@
+2026-04-16 01:08:13,037 | INFO | Log file: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/logs/run_meta_20260416_010813.log
+2026-04-16 01:08:13,037 | INFO | Manifest CSV: /mnt/shared/manan/FD-NL2SQL-category3/data/table_question_ground_truths_augmented_1500/manifest.csv
+2026-04-16 01:08:13,038 | INFO | Annotated CSV: /mnt/shared/manan/FD-NL2SQL-category3/data/table_question_ground_truths_augmented_1500/annotated_questions.csv
+2026-04-16 01:08:13,038 | INFO | DB path: /mnt/shared/manan/FD-NL2SQL-category3/data/database.db
+2026-04-16 01:08:13,038 | INFO | Run dir: /mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004
+2026-04-16 01:08:13,038 | INFO | Selector model: llama-3.3-70b-instruct
+2026-04-16 01:08:13,038 | INFO | Planner model: llama-3.3-70b-instruct
+2026-04-16 01:08:13,038 | INFO | Coder model: llama-3.3-70b-instruct
+2026-04-16 01:08:13,038 | INFO | Question-level batch concurrency (max_in_flight): 20

@@ -1,0 +1,64 @@
+{
+  "item_id": "gen_row_605",
+  "csv_row_number": 605,
+  "question": "In Melanoma trials in Phase 2 using monotherapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_605_In_Melanoma_trials_in_Phase_2_using_monotherapy_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 94,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 104,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 136,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 141,
+      "answer": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1192",
+  "csv_row_number": 1192,
+  "question": "In Bladder trials using monotherapy included in the meta-analysis, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_1192_In_Bladder_trials_using_monotherapy_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": "Tecentriq"
+    },
+    {
+      "table_row_id": 2,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 3,
+      "answer": "Keytruda"
+    }
+  ]
+}

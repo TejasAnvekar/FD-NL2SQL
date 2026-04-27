@@ -1,0 +1,7 @@
+{
+  "source_runs": [
+    "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004",
+    "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd"
+  ],
+  "question_dir_count": 1500
+}

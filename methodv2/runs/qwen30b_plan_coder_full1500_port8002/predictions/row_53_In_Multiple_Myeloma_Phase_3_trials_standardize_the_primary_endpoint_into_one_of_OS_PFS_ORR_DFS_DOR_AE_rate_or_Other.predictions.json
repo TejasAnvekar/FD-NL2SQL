@@ -1,0 +1,16 @@
+{
+  "item_id": "row_53",
+  "csv_row_number": 39,
+  "question": "In Multiple Myeloma Phase 3 trials, standardize the primary endpoint into one of OS, PFS, ORR, DFS, DOR, AE-rate, or Other.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/row_53_In_Multiple_Myeloma_Phase_3_trials_standardize_the_primary_endpoint_into_one_of_OS_PFS_ORR_DFS_DOR_AE_rate_or_Other",
+  "predictions": [
+    {
+      "table_row_id": 74,
+      "answer": "PFS"
+    },
+    {
+      "table_row_id": 75,
+      "answer": "PFS"
+    }
+  ]
+}

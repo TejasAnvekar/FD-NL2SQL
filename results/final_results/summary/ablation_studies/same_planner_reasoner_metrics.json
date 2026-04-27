@@ -1,0 +1,32 @@
+[
+  {
+    "run_name": "question_table_copy_llm_planexec_aug1500_gptoss_exec_gptoss_plan",
+    "source_run_dir": "/mnt/data2/srchowd3/fdnl2sql_runs/question_table_copy_llm_planexec_aug1500_gptoss_exec_gptoss_plan",
+    "executor_model": "gptoss",
+    "planner_model": "gptoss",
+    "question_dir_count": "1500",
+    "table_f1": "0.7420923895079097",
+    "rouge_l_f1": "0.8464658534997278",
+    "chrf": "81.28164542555248"
+  },
+  {
+    "run_name": "question_table_copy_llm_planexec_aug1500_llama_exec_llama_plan",
+    "source_run_dir": "/mnt/data2/srchowd3/fdnl2sql_runs/question_table_copy_llm_planexec_aug1500_llama_exec_llama_plan",
+    "executor_model": "llama",
+    "planner_model": "llama",
+    "question_dir_count": "1500",
+    "table_f1": "0.7087259588221765",
+    "rouge_l_f1": "0.894791309249587",
+    "chrf": "87.45520751942823"
+  },
+  {
+    "run_name": "question_table_copy_llm_planexec_aug1500_qwen_exec_qwen_plan",
+    "source_run_dir": "/mnt/data2/srchowd3/fdnl2sql_runs/question_table_copy_llm_planexec_aug1500_qwen_exec_qwen_plan",
+    "executor_model": "qwen",
+    "planner_model": "qwen",
+    "question_dir_count": "1500",
+    "table_f1": "0.6318893417895627",
+    "rouge_l_f1": "0.9056410587086045",
+    "chrf": "89.12860819669417"
+  }
+]

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import sqlite3
 import sys
@@ -20,7 +21,6 @@ if str(THIS_DIR) not in sys.path:
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from run_embedding_cosine_baselines import avg_numeric, write_csv  # noqa: E402
 from run_hidden_column_sql_eval import make_run_dir, sanitize_name  # noqa: E402
 from run_question_table_copy_llm_naive import (  # noqa: E402
     assign_ground_truth_row_ids,
@@ -49,6 +49,32 @@ DEFAULT_RUN_ROOT = "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs"
 DEFAULT_PROMPT_DIR = THIS_DIR / "prompts"
 
 
+def avg_numeric(rows: Sequence[Dict[str, Any]], key: str) -> float:
+    values: List[float] = []
+    for row in rows:
+        value = row.get(key)
+        if isinstance(value, (int, float)):
+            values.append(float(value))
+    return (sum(values) / len(values)) if values else 0.0
+
+
+def write_csv(path: Path, rows_out: List[Dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not rows_out:
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            handle.write("")
+        return
+    fieldnames: List[str] = []
+    for row in rows_out:
+        for key in row.keys():
+            if key not in fieldnames:
+                fieldnames.append(key)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows_out)
+
+
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(
         description=(
@@ -65,6 +91,15 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--run_name", default="question_table_copy_llm_planner_executor")
     ap.add_argument("--limit", type=int, default=100)
     ap.add_argument("--csv_row_number", type=int, default=0)
+    ap.add_argument(
+        "--resume",
+        type=int,
+        default=1,
+        help=(
+            "Resume from completed per-question artifacts already present in the "
+            "run directory. Questions with successful completed artifacts are skipped."
+        ),
+    )
 
     ap.add_argument("--api_base", default="http://127.0.0.1:8000/v1")
     ap.add_argument("--api_key", default="EMPTY")
@@ -118,6 +153,17 @@ def parse_args() -> argparse.Namespace:
 
 def load_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
+
+
+def read_json(path: Path) -> Dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def read_csv_rows(path: Path) -> List[Dict[str, str]]:
+    import csv
+
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
 
 
 def render_template(template_text: str, replacements: Dict[str, Any]) -> str:
@@ -468,6 +514,335 @@ def avg_numeric_or_none(rows: Sequence[Dict[str, Any]], key: str) -> Optional[fl
     return float(sum(vals) / len(vals)) if vals else None
 
 
+def question_run_dir(run_dir: Path, item: Dict[str, Any]) -> Path:
+    question_slug = sanitize_name(f"{item['item_id']}__{item['question']}")[:180]
+    return run_dir / "questions" / question_slug
+
+
+def count_csv_rows(path: Path) -> int:
+    if not path.exists():
+        return 0
+    return len(read_csv_rows(path))
+
+
+def count_csv_columns(path: Path) -> int:
+    if not path.exists():
+        return 0
+    rows = read_csv_rows(path)
+    if rows:
+        return len(rows[0].keys())
+    import csv
+
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.reader(handle)
+        try:
+            header = next(reader)
+        except StopIteration:
+            return 0
+    return len(header)
+
+
+def stage_response_row(
+    *,
+    stage: str,
+    item: Dict[str, Any],
+    question: str,
+    raw_text: str,
+    parsed_output: Any,
+    error: str,
+    stage_metrics: Dict[str, Any],
+    model_meta: Dict[str, Any],
+    cost_currency: str,
+) -> Dict[str, Any]:
+    return {
+        "stage": stage,
+        "item_id": item["item_id"],
+        "csv_row_number": item["csv_row_number"],
+        "question": question,
+        "llm_raw_output": raw_text,
+        "parsed_output_json": json.dumps(parsed_output, ensure_ascii=False),
+        "error": error,
+        "prompt_char_count": stage_metrics.get("prompt_chars"),
+        "prompt_tokens": stage_metrics.get("prompt_tokens"),
+        "completion_tokens": stage_metrics.get("completion_tokens"),
+        "total_tokens": stage_metrics.get("total_tokens"),
+        "usage_available": stage_metrics.get("usage_available"),
+        "estimated_input_cost": stage_metrics.get("estimated_input_cost"),
+        "estimated_output_cost": stage_metrics.get("estimated_output_cost"),
+        "estimated_total_cost": stage_metrics.get("estimated_total_cost"),
+        "cost_currency": cost_currency,
+        "model_meta_json": json.dumps(model_meta, ensure_ascii=False),
+    }
+
+
+def question_row_has_errors(question_row: Dict[str, Any]) -> bool:
+    return bool(
+        question_row.get("selector_error")
+        or question_row.get("planner_error")
+        or question_row.get("executor_error")
+    )
+
+
+def load_resumed_question_result(
+    *,
+    item: Dict[str, Any],
+    run_dir: Path,
+    args: argparse.Namespace,
+) -> Optional[Dict[str, Any]]:
+    question_dir = question_run_dir(run_dir, item)
+    metadata_path = question_dir / "metadata.json"
+    llm_predictions_path = question_dir / "llm_predictions.csv"
+    table_copy_path = question_dir / "table_copy.csv"
+    candidate_table_path = question_dir / "candidate_table.csv"
+    candidate_focused_path = question_dir / "candidate_table_focused.csv"
+    selector_prompt_path = question_dir / "selector_prompt.txt"
+    planner_prompt_path = question_dir / "planner_prompt.txt"
+    executor_prompt_path = question_dir / "executor_prompt.txt"
+    selector_response_path = question_dir / "selector_response.json"
+    planner_response_path = question_dir / "planner_response.json"
+    executor_response_path = question_dir / "executor_response.json"
+    ground_truth_with_rowids_path = question_dir / "ground_truth_with_rowids.csv"
+    ground_truth_table_path = question_dir / "ground_truth_table.csv"
+
+    required = [
+        metadata_path,
+        llm_predictions_path,
+        table_copy_path,
+        candidate_table_path,
+        candidate_focused_path,
+        selector_prompt_path,
+        planner_prompt_path,
+        executor_prompt_path,
+        selector_response_path,
+        planner_response_path,
+        ground_truth_with_rowids_path,
+        ground_truth_table_path,
+    ]
+    if any(not path.exists() for path in required):
+        return None
+
+    try:
+        metadata = read_json(metadata_path)
+        llm_rows = read_csv_rows(llm_predictions_path)
+        selector_response = read_json(selector_response_path)
+        planner_response = read_json(planner_response_path)
+        executor_response = read_json(executor_response_path) if executor_response_path.exists() else {}
+    except Exception:
+        return None
+
+    selector_error = str(metadata.get("selector_error") or "")
+    planner_error = str(metadata.get("planner_error") or "")
+    executor_error = str(metadata.get("executor_error") or "")
+    if selector_error or planner_error or executor_error:
+        return None
+
+    question = str(metadata.get("question") or item["question"])
+    source_column = str(metadata.get("column_used") or item["column_used"])
+    expected_keys = list(metadata.get("expected_keys") or item["expected_keys"])
+    hidden_columns = list(metadata.get("hidden_columns") or [])
+
+    selector_stage_metrics = dict(metadata.get("selector_stage_usage") or {})
+    planner_stage_metrics = dict(metadata.get("planner_stage_usage") or {})
+    executor_stage_metrics = dict(metadata.get("executor_stage_usage") or {})
+    executor_side_usage = dict(metadata.get("executor_side_usage") or {})
+    planner_side_usage = dict(metadata.get("planner_side_usage") or {})
+    all_stage_usage = dict(metadata.get("all_stage_usage") or {})
+    executor_side_cost = dict(metadata.get("executor_side_estimated_cost") or {})
+    planner_side_cost = dict(metadata.get("planner_side_estimated_cost") or {})
+    all_stage_cost = dict(metadata.get("all_stage_estimated_cost") or {})
+    executor_endpoint = dict(metadata.get("executor_endpoint") or resolve_stage_endpoint(args, "executor_final"))
+    planner_endpoint = dict(metadata.get("planner_endpoint") or resolve_stage_endpoint(args, "planner"))
+
+    gt_rows = [row for row in llm_rows if (row.get("row_type") or "") != "extra_prediction"]
+    gt_row_ids = {
+        int(row["table_row_id"])
+        for row in gt_rows
+        if str(row.get("table_row_id", "")).strip()
+    }
+    pred_row_ids = {
+        int(row["table_row_id"])
+        for row in llm_rows
+        if str(row.get("table_row_id", "")).strip() and str(row.get("predicted_answer_json", "")).strip()
+    }
+    matched_row_ids = gt_row_ids & pred_row_ids
+    matched_exact = sum(
+        1
+        for row in gt_rows
+        if str(row.get("table_row_id", "")).strip() and float(row.get("exact_match") or 0.0) >= 1.0 - 1e-12
+    )
+    row_level_count = sum(1 for row in gt_rows if str(row.get("table_row_id", "")).strip())
+    gt_count = len(gt_row_ids)
+    pred_count = len(pred_row_ids)
+    exact_match_rate = (matched_exact / row_level_count) if row_level_count else 0.0
+    row_recall = (len(matched_row_ids) / gt_count) if gt_count else (1.0 if pred_count == 0 else 0.0)
+    row_precision = (len(matched_row_ids) / pred_count) if pred_count else (1.0 if gt_count == 0 else 0.0)
+    row_f1 = (2.0 * row_precision * row_recall / (row_precision + row_recall)) if (row_precision + row_recall) > 0 else 0.0
+    all_rows_exact_match = 1.0 if gt_count == pred_count and matched_exact == row_level_count and gt_count == len(matched_row_ids) else 0.0
+
+    selector_prompt = selector_prompt_path.read_text(encoding="utf-8")
+    planner_prompt = planner_prompt_path.read_text(encoding="utf-8")
+    executor_prompt = executor_prompt_path.read_text(encoding="utf-8")
+
+    request_rows = [
+        {
+            "stage": "selector",
+            "item_id": item["item_id"],
+            "csv_row_number": item["csv_row_number"],
+            "question": question,
+            "api_base": executor_endpoint.get("api_base", ""),
+            "model_name": executor_endpoint.get("model_name", ""),
+            "prompt": selector_prompt,
+            "prompt_char_count": selector_stage_metrics.get("prompt_chars", len(selector_prompt)),
+        },
+        {
+            "stage": "planner",
+            "item_id": item["item_id"],
+            "csv_row_number": item["csv_row_number"],
+            "question": question,
+            "api_base": planner_endpoint.get("api_base", ""),
+            "model_name": planner_endpoint.get("model_name", ""),
+            "prompt": planner_prompt,
+            "prompt_char_count": planner_stage_metrics.get("prompt_chars", len(planner_prompt)),
+        },
+        {
+            "stage": "executor_final",
+            "item_id": item["item_id"],
+            "csv_row_number": item["csv_row_number"],
+            "question": question,
+            "api_base": executor_endpoint.get("api_base", ""),
+            "model_name": executor_endpoint.get("model_name", ""),
+            "prompt": executor_prompt,
+            "prompt_char_count": executor_stage_metrics.get("prompt_chars", len(executor_prompt)),
+        },
+    ]
+
+    responses_rows = [
+        stage_response_row(
+            stage="selector",
+            item=item,
+            question=question,
+            raw_text=str(selector_response.get("raw_text") or ""),
+            parsed_output=selector_response.get("parsed_output") or metadata.get("selector_output") or {},
+            error=str(selector_response.get("error") or ""),
+            stage_metrics=selector_stage_metrics,
+            model_meta=dict(selector_response.get("model_meta") or metadata.get("selector_model_meta") or {}),
+            cost_currency=str(metadata.get("cost_currency") or args.cost_currency),
+        ),
+        stage_response_row(
+            stage="planner",
+            item=item,
+            question=question,
+            raw_text=str(planner_response.get("raw_text") or ""),
+            parsed_output=planner_response.get("parsed_plan") or metadata.get("planner_plan") or {},
+            error=str(planner_response.get("error") or ""),
+            stage_metrics=planner_stage_metrics,
+            model_meta=dict(planner_response.get("model_meta") or metadata.get("planner_model_meta") or {}),
+            cost_currency=str(metadata.get("cost_currency") or args.cost_currency),
+        ),
+        stage_response_row(
+            stage="executor_final",
+            item=item,
+            question=question,
+            raw_text=str(executor_response.get("raw_text") or ""),
+            parsed_output=executor_response.get("parsed_predictions") or metadata.get("parsed_predictions") or [],
+            error=str(executor_response.get("error") or metadata.get("executor_error") or ""),
+            stage_metrics=executor_stage_metrics,
+            model_meta=dict(executor_response.get("model_meta") or metadata.get("executor_model_meta") or {}),
+            cost_currency=str(metadata.get("cost_currency") or args.cost_currency),
+        ),
+    ]
+
+    question_row = {
+        "item_id": item["item_id"],
+        "csv_row_number": item["csv_row_number"],
+        "question": question,
+        "column_used": source_column,
+        "planner_inferred_source_column": str(metadata.get("planner_inferred_source_column") or ""),
+        "planner_inferred_source_matches_metadata": int(metadata.get("planner_inferred_source_matches_metadata") or 0),
+        "selector_prompt_chars": selector_stage_metrics.get("prompt_chars"),
+        "planner_prompt_chars": planner_stage_metrics.get("prompt_chars"),
+        "executor_prompt_chars": executor_stage_metrics.get("prompt_chars"),
+        "executor_side_prompt_chars": executor_side_usage.get("prompt_chars"),
+        "total_prompt_chars": all_stage_usage.get("prompt_chars"),
+        "selector_prompt_tokens": selector_stage_metrics.get("prompt_tokens"),
+        "selector_completion_tokens": selector_stage_metrics.get("completion_tokens"),
+        "selector_total_tokens": selector_stage_metrics.get("total_tokens"),
+        "planner_prompt_tokens": planner_stage_metrics.get("prompt_tokens"),
+        "planner_completion_tokens": planner_stage_metrics.get("completion_tokens"),
+        "planner_total_tokens": planner_stage_metrics.get("total_tokens"),
+        "executor_prompt_tokens": executor_stage_metrics.get("prompt_tokens"),
+        "executor_completion_tokens": executor_stage_metrics.get("completion_tokens"),
+        "executor_total_tokens": executor_stage_metrics.get("total_tokens"),
+        "executor_side_prompt_tokens": executor_side_usage.get("prompt_tokens"),
+        "executor_side_completion_tokens": executor_side_usage.get("completion_tokens"),
+        "executor_side_total_tokens": executor_side_usage.get("total_tokens"),
+        "planner_side_prompt_tokens": planner_side_usage.get("prompt_tokens"),
+        "planner_side_completion_tokens": planner_side_usage.get("completion_tokens"),
+        "planner_side_total_tokens": planner_side_usage.get("total_tokens"),
+        "total_prompt_tokens": all_stage_usage.get("prompt_tokens"),
+        "total_completion_tokens": all_stage_usage.get("completion_tokens"),
+        "total_tokens": all_stage_usage.get("total_tokens"),
+        "token_usage_stage_count": all_stage_usage.get("stage_count"),
+        "token_usage_stages_reported": all_stage_usage.get("stages_with_usage"),
+        "token_usage_coverage": all_stage_usage.get("usage_coverage"),
+        "selector_estimated_input_cost": selector_stage_metrics.get("estimated_input_cost"),
+        "selector_estimated_output_cost": selector_stage_metrics.get("estimated_output_cost"),
+        "selector_estimated_total_cost": selector_stage_metrics.get("estimated_total_cost"),
+        "planner_estimated_input_cost": planner_stage_metrics.get("estimated_input_cost"),
+        "planner_estimated_output_cost": planner_stage_metrics.get("estimated_output_cost"),
+        "planner_estimated_total_cost": planner_stage_metrics.get("estimated_total_cost"),
+        "executor_estimated_input_cost": executor_stage_metrics.get("estimated_input_cost"),
+        "executor_estimated_output_cost": executor_stage_metrics.get("estimated_output_cost"),
+        "executor_estimated_total_cost": executor_stage_metrics.get("estimated_total_cost"),
+        "executor_side_estimated_input_cost": executor_side_cost.get("estimated_input_cost"),
+        "executor_side_estimated_output_cost": executor_side_cost.get("estimated_output_cost"),
+        "executor_side_estimated_total_cost": executor_side_cost.get("estimated_total_cost"),
+        "planner_side_estimated_input_cost": planner_side_cost.get("estimated_input_cost"),
+        "planner_side_estimated_output_cost": planner_side_cost.get("estimated_output_cost"),
+        "planner_side_estimated_total_cost": planner_side_cost.get("estimated_total_cost"),
+        "estimated_total_input_cost": all_stage_cost.get("estimated_input_cost"),
+        "estimated_total_output_cost": all_stage_cost.get("estimated_output_cost"),
+        "estimated_total_cost": all_stage_cost.get("estimated_total_cost"),
+        "cost_currency": str(metadata.get("cost_currency") or args.cost_currency),
+        "expected_keys_json": json.dumps(expected_keys, ensure_ascii=False),
+        "hidden_columns_json": json.dumps(hidden_columns, ensure_ascii=False),
+        "table_row_count": count_csv_rows(table_copy_path),
+        "candidate_row_count": count_csv_rows(candidate_table_path),
+        "candidate_column_count": count_csv_columns(candidate_focused_path),
+        "ground_truth_row_count": len(item["ground_truth_rows"]),
+        "assigned_ground_truth_row_count": row_level_count,
+        "predicted_row_count": pred_count,
+        "row_selection_recall": row_recall,
+        "row_selection_precision": row_precision,
+        "row_selection_f1": row_f1,
+        "exact_match_rate": exact_match_rate,
+        "all_rows_exact_match": all_rows_exact_match,
+        "selector_error": selector_error,
+        "planner_error": planner_error,
+        "executor_error": executor_error,
+        "selector_used_fallback_full_table": int(metadata.get("selector_used_fallback_full_table") or 0),
+        "planner_plan_json": json.dumps(metadata.get("planner_plan") or {}, ensure_ascii=False),
+        "parsed_predictions_json": json.dumps(metadata.get("parsed_predictions") or [], ensure_ascii=False),
+        "question_dir": str(question_dir),
+        "table_copy_csv": str(table_copy_path),
+        "candidate_table_csv": str(candidate_table_path),
+        "candidate_table_focused_csv": str(candidate_focused_path),
+        "ground_truth_table_csv": str(ground_truth_table_path),
+        "ground_truth_with_rowids_csv": str(ground_truth_with_rowids_path),
+        "selector_prompt_txt": str(selector_prompt_path),
+        "planner_prompt_txt": str(planner_prompt_path),
+        "executor_prompt_txt": str(executor_prompt_path),
+    }
+
+    return {
+        "skip_reason": None,
+        "request_rows": request_rows,
+        "response_rows": responses_rows,
+        "question_row": question_row,
+        "row_rows": llm_rows,
+    }
+
+
 def process_question_item(
     *,
     item: Dict[str, Any],
@@ -802,6 +1177,19 @@ def process_question_item(
             "model_meta_json": json.dumps(final_meta, ensure_ascii=False),
         }
     )
+    write_json(
+        question_dir / "executor_response.json",
+        {
+            "raw_text": final_raw_text,
+            "parsed_predictions": parsed_predictions,
+            "error": final_error,
+            "prompt_char_count": executor_prompt_chars,
+            "usage": executor_usage,
+            "estimated_cost": executor_cost,
+            "cost_currency": args.cost_currency,
+            "model_meta": final_meta,
+        },
+    )
 
     selector_stage_metrics = {
         "prompt_chars": selector_prompt_chars,
@@ -1094,6 +1482,8 @@ def main() -> None:
     ]
     write_csv(run_dir / "sample_manifest.csv", sample_manifest_rows)
 
+    pending_questions: List[Dict[str, Any]] = []
+
     conn = sqlite3.connect(db_path)
     try:
         table_cols, full_table_rows = fetch_full_table(conn, args.table_name)
@@ -1116,24 +1506,49 @@ def main() -> None:
             or question_row.get("executor_error")
         )
 
+    if args.resume:
+        for item in sample_questions:
+            resumed_result = load_resumed_question_result(
+                item=item,
+                run_dir=run_dir,
+                args=args,
+            )
+            if resumed_result is None:
+                pending_questions.append(item)
+                continue
+            requests_rows.extend(resumed_result["request_rows"])
+            responses_rows.extend(resumed_result["response_rows"])
+            question_rows.append(resumed_result["question_row"])
+            row_rows.extend(resumed_result["row_rows"])
+            run_counter["resumed_completed"] += 1
+    else:
+        pending_questions = list(sample_questions)
+
+    logger.info(
+        "Resume enabled: %s | resumed_completed=%d | pending_questions=%d",
+        int(bool(args.resume)),
+        int(run_counter.get("resumed_completed", 0)),
+        len(pending_questions),
+    )
+
     progress_total = len(sample_questions)
-    progress_completed = 0
-    progress_success = 0
-    progress_error = 0
+    progress_completed = len(question_rows)
+    progress_success = sum(1 for row in question_rows if not question_row_has_errors(row))
+    progress_error = progress_completed - progress_success
     progress_start_time = time.time()
     if progress_total:
         print_progress(
             label="Questions",
-            completed=0,
+            completed=progress_completed,
             total=progress_total,
-            success=0,
-            error=0,
+            success=progress_success,
+            error=progress_error,
             start_time=progress_start_time,
         )
 
     max_workers = max(1, int(args.max_in_flight))
     if max_workers == 1:
-        for item in sample_questions:
+        for item in pending_questions:
             result = process_question_item(
                 item=item,
                 table_cols=table_cols,
@@ -1181,7 +1596,7 @@ def main() -> None:
                     planner_prompt_template=planner_prompt_template,
                     executor_prompt_template=executor_prompt_template,
                 ): item
-                for item in sample_questions
+                for item in pending_questions
             }
             for future in as_completed(future_map):
                 result = future.result()

@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_902",
+  "csv_row_number": 902,
+  "question": "In Non-Small Cell Lung trials for Ipilimumab using combination therapy included in the meta-analysis, normalize the combination type to standardized labels (e.g., ICI+Chemo, ICI+TKI, ICI+ICI).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_902_In_Non_Small_Cell_Lung_trials_for_Ipilimumab_using_combination_therapy_included_in_the_meta_analysis_normalize_the_combination_type_to_standardized_labels_e_g_ICI_Chemo",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "Other"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "Other"
+    }
+  ]
+}

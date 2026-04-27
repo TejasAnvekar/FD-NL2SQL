@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1323",
+  "csv_row_number": 1323,
+  "question": "In Head and Neck trials for Nivolumab included in the meta-analysis, extract the trial acronym from the trial name (e.g., KEYNOTE-xxx, CHECKMATE-xxx).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1323_In_Head_and_Neck_trials_for_Nivolumab_included_in_the_meta_analysis_extract_the_trial_acronym_from_the_trial_name_e_g_KEYNOTE_xxx_CHECKMATE_xxx",
+  "predictions": [
+    {
+      "table_row_id": 13,
+      "answer": ""
+    },
+    {
+      "table_row_id": 14,
+      "answer": ""
+    },
+    {
+      "table_row_id": 78,
+      "answer": ""
+    }
+  ]
+}

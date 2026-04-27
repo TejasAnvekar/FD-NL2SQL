@@ -1,0 +1,124 @@
+{
+  "item_id": "row_456",
+  "csv_row_number": 338,
+  "question": "In NSCLC trials, classify overall follow-up maturity: 'mature' if ≥24 months, else 'immature' (or 'unknown' if missing).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_456_In_NSCLC_trials_classify_overall_follow_up_maturity_mature_if_24_months_else_immature_or_unknown_if_missing",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 38,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 39,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 40,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 41,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 43,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 44,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 49,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 51,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 54,
+      "answer": "mature"
+    },
+    {
+      "table_row_id": 55,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "immature"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "unknown"
+    }
+  ]
+}

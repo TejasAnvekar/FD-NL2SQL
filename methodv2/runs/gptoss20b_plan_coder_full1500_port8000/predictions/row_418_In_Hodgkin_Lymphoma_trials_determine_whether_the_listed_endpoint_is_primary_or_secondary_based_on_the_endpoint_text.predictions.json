@@ -1,0 +1,12 @@
+{
+  "item_id": "row_418",
+  "csv_row_number": 311,
+  "question": "In Hodgkin Lymphoma trials, determine whether the listed endpoint is primary or secondary based on the endpoint text.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/row_418_In_Hodgkin_Lymphoma_trials_determine_whether_the_listed_endpoint_is_primary_or_secondary_based_on_the_endpoint_text",
+  "predictions": [
+    {
+      "table_row_id": 152,
+      "answer": false
+    }
+  ]
+}

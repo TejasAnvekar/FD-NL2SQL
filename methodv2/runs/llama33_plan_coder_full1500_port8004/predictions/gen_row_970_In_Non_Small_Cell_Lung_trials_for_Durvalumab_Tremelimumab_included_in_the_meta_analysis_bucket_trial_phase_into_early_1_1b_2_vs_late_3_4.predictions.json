@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_970",
+  "csv_row_number": 970,
+  "question": "In Non-Small Cell Lung trials for Durvalumab, Tremelimumab included in the meta-analysis, bucket trial phase into early (1/1b/2) vs late (3/4).",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_970_In_Non_Small_Cell_Lung_trials_for_Durvalumab_Tremelimumab_included_in_the_meta_analysis_bucket_trial_phase_into_early_1_1b_2_vs_late_3_4",
+  "predictions": [
+    {
+      "table_row_id": 35,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 57,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 83,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 90,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 91,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 100,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "late"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "late"
+    }
+  ]
+}

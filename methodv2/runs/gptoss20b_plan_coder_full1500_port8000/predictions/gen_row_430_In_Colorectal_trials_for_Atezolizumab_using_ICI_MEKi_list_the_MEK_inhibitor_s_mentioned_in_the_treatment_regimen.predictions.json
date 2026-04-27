@@ -1,0 +1,14 @@
+{
+  "item_id": "gen_row_430",
+  "csv_row_number": 430,
+  "question": "In Colorectal trials for Atezolizumab using ICI+MEKi, list the MEK inhibitor(s) mentioned in the treatment regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_430_In_Colorectal_trials_for_Atezolizumab_using_ICI_MEKi_list_the_MEK_inhibitor_s_mentioned_in_the_treatment_regimen",
+  "predictions": [
+    {
+      "table_row_id": 6,
+      "answer": [
+        "Cobimetinib"
+      ]
+    }
+  ]
+}

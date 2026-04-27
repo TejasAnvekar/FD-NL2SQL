@@ -1,0 +1,68 @@
+{
+  "item_id": "row_76",
+  "csv_row_number": 57,
+  "question": "In Melanoma trials with PD-L1 agents included in the meta-analysis, map the generic ICI name to its brand name.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_76_In_Melanoma_trials_with_PD_L1_agents_included_in_the_meta_analysis_map_the_generic_ICI_name_to_its_brand_name",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 61,
+      "answer": "Unknown"
+    },
+    {
+      "table_row_id": 62,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 63,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 64,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 65,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 66,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "Yervoy"
+    },
+    {
+      "table_row_id": 68,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 69,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "Keytruda"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "Opdivo"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "Opdivo"
+    }
+  ]
+}

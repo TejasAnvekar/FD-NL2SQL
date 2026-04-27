@@ -1,0 +1,112 @@
+{
+  "item_id": "row_434",
+  "csv_row_number": 324,
+  "question": "In Non-Small Cell Lung trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_434_In_Non_Small_Cell_Lung_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 23,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 24,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 29,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 30,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 31,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 34,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 35,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 36,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 37,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 42,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 45,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 46,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 47,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 48,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 52,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 99,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 102,
+      "answer": "≥3-arm"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 116,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 129,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 132,
+      "answer": "2-arm"
+    },
+    {
+      "table_row_id": 155,
+      "answer": "2-arm"
+    }
+  ]
+}

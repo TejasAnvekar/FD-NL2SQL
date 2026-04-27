@@ -1,0 +1,48 @@
+{
+  "item_id": "gen_row_949",
+  "csv_row_number": 949,
+  "question": "For Ipilimumab trials in Phase 3, construct a PubMed URL from the PubMed ID.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_949_For_Ipilimumab_trials_in_Phase_3_construct_a_PubMed_URL_from_the_PubMed_ID",
+  "predictions": [
+    {
+      "table_row_id": 8,
+      "answer": ""
+    },
+    {
+      "table_row_id": 58,
+      "answer": "https://pubmed.gov/21639810"
+    },
+    {
+      "table_row_id": 59,
+      "answer": "https://pubmed.gov/20525992"
+    },
+    {
+      "table_row_id": 60,
+      "answer": "https://pubmed.gov/20525992"
+    },
+    {
+      "table_row_id": 76,
+      "answer": "https://pubmed.gov/24831977"
+    },
+    {
+      "table_row_id": 77,
+      "answer": "https://pubmed.gov/28034081"
+    },
+    {
+      "table_row_id": 93,
+      "answer": "https://pubmed.gov/31880964"
+    },
+    {
+      "table_row_id": 117,
+      "answer": "https://pubmed.gov/23942774"
+    },
+    {
+      "table_row_id": 118,
+      "answer": "https://pubmed.gov/23942774"
+    },
+    {
+      "table_row_id": 134,
+      "answer": "https://pubmed.gov/32811715"
+    }
+  ]
+}

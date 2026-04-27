@@ -1,0 +1,20 @@
+{
+  "item_id": "gen_row_1395",
+  "csv_row_number": 1395,
+  "question": "In Head and Neck trials in Phase 3 for Pembrolizumab, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004_contd/questions/gen_row_1395_In_Head_and_Neck_trials_in_Phase_3_for_Pembrolizumab_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 12,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 85,
+      "answer": "active"
+    },
+    {
+      "table_row_id": 86,
+      "answer": "active"
+    }
+  ]
+}

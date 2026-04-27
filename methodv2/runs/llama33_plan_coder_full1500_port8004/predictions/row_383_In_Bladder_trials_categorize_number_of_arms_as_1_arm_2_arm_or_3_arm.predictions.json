@@ -1,0 +1,20 @@
+{
+  "item_id": "row_383",
+  "csv_row_number": 281,
+  "question": "In Bladder trials, categorize number of arms as 1-arm, 2-arm, or ≥3-arm.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/row_383_In_Bladder_trials_categorize_number_of_arms_as_1_arm_2_arm_or_3_arm",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": ""
+    },
+    {
+      "table_row_id": 2,
+      "answer": ""
+    },
+    {
+      "table_row_id": 3,
+      "answer": ""
+    }
+  ]
+}

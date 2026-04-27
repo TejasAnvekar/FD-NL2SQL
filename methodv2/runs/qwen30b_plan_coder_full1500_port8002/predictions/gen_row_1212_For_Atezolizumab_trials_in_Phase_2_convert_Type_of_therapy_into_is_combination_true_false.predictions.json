@@ -1,0 +1,132 @@
+{
+  "item_id": "gen_row_1212",
+  "csv_row_number": 1212,
+  "question": "For Atezolizumab trials in Phase 2, convert 'Type of therapy' into is_combination = true/false.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1212_For_Atezolizumab_trials_in_Phase_2_convert_Type_of_therapy_into_is_combination_true_false",
+  "predictions": [
+    {
+      "table_row_id": 5,
+      "answer": false
+    },
+    {
+      "table_row_id": 16,
+      "answer": false
+    },
+    {
+      "table_row_id": 23,
+      "answer": false
+    },
+    {
+      "table_row_id": 24,
+      "answer": false
+    },
+    {
+      "table_row_id": 25,
+      "answer": false
+    },
+    {
+      "table_row_id": 26,
+      "answer": false
+    },
+    {
+      "table_row_id": 31,
+      "answer": false
+    },
+    {
+      "table_row_id": 33,
+      "answer": false
+    },
+    {
+      "table_row_id": 37,
+      "answer": false
+    },
+    {
+      "table_row_id": 53,
+      "answer": false
+    },
+    {
+      "table_row_id": 73,
+      "answer": false
+    },
+    {
+      "table_row_id": 83,
+      "answer": false
+    },
+    {
+      "table_row_id": 97,
+      "answer": false
+    },
+    {
+      "table_row_id": 107,
+      "answer": false
+    },
+    {
+      "table_row_id": 113,
+      "answer": false
+    },
+    {
+      "table_row_id": 119,
+      "answer": false
+    },
+    {
+      "table_row_id": 123,
+      "answer": false
+    },
+    {
+      "table_row_id": 124,
+      "answer": false
+    },
+    {
+      "table_row_id": 127,
+      "answer": false
+    },
+    {
+      "table_row_id": 132,
+      "answer": false
+    },
+    {
+      "table_row_id": 133,
+      "answer": false
+    },
+    {
+      "table_row_id": 139,
+      "answer": false
+    },
+    {
+      "table_row_id": 140,
+      "answer": false
+    },
+    {
+      "table_row_id": 143,
+      "answer": false
+    },
+    {
+      "table_row_id": 144,
+      "answer": false
+    },
+    {
+      "table_row_id": 151,
+      "answer": false
+    },
+    {
+      "table_row_id": 154,
+      "answer": false
+    },
+    {
+      "table_row_id": 155,
+      "answer": false
+    },
+    {
+      "table_row_id": 156,
+      "answer": false
+    },
+    {
+      "table_row_id": 157,
+      "answer": false
+    },
+    {
+      "table_row_id": 159,
+      "answer": false
+    }
+  ]
+}

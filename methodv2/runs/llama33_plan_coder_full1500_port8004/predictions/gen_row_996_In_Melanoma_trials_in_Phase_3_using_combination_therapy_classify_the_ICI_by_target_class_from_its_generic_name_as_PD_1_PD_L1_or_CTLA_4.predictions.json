@@ -1,0 +1,28 @@
+{
+  "item_id": "gen_row_996",
+  "csv_row_number": 996,
+  "question": "In Melanoma trials in Phase 3 using combination therapy, classify the ICI by target class from its generic name as PD-1, PD-L1, or CTLA-4.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/llama33_plan_coder_full1500_port8004/questions/gen_row_996_In_Melanoma_trials_in_Phase_3_using_combination_therapy_classify_the_ICI_by_target_class_from_its_generic_name_as_PD_1_PD_L1_or_CTLA_4",
+  "predictions": [
+    {
+      "table_row_id": 58,
+      "answer": "CTLA-4"
+    },
+    {
+      "table_row_id": 67,
+      "answer": "CTLA-4"
+    },
+    {
+      "table_row_id": 70,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 71,
+      "answer": "PD-1"
+    },
+    {
+      "table_row_id": 72,
+      "answer": "PD-1"
+    }
+  ]
+}

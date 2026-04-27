@@ -1,0 +1,44 @@
+{
+  "item_id": "gen_row_1404",
+  "csv_row_number": 1404,
+  "question": "In Renal cell trials in Phase 3 for Pembrolizumab, bucket overall follow-up months into <12, 12–23, or ≥24.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_1404_In_Renal_cell_trials_in_Phase_3_for_Pembrolizumab_bucket_overall_follow_up_months_into_12_12_23_or_24",
+  "predictions": [
+    {
+      "table_row_id": 18,
+      "answer": ""
+    },
+    {
+      "table_row_id": 19,
+      "answer": ""
+    },
+    {
+      "table_row_id": 21,
+      "answer": "12–23"
+    },
+    {
+      "table_row_id": 22,
+      "answer": ""
+    },
+    {
+      "table_row_id": 101,
+      "answer": ""
+    },
+    {
+      "table_row_id": 115,
+      "answer": ""
+    },
+    {
+      "table_row_id": 131,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 145,
+      "answer": "≥24"
+    },
+    {
+      "table_row_id": 148,
+      "answer": ""
+    }
+  ]
+}

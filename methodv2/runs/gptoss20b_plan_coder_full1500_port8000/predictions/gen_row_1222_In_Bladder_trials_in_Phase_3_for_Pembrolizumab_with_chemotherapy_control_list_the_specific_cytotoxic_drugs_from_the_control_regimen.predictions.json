@@ -1,0 +1,1069 @@
+{
+  "item_id": "gen_row_1222",
+  "csv_row_number": 1222,
+  "question": "In Bladder trials in Phase 3 for Pembrolizumab with chemotherapy control, list the specific cytotoxic drugs from the control regimen.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/gptoss20b_plan_coder_full1500_port8000/questions/gen_row_1222_In_Bladder_trials_in_Phase_3_for_Pembrolizumab_with_chemotherapy_control_list_the_specific_cytotoxic_drugs_from_the_control_regimen",
+  "predictions": [
+    {
+      "table_row_id": 1,
+      "answer": [
+        "vinflunine",
+        "paclitaxel",
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 2,
+      "answer": [
+        "vinflunine",
+        "paclitaxel",
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 3,
+      "answer": [
+        "vinflunine",
+        "paclitaxel",
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 4,
+      "answer": [
+        "nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 5,
+      "answer": [
+        "placebo",
+        "nab-paclitaxel",
+        "epirubicin",
+        "cyclophosphamide"
+      ]
+    },
+    {
+      "table_row_id": 6,
+      "answer": [
+        "regorafenib"
+      ]
+    },
+    {
+      "table_row_id": 7,
+      "answer": [
+        "regorafenib"
+      ]
+    },
+    {
+      "table_row_id": 8,
+      "answer": [
+        "best supportive care (",
+        "/-fluoropyrimidine)"
+      ]
+    },
+    {
+      "table_row_id": 9,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 10,
+      "answer": [
+        "best supportive care (",
+        "/-paclitaxel",
+        "irinotecan)"
+      ]
+    },
+    {
+      "table_row_id": 11,
+      "answer": [
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 12,
+      "answer": [
+        "methotrexate/docetaxel/cetuximab"
+      ]
+    },
+    {
+      "table_row_id": 13,
+      "answer": [
+        "methotrexate/docetaxel/cetuximab"
+      ]
+    },
+    {
+      "table_row_id": 14,
+      "answer": [
+        "methotrexate/docetaxel/cetuximab"
+      ]
+    },
+    {
+      "table_row_id": 15,
+      "answer": [
+        "everolimus"
+      ]
+    },
+    {
+      "table_row_id": 16,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 17,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 18,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 19,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 20,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 21,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 22,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 23,
+      "answer": [
+        "placebo",
+        "paclitaxel",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 24,
+      "answer": [
+        "placebo",
+        "paclitaxel",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 25,
+      "answer": [
+        "placebo",
+        "paclitaxel",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 26,
+      "answer": [
+        "placebo",
+        "paclitaxel",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 27,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 28,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 29,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 30,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 31,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 32,
+      "answer": [
+        "placebo",
+        "etoposide",
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 33,
+      "answer": [
+        "platinum-based chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 34,
+      "answer": [
+        "placebo",
+        "paclitaxel",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 35,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 36,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 37,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 38,
+      "answer": [
+        "pemetrexed",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 39,
+      "answer": [
+        "pemetrexed",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 40,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 41,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 42,
+      "answer": [
+        "placebo",
+        "pemetrexed",
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 43,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 44,
+      "answer": [
+        "placebo",
+        "carboplatin",
+        "paclitaxel/nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 45,
+      "answer": [
+        "bevacizumab",
+        "carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 46,
+      "answer": [
+        "bevacizumab",
+        "carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 47,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 48,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 49,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 50,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 51,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 52,
+      "answer": [
+        "carboplatin",
+        "pemetrexed",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 53,
+      "answer": [
+        "etoposide",
+        "carboplatin/topotecan"
+      ]
+    },
+    {
+      "table_row_id": 54,
+      "answer": [
+        "platinum-based chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 55,
+      "answer": [
+        "carboplatin",
+        "nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 56,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 57,
+      "answer": [
+        "osimertinib"
+      ]
+    },
+    {
+      "table_row_id": 58,
+      "answer": [
+        "dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 59,
+      "answer": [
+        "gp100 vaccine"
+      ]
+    },
+    {
+      "table_row_id": 60,
+      "answer": [
+        "gp100 vaccine"
+      ]
+    },
+    {
+      "table_row_id": 61,
+      "answer": [
+        "temozolomide/dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 62,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 63,
+      "answer": [
+        "investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 64,
+      "answer": [
+        "investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 65,
+      "answer": [
+        "investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 66,
+      "answer": [
+        "investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 67,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 68,
+      "answer": [
+        "dacarbazine/carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 69,
+      "answer": [
+        "dacarbazine/carboplatin",
+        "paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 70,
+      "answer": [
+        "dabrafenib",
+        "trametinib",
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 71,
+      "answer": [
+        "dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 72,
+      "answer": [
+        "dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 73,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 74,
+      "answer": [
+        "pomalidomide",
+        "dexamethasone"
+      ]
+    },
+    {
+      "table_row_id": 75,
+      "answer": [
+        "lenalidomide",
+        "dexamethasone"
+      ]
+    },
+    {
+      "table_row_id": 76,
+      "answer": [
+        "placebo",
+        "radiotherapy"
+      ]
+    },
+    {
+      "table_row_id": 77,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 78,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 79,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 80,
+      "answer": [
+        "paclitaxel/docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 81,
+      "answer": [
+        "paclitaxel",
+        "doxorubicin",
+        "cyclophosphamide"
+      ]
+    },
+    {
+      "table_row_id": 82,
+      "answer": [
+        "platinum",
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 83,
+      "answer": [
+        "platinum",
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 84,
+      "answer": [
+        "nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 85,
+      "answer": [
+        "cetuximab",
+        "platinum agent",
+        "5-fluorouracil"
+      ]
+    },
+    {
+      "table_row_id": 86,
+      "answer": [
+        "cetuximab",
+        "platinum agent",
+        "5-fluorouracil"
+      ]
+    },
+    {
+      "table_row_id": 87,
+      "answer": [
+        "placebo",
+        "carboplatin",
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 88,
+      "answer": [
+        "acalabrutinib"
+      ]
+    },
+    {
+      "table_row_id": 89,
+      "answer": [
+        "erlotinib/gemcitabine/vinorelbine"
+      ]
+    },
+    {
+      "table_row_id": 90,
+      "answer": [
+        "erlotinib/gemcitabine/vinorelbine"
+      ]
+    },
+    {
+      "table_row_id": 91,
+      "answer": [
+        "erlotinib/gemcitabine/vinorelbine"
+      ]
+    },
+    {
+      "table_row_id": 92,
+      "answer": [
+        "placebo",
+        "paclitaxel",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 93,
+      "answer": [
+        "high-dose interferon alfa-2b"
+      ]
+    },
+    {
+      "table_row_id": 94,
+      "answer": [
+        "high-dose interferon alfa-2b"
+      ]
+    },
+    {
+      "table_row_id": 95,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 96,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 97,
+      "answer": [
+        "folfirinox"
+      ]
+    },
+    {
+      "table_row_id": 98,
+      "answer": [
+        "placebo",
+        "etoposide",
+        "platinum agent"
+      ]
+    },
+    {
+      "table_row_id": 99,
+      "answer": [
+        "investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 100,
+      "answer": [
+        "investigator's choice chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 101,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 102,
+      "answer": [
+        "carboplatin",
+        "nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 103,
+      "answer": [
+        "carboplatin",
+        "nab-paclitaxel"
+      ]
+    },
+    {
+      "table_row_id": 104,
+      "answer": [
+        "placebo",
+        "vemurafenib",
+        "cobimetinib"
+      ]
+    },
+    {
+      "table_row_id": 105,
+      "answer": [
+        "bevacizumab"
+      ]
+    },
+    {
+      "table_row_id": 106,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 107,
+      "answer": [
+        "placebo",
+        "gemcitabine",
+        "carboplatin or cisplatin"
+      ]
+    },
+    {
+      "table_row_id": 108,
+      "answer": [
+        "placebo",
+        "gemcitabine",
+        "carboplatin or cisplatin"
+      ]
+    },
+    {
+      "table_row_id": 109,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 110,
+      "answer": [
+        "cetuximab",
+        "taxane",
+        "methotrexate",
+        "fluoropyrimidine"
+      ]
+    },
+    {
+      "table_row_id": 111,
+      "answer": [
+        "cetuximab",
+        "taxane",
+        "methotrexate",
+        "fluoropyrimidine"
+      ]
+    },
+    {
+      "table_row_id": 112,
+      "answer": [
+        "best supportive care"
+      ]
+    },
+    {
+      "table_row_id": 113,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 114,
+      "answer": [
+        "everolimus"
+      ]
+    },
+    {
+      "table_row_id": 115,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 116,
+      "answer": [
+        "platinum-based chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 117,
+      "answer": [
+        "gp100 vaccine"
+      ]
+    },
+    {
+      "table_row_id": 118,
+      "answer": [
+        "gp100 vaccine"
+      ]
+    },
+    {
+      "table_row_id": 119,
+      "answer": [
+        "eribulin"
+      ]
+    },
+    {
+      "table_row_id": 120,
+      "answer": [
+        "placebo",
+        "cisplatin",
+        "5-fu",
+        "capecitabine"
+      ]
+    },
+    {
+      "table_row_id": 121,
+      "answer": [
+        "placebo",
+        "cisplatin",
+        "5-fu",
+        "capecitabine"
+      ]
+    },
+    {
+      "table_row_id": 122,
+      "answer": [
+        "placebo",
+        "nab-paclitaxel/gemcitabine",
+        "carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 123,
+      "answer": [
+        "gemcitabine",
+        "cisplatin/carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 124,
+      "answer": [
+        "gemcitabine",
+        "cisplatin/carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 125,
+      "answer": [
+        "placebo",
+        "nab-paclitaxel",
+        "doxorubicin",
+        "cyclophosphamide",
+        "filgrastim/pegfilgrastim"
+      ]
+    },
+    {
+      "table_row_id": 126,
+      "answer": [
+        "best supportive care"
+      ]
+    },
+    {
+      "table_row_id": 127,
+      "answer": [
+        "oxaliplstin",
+        "5-fu",
+        "leucovorin",
+        "capecitabine",
+        "best supportive care"
+      ]
+    },
+    {
+      "table_row_id": 128,
+      "answer": [
+        "pemetrexed",
+        "cisplatin/carboplatin"
+      ]
+    },
+    {
+      "table_row_id": 129,
+      "answer": [
+        "cisplatin/carboplatin",
+        "gemcitabine"
+      ]
+    },
+    {
+      "table_row_id": 130,
+      "answer": [
+        "trastuzumab emtansine",
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 131,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 132,
+      "answer": [
+        "carboplatin/cisplatin",
+        "pemetrexed"
+      ]
+    },
+    {
+      "table_row_id": 133,
+      "answer": [
+        "paclitaxel/docetaxel/irinotecan"
+      ]
+    },
+    {
+      "table_row_id": 134,
+      "answer": [
+        "placebo",
+        "radiotherapy"
+      ]
+    },
+    {
+      "table_row_id": 135,
+      "answer": [
+        "dacarbazine"
+      ]
+    },
+    {
+      "table_row_id": 136,
+      "answer": [
+        "dabrafenib",
+        "trametinib",
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 137,
+      "answer": [
+        "platinum",
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 138,
+      "answer": [
+        "platinum",
+        "etoposide"
+      ]
+    },
+    {
+      "table_row_id": 139,
+      "answer": [
+        "gemcitabine/vinorelbine"
+      ]
+    },
+    {
+      "table_row_id": 140,
+      "answer": [
+        "oxaliplatin",
+        "leucovorin",
+        "5-fluoropyrimidine/mfolfox6",
+        "bevacizumab/mfolfox6",
+        "cetuximab"
+      ]
+    },
+    {
+      "table_row_id": 141,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 142,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 143,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 144,
+      "answer": [
+        "docetaxel"
+      ]
+    },
+    {
+      "table_row_id": 145,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 146,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 147,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 148,
+      "answer": [
+        "sunitinib"
+      ]
+    },
+    {
+      "table_row_id": 149,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 150,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 151,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 152,
+      "answer": [
+        "brentuximab vedotin"
+      ]
+    },
+    {
+      "table_row_id": 153,
+      "answer": [
+        "observation"
+      ]
+    },
+    {
+      "table_row_id": 154,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 155,
+      "answer": [
+        "chemotherapy"
+      ]
+    },
+    {
+      "table_row_id": 156,
+      "answer": [
+        "treosulfan",
+        "pioglitazone",
+        "clarithromycin"
+      ]
+    },
+    {
+      "table_row_id": 157,
+      "answer": [
+        "chemoradiotherapy"
+      ]
+    },
+    {
+      "table_row_id": 158,
+      "answer": [
+        "placebo"
+      ]
+    },
+    {
+      "table_row_id": 159,
+      "answer": [
+        "cisplatin/cetuximab",
+        "radiotherapy"
+      ]
+    }
+  ]
+}

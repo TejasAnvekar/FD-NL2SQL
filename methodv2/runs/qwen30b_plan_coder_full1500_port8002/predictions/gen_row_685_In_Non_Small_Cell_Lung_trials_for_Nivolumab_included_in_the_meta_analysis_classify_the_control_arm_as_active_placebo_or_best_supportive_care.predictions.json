@@ -1,0 +1,60 @@
+{
+  "item_id": "gen_row_685",
+  "csv_row_number": 685,
+  "question": "In Non-Small Cell Lung trials for Nivolumab included in the meta-analysis, classify the control arm as active, placebo, or best supportive care.",
+  "question_dir": "/mnt/data1/srchowd3/FD-NL2SQL/methodv2/runs/qwen30b_plan_coder_full1500_port8002/questions/gen_row_685_In_Non_Small_Cell_Lung_trials_for_Nivolumab_included_in_the_meta_analysis_classify_the_control_arm_as_active_placebo_or_best_supportive_care",
+  "predictions": [
+    {
+      "table_row_id": 9,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 13,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 27,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 28,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 33,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 56,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 89,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 95,
+      "answer": "placebo"
+    },
+    {
+      "table_row_id": 105,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 113,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 146,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 147,
+      "answer": "unknown"
+    },
+    {
+      "table_row_id": 156,
+      "answer": "unknown"
+    }
+  ]
+}

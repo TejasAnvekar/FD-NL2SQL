@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FD-NL2SQL | ACL 2026 Demo</title>
-  <meta name="description" content="FD-NL2SQL: Feedback-Driven Clinical NL2SQL that improves with use.">
+  <meta name="description" content="FD-NL2SQL is a feedback-driven clinical NL2SQL system for oncology trial databases that improves with expert use.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,13 +13,44 @@
 <body>
   <header class="topbar" id="home">
     <div class="topbar-inner">
+      <p class="eyebrow">ACL 2026 Demo Paper</p>
+
       <div class="brand" aria-label="FD-NL2SQL">
-        <img class="brand-logo" src="assets/img/fdnl2sql.png" alt="Project shield logo" style="object-fit: contain;">
-        <h1 class="brand-title">FD-NL2SQL</h1>
+        <img class="brand-logo" src="assets/img/fdnl2sql.png" alt="FD-NL2SQL project logo">
+        <div class="title-stack">
+          <h1 class="brand-title">FD-NL2SQL</h1>
+          <p class="brand-subtitle">Feedback-Driven Clinical NL2SQL that Improves with Use</p>
+        </div>
+      </div>
+
+      <p class="hero-meta">Arizona State University and Mayo Clinic</p>
+      <p class="hero-authors">Suparno Roy Chowdhury, Tejas Anvekar, Manan Roy Choudhury, Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, Mohamad Bassam Sonbol, Irbaz Bin Riaz, and Vivek Gupta</p>
+      <p class="hero-summary">
+        A clinician-facing NL2SQL system for oncology trial databases that decomposes complex questions,
+        retrieves expert-approved exemplars, synthesizes executable SQL, and improves continuously through feedback.
+      </p>
+
+      <div class="stat-grid" aria-label="Project highlights">
+        <div class="stat-card">
+          <strong>500</strong>
+          <span>expert-authored seed questions</span>
+        </div>
+        <div class="stat-card">
+          <strong>1,500</strong>
+          <span>verified NL2SQL samples in the benchmark</span>
+        </div>
+        <div class="stat-card">
+          <strong>5 steps</strong>
+          <span>from schema grounding to exemplar growth</span>
+        </div>
+        <div class="stat-card">
+          <strong>Interactive</strong>
+          <span>decomposition, SQL, and result inspection</span>
+        </div>
       </div>
 
       <nav class="link-row" aria-label="Project links">
-        <a class="btn active" href="#home">Home</a>
+        <a class="btn active" href="assets/img/209_FD_NL2SQL_Feedback_Driven_.pdf" target="_blank" rel="noreferrer">Paper PDF</a>
         <a class="btn" href="https://youtu.be/VMfOc440JKM" target="_blank" rel="noreferrer">Video demo</a>
         <a class="btn btn-icon" href="https://github.com/TejasAnvekar/MAYO_AIM2" target="_blank" rel="noreferrer">
           <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18">
@@ -29,36 +60,266 @@
         </a>
         <a class="btn" href="try/">Try it</a>
       </nav>
+
+      <nav class="subnav" aria-label="Section navigation">
+        <a href="#overview">Overview</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#results">Results</a>
+        <a href="#reliability">Reliability</a>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero reveal">
-      <h2 class="hero-title">Feedback-Driven Clinical NL2SQL that Improves with Use</h2>
-      <p class="hero-subtitle">ACL 2026 Demo • Arizona State University &amp; Mayo Clinic</p>
+    <section class="section reveal" id="overview" aria-labelledby="overview-title">
+      <div class="section-head">
+        <p class="section-label">Overview</p>
+        <h2 id="overview-title">Helping clinicians query oncology trial databases without writing SQL</h2>
+        <p class="section-intro">
+          The paper frames FD-NL2SQL as a bridge between oncology expertise and structured data access.
+          Instead of forcing clinicians to learn database schemas, the system accepts natural-language questions
+          and returns executable SQL plus the exact rows that were retrieved.
+        </p>
+      </div>
+
+      <div class="grid-two">
+        <article class="card">
+          <h3>Why this problem matters</h3>
+          <p>
+            Clinical evidence review often depends on ad hoc, multi-constraint questions over cancer type,
+            checkpoint inhibitor class, biomarkers, follow-up windows, endpoints, treatment combinations,
+            and trial phase. Those are difficult to express reliably through keyword search and tedious to encode in SQL.
+          </p>
+          <p>
+            FD-NL2SQL targets this gap with a domain-aware pipeline built specifically for oncology trial data,
+            where brittle or clinically implausible queries are costly and transparency matters.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Main contributions</h3>
+          <ul class="feature-list">
+            <li>Schema-aware, predicate-level decomposition for complex clinical questions.</li>
+            <li>Retrieval-guided SQL synthesis grounded in expert-verified NL2SQL exemplars.</li>
+            <li>A feedback loop that grows the exemplar bank through expert approval and safe SQL augmentation.</li>
+          </ul>
+          <p class="inline-note">
+            The interface exposes the decomposition, retrieved exemplars, synthesized SQL, and execution results so users can inspect and refine the whole trace.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <section class="card reveal" aria-labelledby="about">
-      <h2 id="about">About</h2>
-      <hr>
-      <p>
-        Clinicians querying oncology trial repositories frequently need ad-hoc, multi-constraint questions over
-        biomarkers, endpoints, interventions, and time. Writing SQL directly requires schema expertise and slows analysis.
-      </p>
-      <p>
-        <strong>FD-NL2SQL</strong> is a feedback-driven clinical NL2SQL assistant. It decomposes a natural-language query
-        into predicate-level sub-questions, retrieves semantically similar expert-verified exemplars, and synthesizes
-        executable SQL grounded in schema context.
-      </p>
-      <p>
-        The system improves with use by learning from approved user edits and logic-based SQL augmentations,
-        automatically expanding its exemplar bank for better future generations.
-      </p>
+    <section class="section reveal" id="workflow" aria-labelledby="workflow-title">
+      <div class="section-head">
+        <p class="section-label">Workflow</p>
+        <h2 id="workflow-title">A five-step pipeline designed to improve with use</h2>
+        <p class="section-intro">
+          The system combines LLM reasoning, retrieval over an evolving exemplar bank, and lightweight execution guards.
+          Each stage is visible in the demo so experts can audit how the final SQL was formed.
+        </p>
+      </div>
+
+      <div class="workflow-grid">
+        <article class="card step-card">
+          <span class="step-index">01</span>
+          <h3>Schema grounding</h3>
+          <p>
+            FD-NL2SQL first inspects the SQLite schema to collect tables, columns, types, and join keys.
+            That schema context is injected into prompting and reused for post-generation validation.
+          </p>
+        </article>
+
+        <article class="card step-card">
+          <span class="step-index">02</span>
+          <h3>Predicate decomposition and retrieval</h3>
+          <p>
+            A first LLM breaks the user question into WHERE-oriented sub-questions, each representing one atomic predicate.
+            Sentence-BERT retrieval then finds semantically similar expert-approved exemplars for each predicate.
+          </p>
+        </article>
+
+        <article class="card step-card">
+          <span class="step-index">03</span>
+          <h3>Retrieval-guided SQL synthesis</h3>
+          <p>
+            A second LLM synthesizes the final SQL using the original question, the predicate decomposition,
+            the retrieved exemplar bundle, and the schema. The output is constrained to a single executable SELECT or WITH query.
+          </p>
+        </article>
+
+        <article class="card step-card">
+          <span class="step-index">04</span>
+          <h3>Expert approval in the loop</h3>
+          <p>
+            Users can accept, reject, or directly edit the generated SQL. Approved or corrected SQL is written back
+            to the exemplar bank so future retrieval neighborhoods become more clinically aligned.
+          </p>
+        </article>
+
+        <article class="card step-card">
+          <span class="step-index">05</span>
+          <h3>Safe exemplar bank expansion</h3>
+          <p>
+            The paper adds growth through single-step SQL mutations such as operator changes, value edits, or type-compatible column substitutions.
+            Mutations are kept only when they execute successfully and return non-empty results, then back-translated into new question-SQL pairs.
+          </p>
+        </article>
+      </div>
+
+      <div class="callout-card">
+        <h3>What the demo interface shows</h3>
+        <p>
+          The paper highlights a transparent clinician workflow: natural-language input, decomposition traces,
+          retrieved exemplar evidence, editable SQL, and executed table results in one interface.
+          That trace is a big part of the project&apos;s practical value because users can tighten, drop, or revise constraints without starting over.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="results" aria-labelledby="results-title">
+      <div class="section-head">
+        <p class="section-label">Results</p>
+        <h2 id="results-title">Benchmark setup and quantitative takeaways</h2>
+        <p class="section-intro">
+          The evaluation starts from 500 Mayo Clinic expert-authored seed questions and expands them with single atomic edits,
+          retaining only read-only SQL that executes successfully and returns non-empty results.
+          After validation and natural-language generation for augmented queries, the paper reports a 1,500-sample NL2SQL benchmark.
+        </p>
+      </div>
+
+      <div class="grid-two results-grid">
+        <article class="card">
+          <h3>Evaluation setup</h3>
+          <ul class="feature-list compact-list">
+            <li>Seed bank: 500 expert-authored oncology evidence-review questions paired with verified SQLite SQL.</li>
+            <li>Benchmark growth: projection edits, predicate dropping, and value edits filtered by successful execution.</li>
+            <li>Baselines: zero-shot, few-shot, chain-of-thought, and SQL-R1 across Qwen3, Gemma3, GPT-5 nano, and GPT-5 mini.</li>
+            <li>Metrics: exact execution match (eEM), execution F1 (eF1), CHRF, AST similarity, and confidence when available.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Key findings from Table 1</h3>
+          <p>
+            The paper reports that FD-NL2SQL consistently improves execution-based correctness over prompting-only baselines,
+            with the largest exact-execution gains on Qwen3 and GPT-5 nano.
+          </p>
+          <ul class="feature-list compact-list">
+            <li>Qwen3 eEM rises from 26.90 zero-shot and 25.60 few-shot to 40.93 with FD-NL2SQL.</li>
+            <li>GPT-5 nano eEM rises from 11.60 zero-shot and 15.80 few-shot to 32.53 with FD-NL2SQL.</li>
+            <li>Gemma3 reaches 92.62 CHRF and 86.21 AST under the proposed method.</li>
+            <li>The paper argues that decomposition plus exemplar retrieval narrows reliability gaps between backbones.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="card table-card">
+        <div class="table-head">
+          <h3>Exact execution match (eEM)</h3>
+          <p>Higher is better. Values below are reproduced from Table 1 in the paper.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Zero-shot</th>
+                <th>Few-shot</th>
+                <th>CoT</th>
+                <th>FD-NL2SQL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Qwen3</td>
+                <td>26.90</td>
+                <td>25.60</td>
+                <td>21.65</td>
+                <td><strong>40.93</strong></td>
+              </tr>
+              <tr>
+                <td>Gemma3</td>
+                <td>29.48</td>
+                <td>30.85</td>
+                <td>13.47</td>
+                <td><strong>32.60</strong></td>
+              </tr>
+              <tr>
+                <td>GPT-5 nano</td>
+                <td>11.60</td>
+                <td>15.80</td>
+                <td>13.67</td>
+                <td><strong>32.53</strong></td>
+              </tr>
+              <tr>
+                <td>GPT-5 mini</td>
+                <td>38.33</td>
+                <td>31.27</td>
+                <td>10.33</td>
+                <td><strong>39.20</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="reliability" aria-labelledby="reliability-title">
+      <div class="section-head">
+        <p class="section-label">Reliability</p>
+        <h2 id="reliability-title">Designed for auditability, safety, and human oversight</h2>
+        <p class="section-intro">
+          The paper emphasizes that reliability in medical-domain NL2SQL is not only about average accuracy.
+          It is also about avoiding silent failures, surfacing evidence, and keeping experts in control of execution.
+        </p>
+      </div>
+
+      <div class="grid-three">
+        <article class="card">
+          <h3>Execution safeguards</h3>
+          <ul class="feature-list compact-list">
+            <li>Read-only query policy restricted to executable SELECT or WITH statements.</li>
+            <li>Schema validation and post-generation checks before execution.</li>
+            <li>Timeout protection during database execution.</li>
+            <li>Diagnostic flags for non-read-only SQL, multiple statements, and LIMIT without ORDER BY.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Human approval loop</h3>
+          <ul class="feature-list compact-list">
+            <li>Experts can accept, edit, or reject generated SQL directly in the interface.</li>
+            <li>Approved edits are embedded back into the exemplar bank for future retrieval.</li>
+            <li>Low-confidence or borderline generations can be reviewed with the full decomposition trace.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Ethics and scope</h3>
+          <ul class="feature-list compact-list">
+            <li>Intended for oncology evidence review and research, not patient-specific diagnosis or treatment decisions.</li>
+            <li>Described as operating on public Mayo Clinic clinical trial data without patient-level PHI or PII.</li>
+            <li>Built to augment expert judgment rather than replace it.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="card limitations-card">
+        <h3>Limitations noted in the paper</h3>
+        <p>
+          The benchmark is derived from expert-authored seed questions plus controlled single-edit variants,
+          so it does not yet cover the full diversity of real clinician requests such as richer joins, nested SQL,
+          or broader language variation. The augmentation policy also favors executable, non-empty mutations,
+          which may over-represent common conditions and under-cover rarer edge cases.
+        </p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <small>Project page built for GitHub Pages deployment.</small>
+    <small>Project page updated from the ACL 2026 FD-NL2SQL demo paper and prepared for GitHub Pages deployment.</small>
   </footer>
 
   <script src="assets/js/main.js" defer></script>

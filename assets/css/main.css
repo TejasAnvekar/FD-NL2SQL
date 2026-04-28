@@ -101,24 +101,59 @@ img {
   color: rgba(255, 255, 255, 0.88);
 }
 
-.hero-meta,
-.hero-authors,
+.hero-authors-block,
 .hero-summary {
   max-width: 900px;
 }
 
-.hero-meta {
+.hero-authors-block {
   margin: 18px 0 0;
-  font-size: 1.02rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
 }
 
-.hero-authors {
-  margin: 10px 0 0;
-  font-size: 1rem;
-  line-height: 1.65;
-  color: rgba(255, 255, 255, 0.90);
+.hero-authors-line,
+.hero-institutions-line {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.hero-institutions-line {
+  margin-top: 10px;
+}
+
+.hero-author,
+.hero-institution {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: normal;
+}
+
+.hero-author-icon,
+.hero-institution-icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero-author-icon-asu,
+.hero-institution-icon-asu {
+  width: 19px;
+}
+
+.hero-author-icon-mayo,
+.hero-institution-icon-mayo {
+  width: 19px;
+}
+
+.hero-institution-icon-asu {
+  width: 24px;
+}
+
+.hero-institution-icon-mayo {
+  width: 24px;
 }
 
 .hero-summary {
@@ -428,6 +463,56 @@ main {
   background: rgba(255, 255, 255, 0.56);
 }
 
+.institution-section {
+  padding-top: 8px;
+}
+
+.institution-shell {
+  display: flex;
+  justify-content: center;
+}
+
+.institution-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.institution-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 126px;
+  padding: 18px 24px;
+  border-radius: 22px;
+  border: 1px solid rgba(14, 53, 112, 0.10);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 16px 38px rgba(13, 30, 56, 0.08);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.institution-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 44px rgba(13, 30, 56, 0.12);
+  border-color: rgba(14, 53, 112, 0.18);
+}
+
+.institution-logo {
+  display: block;
+  height: auto;
+  object-fit: contain;
+}
+
+.institution-logo-asu {
+  width: min(132px, 34vw);
+}
+
+.institution-logo-mayo {
+  width: min(132px, 34vw);
+}
+
 .limitations-card {
   margin-top: 18px;
   background: linear-gradient(180deg, rgba(255, 249, 238, 0.98) 0%, rgba(255, 244, 221, 0.92) 100%);
@@ -511,6 +596,20 @@ footer {
 
   .subnav {
     gap: 12px;
+  }
+
+  .institution-link {
+    width: 100%;
+    min-height: 110px;
+    padding: 16px 18px;
+  }
+
+  .institution-logo-asu {
+    width: min(112px, 34vw);
+  }
+
+  .institution-logo-mayo {
+    width: min(112px, 34vw);
   }
 
   main {

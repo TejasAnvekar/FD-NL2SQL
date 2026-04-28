@@ -70,13 +70,14 @@ img {
 }
 
 .brand-logo {
-  width: 92px;
-  height: 92px;
-  object-fit: contain;
-  border-radius: 18px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
   background: transparent;
   padding: 0;
-  box-shadow: 0 14px 30px rgba(5, 18, 43, 0.22);
+  box-shadow: none;
 }
 
 .title-stack {
@@ -495,8 +496,8 @@ footer {
   }
 
   .brand-logo {
-    width: 72px;
-    height: 72px;
+    width: 66px;
+    height: 66px;
   }
 
   .stat-grid {

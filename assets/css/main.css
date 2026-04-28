@@ -70,12 +70,13 @@ img {
 }
 
 .brand-logo {
-  width: 94px;
-  height: 56px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.08);
-  padding: 6px;
+  border-radius: 18px;
+  background: transparent;
+  padding: 0;
+  box-shadow: 0 14px 30px rgba(5, 18, 43, 0.22);
 }
 
 .title-stack {
@@ -334,6 +335,34 @@ main {
   min-height: 100%;
 }
 
+.figure-card {
+  margin-bottom: 18px;
+  padding: 20px;
+}
+
+.figure-frame {
+  padding: 12px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(245, 249, 255, 0.98) 0%, rgba(232, 240, 252, 0.92) 100%);
+  border: 1px solid rgba(14, 53, 112, 0.10);
+}
+
+.paper-figure {
+  display: block;
+  width: min(100%, 920px);
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 16px 36px rgba(13, 30, 56, 0.14);
+}
+
+.figure-caption {
+  margin-top: 14px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.64;
+}
+
 .step-index {
   display: inline-flex;
   align-items: center;
@@ -466,8 +495,8 @@ footer {
   }
 
   .brand-logo {
-    width: 82px;
-    height: 50px;
+    width: 72px;
+    height: 72px;
   }
 
   .stat-grid {

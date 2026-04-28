@@ -16,7 +16,7 @@
       <p class="eyebrow">ACL 2026 Demo Paper</p>
 
       <div class="brand" aria-label="FD-NL2SQL">
-        <img class="brand-logo" src="assets/img/fdnl2sql.png" alt="FD-NL2SQL project logo">
+        <img class="brand-logo" src="assets/img/finalicon.png" alt="FD-NL2SQL project logo">
         <div class="title-stack">
           <h1 class="brand-title">FD-NL2Sql</h1>
           <p class="brand-subtitle">Feedback-Driven Clinical NL2SQL that Improves with Use</p>
@@ -119,6 +119,20 @@
           Each stage is visible in the demo so experts can audit how the final SQL was formed.
         </p>
       </div>
+
+      <figure class="card figure-card">
+        <div class="figure-frame">
+          <img
+            class="paper-figure"
+            src="assets/img/fdpaper.jpg"
+            alt="Introductory FD-NL2SQL mechanism diagram showing query decomposition, exemplar retrieval, SQL synthesis, expert verification, and logic-based SQL augmentation."
+          >
+        </div>
+        <figcaption class="figure-caption">
+          Introductory mechanism diagram from the paper showing how FD-NL2SQL decomposes clinician questions,
+          retrieves expert-approved exemplars, synthesizes final SQL, and grows the exemplar bank through feedback.
+        </figcaption>
+      </figure>
 
       <div class="workflow-grid">
         <article class="card step-card">
@@ -306,15 +320,6 @@
         </article>
       </div>
 
-      <div class="card limitations-card">
-        <h3>Limitations noted in the paper</h3>
-        <p>
-          The benchmark is derived from expert-authored seed questions plus controlled single-edit variants,
-          so it does not yet cover the full diversity of real clinician requests such as richer joins, nested SQL,
-          or broader language variation. The augmentation policy also favors executable, non-empty mutations,
-          which may over-represent common conditions and under-cover rarer edge cases.
-        </p>
-      </div>
     </section>
   </main>
 

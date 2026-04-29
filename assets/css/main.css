@@ -122,12 +122,12 @@ img {
 }
 
 .hero-authors-line {
-  gap: 8px 0;
+  gap: 8px 18px;
 }
 
 .hero-institutions-line {
   margin-top: 10px;
-  gap: 10px 0;
+  gap: 10px 22px;
 }
 
 .hero-author,
@@ -136,17 +136,6 @@ img {
   align-items: center;
   gap: 7px;
   white-space: nowrap;
-}
-
-.hero-author:not(:last-child)::after,
-.hero-institution:not(:last-child)::after {
-  content: "";
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  margin-left: 12px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.42);
 }
 
 .hero-author-icon,

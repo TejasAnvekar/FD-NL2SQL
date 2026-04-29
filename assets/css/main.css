@@ -138,6 +138,16 @@ img {
   white-space: nowrap;
 }
 
+.hero-author-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-author-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
 .hero-author-icon,
 .hero-institution-icon {
   display: inline-block;
@@ -146,22 +156,21 @@ img {
   object-fit: contain;
 }
 
-.hero-author-icon-asu,
+.hero-author-icon-asu {
+  width: 22px;
+}
+
+.hero-author-icon-mayo {
+  width: 28px;
+  height: 20px;
+}
+
 .hero-institution-icon-asu {
-  width: 19px;
-}
-
-.hero-author-icon-mayo,
-.hero-institution-icon-mayo {
-  width: 19px;
-}
-
-.hero-institution-icon-asu {
-  width: 24px;
+  width: 26px;
 }
 
 .hero-institution-icon-mayo {
-  width: 24px;
+  width: 26px;
 }
 
 .hero-summary {

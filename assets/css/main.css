@@ -113,13 +113,21 @@ img {
 .hero-authors-line,
 .hero-institutions-line {
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   font-size: 0.98rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.92);
 }
 
+.hero-authors-line {
+  gap: 8px 0;
+}
+
 .hero-institutions-line {
   margin-top: 10px;
+  gap: 10px 0;
 }
 
 .hero-author,
@@ -127,7 +135,18 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  white-space: normal;
+  white-space: nowrap;
+}
+
+.hero-author:not(:last-child)::after,
+.hero-institution:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-left: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.42);
 }
 
 .hero-author-icon,
@@ -566,6 +585,11 @@ footer {
   .callout-card p,
   .feature-list {
     font-size: 0.98rem;
+  }
+
+  .hero-author,
+  .hero-institution {
+    white-space: normal;
   }
 }
 

@@ -65,7 +65,7 @@
 
       <nav class="link-row" aria-label="Project links">
         <a class="btn active" href="https://arxiv.org/abs/2604.15646" target="_blank" rel="noreferrer">ArXiv</a>
-        <a class="btn" href="https://youtu.be/VMfOc440JKM" target="_blank" rel="noreferrer">Video demo</a>
+        <a class="btn" href="video/">Video demo</a>
         <a class="btn btn-icon" href="https://github.com/TejasAnvekar/MAYO_AIM2" target="_blank" rel="noreferrer">
           <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18">
             <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 2.18 6.94 3.86L12 11.9 5.06 8.04 12 4.18Zm-7 5.56 6 3.34v6.48l-6-3.33V9.74Zm14 6.49-6 3.33v-6.48l6-3.34v6.49Z"></path>
@@ -76,6 +76,7 @@
       </nav>
 
       <nav class="subnav" aria-label="Section navigation">
+        <a href="#benchmark">Benchmark</a>
         <a href="#overview">Overview</a>
         <a href="#workflow">Workflow</a>
         <a href="#results">Results</a>
@@ -85,6 +86,228 @@
   </header>
 
   <main>
+    <section class="section reveal" id="benchmark" aria-labelledby="benchmark-title">
+      <div class="section-head">
+        <p class="section-label">Benchmark</p>
+        <h2 id="benchmark-title">Interactive metric view across strategies and models</h2>
+        <p class="section-intro">
+          Use the metric selector to focus on any reported benchmark metric. The table styling preserves the
+          paper&apos;s green, red, and underline emphasis so the strongest highlighted values remain easy to scan.
+        </p>
+      </div>
+
+      <div class="card metric-selector-card">
+        <div class="metric-selector-head">
+          <h3>Metric selector</h3>
+          <p>Switch between the reported metrics or view the full table at once.</p>
+        </div>
+        <div class="metric-chip-row" aria-label="Metric selector">
+          <button class="metric-chip is-active" type="button" data-metric-filter="all" aria-pressed="true">All metrics</button>
+          <button class="metric-chip" type="button" data-metric-filter="chrf" aria-pressed="false">chrF</button>
+          <button class="metric-chip" type="button" data-metric-filter="eem" aria-pressed="false">eEM</button>
+          <button class="metric-chip" type="button" data-metric-filter="ef1" aria-pressed="false">eF1</button>
+          <button class="metric-chip" type="button" data-metric-filter="ast" aria-pressed="false">AST</button>
+          <button class="metric-chip" type="button" data-metric-filter="conf" aria-pressed="false">Conf</button>
+          <button class="metric-chip" type="button" data-metric-filter="hm" aria-pressed="false"><em>HM</em></button>
+        </div>
+      </div>
+
+      <div class="card table-card benchmark-table-card">
+        <div class="table-head">
+          <h3>Full comparison table</h3>
+          <p>Values reproduced from the paper. Metric emphasis mirrors the original coloring and underline markup.</p>
+        </div>
+
+        <div class="table-wrap benchmark-table-wrap">
+          <table class="benchmark-table">
+            <thead>
+              <tr>
+                <th>Strategy</th>
+                <th>Models</th>
+                <th data-metric-col="chrf">chrF</th>
+                <th data-metric-col="eem">eEM</th>
+                <th data-metric-col="ef1">eF1</th>
+                <th data-metric-col="ast">AST</th>
+                <th data-metric-col="conf">Conf</th>
+                <th data-metric-col="hm"><em>HM</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th rowspan="5" scope="rowgroup">Zero-Shot</th>
+                <td><span class="model-token">Qwen3</span></td>
+                <td data-metric-col="chrf">81.82</td>
+                <td data-metric-col="eem">26.90</td>
+                <td data-metric-col="ef1">46.51</td>
+                <td data-metric-col="ast"><span class="score score-warn">72.54</span></td>
+                <td data-metric-col="conf">39.01</td>
+                <td data-metric-col="hm">35.58</td>
+              </tr>
+              <tr>
+                <td><span class="model-token">Gemma3</span></td>
+                <td data-metric-col="chrf">84.07</td>
+                <td data-metric-col="eem">29.48</td>
+                <td data-metric-col="ef1">39.95</td>
+                <td data-metric-col="ast">59.41</td>
+                <td data-metric-col="conf">65.69</td>
+                <td data-metric-col="hm">40.44</td>
+              </tr>
+              <tr>
+                <td><span class="model-token">SQL-R1</span></td>
+                <td data-metric-col="chrf">63.78</td>
+                <td data-metric-col="eem">03.32</td>
+                <td data-metric-col="ef1"><span class="score score-warn">01.75</span></td>
+                <td data-metric-col="ast"><span class="score score-warn">41.78</span></td>
+                <td data-metric-col="conf">10.39</td>
+                <td data-metric-col="hm">03.10</td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5n</span></td>
+                <td data-metric-col="chrf">89.13</td>
+                <td data-metric-col="eem"><span class="score score-warn">11.60</span></td>
+                <td data-metric-col="ef1">18.87</td>
+                <td data-metric-col="ast"><span class="score score-warn">52.58</span></td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5m</span></td>
+                <td data-metric-col="chrf"><span class="score score-good score-top">94.64</span></td>
+                <td data-metric-col="eem">38.33</td>
+                <td data-metric-col="ef1"><span class="score score-warn">47.36</span></td>
+                <td data-metric-col="ast"><span class="score score-warn">51.21</span></td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+
+              <tr class="strategy-divider">
+                <th rowspan="4" scope="rowgroup">Few-Shot</th>
+                <td><span class="model-token">Qwen3</span></td>
+                <td data-metric-col="chrf">83.02</td>
+                <td data-metric-col="eem">25.60</td>
+                <td data-metric-col="ef1">52.95</td>
+                <td data-metric-col="ast">80.43</td>
+                <td data-metric-col="conf">34.70</td>
+                <td data-metric-col="hm">34.58</td>
+              </tr>
+              <tr>
+                <td><span class="model-token">Gemma3</span></td>
+                <td data-metric-col="chrf">91.32</td>
+                <td data-metric-col="eem"><span class="score score-good">30.85</span></td>
+                <td data-metric-col="ef1"><span class="score score-good">45.72</span></td>
+                <td data-metric-col="ast">85.47</td>
+                <td data-metric-col="conf">53.16</td>
+                <td data-metric-col="hm">41.04</td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5n</span></td>
+                <td data-metric-col="chrf">89.58</td>
+                <td data-metric-col="eem">15.80</td>
+                <td data-metric-col="ef1">31.97</td>
+                <td data-metric-col="ast">75.53</td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5m</span></td>
+                <td data-metric-col="chrf">94.52</td>
+                <td data-metric-col="eem">31.27</td>
+                <td data-metric-col="ef1">46.85</td>
+                <td data-metric-col="ast">83.03</td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+
+              <tr class="strategy-divider">
+                <th rowspan="5" scope="rowgroup">CoT</th>
+                <td><span class="model-token">Qwen3</span></td>
+                <td data-metric-col="chrf"><span class="score score-warn">77.96</span></td>
+                <td data-metric-col="eem"><span class="score score-warn">21.65</span></td>
+                <td data-metric-col="ef1"><span class="score score-warn">29.73</span></td>
+                <td data-metric-col="ast">85.21</td>
+                <td data-metric-col="conf"><span class="score score-warn">00.00</span></td>
+                <td data-metric-col="hm"><span class="score score-warn">00.00</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">Gemma3</span></td>
+                <td data-metric-col="chrf"><span class="score score-warn">77.89</span></td>
+                <td data-metric-col="eem"><span class="score score-warn">13.47</span></td>
+                <td data-metric-col="ef1"><span class="score score-warn">34.88</span></td>
+                <td data-metric-col="ast"><span class="score score-warn">00.00</span></td>
+                <td data-metric-col="conf"><span class="score score-warn">00.25</span></td>
+                <td data-metric-col="hm"><span class="score score-warn">00.73</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">SQL-R1</span></td>
+                <td data-metric-col="chrf"><span class="score score-warn">50.24</span></td>
+                <td data-metric-col="eem"><span class="score score-warn">02.85</span></td>
+                <td data-metric-col="ef1">03.35</td>
+                <td data-metric-col="ast">49.15</td>
+                <td data-metric-col="conf"><span class="score score-warn">01.69</span></td>
+                <td data-metric-col="hm"><span class="score score-warn">02.42</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5n</span></td>
+                <td data-metric-col="chrf"><span class="score score-warn">86.93</span></td>
+                <td data-metric-col="eem">13.67</td>
+                <td data-metric-col="ef1"><span class="score score-warn">33.47</span></td>
+                <td data-metric-col="ast">77.56</td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5m</span></td>
+                <td data-metric-col="chrf"><span class="score score-warn">86.28</span></td>
+                <td data-metric-col="eem"><span class="score score-warn">10.33</span></td>
+                <td data-metric-col="ef1"><span class="score score-warn">19.87</span></td>
+                <td data-metric-col="ast">82.02</td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+
+              <tr class="strategy-divider strategy-ours">
+                <th rowspan="4" scope="rowgroup">Ours</th>
+                <td><span class="model-token">Qwen3</span></td>
+                <td data-metric-col="chrf"><span class="score score-good">92.02</span></td>
+                <td data-metric-col="eem"><span class="score score-good score-top">40.93</span></td>
+                <td data-metric-col="ef1"><span class="score score-good score-top">55.57</span></td>
+                <td data-metric-col="ast"><span class="score score-good">86.36</span></td>
+                <td data-metric-col="conf"><span class="score score-good">66.30</span></td>
+                <td data-metric-col="hm"><span class="score score-good score-top">52.16</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">Gemma3</span></td>
+                <td data-metric-col="chrf"><span class="score score-good">92.62</span></td>
+                <td data-metric-col="eem"><span class="score score-good">32.60</span></td>
+                <td data-metric-col="ef1">44.48</td>
+                <td data-metric-col="ast"><span class="score score-good">86.21</span></td>
+                <td data-metric-col="conf"><span class="score score-good score-top">70.48</span></td>
+                <td data-metric-col="hm"><span class="score score-good">44.55</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5n</span></td>
+                <td data-metric-col="chrf"><span class="score score-good">90.89</span></td>
+                <td data-metric-col="eem"><span class="score score-good">32.53</span></td>
+                <td data-metric-col="ef1"><span class="score score-good">50.25</span></td>
+                <td data-metric-col="ast"><span class="score score-good">86.32</span></td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+              <tr>
+                <td><span class="model-token">gpt-5m</span></td>
+                <td data-metric-col="chrf">92.68</td>
+                <td data-metric-col="eem"><span class="score score-good">39.20</span></td>
+                <td data-metric-col="ef1"><span class="score score-good">55.85</span></td>
+                <td data-metric-col="ast"><span class="score score-good score-top">87.14</span></td>
+                <td data-metric-col="conf"><span class="score score-na">--</span></td>
+                <td data-metric-col="hm"><span class="score score-na">--</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="section reveal" id="overview" aria-labelledby="overview-title">
       <div class="section-head">
         <p class="section-label">Overview</p>
@@ -242,56 +465,6 @@
         </article>
       </div>
 
-      <div class="card table-card">
-        <div class="table-head">
-          <h3>Exact execution match (eEM)</h3>
-          <p>Higher is better. Values below are reproduced from Table 1 in the paper.</p>
-        </div>
-
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Model</th>
-                <th>Zero-shot</th>
-                <th>Few-shot</th>
-                <th>CoT</th>
-                <th>FD-NL2SQL</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Qwen3</td>
-                <td>26.90</td>
-                <td>25.60</td>
-                <td>21.65</td>
-                <td><strong>40.93</strong></td>
-              </tr>
-              <tr>
-                <td>Gemma3</td>
-                <td>29.48</td>
-                <td>30.85</td>
-                <td>13.47</td>
-                <td><strong>32.60</strong></td>
-              </tr>
-              <tr>
-                <td>GPT-5 nano</td>
-                <td>11.60</td>
-                <td>15.80</td>
-                <td>13.67</td>
-                <td><strong>32.53</strong></td>
-              </tr>
-              <tr>
-                <td>GPT-5 mini</td>
-                <td>38.33</td>
-                <td>31.27</td>
-                <td>10.33</td>
-                <td><strong>39.20</strong></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
     </section>
 
     <section class="section reveal" id="reliability" aria-labelledby="reliability-title">
